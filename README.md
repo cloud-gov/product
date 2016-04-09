@@ -23,3 +23,7 @@ We are using [ZenHub](https://www.zenhub.io) to provide a top-level kanban board
 ## Non-Functional Requirements
 
 Standard practices that govern the quality of our work are captured in this explicit [Definition of Done](https://github.com/18F/cg-product/blob/master/DoD.md) (DoD), which is shared (and potentially embellished) by various teams/sub-projects. The contents of our program's DoD are revised periodically when we reflect on common patterns arising across retrospectives.
+
+## Including new repositories in this program
+
+To include artifacts from another repository in our program-level view, use ZenHub to set up a board that resembles [the program board](https://github.com/18F/cg-product#boards?repos=39210774,55727091). Then merge that board into the program board, mapping similar columns appropriately.
