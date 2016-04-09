@@ -6,7 +6,7 @@ Program-level artifacts, workflow and issues for cloud.gov
 We are using [ZenHub](https://www.zenhub.io) to provide a top-level kanban board and burndown charts showing the status of related work happening across many repositories in GitHub. Install it, then click "Boards" above to see it.
 
 ## Definition of Done
-Before advancing a card from one column to the next on the Trello board, it should meet the "exit criteria" for that column. They're listed below. These criteria are effectively non-functional requirements (NFRs) for our delivery, aka the agile "Definition of Done".
+Before advancing a card from one column to the next on the board, it should meet the "exit criteria" for that column. They're listed below. These criteria are effectively non-functional requirements (NFRs) for our delivery, aka the agile "Definition of Done".
 
 ### New Issues
 
