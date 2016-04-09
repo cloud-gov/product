@@ -20,9 +20,9 @@ For now, this is in [another tool](https://18f.aha.io/products/CGP/bookmarks/pro
 
 We are using [ZenHub](https://www.zenhub.io) to provide a top-level kanban board and burndown charts showing the status of related work happening across many repositories in GitHub. Install it, then click "Boards" above to see it.
 
-## Non-Functional Requirements
+## Delivery Process
 
-Standard practices that govern the quality of our work are captured in this explicit [Definition of Done](https://github.com/18F/cg-product/blob/master/DoD.md) (DoD), which is shared (and potentially embellished) by various teams/sub-projects. The contents of our program's DoD are revised periodically when we reflect on common patterns arising across retrospectives.
+We document [the processes that govern the delivery of our work](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md), which is shared (and potentially embellished) by various teams/sub-projects in other repositories. Our process is revised periodically when we reflect on common patterns observed across retrospectives.
 
 ## Including new repositories in this program
 
