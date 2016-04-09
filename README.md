@@ -1,5 +1,5 @@
-# cg-program
-Program-level artifacts, workflow and issues for cloud.gov
+# Cloud.gov Product Management
+Program-level artifacts, workflow and status for products within the cloud.gov umbrella
 
 ## Viewing our status
 
