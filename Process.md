@@ -1,5 +1,6 @@
 
-# Our process and the Definition of Done
+# Delivery process
+
 Here we document our process for advancing work across the kanban board, and the non-functional requirements (NFRs) for our delivery, aka the agile "Definition of Done" (DoD).
 
 ## Card types
