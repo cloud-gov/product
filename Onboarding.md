@@ -69,9 +69,9 @@ Watch [Handling FISMA Faster and Better](https://www.youtube.com/watch?v=T1S52B1
 - Noah Kunin – Director of Infrastructure at 18F
 - Ryan Thurlwell – visual designer
 
-cloud.gov is a big project, and there can be a lot of cross-talk due to the range of activity happening at any given time. As we grow we are finding the grain along which to split the team into smaller sub-teams to keep meetings, boards, repositories, Slack channels, etc. efficient and relevant.
-
 ### Sub-teams/streams of work
+
+cloud.gov is a big project, and there can be a lot of cross-talk due to the range of activity happening at any given time. As we grow we are finding the grain along which to split the team into smaller sub-teams to keep meetings, boards, repositories, Slack channels, etc. efficient and relevant.
 
 Here are the streams of work we've identified so far, and their corresponding Slack channel where appropriate.
 
