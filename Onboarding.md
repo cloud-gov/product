@@ -111,7 +111,7 @@ We err on the side of putting data where the public can see it whenever possible
 
 Several tools are used for project management, but the main one you will probably be using is GitHub, with the addition of the [ZenHub](https://zenhub.io) browser extension to add inline kanban boards, hierarchical issues, and burndown charts. 
 
-We also use [Aha!](https://18f.aha.io) for macro-level cadence and roadmapping. Aha! artifacts are linked to GitHub issues in many cases. Stories and features are tracked one per issue. Feature issues usually have the `epic` tag, marking them as parents for others. Please try to parent new/split tactical issues created in GitHub onto Feature issues whenever appropriate so that the relationship is clear, and the remaining work involved in higher-level milestones can be recognized properly upstream.
+We also use [Aha!](https://18f.aha.io) for macro-level cadence and roadmapping. Aha! artifacts are linked to GitHub issues in many cases. Stories and features are tracked one per issue. Feature issues act as parents for others, tracking the macro-status of a related body of work. Please try to parent new/split tactical issues created in GitHub onto Feature issues whenever appropriate so that the relationship is clear, and the remaining work involved in higher-level milestones can be recognized properly upstream.
 
 We also have some boards still in [Trello](https://trello.com/), although many of these are migrating to GitHub/ZenHub. In general, the structure of Trello boards and ZenHub boards is very similar.
 
