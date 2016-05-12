@@ -77,7 +77,7 @@ Here are the streams of work we've identified so far, and their corresponding Sl
 
 - Business (#cloud-gov-business)
   - The business stream is concerned with account management and business operations for tenants of cloud.gov.
-- Compliance (#compliance-toolkit)
+- Compliance (#cloud-gov-highbar)
   - The compliance stream works to improve the speed and quality of security and compliance efforts around the applications 18F builds, and is packaging that process into a product usable for people both inside and outside of 18F to reduce their effort to gain ATO.
   - See the [Compliance Toolkit repository](https://github.com/18F/compliance-toolkit/) for more information.
     - [Compliance Masonry](https://github.com/opencontrol/compliance-masonry) is the sub-portion of the Compliance Toolkit concerned with compliance documentation.
