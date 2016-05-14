@@ -69,36 +69,6 @@ Watch [Handling FISMA Faster and Better](https://www.youtube.com/watch?v=T1S52B1
 - Noah Kunin – Director of Infrastructure at 18F
 - Ryan Thurlwell – visual designer
 
-### Sub-teams/streams of work
-
-cloud.gov is a big project, and there can be a lot of cross-talk due to the range of activity happening at any given time. As we grow we are finding the grain along which to split the team into smaller sub-teams to keep meetings, boards, repositories, Slack channels, etc. efficient and relevant.
-
-Here are the streams of work we've identified so far, and their corresponding Slack channel where appropriate.
-
-- Business (#cloud-gov-business)
-  - The business stream is concerned with account management and business operations for tenants of cloud.gov.
-- Compliance (#compliance-toolkit)
-  - The compliance stream works to improve the speed and quality of security and compliance efforts around the applications 18F builds, and is packaging that process into a product usable for people both inside and outside of 18F to reduce their effort to gain ATO.
-  - See the [Compliance Toolkit repository](https://github.com/18F/compliance-toolkit/) for more information.
-    - [Compliance Masonry](https://github.com/opencontrol/compliance-masonry) is the sub-portion of the Compliance Toolkit concerned with compliance documentation.
-- Frontend (#cloud-gov-frontend)
-  - This is the stream focused on all the user/tenant-facing features of cloud.gov. That includes documentation, web UI, onboarding and billing workflow, as well as overall design and branding.
-  - User research on cloud.gov as a whole is led from this team.
-  - Note that this is not limited to "front-end development" in the HTML/CSS/JS sense! It includes all the tenant-facing pieces.
-- Operations (#cloud-gov-ops)
-  - This is the stream of activity around running the actual platform and all of the managed services available through it. Far from pure operations, this includes development of tools and automation; infrastructure-as-code is our main focus.
-- Security Operations or SecOps (no channel yet)
-  - This is the stream of activity around establishing FEDRAMP recognition of cloud.gov and reducing the effort needed to gain ATO. This includes [machine-friendly descriptions of cloud.gov security controls](https://github.com/18F/cg-compliance) and tools that can read and manipulate them (eg [Compliance Masonry](https://github.com/opencontrol/compliance-masonry)). Compliance auditing and pen-testing activities are coordinated here, as well as remediation that results from scans.
-
-We have separate backlogs, kanban boards, etc. reflecting each of these streams of work. The [`cg-product` kanban board](https://github.com/18F/cg-product#boards) will consolidate the activity of all of these substreams into one view as they steadily move into GitHub. When we're well-staffed, we break into sub-teams around the different streams, but when we're short-staffed, we consolidate the team into one and prioritize across all of the streams. 
-
-Other Slack channels
-
-- #cloud-gov-support
-  - This is where we direct and handle support from 18F-internal sources
-- #devops-public
-  - This is where we invite the public to discuss DevOps topics with us, which sometimes includes PaaS in general or cloud.gov specifically, Docker, etc. Folks external to 18F get access via https://chat.18f.gov.
-
 ## Agile processes
 
 The cloud.gov team practices Scrumban, which means we practice [Kanban](http://blog.crisp.se/2009/06/26/henrikkniberg/1246053060000) around cardwall-style boards, with an additional subset of Scrum activities: a daily standup, as well as bi-weekly sprint demos for stakeholders/colleagues, retrospectives for the team, and occasional higher-level planning. In general we use WIP limits on columns to gate how much time and effort we put into grooming stories.
