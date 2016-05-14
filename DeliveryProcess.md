@@ -8,47 +8,53 @@ The cloud.gov team practices Scrumban, which means we practice [Kanban](http://b
 - bi-weekly retrospectives for each stream
 - occasional higher-level planning and grooming sessions
  
-In general we use work-in-progress limits (WIP limits) on columns to gate how much time and effort we put into grooming stories, and how many things we're trying to do at once. Individuals shouldn't be responsible for more than one or two cards in progress at a time.
-
-## Definition of "Done"
-
-An agile "Definition of Done" (DoD) captures the team's agreed-upon standards for how we get work done at a consistent level of quality. Having a DoD ensures that non-functional requirements (NFRs) don't have to be re-litigated for every piece of work taken on, cards can be focused on just the relevant details, and new team members aren't surprised by undocumented expectations.
-
 ## Kanban process
 
-### Card types
+Kanban basically says cards go through a set of states, but it doesn't say much about what the cards represent or how the states are defined. Here's what they mean to us.
 
-Cards on our boards capture a Feature or Story, eg work to be done (definitions below).
+### Cards
 
-- **Features** are user-notable, program-sequenced, roadmap-worthy changes in product capabilities tracked against cadence-driven periodic milestones... big stuff that's worth planning and announcing. Feature issues refer to specific stories in other issues.
-- **Stories** represent tactical increments of individually-valuable work deliverable by a team within a single iteration. Stories often encapsulate a single change in functionality aimed at achieving a single goal for a particular kind of stakeholder, whether customer, user, or operator of the platform.
+Cards on our boards capture either a Feature or Story. Each type represents work to be done at a particular level of detail.
 
-We track both higher-level features and their constituent stories on the same board. 
+- **Features** are user-notable, program-sequenced, roadmap-worthy changes in product capabilities tracked against cadence-driven periodic milestones... big stuff that's worth planning and announcing on a regular basis. Features are fairly general, referring to stories which break down the actual changes in product behavior that we're after to get the intended benefits of the feature. Generally we do coarse analysis and UX work at the Feature level.
+- **Stories** represent tactical increments of individually-valuable work deliverable by a team within a single iteration... often a single change in functionality aimed at achieving a goal for a particular kind of stakeholder, whether customer, user, or operator/admin.
+
+We track both higher-level features and their constituent stories on the same boards. 
 
 ### Column sequence
-The sequence of columns generally goes left-to-right, but varies a bit depending on the card type.
+The sequence of columns goes left-to-right, but a different subset is used depending on the card type.
 
-The column-sequence for **features** is:
+**Features** progress through these columns:
 
 - Features (while implementation is in progress)
 - Awaiting Acceptance (when they are ready for widespread demonstration/release)
 - Closed (when they are released and announced)
 
-The column-sequence for **stories** is:
+**Stories** progress through these columns:
 
-- New (where ungroomed issues, PRs, and stories appear)
+- New (where reported issues, PRs, and newly-identified stories appear)
  - Icebox (when under consideration but not immediately scheduled)
-- Backlog (when are sequenced against features in progress)
-- Grooming (when they're being prepared for team attention)
+- Backlog (when they are sequenced against stories prioritized for attention)
+- Grooming (when they're being refined for implementation)
 - Ready (when they're in a shovel-worthy state, just waiting for team capacity to do the work)
 - In Progress (when someone is actively working on the issue)
 - Awaiting Acceptance (when work is considered complete and awaiting review)
 - Closed (when work is released)
 
-### Column exit criteria
-Our DoD is broken up into [a set of statements that should be true for each card](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) before it moves to the next column on the board. 
+### WIP Limits
 
-Before advancing a card from one column to the next on the board, it should meet the "exit criteria" for the current column, which are listed below.  The exit criteria for a column varies between Features and Stories.
+If you see a number in brackets after a column name, that's a work-in-progress (WIP) limit. That means we expect to see no more than that number of cards in the column at a time. If you want to move a card right into a column that's already at its WIP limit, first figure out how to help move one of the existing cards out to the right! If the next column is also at its WIP limit, that's your cue to keep working your way over to the right, asking "how can I help?" when you encounter something being worked on for which there's space to move.
+
+In general we use WIP limits to gate how much time and effort we put into grooming stories when we haven't got capacity to do them yet, and to gate how many things we're trying to do at once so that we focus on finishing existing work rather than starting new work. We don't want individuals to be responsible for more than one or two cards in progress at a time, and we like people to collaborate and pair up to get work done, so our WIP limit for cards actually getting development attention is set intentionally low to encourage this!
+
+## Definition of "Done"
+
+An agile "Definition of Done" (DoD) captures the team's agreed-upon standards for how we get work done at a consistent level of quality. Having a DoD ensures that non-functional requirements (NFRs) don't have to be re-litigated for every piece of work taken on, cards can be focused on just the relevant details, and new team members aren't surprised by assumed expectations of their colleagues.
+
+### Column exit criteria
+For cloud.gov, our DoD is broken up into [a set of statements that should be true for each card](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) before it moves to the next column on the board. 
+
+Before advancing a card from one column to the next on the board, it should meet the "exit criteria" for the current column, which are listed below.  The exit criteria for a column varies a bit when the column is used for both Features and Stories.
 
 #### New
 
@@ -59,7 +65,7 @@ Before advancing a card from one column to the next on the board, it should meet
 
 ##### Features
 
-- Describe what we're after, and what benefits it's expected to deliver
+- Describe what we're after, what benefits it's expected to deliver, and any relevant design/research artifacts. That's it! Any more detail than that should appear in stories.
 
 ##### Stories
 
@@ -69,9 +75,9 @@ Before advancing a card from one column to the next on the board, it should meet
 
 #### Grooming
 
-- Has testable/demoable Acceptance Criteria (try wording them as [Gherkin](https://en.wikipedia.org/wiki/Behavior-driven_development#Behavioural_specifications), and use [GFM checklists](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments) for them)
+- Has testable/demoable Acceptance Criteria that we expect to be able to check off to help us understand when the work is done. (Try wording them as [Gherkin](https://en.wikipedia.org/wiki/Behavior-driven_development#Behavioural_specifications), and use [GFM checklists](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments) for them)
 - Discussed by the team and implementation sketched (use more checklists here)
-- The scope is easily doable in a few days (else split it!)
+- The scope of the work is easily doable in a few days (else split it!)
 - Any authn/authz and data persistence points are discussed and requirements are addressed via Acceptance Criteria (eg "Authenticate using [18F GitHub org|login.cloud.gov]" or "Any ephemeral data resulting from usage is backed up/recoverable")
 - There's a communication plan for any user-visible changes which require their attention/action
 
