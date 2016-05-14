@@ -69,11 +69,9 @@ Watch [Handling FISMA Faster and Better](https://www.youtube.com/watch?v=T1S52B1
 - Noah Kunin – Director of Infrastructure at 18F
 - Ryan Thurlwell – visual designer
 
-## Agile processes
+## Agile process
 
-The cloud.gov team practices Scrumban, which means we practice [Kanban](http://blog.crisp.se/2009/06/26/henrikkniberg/1246053060000) around cardwall-style boards, with an additional subset of Scrum activities: a daily standup, as well as bi-weekly sprint demos for stakeholders/colleagues, retrospectives for the team, and occasional higher-level planning. In general we use WIP limits on columns to gate how much time and effort we put into grooming stories.
-
-The team's Definition of Done captures the team's agreed-upon practices which bring consistency how we get work done. It is broken up into [a set of statements that should be true for each story](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) before it can be moved to the next column on the board.
+Our [delivery process](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) is detailed enough that we describe it in a dedicated page.
 
 ## Tools and project artifacts
 
