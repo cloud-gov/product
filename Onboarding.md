@@ -4,11 +4,11 @@ cloud.gov is the platform that hosts the applications 18F builds with and for ot
 
 ## Onboarding
 
-Work in cloud.gov will differ a lot from person to person, so we recommend newcomers go through [the 18F onboarding guide for your discipline](https://handbook.18f.gov/#teams) first. (Contractors, we are presuming you have an equivalent process you've gone through for onboarding with your employer.)
+We recommend newcomers get through [the 18F onboarding guide for your discipline](https://handbook.18f.gov/#teams) first. (Contractors, we are presuming you have an equivalent process you've gone through for onboarding with your employer.)
 
 Everyone joining the cloud.gov team will get assigned a team onboarding buddy. This person should be working on similar things to what you will be working on, so that they can answer questions in your domain.
 
-If it's not been done already, you or your team onboarding buddy should follow the instructions on [the NewPerson on-boarding card in Trello](https://trello.com/c/0AJyOrxG/649-template-x-onboard-to-team#) to kick off a bunch of tasks that will get you up to speed and contributing in no time.
+If it's not been done already, you and your team onboarding buddy should follow the instructions in [the Onboarding Checklist](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md) to get an issue started which will guide you through a bunch of tasks that will get you up to speed and contributing in no time.
 
 ## Important terminology and context
 
@@ -37,37 +37,13 @@ If it's not been done already, you or your team onboarding buddy should follow t
 - Pivotal Web Services – Pivotal's hosted commercial version of Cloud Foundry
 - UAA - UAA is the authentication and authorization hub for Cloud Foundry. It can  delegate identity management via LDAP/AD, SAML, OAuth/OpenID Connect and so forth. UAA is deployed as part of cloud.gov. We use the out of the box install, with some stuff specific to [our own release](https://github.com/18F/cg-cf-release/tree/master/src).
 
-Watch [Handling FISMA Faster and Better](https://www.youtube.com/watch?v=T1S52B1-NT4) for important context and background on the federal regulatory context in which cloud.gov operates. Also see [the Cloud Foundry glossary](http://docs.cloudfoundry.org/concepts/glossary.html) for  terms that are specific to the platform. 
+Also see [the Cloud Foundry glossary](http://docs.cloudfoundry.org/concepts/glossary.html) for  terms that are specific to the technology powering our platform. 
 
-## Team structure
+## People
 
-(Note that the [18F Infrastructure/DevOps](https://github.com/18F/infrastructure) team is closely related, but not the same as the cloud.gov team.)
+Check out the [cloud.gov team roster sheet](https://docs.google.com/spreadsheets/d/1mW3tphZ98ExmMxLHPogSpTq8DzYr5Oh8_SHnOTvjRWM/edit#gid=0) to get a sense of who's working on cloud.gov and in what capacity.
 
-### People
-
-- Adam (Michael) Kendall – developer
-- Aidan Feldman – developer (and often documentation)
-- Bret Mogilefsky – product lead, acting product owner/process cop
-- Chris Nelson - devops contractor
-- Clint Troxel - developer
-- Diego Lapiduz – business owner
-- James Scott – developer
-- Jeremia Kimelman - developer
-- Marco Segreto – developer
-- Roger Ruiz - developer
-- Steve Harms – developer/operations
-
-#### Past contributors, fondly remembered
-
-- Adrian Webb – devops
-- Dan Parsons – developer
-- Gabe (Gabriel) Ramirez – developer
-- James Hupp – content designer
-- Jez Humble - assorted ops and process
-- JJ Moy - UX designer
-- Nick Brethauer – UX researcher
-- Noah Kunin – Director of Infrastructure at 18F
-- Ryan Thurlwell – visual designer
+(Note that the [18F Infrastructure](https://github.com/18F/infrastructure) team is closely related and often wrangles raw materials that we incorporate into cloud.gov, but not considered part of the cloud.gov team.)
 
 ## Agile process
 
@@ -75,7 +51,7 @@ Our [delivery process](https://github.com/18F/cg-product/blob/master/DeliveryPro
 
 ## Tools and project artifacts
 
-We err on the side of putting data where the public can see it whenever possible. Some data might be kept in Google Drive for convenience of commenting, etc. but we consider public GitHub repositories the intended destination whenever possible.
+We err on the side of putting data where the public can see it whenever possible. Some data might be kept in Google Drive for convenience of presentation, commenting, etc. but we consider public GitHub repositories the intended destination whenever possible.
 
 Several tools are used for project management, but the main one you will probably be using is GitHub, with the addition of the [ZenHub](https://zenhub.io) browser extension to add inline kanban boards, hierarchical issues, and burndown charts. 
 
