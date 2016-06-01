@@ -27,7 +27,7 @@ The sequence of columns goes left-to-right, but a different subset is used depen
 **Features** progress through these columns:
 
 - Features (while implementation is in progress)
-- Awaiting Acceptance (when they are ready for widespread demonstration/release)
+- Demo (when they are ready for widespread demonstration/release/announcement)
 - Closed (when they are released and announced)
 
 **Stories** progress through these columns:
@@ -38,8 +38,9 @@ The sequence of columns goes left-to-right, but a different subset is used depen
 - Grooming (when they're being refined for implementation)
 - Ready (when they're in a shovel-worthy state, just waiting for team capacity to do the work)
 - In Progress (when someone is actively working on the issue)
-- Awaiting Acceptance (when work is considered complete and awaiting review)
-- Closed (when work is released)
+- Awaiting Acceptance (when work is considered complete and awaiting review/merging)
+- Demo (when work warrants demonstration to stakeholders and is awaiting the next sprint review)
+- Closed (when work is demoed and released, and is no longer worth looking at)
 
 ### WIP Limits
 
@@ -100,9 +101,13 @@ Before advancing a card from one column to the next on the board, it should meet
 
 #### Awaiting Acceptance
 
-- Stakeholders (or a team-local proxy) see and approve the work as meeting acceptance criteria
+- A team-local proxy for the people the story affects reviews and approves the work as meeting acceptance criteria
 - If the work has a visual aspect, post a screenshot attached for later documentation/announcement/demo purposes
 - If the work as completed is obviously unscalable and will cause problems if we try, then a story for making it scalable is created at the top of `New Issues`.
+
+#### Demo
+
+- The card is [announced and demonstrated|not worth the collected attention of] colleagues and stakeholders.
 
 #### Closed
 
