@@ -27,7 +27,7 @@ Here are the streams of work we've identified so far and the products for which 
   - The Liberator stream aims to make infrastructure and deployment self-service and easy to use, and ensure people can find answers when they need them.
   - Liberator encompasses all the user- and tenant-facing features of cloud.gov. That includes documentation, web UI, onboarding and billing workflow, as well as overall design and branding.
 
-We keep separate backlogs, kanban boards, etc. reflecting each of these streams of work. The [`cg-product` kanban board](https://github.com/18F/cg-product#boards) consolidates the activity of all of these sub-streams into a single view as they fan out into assorted GitHub repositories. 
+We keep separate backlogs, kanban boards, etc. reflecting each of these streams of work. The [`cg-product` kanban board](https://github.com/18F/cg-product#boards) consolidates the activity of all of these sub-streams into a single view as they fan out into assorted GitHub repositories. To get a view reflecting only one of the streams, use the label filter above the board.
 
 Other notable Slack channels for 18F folk
 
