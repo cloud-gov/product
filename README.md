@@ -14,7 +14,7 @@ When we're well-staffed, we break into sub-teams around the different streams, b
 
 Here are the streams of work we've identified so far and the products for which they're responsible.
 
-- [Atlas](https://github.com/18F/cg-atlas) (#cloud-gov-atlas)
+- [Atlas](https://github.com/18F/cg-product#boards?labels=Atlas&showPRs=false) (#cloud-gov-atlas)
   - The Atlas stream aims to keep a solid, dependable, tested, and proven platform up and running strong for everyone in government to use. This includes a lot of automation; infrastructure-as-code is the key theme.
   - "cloud.gov" commonly refers to the [cloud.gov](https://cloud.gov) Platform-as-a-Service (PaaS), which was cloud.gov's first product. The PaaS provides a comfortable abstraction which handles cloud-based operations and greatly reduces the complications of infrastructure management for delivery teams. Our PaaS builds on the widely-used and open source [Cloud Foundry](https://www.cloudfoundry.org/), deployed with practices geared toward meeting [strict government compliance requirements](https://en.wikipedia.org/wiki/Federal_Information_Security_Management_Act_of_2002).
   - This stream includes activity to establish FEDRAMP recognition of cloud.gov, and publishes [machine-friendly descriptions of cloud.gov security controls](https://github.com/18F/cg-compliance). Compliance auditing and pen-testing activities are coordinated here, as well as necessary remediation that results.
