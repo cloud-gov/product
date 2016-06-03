@@ -14,7 +14,6 @@ If it's not been done already, you and your team onboarding buddy should follow 
 
 - Amazon Web Services (AWS) – the infrastructure (IaaS) provider we use
 - Authority to Operate (ATO) - approval from an agency's Authorizing Official to run a digital service under FISMA
-- AWS – Amazon Web Services
 - Azure – Microsoft's PaaS. They are regular contributors to various cloud.gov components.
 - BOSH (rhymes with "squash") – the configuration/server management tool we use to run Cloud Foundry. Basically, it's what keeps the platform running.
 - BOSH Lite – [https://github.com/cloudfoundry/bosh-lite](https://github.com/cloudfoundry/bosh-lite)
