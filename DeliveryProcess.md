@@ -107,11 +107,11 @@ Before advancing a card from one column to the next on the board, it should meet
 
 #### Demo
 
-- The card is [announced and demonstrated|not worth the collected attention of] colleagues and stakeholders.
+- The card is [demonstrated to|not worth the collected attention of] colleagues and stakeholders.
 
 #### Closed
 
-- The work is user-visible and announceable.
+- The work is user-visible and announceable at any time.
 
 ## Parking Lot (potential future additions)
 
