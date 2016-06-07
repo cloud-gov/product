@@ -97,6 +97,8 @@ Before advancing a card from one column to the next on the board, it should meet
 - Demoable to other people in their own time (eg staging environment, published branch)
 - Any deployment is repeatable (eg at least documented to increase bus-factor beyond one) and if possible automated via CI/CD.
  - If the deployment is difficult to automate, then a story for making it automated is created at the top of `New Issues`.
+- Deployment happens in the AWS GovCloud deployment (not just AWS East/West)
+- [Proposed] Appropriate alerting for new stuff is set up and reporting to Riemann
 
 #### Awaiting Acceptance
 
