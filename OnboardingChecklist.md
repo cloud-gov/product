@@ -4,7 +4,7 @@
 
 When someone new joins the cloud.gov team
 
-1. Create a new isue called "Ramp up [person's name] on cloud.gov team". 
+1. Create a new issue in `cg-product` called "Ramp up [person's name] on cloud.gov team". 
 2. View the raw source of this file
 3. Copy everything below the line into the new issue's body
 4. Replace "NewPerson" with the new person's name
