@@ -16,7 +16,7 @@ When someone new joins the cloud.gov team
 
 ---
 
-In order to get NewPerson productively contributing to the cloud.gov team, Buddy should help NewPerson complete a proscribed set of tasks that will bring them up to speed.
+In order to get NewPerson productively contributing to the cloud.gov team, Buddy should help NewPerson complete a prescribed set of tasks that will bring them up to speed.
 
 # Directions:
 **NewPerson and Buddy:** Try to go through your checklists in order.
