@@ -75,6 +75,6 @@ We also have some boards still in [Trello](https://trello.com/), although many o
 - A very broad story map capturing how we conceptualize the user experience on [Stories on Board](https://18f.storiesonboard.com/m/gov-dev)
 - [The cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-support), where we currently wrangle inquiries from various agencies, and some support.
 
-We liberally make upsream pull-requests for stuff we use. We try to transfer broadly-useful Cloud Foundry-related projects to [the Cloud Foundry community GitHub organization](https://github.com/cloudfoundry-community/). We also try to move others to the [opencontrol](https://github.com/opencontrol) or [fisma-ready](https://github.com/fisma-ready) GitHub organizations whenever appropriate. 
+We liberally make upstream pull-requests for stuff we use. We try to transfer broadly-useful Cloud Foundry-related projects to [the Cloud Foundry community GitHub organization](https://github.com/cloudfoundry-community/). We also try to move others to the [opencontrol](https://github.com/opencontrol) or [fisma-ready](https://github.com/fisma-ready) GitHub organizations whenever appropriate. 
 
 To release: ci.cloud.gov -> deploy-cf project
