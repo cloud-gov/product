@@ -63,6 +63,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] See the [Liberator Onboarding Checklist](https://github.com/18F/cg-deck/blob/3f03d785bcbf77b32495c8562f201a49bd6656f8/CONTRIBUTING.md#onboarding-checklist) _(Does that belong here?)_
 
 ### HighBar-specific items
+- [ ] Bookmark [the HighBar kanban board view](https://github.com/18F/cg-product#boards?labels=HighBar&showPRs=false)
 - [ ] Make sure you join the #cloud-gov-highbar channel on Slack
 - [ ] Watch [Handling FISMA Faster and Better](https://www.youtube.com/watch?v=T1S52B1-NT4) for important context and background on the federal regulatory context in which cloud.gov operates. 
 
