@@ -23,8 +23,8 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 **Buddy:** If you can’t complete any of the items on your checklist personally, _you are responsible for ensuring that an appropriate person does it_.
 
 ## New Person checklist
-- [ ] Take judicious notes on what about this onboarding process or cloud.gov is confusing or frustrating. If you notice a problem (especially with things like documentation), you are more than welcome to fix it! At the very least, please share this information with your buddy (or someone) at some point so we can make the team/platform better.
-- [ ] Figure out who your onboarding buddy is (they should reach out to you) and make sure this issue should be assigned to them)
+- [ ] Take judicious notes on what about this onboarding process or cloud.gov is confusing or frustrating. If you notice a problem (especially with things like documentation), you are more than welcome to fix it! At the very least, please share this information with your buddy (or someone) at some point so we can make the team/platform better. (You can also file issues and pull-requests on [the template for Onboarding issues](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md).)
+- [ ] Figure out who your onboarding buddy is (they should reach out to you) and make sure this issue is assigned to them)
 - [ ] Read [the team onboarding document](https://github.com/18F/cg-product/blob/master/Onboarding.md) for more context about cloud.gov
 - [ ] Read the ["What is it?"](https://docs.google.com/presentation/d/1nCcti3dXG9TVGW3OqaWtnf96oXX8U8SBTM_WePFO_dg/edit#slide=id.p) presentation for a rundown of what cloud.gov is and does
 - [ ] Read through [the Introduction section of docs.cloud.gov](https://docs.cloud.gov/) for a broader understanding of cloud.gov, especially as we present it to potential customers/users
@@ -39,7 +39,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Once you've finished the remaining checklists below, make suggestions for steps that would have improved your onboarding experience as pull-requests on [the onboarding checklist template](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md) used to make this issue
 
 ### Atlas-specific items
-- [ ] Bookmark [the Atlas kanban board view](https://github.com/18F/cg-product#boards?repos=55727091,56184868&showPRs=false)
+- [ ] Bookmark [the Atlas kanban board view](https://github.com/18F/cg-product#boards?labels=Atlas&showPRs=false)
 - [ ] Make sure you join the #cloud-gov-atlas channel on Slack
 - [ ] Watch [Build Your Own Private Cloud Foundry](https://www.youtube.com/watch?v=v85r4Hy3jbs) to learn about running Cloud Foundry
 - [ ] [Set up Cloud Foundry locally](https://docs.cloud.gov/ops/creating-a-local-dev-environment-in-Virtual-Box/) and push an app to it
@@ -51,7 +51,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Get familiar with AWS in general if you're not already _(TODO: We need some pointers here)_
 
 ### Agent Q-specific items
-- [ ] Bookmark [the Agent Q kanban board view](https://github.com/18F/cg-product#boards?repos=55727091,56184868&showPRs=false)
+- [ ] Bookmark [the Agent Q kanban board view](https://github.com/18F/cg-product#boards?labels=AgentQ&showPRs=false)
 - [ ] Make sure you join the #cloud-gov-agent-q channel on Slack
 - [ ] Read about Cloud Foundry [services from a user perspective](http://docs.cloudfoundry.org/devguide/services/)
 - [ ] Read about [implementing services](http://docs.cloudfoundry.org/services/)
@@ -75,13 +75,12 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Setup a cloud.gov user account for them via [the “send an invite” page](https://invite.cloud.gov)
 - [ ] Identify a straightforward, well-groomed story in progress that involves their skills domain, schedule a meeting with the owner for an introduction (if it's not you), and setup pairing sessions several times in the first week on the project.
 - [ ] Identify a straightforward, well-groomed first story, ideally something they could conceivably complete in their first two/three weeks using their existing skills. Discuss the context with them, then make them the assignee for the card.
-- [ ] Make suggestions for how your onboarding experience could have been improved as comments on [the onboarding template card](https://trello.com/c/0AJyOrxG/649-template-ramp-up-newperson-on-cloud-gov-team).
-- [ ] Ask `#admins-github` to have them added to the [@18F/cloud.gov team](https://github.com/orgs/18F/teams/cloud-gov) on GitHub
+- [ ] Make suggestions for how your onboarding experience could have been improved as PRs on [the onboarding template](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md).
+- [ ] Confirm they have 2FA enabled for GitHub, and ask `#admins-github` to have them added to the [@18F/cloud.gov team](https://github.com/orgs/18F/teams/cloud-gov) on GitHub
 
 ### Atlas-specific items
-- [ ] Ask `#admins-github` to have them added to the [@18F/devops-staff](https://github.com/orgs/18F/teams/cloud-gov-ops) team on GitHub
-- [ ] If the new person is a contractor, ask `#admins-github` to have them added to the [@18F/devops-staff](https://github.com/orgs/18F/teams/cloud-gov-contractors) team on GitHub
+- [ ] Ask `#admins-github` to have them added to the [@18F/cloud-gov-team](https://github.com/orgs/18F/teams/cloud-gov-ops) team on GitHub **(For contractors: Confirm they have cleared GSA security review before doing this one!)**
+- [ ] If the new person is a contractor, ask `#admins-github` to have them added to the [@18F/cloud-gov-contractors](https://github.com/orgs/18F/teams/cloud-gov-contractors) team on GitHub
 - [ ] Grant them access to the following (where applicable): AWS, New Relic, PagerDuty, StatusPage
 - [ ] Take them through [AWS onboarding](https://docs.cloud.gov/ops/aws-onboarding/) (if applicable)
-- [ ] Give them a walkthrough of cloud.gov from an architecture perspective
-  
+- [ ] Give them a walkthrough of cloud.gov from an architecture and repository perspective
