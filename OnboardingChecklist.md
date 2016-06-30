@@ -4,7 +4,7 @@
 
 When someone new joins the cloud.gov team
 
-1. Create a new issue in `cg-product` called "Ramp up [person's name] on cloud.gov team". 
+1. Create a new issue in `cg-product` called "Ramp up [person's name] on cloud.gov team".
 2. View the raw source of this file
 3. Copy everything below the line into the new issue's body
 4. Replace "NewPerson" with the new person's name
@@ -33,6 +33,9 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Check out the [roadmap](https://18f.aha.io/published/068c364a0302b89521045f9fbd258374) to get a high-level view of recently-completed, in-progress, and upcoming features
 - [ ] Install the [ZenHub](https://zenhub.io) browser extension to enable you to see kanban boards, hierarchical issues, and burndown charts in GitHub
 - [ ] Read the [Delivery Process document](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) to learn about how we work
+- [ ] Read the [Incident Response Policy](https://github.com/18F/compliance-docs/blob/master/IR-Policy.md) to learn about our Incident Response Policy. Coordinate with your onboarding buddy to go thru Incident Response Training within 60 days of joining the team
+- [ ] Read the [Contingency Planning Policy](https://github.com/18F/compliance-docs/blob/master/CP-Policy.md) to learn about contingency planning. Coordinate with your onboarding buddy to go thru Contingency Planning training annually
+- [ ] Read the [Configuration Management Policy](https://github.com/18F/compliance-docs/blob/master/CM-Policy.md) to learn about configuration management. Coordinate with your onboarding buddy to go thru Configuration Management training
 - [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various streams
 - [ ] Join [the cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-support), so you can see how we handle non-18F support and get visibility of technical discussions happening with outside groups
 - [ ] Figure out what streams you're likely to work in, and complete the checklist below that relates to it
@@ -65,7 +68,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 ### HighBar-specific items
 - [ ] Bookmark [the HighBar kanban board view](https://github.com/18F/cg-product#boards?labels=HighBar&showPRs=false)
 - [ ] Make sure you join the #cloud-gov-highbar channel on Slack
-- [ ] Watch [Handling FISMA Faster and Better](https://www.youtube.com/watch?v=T1S52B1-NT4) for important context and background on the federal regulatory context in which cloud.gov operates. 
+- [ ] Watch [Handling FISMA Faster and Better](https://www.youtube.com/watch?v=T1S52B1-NT4) for important context and background on the federal regulatory context in which cloud.gov operates.
 
 ---
 ## Buddy checklist
