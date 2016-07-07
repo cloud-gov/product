@@ -38,7 +38,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Read the [Configuration Management Policy](https://github.com/18F/compliance-docs/blob/master/CM-Policy.md) to learn about configuration management. Coordinate with your onboarding buddy to go thru Configuration Management training
 - [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various streams
 - [ ] Join [the cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-support), so you can see how we handle non-18F support and get visibility of technical discussions happening with outside groups
-- [ ] Figure out what streams you're likely to work in, and complete the checklist below that relates to it
+- [ ] Figure out what themes you're likely to work in, and complete the checklist below that relates to it
 - [ ] Once you've finished the remaining checklists below, make suggestions for steps that would have improved your onboarding experience as pull-requests on [the onboarding checklist template](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md) used to make this issue
 
 ### Atlas-specific items

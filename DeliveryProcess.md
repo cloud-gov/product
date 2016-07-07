@@ -3,9 +3,9 @@
 
 The cloud.gov team practices Scrumban, which means we practice [Kanban](http://blog.crisp.se/2009/06/26/henrikkniberg/1246053060000) around cardwall-style boards that track work from left-to-right as it is identified, prioritized, explored, delivered, and demonstrated. We augment Kanban with a subset of Scrum activities: 
 
-- a rapid (15 minutes vidconf) or asynchronous (in Slack) daily standup per stream to communicate about the status of work on the board
-- bi-weekly sprint demos for stakeholders and colleagues of each stream's recent work
-- bi-weekly retrospectives for each stream
+- a rapid (15 minutes vidconf) or asynchronous (in Slack) daily standup per theme to communicate about the status of work on the board
+- bi-weekly sprint demos for stakeholders and colleagues of each theme's recent work
+- bi-weekly retrospectives for each theme
 - occasional higher-level planning and grooming sessions
  
 ## Kanban process
