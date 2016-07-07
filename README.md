@@ -18,12 +18,12 @@ Here are the themes of work we've identified so far and the products for which t
   - The Atlas theme aims to keep a solid, dependable, tested, and proven platform up and running strong for everyone in government to use. This includes a lot of automation; infrastructure-as-code is the key theme.
   - "cloud.gov" commonly refers to the [cloud.gov](https://cloud.gov) Platform-as-a-Service (PaaS), which was cloud.gov's first product. The PaaS provides a comfortable abstraction which handles cloud-based operations and greatly reduces the complications of infrastructure management for delivery teams. Our PaaS builds on the widely-used and open source [Cloud Foundry](https://www.cloudfoundry.org/), deployed with practices geared toward meeting [strict government compliance requirements](https://en.wikipedia.org/wiki/Federal_Information_Security_Management_Act_of_2002).
   - This theme includes activity to establish FEDRAMP recognition of cloud.gov, and publishes [machine-friendly descriptions of cloud.gov security controls](https://github.com/18F/cg-compliance). Compliance auditing and pen-testing activities are coordinated here, as well as necessary remediation that results.
-- [Agent Q](https://github.com/18F/cg-agent-q) (#cloud-gov-agent-q)
+- [Agent Q](https://github.com/18F/cg-product#boards?labels=AgentQ&showPRs=false) (#cloud-gov-agent-q)
   - The Agent Q theme aims to instantly outfit teams with the key services and capabilities they need to achieve their mission. This includes managed services, route services, and other configurable enhancements that teams can take advantage of to build their apps.
-- HighBar (#cloud-gov-highbar)
+- [HighBar](https://github.com/18F/cg-product#boards?labels=HighBar&showPRs=false) (#cloud-gov-highbar)
   - The HighBar theme works on tools and processes that help teams confidently and routinely exceed high government standard for compliance, security, and accessibility. HighBar is packaging those tools and processes into a product usable for people both inside and outside of 18F to reduce their effort to gain ATO.
   - HighBar focuses a great deal on the [Compliance Toolkit](https://github.com/18F/compliance-toolkit) continuous assurance service. Compliance Toolkit provides a heads-up view of code compliance, security, and quality suitable for integration into a delivery team's CI/CD process. Compliance Toolkit helps teams develop to a high standard, enter the compliance process with confidence, and demonstrate continued high quality/compliance long after they have [Authority to Operate](https://www.fedramp.gov/resources/faqs/what-is-an-authority-to-operate-ato/), as new requirements and vulnerabilities emerge. Compliance Toolkit includes [Compliance Masonry](https://github.com/opencontrol/compliance-masonry), which publishes static compliance documentation generated from composable, testable code. Compliance Toolkit can be used with or without the cloud.gov PaaS, but will be easier to take advantage of for apps being deployed there.
-- Liberator (#cloud-gov-liberator)
+- [Liberator](https://github.com/18F/cg-product#boards?labels=Liberator&showPRs=false) (#cloud-gov-liberator)
   - The Liberator theme aims to make infrastructure and deployment self-service and easy to use, and ensure people can find answers when they need them.
   - Liberator encompasses all the user- and tenant-facing features of cloud.gov. That includes documentation, web UI, onboarding and billing workflow, as well as overall design and branding.
 
@@ -56,5 +56,5 @@ We document [the processes that govern the delivery of our work](https://github.
 
 ## Including new repositories in this program
 
-To include artifacts from another repository in our program-level view, use ZenHub to set up a board that resembles [the program board](https://github.com/18F/cg-product#boards?repos=39210774,55727091). Then merge that board into the program board, mapping similar columns appropriately.
+To include artifacts from another repository in our program-level view, use ZenHub to set up a board that resembles [the program board](https://github.com/18F/cg-product#boards). Then merge that board into the program board, mapping similar columns appropriately.
 
