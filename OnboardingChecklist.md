@@ -68,7 +68,10 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 ### HighBar-specific items
 - [ ] Bookmark [the HighBar kanban board view](https://github.com/18F/cg-product#boards?labels=HighBar&showPRs=false)
 - [ ] Make sure you join the #cloud-gov-highbar channel on Slack
+- [ ] Read through the description of [Compliance Toolkit](https://github.com/18F/compliance-toolkit/#readme)
 - [ ] Watch [Handling FISMA Faster and Better](https://www.youtube.com/watch?v=T1S52B1-NT4) for important context and background on the federal regulatory context in which cloud.gov operates.
+- [ ] Do a cursory read of [Before You Ship](https://pages.18f.gov/before-you-ship/)
+- [ ] Read [the intro to Compliance Masonry](https://github.com/opencontrol/compliance-masonry#readme)
 
 ---
 ## Buddy checklist
