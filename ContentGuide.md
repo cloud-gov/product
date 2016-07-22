@@ -9,6 +9,8 @@ OK, follow this guide!
 
 Consistency helps cloud.gov look trustworthy and reliable, and it reduces potential reader confusion.
 
+**You should add things too:** Just make a pull request and assign it to @brittag.
+
 ## Use these exact strings for tricky product names, abbreviations, and team names
 
 Use these exact strings (keeping this spelling, capitalization, punctuation, and spacing):
@@ -16,6 +18,7 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **18F**
 * **Amazon Web Services**
 * **BOSH**
+* **CircleCI**
 * **Cloud Foundry**
 * **cloud.gov** (always lowercase, even at the beginning of a sentence)
 * **Concourse**
@@ -53,15 +56,25 @@ These words should be lowercased in the middle of a sentence and capitalized at 
 
 Use active voice, especially when you're writing technical explanations. For example: *"the subject did something"*, such as *"the cluster recorded the data"*.
 
-If you write sentences in passive voice (*"something was done"*), such as *"the data was recorded"*, your sentence is hiding important technical information: what did the action? What recorded the data?
+If you write sentences in passive voice (*"something was done"*), such as *"the data was recorded"*, your sentence is hiding important technical information: what did the action? What recorded the data? If you write *something was done by the thing*, revise it to say *the thing did something*.
 
-Using active voice is especially important for incident reports (such as outage descriptions). If we write with passive voice, the result can sound like we're not taking full responsibility for our actions and mistakes.
+Using active voice is important for outage reports and postmortems. If we write with passive voice, this can sound like we're not taking full responsibility for our actions and mistakes.
 
-Active voice is also important for technical documentation (including compliance documentation). When you clearly state which part of the system is doing which action, this helps readers understand how the system works.
+Active voice is also important for documentation (including compliance documentation). When you state which part of the system is doing which action, this helps readers understand how the system works.
+
+## Use contractions and friendly language
+
+Use contractions. Write ordinary straightforward explanations; rewrite stiff or formal phrasing.
+
+## Spell out abbreviations and acronyms early and often
+
+Spell out abbreviations and acronyms the first time you use a term on a page or in a section of a long document.
+
+If you're not sure whether an acronym or abbreviation is a first use (such as if you're writing a section in YAML to use with Compliance Masonry), spell it out. There's no harm in writing out abbreviations an extra time; it'll make up for all the government documents everywhere that have too many unexplained abbreviations.
 
 ## Working on our compliance documentation?
 
-This section is a work in progress.
+*This section is a work in progress.*
 
 ### How to capitalize roles
 
