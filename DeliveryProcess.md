@@ -106,6 +106,7 @@ Before advancing a card from one column to the next on the board, it should meet
 - A team-local proxy for the people the story affects reviews and approves the work as meeting acceptance criteria
 - If the work has a visual aspect, post a screenshot attached for later documentation/announcement/demo purposes
 - If the work as completed is obviously unscalable and will cause problems if we try, then a story for making it scalable is created at the top of `New Issues`.
+- The work completed adheres to all our policies (for [18f](https://github.com/18F/compliance-docs/) and [cloud.gov](https://github.com/18f/cg-compliance)) and the team has reviewed the security impact of the changes.
 
 #### Demo
 
