@@ -32,11 +32,13 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **GitHub**
 * **GovCloud**
 * **Infrastructure as a Service** (or **IaaS**)
-* **New Relic** 
+* **New Relic**
+* **OAuth**
 * **Platform as a Service** (or **PaaS**)
 * **StatusPage**
 * **Virtual Private Cloud**
 * **YAML**
+* **Zendesk**
 
 ## Use these non-case-sensitive strings for words with tricky spacing and punctuation
 
