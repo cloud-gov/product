@@ -61,6 +61,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Take a look at some of [our existing brokers](https://github.com/18F?utf8=%E2%9C%93&query=broker)
 - [ ] Learn about [Concourse](https://concourse.ci/): Check out our [staging](https://ci-stage.cloud.gov/) and [production](https://ci.cloud.gov) instances, and take a look at some of [our pipelines](https://github.com/18F?utf8=%E2%9C%93&query=cg-deploy)
 - [ ] Join [the Cloud Foundry Slack](http://slack.cloudfoundry.org/)
+- [ ] Subscribe to the [cg-docs](https://github.com/18F/cg-docs) GitHub repository notifications
 
 ### Liberator-specific items
 - [ ] See the [Liberator Onboarding Checklist](https://github.com/18F/cg-deck/blob/3f03d785bcbf77b32495c8562f201a49bd6656f8/CONTRIBUTING.md#onboarding-checklist) _(Does that belong here?)_
