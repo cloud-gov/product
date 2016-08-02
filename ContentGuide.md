@@ -21,6 +21,7 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **CircleCI**
 * **Cloud Foundry**
 * **cloud.gov** (always lowercase, even at the beginning of a sentence)
+* **CloudWatch**
 * **Concourse**
 * **Dashboard** (formerly *Deck* or *Console*)
 * **EC2**
@@ -28,6 +29,7 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **Elasticsearch**
 * **ELK**
 * **FedRAMP**
+* FISMA levels are **Low**, **Moderate** (not *Medium*), and **High**.
 * **Git**
 * **GitHub**
 * **GovCloud**
