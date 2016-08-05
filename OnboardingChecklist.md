@@ -48,7 +48,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] [Set up Cloud Foundry locally](https://docs.cloud.gov/ops/creating-a-local-dev-environment-in-Virtual-Box/) and push an app to it
 - [ ] Learn about [BOSH](http://bosh.io/): Watch [this video](https://www.youtube.com/watch?v=2jpN1mSPZ4Q) and see [our manifests](https://github.com/18F/cg-manifests) (and read [this](http://events.linuxfoundation.org/sites/events/files/slides/seven-stages-of-bosh.pdf) for levity)
 - [ ] Get to know how UAA is deployed/integrated _(TODO: We need a link here)_
-- [ ] Get familiar with [Terraform](https://www.terraform.io/) Go thru the the [getting started guide](https://www.terraform.io/intro/)
+- - [ ] Get familiar with [Terraform](https://www.terraform.io/) by going thru the [getting started guide](https://www.terraform.io/intro/getting-started/install.html)
 - [ ] Learn about [Concourse](https://concourse.ci/) and try a [tutorial](https://github.com/starkandwayne/concourse-tutorial)
 - [ ] Check out our [staging](https://ci-stage.cloud.gov/) and [production](https://ci.cloud.gov) Concourse instances, and take a look at some of [our pipelines](https://github.com/18F?utf8=%E2%9C%93&query=cg-deploy)
 - [ ] Join [the Cloud Foundry Slack](http://slack.cloudfoundry.org/)
