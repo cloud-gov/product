@@ -23,6 +23,8 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 **Buddy:** If you can’t complete any of the items on your checklist personally, _you are responsible for ensuring that an appropriate person does it_.
 
 ## New Person checklist
+
+### Getting to know cloud.gov
 - [ ] Take judicious notes on what about this onboarding process or cloud.gov is confusing or frustrating. If you notice a problem (especially with things like documentation), you are more than welcome to fix it! At the very least, please share this information with your buddy (or someone) at some point so we can make the team/platform better. (You can also file issues and pull-requests on [the template for Onboarding issues](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md).)
 - [ ] Figure out who your onboarding buddy is (they should reach out to you) and make sure this issue is assigned to them)
 - [ ] Read [the team onboarding document](https://github.com/18F/cg-product/blob/master/Onboarding.md) for more context about cloud.gov
@@ -33,13 +35,16 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Check out the [roadmap](https://18f.aha.io/published/068c364a0302b89521045f9fbd258374) to get a high-level view of recently-completed, in-progress, and upcoming features
 - [ ] Install the [ZenHub](https://zenhub.io) browser extension to enable you to see kanban boards, hierarchical issues, and burndown charts in GitHub
 - [ ] Read the [Delivery Process document](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) to learn about how we work
-- [ ] Read the [Incident Response Policy](https://github.com/18F/compliance-docs/blob/master/IR-Policy.md) and [Incident Response Guide](https://docs.cloud.gov/ops/security-ir/). Coordinate with your onboarding buddy to go through Incident Response Training within 60 days of joining the team
-- [ ] Read the [Contingency Planning Policy](https://github.com/18F/compliance-docs/blob/master/CP-Policy.md) and [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/). Coordinate with your onboarding buddy to go through Contingency Planning training annually
-- [ ] Read the [Configuration Management Policy](https://github.com/18F/compliance-docs/blob/master/CM-Policy.md) and [Configuration Management Plan](https://docs.cloud.gov/ops/configuration-management/). Coordinate with your onboarding buddy to go through Configuration Management training
-- [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various streams
 - [ ] Join [the cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-support), so you can see how we handle non-18F support and get visibility of technical discussions happening with outside groups
 - [ ] Figure out what themes you're likely to work in, and complete the checklist below that relates to it
 - [ ] Once you've finished the remaining checklists below, make suggestions for steps that would have improved your onboarding experience as pull-requests on [the onboarding checklist template](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md) used to make this issue
+
+### Required items for all team members
+- [ ] Read the [Incident Response Policy](https://github.com/18F/compliance-docs/blob/master/IR-Policy.md) and [Incident Response Guide](https://docs.cloud.gov/ops/security-ir/). Coordinate with your onboarding buddy to go through Incident Response Training within 60 days of joining the team (and annually after that).
+- [ ] Read the [Contingency Planning Policy](https://github.com/18F/compliance-docs/blob/master/CP-Policy.md) and [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/). Coordinate with your onboarding buddy to go through Contingency Planning training within 10 days if you'll be taking on a significant role in our Contingency Planning processes (or annually if not).
+- [ ] Read the [Configuration Management Policy](https://github.com/18F/compliance-docs/blob/master/CM-Policy.md) and [Configuration Management Plan](https://docs.cloud.gov/ops/configuration-management/).
+- [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various streams
+- [ ] Subscribe to the [cg-docs](https://github.com/18F/cg-docs) GitHub repository notifications
 
 ### Atlas-specific items
 - [ ] Bookmark [the Atlas kanban board view](https://github.com/18F/cg-product#boards?labels=Atlas&showPRs=false)
@@ -62,7 +67,6 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Take a look at some of [our existing brokers](https://github.com/18F?utf8=%E2%9C%93&query=broker)
 - [ ] Learn about [Concourse](https://concourse.ci/): Check out our [staging](https://ci-stage.cloud.gov/) and [production](https://ci.cloud.gov) instances, and take a look at some of [our pipelines](https://github.com/18F?utf8=%E2%9C%93&query=cg-deploy)
 - [ ] Join [the Cloud Foundry Slack](http://slack.cloudfoundry.org/)
-- [ ] Subscribe to the [cg-docs](https://github.com/18F/cg-docs) GitHub repository notifications
 
 ### Liberator-specific items
 - [ ] See the [Liberator Onboarding Checklist](https://github.com/18F/cg-deck/blob/3f03d785bcbf77b32495c8562f201a49bd6656f8/CONTRIBUTING.md#onboarding-checklist) _(Does that belong here?)_
