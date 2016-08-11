@@ -33,6 +33,8 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **Git**
 * **GitHub**
 * **GovCloud**
+* **Information Systems Security Officer** (or **ISSO**)
+* **Information Systems Security Manager** (or **ISSM**)
 * **Infrastructure as a Service** (or **IaaS**)
 * **New Relic**
 * **OAuth**
@@ -80,15 +82,13 @@ If you're not sure whether an acronym or abbreviation is a first use (such as if
 
 *This section is a work in progress.*
 
-### How to capitalize roles
+### How to keep roles consistent
 
-Capitalize roles to help readers understand that you're talking about specific roles rather than just groups of people in general.
+Capitalize roles throughout the document to help readers understand that you're talking about specific roles rather than just groups of people in general. For example, "Authorizing Official", "Cloud Operations", and "Information Systems Security Officer".
 
-For example:
-
-* Authorizing Official
-* Cloud Operations
-* Information System Security Officer
+In control descriptions (under "Responsible Roles"):
+* List roles with commas, for example "System Owner, Cloud Operations". Don't include "and".
+* List roles that can be singular, such as "Authorizing Official", as singular (even if the actual role is occupied by multiple people).
 
 ### Customer responsibilities
 
