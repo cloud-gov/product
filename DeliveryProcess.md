@@ -83,7 +83,7 @@ In general we use WIP limits to gate how much time and effort we put into groomi
 
 An agile "Definition of Done" (DoD) captures the team's agreed-upon standards for how we get work done at a consistent level of quality. Having a DoD ensures that non-functional requirements (NFRs) don't have to be re-litigated for every piece of work taken on, cards can be focused on just the relevant details, and new team members aren't surprised by assumed expectations of their colleagues.
 
-At our sprint reviews, we demo work that has reached the "Closed" column.
+At our [sprint reviews](https://docs.google.com/presentation/d/192PxdXMrCS__QcG6-px5x7n4Mp860ZSb_gqCDlrQwiE/edit), we demo work that has reached the "Closed" column.
 
 ### Column exit criteria
 For cloud.gov, our DoD is broken up into a set of statements that should be true for each card before it moves to the next column on the board. 
