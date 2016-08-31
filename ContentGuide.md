@@ -11,6 +11,8 @@ Consistency helps cloud.gov look trustworthy and reliable, and it reduces potent
 
 **You should add things too:** Just make a pull request and assign it to @brittag.
 
+For additional helpful background knowledge about writing well for cloud.gov users, see the [18F Content Guide](https://pages.18f.gov/content-guide/), including its [content principles](https://pages.18f.gov/content-guide/content-principles/).
+
 ## Use these exact strings for tricky product names, abbreviations, and team names
 
 Use these exact strings (keeping this spelling, capitalization, punctuation, and spacing):
