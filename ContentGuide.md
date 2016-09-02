@@ -44,8 +44,10 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **Kibana**
 * **Loggregator**
 * **Logstash**
+* **Nessus**
 * **New Relic**
 * **OAuth**
+* **OWASP ZAP**
 * **PagerDuty**
 * **Platform as a Service** (or **PaaS**)
 * **Riemann**
