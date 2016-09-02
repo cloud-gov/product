@@ -38,6 +38,10 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **Information Systems Security Officer** (or **ISSO**)
 * **Information Systems Security Manager** (or **ISSM**)
 * **Infrastructure as a Service** (or **IaaS**)
+* **iptables**
+* **Kibana**
+* **Loggregator**
+* **Logstash**
 * **New Relic**
 * **OAuth**
 * **Platform as a Service** (or **PaaS**)
