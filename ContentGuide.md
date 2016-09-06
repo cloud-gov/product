@@ -21,6 +21,7 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **Amazon Web Services**
 * **BOSH**
 * **CircleCI**
+* **ClamAV**
 * **Cloud Foundry**
 * **cloud.gov** (always lowercase, even at the beginning of a sentence)
 * **CloudWatch**
@@ -35,14 +36,25 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **Git**
 * **GitHub**
 * **GovCloud**
+* **Grafana**
 * **Information Systems Security Officer** (or **ISSO**)
 * **Information Systems Security Manager** (or **ISSM**)
 * **Infrastructure as a Service** (or **IaaS**)
+* **iptables**
+* **Kibana**
+* **Loggregator**
+* **Logstash**
+* **Nessus**
 * **New Relic**
 * **OAuth**
+* **OWASP ZAP**
+* **PagerDuty**
 * **Platform as a Service** (or **PaaS**)
+* **Riemann**
 * **StatusPage**
+* **Tripwire**
 * **Virtual Private Cloud**
+* **WebInspect**
 * **YAML**
 * **Zendesk**
 
@@ -52,10 +64,12 @@ These words should be lowercased in the middle of a sentence and capitalized at 
 
 * **email**
 * **federal**
+* **git**
 * **internet**
 * **jump box**
 * **one-time authentication code** (this is good to use instead of *one time code* or *one-time registration code*)
 * **role-based access control**
+* **stemcell**
 * **third-party credentials**
 * **timestamp**
 * **website**
