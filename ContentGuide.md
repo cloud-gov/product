@@ -19,11 +19,13 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 
 * **18F**
 * **Amazon Web Services**
+* **AWS Config**
 * **BOSH**
 * **CircleCI**
 * **ClamAV**
 * **Cloud Foundry**
 * **cloud.gov** (always lowercase, even at the beginning of a sentence)
+* **Cloudability**
 * **CloudWatch**
 * **Concourse**
 * **Dashboard** (formerly *Deck* or *Console*)
