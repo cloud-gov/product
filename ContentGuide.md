@@ -66,7 +66,6 @@ These words should be lowercased in the middle of a sentence and capitalized at 
 
 * **email**
 * **federal**
-* **git**
 * **internet**
 * **jump box**
 * **one-time authentication code** (this is good to use instead of *one time code* or *one-time registration code*)
