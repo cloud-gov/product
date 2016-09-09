@@ -9,36 +9,38 @@ The cloud.gov team practices Scrumban, which means we practice [Kanban](http://b
 - occasional higher-level planning and grooming sessions
  
 ## Squads
-Starting the week of July 25, 2016, we've structured our team into 4 squads, each forcusing on a different set of prioritized features:
+We've structured our team into 5 squads, each centered around a different [theme](https://github.com/18F/cg-product#sub-teamsthemes-of-work), and generally working on features under that theme:
 
-- Squad 1:
- - Steve Harms, Mike Jacobi, Josh Carp, Sergey Matyukevich, Roger Ruiz (Bret Mogilefsky, PM)
- - Comm channel: #cloud-gov-atlas and group messages
- - *Skills:* Clojure, Ruby, Golang, Python, Bash; Linux, Infrastructure, Networking, Automation; Monitoring
- - *Current backlog:* [Increase Monitoring of Services](https://github.com/18F/cg-product/issues/69), [Increase Service Reliability](https://github.com/18F/cg-product/issues/69), [Better SSH/SCP/cron/port-forwarding capability](https://github.com/18F/cg-product/issues/22)
+- AgentQ:
+ - Steve Harms, Josh Carp (Bret Mogilefsky, PM)
+ - Comm channel: #cloud-gov-agent-q and group messages
+ - Skills involved: Clojure, Ruby, Golang, Python, Bash; Linux, Infrastructure, Networking, Automation; Monitoring
+ - [Board view](https://github.com/18F/cg-product#boards?labels=AgentQ&showPRs=false)
  
-- Squad 2:
- - John Barnicle, Adam Kendall, Fawad Siraj, Chris Nelson, Dan Shick (Bret Mogilefsky, PM)
+- Atlas:
+ - John Barnicle, Adam Kendall, Chris Nelson, Dan Shick (Bret Mogilefsky, PM)
  - Comm channel: #cloud-gov-atlas and group messages
- - *Skills:* SRE skills like Terraform, BOSH, etc.
- - *Current backlog:* [Migrate to GovCloud](https://github.com/18F/cg-product/issues/68), [Implement MultiFactor Auth
-](https://github.com/18F/cg-product/issues/65)
+ - Skills involved: SRE skills like Terraform, BOSH, etc.
+ - [Board view](https://github.com/18F/cg-product#boards?labels=Atlas&showPRs=false)
 
-- Squad 3:
- - Julia Elman, Bernd Verst, Diego Lapiduz, James Scott, Aidan Feldman, Britta Gustafson, (Nikki Zeichner, PM)
+- HighBar:
+ - James Scott, Aidan Feldman, Britta Gustafson, (Bret Mogilefsky, PM)
  - Comm channel: #cloud-gov-highbar, #cloud-gov-skyporter, and group messages
- - *Skills:* UI design, account management, comms and content
- - *Current backlog:* [Activate our base of inquiries](https://github.com/18F/cg-product/issues/67), 
-[Guidance for getting ATO with cloud.gov](https://github.com/18F/cg-product/issues/63), 
-[Proactive notice of new features and incidents](https://github.com/18F/cg-product/issues/71), [Improve value-proposition communication](https://github.com/18F/cg-product/issues/85)
+ - Skills involved: UI design, account management, comms and content
+ - [Board view](https://github.com/18F/cg-product#boards?labels=HighBar&showPRs=false)
 
-- Squad 4:
- - Victor Zapanta, Dan O. Williams, Marco Segreto, Jeremia Kimelman
+- Liberator:
+ - Victor Zapanta, Dan O. Williams, Marco Segreto, Julia Elman, _FE Engineer TBD_ (Andrew Suprenant, PM)
  - Comm channel: #cloud-gov-liberator and group messages
- - *Skills:* UX research, UI design, front-end dev
- - *Current backlog:* [Streamline new user provisioning](https://github.com/18F/cg-product/issues/77), [Improve dashboard utility](https://github.com/18F/cg-product/issues/70)
+ - Skills involved: UX research, UI design, front-end dev
+ - [Board view](https://github.com/18F/cg-product#boards?labels=Liberator&showPRs=false)
 
- 
+- SkyPorter:
+ - Bernd Verst, Diego Lapiduz, _Content Designer TBD_ (Nikki Zeichner, PM)
+ - Comm channel: #cloud-gov-skyporter and group messages
+ - Skills involved: customer relations, training, business process engineering, support, content
+ - [Board view](https://github.com/18F/cg-product#boards?labels=SkyPorter&showPRs=false)
+
 ## Kanban process
 
 Kanban basically says cards go through a set of states, but it doesn't say much about what the cards represent or how the states are defined. Here's what they mean to us.
