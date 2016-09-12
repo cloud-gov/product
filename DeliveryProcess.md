@@ -25,7 +25,7 @@ Starting the week of July 25, 2016, we've structured our team into 4 squads, eac
 ](https://github.com/18F/cg-product/issues/65)
 
 - Squad 3:
- - Julia Elman, Bernd Verst, Diego Lapiduz, James Scott, Aidan Feldman, Britta Gustafson, (Nikki Zeichner, PM)
+ - Bernd Verst, Diego Lapiduz, James Scott, Aidan Feldman, Britta Gustafson, (Nikki Zeichner, PM)
  - Comm channel: #cloud-gov-highbar, #cloud-gov-skyporter, and group messages
  - *Skills:* UI design, account management, comms and content
  - *Current backlog:* [Activate our base of inquiries](https://github.com/18F/cg-product/issues/67), 
@@ -33,8 +33,8 @@ Starting the week of July 25, 2016, we've structured our team into 4 squads, eac
 [Proactive notice of new features and incidents](https://github.com/18F/cg-product/issues/71), [Improve value-proposition communication](https://github.com/18F/cg-product/issues/85)
 
 - Squad 4:
- - Victor Zapanta, Dan O. Williams, Marco Segreto, Jeremia Kimelman
- - Comm channel: #cloud-gov-liberator and group messages
+ - Julia Elman, Victor Zapanta, Dan O. Williams, Marco Segreto, (Andrew Suprenant, PM)
+ - Comm channel: #cloud-gov-liberator, #cloud-gov-librtr-news and group messages
  - *Skills:* UX research, UI design, front-end dev
  - *Current backlog:* [Streamline new user provisioning](https://github.com/18F/cg-product/issues/77), [Improve dashboard utility](https://github.com/18F/cg-product/issues/70)
 
