@@ -83,8 +83,10 @@ In general we use WIP limits to gate how much time and effort we put into groomi
 
 An agile "Definition of Done" (DoD) captures the team's agreed-upon standards for how we get work done at a consistent level of quality. Having a DoD ensures that non-functional requirements (NFRs) don't have to be re-litigated for every piece of work taken on, cards can be focused on just the relevant details, and new team members aren't surprised by assumed expectations of their colleagues.
 
+At our [sprint reviews](https://docs.google.com/presentation/d/192PxdXMrCS__QcG6-px5x7n4Mp860ZSb_gqCDlrQwiE/edit), we demo work that has reached the "Closed" column and is of interest to our users, teammates, or other people apart from the squad that built it. (As an example of finished work that may not be necessary to demo, fixing internal tech debt may not be of interest outside the squad that fixed it.)
+
 ### Column exit criteria
-For cloud.gov, our DoD is broken up into [a set of statements that should be true for each card](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) before it moves to the next column on the board. 
+For cloud.gov, our DoD is broken up into a set of statements that should be true for each card before it moves to the next column on the board. 
 
 Before advancing a card from one column to the next on the board, it should meet the "exit criteria" for the current column, which are listed below.  The exit criteria for a column varies a bit when the column is used for both Features and Stories.
 
@@ -134,14 +136,12 @@ Before advancing a card from one column to the next on the board, it should meet
 
 #### Awaiting Acceptance
 
-- A team-local proxy for the people the story affects reviews and approves the work as meeting acceptance criteria
-- If the work has a visual aspect, post a screenshot attached for later documentation/announcement/demo purposes
+- A team-local proxy for the people the story affects reviews and approves the work as meeting acceptance criteria.
+- If the work is suitable to demo at our biweekly sprint review, add a description of it to the [sprint review slide deck](https://docs.google.com/presentation/d/192PxdXMrCS__QcG6-px5x7n4Mp860ZSb_gqCDlrQwiE/edit), ideally including a link to the live work or a screenshot (especially for visual work).
 - If the work as completed is obviously unscalable and will cause problems if we try, then a story for making it scalable is created at the top of `New Issues`.
-- The work completed adheres to all our policies (for [18f](https://github.com/18F/compliance-docs/) and [cloud.gov](https://github.com/18f/cg-compliance)) and the team has reviewed the security impact of the changes.
-
-#### Demo
-
-- The card is [demonstrated to|not worth the collected attention of] colleagues and stakeholders.
+- The work completed adheres to all our policies (for [18F](https://github.com/18F/compliance-docs) and [cloud.gov](https://github.com/18f/cg-compliance)).
+- The team has reviewed the security impact of the changes.
+- If the work changes an aspect of our system or operating environment that is (or would ideally be) documented in our System Security Plan (SSP), [a new issue is filed in cg-compliance](https://github.com/18F/cg-compliance/issues) to note the change.
 
 #### Closed
 
