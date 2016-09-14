@@ -115,6 +115,7 @@ Before advancing a card from one column to the next on the board, it should meet
 - Discussed by the team and implementation sketched (use more checklists here)
 - The scope of the work is easily doable in a few days (else split it!)
 - Any authn/authz and data persistence points are discussed and requirements are addressed via Acceptance Criteria (eg "Authenticate using [18F GitHub org|login.cloud.gov]" or "Any ephemeral data resulting from usage is backed up/recoverable")
+- The team has completed a security impact analyses of the changes proposed by this story
 - There's a communication plan for any user-visible changes which require their attention/action
 
 #### Ready
@@ -134,6 +135,8 @@ Before advancing a card from one column to the next on the board, it should meet
 - Any deployment is repeatable (eg at least documented to increase bus-factor beyond one) and if possible automated via CI/CD.
  - If the deployment is difficult to automate, then a story for making it automated is created at the top of `New Issues`.
 - Deployment happens in the AWS GovCloud deployment (not just AWS East/West)
+- The deployment must follow our [Change Mananagement plan](https://docs.cloud.gov/ops/configuration-management/).  If not possible, [a new issue is filed in cg-docs](https://github.com/18F/cg-docs/issues) to update the plan.  
+
 - [Proposed] Appropriate alerting for new stuff is set up and reporting to Riemann
 
 #### Awaiting Acceptance
@@ -142,7 +145,6 @@ Before advancing a card from one column to the next on the board, it should meet
 - If the work is suitable to demo at our biweekly sprint review, add a description of it to the [sprint review slide deck](https://docs.google.com/presentation/d/192PxdXMrCS__QcG6-px5x7n4Mp860ZSb_gqCDlrQwiE/edit), ideally including a link to the live work or a screenshot (especially for visual work).
 - If the work as completed is obviously unscalable and will cause problems if we try, then a story for making it scalable is created at the top of `New Issues`.
 - The work completed adheres to all our policies (for [18F](https://github.com/18F/compliance-docs) and [cloud.gov](https://github.com/18f/cg-compliance)).
-- The team has reviewed the security impact of the changes.
 - If the work changes an aspect of our system or operating environment that is (or would ideally be) documented in our System Security Plan (SSP), [a new issue is filed in cg-compliance](https://github.com/18F/cg-compliance/issues) to note the change.
 
 #### Closed
