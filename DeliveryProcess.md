@@ -30,8 +30,8 @@ We've structured our team into 5 squads, each centered around a different [theme
  - [Board view](https://github.com/18F/cg-product#boards?labels=HighBar&showPRs=false)
 
 - Liberator:
- - Victor Zapanta, Dan O. Williams, Marco Segreto, Julia Elman, _FE Engineer TBD_ (Andrew Suprenant, PM)
- - Comm channel: #cloud-gov-liberator and group messages
+ - Victor Zapanta (design lead), Dan O. Williams, Marco Segreto (engineering lead), Julia Elman, _FE Engineer TBD_ (Andrew Suprenant, PM)
+ - Comm channel: #cloud-gov-liberator, #cloud-gov-librtr-news and group messages
  - Skills involved: UX research, UI design, front-end dev
  - [Board view](https://github.com/18F/cg-product#boards?labels=Liberator&showPRs=false)
 
