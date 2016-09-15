@@ -49,9 +49,9 @@ We publish [roadmap and recent-change information for the overall cloud.gov effo
 
 We are using [ZenHub](https://www.zenhub.io) to provide a top-level kanban board and burndown charts showing the status of related work happening across many repositories in GitHub. Install it, then click "Boards" above to see it.
 
-## Joining our team
+## Joining and leaving our team
 
-New contributors should check out our [Onboarding guide and checklist](https://github.com/18F/cg-product/blob/master/Onboarding.md) to get productive quickly.
+New contributors should check out our [Onboarding guide and checklist](https://github.com/18F/cg-product/blob/master/Onboarding.md) to get productive quickly. The team follows an [Offboarding checklist](https://github.com/18F/cg-product/blob/master/OffboardingChecklist.md) to clean up access when people leave.
 
 ## Delivery Process
 
