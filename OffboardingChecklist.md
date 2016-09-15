@@ -23,6 +23,7 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 ## Assignee checklist
 
 ### For people leaving the team
+- [ ] Remove them from the project in Float
 - [ ] Remove them from [GitHub teams that start with cloud-gov](https://github.com/orgs/18F/teams?utf8=%E2%9C%93&query=cloud-gov)
 - [ ] Remove them from [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov)
 - [ ] Remove them from [the cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-support)
