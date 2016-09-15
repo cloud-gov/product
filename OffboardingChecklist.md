@@ -29,7 +29,7 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove them from [the cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-inquiries)
 - [ ] Remove them from the @cloud-gov-team in the Slack Team Directory
 - [ ] Remove them from any IAM roles they hold in AWS
-- [ ] Remove them from [the list of people working on the project](https://docs.google.com/spreadsheets/d/1mW3tphZ98ExmMxLHPogSpTq8DzYr5Oh8_SHnOTvjRWM/edit#gid=0) [<== canonical location needs updating here and in onboarding]
+- [ ] Remove them from [the list of people working on the project](https://docs.google.com/spreadsheets/d/1mW3tphZ98ExmMxLHPogSpTq8DzYr5Oh8_SHnOTvjRWM/edit#gid=0)
 - [ ] Remove them as invitees for any meetings on the cloud.gov calendar
 - [ ] Remove any special Org or Space roles that their cloud.gov account holds
 - [ ] Remove their access via the operator UAA
