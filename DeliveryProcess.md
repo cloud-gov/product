@@ -136,7 +136,8 @@ Before advancing a card from one column to the next on the board, it should meet
  - If the deployment is difficult to automate, then a story for making it automated is created at the top of `New Issues`.
 - Deployment happens in the AWS GovCloud deployment (not just AWS East/West)
 - The deployment must follow our [Configuration Management plan](https://docs.cloud.gov/ops/configuration-management/).  If not possible, [a new issue is filed in cg-docs](https://github.com/18F/cg-docs/issues) to update the plan.  
-
+- If the deployment includes 18F-developed code, ensure the repository is configured to run [Code Climate static analysis on each PR](https://docs.codeclimate.com/docs/github#pull-requests)
+  - Code Climate scan results are reviewed, and any false positives are flagged / scanning rules are updated to exclude irrelevant files (vendored code, tests, etc) 
 - [Proposed] Appropriate alerting for new stuff is set up and reporting to Riemann
 
 #### Awaiting Acceptance
