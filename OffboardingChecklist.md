@@ -39,6 +39,7 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove their access to PagerDuty
 - [ ] Remove their access to New Relic
 - [ ] Remove their access to [Aha!](https://18f.aha.io)
+- [ ] Remove their membership in cloud.gov-specific Trello boards (eg the business-tracker)
 - [ ] Ensure any keys they had direct access to are rotated
 
 ### For anyone leaving 18F
