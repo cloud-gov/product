@@ -95,6 +95,6 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 ### Atlas-specific items
 - [ ] Ask `#admins-github` to have them added to the [@18F/cloud-gov-team](https://github.com/orgs/18F/teams/cloud-gov-ops) team on GitHub **(For contractors: Confirm they have cleared GSA security review before doing this one!)**
 - [ ] If the new person is a contractor, ask `#admins-github` to have them added to the [@18F/cloud-gov-contractors](https://github.com/orgs/18F/teams/cloud-gov-contractors) team on GitHub
-- [ ] Grant them access to the following: AWS, New Relic, PagerDuty, StatusPage
+- [ ] Grant them access to the following: AWS GovCloud, Nesssus Manager GUI, New Relic, PagerDuty, StatusPage
 - [ ] Take them through [AWS onboarding](https://docs.cloud.gov/ops/aws-onboarding/)
 - [ ] Give them a walkthrough of cloud.gov from an architecture and repository perspective
