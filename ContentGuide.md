@@ -29,6 +29,7 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **CloudWatch**
 * **Concourse**
 * **Dashboard** (formerly *Deck* or *Console*)
+* **Docker**
 * **EC2**
 * **ElastiCache**
 * **Elasticsearch**
