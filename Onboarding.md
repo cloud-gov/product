@@ -25,7 +25,7 @@ Our Onboarding Checklist helps us fulfill important security and compliance requ
 - CenturyLink – a company that contributes heavily to Cloud Foundry, and runs their own Cloud Foundry-based PaaS, [AppFog](https://www.ctl.io/appfog/)
 - Cloud Foundry – [Cloud Foundry](https://www.cloudfoundry.org/) is the open-source the platform-as-a-service that cloud.gov is built on
 - Concourse – [Concourse](https://concourse.ci) is the continuous integration tool built by Pivotal we use to deploy Cloud Foundry, among other things
-- The Deck – the web app we offer to allow users to manage their applications and accounts. It lives at [console.cloud.gov](https://console.cloud.gov/), and the code is in the `[cg-deck](https://github.com/18F/cg-deck)` repository.
+- The Dashboard – the web app we offer to allow users to manage their applications and accounts. It lives at [dashboard.cloud.gov](https://dashboard.cloud.gov/), and the code is in the `[cg-dashboard](https://github.com/18F/cg-dashboard)` repository.
 - Elastic Load Balancing (ELB) – the proxy we use in front of Cloud Foundry. [More info](https://aws.amazon.com/elasticloadbalancing/)
 - [FedRAMP](https://www.fedramp.gov/) - a program whereby which Cloud Service Providers (CSPs) are rigorously examined for compliance with FISMA before being identified as generally fit for use by all government agencies
 - [FISMA](https://en.wikipedia.org/wiki/Federal_Information_Security_Management_Act_of_2002) - The federal law that governs digital service delivery in the federal government
