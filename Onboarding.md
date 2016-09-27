@@ -8,7 +8,9 @@ We recommend newcomers get through [the 18F onboarding guide for your discipline
 
 Everyone joining the cloud.gov team will get assigned a team onboarding buddy. This person should be working on similar things to what you will be working on, so that they can answer questions in your domain.
 
-If it's not been done already, you and your team onboarding buddy should follow the instructions in [the Onboarding Checklist](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md) to get an issue started which will guide you through a bunch of tasks that will get you up to speed and contributing in no time.
+You and your team onboarding buddy must follow the instructions in [the Onboarding Checklist](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md) to create an issue that will guide you through tasks that will get you up to speed and contributing in no time. You (and your buddy) must track your progress by checking the boxes as you complete tasks.
+
+Our Onboarding Checklist helps us fulfill important security and compliance requirements, so each new team member needs to have their own checklist issue and track their progress. This is true even if you're rejoining the cloud.gov team after being in it previously.
 
 ## Important terminology and context
 
@@ -62,7 +64,7 @@ We also have some boards still in [Trello](https://trello.com/), although many o
 
 - cloud.gov as a platform
   - our Cloud Foundry instance
-  - [The Deck](https://console.cloud.gov)
+  - [The Dashboard](https://dashboard.cloud.gov)
   - [The cloud.gov homepage](https://cloud.gov/)
   - [docs.cloud.gov](https://docs.cloud.gov)
 - All [cloud.gov repositories](https://docs.cloud.gov/ops/repos/)
