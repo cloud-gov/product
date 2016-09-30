@@ -18,7 +18,7 @@ For additional helpful background knowledge about writing well for cloud.gov use
 Use these exact strings (keeping this spelling, capitalization, punctuation, and spacing):
 
 * **18F**
-* **Amazon Web Services**
+* **Amazon Web Services** (or **AWS**)
 * **AWS Config**
 * **BOSH**
 * **CircleCI**
@@ -44,6 +44,7 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **Information Systems Security Manager** (or **ISSM**)
 * **Infrastructure as a Service** (or **IaaS**)
 * **iptables**
+* **JSX**
 * **Kibana**
 * **Loggregator**
 * **Logstash**
@@ -53,13 +54,16 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **OWASP ZAP**
 * **PagerDuty**
 * **Platform as a Service** (or **PaaS**)
+* **React** (when talking about the library)
 * **Riemann**
 * **StatusPage**
+* **Travis CI**
 * **Tripwire**
 * **Virtual Private Cloud**
 * **WebInspect**
 * **YAML**
 * **Zendesk**
+* **ZenHub**
 
 ## Use these non-case-sensitive strings for words with tricky spacing and punctuation
 
