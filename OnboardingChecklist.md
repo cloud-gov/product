@@ -41,15 +41,19 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Once you've finished the remaining checklists below, make suggestions for steps that would have improved your onboarding experience as pull-requests on [the onboarding checklist template](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md) used to make this issue
 
 ### Required items for all team members
-- [ ] Read the [Incident Response Policy](https://github.com/18F/compliance-docs/blob/master/IR-Policy.md) and [Incident Response Guide](https://docs.cloud.gov/ops/security-ir/). Coordinate with your onboarding buddy to go through Incident Response Training within 60 days of joining the team (and annually after that).
-- [ ] Read the [Contingency Planning Policy](https://github.com/18F/compliance-docs/blob/master/CP-Policy.md) and [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/). Coordinate with your onboarding buddy to go through Contingency Planning training within 10 days if you'll be taking on a significant role in our Contingency Planning processes (or annually if not).
-- [ ] Read the [Configuration Management Policy](https://github.com/18F/compliance-docs/blob/master/CM-Policy.md) and [Configuration Management Plan](https://docs.cloud.gov/ops/configuration-management/).
+
+These items help us fulfill security and compliance requirements (including for FedRAMP). If you get stuck, or if these requirements are confusing, ask for help from your buddy or in a cloud.gov channel.
+
+- [ ] Read the [18F Security Policies and Procedures](https://github.com/18F/compliance-docs). These documents (which are mostly quite short) explain the high-level policies and procedures we must comply with while running cloud.gov.
+- [ ] Read the [Incident Response Guide](https://docs.cloud.gov/ops/security-ir/). Coordinate with your onboarding buddy to go through Incident Response Training within 60 days of joining the team (and annually after that).
+- [ ] Read the [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/). Coordinate with your onboarding buddy to go through Contingency Planning training within 10 days if you'll be taking on a significant role in our Contingency Planning processes (or annually if not).
+- [ ] Read the [Configuration Management Plan](https://docs.cloud.gov/ops/configuration-management/).
 - [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various streams
 - [ ] Subscribe to the [cg-docs](https://github.com/18F/cg-docs) GitHub repository notifications
 
 ### Atlas-specific items
 - [ ] Bookmark [the Atlas kanban board view](https://github.com/18F/cg-product#boards?labels=Atlas&showPRs=false)
-- [ ] Make sure you join the #cloud-gov-atlas channel on Slack
+- [ ] Join the #cloud-gov-atlas channel on Slack
 - [ ] Watch [Build Your Own Private Cloud Foundry](https://www.youtube.com/watch?v=v85r4Hy3jbs) to learn about running Cloud Foundry
 - [ ] [Set up Cloud Foundry locally](https://docs.cloud.gov/ops/creating-a-local-dev-environment-in-Virtual-Box/) and push an app to it
 - [ ] Learn about [BOSH](http://bosh.io/): Watch [this video](https://www.youtube.com/watch?v=2jpN1mSPZ4Q) and see [our manifests](https://github.com/18F/cg-manifests) (and read [this](http://events.linuxfoundation.org/sites/events/files/slides/seven-stages-of-bosh.pdf) for levity)
@@ -83,19 +87,25 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 ---
 ## Buddy checklist
 - [ ] Introduce yourself to the new team member and give them some of your background so they know who you are
+- [ ] Identify a straightforward, well-groomed story in progress that involves their skills domain, schedule a meeting with the owner for an introduction (if it's not you), and setup pairing sessions several times in the first week on the project.
+- [ ] Identify a straightforward, well-groomed first story, ideally something they could conceivably complete in their first two/three weeks using their existing skills. Discuss the context with them, then make them the assignee for the card.
+- [ ] Make suggestions for how the onboarding experience could have been improved as PRs on [the onboarding template](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md).
+
+### Required items for all team members
+
+These items help us fulfill security and compliance requirements (including for FedRAMP).
+
 - [ ] Make sure they're listed in [the list of people working on the project](https://docs.google.com/spreadsheets/d/1mW3tphZ98ExmMxLHPogSpTq8DzYr5Oh8_SHnOTvjRWM/edit#gid=0)
 - [ ] Add them to the @cloud-gov-team in Slack’s Team Directory (which also adds them to the right channels)
 - [ ] Add them to the recurring cloud.gov meetings that are relevant for them in [the team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles)
-- [ ] Setup a cloud.gov user account for them via [the “send an invite” page](https://invite.cloud.gov)
-- [ ] Identify a straightforward, well-groomed story in progress that involves their skills domain, schedule a meeting with the owner for an introduction (if it's not you), and setup pairing sessions several times in the first week on the project.
-- [ ] Identify a straightforward, well-groomed first story, ideally something they could conceivably complete in their first two/three weeks using their existing skills. Discuss the context with them, then make them the assignee for the card.
-- [ ] Make suggestions for how your onboarding experience could have been improved as PRs on [the onboarding template](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md).
-- [ ] Confirm they have 2FA enabled for GitHub, and ask `#admins-github` to have them added to the [@18F/cloud.gov team](https://github.com/orgs/18F/teams/cloud-gov) on GitHub
+- [ ] Ask `#admins-github` to have them added to the [@18F/cloud.gov team](https://github.com/orgs/18F/teams/cloud-gov) on GitHub
 
-### Atlas-specific items
-- [ ] Ask `#admins-github` to have them added to the [@18F/cloud-gov-team](https://github.com/orgs/18F/teams/cloud-gov-ops) team on GitHub **(For contractors: Confirm they have cleared GSA security review before doing this one!)**
+### Atlas-specific required items
+
+- [ ] Help them review and understand the responsibilities of becoming a Cloud Operations team member, as listed in our SSP
+- [ ] Ask `#admins-github` to have them added to the [@18F/cloud-gov-ops](https://github.com/orgs/18F/teams/cloud-gov-ops) team on GitHub **(For contractors: Confirm they have cleared GSA security review before doing this one!)**
 - [ ] If the new person is a contractor, ask `#admins-github` to have them added to the [@18F/cloud-gov-contractors](https://github.com/orgs/18F/teams/cloud-gov-contractors) team on GitHub
-- [ ] Grant them access to the following: AWS GovCloud, Nesssus Manager GUI, New Relic, PagerDuty, StatusPage
+- [ ] Grant them access to the following: AWS GovCloud, Nessus Manager GUI, New Relic, PagerDuty, StatusPage
 - [ ] [Make them an admin](https://docs.cloud.gov/ops/managing-users/#managing-admins) of the platform
 - [ ] Take them through [AWS onboarding](https://docs.cloud.gov/ops/aws-onboarding/)
 - [ ] Give them a walkthrough of cloud.gov from an architecture and repository perspective
