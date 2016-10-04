@@ -12,6 +12,19 @@ You and your team onboarding buddy must follow the instructions in [the Onboardi
 
 Our Onboarding Checklist helps us fulfill important security and compliance requirements, so each new team member needs to have their own checklist issue and track their progress. This is true even if you're rejoining the cloud.gov team after being in it previously.
 
+## How to Tock your time
+
+We use four lines in Tock to track our hours worked:
+
+* cloud.gov - operations and services (Atlas & Agent Q)
+* cloud.gov - UI/UX (Liberator)
+* cloud.gov - business / comms (Skyporter)
+* cloud.gov - compliance (Highbar)
+
+Our guideline: if the work you’re doing was driven by a story with a label, Tock to the line corresponding to that label.
+
+Program-level work, such as program-level stand-up and sprint review meetings, should be tocked to Skyporter.
+
 ## Important terminology and context
 
 - Amazon Web Services (AWS) – the infrastructure (IaaS) provider we use
