@@ -24,19 +24,19 @@ We've structured our team into 5 squads, each centered around a different [theme
  - [Board view](https://github.com/18F/cg-product#boards?labels=Atlas&showPRs=false)
 
 - HighBar:
- - James Scott, Aidan Feldman, Britta Gustafson, (Bret Mogilefsky, PM)
+ - James Scott, Aidan Feldman, Britta Gustafson (Bret Mogilefsky, PM)
  - Comm channel: #cloud-gov-highbar, #cloud-gov-skyporter, and group messages
  - Skills involved: UI design, account management, comms and content
  - [Board view](https://github.com/18F/cg-product#boards?labels=HighBar&showPRs=false)
 
 - Liberator:
- - Victor Zapanta (design lead), Dan O. Williams, Marco Segreto (engineering lead), Julia Elman, _FE Engineer TBD_ (Andrew Suprenant, PM)
+ - Victor Zapanta (design lead), Dan O. Williams, Marco Segreto (engineering lead), Aaron Borden (Andrew Suprenant, PM)
  - Comm channel: #cloud-gov-liberator, #cloud-gov-librtr-news and group messages
  - Skills involved: UX research, UI design, front-end dev
  - [Board view](https://github.com/18F/cg-product#boards?labels=Liberator&showPRs=false)
 
 - SkyPorter:
- - Bernd Verst, Diego Lapiduz, _Content Designer TBD_ (Nikki Zeichner, PM)
+ - Bernd Verst, Diego Lapiduz, James Hupp (Nikki Zeichner, PM)
  - Comm channel: #cloud-gov-skyporter and group messages
  - Skills involved: customer relations, training, business process engineering, support, content
  - [Board view](https://github.com/18F/cg-product#boards?labels=SkyPorter&showPRs=false)
@@ -111,40 +111,54 @@ Before advancing a card from one column to the next on the board, it should meet
 
 #### Grooming
 
-- Has testable/demoable Acceptance Criteria that we expect to be able to check off to help us understand when the work is done. (Try wording them as [Gherkin](https://en.wikipedia.org/wiki/Behavior-driven_development#Behavioural_specifications), and use [GFM checklists](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments) for them)
-- Discussed by the team and implementation sketched (use more checklists here)
+- Has testable/demoable Acceptance Criteria that we expect to be able to check off to help us understand when the work is done. (Try wording them as [Gherkin](https://en.wikipedia.org/wiki/Behavior-driven_development#Behavioural_specifications), and use [GFM checklists](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments) for them).
+- Discussed by the team and implementation sketched (use more checklists here).
 - The scope of the work is easily doable in a few days (else split it!)
-- Any authn/authz and data persistence points are discussed and requirements are addressed via Acceptance Criteria (eg "Authenticate using [18F GitHub org|login.cloud.gov]" or "Any ephemeral data resulting from usage is backed up/recoverable")
-- The team has completed a security impact analysis of the changes proposed by this story
-- There's a communication plan for any user-visible changes which require their attention/action
+- Any authentication/authorization and data persistence points are discussed and requirements are addressed via Acceptance Criteria (eg "Authenticate using [login.cloud.gov]" or "Any ephemeral data resulting from usage is backed up/recoverable").
+- There's a communication plan for any user-visible changes which require their attention/action.
+
+Required for compliance: 
+<!-- Security impact analysis is due to CM-3 part b, CM-4 -->
+<!-- New software integration check is due to CM-7 (5) part a -->
+<!-- Noah said we need to check with him before integrating new services -->
+
+- The team has analyzed and documented any potential security impact of the changes proposed by the story.
+- If the story includes integrating new software (such as a new open source component) into the core platform, the cloud.gov System Owner has approved the plan.
+- If the story includes integrating a new external service (a service outside the cloud.gov FedRAMP authorization boundary) or changing an external service configuration/usage in a way that may have a security/compliance impact, the cloud.gov Authorizing Official has approved the plan.
 
 #### Ready
 
-- No info or assistance is needed from outside the team to start work and likely finish it
-- There's capacity available to work on the story (eg this column is a buffer of shovel-ready work)
+- No info or assistance is needed from outside the team to start work and likely finish it.
+- There's capacity available to work on the story (eg this column is a buffer of shovel-ready work).
 
 #### In Progress
 
-- Acceptance criteria are demonstrably met
-- Relevant tasks complete, irrelevant checklists removed or captured on a new story
-- Follows documented coding conventions
-- Pair-programmed or peer-reviewed (eg use pull-requests!)
-- Test coverage exists and overall coverage hasn't been reduced
-- User-facing and internal operation docs have been updated
-- Demoable to other people in their own time (eg staging environment, published branch)
+- Acceptance criteria are demonstrably met.
+- Relevant tasks complete, irrelevant checklists removed or captured on a new story.
+- Follows documented coding conventions.
+- Pair-programmed or peer-reviewed (eg use pull-requests).
+- Test coverage exists and overall coverage hasn't been reduced.
+- User-facing and internal operation docs have been updated.
+- Demoable to other people in their own time (eg staging environment, published branch).
 - Any deployment is repeatable (eg at least documented to increase bus-factor beyond one) and if possible automated via CI/CD.
  - If the deployment is difficult to automate, then a story for making it automated is created at the top of `New Issues`.
-- Deployment happens in the AWS GovCloud deployment (not just AWS East/West)
+- Deployment happens in the AWS GovCloud deployment (not just AWS East/West).
+
+Required for compliance:
+
 - The deployment must follow our [Configuration Management plan](https://docs.cloud.gov/ops/configuration-management/).  If not possible, [a new issue is filed in cg-docs](https://github.com/18F/cg-docs/issues) to update the plan.  
-- If the deployment includes 18F-developed code, ensure the repository is configured to run [Code Climate static analysis on each PR](https://docs.codeclimate.com/docs/github#pull-requests)
-  - Code Climate scan results are reviewed, and any false positives are flagged / scanning rules are updated to exclude irrelevant files (vendored code, tests, etc) 
-- [Proposed] Appropriate alerting for new stuff is set up and reporting to Riemann
+- If the deployment includes 18F-developed code, ensure the repository is configured to run [Code Climate static analysis on each PR](https://docs.codeclimate.com/docs/github#pull-requests).
+  - Code Climate scan results are reviewed, and any false positives are flagged / scanning rules are updated to exclude irrelevant files (vendored code, tests, etc).
+- [Proposed] Appropriate alerting for new stuff is set up and reporting to Riemann.
 
 #### Awaiting Acceptance
 
 - A team-local proxy for the people the story affects reviews and approves the work as meeting acceptance criteria.
 - If the work is suitable to demo at our biweekly sprint review, add a description of it to the [sprint review slide deck](https://docs.google.com/presentation/d/192PxdXMrCS__QcG6-px5x7n4Mp860ZSb_gqCDlrQwiE/edit), ideally including a link to the live work or a screenshot (especially for visual work).
 - If the work as completed is obviously unscalable and will cause problems if we try, then a story for making it scalable is created at the top of `New Issues`.
+
+Required for compliance:
+
 - The work completed adheres to all our policies (for [18F](https://github.com/18F/compliance-docs) and [cloud.gov](https://github.com/18f/cg-compliance)).
 - If the work changes an aspect of our system or operating environment that is (or would ideally be) documented in our System Security Plan (SSP), [a new issue is filed in cg-compliance](https://github.com/18F/cg-compliance/issues) to note the change.
 
