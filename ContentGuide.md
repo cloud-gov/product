@@ -23,10 +23,13 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **BOSH**
 * **CircleCI**
 * **ClamAV**
+* **Cloud Controller**
 * **Cloud Foundry**
 * **cloud.gov** (always lowercase, even at the beginning of a sentence)
 * **Cloudability**
+* **CloudTrail**
 * **CloudWatch**
+* **Code Climate**
 * **Concourse**
 * **Dashboard** (formerly *Deck* or *Console*)
 * **Docker**
@@ -59,7 +62,9 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **StatusPage**
 * **Travis CI**
 * **Tripwire**
+* **Trusted Advisor**
 * **Virtual Private Cloud**
+* **VisualOps**
 * **WebInspect**
 * **YAML**
 * **Zendesk**
