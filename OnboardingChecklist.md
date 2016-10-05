@@ -87,10 +87,12 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Review the main [front end board](https://github.com/18F/cg-dashboard/pulls#boards?repos=55727091,39210774,49169967,40567233&labels=Liberator&showPRs=false) (ensure to filter by the "Liberator" label)
 - [ ] Bookmark link to [design folder](https://drive.google.com/drive/u/1/folders/0BwLqM4Nicmq-bUt0NjRjclFMUEU)
 - [ ] Review the primary cloud.gov sites: [the dashboard](https://dashboard.cloud.gov/#/), [main landing page](https://cloud.gov/), and [documentation](https://docs.cloud.gov/).
+- [ ] [Request access to 18F Google Analytics](https://handbook.18f.gov/google-analytics/), so you can view cloud.gov site analytics ([including for the dashboard](https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit))
+- [ ] Ask for an invite to a DigitalGov Search account for cg-docs, so you can configure it and view analytics
 
 ##### If developing
 - [ ] Set up the [landing page](https://github.com/18F/cg-landing), [dashboard](https://github.com/18F/cg-dashboard), [docs](https://github.com/18F/cg-docs), and [cg-style](https://github.com/18F/cg-style) locally
-- [ ] Set up cg-style to be [linked to the other sites locally](https://github.com/18F/cg-style#development-and-contributing-setup).
+- [ ] Set up cg-style to be [linked to the other sites locally](https://github.com/18F/cg-style#development-and-contributing-setup)
 - [ ] Have cloud.gov person send the cg-dashboard testing env vars through Fugacious
 - [ ] Review [dashboard contributing guide](https://github.com/18F/cg-dashboard/CONTRIBUTING.md) and [cg-style standards](https://github.com/18F/cg-style/blob/master/documentation/frontend_standards.md)
 
