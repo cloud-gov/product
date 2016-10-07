@@ -8,7 +8,7 @@ When someone leaves the cloud.gov team
 2. View the raw source of this file
 3. Copy everything below the line into the new issue's body
 4. Replace "LeavingPerson" with the leaving person's name
-5. Delete any checklists irrelevant for the skill domain of the new person
+5. Delete any checklists irrelevant for the skill domain of the leaving person
 6. Submit the issue
 7. Assign the issue to the person who bravely volunteered to be handle the person's offboarding
 8. Put the issue into the "In Progress" pipeline in ZenHub
