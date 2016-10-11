@@ -32,7 +32,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Read through [the Introduction section of docs.cloud.gov](https://docs.cloud.gov/) for a broader understanding of cloud.gov, especially as we present it to potential customers/users
 - [ ] Read the [January 2016 cloud.gov "Executive Business Case" document](https://docs.google.com/document/d/138OcG0Lt6gr9J0wM0TzzPNyTROmYAwfLIDujtweiwGw/edit#) for greater context about cloud.gov's potential impact in government
 - [ ] Try to [deploy a sample application to cloud.gov](https://docs.cloud.gov/getting-started/your-first-deploy/) to get familiar with the basics of the PaaS from a user's perspective
-- [ ] Check out the [roadmap](https://18f.aha.io/published/068c364a0302b89521045f9fbd258374) to get a high-level view of recently-completed, in-progress, and upcoming features
+- [ ] Check out the [roadmap](https://18f.aha.io/products/CGP/feature_cards) to get a high-level view of recently-completed, in-progress, and upcoming features
 - [ ] Install the [ZenHub](https://zenhub.io) browser extension to enable you to see kanban boards, hierarchical issues, and burndown charts in GitHub
 - [ ] Read the [Delivery Process document](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) to learn about how we work
 - [ ] Join [the cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-support), so you can see how we handle non-18F support and get visibility of technical discussions happening with outside groups
