@@ -48,6 +48,7 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] Read the [Incident Response Guide](https://docs.cloud.gov/ops/security-ir/).
 - [ ] Coordinate with your onboarding buddy to go through Incident Response Training within 60 days of joining the team (and annually after that).
 - [ ] Read the [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/).
+- [ ] Read the [Continuous Monitoring Plan](https://drive.google.com/file/d/0B1cewEqKcWCbZlFuQklZVWpLV1k/view), particularly section 2.5.
 - [ ] Coordinate with your onboarding buddy to go through Contingency Planning training within 10 days if you'll be taking on a significant role in our Contingency Planning processes (or annually if not).
 - [ ] Read the [Configuration Management Plan](https://docs.cloud.gov/ops/configuration-management/).
 - [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various streams
