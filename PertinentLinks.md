@@ -1,5 +1,9 @@
 # Pertinent links for the cloud.gov team
 
+As a highly motivated and distributed team, there are many links that we use to
+communicate effectively as a team. Below are a list of pertinent links that
+should be bookmarked and encouraged to check on a regular basis.
+
 #### Non-theme-specific items
 
 - [:cloud:.gov Zenhub board][zenhub-all]
