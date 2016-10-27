@@ -3,7 +3,6 @@
 #### Non-theme-specific items
 
 - [:cloud:.gov Zenhub board][zenhub-all]
-- [:cloud:.gov Team Roster][cg-team-roster] :lock:
 - [:cloud:.gov Dashboard][cg-dashboard] :lock:
 - [18F Github][github-eighteenf]
 - [:cloud:.gov Repositories][github-eighteenf-cg]
@@ -17,7 +16,7 @@
 - [AWS GovCloud console][aws-fr-console] :lock:
 - [AWS console][aws-console] :lock:
 - [Concourse][cg-continuous-integration] :lock:
-- [Concourse GovCloud][cg-fr-continous-integration] :lock:
+- [Concourse GovCloud][cg-fr-continuous-integration] :lock:
 - [:cloud:.gov Deploy Repositories][github-eighteenf-cg-deploy]
 
 #### Liberator-specific items
@@ -51,8 +50,9 @@
 [aws-fr-console]: https://signin.amazonaws-us-gov.com/?region=us-gov-west-1
 [aws-console]: http://signin.aws.amazon.com/console/
 
-[cg-continous-integration]: https://ci.cloud.gov
-[cg-fr-continous-integration]: https://ci.fr.cloud.gov
+[cg-dashboard]: https://dashboard.cloud.gov/
+[cg-continuous-integration]: https://ci.cloud.gov/
+[cg-fr-continuous-integration]: https://ci.fr.cloud.gov/
 
 [github-eighteenf]: http://github.com/18F/
 [github-eighteenf-cg]: https://github.com/search?utf8=✓&q=org%3A18F+cg-&type=Repositories&ref=searchresults
