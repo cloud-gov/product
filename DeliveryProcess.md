@@ -29,11 +29,11 @@ We've structured our team into 5 squads, each centered around a different [theme
  - Skills involved: UI design, account management, comms and content
  - [Board view](https://github.com/18F/cg-product#boards?labels=HighBar&showPRs=false)
 
-- Liberator:
+- Navigator:
  - Victor Zapanta (design lead), Dan O. Williams, Marco Segreto (engineering lead), Aaron Borden (Andrew Suprenant, PM)
- - Comm channel: #cloud-gov-liberator, #cloud-gov-librtr-news and group messages
+ - Comm channel: #cloud-gov-navigator, #cloud-gov-nav-news and group messages
  - Skills involved: UX research, UI design, front-end dev
- - [Board view](https://github.com/18F/cg-product#boards?labels=Liberator&showPRs=false)
+ - [Board view](https://github.com/18F/cg-product#boards?labels=Navigator&showPRs=false)
 
 - SkyPorter:
  - Bernd Verst, Diego Lapiduz, James Hupp (Nikki Zeichner, PM)

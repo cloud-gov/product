@@ -23,10 +23,10 @@ should be bookmarked and encouraged to check on a regular basis.
 - [Concourse GovCloud][cg-fr-continuous-integration] :lock:
 - [:cloud:.gov Deploy Repositories][github-eighteenf-cg-deploy]
 
-#### Liberator-specific items
+#### Navigator-specific items
 
-- [Liberator Slack][slack-liberator] :lock:
-- [Liberator Zenhub board][zenhub-liberator]
+- [Navigator Slack][slack-navigator] :lock:
+- [Navigator Zenhub board][zenhub-navigator]
 
 #### HighBar-specific items
 
@@ -41,13 +41,13 @@ should be bookmarked and encouraged to check on a regular basis.
 [zenhub-all]: https://github.com/18F/cg-product#boards
 [zenhub-atlas]: https://github.com/18F/cg-product#boards?labels=Atlas
 [zenhub-agent-q]: https://github.com/18F/cg-product#boards?labels=AgentQ
-[zenhub-liberator]: https://github.com/18F/cg-product#boards?labels=Liberator
+[zenhub-navigator]: https://github.com/18F/cg-product#boards?labels=Navigator
 [zenhub-highbar]: https://github.com/18F/cg-product#boards?labels=HighBar
 [zenhub-skyporter]: https://github.com/18F/cg-product#boards?labels=SkyPorter
 
 [slack-atlas]: https://gsa-tts.slack.com/messages/cloud-gov-atlas
 [slack-agent-q]: https://gsa-tts.slack.com/messages/cloud-gov-agent-q
-[slack-liberator]: https://gsa-tts.slack.com/messages/cloud-gov-liberator
+[slack-navigator]: https://gsa-tts.slack.com/messages/cloud-gov-navigator
 [slack-highbar]: https://gsa-tts.slack.com/messages/cloud-gov-highbar
 [slack-skyporter]: https://gsa-tts.slack.com/messages/cloud-gov-skyporter
 
