@@ -82,11 +82,11 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Learn about [Concourse](https://concourse.ci/): check out our [staging](https://ci-stage.cloud.gov/) and [production](https://ci.cloud.gov) instances, and take a look at some of [our pipelines](https://github.com/18F?utf8=%E2%9C%93&query=cg-deploy)
 - [ ] Join [the Cloud Foundry Slack](http://slack.cloudfoundry.org/)
 
-#### Liberator-specific items
+#### Navigator-specific items
 
-- [ ] Join the `#cloud-gov-liberator` channel on Slack
+- [ ] Join the `#cloud-gov-navigator` channel on Slack
 - [ ] Ping @standup-bot for instructions on front end channel standup
-- [ ] Review the main [front end board](https://github.com/18F/cg-dashboard/pulls#boards?repos=55727091,39210774,49169967,40567233&labels=Liberator&showPRs=false) (ensure to filter by the "Liberator" label)
+- [ ] Review the main [front end board](https://github.com/18F/cg-dashboard/pulls#boards?repos=55727091,39210774,49169967,40567233&labels=Navigator&showPRs=false) (ensure to filter by the "Navigator" label)
 - [ ] Bookmark link to [design folder](https://drive.google.com/drive/u/1/folders/0BwLqM4Nicmq-bUt0NjRjclFMUEU)
 - [ ] Review the primary cloud.gov sites: [the dashboard](https://dashboard.cloud.gov/#/), [main landing page](https://cloud.gov/), and [documentation](https://docs.cloud.gov/).
 - [ ] [Request access to 18F Google Analytics](https://handbook.18f.gov/google-analytics/), so you can view cloud.gov site analytics ([including for the dashboard](https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit))
