@@ -17,7 +17,7 @@ Our Onboarding Checklist helps us fulfill important security and compliance requ
 We use four lines in Tock to track our hours worked:
 
 * cloud.gov - operations and services (Atlas & Agent Q)
-* cloud.gov - UI/UX (Liberator)
+* cloud.gov - UI/UX (Navigator)
 * cloud.gov - business / comms (Skyporter)
 * cloud.gov - compliance (Highbar)
 
