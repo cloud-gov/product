@@ -109,7 +109,7 @@ If you're not sure whether an acronym or abbreviation is a first use (such as if
 
 Also known as: **How should you phrase titles?**
 
-When you're writing a title for a page or sections, write a statement instead of a question. Statements are easier to read.
+When you're writing a title for a page or section, write a statement instead of a question. Those extra "who/what/why" words aren't necessary, and statements are easier for readers to scan quickly.
 
 ## Compliance documentation
 
