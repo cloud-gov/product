@@ -31,7 +31,6 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **CloudWatch**
 * **Code Climate**
 * **Concourse**
-* **Dashboard** (formerly *Deck* or *Console*)
 * **Docker**
 * **EC2**
 * **ElastiCache**
@@ -75,9 +74,9 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 These words should be lowercased in the middle of a sentence and capitalized at the beginning of a sentence, but use this exact spacing and punctuation.
 
 * **email**
+* **dashboard** (our web user interface, formerly *Deck* or *Console*)
 * **federal**
 * **internet**
-* **jump box**
 * **one-time authentication code** (this is good to use instead of *one time code* or *one-time registration code*)
 * **role-based access control**
 * **stemcell**
