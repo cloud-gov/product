@@ -9,9 +9,9 @@ OK, follow this guide!
 
 Consistency helps cloud.gov look trustworthy and reliable, and it reduces potential reader confusion.
 
-**You should add things too:** Just make a pull request and assign it to @brittag.
+**You should add things too:** Just make a pull request.
 
-For additional helpful background knowledge about writing well for cloud.gov users, see the [18F Content Guide](https://pages.18f.gov/content-guide/), including its [content principles](https://pages.18f.gov/content-guide/content-principles/).
+For additional helpful background knowledge about writing for cloud.gov users, see the [18F Content Guide](https://pages.18f.gov/content-guide/), including its [content principles](https://pages.18f.gov/content-guide/content-principles/).
 
 ## Use these exact strings for tricky product names, abbreviations, and team names
 
@@ -105,11 +105,17 @@ Spell out abbreviations and acronyms the first time you use a term on a page or 
 
 If you're not sure whether an acronym or abbreviation is a first use (such as if you're writing a section in YAML to use with Compliance Masonry), spell it out. There's no harm in writing out abbreviations an extra time; it'll make up for all the government documents everywhere that have too many unexplained abbreviations.
 
-## Working on our compliance documentation?
+## Phrase titles as statements instead of questions
+
+Also known as: **How should you phrase titles?**
+
+When you're writing a title for a page or section, write a statement instead of a question. Those extra "who/what/why" words aren't necessary, and statements are easier for readers to scan quickly.
+
+## Compliance documentation
 
 *This section is a work in progress.*
 
-### How to keep roles consistent
+### Keep roles consistent
 
 Capitalize roles throughout the document to help readers understand that you're talking about specific roles rather than just groups of people in general. For example, "Authorizing Official", "Cloud Operations", and "Information Systems Security Officer".
 
