@@ -93,10 +93,11 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Ask for an invite to a DigitalGov Search account for cg-docs, so you can configure it and view analytics
 
 ##### If developing
+- [ ] Review [dashboard contributing guide](https://github.com/18F/cg-dashboard/blob/master/CONTRIBUTING.md) and [cg-style standards](https://github.com/18F/cg-style/blob/master/documentation/frontend_standards.md) which help frame what we're looking for in code review
 - [ ] Set up the [landing/docs page](https://github.com/18F/cg-site), [dashboard](https://github.com/18F/cg-dashboard), and [cg-style](https://github.com/18F/cg-style) locally
 - [ ] Set up cg-style to be [linked to the other sites locally](https://github.com/18F/cg-style#development-and-contributing-setup)
 - [ ] Have cloud.gov person send the cg-dashboard testing env vars through Fugacious
-- [ ] Review [dashboard contributing guide](https://github.com/18F/cg-dashboard/blob/master/CONTRIBUTING.md) and [cg-style standards](https://github.com/18F/cg-style/blob/master/documentation/frontend_standards.md)
+
 
 ##### For review
 - Review the [design principles wiki](https://github.com/18F/cg-product/wiki) which explains the thinking behind the product and where that thinking comes from
