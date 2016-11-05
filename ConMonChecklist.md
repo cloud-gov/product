@@ -30,6 +30,8 @@ A week before [due date]:
 	- [ ] https://logs.fr.cloud.gov/ (logs.xml)
 	- [ ] https://metrics.fr.cloud.gov/ (metrics.xml)
 
+- [ ] We've grabbed a fresh set of Nessus scans from https://nessus.fr.cloud.gov/
+
 * We've updated [our Google Drive POA&M right here](https://docs.google.com/spreadsheets/d/16igVl8cD3SqeX5_SOn5Su34KmwMRnP20gPbfQlqIwfM/edit#gid=1701775784):
 	- [ ] We've updated all columns to include the most recent info about remediations, milestones, statuses, etc., including updating the status date column.
 	- [ ] We've moved any web scanner items that should be moved to closed (in other words, items originally found by a scanner where we have new scans that prove these things are fixed).
