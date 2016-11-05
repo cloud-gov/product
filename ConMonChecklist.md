@@ -8,7 +8,7 @@ After delivery of a monthly ConMon report:
 1. View the raw source of this file
 1. Copy everything below the line into the new issue's body
 1. Replace [due date] in title and body with the next due date
-1. Assign the issue to a member of the HighBar squad
+1. Assign the issue to a member of the HighBar squad, add the HighBar label, and add it to the FedRAMP-related-work epic for that quarter
 1. Submit the issue
 1. Put the issue into the "Ready" pipeline in ZenHub
 
