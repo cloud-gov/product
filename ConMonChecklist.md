@@ -22,7 +22,8 @@ A week before [due date]:
 
 * We ran OWASP ZAP on the following (using [these manual scanning instructions](https://pages.18f.gov/before-you-ship/security/dynamic-scanning/#manual-scanning), authenticated, passive) and uploaded the fresh results to [a folder in this folder](https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U):
 	- [ ] https://ci.fr.cloud.gov/ (ci.xml)
-	- [ ] https://community.fr.cloud.gov/ (community.xml)	- [ ] https://dashboard.fr.cloud.gov/ (dashboard.xml)
+	- [ ] https://community.fr.cloud.gov/ (community.xml)	
+	- [ ] https://dashboard.fr.cloud.gov/ (dashboard.xml)
 	- [ ] https://invite.fr.cloud.gov/ (invite.xml)
 	- [ ] https://landing.fr.cloud.gov/ (landing.xml)
 	- [ ] https://login.fr.cloud.gov/ (login.xml)
