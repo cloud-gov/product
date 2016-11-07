@@ -38,6 +38,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Read the [Delivery Process document](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) to learn about how we work
 - [ ] Join [the cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-support), so you can see how we handle non-18F support and get visibility of technical discussions happening with outside groups
 - [ ] Join [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov), so you can participate in team-wide internal communication
+- [ ] Consider joining [Cloud Foundry's Slack channels] (https://slack.cloudfoundry.org/) (we sometimes talk to folks in #gov and #gov-private – you'll need a team member to invite you to the latter)
 - [ ] Figure out what themes you're likely to work in, and complete the checklist below that relates to it
 - [ ] Once you've finished the remaining checklists below, make suggestions for steps that would have improved your onboarding experience as pull requests on [the onboarding checklist template](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md) used to make this issue
 
@@ -92,6 +93,14 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] [Request access to 18F Google Analytics](https://handbook.18f.gov/google-analytics/), so you can view cloud.gov site analytics ([including for the dashboard](https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit))
 - [ ] Ask for an invite to a DigitalGov Search account for cg-docs, so you can configure it and view analytics
 
+#### HighBar-specific items
+- [ ] Bookmark [the HighBar kanban board view](https://github.com/18F/cg-product#boards?labels=HighBar&showPRs=false)
+- [ ] Make sure you join the #cloud-gov-highbar channel on Slack
+- [ ] Read through the description of [Compliance Toolkit](https://github.com/18F/compliance-toolkit/#readme)
+- [ ] Watch [Handling FISMA Faster and Better](https://www.youtube.com/watch?v=T1S52B1-NT4) for important context and background on the federal regulatory context in which cloud.gov operates.
+- [ ] Do a cursory read of [Before You Ship](https://pages.18f.gov/before-you-ship/)
+- [ ] Read [the intro to Compliance Masonry](https://github.com/opencontrol/compliance-masonry#readme)
+
 ##### If developing
 - [ ] Set up the [landing/docs page](https://github.com/18F/cg-site), [dashboard](https://github.com/18F/cg-dashboard), and [cg-style](https://github.com/18F/cg-style) locally
 - [ ] Set up cg-style to be [linked to the other sites locally](https://github.com/18F/cg-style#development-and-contributing-setup)
@@ -107,14 +116,6 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - Review the [US Web Design Standards](https://standards.usa.gov/) as cg-style was built from it.
 - Review the dashboard: current [prod](https://dashboard.cloud.gov/#/), [master](https://dashboard-master.apps.cloud.gov/#/) and [staging](https://dashboard-staging.apps.cloud.gov/#/)
 - Review the Cloud Foundry [community UI](http://ui.apps.cloud.gov/), a UI that members of the Cloud Foundry community created and that we're using a basis for our own dashboard design
-
-#### HighBar-specific items
-- [ ] Bookmark [the HighBar kanban board view](https://github.com/18F/cg-product#boards?labels=HighBar&showPRs=false)
-- [ ] Make sure you join the #cloud-gov-highbar channel on Slack
-- [ ] Read through the description of [Compliance Toolkit](https://github.com/18F/compliance-toolkit/#readme)
-- [ ] Watch [Handling FISMA Faster and Better](https://www.youtube.com/watch?v=T1S52B1-NT4) for important context and background on the federal regulatory context in which cloud.gov operates.
-- [ ] Do a cursory read of [Before You Ship](https://pages.18f.gov/before-you-ship/)
-- [ ] Read [the intro to Compliance Masonry](https://github.com/opencontrol/compliance-masonry#readme)
 
 ---
 ## Buddy checklist
