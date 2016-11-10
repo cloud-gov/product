@@ -53,7 +53,7 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] Coordinate with your onboarding buddy to go through Contingency Planning training within 10 days if you'll be taking on a significant role in our Contingency Planning processes (or annually if not).
 - [ ] Read the [Configuration Management Plan](https://docs.cloud.gov/ops/configuration-management/).
 - [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various streams
-- [ ] Subscribe to the [cg-docs](https://github.com/18F/cg-docs) GitHub repository notifications
+- [ ] Subscribe (through the GitHub watch function) to the [cg-site](https://github.com/18F/cg-site) GitHub repository notifications
 
 ### Theme-specific items
 
