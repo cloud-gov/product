@@ -28,15 +28,15 @@ In order for us to update the JAB on our compliance in a consistent way, we need
 
 A week before [due date]:
 
-* We ran OWASP ZAP on the following (using [these manual scanning instructions](https://pages.18f.gov/before-you-ship/security/dynamic-scanning/#manual-scanning), authenticated, passive) and uploaded the fresh results to [a folder in this folder](https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U):
-	- [ ] https://ci.fr.cloud.gov/ (ci.xml) - requires Cloud Ops auth
-	- [ ] https://community.fr.cloud.gov/ (community.xml)	
-	- [ ] https://dashboard.fr.cloud.gov/ (dashboard.xml)
-	- [ ] https://invite.fr.cloud.gov/ (invite.xml)
-	- [ ] https://landing.fr.cloud.gov/ (landing.xml)
-	- [ ] https://login.fr.cloud.gov/ (login.xml)
-	- [ ] https://logs.fr.cloud.gov/ (logs.xml)
-	- [ ] https://metrics.fr.cloud.gov/ (metrics.xml) - requires Cloud Ops auth
+* We ran OWASP ZAP on the following domains (using [these manual scanning instructions](https://pages.18f.gov/before-you-ship/security/dynamic-scanning/#manual-scanning), authenticated, passive) and uploaded the fresh results in XML format to [a folder in this folder](https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U) (upload one XML file instead of separate files):
+	- [ ] https://ci.fr.cloud.gov/ - requires Cloud Ops auth
+	- [ ] https://community.fr.cloud.gov/	
+	- [ ] https://dashboard.fr.cloud.gov/
+	- [ ] https://invite.fr.cloud.gov/
+	- [ ] https://landing.fr.cloud.gov/
+	- [ ] https://login.fr.cloud.gov/
+	- [ ] https://logs.fr.cloud.gov/
+	- [ ] https://metrics.fr.cloud.gov/ - requires Cloud Ops auth
 
 - [ ] We've grabbed a fresh set of Nessus scans from https://nessus.fr.cloud.gov/ - requires Cloud Ops auth
 
