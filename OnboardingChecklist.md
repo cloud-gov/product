@@ -104,7 +104,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Review the [design principles wiki](https://github.com/18F/cg-product/wiki) which explains the thinking behind the product and where that thinking comes from
 - [ ] Review the [design resource request document](https://docs.google.com/document/d/1s96VP6PB7fbc8g_GwgAZ1hCPmew-J35ZOJx772c1AZ4/edit) if you haven’t already to get a sense of your role on the project
 - [ ] Review the [design principles doc](https://docs.google.com/spreadsheets/d/14Y3RKaLUt6RPX5w13iz7oaSCpojEQ-Wqjnd8Ie_VkCc/edit#gid=259774738) to get a sense of how the cloud.gov team feels about the product
-- [ ] Review the [competitive analysis](https://docs.google.com/spreadsheets/u/1/d/194tGz75NFwFyH8jT7zY_n-O0I7N4yAGYtIG4hw9qPcQ/edit?usp=drive_web) to get a sense of our "competitors" and their dashboards.
+- [ ] Review the [competitive analysis](https://github.com/18F/cg-product/wiki/Competitive-landscape-and-heuristics) to get a sense of our "competitors" and their dashboards.
 - [ ] Review the [cg-style styleguide](https://pages.18f.gov/cg-style/) to get a sense of the global cloud.gov visual style.
 - [ ] Review the [US Web Design Standards](https://standards.usa.gov/) as cg-style was built from it.
 - [ ] Review the dashboard: current [prod](https://dashboard.cloud.gov/#/), [master](https://dashboard-master.apps.cloud.gov/#/) and [staging](https://dashboard-staging.apps.cloud.gov/#/)
