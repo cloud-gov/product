@@ -18,7 +18,7 @@ We've structured our team into 5 squads, each centered around a different [theme
  - [Board view](https://github.com/18F/cg-product#boards?labels=AgentQ&showPRs=false)
  
 - Atlas:
- - John Barnicle, Adam Kendall, Chris Nelson, Dan Shick (Bret Mogilefsky, PM)
+ - Adam Kendall, Chris Nelson, Dan Shick (Bret Mogilefsky, PM)
  - Comm channel: #cloud-gov-atlas and group messages
  - Skills involved: SRE skills like Terraform, BOSH, etc.
  - [Board view](https://github.com/18F/cg-product#boards?labels=Atlas&showPRs=false)
