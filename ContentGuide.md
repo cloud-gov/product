@@ -27,6 +27,7 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **Cloud Foundry**
 * **cloud.gov** (always lowercase, even at the beginning of a sentence)
 * **Cloudability**
+* **CloudFront**
 * **CloudTrail**
 * **CloudWatch**
 * **Code Climate**
@@ -77,6 +78,7 @@ These words should be lowercased in the middle of a sentence and capitalized at 
 * **dashboard** (our web user interface, formerly *Deck* or *Console*)
 * **federal**
 * **internet**
+* **jumpbox**
 * **one-time authentication code** (this is good to use instead of *one time code* or *one-time registration code*)
 * **role-based access control**
 * **stemcell**
