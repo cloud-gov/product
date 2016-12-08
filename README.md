@@ -57,6 +57,10 @@ New contributors should check out our [Onboarding guide and checklist](https://g
 
 We document [the processes that govern the delivery of our work](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md), which is shared (and potentially embellished) with themes in other repositories. Our process is revised periodically when we reflect on common patterns observed across retrospectives.
 
+## Wiki
+
+We maintain a [wiki](https://github.com/18F/cg-product/wiki) with information including product background, key research findings, and design principles. 
+
 ## Including new repositories in this program
 
 To include artifacts from another repository in our program-level view, use ZenHub to set up a board that resembles [the program board](https://github.com/18F/cg-product#boards). Then merge that board into the program board, mapping similar columns appropriately.
