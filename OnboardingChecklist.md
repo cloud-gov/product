@@ -26,13 +26,14 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 
 ### Getting to know cloud.gov
 - [ ] Take judicious notes on what about this onboarding process or cloud.gov is confusing or frustrating. If you notice a problem (especially with things like documentation), you are more than welcome to fix it! At the very least, please share this information with your buddy (or someone) at some point so we can make the team/platform better. (You can also file issues and pull requests on [the template for Onboarding issues](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md).)
-- [ ] Bookmark the [pertinent links listed here](https://github.com/18F/cg-product/blob/master/PertinentLinks.md).
 - [ ] Figure out who your onboarding buddy is (they should reach out to you) and make sure this issue is assigned to them
 - [ ] Read [the team onboarding document](https://github.com/18F/cg-product/blob/master/Onboarding.md) for more context about cloud.gov
+- [ ] Check out the [cloud.gov team roster sheet](https://docs.google.com/spreadsheets/d/1mW3tphZ98ExmMxLHPogSpTq8DzYr5Oh8_SHnOTvjRWM/edit#gid=0) to get a sense of who's working on cloud.gov and in what capacity. (Note that we work closely with the [18F Infrastructure](https://github.com/18F/infrastructure) team, but they're not considered part of the cloud.gov team.)
+- [ ] Bookmark the [pertinent links listed here](https://github.com/18F/cg-product/blob/master/PertinentLinks.md).
 - [ ] Read the ["What is it?"](https://docs.google.com/presentation/d/1nCcti3dXG9TVGW3OqaWtnf96oXX8U8SBTM_WePFO_dg/edit#slide=id.p) presentation for a rundown of what cloud.gov is and does
-- [ ] Read through [the Introduction section of docs.cloud.gov](https://docs.cloud.gov/) for a broader understanding of cloud.gov, especially as we present it to potential customers/users
+- [ ] Read through [the Overview section of cloud.gov](https://cloud.gov/overview/) for a broader understanding of cloud.gov, especially as we present it to potential customers/users
 - [ ] Read the [January 2016 cloud.gov "Executive Business Case" document](https://docs.google.com/document/d/138OcG0Lt6gr9J0wM0TzzPNyTROmYAwfLIDujtweiwGw/edit#) for greater context about cloud.gov's potential impact in government
-- [ ] Try to [deploy a sample application to cloud.gov](https://docs.cloud.gov/getting-started/your-first-deploy/) to get familiar with the basics of the PaaS from a user's perspective
+- [ ] Try to [deploy a sample application to cloud.gov](https://cloud.gov/docs/getting-started/your-first-deploy/) to get familiar with the basics of the PaaS from a user's perspective
 - [ ] Check out the [roadmap](https://18f.aha.io/products/CGP/feature_cards) to get a high-level view of recently-completed, in-progress, and upcoming features
 - [ ] Install the [ZenHub](https://zenhub.io) browser extension to enable you to see kanban boards, hierarchical issues, and burndown charts in GitHub
 - [ ] Read the [Delivery Process document](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) to learn about how we work
@@ -47,12 +48,15 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 These items help us fulfill security and compliance requirements (including for FedRAMP). If you get stuck, or if these requirements are confusing, ask for help from your buddy or in a cloud.gov channel.
 
 - [ ] Read the [18F Security Policies and Procedures](https://github.com/18F/compliance-docs). These documents (which are mostly quite short) explain the high-level policies and procedures we must comply with while running cloud.gov.
-- [ ] Read the [Incident Response Guide](https://docs.cloud.gov/ops/security-ir/).
+- [ ] Read the [Incident Response Guide](https://cloud.gov/docs/ops/security-ir/).
 - [ ] Coordinate with your onboarding buddy to go through Incident Response Training within 60 days of joining the team (and annually after that).
-- [ ] Read the [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/).
+- [ ] Read the [Contingency Plan](https://cloud.gov/docs/ops/contingency-plan/).
 - [ ] Read the [Continuous Monitoring Plan](https://drive.google.com/file/d/0B1cewEqKcWCbZlFuQklZVWpLV1k/view), particularly section 2.5.
 - [ ] Coordinate with your onboarding buddy to go through Contingency Planning training within 10 days if you'll be taking on a significant role in our Contingency Planning processes (or annually if not).
-- [ ] Read the [Configuration Management Plan](https://docs.cloud.gov/ops/configuration-management/).
+- [ ] Read the [Configuration Management Plan](https://cloud.gov/docs/ops/configuration-management/).
+- [ ] Read our [sharing secret keys](https://cloud.gov/docs/ops/secrets/#sharing-secret-keys) policy.
+- [ ] Review the [18F requirements for password management](https://handbook.18f.gov/equipment/#requirements-for-passwords).
+- [ ] Review the [18F open source policy guidance about protecting sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information).
 - [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various streams
 - [ ] Subscribe (through the GitHub watch function) to the [cg-site](https://github.com/18F/cg-site) GitHub repository notifications
 
@@ -89,9 +93,9 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Ping @standup-bot for instructions on front end channel standup
 - [ ] Review the main [front end board](https://github.com/18F/cg-dashboard/pulls#boards?repos=55727091,39210774,49169967,40567233&labels=Navigator&showPRs=false) (ensure to filter by the "Navigator" label)
 - [ ] Bookmark link to [design folder](https://drive.google.com/drive/u/1/folders/0BwLqM4Nicmq-bUt0NjRjclFMUEU)
-- [ ] Review the primary cloud.gov sites: [the dashboard](https://dashboard.cloud.gov/#/), [main landing page](https://cloud.gov/), and [documentation](https://docs.cloud.gov/).
+- [ ] Review the primary cloud.gov sites: [the dashboard](https://dashboard.cloud.gov/#/), [main landing page](https://cloud.gov/), and [documentation](https://cloud.gov/docs/).
 - [ ] [Request access to 18F Google Analytics](https://handbook.18f.gov/google-analytics/), so you can view cloud.gov site analytics ([including for the dashboard](https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit))
-- [ ] Ask for an invite to a DigitalGov Search account for cg-docs, so you can configure it and view analytics
+- [ ] Ask for an invite to a DigitalGov Search account for cg-site, so you can configure it and view analytics
 
 ##### If developing
 - [ ] Review [dashboard contributing guide](https://github.com/18F/cg-dashboard/blob/master/CONTRIBUTING.md) and [cg-style standards](https://github.com/18F/cg-style/blob/master/documentation/frontend_standards.md) which help frame what we're looking for in code review
@@ -139,6 +143,6 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] Ask `#admins-github` to have them added to the [@18F/cloud-gov-ops](https://github.com/orgs/18F/teams/cloud-gov-ops) team on GitHub **(For contractors: Confirm they have cleared GSA security review before doing this one!)**
 - [ ] If the new person is a contractor, ask `#admins-github` to have them added to the [@18F/cloud-gov-contractors](https://github.com/orgs/18F/teams/cloud-gov-contractors) team on GitHub
 - [ ] Grant them access to the following: AWS GovCloud, Nessus Manager GUI, New Relic, PagerDuty, StatusPage
-- [ ] [Make them an admin](https://docs.cloud.gov/ops/managing-users/#managing-admins) of the platform
-- [ ] Take them through [AWS onboarding](https://docs.cloud.gov/ops/aws-onboarding/)
+- [ ] [Make them an admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) of the platform
+- [ ] Take them through [AWS onboarding](https://cloud.gov/docs/ops/aws-onboarding/)
 - [ ] Give them a walkthrough of cloud.gov from an architecture and repository perspective
