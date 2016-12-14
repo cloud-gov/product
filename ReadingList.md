@@ -21,6 +21,7 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] Read the [Configuration Management Plan](https://docs.cloud.gov/ops/configuration-management/).
 
 ### Cloud Operations (Atlas & AgentQ)
+#### Comprehensive 
 - [ ] Read the System Security Plan (the latest version lives on [Google Drive](https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0); look for "cloud.gov System Security Plan (SSP)" as a `.docx` file). All of it is useful, but the document is huge -- of particular note for onboarding:
    - Section 9: System Description
    - Section 10: System Environment
@@ -36,9 +37,13 @@ These items help us fulfill security and compliance requirements (including for 
    - Read about our [AWS accounts](https://cloud.gov/docs/ops/aws-accounts/) and [onboarding](https://cloud.gov/docs/ops/aws-onboarding/)
    - Read about the [AWS CLI](https://aws.amazon.com/cli/) 
 - [ ] Get familiar with [Terraform](https://www.terraform.io/) by going through the [getting started guide](https://www.terraform.io/intro/getting-started/install.html)
+- [ ] Read about how the team [manages secrets](https://cloud.gov/docs/ops/secrets/)
 - [ ] Read about Cloud Foundry [services from a user perspective](http://docs.cloudfoundry.org/devguide/services/)
 - [ ] Read about [implementing services](http://docs.cloudfoundry.org/services/)
 - [ ] Take a look at [our existing brokers](https://github.com/18F?utf8=%E2%9C%93&query=broker)
+#### Day-to-day
+- [ ] Review the [daily maintenance tasks](https://cloud.gov/docs/ops/maintenance-list/)
+- [ ] Review the boards for [Atlas](https://github.com/18F/cg-product#boards?labels=Atlas) and [AgentQ](https://github.com/18F/cg-product#boards?labels=AgentQ)
 
 #### Navigator
 
