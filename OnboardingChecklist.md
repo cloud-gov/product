@@ -107,7 +107,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Review the [comparative analysis](https://github.com/18F/cg-product/wiki/Comparative-landscape-and-heuristics) to get a sense of other vendors and their dashboards.
 - [ ] Review the [cg-style styleguide](https://pages.18f.gov/cg-style/) to get a sense of the global cloud.gov visual style.
 - [ ] Review the [US Web Design Standards](https://standards.usa.gov/) as cg-style was built from it.
-- [ ] Review the dashboard: current [prod](https://dashboard.cloud.gov/#/), [master](https://dashboard-master.apps.cloud.gov/#/) and [staging](https://dashboard-staging.apps.cloud.gov/#/)
+- [ ] Review the dashboard: current [prod](https://dashboard.cloud.gov/#/), [staging](https://dashboard-staging.apps.cloud.gov/#/), and [demo](https://dashboard-demo.apps.cloud.gov/#/).
 
 #### HighBar-specific items
 - [ ] Bookmark [the HighBar kanban board view](https://github.com/18F/cg-product#boards?labels=HighBar&showPRs=false)
