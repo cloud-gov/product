@@ -50,8 +50,8 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] Read the [18F Security Policies and Procedures](https://github.com/18F/compliance-docs). These documents (which are mostly quite short) explain the high-level policies and procedures we must comply with while running cloud.gov.
 - [ ] Read the [Incident Response Guide](https://cloud.gov/docs/ops/security-ir/).
 - [ ] Coordinate with your onboarding buddy to go through Incident Response Training within 60 days of joining the team (and annually after that).
-- [ ] Read the [Contingency Plan](https://cloud.gov/docs/ops/contingency-plan/).
-- [ ] Read the [Continuous Monitoring Plan](https://drive.google.com/file/d/0B1cewEqKcWCbZlFuQklZVWpLV1k/view), particularly section 2.5.
+- [ ] Read the [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/).
+- [ ] Read the [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), particularly the [cloud.gov team responsibilities](https://cloud.gov/docs/ops/continuous-monitoring/#cloud-gov-team).
 - [ ] Coordinate with your onboarding buddy to go through Contingency Planning training within 10 days if you'll be taking on a significant role in our Contingency Planning processes (or annually if not).
 - [ ] Read the [Configuration Management Plan](https://cloud.gov/docs/ops/configuration-management/).
 - [ ] Read our [sharing secret keys](https://cloud.gov/docs/ops/secrets/#sharing-secret-keys) policy.
@@ -111,7 +111,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Review the [comparative analysis](https://github.com/18F/cg-product/wiki/Comparative-landscape-and-heuristics) to get a sense of other vendors and their dashboards.
 - [ ] Review the [cg-style styleguide](https://pages.18f.gov/cg-style/) to get a sense of the global cloud.gov visual style.
 - [ ] Review the [US Web Design Standards](https://standards.usa.gov/) as cg-style was built from it.
-- [ ] Review the dashboard: current [prod](https://dashboard.cloud.gov/#/), [master](https://dashboard-master.apps.cloud.gov/#/) and [staging](https://dashboard-staging.apps.cloud.gov/#/).
+- [ ] Review the dashboard: current [prod](https://dashboard.cloud.gov/#/), [staging](https://dashboard-staging.apps.cloud.gov/#/), and [demo](https://dashboard-demo.apps.cloud.gov/#/).
 
 #### HighBar-specific items
 - [ ] Bookmark [the HighBar kanban board view](https://github.com/18F/cg-product#boards?labels=HighBar&showPRs=false).
