@@ -18,29 +18,33 @@ When someone leaves the cloud.gov team
 In order to complete LeavingPerson's exit from the cloud.gov team, the assignee should complete a prescribed set of tasks that will remove any special access.
 
 # Directions:
-**Assignee:** If you can’t complete any of the items on your checklist personally, _you are responsible for ensuring that an appropriate person does it_.
+**Assignee:** The tasks below are organized by the role needed to complete them. If you can’t complete any of the items on your checklist personally, _you are responsible for ensuring that an appropriate person does it_.
 
-## Assignee checklist
-
-### For people leaving the team
-- [ ] Remove them from the project in Float
-- [ ] Remove them from [GitHub teams that start with cloud-gov](https://github.com/orgs/18F/teams?utf8=%E2%9C%93&query=cloud-gov)
-- [ ] Remove them from [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov)
-- [ ] Remove them from [the cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-support)
-- [ ] Remove them from [the cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-inquiries)
+## Assignee
 - [ ] Remove them from the @cloud-gov-team in the Slack Team Directory
-- [ ] Remove them from any IAM roles they hold in AWS E/W and GovCloud
-- [ ] Remove them from [the list of people working on the project](https://docs.google.com/spreadsheets/d/1mW3tphZ98ExmMxLHPogSpTq8DzYr5Oh8_SHnOTvjRWM/edit#gid=0)
-- [ ] Remove them from DigitalGov Search access for cg-docs
+- [ ] Remove them from [team roster](https://docs.google.com/spreadsheets/d/1mW3tphZ98ExmMxLHPogSpTq8DzYr5Oh8_SHnOTvjRWM/edit#gid=0) and [squad list](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md#squads)
 - [ ] Remove them as invitees for any meetings on the cloud.gov calendar
-- [ ] Remove any special Org or Space roles that their cloud.gov account holds
-- [ ] [Remove their access as an admin](https://docs.cloud.gov/ops/managing-users/#managing-admins) on the platform
+- [ ] If they are leaving 18F ensure the [18F Handbook exit process](https://handbook.18f.gov/leaving-18f/#offboarding-process) has been kicked off via the 18F talent team
+
+
+## Product Owner
+- [ ] Remove them from [GitHub teams that start with cloud-gov](https://github.com/orgs/18F/teams?utf8=%E2%9C%93&query=cloud-gov)
 - [ ] Remove their access to StatusPage
 - [ ] Remove their access to PagerDuty
 - [ ] Remove their access to New Relic
 - [ ] Remove their access to [Aha!](https://18f.aha.io)
+- [ ] Remove them from [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov)
+- [ ] Remove them from [the cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-support)
+- [ ] Remove them from [the cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-inquiries)
+- [ ] Remove them from the project in Float
 - [ ] Remove their membership in cloud.gov-specific Trello boards (eg the business-tracker)
+- [ ] Remove them from DigitalGov Search access for cg-site
+
+
+## Cloud Operations
+- [ ] Remove them from any IAM roles they hold in AWS E/W and GovCloud
+- [ ] [Remove their access as an admin](https://docs.cloud.gov/ops/managing-users/#managing-admins) on the platform
+- [ ] Remove any special Org or Space roles that their cloud.gov account holds
+- [ ] Confirm the Product Owner has removed them from all GitHub teams
 - [ ] Ensure any keys they had direct access to are rotated
 
-### For anyone leaving 18F
-- [ ] Ensure the [18F Handbook exit process](https://handbook.18f.gov/leaving-18f/#offboarding-process) has been kicked off via the 18F talent team
