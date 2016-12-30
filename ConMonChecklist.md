@@ -45,7 +45,7 @@ Starting approximately at that meeting:
 	- [ ] https://metrics.fr.cloud.gov/ - requires Cloud Ops auth
 	- [ ] We exported and uploaded those fresh OWASP ZAP results in XML format to [a folder in this folder](https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U) (you can upload one XML file with results from all the sites, or upload a series of separate XML files with results per site).
 	- [ ] We also grabbed the OWASP ZAP "context" export with settings info and uploaded it to that folder.
-    - [ ] We also grabbed the OWASP ZAP scans in human-readable HTML format and uploaded them to that folder.
+	- [ ] We also grabbed the OWASP ZAP scans in human-readable HTML format and uploaded them to that folder.
 
 - [ ] On approximately the 23rd of the month, we grabbed a fresh set of Nessus scans (both OS and database/RDS) from https://nessus.fr.cloud.gov/ in .nessus format and uploaded the fresh results to [a folder in this folder](https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U) - requires Cloud Ops auth.
 	- [ ] We also grabbed the [Nessus HTML export](https://docs.tenable.com/nessus/6_8/Content/Exported_Results.htm) for those scans and uploaded them to that folder.
