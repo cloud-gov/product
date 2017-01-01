@@ -99,9 +99,9 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Ask for an invite to a DigitalGov Search account for cg-site, so you can configure it and view analytics.
 
 ##### If developing
-- [ ] Review [dashboard contributing guide](https://github.com/18F/cg-dashboard/blob/master/CONTRIBUTING.md) and [cg-style standards](https://github.com/18F/cg-style/blob/master/documentation/frontend_standards.md) which help frame what we're looking for in code review.
-- [ ] Set up the [landing/docs page](https://github.com/18F/cg-site), [dashboard](https://github.com/18F/cg-dashboard), and [cg-style](https://github.com/18F/cg-style) locally.
-- [ ] Set up cg-style to be [linked to the other sites locally](https://github.com/18F/cg-style#development-and-contributing-setup).
+- [ ] Review the [dashboard contributing guide](https://github.com/18F/cg-dashboard/blob/master/CONTRIBUTING.md) and [`cg-style` standards](https://github.com/18F/cg-style/blob/master/documentation/frontend_standards.md) which help frame what we're looking for in code review.
+- [ ] Set up the [landing/docs page](https://github.com/18F/cg-site), [dashboard](https://github.com/18F/cg-dashboard), and [`cg-style`](https://github.com/18F/cg-style) locally.
+- [ ] Set up `cg-style` to be [linked to the other sites locally](https://github.com/18F/cg-style#development-and-contributing-setup).
 - [ ] Have cloud.gov person send the cg-dashboard testing env vars through Fugacious.
 
 
@@ -110,8 +110,8 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Review the [design resource request document](https://docs.google.com/document/d/1s96VP6PB7fbc8g_GwgAZ1hCPmew-J35ZOJx772c1AZ4/edit) if you haven’t already to get a sense of your role on the project.
 - [ ] Review the [design principles doc](https://docs.google.com/spreadsheets/d/14Y3RKaLUt6RPX5w13iz7oaSCpojEQ-Wqjnd8Ie_VkCc/edit#gid=259774738) to get a sense of how the cloud.gov team feels about the product.
 - [ ] Review the [comparative analysis](https://github.com/18F/cg-product/wiki/Comparative-landscape-and-heuristics) to get a sense of other vendors and their dashboards.
-- [ ] Review the [cg-style styleguide](https://pages.18f.gov/cg-style/) to get a sense of the global cloud.gov visual style.
-- [ ] Review the [US Web Design Standards](https://standards.usa.gov/) as cg-style was built from it.
+- [ ] Review the [`cg-style` styleguide](https://pages.18f.gov/cg-style/) to get a sense of the global cloud.gov visual style.
+- [ ] Review the [US Web Design Standards](https://standards.usa.gov/) as `cg-style` was built from it.
 - [ ] Review the dashboard: current [prod](https://dashboard.cloud.gov/#/), [staging](https://dashboard-staging.apps.cloud.gov/#/), and [demo](https://dashboard-demo.apps.cloud.gov/#/).
 
 #### HighBar-specific items
