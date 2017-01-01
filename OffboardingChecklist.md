@@ -29,12 +29,13 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 
 ## Product Owner
 - [ ] Remove them from [GitHub teams that start with cloud-gov](https://github.com/orgs/18F/teams?utf8=%E2%9C%93&query=cloud-gov)
+- [ ] Remove their access to Zendesk
 - [ ] Remove their access to StatusPage
 - [ ] Remove their access to PagerDuty
 - [ ] Remove their access to New Relic
 - [ ] Remove their access to [Aha!](https://18f.aha.io)
 - [ ] Remove them from [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov)
-- [ ] Remove them from [the cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-support)
+- [ ] Remove them from [the cloud.gov notifications Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-notifications)
 - [ ] Remove them from [the cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-inquiries)
 - [ ] Remove them from the project in Float
 - [ ] Remove their membership in cloud.gov-specific Trello boards (eg the business-tracker)
