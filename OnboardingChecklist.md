@@ -92,7 +92,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 
 - [ ] Join the `#cloud-gov-navigator` channel on Slack.
 - [ ] Ping @standup-bot for instructions on front end channel standup.
-- [ ] Review the main [front end board](https://github.com/18F/cg-dashboard/pulls#boards?repos=55727091,39210774,49169967,40567233&labels=Navigator&showPRs=false) (filter by the "Navigator" label).
+- [ ] Review the main [front end board](https://github.com/18F/cg-dashboard/pulls#boards?labels=Navigator&showPRs=false) (filter by the "Navigator" label).
 - [ ] Bookmark link to [design folder](https://drive.google.com/drive/u/1/folders/0BwLqM4Nicmq-bUt0NjRjclFMUEU).
 - [ ] Review the primary cloud.gov sites: [the dashboard](https://dashboard.cloud.gov/#/), [main landing page](https://cloud.gov/), and [documentation](https://cloud.gov/docs/).
 - [ ] [Request access to 18F Google Analytics](https://handbook.18f.gov/google-analytics/), so you can view cloud.gov site analytics ([including for the dashboard](https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit)).
