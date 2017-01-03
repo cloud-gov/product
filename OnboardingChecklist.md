@@ -29,7 +29,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Bookmark the [pertinent links listed here](https://github.com/18F/cg-product/blob/master/PertinentLinks.md).
 - [ ] Figure out who your onboarding buddy is (they should reach out to you) and make sure this issue is assigned to them.
 - [ ] Read the documents and links in the "cloud.gov" section of the [reading list](https://github.com/18F/cg-product/blob/master/ReadingList.md).
-- [ ] Try to [deploy a sample application to cloud.gov](https://docs.cloud.gov/getting-started/your-first-deploy/) to get familiar with the basics of the PaaS from a user's perspective.
+- [ ] [Deploy a sample application to cloud.gov](https://docs.cloud.gov/getting-started/your-first-deploy/) to get familiar with the basics of the PaaS from a user's perspective.
 - [ ] Install the [ZenHub](https://zenhub.io) browser extension to enable you to see kanban boards, hierarchical issues, and burndown charts in GitHub.
 - [ ] Join [the cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-support), so you can see how we handle non-18F support and get visibility of technical discussions happening with outside groups.
 - [ ] Join [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov), so you can participate in team-wide internal communication.
@@ -84,7 +84,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 #### HighBar-specific items
 - [ ] Read the documents and links in the "Highbar" section of the [reading list](https://github.com/18F/cg-product/blob/master/ReadingList.md).
 - [ ] Bookmark [the HighBar kanban board view](https://github.com/18F/cg-product#boards?labels=HighBar&showPRs=false).
-- [ ] Make sure you join the #cloud-gov-highbar channel on Slack.
+- [ ] Join the #cloud-gov-highbar channel on Slack.
 
 ---
 ## Buddy checklist
