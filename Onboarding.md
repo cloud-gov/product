@@ -1,6 +1,6 @@
 # Joining the cloud.gov team
 
-cloud.gov is the platform that hosts the applications 18F builds with and for other agencies. cloud.gov helps 18F teams attack core impediments to smooth, iterative deployment of government services, like compliance, security and scalability. The cloud.gov team operates, supports, and develops cloud.gov so that we can offer it to agencies directly as a service they can use on their own.
+cloud.gov is the platform that hosts the applications 18F builds with and for other agencies. cloud.gov helps 18F teams attack core impediments to smooth, iterative deployment of government services, like compliance, security, and scalability. The cloud.gov team develops, operates, and supports cloud.gov so that we can offer it to agencies directly as a service they can use on their own.
 
 ## Onboarding
 
