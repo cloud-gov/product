@@ -25,11 +25,14 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] Read the System Security Plan (the latest version lives on [Google Drive](https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0); look for "cloud.gov System Security Plan (SSP)" as a `.docx` file). All of it is useful, but the document is huge -- of particular note for onboarding:
    - Section 9: System Description
    - Section 10: System Environment
-- [ ] Watch [Build Your Own Private Cloud Foundry](https://www.youtube.com/watch?v=v85r4Hy3jbs) to learn about running Cloud Foundry
+- [ ] Learn about [Cloud Foundry](https://www.cloudfoundry.org/): 
+   - [ ] Watch [Build Your Own Private Cloud Foundry](https://www.youtube.com/watch?v=v85r4Hy3jbs) to learn about running Cloud Foundry
+   - [ ] Complete this [tutorial for Cloud Foundry](https://pivotal.io/platform/pcf-tutorials/getting-started-with-pivotal-cloud-foundry/introduction) (either lightly adapt for cloud.gov sandbox or simply complete as written)
 - [ ] Learn about [BOSH](http://bosh.io/): 
-   - Watch [this video](https://www.youtube.com/watch?v=2jpN1mSPZ4Q)
-   - Examine [our provisioning procedures](https://github.com/18F/cg-provision)
-   - Read [this](http://events.linuxfoundation.org/sites/events/files/slides/seven-stages-of-bosh.pdf) for levity
+   - [ ] Watch this [video](https://www.youtube.com/watch?v=2jpN1mSPZ4Q)
+   - [ ] Complete this [tutorial for BOSH](https://mariash.github.io/learn-bosh/)
+   - [ ] Examine [our provisioning procedures](https://github.com/18F/cg-provision)
+   - [ ] Read [this](http://events.linuxfoundation.org/sites/events/files/slides/seven-stages-of-bosh.pdf) for levity
 - [ ] Get to know how UAA is deployed/integrated -- document forthcoming
 - [ ] Learn about [Concourse](https://concourse.ci/) and try a [tutorial](https://github.com/starkandwayne/concourse-tutorial)
 - [ ] Check out our [staging](https://ci-stage.cloud.gov/) and [production](https://ci.cloud.gov) Concourse instances, and take a look at some of [our pipelines](https://github.com/18F?utf8=%E2%9C%93&query=cg-deploy)
