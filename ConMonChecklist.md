@@ -57,6 +57,7 @@ Starting approximately at that meeting:
 	- [ ] We corrected any items that our process indicated were incorrect last time.
 	- [ ] We moved any web scanner items that should be moved to closed (items originally found by a scanner where we have new scans that prove these things are fixed).
 	- [ ] We moved any OS and database scanner items that should be moved to closed (items originally found by a scanner where we have new scans that prove these things are fixed).
+	- [ ] All Nessus items have their Weakness Source Identifier (plug-in ID) filled out in Column F.
 	- [ ] We listed any new identified web vulnerabilities. (Discard the ones listed as false positives in the SAR, table E-2.)
 	- [ ] We listed any new identified OS and database vulnerabilities.
 	- [ ] We did a final check to make sure all columns include recent and accurate info.
