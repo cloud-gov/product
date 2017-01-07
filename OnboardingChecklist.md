@@ -26,6 +26,9 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 
 ### Getting to know cloud.gov
 - [ ] Take judicious notes on what about this onboarding process or cloud.gov is confusing or frustrating. If you notice a problem (especially with things like documentation), you are more than welcome to fix it! At the very least, please share this information with your buddy (or someone) at some point so we can make the team/platform better. (You can also file issues and pull requests on [the template for Onboarding issues](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md).)
+- [ ] Figure out who your onboarding buddy is (they should reach out to you) and make sure this issue is assigned to them.
+- [ ] Read [the team onboarding document](https://github.com/18F/cg-product/blob/master/Onboarding.md) for more context about cloud.gov.
+- [ ] Check out the [cloud.gov team roster sheet](https://docs.google.com/spreadsheets/d/1mW3tphZ98ExmMxLHPogSpTq8DzYr5Oh8_SHnOTvjRWM/edit#gid=0) to get a sense of who's working on cloud.gov and in what capacity. (Note that we work closely with the [18F Infrastructure](https://github.com/18F/infrastructure) team, but they're not considered part of the cloud.gov team.)
 - [ ] Bookmark the [pertinent links listed here](https://github.com/18F/cg-product/blob/master/PertinentLinks.md).
 - [ ] Figure out who your onboarding buddy is (they should reach out to you) and make sure this issue is assigned to them.
 - [ ] Read the documents and links in the "cloud.gov" section of the [reading list](https://github.com/18F/cg-product/blob/master/ReadingList.md).
@@ -44,6 +47,7 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] Read the documents and links in the "required" section of the [reading list](https://github.com/18F/cg-product/blob/master/ReadingList.md).
 - [ ] Coordinate with your onboarding buddy to go through Incident Response Training within 60 days of joining the team (and annually after that).
 - [ ] Coordinate with your onboarding buddy to go through Contingency Planning training within 10 days if you'll be taking on a significant role in our Contingency Planning processes (or annually if not).
+- [ ] Coordinate with your onboarding buddy to go through [nonpublic information training](https://docs.google.com/presentation/d/1uB4MlGCu8ZYUxjKVZKwicQ95MvLxaT4Mh93y6w79GPw/edit#slide=id.p) within 60 days of joining the team (and annually after that).
 - [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various squads.
 - [ ] Subscribe (through the GitHub watch function) to the [cg-site](https://github.com/18F/cg-site) GitHub repository notifications.
 
@@ -57,11 +61,11 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Bookmark [the Atlas kanban board view](https://github.com/18F/cg-product#boards?labels=Atlas&showPRs=false).
 - [ ] Join the #cloud-gov-atlas channel on Slack.
 - [ ] [Set up Cloud Foundry locally](https://docs.cloud.gov/ops/creating-a-local-dev-environment-in-Virtual-Box/) and push an app to it.
+- [ ] Join [the cloud.gov operations notifications Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-notifications), so you can see alert information if PagerDuty is unavailable
 - [ ] Join [the Cloud Foundry Slack](http://slack.cloudfoundry.org/).
 
 #### Agent Q-specific items
 - [ ] Read the documents and links in the "Cloud Operations" section of the [reading list](https://github.com/18F/cg-product/blob/master/ReadingList.md).
-- [ ] Bookmark [the Atlas kanban board view](https://github.com/18F/cg-product#boards?labels=Atlas&showPRs=false).
 - [ ] Bookmark [the Agent Q kanban board view](https://github.com/18F/cg-product#boards?labels=AgentQ&showPRs=false).
 - [ ] Join the #cloud-gov-agent-q channel on Slack.
 - [ ] Join [the Cloud Foundry Slack](http://slack.cloudfoundry.org/).
@@ -74,12 +78,12 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Ping @standup-bot for instructions on front end channel standup.
 - [ ] Bookmark link to [design folder](https://drive.google.com/drive/u/1/folders/0BwLqM4Nicmq-bUt0NjRjclFMUEU).
 - [ ] [Request access to 18F Google Analytics](https://handbook.18f.gov/google-analytics/), so you can view cloud.gov site analytics ([including for the dashboard](https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit)).
-- [ ] Ask for an invite to a DigitalGov Search account for cg-docs, so you can configure it and view analytics.
+- [ ] Ask for an invite to a DigitalGov Search account for cg-site, so you can configure it and view analytics.
 
 ##### If developing
 - [ ] Set up the [landing/docs page](https://github.com/18F/cg-site), [dashboard](https://github.com/18F/cg-dashboard), and [cg-style](https://github.com/18F/cg-style) locally.
 - [ ] Set up cg-style to be [linked to the other sites locally](https://github.com/18F/cg-style#development-and-contributing-setup).
-- [ ] Have cloud.gov person send the cg-dashboard testing env vars through Fugacious.
+- [ ] Have a cloud.gov person send the `cg-dashboard` testing environment variables through Fugacious.
 
 #### HighBar-specific items
 - [ ] Read the documents and links in the "Highbar" section of the [reading list](https://github.com/18F/cg-product/blob/master/ReadingList.md).
@@ -87,6 +91,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Join the #cloud-gov-highbar channel on Slack.
 
 ---
+
 ## Buddy checklist
 - [ ] Introduce yourself to the new team member and give them some of your background so they know who you are.
 - [ ] Identify a straightforward, well-groomed story in progress that involves their skills domain, schedule a meeting with the owner for an introduction (if it's not you), and setup pairing sessions several times in the first week on the project.
@@ -98,14 +103,16 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 These items help us fulfill security and compliance requirements (including for FedRAMP).
 
 - [ ] Make sure they're in [the list of people working on the project](https://docs.google.com/spreadsheets/d/1mW3tphZ98ExmMxLHPogSpTq8DzYr5Oh8_SHnOTvjRWM/edit#gid=0).
+- [ ] Add their name, whether they're Cloud Ops (Atlas/AgentQ), and the date they joined the team to the [training tracker](https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0).
 - [ ] Add them to the @cloud-gov-team [in Slack’s Team Directory](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group), which also adds them to the right channels (or ask #admins-slack if you don't have permission to do this).
 - [ ] Add them to the recurring cloud.gov meetings that are relevant for them in [the team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles).
 - [ ] Ask `#admins-github` to add them to the [@18F/cloud.gov team](https://github.com/orgs/18F/teams/cloud-gov) on GitHub.
+- [ ] Ask `#cloud-gov-skyporter` to add them to [Zendesk](https://cloud-gov.zendesk.com), so they can see how we handle non-18F support and get visibility of technical discussions happening with outside groups.
 
 ### Atlas-specific required items
 
 - [ ] Help them review and understand the responsibilities of becoming a Cloud Operations team member, as outlined in our SSP. (See [reading list](https://github.com/18F/cg-product/blob/master/ReadingList.md) -- specific sections to come).
-- [ ] Grant all appropriate access as outlined in the [Atlas/AgentQ access list](https://github.com/18F/cg-product/blob/masterAccessList.md). 
+- [ ] Grant all appropriate access as outlined in the [Atlas/AgentQ access list](https://github.com/18F/cg-product/blob/AccessList.md). 
 - [ ] Give them a walkthrough of cloud.gov from an architecture and repository perspective.
    - Illustrate the relationship between external repos and our `cg-deploy` repositories.
    - Walk them through the basics of working with Cloud Foundry, BOSH and Concourse/fly as the team does on a daily basis.
