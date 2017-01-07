@@ -17,8 +17,12 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] Read and understand our policy about [protecting sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information) in the context of maintaining the vast majority of our documentation in public.
 - [ ] Read the [Incident Response Guide](https://docs.cloud.gov/ops/security-ir/).
 - [ ] Read the [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/).
-- [ ] Read the [Continuous Monitoring Plan](https://drive.google.com/file/d/0B1cewEqKcWCbZlFuQklZVWpLV1k/view), particularly section 2.5.
+- [ ] Read the [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), particularly the [cloud.gov team responsibilities](https://cloud.gov/docs/ops/continuous-monitoring/#cloud-gov-team).
 - [ ] Read the [Configuration Management Plan](https://docs.cloud.gov/ops/configuration-management/).
+- [ ] Read our [sharing secret keys](https://cloud.gov/docs/ops/secrets/#sharing-secret-keys) policy.
+- [ ] Review the [18F requirements for password management](https://handbook.18f.gov/password-requirements/).
+- [ ] Review the [18F open source policy guidance about protecting sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information).
+
 
 ### Cloud Operations (Atlas & AgentQ)
 #### Comprehensive 
