@@ -15,8 +15,8 @@
 ## Permissions/Memberships
 - [ ] GitHub (ask in #admins-github on Slack)
    - [18F organization](https://github.com/18F)
-   - Team (cloud-gov-ops for full-timers, cloud-gov-contractors for contractors)
-   - **Contractors must have cleared GSA security review before this task can be completed**
+   - Team [cloud-gov-ops](https://github.com/orgs/18F/teams/cloud-gov-ops) **Contractors must have cleared GSA security review before this task can be completed**
+   - Team [cloud-gov-contractors](https://github.com/orgs/18F/teams/cloud-gov-contractors) for contractors
 - [ ] Member of the @cloud-gov-team group in Slack ([add them](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group) or ask in #admins-slack)
 - [ ] [Grafana](https://metrics.fr.cloud.gov) (access to appropriate dashboards)
 - [ ] Google Drive -- [team folder](https://drive.google.com/drive/folders/0B84F26FpUP0lR1B2VVNGSi1MMVk), etc.
