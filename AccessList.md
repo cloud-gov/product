@@ -1,7 +1,7 @@
 # Access list for Atlas/AgentQ
 
 ## Credentials
-- [ ] UAA with admin privileges -- grants access to:
+- [ ] [Make them a cloud.gov admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) -- grants access to:
    - All CloudFoundry orgs & spaces for troubleshooting
    - Grafana (but not all dashboards by default; see below)
 - [ ] [AWS E/W](http://console.aws.amazon.com/)
