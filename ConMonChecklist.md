@@ -66,3 +66,5 @@ Starting approximately at that meeting:
 - [ ] We updated our [POAM issues list](https://github.com/18F/cg-product/labels/POAM) with current info, to help us keep track of everything.
 
 - [ ] We opened a PR to update our [ConMon checklist template](https://github.com/18F/cg-product/blob/master/ConMonChecklist.md) with any changes from this month.
+
+- [ ] We filed an issue for next month, using the checklist template.
