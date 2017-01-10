@@ -28,7 +28,7 @@ In order for us to update the JAB on our compliance in a consistent way, we need
 
 As soon as possible:
 
-- [ ] We've scheduled a 15 min meeting for approximately a week before [due date] (adjusted for any holidays or OOO), with anyone on the cloud.gov who is involved in compliance work this month (including at least one Cloud Operations person).
+- [ ] We've scheduled a 15 min meeting for some reasonable date a few days before the 23rd, inviting anyone on the cloud.gov who is involved in compliance work this month (including at least one Cloud Operations person).
 - [ ] We've put an item on the cloud.gov calendar for the business day before the due date ("ConMon report due by COB [FedRAMP]"), as a reminder to ourselves.
 
 Starting approximately at that meeting:
