@@ -4,12 +4,12 @@
 
 After delivery of a monthly ConMon report:
 
-1. Create a new issue in `cg-product` called "Deliver ConMon report for [due date]"
-1. View the raw source of this file
-1. Copy everything below the line into the new issue's body
-1. Replace [due date] in title and body with the next due date
-1. Put it into the "Ready" pipeline, add the HighBar label, and add it to the FedRAMP-related-work epic for that quarter
-1. Submit the issue
+1. Create a new issue in `cg-product` called "Deliver ConMon report for [due date]". Our standard due date is the 2nd of the month. If that date falls on a weekend or federal holiday, the due date is the last business day before the 2nd.
+1. View the raw source of this file.
+1. Copy everything below the line into the new issue's body.
+1. Replace [due date] in title and body with the next due date.
+1. Put it into the "Ready" pipeline, add the HighBar label, and add it to the FedRAMP-related-work epic for that quarter.
+1. Submit the issue.
 
 ---
 
@@ -28,11 +28,12 @@ In order for us to update the JAB on our compliance in a consistent way, we need
 
 As soon as possible:
 
-- [ ] We've scheduled a 15 min Highbar squad meeting for approximately a week before [due date] (adjusted for any holidays or OOO).
+- [ ] We've scheduled a 15 min meeting for approximately a week before [due date] (adjusted for any holidays or OOO), with anyone on the cloud.gov who is involved in compliance work this month (including at least one Cloud Operations person).
+- [ ] We've put an item on the cloud.gov calendar for the business day before the due date ("ConMon report due by COB [FedRAMP]"), as a reminder to ourselves.
 
 Starting approximately at that meeting:
 
-- [ ] We had a 15 min Highbar squad meeting to go over the checklist, assign sub-tasks (label each task with [@-name] for the person assigned to it), and adjust the checklist as necessary. When possible, assign a pair of people for each scanning task so that more of us learn how to grab these.
+- [ ] We had a 15 min meeting to go over the checklist, assign sub-tasks (label each task with [@-name] for the person assigned to it), and adjust the checklist as necessary. When possible, assign a pair of people for each scanning task so that more of us learn how to grab these.
 
 * On approximately the 23rd of the month, we ran OWASP ZAP on the following domains (using [steps #1-6 of these manual scanning instructions](https://pages.18f.gov/before-you-ship/security/dynamic-scanning/#manual-scanning), authenticated, passive):
 	- [ ] https://ci.fr.cloud.gov/ - requires Cloud Ops auth
