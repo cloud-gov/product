@@ -36,9 +36,9 @@ We've structured our team into 5 squads, each centered around a different [theme
  - [Board view](https://github.com/18F/cg-product#boards?labels=Navigator&showPRs=false)
 
 - SkyPorter:
- - Bernd Verst, Diego Lapiduz, James Hupp (Nikki Zeichner, PM)
+ - Nikki Zeichner (product owner), James Hupp (content strategist)
  - Comm channel: #cloud-gov-skyporter and group messages
- - Skills involved: customer relations, training, business process engineering, support, content
+ - Skills involved: user research, content strategy + design
  - [Board view](https://github.com/18F/cg-product#boards?labels=SkyPorter&showPRs=false)
 
 ## Kanban process
