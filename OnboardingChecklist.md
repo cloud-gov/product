@@ -125,7 +125,10 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 
 - [ ] Join #cloud-gov-business, #cloud-gov-investments, and #products-platforms.
 - [ ] Ask Program Manager or Director for access to the cg-supportstream Slack channel.
-- [ ] Ask Program Manager or Director for access to cloud-gov-inquiries group.
+- [ ] Ask Program Manager or Director for access to the [cloud-gov-inquiries](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries), [cloud-gov-support](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-support), and [cloud-gov-notifications](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-notifications) groups.
+- [ ] Ask #admins-salesforce for access to [Salesforce](https://gsa-peo.my.salesforce.com).
+- [ ] Bookmark the [cloud.gov opportunities](https://gsa-peo.lightning.force.com/one/one.app#/sObject/00Ot0000000mFIxEAM/view?t=1484708635668) report in Salesforce.
+- [ ] Ask Program Manager or Director for view-only access to admin interfaces for [GovCloud](https://admin.fr.cloud.gov) and [E/W](https://admin.cloud.gov).
 
 ---
 ## Buddy checklist
