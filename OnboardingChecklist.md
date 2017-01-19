@@ -5,14 +5,14 @@
 When someone new joins the cloud.gov team:
 
 1. Create a new issue in `cg-product` called "Ramp up [person's name] on cloud.gov team".
-2. View the raw source of this file
-3. Copy everything below the line into the new issue's body
-4. Replace "NewPerson" with the new person's name
-5. Replace "Buddy" with the onboarding buddy's name
-4. Delete any checklists irrelevant for the new person's skill domain (theme)
-5. Submit the issue
-6. Assign the issue to the person who bravely volunteered to be the new person's Onboarding Buddy
-7. Put the issue into the "In Progress" pipeline in ZenHub
+2. View the raw source of this file.
+3. Copy everything below the line into the new issue's body.
+4. Replace "NewPerson" with the new person's name.
+5. Replace "Buddy" with the onboarding buddy's name.
+4. Delete any checklists irrelevant for the new person's skill domain (theme).
+5. Submit the issue.
+6. Assign the issue to the person who bravely volunteered to be the new person's Onboarding Buddy.
+7. Put the issue into the "In Progress" pipeline in ZenHub.
 
 ---
 
@@ -20,6 +20,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 
 # Directions:
 **NewPerson and Buddy:** Try to go through your checklists in order.
+
 **Buddy:** If you can’t complete any of the items on your checklist personally, _you are responsible for ensuring that an appropriate person does it_.
 
 ## New Person checklist
