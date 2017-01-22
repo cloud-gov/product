@@ -30,7 +30,7 @@ We've structured our team into 5 squads, each centered around a different [theme
  - [Board view](https://github.com/18F/cg-product#boards?labels=HighBar&showPRs=false)
 
 - Navigator:
- - Victor Zapanta (design lead), Dan O. Williams, Marco Segreto (engineering lead), Aaron Borden, Scott Weber (Andrew Suprenant, PM)
+ - Marco Segreto (engineering lead), Aaron Borden (Andrew Suprenant, PM)
  - Comm channel: #cloud-gov-navigator, #cloud-gov-nav-news and group messages
  - Skills involved: UX research, UI design, front-end dev
  - [Board view](https://github.com/18F/cg-product#boards?labels=Navigator&showPRs=false)
