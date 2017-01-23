@@ -140,7 +140,7 @@ Required for compliance:
 - Test coverage exists and overall coverage hasn't been reduced.
 - User-facing and internal operation docs have been updated.
 - Demoable to other people in their own time (e.g., staging environment, published branch).
-- Any deployment is repeatable (e.g., at least documented to increase bus-factor beyond one) and if possible automated via CI/CD.
+- Any deployment is repeatable (e.g., at least documented to increase [bus factor](https://en.wikipedia.org/wiki/Bus_factor) beyond one) and if possible automated via CI/CD.
  - If the deployment is difficult to automate, then a story for making it automated is created at the top of `New Issues`.
 - Deployment happens in the AWS GovCloud deployment (not just AWS East/West).
 
