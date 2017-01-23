@@ -127,8 +127,9 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Join #products-platforms and all of the #cloud-gov-[everything] channels (it's ok to mute or leave some later).
 - [ ] Ask Program Manager or Director for access to the cg-supportstream Slack channel.
 - [ ] Ask Program Manager or Director for access (and ownership if appropriate) to the [cloud-gov-inquiries](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries), [cloud-gov-support](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-support), [cloud-gov-notifications](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-notifications), and [cloud-gov-emergency](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-emergency) groups.
+- [ ] Read [how the cloud-gov-emergency group works](https://docs.google.com/document/d/1O5UW1M-XX8YIZJV1OcF1EqGWjPnNUi7L0mZpJZ6d-cs/edit#), and set up push notifications for these emails from your work smartphone if appropriate for your role.
 - [ ] Ask #admins-salesforce for access to [Salesforce](https://gsa-peo.my.salesforce.com).
-- [ ] Bookmark the [cloud.gov opportunities](https://gsa-peo.lightning.force.com/one/one.app#/sObject/00Ot0000000mFIxEAM/view?t=1484708635668) report in Salesforce.
+- [ ] In Salesforce, bookmark the [cloud.gov opportunities](https://gsa-peo.lightning.force.com/one/one.app#/sObject/00Ot0000000mFIxEAM/view?t=1484708635668) report.
 - [ ] [If not also Cloud Ops] Ask Program Manager or Director for view-only access to admin interfaces for [GovCloud](https://admin.fr.cloud.gov) and [E/W](https://admin.cloud.gov).
 
 ---
