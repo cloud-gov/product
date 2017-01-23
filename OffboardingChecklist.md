@@ -43,6 +43,7 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove them from the project in Float
 - [ ] Remove their membership in cloud.gov-specific Trello boards (eg the business-tracker)
 - [ ] Remove them from DigitalGov Search access for cg-site
+- [ ] Remove them from Nessus
 
 
 ## Cloud Operations
