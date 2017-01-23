@@ -104,7 +104,6 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Set up `cg-style` to be [linked to the other sites locally](https://github.com/18F/cg-style#development-and-contributing-setup).
 - [ ] Have a cloud.gov person send the `cg-dashboard` testing environment variables through Fugacious.
 
-
 ##### For review
 - [ ] Review the [design principles wiki](https://github.com/18F/cg-product/wiki) which explains the thinking behind the product and where that thinking comes from.
 - [ ] Review the [design resource request document](https://docs.google.com/document/d/1s96VP6PB7fbc8g_GwgAZ1hCPmew-J35ZOJx772c1AZ4/edit) if you haven’t already to get a sense of your role on the project.
@@ -122,12 +121,22 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Do a cursory read of [Before You Ship](https://pages.18f.gov/before-you-ship/).
 - [ ] Read [the intro to Compliance Masonry](https://github.com/opencontrol/compliance-masonry#readme).
 
+### Business unit-specific items
+
+- [ ] Join #products-platforms and all of the #cloud-gov-[everything] channels (it's ok to mute or leave some later).
+- [ ] Ask Program Manager or Director for access to the cg-supportstream Slack channel.
+- [ ] Ask Program Manager or Director for access (and ownership if appropriate) to the [cloud-gov-inquiries](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries), [cloud-gov-support](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-support), [cloud-gov-notifications](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-notifications), and [cloud-gov-emergency](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-emergency) groups.
+- [ ] Ask #admins-salesforce for access to [Salesforce](https://gsa-peo.my.salesforce.com).
+- [ ] Bookmark the [cloud.gov opportunities](https://gsa-peo.lightning.force.com/one/one.app#/sObject/00Ot0000000mFIxEAM/view?t=1484708635668) report in Salesforce.
+- [ ] [If not also Cloud Ops] Ask Program Manager or Director for view-only access to admin interfaces for [GovCloud](https://admin.fr.cloud.gov) and [E/W](https://admin.cloud.gov).
+
 ---
 ## Buddy checklist
 - [ ] Introduce yourself to the new team member and give them some of your background so they know who you are.
 - [ ] Identify a straightforward, well-groomed story in progress that involves their skills domain, schedule a meeting with the owner for an introduction (if it's not you), and setup pairing sessions several times in the first week on the project.
 - [ ] Identify a straightforward, well-groomed first story, ideally something they could conceivably complete in their first two/three weeks using their existing skills. Discuss the context with them, then make them the assignee for the card.
 - [ ] Make suggestions for how the onboarding experience could have been improved as PRs on [the onboarding template](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md).
+- [ ] Ask the Program Manager or Director to add the person to [Zendesk](https://cloud-gov.zendesk.com), so they can see how we handle non-18F support and read technical discussions happening with outside groups.
 
 ### Required items for all team members
 
@@ -138,8 +147,6 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] Add them to the @cloud-gov-team [in Slack’s Team Directory](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group), which also adds them to the right channels (or ask #admins-slack if you don't have permission to do this).
 - [ ] Add them to the recurring cloud.gov meetings that are relevant for them in [the team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles).
 - [ ] Ask `#admins-github` to add them to the [@18F/cloud.gov team](https://github.com/orgs/18F/teams/cloud-gov) on GitHub.
-- [ ] Ask `#cloud-gov-skyporter` to add them to [Zendesk](https://cloud-gov.zendesk.com), so they can see how we handle non-18F support and get visibility of technical discussions happening with outside groups.
-
 
 ### Atlas-specific required items
 
