@@ -94,8 +94,8 @@ Before advancing a card from one column to the next on the board, it should meet
 
 #### New
 
-- Relevant points from any discussion in the comments is captured in the initial post
-- Decision is made to move to the Backlog or Icebox columns, or close
+- Relevant points from any discussion in the comments is captured in the initial post.
+- Decision is made to move to the Backlog or Icebox columns, or close.
 
 #### Backlog
 
@@ -113,8 +113,8 @@ Before advancing a card from one column to the next on the board, it should meet
 
 - Has testable/demoable Acceptance Criteria that we expect to be able to check off to help us understand when the work is done. (Try wording them as [Gherkin](https://en.wikipedia.org/wiki/Behavior-driven_development#Behavioural_specifications), and use [GFM checklists](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments) for them).
 - Discussed by the team and implementation sketched (use more checklists here).
-- The scope of the work is easily doable in a few days (else split it!)
-- Any authentication/authorization and data persistence points are discussed and requirements are addressed via Acceptance Criteria (eg "Authenticate using [login.cloud.gov]" or "Any ephemeral data resulting from usage is backed up/recoverable").
+- The scope of the work is easily doable in a few days (otherwise, split it!).
+- Any authentication/authorization and data persistence points are discussed and requirements are addressed via Acceptance Criteria (e.g., "Authenticate using [login.cloud.gov]" or "Any ephemeral data resulting from usage is backed up/recoverable").
 - There's a communication plan for any user-visible changes which require their attention/action.
 
 Required for compliance: 
@@ -129,18 +129,18 @@ Required for compliance:
 #### Ready
 
 - No info or assistance is needed from outside the team to start work and likely finish it.
-- There's capacity available to work on the story (eg this column is a buffer of shovel-ready work).
+- There's capacity available to work on the story (e.g., this column is a buffer of shovel-ready work).
 
 #### In Progress
 
 - Acceptance criteria are demonstrably met.
 - Relevant tasks complete, irrelevant checklists removed or captured on a new story.
 - Follows documented coding conventions.
-- Pair-programmed or peer-reviewed (eg use pull-requests).
+- Pair-programmed or peer-reviewed (e.g., use pull-requests).
 - Test coverage exists and overall coverage hasn't been reduced.
 - User-facing and internal operation docs have been updated.
-- Demoable to other people in their own time (eg staging environment, published branch).
-- Any deployment is repeatable (eg at least documented to increase bus-factor beyond one) and if possible automated via CI/CD.
+- Demoable to other people in their own time (e.g., staging environment, published branch).
+- Any deployment is repeatable (e.g., at least documented to increase [bus factor](https://en.wikipedia.org/wiki/Bus_factor) beyond one) and if possible automated via CI/CD.
  - If the deployment is difficult to automate, then a story for making it automated is created at the top of `New Issues`.
 - Deployment happens in the AWS GovCloud deployment (not just AWS East/West).
 
