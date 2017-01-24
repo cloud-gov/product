@@ -30,10 +30,16 @@ We've structured our team into 5 squads, each centered around a different [theme
  - [Board view](https://github.com/18F/cg-product#boards?labels=HighBar&showPRs=false)
 
 - Navigator:
- - Marco Segreto (engineering lead), Aaron Borden (Andrew Suprenant, PM)
+ - Marco Segreto (engineering lead), Aaron Borden
  - Comm channel: #cloud-gov-navigator, #cloud-gov-nav-news and group messages
  - Skills involved: UX research, UI design, front-end dev
  - [Board view](https://github.com/18F/cg-product#boards?labels=Navigator&showPRs=false)
+
+- Migration:
+ - James Scott, Fureigh, Gilbert Morgan (Andrew Suprenant, PM)
+ - Comm channel: #cloud-gov-migration and group messages
+ - Skills involved: Python, Ruby, Go, Networking, account management, comms
+ - [Board view](https://github.com/18F/cg-migration#boards?labels=migration&notFullScreen=false&repos=29991068,72470962,56184868,55727091&showPRs=false)
 
 - SkyPorter:
  - Nikki Zeichner (product owner), James Hupp (content strategist)
