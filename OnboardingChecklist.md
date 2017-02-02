@@ -40,6 +40,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Read the [Delivery Process document](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) to learn about how we work.
 - [ ] Join [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov) so you can participate in teamwide internal communication.
 - [ ] Join the [cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries) so you can keep apprised of prospective new clients.
+- [ ] In the Slack channel #cloud-gov-program, request access to ZenDesk, which we use for support communications.
 - [ ] Join the Slack channel #cg-supportstream, used for backchanneling on support interactions.
 - [ ] Consider joining [Cloud Foundry's Slack channels] (https://slack.cloudfoundry.org/) (we sometimes talk to folks in #gov and #gov-private – you'll need a team member to invite you to the latter).
 - [ ] Figure out what themes you're likely to work in, and complete the checklist below that relates to it.
