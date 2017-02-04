@@ -11,16 +11,12 @@ The cloud.gov team practices Scrumban, which means we practice [Kanban](http://b
 ## Squads
 We've structured our team into 5 squads, each centered around a different [theme](https://github.com/18F/cg-product#sub-teamsthemes-of-work), and generally working on features under that theme:
 
-- AgentQ:
- - Steve Harms, Josh Carp (Bret Mogilefsky, PM)
- - Comm channel: #cloud-gov-agent-q and group messages
- - Skills involved: Clojure, Ruby, Golang, Python, Bash; Linux, Infrastructure, Networking, Automation; Monitoring
- - [Board view](https://github.com/18F/cg-product#boards?labels=AgentQ&showPRs=false)
- 
-- Atlas:
- - Adam Kendall, Chris Nelson, Dan Shick (Bret Mogilefsky, PM)
- - Comm channel: #cloud-gov-atlas and group messages
- - Skills involved: SRE skills like Terraform, BOSH, etc.
+- Atlas/AgentQ:
+ - Adam Kendall, Chris Nelson, Josh Carp, Roger Ruiz, Steve Harms (Bret Mogilefsky, PM)
+ - Comm channel: #cloud-gov-atlas and #cloud-gov-agent-q
+ - Skills involved:
+  - Atlas: SRE skills like Terraform, BOSH, etc.
+  - AgentQ: Clojure, Ruby, Golang, Python, Bash; Linux, Infrastructure, Networking, Automation; Monitoring
  - [Board view](https://github.com/18F/cg-product#boards?labels=Atlas&showPRs=false)
 
 - HighBar:
