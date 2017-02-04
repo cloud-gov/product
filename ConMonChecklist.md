@@ -4,11 +4,11 @@
 
 After delivery of a monthly ConMon report:
 
-1. Create a new issue in `cg-product` called "Deliver ConMon report for [due date]". Our standard due date is the 2nd of the month. If that date falls on a weekend or federal holiday, the due date is the last business day before the 2nd.
+1. Create a new issue in the cloud.gov task tracker called "Deliver ConMon report for [due date]". Our standard due date is the 2nd of the month. If that date falls on a weekend or federal holiday, the due date is the last business day before the 2nd.
+1. Categorize it as "Ready", in the Highbar theme of work, and in the FedRAMP-related-work category for that quarter.
 1. View the raw source of this file.
 1. Copy everything below the line into the new issue's body.
 1. Replace [due date] in title and body with the next due date.
-1. Put it into the "Ready" pipeline, add the HighBar label, and add it to the FedRAMP-related-work epic for that quarter.
 1. Submit the issue.
 
 ---
