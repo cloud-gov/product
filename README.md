@@ -27,8 +27,9 @@ Here are the themes of work we've identified so far and the products for which t
   - The Navigator theme aims to make infrastructure and deployment self-service and easy to use, and ensure people can find answers when they need them.
   - Navigator encompasses all the user- and tenant-facing features of cloud.gov. That includes UX for web UI, billing workflow, as well as overall design, branding, IA, and integration in our customer-facing presence.
 - [SkyPorter](https://github.com/18F/cg-product#boards?labels=SkyPorter&showPRs=false) (#cloud-gov-skyporter)
-  - SkyPorter encompasses actively helping federal teams get access to cloud infrastructure and use it effectively.
-  - Skyporter includes evangelism, wrangling IAAs, onboarding/training, first-tier support, documentation curation, billing interactions, etc. As such SkyPorter basically acts as the "front-office", representing the product in direct communication with our customers as they progress from the what-is-this-thing to the productively-using-the-platform-on-their-own stage.
+  - SkyPorter fouses on designing the customer experience of cloud.gov from a prosepctive customer's inquiry about the product through a new customer's onboarding and early use. This includes ongoing user research to understand customer needs and to improve customer interactions, content strategy (including content development and information architecture for our website) to educate customers about our offerings, and other work related to evangelism and training. 
+  
+In addition to squads, we have a business unit (BU), which, in addition to guiding cloud.gov's business-related decisions, acts as the "front-office" for our customers an stakeholders. The BU consists of cloud.gov's Director and Deputy Director and represents the product in direct communication with customers as they progress from the what-is-this-thing to the productively-using-the-platform-on-their-own stage.
 
 We keep separate backlogs, kanban boards, etc. reflecting each of these themes of work. The [`cg-product` kanban board](https://github.com/18F/cg-product#boards) consolidates the activity of all of these sub-themes into a single view as they fan out into assorted GitHub repositories. To get a view reflecting only one of the themes, use the label filter above the board.
 
