@@ -1,7 +1,9 @@
 
 # Delivery process
 
-The cloud.gov team practices Scrumban, which means we practice [Kanban](http://blog.crisp.se/2009/06/26/henrikkniberg/1246053060000) around cardwall-style boards that track work from left-to-right as it is identified, prioritized, explored, delivered, and demonstrated. We augment Kanban with a subset of Scrum activities: 
+The cloud.gov team follows [the Scaled Agile Framework] (http://www.scaledagileframework.com/) (SAFe) to set its working cadence. Under SAFe, we produce work in three month periods called "program increments," or PIs. In addition to this quarterly cadence, we participate in a number of SAFe rituals. 
+
+In managing our day-today work, we practice Scrumban, which means we practice [Kanban](http://blog.crisp.se/2009/06/26/henrikkniberg/1246053060000) around cardwall-style boards that track work from left-to-right as it is identified, prioritized, explored, delivered, and demonstrated. We augment Kanban with a subset of Scrum activities: 
 
 - a rapid (15-minute vidconf) or asynchronous (in Slack) daily standup per theme to communicate about the status of work on the board
 - bi-weekly sprint demos for stakeholders and colleagues of each theme's recent work
@@ -20,8 +22,8 @@ We've structured our team into 5 squads, each centered around a different [theme
  - [Board view](https://github.com/18F/cg-product#boards?labels=Atlas&showPRs=false)
 
 - HighBar:
- - James Scott, Aidan Feldman, Britta Gustafson (Bret Mogilefsky, PM)
- - Comm channel: #cloud-gov-highbar, #cloud-gov-skyporter, and group messages
+ - James Scott, Britta Gustafson (Bret Mogilefsky, PM)
+ - Comm channel: #cloud-gov-highbar, and group messages
  - Skills involved: UI design, account management, comms and content
  - [Board view](https://github.com/18F/cg-product#boards?labels=HighBar&showPRs=false)
 
@@ -40,8 +42,11 @@ We've structured our team into 5 squads, each centered around a different [theme
 - SkyPorter:
  - Nikki Zeichner (product owner), James Hupp (content strategist)
  - Comm channel: #cloud-gov-skyporter and group messages
- - Skills involved: user research, content strategy + design
+ - Skills involved: user research, service design, content strategy including drafting and information architecture design
  - [Board view](https://github.com/18F/cg-product#boards?labels=SkyPorter&showPRs=false)
+
+## Business Unit
+Cloud.gov's business unit (BU) focuses on business strategy and development as well as first tier customer support. Currently, the BU consists of Steve Harms (Acting Director) and Britta Gustafson (Acting Deputy Director). Thier comms channel is #cloud-gov-business. 
 
 ## Kanban process
 
@@ -52,7 +57,7 @@ Kanban basically says cards go through a set of states, but it doesn't say much 
 Cards on our boards capture either a Feature or Story. Each type represents work to be done at a particular level of detail.
 
 - **Features** are user-notable, program-sequenced, roadmap-worthy changes in product capabilities tracked against cadence-driven periodic milestones... big stuff that's worth planning and announcing on a regular basis. Features are fairly general, referring to stories which break down the actual changes in product behavior that we're after to get the intended benefits of the feature. Generally we do coarse analysis and UX work at the Feature level.
-- **Stories** represent tactical increments of individually-valuable work deliverable by a team within a single iteration... often a single change in functionality aimed at achieving a goal for a particular kind of stakeholder, whether customer, user, or operator/admin.
+- **Stories** represent tactical increments of individually-valuable work deliverable by a team within a single iteration... often a single change in functionality aimed at achieving a goal for a particular kind of stakeholder, whether customer, user, or operator/admin. We set create stories that we anticipate will take three days to complete.
 
 We track both higher-level features and their constituent stories on the same boards. 
 
@@ -67,9 +72,11 @@ The sequence of columns goes left-to-right, but a different subset is used depen
 
 **Stories** progress through these columns:
 
-- New (where reported issues, PRs, and newly-identified stories appear)
- - Icebox (when under consideration but not immediately scheduled)
+- New (where reported issues, and newly-identified stories appear)
+- Triage (when under consideration but not immediately scheduled) 
 - Backlog (when they are sequenced against stories prioritized for attention)
+
+*Note that Triage, Backlog, and Icebox lists are over in the left column in Favro. This is becuase those lists tend to get loooooong. By separating them from the board, it remains easy to scroll around when you have multiple boards in your collection.* 
 - Grooming (when they're being refined for implementation)
 - Ready (when they're in a shovel-worthy state, just waiting for team capacity to do the work)
 - In Progress (when someone is actively working on the issue)
