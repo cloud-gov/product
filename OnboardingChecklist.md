@@ -5,14 +5,14 @@
 When someone new joins the cloud.gov team:
 
 1. Create a new issue in `cg-product` called "Ramp up [person's name] on cloud.gov team".
-2. View the raw source of this file
-3. Copy everything below the line into the new issue's body
-4. Replace "NewPerson" with the new person's name
-5. Replace "Buddy" with the onboarding buddy's name
-4. Delete any checklists irrelevant for the new person's skill domain (theme)
-5. Submit the issue
-6. Assign the issue to the person who bravely volunteered to be the new person's Onboarding Buddy
-7. Put the issue into the "In Progress" pipeline in ZenHub
+2. View the raw source of this file.
+3. Copy everything below the line into the new issue's body.
+4. Replace "NewPerson" with the new person's name.
+5. Replace "Buddy" with the onboarding buddy's name.
+4. Delete any checklists irrelevant for the new person's skill domain (theme).
+5. Submit the issue.
+6. Assign the issue to the person who bravely volunteered to be the new person's Onboarding Buddy.
+7. Put the issue into the "In Progress" pipeline in ZenHub.
 
 ---
 
@@ -20,6 +20,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 
 # Directions:
 **NewPerson and Buddy:** Try to go through your checklists in order.
+
 **Buddy:** If you can’t complete any of the items on your checklist personally, _you are responsible for ensuring that an appropriate person does it_.
 
 ## New Person checklist
@@ -28,7 +29,6 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Take judicious notes on what about this onboarding process or cloud.gov is confusing or frustrating. If you notice a problem (especially with things like documentation), you are more than welcome to fix it! At the very least, please share this information with your buddy (or someone) at some point so we can make the team/platform better. (You can also file issues and pull requests on [the template for Onboarding issues](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md).)
 - [ ] Figure out who your onboarding buddy is (they should reach out to you) and make sure this issue is assigned to them.
 - [ ] Read [the team onboarding document](https://github.com/18F/cg-product/blob/master/Onboarding.md) for more context about cloud.gov.
-- [ ] Check out the [cloud.gov team roster sheet](https://docs.google.com/spreadsheets/d/1mW3tphZ98ExmMxLHPogSpTq8DzYr5Oh8_SHnOTvjRWM/edit#gid=0) to get a sense of who's working on cloud.gov and in what capacity. (Note that we work closely with the [18F Infrastructure](https://github.com/18F/infrastructure) team, but they're not considered part of the cloud.gov team.)
 - [ ] Bookmark the [pertinent links listed here](https://github.com/18F/cg-product/blob/master/PertinentLinks.md).
 - [ ] Read the ["What is it?"](https://docs.google.com/presentation/d/1nCcti3dXG9TVGW3OqaWtnf96oXX8U8SBTM_WePFO_dg/edit#slide=id.p) presentation for a rundown of what cloud.gov is and does
 - [ ] Read through [the Overview section of cloud.gov](https://cloud.gov/overview/) for a broader understanding of cloud.gov, especially as we present it to potential customers/users.
@@ -37,7 +37,10 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Check out the [roadmap](https://18f.aha.io/products/CGP/feature_cards) to get a high-level view of recently-completed, in-progress, and upcoming features.
 - [ ] Install the [ZenHub](https://zenhub.io) browser extension to enable you to see kanban boards, hierarchical issues, and burndown charts in GitHub.
 - [ ] Read the [Delivery Process document](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) to learn about how we work.
-- [ ] Join [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov), so you can participate in team-wide internal communication.
+- [ ] Join [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov) so you can participate in teamwide internal communication.
+- [ ] Join the [cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries) so you can keep apprised of prospective new clients.
+- [ ] In the Slack channel #cloud-gov-program, request access to ZenDesk, which we use for support communications.
+- [ ] Join the Slack channel #cg-supportstream, used for backchanneling on support interactions.
 - [ ] Consider joining [Cloud Foundry's Slack channels] (https://slack.cloudfoundry.org/) (we sometimes talk to folks in #gov and #gov-private – you'll need a team member to invite you to the latter).
 - [ ] Figure out what themes you're likely to work in, and complete the checklist below that relates to it.
 - [ ] Once you've finished the remaining checklists below, make suggestions for steps that would have improved your onboarding experience as pull requests on [the onboarding checklist template](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md) used to make this issue.
@@ -104,7 +107,6 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Set up `cg-style` to be [linked to the other sites locally](https://github.com/18F/cg-style#development-and-contributing-setup).
 - [ ] Have a cloud.gov person send the `cg-dashboard` testing environment variables through Fugacious.
 
-
 ##### For review
 - [ ] Review the [design principles wiki](https://github.com/18F/cg-product/wiki) which explains the thinking behind the product and where that thinking comes from.
 - [ ] Review the [design resource request document](https://docs.google.com/document/d/1s96VP6PB7fbc8g_GwgAZ1hCPmew-J35ZOJx772c1AZ4/edit) if you haven’t already to get a sense of your role on the project.
@@ -122,12 +124,22 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Do a cursory read of [Before You Ship](https://pages.18f.gov/before-you-ship/).
 - [ ] Read [the intro to Compliance Masonry](https://github.com/opencontrol/compliance-masonry#readme).
 
+### Business unit-specific items
+
+- [ ] Join #products-platforms and all of the #cloud-gov-[everything] channels (it's ok to mute or leave some later).
+- [ ] Ask Program Manager or Director for access to the cg-supportstream Slack channel.
+- [ ] Ask Program Manager or Director for access (and ownership if appropriate) to the [cloud-gov-inquiries](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries), [cloud-gov-support](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-support), [cloud-gov-notifications](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-notifications), and [cloud-gov-emergency](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-emergency) groups.
+- [ ] Ask #admins-salesforce for access to [Salesforce](https://gsa-peo.my.salesforce.com).
+- [ ] Bookmark the [cloud.gov opportunities](https://gsa-peo.lightning.force.com/one/one.app#/sObject/00Ot0000000mFIxEAM/view?t=1484708635668) report in Salesforce.
+- [ ] [If not also Cloud Ops] Ask Program Manager or Director for view-only access to admin interfaces for [GovCloud](https://admin.fr.cloud.gov) and [E/W](https://admin.cloud.gov).
+
 ---
 ## Buddy checklist
 - [ ] Introduce yourself to the new team member and give them some of your background so they know who you are.
 - [ ] Identify a straightforward, well-groomed story in progress that involves their skills domain, schedule a meeting with the owner for an introduction (if it's not you), and setup pairing sessions several times in the first week on the project.
 - [ ] Identify a straightforward, well-groomed first story, ideally something they could conceivably complete in their first two/three weeks using their existing skills. Discuss the context with them, then make them the assignee for the card.
 - [ ] Make suggestions for how the onboarding experience could have been improved as PRs on [the onboarding template](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md).
+- [ ] Ask the Program Manager or Director to add the person to [Zendesk](https://cloud-gov.zendesk.com), so they can see how we handle non-18F support and read technical discussions happening with outside groups.
 
 ### Required items for all team members
 
@@ -138,8 +150,6 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] Add them to the @cloud-gov-team [in Slack’s Team Directory](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group), which also adds them to the right channels (or ask #admins-slack if you don't have permission to do this).
 - [ ] Add them to the recurring cloud.gov meetings that are relevant for them in [the team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles).
 - [ ] Ask `#admins-github` to add them to the [@18F/cloud.gov team](https://github.com/orgs/18F/teams/cloud-gov) on GitHub.
-- [ ] Ask `#cloud-gov-skyporter` to add them to [Zendesk](https://cloud-gov.zendesk.com), so they can see how we handle non-18F support and get visibility of technical discussions happening with outside groups.
-
 
 ### Atlas-specific required items
 
