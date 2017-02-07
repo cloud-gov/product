@@ -29,7 +29,7 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] If they are leaving 18F ensure the [18F Handbook exit process](https://handbook.18f.gov/leaving-18f/#offboarding-process) has been kicked off via the 18F talent team
 
 
-## System Owner or Program/Product Manager
+## System Owner (or person delegated by System Owner)
 - [ ] Remove them from [GitHub teams that start with cloud-gov](https://github.com/orgs/18F/teams?utf8=%E2%9C%93&query=cloud-gov)
 - [ ] Remove them from the [Cloud Foundry Community GitHub org cloud.gov team](https://github.com/orgs/cloudfoundry-community/teams/cloud-gov)
 - [ ] Remove their access to Zendesk
@@ -49,6 +49,6 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove them from any IAM roles they hold in AWS E/W and GovCloud
 - [ ] [Remove their access as an admin](https://docs.cloud.gov/ops/managing-users/#managing-admins) on the platform
 - [ ] Remove any special Org or Space roles that their cloud.gov account holds
-- [ ] Confirm the System Owner or Program/Product Manager has removed them from all GitHub teams
+- [ ] Confirm the System Owner (or person delegated by System Owner) has removed them from all GitHub teams
 - [ ] Ensure any keys they had direct access to are rotated
 
