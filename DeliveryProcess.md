@@ -32,7 +32,7 @@ We've structured our team into 5 squads, each centered around a different [theme
  - [Board view](https://github.com/18F/cg-product#boards?labels=Navigator&showPRs=false)
 
 - Migration:
- - James Scott, Fureigh, Gilbert Morgan (Andrew Suprenant, PM)
+ - James Scott, Fureigh (Andrew Suprenant, PM)
  - Comm channel: #cloud-gov-migration and group messages
  - Skills involved: Python, Ruby, Go, Networking, account management, comms
  - [Board view](https://github.com/18F/cg-migration#boards?labels=migration&notFullScreen=false&repos=29991068,72470962,56184868,55727091&showPRs=false)
