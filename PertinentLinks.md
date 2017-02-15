@@ -10,6 +10,7 @@ should be bookmarked and encouraged to check on a regular basis.
 - [:cloud:.gov Dashboard][cg-dashboard] :lock:
 - [18F Github][github-eighteenf]
 - [:cloud:.gov Repositories][github-eighteenf-cg]
+- [:cloud:.gov Google Drive folder][cg-drive-folder] :lock:
 
 #### Atlas / Agent Q-specific items
 
@@ -57,6 +58,7 @@ should be bookmarked and encouraged to check on a regular basis.
 [cg-dashboard]: https://dashboard.cloud.gov/
 [cg-continuous-integration]: https://ci.cloud.gov/
 [cg-fr-continuous-integration]: https://ci.fr.cloud.gov/
+[cg-drive-folder]: https://drive.google.com/drive/folders/0Bx6EvBXVDWwheUtVckVnOE1pRzA
 
 [github-eighteenf]: http://github.com/18F/
 [github-eighteenf-cg]: https://github.com/search?utf8=✓&q=org%3A18F+cg-&type=Repositories&ref=searchresults
