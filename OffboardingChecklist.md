@@ -31,7 +31,7 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 ## System Owner (or person delegated by System Owner)
 - [ ] Remove them from [GitHub teams that start with cloud-gov](https://github.com/orgs/18F/teams?utf8=%E2%9C%93&query=cloud-gov)
 - [ ] Remove them from the [Cloud Foundry Community GitHub org cloud.gov team](https://github.com/orgs/cloudfoundry-community/teams/cloud-gov)
-- [ ] Remove their access to Zendesk
+- [ ] [Remove their access to Zendesk](https://cloud-gov.zendesk.com/agent/admin/people)
 - [ ] Remove their access to StatusPage
 - [ ] Remove their access to PagerDuty
 - [ ] Remove their access to New Relic
