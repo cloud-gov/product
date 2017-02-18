@@ -35,6 +35,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Read through [the Overview section of cloud.gov](https://cloud.gov/overview/) for a broader understanding of cloud.gov, especially as we present it to potential customers/users.
 - [ ] Read the [January 2016 cloud.gov "Executive Business Case" document](https://docs.google.com/document/d/138OcG0Lt6gr9J0wM0TzzPNyTROmYAwfLIDujtweiwGw/edit#) for greater context about cloud.gov's potential impact in government.
 - [ ] [Deploy a sample application to cloud.gov](https://cloud.gov/docs/getting-started/your-first-deploy/) to get familiar with the basics of the PaaS from a user's perspective.
+- [ ] Sign up for a [Favro account](https://favro.com/signup) using your GSA Google Account.
 - [ ] Check out the [Favro cloud.gov Program
   board](https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244) and make sure you have access to all our Favro boards.
 - [ ] Check out the [roadmap](https://18f.aha.io/products/CGP/feature_cards) to get a high-level view of recently-completed, in-progress, and upcoming features.
@@ -142,6 +143,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Identify a straightforward, well-groomed first story, ideally something they could conceivably complete in their first two/three weeks using their existing skills. Discuss the context with them, then make them the assignee for the card.
 - [ ] Make suggestions for how the onboarding experience could have been improved as PRs on [the onboarding template](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md).
 - [ ] Ask the Program Manager or Director to add the person to [Zendesk](https://cloud-gov.zendesk.com), so they can see how we handle non-18F support and read technical discussions happening with outside groups.
+- [ ] Ask the Program Manager or Director to add them to the 18F organization in Favro.
 
 ### Required items for all team members
 
