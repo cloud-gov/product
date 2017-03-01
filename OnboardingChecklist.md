@@ -120,7 +120,9 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Review the primary cloud.gov sites: [the dashboard](https://dashboard.cloud.gov/#/), [main landing page](https://cloud.gov/), and [documentation](https://cloud.gov/docs/).
 - [ ] [Request access to 18F Google Analytics](https://handbook.18f.gov/google-analytics/), so you can view cloud.gov site analytics ([including for the dashboard](https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit)).
 - [ ] Ask for an invite to a DigitalGov Search account for cg-site, so you can configure it and view analytics.
-- [ ] Once granted access to New Relic, sign up for email notifications of alerts for [dashboard (e/w)](https://synthetics.newrelic.com/accounts/907948/monitors/bcfacde2-84e2-451d-a9f9-993cb0f6f6f0/alerts), [dashboard (govcloud)](https://synthetics.newrelic.com/accounts/907948/monitors/c4fdd474-0f6c-470a-bf9d-a3d839cea2cb).
+- [ ] Once granted access to New Relic, sign up for email notifications of alerts for:
+  - [dashboard (e/w)](https://synthetics.newrelic.com/accounts/907948/monitors/d3b72eab-dcc8-4090-99aa-3402cdbdba65/alerts)
+  - [dashboard (govcloud)](https://synthetics.newrelic.com/accounts/907948/monitors/c4fdd474-0f6c-470a-bf9d-a3d839cea2cb/alerts)
 
 ##### If developing
 - [ ] Review the [dashboard contributing guide](https://github.com/18F/cg-dashboard/blob/master/CONTRIBUTING.md) and [`cg-style` standards](https://github.com/18F/cg-style/blob/master/documentation/frontend_standards.md) which help frame what we're looking for in code review.
