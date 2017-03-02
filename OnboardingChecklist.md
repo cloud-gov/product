@@ -157,6 +157,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] In Salesforce, bookmark the [cloud.gov opportunities](https://gsa-peo.lightning.force.com/one/one.app#/sObject/00Ot0000000mFIxEAM/view?t=1484708635668) report.
 - [ ] [If not also Cloud Ops] Ask Program Manager or Director for view-only access to admin interfaces for [GovCloud](https://admin.fr.cloud.gov) and [E/W](https://admin.cloud.gov).
 - [ ] [If you're the new Director] Ask #tock to list you as the project contact for cloud.gov lines.
+- [ ] [If you're the new Director] Learn how to access Nessus Manager as the main admin user (part of the platform secret keys).
 
 ---
 ## Buddy checklist
