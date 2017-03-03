@@ -153,7 +153,7 @@ Required for compliance:
 - User-facing and internal operation docs have been updated.
 - Demoable to other people in their own time (e.g., staging environment, published branch).
 - Any deployment is repeatable (e.g., at least documented to increase [bus factor](https://en.wikipedia.org/wiki/Bus_factor) beyond one) and if possible automated via CI/CD.
- - If the deployment is difficult to automate, then a story for making it automated is created at the top of `New Issues`.
+ - If the deployment is difficult to automate, then a story for making it automated is created at the top of `Triage`.
 - Deployment happens in the AWS GovCloud deployment (not just AWS East/West).
 - All UAA accounts are provisioned using the Cloud Foundry secrets or the cloud.gov [service account](https://cloud.gov/docs/services/cloud-gov-service-account/) or [identity provider](https://cloud.gov/docs/services/cloud-gov-identity-provider/) services.
 
@@ -168,7 +168,7 @@ Required for compliance:
 
 - A team-local proxy for the people the story affects reviews and approves the work as meeting acceptance criteria.
 - If the work is suitable to demo at our biweekly sprint review, add a description of it to the [sprint review slide deck](https://docs.google.com/presentation/d/192PxdXMrCS__QcG6-px5x7n4Mp860ZSb_gqCDlrQwiE/edit), ideally including a link to the live work or a screenshot (especially for visual work).
-- If the work as completed is obviously unscalable and will cause problems if we try, then a story for making it scalable is created at the top of `New Issues`.
+- If the work as completed is obviously unscalable and will cause problems if we try, then a story for making it scalable is created at the top of `Triage`.
 
 Required for compliance:
 
@@ -179,9 +179,3 @@ Required for compliance:
 
 - The work is user-visible and announceable at any time.
 
-## Parking Lot (potential future additions)
-
-- Minimizing user disruption
- - How do we ensure system stability for relying teams? 
- - How do we avoid overhead in retraining users due to incremental release? 
- - What conditions might trigger bunching stories for simultaneous release, and how would our criteria capture that status?
