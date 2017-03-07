@@ -14,6 +14,11 @@ On cloud.gov, which has now run for several years with a team size varying from 
 
 ## Planning Increment (PI) planning
 
+Each PI begins with a PI planning session, which is typically conducted over the course of two days with sessions for both the entire team and also squad breakouts. During these, the teams discuss the prioritized features for a given PI, including interdependencies and some implementation details along with risks and a plan for mitigating these. By the end of PI planning, the team should have at least a rough roadmap for each sprint within the PI and, ideally, enough groundwork completed to promptly start the first sprint. 
+
+Of course, these plans may change over the course of the PI as business context shifts and the team learns more about their work, but the team should leave PI planning with clear next steps as well as opportunities to raise any ideas, questions, or concerns.
+
+
 ### Planning artifacts
 
 Key recordable outcomes of PI planning should include:
