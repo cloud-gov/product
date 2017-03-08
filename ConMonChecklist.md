@@ -13,15 +13,13 @@ After delivery of a monthly ConMon report:
 
 In order for us to update the JAB on our compliance in a consistent way, we need to deliver a Continuous Monitoring report on [due date]. We should run the scans on approximately the same day of each month (adjusted for weekends and federal holidays) - approximately the 23rd. For context, see our [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), including [the monthly reporting summary explanation](https://cloud.gov/docs/ops/continuous-monitoring/#monthly-reporting-summary).
 
-**Acceptance criteria**
-
-* By COB on [1 work day before the due date], we've done the following:
-	-  [ ] Uploaded our ConMon POA&M to https://community.max.gov/pages/viewpage.action?pageId=1034682621
-	-  [ ] Uploaded our web scans to https://community.max.gov/display/FedRAMPExternal/GSA+18F+Cloud.gov+Web+Scans
-	-  [ ] Uploaded our OS scans to https://community.max.gov/pages/viewpage.action?pageId=1034682662
-	-  [ ] Uploaded our database (RDS) scans to https://community.max.gov/pages/viewpage.action?pageId=1034682662
-	-  [ ] Uploaded any deviation request forms to https://community.max.gov/display/FedRAMPExternal/GSA+18F+Cloud.gov+Submitted+Deviation+Requests
-	-  [ ] Emailed relevant FedRAMP team members to let them know that's done
+**Acceptance criteria - by COB on [1 work day before the due date], we've done the following**
+-  [ ] Uploaded our ConMon POA&M to https://community.max.gov/pages/viewpage.action?pageId=1034682621
+-  [ ] Uploaded our web scans to https://community.max.gov/display/FedRAMPExternal/GSA+18F+Cloud.gov+Web+Scans
+-  [ ] Uploaded our OS scans to https://community.max.gov/pages/viewpage.action?pageId=1034682662
+-  [ ] Uploaded our database (RDS) scans to https://community.max.gov/pages/viewpage.action?pageId=1034682662
+-  [ ] Uploaded any deviation request forms to https://community.max.gov/display/FedRAMPExternal/GSA+18F+Cloud.gov+Submitted+Deviation+Requests
+-  [ ] Emailed relevant FedRAMP team members to let them know that's done
 
 **As soon as possible after filing this issue**
 
