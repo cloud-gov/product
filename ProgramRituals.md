@@ -11,6 +11,8 @@ On cloud.gov, which has now run for several years with a team size varying from 
  
 ## Planning Increment (PI)
 
+On cloud.gov, a planning increment (also known elsewhere as a [program increment](http://www.scaledagileframework.com/program-increment/)) is a macro cadence for building and validating system components. The PI is composed of approximately five to six sprints where the program team selects a maximum of ten high-level features on which to work. The PI basically matches a quarterly calendar so is both useful for higher-level roadmapping and also giving the team enough (but not too much) time to make progress against these features before reevaluating and beginning a new increment. 
+
 
 ## Planning Increment (PI) planning
 
