@@ -29,11 +29,9 @@ Program-level work, such as program-level stand-up and sprint review meetings, s
 
 Whenever possible, we err on the side of putting data where the public can see it. Some data might be kept in Google Drive for convenience of presentation, commenting, etc. but we consider public GitHub repositories the intended destination whenever possible.
 
-Several tools are used for project management, but the main one you will probably be using is GitHub, with the addition of the [ZenHub](https://zenhub.io) browser extension to add inline kanban boards, hierarchical issues, and burndown charts. 
+Several tools are used for project management, but the main one you will probably be using is GitHub to submit and merge pull requests and [Favro](https://zfavro.com) to manage squad-specific work in kanban boards.
 
 We also use [Aha!](https://18f.aha.io) for macro-level cadence and roadmapping. In many cases, Aha! artifacts are linked to GitHub issues. Stories and features are tracked one per issue. Feature issues act as parents for others, tracking the macro-status of a related body of work. Please try to parent new/split tactical issues created in GitHub onto Feature issues whenever appropriate so that the relationship is clear, and the remaining work involved in higher-level milestones can be recognized properly upstream.
-
-We also have some boards still in [Trello](https://trello.com/), although many of these are migrating to GitHub/ZenHub. In general, the structure of Trello boards and ZenHub boards is very similar.
 
 ## Security/compliance context
 
@@ -56,8 +54,8 @@ This means we have additional team rules on top of your standard 18F team rules.
   - [Compliance Masonry](https://github.com/opencontrol/compliance-masonry)
 - a [Google Drive folder](https://drive.google.com/a/gsa.gov/folderview?id=0Bx6EvBXVDWwheUtVckVnOE1pRzA&usp=sharing) full of artifacts related to design, user research, etc (also expected to move to GitHub in time)
 - our [soon-to-be-legacy Trello board](https://trello.com/b/ChGzyepo/gov-dev)
-- A high-level overview of how we (ideally) do horizon planning in [Murally](http://mur.al/bklqnALZ)
-- A very broad story map capturing how we conceptualize the user experience on [Stories on Board](https://18f.storiesonboard.com/m/gov-dev)
+- [Favro] (https://favro.com) boards to manage our squad work and to facilitate our regular program-level standups
+- [Murals](http://mur.al/bklqnALZ) for our quarterly PI planning sessions 
 - [The cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-support), where we currently wrangle inquiries from various agencies, and some support.
 
 We liberally make upstream pull requests for stuff we use. We try to transfer broadly-useful Cloud Foundry-related projects to [the Cloud Foundry community GitHub organization](https://github.com/cloudfoundry-community/). We also try to move others to the [opencontrol](https://github.com/opencontrol) or [fisma-ready](https://github.com/fisma-ready) GitHub organizations whenever appropriate. 
