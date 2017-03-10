@@ -29,7 +29,7 @@ Program-level work, such as program-level stand-up and sprint review meetings, s
 
 Whenever possible, we err on the side of putting data where the public can see it. Some data might be kept in Google Drive for convenience of presentation, commenting, etc. but we consider public GitHub repositories the intended destination whenever possible.
 
-Several tools are used for project management, but the main one you will probably be using is GitHub to submit and merge pull requests and [Favro](https://zfavro.com) to manage squad-specific work in kanban boards.
+Several tools are used for project management, but the main one you will probably be using is GitHub to submit and merge pull requests and [Favro](https://favro.com) to manage squad-specific work in kanban boards.
 
 We also use [Aha!](https://18f.aha.io) for macro-level cadence and roadmapping. In many cases, Aha! artifacts are linked to GitHub issues. Stories and features are tracked one per issue. Feature issues act as parents for others, tracking the macro-status of a related body of work. Please try to parent new/split tactical issues created in GitHub onto Feature issues whenever appropriate so that the relationship is clear, and the remaining work involved in higher-level milestones can be recognized properly upstream.
 
