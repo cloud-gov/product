@@ -31,7 +31,6 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 ## System Owner (or person delegated by System Owner)
 - [ ] Remove them from [GitHub teams that start with cloud-gov](https://github.com/orgs/18F/teams?utf8=%E2%9C%93&query=cloud-gov)
 - [ ] Remove them from the [Cloud Foundry Community GitHub org cloud.gov team](https://github.com/orgs/cloudfoundry-community/teams/cloud-gov)
-- [ ] Remove them from the `cloud-gov-operators` organization in cloud.gov
 - [ ] Remove their access to Zendesk
 - [ ] Remove their access to StatusPage
 - [ ] Remove their access to PagerDuty
@@ -52,6 +51,6 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 ## Cloud Operations
 - [ ] Remove them from any IAM roles they hold in AWS E/W and GovCloud
 - [ ] [Remove their access as an admin](https://docs.cloud.gov/ops/managing-users/#managing-admins) on the platform
-- [ ] Remove any special Org or Space roles that their cloud.gov account holds
+- [ ] Remove any Org or Space roles that their cloud.gov account holds due to membership in the cloud.gov team (for example, remove them from the `cloud-gov-operators` organization)
 - [ ] Confirm the System Owner (or person delegated by System Owner) has removed them from all GitHub teams
 - [ ] Ensure any keys they had direct access to are rotated
