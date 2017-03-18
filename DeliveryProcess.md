@@ -118,8 +118,8 @@ Before advancing a card from one column to the next on the board, it should meet
 ##### Stories
 
 - Indicate the intended benefit and who it's for in one of these forms:
- - # Story: We prefer the ["In order"](http://blog.crisp.se/2014/09/25/david-evans/as-a-i-want-so-that-considered-harmful) form (rather than the common "As a/I want/so that" form).
- - # Hypothesis: What's the lean hypothesis being tested, and how it will be validated?
+ - Story: We prefer the ["In order"](http://blog.crisp.se/2014/09/25/david-evans/as-a-i-want-so-that-considered-harmful) form (rather than the common "As a/I want/so that" form).
+ - Hypothesis: What's the lean hypothesis being tested, and how it will be validated?
 
 #### Grooming
 
