@@ -31,7 +31,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Figure out who your onboarding buddy is (they should reach out to you) and make sure this issue is assigned to them.
 - [ ] Read [the team onboarding document](https://github.com/18F/cg-product/blob/master/Onboarding.md) for more context about cloud.gov.
 - [ ] Bookmark the [pertinent links listed here](https://github.com/18F/cg-product/blob/master/PertinentLinks.md).
-- [ ] Read the ["What is it?"](https://docs.google.com/presentation/d/1nCcti3dXG9TVGW3OqaWtnf96oXX8U8SBTM_WePFO_dg/edit#slide=id.p) presentation for a rundown of what cloud.gov is and does
+- [ ] Read the ["What is it?"](https://docs.google.com/presentation/d/1nCcti3dXG9TVGW3OqaWtnf96oXX8U8SBTM_WePFO_dg/edit#slide=id.p) presentation for a rundown of what cloud.gov is and does (specifically read slides 1-37; the rest are somewhat outdated)
 - [ ] Read through [the Overview section of cloud.gov](https://cloud.gov/overview/) for a broader understanding of cloud.gov, especially as we present it to potential customers/users.
 - [ ] Read the [January 2016 cloud.gov "Executive Business Case" document](https://docs.google.com/document/d/138OcG0Lt6gr9J0wM0TzzPNyTROmYAwfLIDujtweiwGw/edit#) for greater context about cloud.gov's potential impact in government.
 - [ ] [Deploy a sample application to cloud.gov](https://cloud.gov/docs/getting-started/your-first-deploy/) to get familiar with the basics of the PaaS from a user's perspective.
@@ -43,11 +43,10 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Join [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov) so you can participate in teamwide internal communication.
 - [ ] Join the [cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries) so you can keep apprised of prospective new clients.
 - [ ] In the Slack channel #cloud-gov-program, request access to ZenDesk, which we use for support communications.
-- [ ] Join the Slack channel #cg-supportstream, used for backchanneling on support interactions.
-- [ ] Consider joining [Cloud Foundry's Slack channels](https://slack.cloudfoundry.org/) (we sometimes talk to folks in #gov and #gov-private – you'll need a team member to invite you to the latter).
+- [ ] In the Slack channel #cloud-gov-program, request access to the private Slack channel cg-supportstream, used for backchanneling on support interactions.
+- [ ] Consider joining [Cloud Foundry's Slack channels](https://slack.cloudfoundry.org/) (we sometimes talk to folks in #gov and #gov-private – you'll need a cloud.gov team member to invite you to the latter).
 - [ ] If you haven't already, [request a license for Microsoft Office](https://handbook.18f.gov/gsa-tools-equipment-and-transit/#get-a-copy-of-microsoft-office) - this is helpful for working with compliance documentation.
-- [ ] Figure out what themes you're likely to work in, and complete the checklist below that relates to it.
-- [ ] Once you've finished the remaining checklists below, make suggestions for steps that would have improved your onboarding experience as pull requests on [the onboarding checklist template](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md) used to make this issue.
+- [ ] Once you've finished the checklists below, make suggestions for steps that would have improved your onboarding experience as pull requests on [the onboarding checklist template](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md) used to make this issue.
 
 ### Required items for all team members
 
