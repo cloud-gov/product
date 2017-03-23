@@ -38,7 +38,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Sign up for a [Favro account](https://favro.com/signup) using your GSA Google Account.
 - [ ] Check out the [Favro cloud.gov Program
   board](https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244) and make sure you have access to all our Favro boards.
-- [ ] Check out the [roadmap](https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244) (with [more info in Aha](https://18f.aha.io/products/CGP/feature_cards) to get a high-level view of recently-completed, in-progress, and upcoming features.
+- [ ] Check out the [roadmap](https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244) (with [additional longer-term info in Aha](https://18f.aha.io/products/CGP/feature_cards)) to get a high-level view of recently-completed, in-progress, and upcoming features.
 - [ ] Read the [Delivery Process document](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) to learn about how we work.
 - [ ] Join [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov) so you can participate in teamwide internal communication.
 - [ ] Join the [cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries) so you can keep apprised of prospective new clients.
