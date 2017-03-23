@@ -45,6 +45,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] In the Slack channel #cloud-gov-program, request access to ZenDesk, which we use for support communications.
 - [ ] Join the Slack channel #cg-supportstream, used for backchanneling on support interactions.
 - [ ] Consider joining [Cloud Foundry's Slack channels](https://slack.cloudfoundry.org/) (we sometimes talk to folks in #gov and #gov-private – you'll need a team member to invite you to the latter).
+- [ ] If you haven't already, [request a license for Microsoft Office](https://handbook.18f.gov/gsa-tools-equipment-and-transit/#get-a-copy-of-microsoft-office) - this is helpful for working with compliance documentation.
 - [ ] Figure out what themes you're likely to work in, and complete the checklist below that relates to it.
 - [ ] Once you've finished the remaining checklists below, make suggestions for steps that would have improved your onboarding experience as pull requests on [the onboarding checklist template](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md) used to make this issue.
 
@@ -75,7 +76,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Review the System Security Plan (the latest version lives on [Google Drive](https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0); look for "cloud.gov System Security Plan (SSP)" as a `.docx` file). Of particular note for onboarding:
   - Section 9: System Description
   - Section 10: System Environment
-- [ ] Bookmark [the Atlas kanban board view](https://github.com/18F/cg-product#boards?labels=Atlas&showPRs=false).
+- [ ] Bookmark [the Atlas kanban board view](https://favro.com/organization/1e11108a2da81e3bd7153a7a/68a186775e1a0ee297ee81ed).
 - [ ] Join the #cloud-gov-atlas channel on Slack.
 - Learn about [Cloud Foundry](https://www.cloudfoundry.org/)
   - [ ] Watch [Build Your Own Private Cloud Foundry](https://www.youtube.com/watch?v=v85r4Hy3jbs) to learn about running Cloud Foundry.
@@ -104,7 +105,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Review the [daily maintenance tasks](https://cloud.gov/docs/ops/maintenance-list/)
 
 #### Agent Q-specific items
-- [ ] Bookmark [the Agent Q kanban board view](https://github.com/18F/cg-product#boards?labels=AgentQ&showPRs=false).
+- [ ] Bookmark [the Agent Q kanban board view](https://favro.com/organization/1e11108a2da81e3bd7153a7a/68a186775e1a0ee297ee81ed).
 - [ ] Join the #cloud-gov-agent-q channel on Slack.
 - [ ] Read about Cloud Foundry [services from a user perspective](http://docs.cloudfoundry.org/devguide/services/).
 - [ ] Read about [implementing services](http://docs.cloudfoundry.org/services/).
@@ -118,7 +119,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 
 - [ ] Join the `#cloud-gov-navigator` channel on Slack.
 - [ ] Ping @standup-bot for instructions on front end channel standup.
-- [ ] Review the main [front end board](https://github.com/18F/cg-dashboard/pulls#boards?labels=Navigator&showPRs=false) (filter by the "Navigator" label).
+- [ ] Review the [Navigator board](https://favro.com/organization/1e11108a2da81e3bd7153a7a/c7aa5db5d32d16974700b110).
 - [ ] Bookmark link to [design folder](https://drive.google.com/drive/u/1/folders/0BwLqM4Nicmq-bUt0NjRjclFMUEU).
 - [ ] Review the primary cloud.gov sites: [the dashboard](https://dashboard.cloud.gov/#/), [main landing page](https://cloud.gov/), and [documentation](https://cloud.gov/docs/).
 - [ ] [Request access to 18F Google Analytics](https://handbook.18f.gov/google-analytics/), so you can view cloud.gov site analytics ([including for the dashboard](https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit)).
@@ -143,7 +144,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Review the dashboard: current [prod](https://dashboard.cloud.gov/#/), [staging](https://dashboard-staging.apps.cloud.gov/#/), and [demo](https://dashboard-demo.apps.cloud.gov/#/).
 
 #### HighBar-specific items
-- [ ] Bookmark [the HighBar kanban board view](https://github.com/18F/cg-product#boards?labels=HighBar&showPRs=false).
+- [ ] Bookmark [the HighBar kanban board view](https://favro.com/organization/1e11108a2da81e3bd7153a7a/d9f8e73b7402f22b1ff55cf9).
 - [ ] Join the #cloud-gov-highbar channel on Slack.
 - [ ] Read through the description of [Compliance Toolkit](https://github.com/18F/compliance-toolkit/#readme).
 - [ ] Watch [Handling FISMA Faster and Better](https://www.youtube.com/watch?v=T1S52B1-NT4) for important context and background on the federal regulatory context in which cloud.gov operates.
@@ -152,6 +153,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 
 #### Business unit-specific items
 
+- [ ] Bookmark the [BU board](https://favro.com/organization/1e11108a2da81e3bd7153a7a/bdd858e991f7f835b0d79ee2).
 - [ ] Join #products-platforms and all of the #cloud-gov-[everything] channels (it's ok to mute or leave some later).
 - [ ] Ask Program Manager or Director for access to the cg-supportstream Slack channel.
 - [ ] Ask Program Manager or Director for access (and ownership if appropriate) to the [cloud-gov-inquiries](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries), [cloud-gov-support](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-support), [cloud-gov-notifications](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-notifications), and [cloud-gov-emergency](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-emergency) groups.
