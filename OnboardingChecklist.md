@@ -42,8 +42,6 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Read the [Delivery Process document](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) to learn about how we work.
 - [ ] Join [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov) so you can participate in teamwide internal communication.
 - [ ] Join the [cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries) so you can keep apprised of prospective new clients.
-- [ ] In the Slack channel #cloud-gov-program, request access to ZenDesk, which we use for support communications.
-- [ ] In the Slack channel #cloud-gov-program, request access to the private Slack channel cg-supportstream, used for backchanneling on support interactions.
 - [ ] Consider joining [Cloud Foundry's Slack channels](https://slack.cloudfoundry.org/) (we sometimes talk to folks in #gov and #gov-private – you'll need a cloud.gov team member to invite you to the latter).
 - [ ] If you haven't already, [request a license for Microsoft Office](https://handbook.18f.gov/gsa-tools-equipment-and-transit/#get-a-copy-of-microsoft-office) - this is helpful for working with compliance documentation.
 - [ ] Once you've finished the checklists below, make suggestions for steps that would have improved your onboarding experience as pull requests on [the onboarding checklist template](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md) used to make this issue.
@@ -170,6 +168,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Identify a straightforward, well-groomed first story, ideally something they could conceivably complete in their first two/three weeks using their existing skills. Discuss the context with them, then make them the assignee for the card.
 - [ ] Discuss suggestions for how the onboarding experience could have been improved and open as PRs on [the onboarding template](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md).
 - [ ] Ask the Program Manager or Director to add the person to [Zendesk](https://cloud-gov.zendesk.com), so they can see how we handle non-18F support and read technical discussions happening with outside groups.
+- [ ] Invite them to the private Slack channel cg-supportstream, used for backchanneling on support interactions.
 - [ ] Ask the Program Manager or Director to add them to the 18F organization in Favro.
 
 ### Required items for all team members
