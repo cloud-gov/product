@@ -164,6 +164,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Learn how to access Nessus Manager as the main admin user (part of the platform secret keys).
 - [ ] Ask previous Director to give you Owner access in Zendesk.
 - [ ] Ask previous Director to give you AWS account ownership.
+- [ ] Ask Program Manager or previous Director to give you cloud.gov calendar ownership.
 
 ---
 ## Buddy checklist
