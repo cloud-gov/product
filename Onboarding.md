@@ -35,7 +35,7 @@ We also use [Aha!](https://18f.aha.io) for macro-level cadence and roadmapping. 
 
 ## Security/compliance context
 
-As a service offered to other federal agencies, cloud.gov must hold itself to a rigorous security standard in both our technical work and our team operations. We follow a formal set of security requirements as part of our FedRAMP P-ATO process. (FedRAMP is a GSA-run program that assesses cloud services for government use, and we participate in this program.)
+As a service offered to other federal agencies, cloud.gov must hold itself to a rigorous security standard in both our technical work and our team operations. We follow a formal set of security requirements as part of our FedRAMP P-ATO process. ([FedRAMP](https://www.fedramp.gov/) is a GSA-run program that assesses cloud services for government use, and we participate in this program.)
 
 This means we have additional team rules on top of your standard 18F team rules. Your onboarding checklist will introduce you to them! Also here are bits of additional compliance guidance:
 
