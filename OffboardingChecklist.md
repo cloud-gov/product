@@ -21,12 +21,12 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 **Assignee:** The tasks below are organized by the role needed to complete them. If you can’t complete any of the items on your checklist personally, _you are responsible for ensuring that an appropriate person does it_.
 
 ## Assignee
-- [ ] Ask #admins-slack to [remove them](https://get.slack.help/hc/en-us/articles/212906697-User-Groups) from the @cloud-gov-team in the Slack Team Directory
+- [ ] [Remove them](https://get.slack.help/hc/en-us/articles/212906697-User-Groups) from @cloud-gov-team, @cloud-gov-operators, and any other @cloud-gov- teams in the Slack Team Directory
 - [ ] Remove them from the [team roster](https://docs.google.com/spreadsheets/d/1mW3tphZ98ExmMxLHPogSpTq8DzYr5Oh8_SHnOTvjRWM/edit#gid=0)
 - [ ] Remove them from the [squad list](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md#squads)
 - [ ] Remove them from the [training tracker](https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0)
 - [ ] Remove them as invitees for any meetings on the cloud.gov calendar
-- [ ] If they are leaving 18F ensure the [18F Handbook exit process](https://handbook.18f.gov/leaving-18f/#offboarding-process) has been kicked off via the 18F talent team
+- [ ] If they are leaving 18F, ensure the [18F Handbook exit process](https://handbook.18f.gov/leaving-18f/#offboarding-process) has been kicked off via the 18F talent team
 
 ## System Owner (or person delegated by System Owner)
 - [ ] Remove them from [GitHub teams that start with cloud-gov](https://github.com/orgs/18F/teams?utf8=%E2%9C%93&query=cloud-gov)
@@ -35,6 +35,7 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove their access to StatusPage
 - [ ] Remove their access to PagerDuty
 - [ ] Remove their access to New Relic
+- [ ] Remove their access to Favro
 - [ ] Remove their access to [Aha!](https://18f.aha.io)
 - [ ] Remove them from [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov)
 - [ ] Remove them from [the cloud.gov notifications Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-notifications)
@@ -53,4 +54,4 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] [Remove their access as an admin](https://docs.cloud.gov/ops/managing-users/#managing-admins) on the platform
 - [ ] Remove any Org or Space roles that their cloud.gov account holds due to membership in the cloud.gov team (for example, remove them from the `cloud-gov-operators` organization)
 - [ ] Confirm the System Owner (or person delegated by System Owner) has removed them from all GitHub teams
-- [ ] Ensure any keys they had direct access to are rotated
+- [ ] Ensure any keys or passwords they had direct access to are rotated
