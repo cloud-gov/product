@@ -186,7 +186,7 @@ These items help us fulfill security and compliance requirements (including for 
 
 - [ ] Make sure they're in [the list of people working on the project](https://docs.google.com/spreadsheets/d/1mW3tphZ98ExmMxLHPogSpTq8DzYr5Oh8_SHnOTvjRWM/edit#gid=0).
 - [ ] Add their name, whether they're Cloud Ops (Atlas/AgentQ), and the date they joined the team to the [training tracker](https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0). Copy the formulas for the due dates from an existing row (grab the "corner" of the cells and pull down).
-- [ ] Add them to the @cloud-gov-team [in Slack’s Team Directory](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group), which also adds them to the right channels (or ask #admins-slack if you don't have permission to do this).
+- [ ] Add them to the @cloud-gov-team [in Slack’s Team Directory](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group).
 - [ ] Add them to the recurring cloud.gov meetings that are relevant for them in [the team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles).
 - [ ] Ask `#admins-github` to add them to the [@18F/cloud.gov team](https://github.com/orgs/18F/teams/cloud-gov) on GitHub.
 
@@ -195,7 +195,7 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] Help them review and understand the responsibilities of becoming a Cloud Operations team member, as listed in our SSP.
 - [ ] Ask `#admins-github` to have them added to the [@18F/cloud-gov-ops](https://github.com/orgs/18F/teams/cloud-gov-ops) team on GitHub. **(For contractors: Confirm they have cleared GSA security review before doing this one!)**
 - [ ] If the new person is a contractor, ask `#admins-github` to have them added to the [@18F/cloud-gov-contractors](https://github.com/orgs/18F/teams/cloud-gov-contractors) team on GitHub.
-- [ ] Add them to the @cloud-gov-operators [in Slack’s Team Directory](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group) (or ask #admins-slack if you don't have permission to do this).
+- [ ] Add them to the @cloud-gov-operators [in Slack’s Team Directory](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group).
 - Grant them access to the following:
   - [ ] [AWS GovCloud](https://cloud.gov/docs/ops/aws-accounts/)
   - [ ] [AWS East tied to GovCloud](https://cloud.gov/docs/ops/aws-accounts/)
