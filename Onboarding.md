@@ -53,8 +53,7 @@ This means we have additional team rules on top of your standard 18F team rules.
   - [Compliance Toolkit](https://github.com/18F/compliance-toolkit/)
   - [Compliance Masonry](https://github.com/opencontrol/compliance-masonry)
 - a [Google Drive folder](https://drive.google.com/a/gsa.gov/folderview?id=0Bx6EvBXVDWwheUtVckVnOE1pRzA&usp=sharing) full of artifacts related to design, user research, etc (also expected to move to GitHub in time)
-- our [soon-to-be-legacy Trello board](https://trello.com/b/ChGzyepo/gov-dev)
-- [Favro] (https://favro.com) boards to manage our squad work and to facilitate our regular program-level standups
+- [Favro](https://favro.com) boards to manage our squad work and to facilitate our regular program-level standups
 - [Murals](http://mur.al/bklqnALZ) for our quarterly PI planning sessions 
 - [The cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-support), where we currently wrangle inquiries from various agencies, and some support.
 
@@ -73,10 +72,10 @@ To release: `ci.cloud.gov -> deploy-cf project`
 - CF – Cloud Foundry.
 - CFT – Cloud Formation Templates.
 - CenturyLink – a company that contributes heavily to Cloud Foundry, and runs their own Cloud Foundry-based PaaS, [AppFog](https://www.ctl.io/appfog/).
-- Cloud Foundry – [Cloud Foundry](https://www.cloudfoundry.org/) is the open-source the platform-as-a-service that cloud.gov is built on.
-- Concourse – [Concourse](https://concourse.ci) is the continuous integration tool built by Pivotal we use to deploy Cloud Foundry, among other things.
+- [Cloud Foundry](https://www.cloudfoundry.org/) - the open-source platform-as-a-service software that cloud.gov is built on.
+- [Concourse](https://concourse.ci) - the continuous integration tool built by Pivotal we use to deploy Cloud Foundry, among other things.
 - The Dashboard – the web app we offer to allow users to manage their applications and accounts. It lives at [dashboard.cloud.gov](https://dashboard.cloud.gov/), and the code is in the [cg-dashboard](https://github.com/18F/cg-dashboard) repository.
-- Elastic Load Balancing (ELB) – the proxy we use in front of Cloud Foundry. [More info](https://aws.amazon.com/elasticloadbalancing/)
+- [Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/) (ELB) – the proxy we use in front of Cloud Foundry.
 - [FedRAMP](https://www.fedramp.gov/) - a program whereby which Cloud Service Providers (CSPs) are rigorously examined for compliance with FISMA before being identified as generally fit for use by all government agencies.
 - [FISMA](https://en.wikipedia.org/wiki/Federal_Information_Security_Management_Act_of_2002) - The federal law that governs digital service delivery in the federal government.
 - [FISMA-Ready](https://github.com/fisma-ready) - A repository of hardened configurations for common open source infrastucture, suitable for incorporation into a digital service.
