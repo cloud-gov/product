@@ -53,8 +53,7 @@ This means we have additional team rules on top of your standard 18F team rules.
   - [Compliance Toolkit](https://github.com/18F/compliance-toolkit/)
   - [Compliance Masonry](https://github.com/opencontrol/compliance-masonry)
 - a [Google Drive folder](https://drive.google.com/a/gsa.gov/folderview?id=0Bx6EvBXVDWwheUtVckVnOE1pRzA&usp=sharing) full of artifacts related to design, user research, etc (also expected to move to GitHub in time)
-- our [soon-to-be-legacy Trello board](https://trello.com/b/ChGzyepo/gov-dev)
-- [Favro] (https://favro.com) boards to manage our squad work and to facilitate our regular program-level standups
+- [Favro](https://favro.com) boards to manage our squad work and to facilitate our regular program-level standups
 - [Murals](http://mur.al/bklqnALZ) for our quarterly PI planning sessions 
 - [The cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-support), where we currently wrangle inquiries from various agencies, and some support.
 
