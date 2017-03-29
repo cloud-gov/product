@@ -46,7 +46,7 @@ We've structured our team into 5 squads, each centered around a different [theme
   - [Board view](https://favro.com/organization/1e11108a2da81e3bd7153a7a/3096442fc5df09a723661c78)
 
 ## Business Unit
-Cloud.gov's business unit (BU) focuses on business strategy and development as well ensuring customer support gets handled. Currently, the BU consists of Steve Harms (Acting Director) and Britta Gustafson (Acting Deputy Director). Their comms channel is #cloud-gov-business.
+Cloud.gov's business unit (BU) focuses on business strategy and development as well ensuring customer support gets handled. Currently, the BU consists of Shashank Khandelwal (Acting Director) and Britta Gustafson (Acting Deputy Director). Their comms channel is #cloud-gov-business.
 
 ## Kanban process
 
