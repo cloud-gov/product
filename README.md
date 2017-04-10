@@ -44,7 +44,7 @@ Other notable Slack channels for 18F folk
 
 ## Roadmap and ChangeLog
 
-We publish [roadmap and recent-change information for the overall cloud.gov effort](https://18f.aha.io/published/068c364a0302b89521045f9fbd258374), exposed for public consumption and tagged by primary theme. Features are listed in planning increments (PIs) of around three months. Note this information is live, and the priority of anything beyond the next three months is subject to change at any time!
+We publish [roadmap and recent-change information for the overall cloud.gov effort](https://favro.com/organization/1e11108a2da81e3bd7153a7a/698af2c70dcb8da70f612abd), exposed for public consumption and tagged by primary theme. Features are listed in planning increments (PIs) of around three months. Note this information is live, and the priority of anything beyond the next three months is subject to change at any time!
 
 ## Following our work in progress
 
