@@ -198,6 +198,7 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] Ask `#admins-github` to have them added to the [@18F/cloud-gov-ops](https://github.com/orgs/18F/teams/cloud-gov-ops) team on GitHub. **(For contractors: Confirm they have cleared GSA security review before doing this one!)**
 - [ ] If the new person is a contractor, ask `#admins-github` to have them added to the [@18F/cloud-gov-contractors](https://github.com/orgs/18F/teams/cloud-gov-contractors) team on GitHub.
 - [ ] Add them to the @cloud-gov-operators [in Slack’s Team Directory](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group).
+- [ ] Add them to the cloud-gov-operators Google Group.
 - Grant them access to the following:
   - [ ] [AWS GovCloud](https://cloud.gov/docs/ops/aws-accounts/)
   - [ ] [AWS East tied to GovCloud](https://cloud.gov/docs/ops/aws-accounts/)
