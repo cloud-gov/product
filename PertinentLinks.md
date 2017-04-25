@@ -20,8 +20,8 @@ should be bookmarked and encouraged to check on a regular basis.
 - [Agent Q Zenhub board][zenhub-agent-q]
 - [AWS GovCloud console][aws-fr-console] :lock:
 - [AWS console][aws-console] :lock:
-- [Concourse][cg-continuous-integration] :lock:
 - [Concourse GovCloud][cg-fr-continuous-integration] :lock:
+- [Concourse][cg-continuous-integration] :lock:
 - [:cloud:.gov Deploy Repositories][github-eighteenf-cg-deploy]
 
 #### Navigator-specific items
@@ -55,7 +55,7 @@ should be bookmarked and encouraged to check on a regular basis.
 [aws-fr-console]: https://signin.amazonaws-us-gov.com/?region=us-gov-west-1
 [aws-console]: http://signin.aws.amazon.com/console/
 
-[cg-dashboard]: https://dashboard.cloud.gov/
+[cg-dashboard]: https://dashboard.fr.cloud.gov/
 [cg-continuous-integration]: https://ci.cloud.gov/
 [cg-fr-continuous-integration]: https://ci.fr.cloud.gov/
 [cg-drive-folder]: https://drive.google.com/drive/folders/0Bx6EvBXVDWwheUtVckVnOE1pRzA
