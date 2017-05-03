@@ -134,7 +134,7 @@ Required for compliance:
 <!-- New software integration check is due to CM-7 (5) part a -->
 <!-- Noah said we need to check with him before integrating new services -->
 
-- The team has analyzed and documented any potential security impact of the changes proposed by the story.
+- The team has used the [threat modeling guide](https://docs.google.com/document/d/14QOvOqWuLtlnJptB5Lw-qA7ClERiMiA8yfxRTD__lbg/edit) to document and analyze any potential security impact of the changes proposed by the story. 
 - If the story includes integrating new software (such as a new open source component) into the core platform, the cloud.gov System Owner has approved the plan.
 - If the story includes integrating a new external service (a service outside the cloud.gov FedRAMP authorization boundary) or changing an external service configuration/usage in a way that may have a security/compliance impact, the cloud.gov Authorizing Official has approved the plan.
 
