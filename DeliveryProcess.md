@@ -28,7 +28,7 @@ We've structured our team into 5 squads, each centered around a different [theme
   - [Board view](https://favro.com/organization/1e11108a2da81e3bd7153a7a/d9f8e73b7402f22b1ff55cf9)
 
 - Navigator:
-  - Marco Segreto (engineering lead), Aaron Borden
+  - Marco Segreto (engineering lead)
   - Comm channel: #cloud-gov-navigator, #cloud-gov-nav-news and group messages
   - Skills involved: UX research, UI design, front-end dev
   - [Board view](https://favro.com/organization/1e11108a2da81e3bd7153a7a/c7aa5db5d32d16974700b110)
