@@ -40,7 +40,7 @@ We've structured our team into 5 squads, each centered around a different [theme
   - [Board view](https://favro.com/organization/1e11108a2da81e3bd7153a7a/e166f9041ce97085a6cdd859) (private due to details about customers)
 
 - SkyPorter:
-  - Nikki Zeichner (product owner), James Hupp (content strategist)
+  - James Hupp (content strategist)
   - Comm channel: #cloud-gov-skyporter and group messages
   - Skills involved: user research, service design, content strategy including drafting and information architecture design
   - [Board view](https://favro.com/organization/1e11108a2da81e3bd7153a7a/3096442fc5df09a723661c78)
