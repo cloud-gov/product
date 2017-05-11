@@ -101,6 +101,9 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
   - [ ] Read about our [AWS accounts](https://cloud.gov/docs/ops/aws-accounts/) and [onboarding](https://cloud.gov/docs/ops/aws-onboarding/)
   - [ ] Read about the [AWS CLI](https://aws.amazon.com/cli/)
 - [ ] Review the [daily maintenance tasks](https://cloud.gov/docs/ops/maintenance-list/) for when you're on support duty
+- Learn about monitoring with [Prometheus](https://prometheus.io)
+  - [ ] Watch [Prometheus: Design and Philosophy](https://www.youtube.com/watch?v=QgJbxCWRZ1s), 41 minutes, Oct 2016. 
+    - Other potentially useful videos are on [PeterB's _Prometheus_ YouTube list](https://www.youtube.com/playlist?list=PLXYJiEvW1r7BZ8TQwshS0C_Inelp_f3I4)
 
 #### Customer-specific items
 
