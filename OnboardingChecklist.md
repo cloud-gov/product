@@ -100,7 +100,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - Get familiar with our AWS setup
   - [ ] Read about our [AWS accounts](https://cloud.gov/docs/ops/aws-accounts/) and [onboarding](https://cloud.gov/docs/ops/aws-onboarding/)
   - [ ] Read about the [AWS CLI](https://aws.amazon.com/cli/)
-- [ ] Review the [daily maintenance tasks](https://cloud.gov/docs/ops/maintenance-list/)
+- [ ] Review the [daily maintenance tasks](https://cloud.gov/docs/ops/maintenance-list/) for when you're on support duty
 
 #### Agent Q-specific items
 - [ ] Bookmark [the Agent Q kanban board view](https://favro.com/organization/1e11108a2da81e3bd7153a7a/68a186775e1a0ee297ee81ed).
