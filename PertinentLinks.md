@@ -6,51 +6,44 @@ should be bookmarked and encouraged to check on a regular basis.
 
 #### Non-theme-specific items
 
-- [:cloud:.gov Zenhub board][zenhub-all]
+- [:cloud:.gov Favro board][favro-all]
 - [:cloud:.gov Dashboard][cg-dashboard] :lock:
 - [18F Github][github-eighteenf]
 - [:cloud:.gov Repositories][github-eighteenf-cg]
 - [:cloud:.gov Google Drive folder][cg-drive-folder] :lock:
+- [Services Slack][slack-services] :lock:
+- [Compliance Slack][slack-compliance] :lock:
 
-#### Atlas / Agent Q-specific items
+#### Platform-specific items
 
-- [Atlas Slack][slack-atlas] :lock:
-- [Agent Q Slack][slack-atlas] :lock:
-- [Atlas Zenhub board][zenhub-atlas]
-- [Agent Q Zenhub board][zenhub-agent-q]
+- [Platform Slack][slack-platform] :lock:
+- [Platform Favro board][favro-platform]
 - [AWS GovCloud console][aws-fr-console] :lock:
 - [AWS console][aws-console] :lock:
 - [Concourse GovCloud][cg-fr-continuous-integration] :lock:
 - [Concourse][cg-continuous-integration] :lock:
 - [:cloud:.gov Deploy Repositories][github-eighteenf-cg-deploy]
 
-#### Navigator-specific items
+#### Customer-specific items
 
-- [Navigator Slack][slack-navigator] :lock:
-- [Navigator Zenhub board][zenhub-navigator]
+- [Customer Slack][slack-customer] :lock:
+- [Customer Favro board][favro-customer]
 
-#### HighBar-specific items
+#### BizOps-specific items
 
-- [HighBar Slack][slack-highbar] :lock:
-- [HighBar Zenhub board][zenhub-highbar]
+- [BizOps Slack][slack-business] :lock:
+- [BizOps Favro board][favro-business]
 
-#### Skyporter-specific items
+[favro-all]: https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244
+[favro-platform]: https://favro.com/organization/1e11108a2da81e3bd7153a7a/68a186775e1a0ee297ee81ed
+[favro-customer]: https://favro.com/organization/1e11108a2da81e3bd7153a7a/e9acfea577acd5bdadf3d6a2
+[favro-business]: https://favro.com/organization/1e11108a2da81e3bd7153a7a/bdd858e991f7f835b0d79ee2
 
-- [Skyporter Slack][slack-skyporter] :lock:
-- [Skyporter Zenhub board][zenhub-skyporter]
-
-[zenhub-all]: https://github.com/18F/cg-product#boards
-[zenhub-atlas]: https://github.com/18F/cg-product#boards?labels=Atlas
-[zenhub-agent-q]: https://github.com/18F/cg-product#boards?labels=AgentQ
-[zenhub-navigator]: https://github.com/18F/cg-product#boards?labels=Navigator
-[zenhub-highbar]: https://github.com/18F/cg-product#boards?labels=HighBar
-[zenhub-skyporter]: https://github.com/18F/cg-product#boards?labels=SkyPorter
-
-[slack-atlas]: https://gsa-tts.slack.com/messages/cloud-gov-atlas
-[slack-agent-q]: https://gsa-tts.slack.com/messages/cloud-gov-agent-q
-[slack-navigator]: https://gsa-tts.slack.com/messages/cloud-gov-navigator
-[slack-highbar]: https://gsa-tts.slack.com/messages/cloud-gov-highbar
-[slack-skyporter]: https://gsa-tts.slack.com/messages/cloud-gov-skyporter
+[slack-platform]: https://gsa-tts.slack.com/messages/cg-platform
+[slack-services]: https://gsa-tts.slack.com/messages/cg-services
+[slack-customer]: https://gsa-tts.slack.com/messages/cg-customer
+[slack-compliance]: https://gsa-tts.slack.com/messages/cg-compliance
+[slack-business]: https://gsa-tts.slack.com/messages/cg-business
 
 [aws-fr-console]: https://signin.amazonaws-us-gov.com/?region=us-gov-west-1
 [aws-console]: http://signin.aws.amazon.com/console/
