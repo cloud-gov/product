@@ -37,6 +37,7 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **ElastiCache**
 * **Elasticsearch**
 * **ELK**
+* **Favro**
 * **FedRAMP**
 * FISMA levels are **Low**, **Moderate** (not *Medium*), and **High**.
 * **Git**
