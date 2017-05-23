@@ -38,7 +38,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Sign up for a [Favro account](https://favro.com/signup) using your GSA Google Account.
 - [ ] Check out the [Favro cloud.gov Program
   board](https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244) and make sure you have access to all our Favro boards.
-- [ ] Check out the [roadmap](https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244) (with [additional longer-term info in Aha](https://18f.aha.io/products/CGP/feature_cards)) to get a high-level view of recently-completed, in-progress, and upcoming features.
+- [ ] Check out the [roadmap](https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244) to get a high-level view of recently-completed, in-progress, and upcoming features.
 - [ ] Read the [Delivery Process document](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) to learn about how we work.
 - [ ] Join [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov) so you can participate in teamwide internal communication.
 - [ ] Join the [cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries) so you can keep apprised of prospective new clients.
@@ -119,12 +119,12 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Ping @standup-bot for instructions on front end channel standup.
 - [ ] Review the [Navigator board](https://favro.com/organization/1e11108a2da81e3bd7153a7a/c7aa5db5d32d16974700b110).
 - [ ] Bookmark link to [design folder](https://drive.google.com/drive/u/1/folders/0BwLqM4Nicmq-bUt0NjRjclFMUEU).
-- [ ] Review the primary cloud.gov sites: [the dashboard](https://dashboard.cloud.gov/#/), [main landing page](https://cloud.gov/), and [documentation](https://cloud.gov/docs/).
+- [ ] Review the primary cloud.gov sites: [the dashboard](https://dashboard.fr.cloud.gov/#/), [main landing page](https://cloud.gov/), and [documentation](https://cloud.gov/docs/).
 - [ ] [Request access to 18F Google Analytics](https://handbook.18f.gov/google-analytics/), so you can view cloud.gov site analytics ([including for the dashboard](https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit)).
 - [ ] Ask for an invite to a DigitalGov Search account for cg-site, so you can configure it and view analytics.
 - [ ] Once granted access to New Relic, sign up for email notifications of alerts for:
-  - [dashboard (e/w)](https://synthetics.newrelic.com/accounts/907948/monitors/d3b72eab-dcc8-4090-99aa-3402cdbdba65/alerts)
   - [dashboard (govcloud)](https://synthetics.newrelic.com/accounts/907948/monitors/c4fdd474-0f6c-470a-bf9d-a3d839cea2cb/alerts)
+  - [dashboard (e/w)](https://synthetics.newrelic.com/accounts/907948/monitors/d3b72eab-dcc8-4090-99aa-3402cdbdba65/alerts)
 
 ##### If developing
 - [ ] Review the [dashboard contributing guide](https://github.com/18F/cg-dashboard/blob/master/CONTRIBUTING.md) and [`cg-style` standards](https://github.com/18F/cg-style/blob/master/documentation/frontend_standards.md) which help frame what we're looking for in code review.
@@ -139,7 +139,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Review the [comparative analysis](https://github.com/18F/cg-product/wiki/Comparative-landscape-and-heuristics) to get a sense of other vendors and their dashboards.
 - [ ] Review the [`cg-style` styleguide](https://pages.18f.gov/cg-style/) to get a sense of the global cloud.gov visual style.
 - [ ] Review the [US Web Design Standards](https://standards.usa.gov/) as `cg-style` was built from it.
-- [ ] Review the dashboard: current [prod](https://dashboard.cloud.gov/#/), [staging](https://dashboard-staging.apps.cloud.gov/#/), and [demo](https://dashboard-demo.apps.cloud.gov/#/).
+- [ ] Review the dashboard: current [prod](https://dashboard.fr.cloud.gov/#/), [staging](https://dashboard-staging.app.cloud.gov/#/), and [demo](https://dashboard-demo.app.cloud.gov/#/).
 
 #### HighBar-specific items
 - [ ] Bookmark [the HighBar kanban board view](https://favro.com/organization/1e11108a2da81e3bd7153a7a/d9f8e73b7402f22b1ff55cf9).
@@ -177,7 +177,6 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Identify a straightforward, well-groomed story in progress that involves their skills domain, schedule a meeting with the owner for an introduction (if it's not you), and setup pairing sessions several times in the first week on the project.
 - [ ] Identify a straightforward, well-groomed first story, ideally something they could conceivably complete in their first two/three weeks using their existing skills. Discuss the context with them, then make them the assignee for the card.
 - [ ] Discuss suggestions for how the onboarding experience could have been improved and open as PRs on [the onboarding template](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md).
-- [ ] Ask the Program Manager or Director to add the person to [Zendesk](https://cloud-gov.zendesk.com), so they can see how we handle non-18F support and read technical discussions happening with outside groups.
 - [ ] Invite them to the private Slack channel cg-supportstream, used for backchanneling on support interactions.
 - [ ] Ask the Program Manager or Director to add them to the 18F organization in Favro.
 
@@ -189,7 +188,7 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] Add their name, whether they're Cloud Ops (Atlas/AgentQ), and the date they joined the team to the [training tracker](https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0). Copy the formulas for the due dates from an existing row (grab the "corner" of the cells and pull down).
 - [ ] Add them to the @cloud-gov-team [in Slack’s Team Directory](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group).
 - [ ] Add them to the recurring cloud.gov meetings that are relevant for them in [the team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles).
-- [ ] Ask `#admins-github` to add them to the [@18F/cloud.gov team](https://github.com/orgs/18F/teams/cloud-gov) on GitHub.
+- [ ] Ask `#admins-github` to add them to the [@18F/cloud-gov team](https://github.com/orgs/18F/teams/cloud-gov) on GitHub.
 
 ### Atlas-specific required items
 

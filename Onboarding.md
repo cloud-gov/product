@@ -45,10 +45,10 @@ This means we have additional team rules on top of your standard 18F team rules.
 
 - cloud.gov as a platform
   - our Cloud Foundry instance
-  - [The Dashboard](https://dashboard.cloud.gov)
+  - [The Dashboard](https://dashboard.fr.cloud.gov)
   - [The cloud.gov homepage](https://cloud.gov/)
-  - [docs.cloud.gov](https://docs.cloud.gov)
-- All [cloud.gov repositories](https://docs.cloud.gov/ops/repos/)
+  - [cloud.gov documentation](https://cloud.gov/docs/)
+- All [cloud.gov repositories](https://cloud.gov/docs/ops/repos/)
   - Any repositories under [github.com/18F](https://github.com/18F/) with the prefix [`cg-*`](https://github.com/18f?utf8=%E2%9C%93&query=cg-) ("cloud.gov") or [`cf-*`](https://github.com/18f?utf8=%E2%9C%93&query=cf-) ("Cloud Foundry")
   - [Compliance Toolkit](https://github.com/18F/compliance-toolkit/)
   - [Compliance Masonry](https://github.com/opencontrol/compliance-masonry)
@@ -59,7 +59,7 @@ This means we have additional team rules on top of your standard 18F team rules.
 
 We liberally make upstream pull requests for stuff we use. We try to transfer broadly-useful Cloud Foundry-related projects to [the Cloud Foundry community GitHub organization](https://github.com/cloudfoundry-community/). We also try to move others to the [opencontrol](https://github.com/opencontrol) or [fisma-ready](https://github.com/fisma-ready) GitHub organizations whenever appropriate. 
 
-To release: `ci.cloud.gov -> deploy-cf project`
+To release: `ci.fr.cloud.gov -> deploy-cf project`
 
 ## Important terminology and context
 
