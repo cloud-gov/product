@@ -125,6 +125,9 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Once granted access to New Relic, sign up for email notifications of alerts for:
   - [dashboard (e/w)](https://synthetics.newrelic.com/accounts/907948/monitors/d3b72eab-dcc8-4090-99aa-3402cdbdba65/alerts)
   - [dashboard (govcloud)](https://synthetics.newrelic.com/accounts/907948/monitors/c4fdd474-0f6c-470a-bf9d-a3d839cea2cb/alerts)
+- [ ] Ask the team to add your e-mail address to the customers app.
+  - [ ] [Production Site](https://customers.fr.cloud.gov/django-admin/auth/user/)
+  - [ ] [Staging Site](https://customers-staging.fr.cloud.gov/django-admin/auth/user/)
 
 ##### If developing
 - [ ] Review the [dashboard contributing guide](https://github.com/18F/cg-dashboard/blob/master/CONTRIBUTING.md) and [`cg-style` standards](https://github.com/18F/cg-style/blob/master/documentation/frontend_standards.md) which help frame what we're looking for in code review.
