@@ -55,3 +55,8 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove any Org or Space roles that their cloud.gov account holds due to membership in the cloud.gov team (for example, remove them from the `cloud-gov-operators` organization)
 - [ ] Confirm the System Owner (or person delegated by System Owner) has removed them from all GitHub teams
 - [ ] Ensure any keys or passwords they had direct access to are rotated
+
+## Customer Team
+- [ ] Delete their account from the customers app.
+  - [ ] [Production Site](https://customers.fr.cloud.gov/django-admin/auth/user/)
+  - [ ] [Staging Site](https://customers-staging.fr.cloud.gov/django-admin/auth/user/)
