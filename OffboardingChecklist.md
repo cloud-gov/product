@@ -11,7 +11,7 @@ When someone leaves the cloud.gov team
 5. Delete any checklists irrelevant for the skill domain of the leaving person
 6. Submit the issue
 7. Assign the issue to the person who bravely volunteered to be handle the person's offboarding
-8. Put the issue into the "In Progress" pipeline in ZenHub
+8. Put the issue into the "In Progress" pipeline in Favro
 
 ---
 
