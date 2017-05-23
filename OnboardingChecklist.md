@@ -95,7 +95,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - Learn about [Kubernetes](https://kubernetes.io/)
   - [ ] Watch [The illustrated Children's Guide to Kubernetes](https://youtu.be/4ht22ReBjno)
   - [ ] Go through the [offical tutorial](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
-  - [ ] Read the cloud.gov [k8s quickstart](https://cloud.gov/docs/ops/kubernetes-quickstart/)
+  - [ ] Read the cloud.gov guide for [troubleshooting k8s](https://cloud.gov/docs/ops/runbook/troubleshooting-kubernetes/)
 - [ ] Join [the cloud.gov operations notifications Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-notifications), so you can see alert information if PagerDuty is unavailable
 - Get familiar with our AWS setup
   - [ ] Read about our [AWS accounts](https://cloud.gov/docs/ops/aws-accounts/) and [onboarding](https://cloud.gov/docs/ops/aws-onboarding/)
