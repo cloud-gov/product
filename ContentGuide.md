@@ -69,7 +69,6 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **WebInspect**
 * **YAML**
 * **Zendesk**
-* **ZenHub**
 
 ## Use these non-case-sensitive strings for words with tricky spacing and punctuation
 
