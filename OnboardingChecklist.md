@@ -203,8 +203,11 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] If the new person is a contractor, ask `#admins-github` to have them added to the [@18F/cloud-gov-contractors](https://github.com/orgs/18F/teams/cloud-gov-contractors) team on GitHub.
 - [ ] Add them to the @cloud-gov-operators [in Slack’s Team Directory](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group).
 - Grant them access to the following:
-  - [ ] [AWS GovCloud](https://cloud.gov/docs/ops/aws-accounts/)
-  - [ ] [AWS East tied to GovCloud](https://cloud.gov/docs/ops/aws-accounts/)
+  - [ ] [AWS Accounts](https://cloud.gov/docs/ops/aws-accounts/)
+    - [ ] AWS GovCloud
+    - [ ] AWS East tied to GovCloud
+    - [ ] [AWS Admin Access](https://github.com/18F/cg-provision/blob/master/terraform/modules/operators/variables.tf)
+    - Note: AWS user names should be identical across accounts so that permissions can be correctly managed by terraform
   - [ ] Nessus Manager GUI
   - [ ] New Relic
   - [ ] PagerDuty
