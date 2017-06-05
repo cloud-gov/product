@@ -11,7 +11,7 @@ To manage our day-to-day work, we practice Scrumban, which means we practice [Ka
 - occasional higher-level planning and grooming sessions
  
 ## Squads
-We've structured our team into 5 squads, each centered around a different [theme](https://github.com/18F/cg-product#sub-teamsthemes-of-work), and generally working on features under that theme:
+We've structured our team into three squads, each centered around a different [theme](https://github.com/18F/cg-product#sub-teamsthemes-of-work), and generally working on features under that theme:
 
 - Platform (formerly Atlas/AgentQ):
   - Adam Kendall, Chris Nelson, Josh Carp, Roger Ruiz, DKP, Peter Burkholder, Will Woodson, (Bret Mogilefsky, PM)
