@@ -90,7 +90,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
   - [ ] Examine [our provisioning procedures](https://github.com/18F/cg-provision)
 - Learn about [Concourse](https://concourse.ci/)
   - [ ] Try a [tutorial](https://github.com/starkandwayne/concourse-tutorial).
-  - [ ] Check out our [staging](https://ci-stage.cloud.gov/) and [production](https://ci.cloud.gov) Concourse instances, and take a look at some of [our pipelines](https://github.com/search?q=org%3A18F+cg-deploy).
+  - [ ] Check out our [staging](https://ci.fr-stage.cloud.gov/) and [production](https://ci.fr.cloud.gov) Concourse instances, and take a look at some of [our pipelines](https://github.com/search?q=org%3A18F+cg-deploy).
   - [ ] Join [the Concourse Slack](http://slack.concourse.ci/) in case you need to ask questions of upstream developers.
 - Learn about [Kubernetes](https://kubernetes.io/)
   - [ ] Watch [The illustrated Children's Guide to Kubernetes](https://youtu.be/4ht22ReBjno)
