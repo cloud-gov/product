@@ -22,7 +22,7 @@ We've structured our team into three squads, each centered around a different [t
    - [Board view](https://favro.com/organization/1e11108a2da81e3bd7153a7a/68a186775e1a0ee297ee81ed)
 
 - Customer:
-  - Fureigh, Lenny Bogdonoff, Greg Boone, Marco Segreto, James Scott (engineering lead), (Andrew Suprenant, PM)
+  - Fureigh, Lenny Bogdonoff, Greg Boone, Marco Segreto, Adam Biagianti, James Scott (engineering lead), (Andrew Suprenant, PM)
   - Comm channel: #cg-customer, #cg-nav-news
   - Skills involved: UX research, UI design, service design, content strategy, communications, front-end dev, Python, Ruby, Go, Networking
   - [Board view](https://favro.com/organization/1e11108a2da81e3bd7153a7a/e9acfea577acd5bdadf3d6a2)
