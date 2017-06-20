@@ -11,11 +11,11 @@ To manage our day-to-day work, we practice Scrumban, which means we practice [Ka
 - occasional higher-level planning and grooming sessions
  
 ## Squads
-We've structured our team into three squads, each centered around a different [theme](https://github.com/18F/cg-product#sub-teamsthemes-of-work), and generally working on features under that theme:
+We've structured our team into two squads, each centered around a different [theme](https://github.com/18F/cg-product#sub-teamsthemes-of-work), and generally working on features under that theme:
 
 - Platform (formerly Atlas/AgentQ):
   - Adam Kendall, Chris Nelson, Josh Carp, Roger Ruiz, DKP, Peter Burkholder, Will Woodson, (Bret Mogilefsky, PM)
-  - Comm channels: #cg-platform, #cg-atlas, #cg-agentq
+  - Comm channels: #cg-platform, #cg-services, #cg-platform-news
   - Skills involved:
     - Atlas: SRE skills like Terraform, BOSH, etc.
     - AgentQ: Clojure, Ruby, Golang, Python, Bash; Linux, Infrastructure, Networking, Automation; Monitoring
@@ -27,15 +27,8 @@ We've structured our team into three squads, each centered around a different [t
   - Skills involved: UX research, UI design, service design, content strategy, communications, front-end dev, Python, Ruby, Go, Networking
   - [Board view](https://favro.com/organization/1e11108a2da81e3bd7153a7a/e9acfea577acd5bdadf3d6a2)
 
-- HighBar:
-  - Britta Gustafson (Bret Mogilefsky, PM)
-  - Comm channel: #cloud-gov-highbar, and group messages
-  - Skills involved: UI design, account management, comms and content
-  - [Board view](https://favro.com/organization/1e11108a2da81e3bd7153a7a/d9f8e73b7402f22b1ff55cf9)
-
-
 ## Business Unit
-Cloud.gov's business unit (BU) focuses on business strategy and development as well ensuring customer support gets handled. Currently, the BU consists of Shashank Khandelwal (Acting Director) and Britta Gustafson (Acting Deputy Director). Their comms channel is #cg-business.
+cloud.gov's business unit (BU) focuses on business strategy and development, ensuring customer support gets handled, making sure we meet compliance requirements and other mandatory reporting requirements, and [related work](https://docs.google.com/document/d/18jU3jb6pWEo430LN77G8ucuW7IW0bKP9ljnYSyQU13c/edit#heading=h.tjv8u8lx3c02). Currently, the BU consists of Shashank Khandelwal (Acting Director) and Britta Gustafson (Acting Deputy Director). Their comms channels are #cg-business and #cg-bizops, with compliance work (formerly called HighBar) in #cg-compliance.
 
 ## Kanban process
 
