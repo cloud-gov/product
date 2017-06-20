@@ -21,7 +21,7 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 **Assignee:** The tasks below are organized by the role needed to complete them. If you can’t complete any of the items on your checklist personally, _you are responsible for ensuring that an appropriate person does it_.
 
 ## Assignee
-- [ ] [Remove them](https://get.slack.help/hc/en-us/articles/212906697-User-Groups) from @cloud-gov-team, @cloud-gov-operators, and any other @cloud-gov- teams in the Slack Team Directory
+- [ ] [Remove them](https://get.slack.help/hc/en-us/articles/212906697-User-Groups) from @cg-team, @cg-operators, and any other @cg- teams in the Slack Team Directory
 - [ ] Remove them from the [team roster](https://docs.google.com/spreadsheets/d/1mW3tphZ98ExmMxLHPogSpTq8DzYr5Oh8_SHnOTvjRWM/edit#gid=0)
 - [ ] Remove them from the [squad list](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md#squads)
 - [ ] Remove them from the [training tracker](https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0)
