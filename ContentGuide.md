@@ -59,6 +59,7 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **PagerDuty**
 * **Platform as a Service** (or **PaaS**)
 * **React** (when talking about the library)
+* **Redis**
 * **Riemann**
 * **StatusPage**
 * **Travis CI**
