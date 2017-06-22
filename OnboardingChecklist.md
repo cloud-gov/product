@@ -35,7 +35,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Read through [the Overview section of cloud.gov](https://cloud.gov/overview/) for a broader understanding of cloud.gov, especially as we present it to potential customers/users.
 - [ ] Read the [January 2016 cloud.gov "Executive Business Case" document](https://docs.google.com/document/d/138OcG0Lt6gr9J0wM0TzzPNyTROmYAwfLIDujtweiwGw/edit#) for greater context about cloud.gov's potential impact in government.
 - [ ] [Deploy a sample application to cloud.gov](https://cloud.gov/docs/getting-started/your-first-deploy/) to get familiar with the basics of the PaaS from a user's perspective.
-- [ ] Sign up for a [Favro account](https://favro.com/signup) using your GSA Google Account.
+- [ ] Sign up for a [Favro account](https://favro.com/signup) using your GSA Google Account. Add a profile photo and add your name/Github handle using this standard so you receive notifications on any linked Github issues: "[Github handle] - [your name]", e.g. "suprenant - Andrew Suprenant".
 - [ ] Check out the [Favro cloud.gov Program
   board](https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244) and make sure you have access to all our Favro boards.
 - [ ] Check out the [roadmap](https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244) to get a high-level view of recently-completed, in-progress, and upcoming features.
@@ -194,7 +194,7 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] Add their name, whether they're Cloud Ops (Atlas/AgentQ), and the date they joined the team to the [training tracker](https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0). Copy the formulas for the due dates from an existing row (grab the "corner" of the cells and pull down).
 - [ ] Add them to the @cloud-gov-team [in Slack’s Team Directory](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group).
 - [ ] Add them to the recurring cloud.gov meetings that are relevant for them in [the team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles).
-- [ ] Ask `#admins-github` to add them to the [@18F/cloud.gov team](https://github.com/orgs/18F/teams/cloud-gov) on GitHub.
+- [ ] Ask one of our cloud-gov team Github Maintainers (@mogul, @LinuxBozo, or @afeld) to add them to the [@18F/cloud.gov team](https://github.com/orgs/18F/teams/cloud-gov) on GitHub. If they are unable to help in a timely manner, ask `#admins-github` to add them.
 
 ### Platform-specific required items
 
