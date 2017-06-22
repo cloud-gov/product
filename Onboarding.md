@@ -57,7 +57,7 @@ This means we have additional team rules on top of your standard 18F team rules.
 
 We liberally make upstream pull requests for stuff we use. We try to transfer broadly-useful Cloud Foundry-related projects to [the Cloud Foundry community GitHub organization](https://github.com/cloudfoundry-community/). We also try to move others to the [opencontrol](https://github.com/opencontrol) or [fisma-ready](https://github.com/fisma-ready) GitHub organizations whenever appropriate. 
 
-To release: `ci.cloud.gov -> deploy-cf project`
+To release: `ci.fr.cloud.gov -> deploy-cf project`
 
 ## Important terminology and context
 
