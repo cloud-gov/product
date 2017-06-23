@@ -59,4 +59,4 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 ## Customer Team
 - [ ] Delete their account from the customers app.
   - [ ] [Production Site](https://customers.fr.cloud.gov/django-admin/auth/user/)
-  - [ ] [Staging Site](https://customers-staging.fr.cloud.gov/django-admin/auth/user/)
+  - [ ] [Staging Site](https://customers.fr-stage.cloud.gov/django-admin/auth/user/)
