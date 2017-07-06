@@ -88,8 +88,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - Get familiar with [Terraform](https://www.terraform.io/)
   - [ ] Go through the [getting started guide](https://www.terraform.io/intro/getting-started/install.html).
   - [ ] Examine [our provisioning procedures](https://github.com/18F/cg-provision)
-  - [ ] Add yourself as an admin to CF staging. Look at the repo `cg-scripts`,
-    then ask for help on UAAC and getting admin tokens.
+  - [ ] Add yourself as an admin to CF staging. To start, look at the repo https://github.com/18F/cg-scripts, and the `make-cf-admin.sh` script. From there, ask for help on UAAC and getting admin tokens.
 - Learn about [Concourse](https://concourse.ci/)
   - [ ] Try a [tutorial](https://github.com/starkandwayne/concourse-tutorial).
   - [ ] Check out our [staging](https://ci.fr-stage.cloud.gov/) and [production](https://ci.fr.cloud.gov) Concourse instances, and take a look at some of [our pipelines](https://github.com/search?q=org%3A18F+cg-deploy).
