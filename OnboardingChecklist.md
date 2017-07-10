@@ -152,6 +152,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Ask previous Director to give you AWS account ownership.
 - [ ] Ask Program Manager or previous Director to give you cloud.gov calendar ownership.
 - [ ] Ask Program Manager or previous Director to give you owner permission on the Google Groups.
+- [ ] Ask Cloud Ops for read-write access to Admin UI.
 - [ ] Review the [GSA Information Technology (IT) Security Policy](https://insite.gsa.gov/portal/content/520281) to understand our responsibilities as part of GSA.
 - [ ] Review the [cloud.gov System Security Plan version 1.33](https://drive.google.com/drive/folders/0B6fPl5s12igNX3JwR2xFZVpmek0).
 
