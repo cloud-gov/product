@@ -4,16 +4,11 @@
 
 When the end of a quarter and start of a new quarter is about to happen:
 
-1. Create a new issue in `cg-product` called "Ramp up [person's name] on cloud.gov team".
+1. Create a new issue in Favro on the _cg PaaS Program_ **Program Board** called "Prepare for quarterly transition."
 2. View the raw source of this file.
 3. Copy everything below the line into the new issue's body.
-4. Replace "NewPerson" with the new person's name.
-5. Replace "Buddy" with the onboarding buddy's name.
-4. Delete any checklists irrelevant for the new person's skill domain (theme).
-5. Submit the issue.
-6. Assign the issue to the person who bravely volunteered to be the new person's Onboarding Buddy.
-7. Put the issue into the _In Progress_ pipeline in Favro on the _cloud.gov
-   Program_ **Program Board**.
+4. Delete any checklists or items that are irrelevant for the upcoming quarterly transition.
+5. Put the issue into the _In Progress_ pipeline 
 
 ---
 
@@ -22,14 +17,20 @@ In order to....., we should....
 ## Innovation and Planning (IP) Sprint
 
 ### 
-- [ ] Task
+- [ ] Remove standups from the calendar (execpting the day before PI planning to orient with the team before planning begins)
+- [ ] Let team know standups are optional for IP sprint (unless team members are working on features)
+- [ ] Clean up boards, accepting items with BU and deciding which, if any, features or gravel might roll over to the next PI
+- [ ] Direct team to create slides to represent IP sprint work
 
 ## Quarterly Review
-
-### Headline
-- [ ] Task
+- [ ] Set a date and time (avoid Fridays)
+- [ ] As needed, set Zoom appointment
+- [ ] Invite appropriate stakeholders
+- [ ] Create new copy and prepare stakeholder review presentation (asking team for help/feedback)
+- [ ] Set a meeting a day or two prior for program team to review the presentation, identify gaps, and designiate ownership for them
 
 ## PI Planning
-
-### Headline
-- [ ] Task
+- [ ] Set a date and time (Tuesday to Wednesday generally works well, allowing for prep and, if needed, travel on Mondays)
+- [ ] As needed, set Zoom appointment
+- [ ] Invite team members
+- [ ] Create new copy and prepare planning presentation
