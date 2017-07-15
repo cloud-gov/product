@@ -43,7 +43,7 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove them from [the cloud.gov emergency Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-emergency)
 - [ ] Remove them from [the cloud.gov operations Google Group](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-operations)
 - [ ] Remove them from the cg-supportstream private Slack channel
-- [ ] Remove them from the project in Float
+- [ ] Remove them from [the project in Float](https://login.float.com/?project=cloud.gov+-+UI%2FUX+%28Navigator%29&project=cloud.gov+-+business+%2F+comms+%28Skyporter%29&project=cloud.gov+-+compliance+%28Highbar%29&project=cloud.gov+-+operations+and+services+%28Atlas+%26+Agent+Q%29&project=cloud.gov+P%26L)
 - [ ] Remove their membership in cloud.gov-specific Trello boards (eg the business-tracker)
 - [ ] Remove them from DigitalGov Search access for cg-site
 - [ ] Remove them from Nessus
