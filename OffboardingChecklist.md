@@ -34,7 +34,7 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove their access to Zendesk - [switch their role to "end user"](https://cloud-gov.zendesk.com/agent/admin/people)
 - [ ] Remove their access to StatusPage
 - [ ] Remove their access to PagerDuty
-- [ ] Remove their access to New Relic
+- [ ] Remove their access to [New Relic](https://rpm.newrelic.com/accounts/907948)
 - [ ] Remove their access to Favro
 - [ ] Remove them from [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov)
 - [ ] Remove them from [the cloud.gov notifications Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-notifications)
