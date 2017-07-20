@@ -82,3 +82,4 @@ This is the PI-cadence, all-program retrospective (as opposed to squad retrospec
 #### PI Planning
 
 Fresh from the presentation and feedback of the Inspect and Adapt sessions, the last two days of the PI are spent running the PI planning session for the next PI (see "PI Planning" above).
+
