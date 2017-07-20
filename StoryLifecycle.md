@@ -2,6 +2,8 @@
 ---
 # Story lifecycle
 
+Stories are tracked on the collections of the squad that has taken responsibility for them, or in an icebox or under a future Feature as warranted.
+
 Stories progress through these columns (although there is some variation from squad to squad):
 
 - Triage (where reported issues, and newly-identified stories appear)
