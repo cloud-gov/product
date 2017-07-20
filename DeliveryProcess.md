@@ -40,18 +40,7 @@ Cards on our boards typically capture and track a bug, raw task, or Story. Bugs 
 
 ### Column sequence
 
-**Features** progress through these columns in the Feature Kanban on the [the Program collection](https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244):
-
-- Funnel (to note that we have heard about the need but otherwise not advanced it)
-- Analysis (where we explore our options for overall UX and implementation, and set objective metrics and outcomes)
-- Backlog (when the feature is basically well-understood at a high level and awaits squad-level attention)
-- Implementing (while implementation is in progress)
-- Verifying (while they are being evaluated as delivering their intended benefit, open to customer feedback)
-- Done (when they are confirmed as meeting their target, and no longer a focus)
-
-Features are also tracked against the Program Increment (PI) where we suspect they'll be delivered based on our best understanding of our current priorities and progress.
-
-**Stories** progress through these columns (although there is some variation from squad to squad):
+Stories progress through these columns (although there is some variation from squad to squad):
 
 - Triage (where reported issues, and newly-identified stories appear)
 - Backlog (when they are sequenced alongside other stories prioritized for attention)
@@ -61,6 +50,7 @@ Features are also tracked against the Program Increment (PI) where we suspect th
 - Grooming (when they're being refined for implementation)
 - Ready (when they're in a shovel-worthy state, just waiting for team capacity to do the work)
 - In Progress (when someone is actively working on the issue)
+- Blocked/waiting (when there's a dependency on someone responding or something happening outside the team)
 - Awaiting Acceptance (when work is considered complete and awaiting review/merging/feedback)
 - Done (when work warrants demonstration to stakeholders and is awaiting the next sprint review)
 - Done, but archived (when work has been demoed, released, announced, and is no longer worth looking at)
@@ -80,7 +70,7 @@ At our [sprint reviews](https://docs.google.com/presentation/d/192PxdXMrCS__QcG6
 ### Column exit criteria
 For cloud.gov, our DoD is broken up into a set of statements that should be true for each card before it moves to the next column on the board. 
 
-Before advancing a card from one column to the next on the board, it should meet the "exit criteria" for the current column, which are listed below.  The exit criteria for a column varies a bit when the column is used for both Features and Stories.
+Before advancing a card from one column to the next on the board, it should meet the "exit criteria" for the current column, which are listed below.
 
 #### Triage
 
@@ -89,13 +79,7 @@ Before advancing a card from one column to the next on the board, it should meet
 
 #### Backlog
 
-##### Features
-
-- Describe what we're after, what benefits it's expected to deliver, and any relevant design/research artifacts. That's it! Any more detail than that should appear in stories.
-
-##### Stories
-
-- Indicate the intended benefit and who it's for in one of these forms:
+- Indicate the intended benefit and who the story is for in one of these forms:
  - Story: We prefer the ["In order"](http://blog.crisp.se/2014/09/25/david-evans/as-a-i-want-so-that-considered-harmful) form (rather than the common "As a/I want/so that" form).
  - Hypothesis: What's the lean hypothesis being tested, and how it will be validated?
 
