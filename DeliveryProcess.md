@@ -36,13 +36,9 @@ Kanban basically says cards go through a set of states, but it doesn't say much 
 
 ### Cards
 
-Cards on our boards capture either a Feature or Story. Each type represents work to be done at a particular level of detail.
-
-- **Features** are user-notable, program-sequenced, roadmap-worthy changes in product capabilities tracked against cadence-driven periodic milestones... big stuff that's worth planning and announcing on a regular basis. Features are fairly general, encompassing a set of stories which break down the actual changes in product behavior that we're after to get the intended benefits of the feature. Generally we do coarse analysis and UX exploration work at the Feature level.
-- **Stories** represent tactical increments of individually-valuable work deliverable by a squad within a single iteration... often an isolated change in functionality aimed at achieving a goal for a particular kind of stakeholder, whether customer, user, or operator/admin. We try to set the scope of stories such that we anticipate they will take no more than three days of concentrated work to complete.
+Cards on our boards typically capture and track a bug, raw task, or Story. Bugs and tasks are what they sound like. **Stories** represent tactical increments of individually-valuable work deliverable by a squad within a single iteration... often an isolated change in functionality aimed at achieving a goal for a particular kind of stakeholder, whether customer, user, or operator/admin. We try to set the scope of stories such that we anticipate they will take no more than three days of concentrated work to complete. A Story gets tracked on the Favro collection of a squad once that squad explicitly takes responsibility for it.
 
 ### Column sequence
-Features are generally tracked by their status and against the quarterly cadence on [the Program collection](https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244). Stories are tracked on the collections of the squad that is most responsible for them.
 
 **Features** progress through these columns in the Feature Kanban on the [the Program collection](https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244):
 
