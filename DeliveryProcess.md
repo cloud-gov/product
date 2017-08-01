@@ -50,3 +50,10 @@ Cards on our boards typically capture and track a bug, raw task, or Story. Bugs 
 If you see a number after a column name, that's a work-in-progress (WIP) limit. That means we expect to see no more than that number of cards in the column at a time. If you want to move a card right into a column that's already at its WIP limit, first figure out how to help move one of the existing cards out to the right! If the next column is also at its WIP limit, that's your cue to keep working your way over to the right, asking "how can I help?" when you encounter something being worked on for which there's space to move.
 
 In general we use WIP limits to gate how much time and effort we put into grooming cards when we haven't got capacity to do them yet, and to gate how many things we're trying to do at once so that we focus on finishing existing work before starting new work. We don't want individuals to be responsible for more than one or two cards in progress at a time, and we like people to collaborate and pair up to get work done, so our WIP limit for cards actually getting development attention is set intentionally low to encourage this!
+
+---
+<a name="definition-of-done"></a>
+To find information about the Definition of Done for stories, see [the Story Lifecycle](StoryLifecycle.md#definition-of-done).
+
+<a name="grooming"></a>
+To find information about the story grooming process, see [the Story Lifecycle](StoryLifecycle.md#grooming).
