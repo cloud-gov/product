@@ -1,5 +1,3 @@
-
----
 # Story lifecycle
 
 **Stories** represent tactical increments of individually-valuable work deliverable by a squad within a single iteration... often an isolated change in functionality aimed at achieving a goal for a particular kind of stakeholder, whether customer, user, or operator/admin. Stories are tracked on the collections of the squad that has taken responsibility for them, or in an icebox or under a future Feature as warranted.
@@ -91,7 +89,7 @@ Required for compliance:
 
 Required for compliance:
 
-- The work completed adheres to all our policies (for [18F](https://github.com/18F/compliance-docs) and [cloud.gov](https://github.com/18f/cg-compliance)).
+- The work completed adheres to all of [cloud.gov's policies and procedures](https://github.com/18F/compliance-docs).
 - If the work changes an aspect of our system or operating environment that is (or should be) documented in our System Security Plan (SSP), [note necessary changes in our pending SSP change document](https://docs.google.com/a/gsa.gov/document/d/1CWi8efCQKi6TS5oxm76YpSvx3pyQMiW-F0i7lIsdBXk/edit?usp=drive_web) to note the change.
 
 #### Done
