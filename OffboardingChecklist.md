@@ -32,10 +32,10 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove them from [GitHub teams that start with cloud-gov](https://github.com/orgs/18F/teams?utf8=%E2%9C%93&query=cloud-gov)
 - [ ] Remove them from the [Cloud Foundry Community GitHub org cloud.gov team](https://github.com/orgs/cloudfoundry-community/teams/cloud-gov)
 - [ ] Remove their access to Zendesk - [switch their role to "end user"](https://cloud-gov.zendesk.com/agent/admin/people)
-- [ ] Remove their access to StatusPage
-- [ ] Remove their access to PagerDuty
+- [ ] Remove their access to [StatusPage](https://manage.statuspage.io/organizations/btc69fwyvjh7/team) - likely have to ask devops@gsa.gov
+- [ ] Remove their access to [PagerDuty](https://18fi.pagerduty.com/users)
 - [ ] Remove their access to [New Relic](https://rpm.newrelic.com/accounts/907948)
-- [ ] Remove their access to Favro
+- [ ] Remove their access to [Favro](https://favro.com/organization/1e11108a2da81e3bd7153a7a/1c6c9af1003b58d597b43ef4?onShow=administration)
 - [ ] Remove them from [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov)
 - [ ] Remove them from [the cloud.gov notifications Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-notifications)
 - [ ] Remove them from [the cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-inquiries)
@@ -43,7 +43,7 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove them from [the cloud.gov emergency Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-emergency)
 - [ ] Remove them from [the cloud.gov operations Google Group](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-operations)
 - [ ] Remove them from the cg-supportstream private Slack channel
-- [ ] Remove them from the project in Float
+- [ ] Remove them from [the project in Float](https://login.float.com/?project=cloud.gov+-+UI%2FUX+%28Navigator%29&project=cloud.gov+-+business+%2F+comms+%28Skyporter%29&project=cloud.gov+-+compliance+%28Highbar%29&project=cloud.gov+-+operations+and+services+%28Atlas+%26+Agent+Q%29&project=cloud.gov+P%26L)
 - [ ] Remove their membership in cloud.gov-specific Trello boards (eg the business-tracker)
 - [ ] Remove them from DigitalGov Search access for cg-site
 - [ ] Remove them from Nessus
