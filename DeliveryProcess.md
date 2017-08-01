@@ -1,3 +1,9 @@
+<a name="definition-of-done"></a>
+<a name="grooming"></a>
+**Moved content:** Looking for information related to CM-4, CM-9, CM-11, or SC-18? To find information about the [Definition of Done](StoryLifecycle.md#definition-of-done) and [the story grooming process](StoryLifecycle.md#grooming), see [the Story Lifecycle](StoryLifecycle.md).
+
+---
+
 # Delivery process
 
 The cloud.gov team applies a subset of [the Scaled Agile Framework](http://www.scaledagileframework.com/) (SAFe) to guide its program structure, as described in [Essential SAFe](http://www.scaledagileframework.com/guidance-essential-safe/). We set goals and prioritize work in three month periods called "program increments," or PIs, and practice a number of SAFe rituals around this quarterly cadence.
@@ -51,9 +57,3 @@ If you see a number after a column name, that's a work-in-progress (WIP) limit. 
 
 In general we use WIP limits to gate how much time and effort we put into grooming cards when we haven't got capacity to do them yet, and to gate how many things we're trying to do at once so that we focus on finishing existing work before starting new work. We don't want individuals to be responsible for more than one or two cards in progress at a time, and we like people to collaborate and pair up to get work done, so our WIP limit for cards actually getting development attention is set intentionally low to encourage this!
 
----
-<a name="definition-of-done"></a>
-To find information about the Definition of Done for stories, see [the Story Lifecycle](StoryLifecycle.md#definition-of-done).
-
-<a name="grooming"></a>
-To find information about the story grooming process, see [the Story Lifecycle](StoryLifecycle.md#grooming).
