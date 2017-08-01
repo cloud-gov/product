@@ -32,7 +32,7 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove them from [GitHub teams that start with cloud-gov](https://github.com/orgs/18F/teams?utf8=%E2%9C%93&query=cloud-gov)
 - [ ] Remove them from the [Cloud Foundry Community GitHub org cloud.gov team](https://github.com/orgs/cloudfoundry-community/teams/cloud-gov)
 - [ ] Remove their access to Zendesk - [switch their role to "end user"](https://cloud-gov.zendesk.com/agent/admin/people)
-- [ ] Remove their access to StatusPage
+- [ ] Remove their access to [StatusPage](https://manage.statuspage.io/organizations/btc69fwyvjh7/team) - likely have to ask devops@gsa.gov
 - [ ] Remove their access to [PagerDuty](https://18fi.pagerduty.com/users)
 - [ ] Remove their access to New Relic
 - [ ] Remove their access to [Favro](https://favro.com/organization/1e11108a2da81e3bd7153a7a/1c6c9af1003b58d597b43ef4?onShow=administration)
