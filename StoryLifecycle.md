@@ -2,7 +2,7 @@
 ---
 # Story lifecycle
 
-Stories are tracked on the collections of the squad that has taken responsibility for them, or in an icebox or under a future Feature as warranted.
+**Stories** represent tactical increments of individually-valuable work deliverable by a squad within a single iteration... often an isolated change in functionality aimed at achieving a goal for a particular kind of stakeholder, whether customer, user, or operator/admin. Stories are tracked on the collections of the squad that has taken responsibility for them, or in an icebox or under a future Feature as warranted.
 
 Stories progress through these columns (although there is some variation from squad to squad):
 
@@ -45,7 +45,7 @@ Before advancing a card from one column to the next on the board, it should meet
 
 - Has testable/demoable Acceptance Criteria that we expect to be able to check off to help us understand when the work is done. (Try wording them as [Gherkin](https://en.wikipedia.org/wiki/Behavior-driven_development#Behavioural_specifications), and use [GFM checklists](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments) for them).
 - Discussed by the team and implementation sketched (use more checklists here).
-- The scope of the work is easily doable in a few days (otherwise, split it!).
+- We believe the benefit of the story is easily deliverable within in a few days of concentrated work (otherwise, split it into smaller stories!)
 - Any authentication/authorization and data persistence points are discussed and requirements are addressed via Acceptance Criteria (e.g., "Authenticate using [login.cloud.gov]" or "Any ephemeral data resulting from usage is backed up/recoverable").
 - There's a communication plan for any user-visible changes which require their attention/action.
 
