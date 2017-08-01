@@ -11,7 +11,7 @@ Features progress through these columns in the Feature Kanban on the [the Progra
 - Funnel (to note that we have heard about the need but otherwise not advanced it)
   - TODO
 - Analyzing (where we explore our options for overall UX and implementation, and set objective metrics and outcomes)
-  - The card has been analyzed for potential to impact our System Security Plan (SSP) and if necessary, a Significant Change Request (SCR) has been submitted to the FedRAMP JAB.
+  - If the card will change an aspect of our system or operating environment that is (or should be) documented in our System Security Plan (SSP), we have submitted a Significant Change Request (SCR) to the FedRAMP JAB.
   - The approach for UX and architecture is sufficiently understood for PI planning purposes (for example, via research or spike stories).
   - The card has WSJF values.
 - Backlog (when the feature is basically well-understood at a high level and awaits squad-level attention)
