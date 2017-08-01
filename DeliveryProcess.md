@@ -35,15 +35,15 @@ Kanban basically says cards go through a set of states (represented columns on a
 
 ### Cards on squad boards
 
-Cards on our boards typically capture and track a bug, raw task, or Story. Bugs and tasks are what they sound like. **Stories** represent tactical increments of individually-valuable work deliverable by a squad within a single iteration... often an isolated change in functionality aimed at achieving a goal for a particular kind of stakeholder, whether customer, user, or operator/admin. We try to set the scope of stories such that we anticipate they will take no more than three days of concentrated work to complete. A Story gets tracked on the Favro collection of a squad once that squad explicitly takes responsibility for it.
+Cards on our boards typically capture and track a bug, raw task, or Story. Bugs and tasks are what they sound like. **Stories** represent tactical increments of individually-valuable work deliverable by a squad within a single iteration.
 
-[Lifecycle and "definition-of-done" for stories](#)
+[What's the lifecycle and "definition-of-done" for stories?](StoryLifecycle.md)
 
 ### Cards on program boards
 
-**Features** are user-notable, program-sequenced, roadmap-worthy changes in product capabilities tracked against cadence-driven periodic milestones... big stuff that's worth planning and announcing on a regular basis. Features are fairly general, encompassing a set of stories which break down the actual changes in product behavior that we're after to get the intended benefits of the feature. Generally we do coarse analysis and UX exploration work at the Feature level before breaking them down into stories.
+**Features** are roadmap-worthy changes in product capabilities tracked against regular milestones... big stuff that's worth planning and announcing on a regular basis.
 
-[Lifecycle and "definition-of-done" for features](#)
+[What's the lifecycle and "definition-of-done" for features?](FeatureLifecycle.md)
 
 ### WIP Limits
 
