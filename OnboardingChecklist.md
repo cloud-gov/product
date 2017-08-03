@@ -98,7 +98,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
   - [ ] Read the cloud.gov guide for [troubleshooting k8s](https://cloud.gov/docs/ops/runbook/troubleshooting-kubernetes/)
 - [ ] Join [the cloud.gov operations notifications Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-notifications), so you can see alert information if PagerDuty is unavailable
 - Get familiar with our AWS setup
-  - [ ] Read about our [AWS accounts](https://cloud.gov/docs/ops/aws-accounts/) and [onboarding](https://cloud.gov/docs/ops/aws-onboarding/)
+  - [ ] Read about [AWS onboarding](https://cloud.gov/docs/ops/aws-onboarding/)
   - [ ] Read about the [AWS CLI](https://aws.amazon.com/cli/)
 - [ ] Review the [daily maintenance tasks](https://cloud.gov/docs/ops/maintenance-list/) for when you're on support duty
 
@@ -111,9 +111,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Review the primary cloud.gov sites: [the dashboard](https://dashboard.cloud.gov/#/), [main landing page](https://cloud.gov/), and [documentation](https://cloud.gov/docs/).
 - [ ] [Request access to 18F Google Analytics](https://handbook.18f.gov/google-analytics/), so you can view cloud.gov site analytics ([including for the dashboard](https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit)).
 - [ ] Ask for an invite to a DigitalGov Search account for cg-site, so you can configure it and view analytics.
-- [ ] Once granted access to New Relic, sign up for email notifications of alerts for:
-  - [dashboard (e/w)](https://synthetics.newrelic.com/accounts/907948/monitors/d3b72eab-dcc8-4090-99aa-3402cdbdba65/alerts)
-  - [dashboard (govcloud)](https://synthetics.newrelic.com/accounts/907948/monitors/c4fdd474-0f6c-470a-bf9d-a3d839cea2cb/alerts)
+- [ ] Once granted access to New Relic, sign up for email notifications of alerts for [dashboard](https://synthetics.newrelic.com/accounts/907948/monitors/c4fdd474-0f6c-470a-bf9d-a3d839cea2cb/alerts)
 - [ ] Ask the team to add your e-mail address to the customers app.
   - [ ] [Production Site](https://customers.fr.cloud.gov/django-admin/auth/user/)
   - [ ] [Staging Site](https://customers.fr-stage.cloud.gov/django-admin/auth/user/)
@@ -142,16 +140,18 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Read [how the cloud-gov-emergency group works](https://docs.google.com/document/d/1O5UW1M-XX8YIZJV1OcF1EqGWjPnNUi7L0mZpJZ6d-cs/edit#), and set up push notifications for these emails from your work smartphone if appropriate for your role.
 - [ ] Ask #admins-salesforce for access to [Salesforce](https://gsa-peo.my.salesforce.com).
 - [ ] In Salesforce, bookmark the [cloud.gov opportunities](https://gsa-peo.lightning.force.com/one/one.app#/sObject/00Ot0000000mFIxEAM/view?t=1484708635668) report.
-- [ ] [If not also Cloud Ops] Ask Program Manager or Director for view-only access to admin interfaces for [GovCloud](https://admin.fr.cloud.gov) and [E/W](https://admin.cloud.gov).
-- [ ] Ask #acquistion for the Acquisition NDA so you can sign it (if you haven't already).
+- [ ] [If not also Cloud Ops] Ask Program Manager or Director for view-only access to [admin UI](https://admin.fr.cloud.gov).
+- [ ] Ask #acquisition for the Acquisition NDA so you can sign it (if you haven't already).
+- [ ] [If not also Cloud Ops] If appropriate for your role, ask for access to billing info in commercial AWS account from Program Manager or Director.
 
 ##### New Director (System Owner) items
 - [ ] Ask #tock to list you as the project contact for cloud.gov lines.
-- [ ] Learn how to access Nessus Manager as the main admin user (part of the platform secret keys).
+- [ ] Ask previous Director to give you Owner access to Nessus Manager.
 - [ ] Ask previous Director to give you Owner access in Zendesk.
-- [ ] Ask previous Director to give you AWS account ownership.
+- [ ] Ask previous Director to give you [AWS account ownership](https://cloud.gov/docs/ops/aws-onboarding/) for GovCloud.
 - [ ] Ask Program Manager or previous Director to give you cloud.gov calendar ownership.
 - [ ] Ask Program Manager or previous Director to give you owner permission on the Google Groups.
+- [ ] Ask Cloud Ops for read-write access to Admin UI.
 - [ ] Review the [GSA Information Technology (IT) Security Policy](https://insite.gsa.gov/portal/content/520281) to understand our responsibilities as part of GSA.
 - [ ] Review the [cloud.gov System Security Plan version 1.33](https://drive.google.com/drive/folders/0B6fPl5s12igNX3JwR2xFZVpmek0).
 
@@ -204,10 +204,10 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] If the new person is a contractor, ask `#admins-github` to have them added to the [@18F/cloud-gov-contractors](https://github.com/orgs/18F/teams/cloud-gov-contractors) team on GitHub.
 - [ ] Add them to the @cloud-gov-operators [in Slack’s Team Directory](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group).
 - Grant them access to the following:
-  - [ ] [AWS Accounts](https://cloud.gov/docs/ops/aws-accounts/)
+  - [ ] [AWS Accounts](https://cloud.gov/docs/ops/aws-onboarding/)
     - [ ] AWS GovCloud
     - [ ] AWS East tied to GovCloud
-    - [ ] [AWS Admin Access](https://github.com/18F/cg-provision/blob/master/terraform/modules/operators/variables.tf)
+    - [ ] AWS Admin Access
     - Note: AWS user names should be identical across accounts so that permissions can be correctly managed by terraform
   - [ ] Nessus Manager GUI
   - [ ] New Relic
