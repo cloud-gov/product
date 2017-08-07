@@ -62,9 +62,9 @@ Learn our policies and procedures:
    - [ ] Review the [18F open source policy guidance about protecting sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information).
    - [ ] Read our [sharing secret keys](https://cloud.gov/docs/ops/secrets/#sharing-secret-keys) policy.
    - [ ] Review the [18F requirements for password management](https://handbook.18f.gov/password-requirements/).
-- [ ] If you're Cloud Ops or Business Unit: Coordinate with your onboarding buddy to go through Contingency Planning training within 10 days (and annually after that). This will cover the following documents, which you should also review before or after training:
+- [ ] If you're Cloud Ops or Business Unit: Coordinate with your onboarding buddy to go through Contingency Planning training within 10 days (and annually after that). This will cover the following document, which you should also review before or after training:
    - [ ] Read the [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/).
-- Read the following documents as well. A lot of this simply documents our practices in a formal written way. Reach out to your buddy or the team if anything is unexpected or confusing.
+- Read the following documents as well, which explain our practices in a formal written way. Reach out to your buddy or the team if anything is unexpected or confusing.
    - [ ] Read the [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), particularly the [cloud.gov team responsibilities](https://cloud.gov/docs/ops/continuous-monitoring/#cloud-gov-team).
    - [ ] Read the [Configuration Management Plan](https://cloud.gov/docs/ops/configuration-management/).
    - [ ] Read the [18F Security Policies and Procedures](https://github.com/18F/compliance-docs). These documents explain the high-level policies and procedures we must comply with while running cloud.gov, sorted into security control "families". They explain that we follow GSA IT security policy, and they provide a summary of the procedures in our System Security Plan.
