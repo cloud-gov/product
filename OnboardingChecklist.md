@@ -55,7 +55,7 @@ Ensure you know what's happening on the team:
 - [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various squads. Tip: When you plan Out of Office time, make a calendar event for that on the cloud.gov calendar so that your teammates know you'll be away.
 - [ ] Subscribe (through the GitHub watch function) to the [cg-site](https://github.com/18F/cg-site) GitHub repository notifications.
 
-Learn our policies:
+Learn our policies and procedures:
 - [ ] Coordinate with your onboarding buddy to go through Incident Response Training within 60 days of joining the team (and annually after that). This will cover the following document, which you should also review before or after training:
    - [ ] Read the [Incident Response Guide](https://cloud.gov/docs/ops/security-ir/).
 - [ ] Coordinate with your onboarding buddy to go through [nonpublic information training](https://docs.google.com/presentation/d/1uB4MlGCu8ZYUxjKVZKwicQ95MvLxaT4Mh93y6w79GPw/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following documents, which you should also review before or after training:
@@ -64,7 +64,7 @@ Learn our policies:
    - [ ] Review the [18F requirements for password management](https://handbook.18f.gov/password-requirements/).
 - [ ] If you're Cloud Ops or Business Unit: Coordinate with your onboarding buddy to go through Contingency Planning training within 10 days (and annually after that). This will cover the following documents, which you should also review before or after training:
    - [ ] Read the [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/).
-- Read the following documents as well, which document additional practices and procedures, and reach out to your buddy or the team if anything is unexpected or confusing:
+- Read the following documents as well. A lot of this simply documents our practices in a formal written way. Reach out to your buddy or the team if anything is unexpected or confusing.
    - [ ] Read the [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), particularly the [cloud.gov team responsibilities](https://cloud.gov/docs/ops/continuous-monitoring/#cloud-gov-team).
    - [ ] Read the [Configuration Management Plan](https://cloud.gov/docs/ops/configuration-management/).
    - [ ] Read the [18F Security Policies and Procedures](https://github.com/18F/compliance-docs). These documents explain the high-level policies and procedures we must comply with while running cloud.gov, sorted into security control "families". They explain that we follow GSA IT security policy, and they provide a summary of the procedures in our System Security Plan.
