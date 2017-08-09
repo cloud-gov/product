@@ -50,9 +50,9 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 
 
 ## Cloud Operations
-- [ ] Remove any privileges they have due to membership in the cloud.gov team (even if not in Cloud Ops), such as `admin_ui.read`
 - [ ] Remove them from any IAM roles they hold in AWS GovCloud
 - [ ] [Remove their access as an admin](https://docs.cloud.gov/ops/managing-users/#managing-admins) on the platform
+- [ ] Remove any privileges that their cloud.gov account has due to membership in the cloud.gov team (even if not in Cloud Ops), such as `admin_ui.read`
 - [ ] Remove any Org or Space roles that their cloud.gov account holds due to membership in the cloud.gov team (for example, remove them from the `cloud-gov-operators` organization)
 - [ ] Confirm the System Owner (or person delegated by System Owner) has removed them from all GitHub teams
 - [ ] Ensure any keys or passwords they had direct access to are rotated
