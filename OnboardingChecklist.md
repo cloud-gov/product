@@ -40,6 +40,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
   board](https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244) and make sure you have access to all our Favro boards.
 - [ ] Check out the [roadmap](https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244) to get a high-level view of recently-completed, in-progress, and upcoming features.
 - [ ] Read the [Delivery Process document](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) to learn about how we work.
+- [ ] Read our [service disruption guide](https://cloud.gov/docs/ops/service-disruption-guide/) to learn how we handle customer-facing service disruptions.
 - [ ] Join [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov) so you can participate in teamwide internal communication.
 - [ ] Join the [cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries) so you can keep apprised of prospective new clients.
 - [ ] Bookmark the [cloud.gov Google Drive folder](https://drive.google.com/drive/folders/0Bx6EvBXVDWwheUtVckVnOE1pRzA) - that's where we put cloud.gov docs. If you create or move a doc there, it'll get the right access permissions for 18F team members to be able to view and edit it.
