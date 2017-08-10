@@ -209,7 +209,7 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] If the new person is a contractor, ask `#admins-github` to have them added to the [@18F/cloud-gov-contractors](https://github.com/orgs/18F/teams/cloud-gov-contractors) team on GitHub.
 - [ ] Add them to the @cloud-gov-operators [in Slack’s Team Directory](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group).
 - Grant them access to the following:
-  - [ ] [AWS Accounts](https://cloud.gov/docs/ops/aws-onboarding/)
+  - [ ] [AWS Accounts](https://cloud.gov/docs/ops/aws-onboarding/) via the AWS web console (not Terraform) and provide one-time credentials with Toaster/Fugacious
     - [ ] AWS GovCloud
     - [ ] AWS East tied to GovCloud
     - [ ] AWS Admin Access
