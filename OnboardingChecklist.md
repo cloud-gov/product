@@ -40,6 +40,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
   board](https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244) and make sure you have access to all our Favro boards.
 - [ ] Check out the [roadmap](https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244) to get a high-level view of recently-completed, in-progress, and upcoming features.
 - [ ] Read the [Delivery Process document](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) to learn about how we work.
+- [ ] Read our [service disruption guide](https://cloud.gov/docs/ops/service-disruption-guide/) to learn how we handle customer-facing service disruptions.
 - [ ] Join [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov) so you can participate in teamwide internal communication.
 - [ ] Join the [cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries) so you can keep apprised of prospective new clients.
 - [ ] Bookmark the [cloud.gov Google Drive folder](https://drive.google.com/drive/folders/0Bx6EvBXVDWwheUtVckVnOE1pRzA) - that's where we put cloud.gov docs. If you create or move a doc there, it'll get the right access permissions for 18F team members to be able to view and edit it.
@@ -51,19 +52,23 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 
 These items help us fulfill security and compliance requirements (including for FedRAMP). If you get stuck, or if these requirements are confusing, ask for help from your buddy or in a cloud.gov channel.
 
-- [ ] Read the [18F Security Policies and Procedures](https://github.com/18F/compliance-docs). These documents (which are mostly quite short) explain the high-level policies and procedures we must comply with while running cloud.gov.
-- [ ] Read the [Incident Response Guide](https://cloud.gov/docs/ops/security-ir/).
-- [ ] Coordinate with your onboarding buddy to go through Incident Response Training within 60 days of joining the team (and annually after that).
-- [ ] Read the [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/).
-- [ ] Read the [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), particularly the [cloud.gov team responsibilities](https://cloud.gov/docs/ops/continuous-monitoring/#cloud-gov-team).
-- [ ] Coordinate with your onboarding buddy to go through Contingency Planning training within 10 days if you'll be taking on a significant role in our Contingency Planning processes (or annually if not).
-- [ ] Read the [Configuration Management Plan](https://cloud.gov/docs/ops/configuration-management/).
-- [ ] Read our [sharing secret keys](https://cloud.gov/docs/ops/secrets/#sharing-secret-keys) policy.
-- [ ] Review the [18F requirements for password management](https://handbook.18f.gov/password-requirements/).
-- [ ] Review the [18F open source policy guidance about protecting sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information).
-- [ ] Coordinate with your onboarding buddy to go through [nonpublic information training](https://docs.google.com/presentation/d/1uB4MlGCu8ZYUxjKVZKwicQ95MvLxaT4Mh93y6w79GPw/edit#slide=id.p) within 60 days of joining the team (and annually after that).
+Ensure you know what's happening on the team:
 - [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various squads. Tip: When you plan Out of Office time, make a calendar event for that on the cloud.gov calendar so that your teammates know you'll be away.
 - [ ] Subscribe (through the GitHub watch function) to the [cg-site](https://github.com/18F/cg-site) GitHub repository notifications.
+
+Learn our policies and procedures:
+- [ ] Coordinate with your onboarding buddy to go through [Incident Response Training](https://docs.google.com/presentation/d/1AZjQE8zBzMRWZIFUuJPkJLted1ykGtALrLPoPRx5Vls/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following document, which you should also review before or after training:
+   - [ ] Read the [Incident Response Guide](https://cloud.gov/docs/ops/security-ir/).
+- [ ] Coordinate with your onboarding buddy to go through [nonpublic information training](https://docs.google.com/presentation/d/1uB4MlGCu8ZYUxjKVZKwicQ95MvLxaT4Mh93y6w79GPw/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following documents, which you should also review before or after training:
+   - [ ] Review the [18F open source policy guidance about protecting sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information).
+   - [ ] Read our [sharing secret keys](https://cloud.gov/docs/ops/secrets/#sharing-secret-keys) policy.
+   - [ ] Review the [18F requirements for password management](https://handbook.18f.gov/password-requirements/).
+- [ ] If you're Cloud Ops or Business Unit: Coordinate with your onboarding buddy to go through Contingency Planning training within 10 days (and annually after that). This will cover the following document, which you should also review before or after training:
+   - [ ] Read the [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/).
+- Read the following documents as well, which explain our practices in a formal written way. Reach out to your buddy or the team if anything is unexpected or confusing.
+   - [ ] Read the [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), particularly the [cloud.gov team responsibilities](https://cloud.gov/docs/ops/continuous-monitoring/#cloud-gov-team).
+   - [ ] Read the [Configuration Management Plan](https://cloud.gov/docs/ops/configuration-management/).
+   - [ ] Read the [18F Security Policies and Procedures](https://github.com/18F/compliance-docs). These documents explain the high-level policies and procedures we must comply with while running cloud.gov, sorted into security control "families". They explain that we follow GSA IT security policy, and they provide a summary of the procedures in our System Security Plan.
 
 ### Theme-specific items
 
@@ -98,7 +103,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
   - [ ] Read the cloud.gov guide for [troubleshooting k8s](https://cloud.gov/docs/ops/runbook/troubleshooting-kubernetes/)
 - [ ] Join [the cloud.gov operations notifications Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-notifications), so you can see alert information if PagerDuty is unavailable
 - Get familiar with our AWS setup
-  - [ ] Read about our [AWS accounts](https://cloud.gov/docs/ops/aws-accounts/) and [onboarding](https://cloud.gov/docs/ops/aws-onboarding/)
+  - [ ] Read about [AWS onboarding](https://cloud.gov/docs/ops/aws-onboarding/)
   - [ ] Read about the [AWS CLI](https://aws.amazon.com/cli/)
 - [ ] Review the [daily maintenance tasks](https://cloud.gov/docs/ops/maintenance-list/) for when you're on support duty
 
@@ -111,9 +116,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Review the primary cloud.gov sites: [the dashboard](https://dashboard.cloud.gov/#/), [main landing page](https://cloud.gov/), and [documentation](https://cloud.gov/docs/).
 - [ ] [Request access to 18F Google Analytics](https://handbook.18f.gov/google-analytics/), so you can view cloud.gov site analytics ([including for the dashboard](https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit)).
 - [ ] Ask for an invite to a DigitalGov Search account for cg-site, so you can configure it and view analytics.
-- [ ] Once granted access to New Relic, sign up for email notifications of alerts for:
-  - [dashboard (e/w)](https://synthetics.newrelic.com/accounts/907948/monitors/d3b72eab-dcc8-4090-99aa-3402cdbdba65/alerts)
-  - [dashboard (govcloud)](https://synthetics.newrelic.com/accounts/907948/monitors/c4fdd474-0f6c-470a-bf9d-a3d839cea2cb/alerts)
+- [ ] Once granted access to New Relic, sign up for email notifications of alerts for [dashboard](https://synthetics.newrelic.com/accounts/907948/monitors/c4fdd474-0f6c-470a-bf9d-a3d839cea2cb/alerts)
 - [ ] Ask the team to add your e-mail address to the customers app.
   - [ ] [Production Site](https://customers.fr.cloud.gov/django-admin/auth/user/)
   - [ ] [Staging Site](https://customers.fr-stage.cloud.gov/django-admin/auth/user/)
@@ -142,16 +145,18 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 - [ ] Read [how the cloud-gov-emergency group works](https://docs.google.com/document/d/1O5UW1M-XX8YIZJV1OcF1EqGWjPnNUi7L0mZpJZ6d-cs/edit#), and set up push notifications for these emails from your work smartphone if appropriate for your role.
 - [ ] Ask #admins-salesforce for access to [Salesforce](https://gsa-peo.my.salesforce.com).
 - [ ] In Salesforce, bookmark the [cloud.gov opportunities](https://gsa-peo.lightning.force.com/one/one.app#/sObject/00Ot0000000mFIxEAM/view?t=1484708635668) report.
-- [ ] [If not also Cloud Ops] Ask Program Manager or Director for view-only access to admin interfaces for [GovCloud](https://admin.fr.cloud.gov) and [E/W](https://admin.cloud.gov).
-- [ ] Ask #acquistion for the Acquisition NDA so you can sign it (if you haven't already).
+- [ ] [If not also Cloud Ops] Ask Program Manager or Director for view-only access to [admin UI](https://admin.fr.cloud.gov).
+- [ ] Ask #acquisition for the Acquisition NDA so you can sign it (if you haven't already).
+- [ ] [If not also Cloud Ops] If appropriate for your role, ask for access to billing info in commercial AWS account from Program Manager or Director.
 
 ##### New Director (System Owner) items
 - [ ] Ask #tock to list you as the project contact for cloud.gov lines.
-- [ ] Learn how to access Nessus Manager as the main admin user (part of the platform secret keys).
+- [ ] Ask previous Director to give you Owner access to Nessus Manager.
 - [ ] Ask previous Director to give you Owner access in Zendesk.
-- [ ] Ask previous Director to give you AWS account ownership.
+- [ ] Ask previous Director to give you [AWS account ownership](https://cloud.gov/docs/ops/aws-onboarding/) for GovCloud.
 - [ ] Ask Program Manager or previous Director to give you cloud.gov calendar ownership.
 - [ ] Ask Program Manager or previous Director to give you owner permission on the Google Groups.
+- [ ] Ask Cloud Ops for read-write access to Admin UI.
 - [ ] Review the [GSA Information Technology (IT) Security Policy](https://insite.gsa.gov/portal/content/520281) to understand our responsibilities as part of GSA.
 - [ ] Review the [cloud.gov System Security Plan version 1.33](https://drive.google.com/drive/folders/0B6fPl5s12igNX3JwR2xFZVpmek0).
 
@@ -191,7 +196,8 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 These items help us fulfill security and compliance requirements (including for FedRAMP).
 
 - [ ] Make sure they're in [the list of people working on the project](https://docs.google.com/spreadsheets/d/1mW3tphZ98ExmMxLHPogSpTq8DzYr5Oh8_SHnOTvjRWM/edit#gid=0).
-- [ ] Add their name, whether they're Cloud Ops (Atlas/AgentQ), and the date they joined the team to the [training tracker](https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0). Copy the formulas for the due dates from an existing row (grab the "corner" of the cells and pull down).
+- [ ] Add their name, whether they're Cloud Ops (Platform), and the date they joined the team to the [training tracker](https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0). Copy the formulas for the due dates from an existing row (grab the "corner" of the cells and pull down).
+- [ ] As they complete training, fill out their completion dates in the [training tracker](https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0).
 - [ ] Add them to the @cloud-gov-team [in Slack’s Team Directory](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group).
 - [ ] Add them to the recurring cloud.gov meetings that are relevant for them in [the team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles).
 - [ ] Ask one of our cloud-gov team Github Maintainers (@mogul, @LinuxBozo, or @afeld) to add them to the [@18F/cloud.gov team](https://github.com/orgs/18F/teams/cloud-gov) on GitHub. If they are unable to help in a timely manner, ask `#admins-github` to add them.
@@ -203,10 +209,10 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] If the new person is a contractor, ask `#admins-github` to have them added to the [@18F/cloud-gov-contractors](https://github.com/orgs/18F/teams/cloud-gov-contractors) team on GitHub.
 - [ ] Add them to the @cloud-gov-operators [in Slack’s Team Directory](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group).
 - Grant them access to the following:
-  - [ ] [AWS Accounts](https://cloud.gov/docs/ops/aws-accounts/)
+  - [ ] [AWS Accounts](https://cloud.gov/docs/ops/aws-onboarding/)
     - [ ] AWS GovCloud
     - [ ] AWS East tied to GovCloud
-    - [ ] [AWS Admin Access](https://github.com/18F/cg-provision/blob/master/terraform/modules/operators/variables.tf)
+    - [ ] AWS Admin Access
     - Note: AWS user names should be identical across accounts so that permissions can be correctly managed by terraform
   - [ ] Nessus Manager GUI
   - [ ] New Relic
