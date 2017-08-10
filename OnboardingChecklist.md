@@ -205,7 +205,7 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] Help them review and understand the responsibilities of becoming a Cloud Operations team member, as listed in our SSP.
 - [ ] Ask `#admins-github` to have them added to the [@18F/cloud-gov-ops](https://github.com/orgs/18F/teams/cloud-gov-ops) team on GitHub. **(For contractors: Confirm they have cleared GSA security review before doing this one!)**
 - [ ] If the new person is a contractor, ask `#admins-github` to have them added to the [@18F/cloud-gov-contractors](https://github.com/orgs/18F/teams/cloud-gov-contractors) team on GitHub.
-- [ ] Add them to the @cloud-gov-operators [in Slack’s Team Directory](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group).
+- [ ] Add them to @cg-operators [in Slack’s User Groups](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group).
 - Grant them access to the following:
   - [ ] [AWS Accounts](https://cloud.gov/docs/ops/aws-onboarding/) via the AWS web console (not Terraform) and provide one-time credentials with Toaster/Fugacious
     - [ ] AWS GovCloud
@@ -217,6 +217,6 @@ These items help us fulfill security and compliance requirements (including for 
   - [ ] PagerDuty
   - [ ] StatusPage
 - [ ] [Make them an admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) of the platform.
-- [ ] Add them to the `cg-operators` organization in cloud.gov.
+- [ ] Add them to the `cloud-gov-operators` organization in cloud.gov.
 - [ ] Take them through [AWS onboarding](https://cloud.gov/docs/ops/aws-onboarding/).
 - [ ] Give them a walkthrough of cloud.gov from an architecture and repository perspective, focusing on SSP diagrams, external git repository and bosh.io dependencies, and our continuous delivery process with Concourse.
