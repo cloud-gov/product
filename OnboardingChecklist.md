@@ -217,6 +217,6 @@ These items help us fulfill security and compliance requirements (including for 
   - [ ] PagerDuty
   - [ ] StatusPage
 - [ ] [Make them an admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) of the platform.
-- [ ] Add them to the `cloud-gov-operators` organization in cloud.gov.
+- [ ] Add them to the `cg-operators` organization in cloud.gov.
 - [ ] Take them through [AWS onboarding](https://cloud.gov/docs/ops/aws-onboarding/).
 - [ ] Give them a walkthrough of cloud.gov from an architecture and repository perspective, focusing on SSP diagrams, external git repository and bosh.io dependencies, and our continuous delivery process with Concourse.
