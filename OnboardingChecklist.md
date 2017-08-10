@@ -166,10 +166,8 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 
 #### Compliance-specific items
 - [ ] Join the `#cg-compliance` channel on Slack.
-- [ ] Read through the description of [Compliance Toolkit](https://github.com/18F/compliance-toolkit/#readme).
 - [ ] Watch [Handling FISMA Faster and Better](https://www.youtube.com/watch?v=T1S52B1-NT4) for important context and background on the federal regulatory context in which cloud.gov operates.
 - [ ] Do a cursory read of [Before You Ship](https://pages.18f.gov/before-you-ship/).
-- [ ] Read [the intro to Compliance Masonry](https://github.com/opencontrol/compliance-masonry#readme).
 
 #### Services-specific items
 - [ ] Join the `#cg-services` channel on Slack.
