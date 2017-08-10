@@ -55,6 +55,7 @@ These items help us fulfill security and compliance requirements (including for 
 Ensure you know what's happening on the team:
 - [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various squads. Tip: When you plan Out of Office time, make a calendar event for that on the cloud.gov calendar so that your teammates know you'll be away.
 - [ ] Subscribe (through the GitHub watch function) to the [cg-site](https://github.com/18F/cg-site) GitHub repository notifications.
+- [ ] Ask Program Manager or Director for access to the cg-supportstream Slack channel.
 
 Learn our policies and procedures:
 - [ ] Coordinate with your onboarding buddy to go through [Incident Response Training](https://docs.google.com/presentation/d/1AZjQE8zBzMRWZIFUuJPkJLted1ykGtALrLPoPRx5Vls/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following document, which you should also review before or after training:
@@ -140,7 +141,6 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 
 - [ ] Bookmark the [BizOps board](https://favro.com/organization/1e11108a2da81e3bd7153a7a/bdd858e991f7f835b0d79ee2).
 - [ ] Join #products-platforms and all of the #cloud-gov-[everything] channels (it's ok to mute or leave some later).
-- [ ] Ask Program Manager or Director for access to the cg-supportstream Slack channel.
 - [ ] Ask Program Manager or Director for access (and ownership if appropriate) to the [cloud-gov-inquiries](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries), [cloud-gov-support](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-support), [cloud-gov-notifications](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-notifications), and [cloud-gov-emergency](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-emergency) groups.
 - [ ] Read [how the cloud-gov-emergency group works](https://docs.google.com/document/d/1O5UW1M-XX8YIZJV1OcF1EqGWjPnNUi7L0mZpJZ6d-cs/edit#), and set up push notifications for these emails from your work smartphone if appropriate for your role.
 - [ ] Ask #admins-salesforce for access to [Salesforce](https://gsa-peo.my.salesforce.com).
@@ -166,10 +166,8 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 
 #### Compliance-specific items
 - [ ] Join the `#cg-compliance` channel on Slack.
-- [ ] Read through the description of [Compliance Toolkit](https://github.com/18F/compliance-toolkit/#readme).
 - [ ] Watch [Handling FISMA Faster and Better](https://www.youtube.com/watch?v=T1S52B1-NT4) for important context and background on the federal regulatory context in which cloud.gov operates.
 - [ ] Do a cursory read of [Before You Ship](https://pages.18f.gov/before-you-ship/).
-- [ ] Read [the intro to Compliance Masonry](https://github.com/opencontrol/compliance-masonry#readme).
 
 #### Services-specific items
 - [ ] Join the `#cg-services` channel on Slack.
@@ -207,9 +205,9 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] Help them review and understand the responsibilities of becoming a Cloud Operations team member, as listed in our SSP.
 - [ ] Ask `#admins-github` to have them added to the [@18F/cloud-gov-ops](https://github.com/orgs/18F/teams/cloud-gov-ops) team on GitHub. **(For contractors: Confirm they have cleared GSA security review before doing this one!)**
 - [ ] If the new person is a contractor, ask `#admins-github` to have them added to the [@18F/cloud-gov-contractors](https://github.com/orgs/18F/teams/cloud-gov-contractors) team on GitHub.
-- [ ] Add them to the @cloud-gov-operators [in Slack’s Team Directory](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group).
+- [ ] Add them to @cg-operators [in Slack’s User Groups](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group).
 - Grant them access to the following:
-  - [ ] [AWS Accounts](https://cloud.gov/docs/ops/aws-onboarding/)
+  - [ ] [AWS Accounts](https://cloud.gov/docs/ops/aws-onboarding/) via the AWS web console (not Terraform) and provide one-time credentials with Toaster/Fugacious
     - [ ] AWS GovCloud
     - [ ] AWS East tied to GovCloud
     - [ ] AWS Admin Access
