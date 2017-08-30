@@ -11,9 +11,13 @@ Features progress through these columns in the Feature Kanban on the [the Progra
 - Funnel (to note that we have heard about the need but otherwise not advanced it)
   - TODO
 - Analyzing (where we explore our options for overall UX and implementation, and set objective metrics and outcomes)
-  - If the card will change an aspect of our system or operating environment that is (or should be) documented in our System Security Plan (SSP), we have submitted a Significant Change Request (SCR) to the FedRAMP JAB.
-  - The approach for UX and architecture is sufficiently understood for PI planning purposes (for example, via research or spike stories).
+  - The approach for UX and architecture is sufficient for PI planning purposes (for example, elaborated via research or spike stories, proto-backlog available).
   - The card has WSJF values.
+  - The card includes a link to a [Significant Change Request](https://docs.google.com/a/gsa.gov/document/d/16GaDO1xnHrqEEetbonNpo4P10LlGoDHR-jedqBo1yB8/edit?usp=drive_web) (SCR) format [in Google Drive](https://drive.google.com/drive/folders/0B1cewEqKcWCbU1lSUXhEVUNZWUU) describing: 
+    - Background - The context or situation the change will be addressing
+    - Description of the change - What we actually expect to change (sketch out the technical/design approach in a form that people who have only read our SSP could understand)
+    - Impact of the change to the risk posture - Explicitly document any known security impact of the expected changes, particularly as they relate to SSP-level detail
+  - If determined that the card will change an aspect of our system or operating environment that is noteworthy to our JAB Technical Reviewers (TRs), the SCR is submitted to the FedRAMP JAB.
 - Backlog (when the feature is basically well-understood at a high level and awaits squad-level attention)
   - The card includes a rough (implementation-agnostic) description of what we're after and what benefits we hypothesize it will deliver.
   - The card includes any existing or potential metrics we could track to demonstrate we're delivering that benefit.
