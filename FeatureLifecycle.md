@@ -10,14 +10,23 @@ Features progress through these columns in the Feature Kanban on the [the Progra
 
 - Funnel (to note that we have heard about the need but otherwise not advanced it)
   - TODO
-- Analyzing (where we explore our options for overall UX and implementation, and set objective metrics and outcomes)
-  - If the card will change an aspect of our system or operating environment that is (or should be) documented in our System Security Plan (SSP), we have submitted a Significant Change Request (SCR) to the FedRAMP JAB.
-  - The approach for UX and architecture is sufficiently understood for PI planning purposes (for example, via research or spike stories).
-  - The card has WSJF values.
-- Backlog (when the feature is basically well-understood at a high level and awaits squad-level attention)
+- Scoring (where we discuss and score the feature to aid sequencing of further analysis)
   - The card includes a rough (implementation-agnostic) description of what we're after and what benefits we hypothesize it will deliver.
   - The card includes any existing or potential metrics we could track to demonstrate we're delivering that benefit.
-  - The card points to any relevant design/research artifacts from the Analysis phase. That's it! Any more detail than that should appear in stories that get parented onto the feature.
+  - The card has WSJF scores for `User/Business Value`, `Time Sensitivity`, and `Risk-reduction/Opportunity-enablement`.
+- Sketching (where we explore our options for overall UX and implementation, and set objective metrics and outcomes)
+  - The approach for UX and architecture is sufficient for PI planning purposes (for example, elaborated via research or spike stories, proto-backlog available).
+  - The card points to any relevant design/research artifacts. Any more detail than that should appear in stories that get parented onto the feature.
+  - The card has a WSJF score for `Effort`, and the card is tagged with `WSJF:<value>`.
+- Security Impact Analysis (where we ensure every feature undergoes compliance oversight)
+  - We've summarized the feature for the JAB TRs in (or in a doc linked from) the [agenda for the next bi-weekly JAB Technical Reviewers (TRs) meeting](https://docs.google.com/document/d/1jGddQkjkQ6e9B0UTq9hfQqHe0btAbTeBGL_DxkozAcg/edit#).
+  - We've received a determination from the JAB TRs as to whether they require a Significant Change Request (SCR) be filed. If the determination is "yes", the card is tagged with `SCR:Yes`. Otherwise the card is tagged with `SCR:No`.
+  - If the card is tagged `SCR:Yes`: 
+    - The card includes a link to a [Significant Change Request](https://docs.google.com/a/gsa.gov/document/d/16GaDO1xnHrqEEetbonNpo4P10LlGoDHR-jedqBo1yB8/edit?usp=drive_web) format [in Google Drive](https://drive.google.com/drive/folders/0B1cewEqKcWCbU1lSUXhEVUNZWUU).
+    - The SCR has been submitted to the JAB TRs.
+    - The JAB TRs have approved the SCR.
+- Backlog (when the feature is basically well-understood at a high level and awaits squad-level attention)
+  - The program commits to taking on the Feature during a PI Planning meeting.
 - Implementing (while implementation is in progress)
   - It should be possible to find the set of stories related to the feature.
   - The feature is tracked against the Program Increment (PI) where we suspect it'll be delivered.
