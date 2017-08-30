@@ -19,7 +19,7 @@ Features progress through these columns in the Feature Kanban on the [the Progra
   - The card points to any relevant design/research artifacts. Any more detail than that should appear in stories that get parented onto the feature.
   - The card has a WSJF score for `Effort`, and the card is tagged with `WSJF:<value>`.
 - Security Impact Analysis (where we ensure every feature undergoes compliance oversight)
-  - We've summarized the feature for the JAB TRs in (or in a doc linked from) the agenda for the next bi-weekly JAB Technical Reviewers (TRs) meeting.
+  - We've summarized the feature for the JAB TRs in (or in a doc linked from) the [agenda for the next bi-weekly JAB Technical Reviewers (TRs) meeting](https://docs.google.com/document/d/1jGddQkjkQ6e9B0UTq9hfQqHe0btAbTeBGL_DxkozAcg/edit#).
   - We've received a determination from the JAB TRs as to whether they require a Significant Change Request (SCR) be filed. If the determination is "yes", the card is tagged with `SCR:Yes`. Otherwise the card is tagged with `SCR:No`.
   - If the card is tagged `SCR:Yes`: 
     - The card includes a link to a [Significant Change Request](https://docs.google.com/a/gsa.gov/document/d/16GaDO1xnHrqEEetbonNpo4P10LlGoDHR-jedqBo1yB8/edit?usp=drive_web) format [in Google Drive](https://drive.google.com/drive/folders/0B1cewEqKcWCbU1lSUXhEVUNZWUU)
