@@ -10,12 +10,14 @@ Features progress through these columns in the Feature Kanban on the [the Progra
 
 - Funnel (to note that we have heard about the need but otherwise not advanced it)
   - TODO
-- Analyzing (where we explore our options for overall UX and implementation, and set objective metrics and outcomes)
+- Scoring (where we determine enough relative merit to determing sequencing for further analysis)
+  - The card has WSJF scores for `User/Business Value`, `Time Sensitivity`, and `Risk-reduction/Opportunity-enablement`.
+- Sketching (where we explore our options for overall UX and implementation, and set objective metrics and outcomes)
   - The approach for UX and architecture is sufficient for PI planning purposes (for example, elaborated via research or spike stories, proto-backlog available).
-  - The card has WSJF values.
-- We've summarized the feature for the JAB TRs in (or in a doc linked from) the agenda for the next bi-weekly JAB Technical Reviewers (TRs) meeting.
-- We've received a determination from the JAB TRs as to whether they require a Significant Change Request (SCR) be filed. If the determination is "yes", the card is tagged with `SCR:Yes`. Otherwise the card is tagged with `SCR:No`.
-- If the card is tagged `SCR:Yes`, the card includes a link to a [Significant Change Request](https://docs.google.com/a/gsa.gov/document/d/16GaDO1xnHrqEEetbonNpo4P10LlGoDHR-jedqBo1yB8/edit?usp=drive_web) format [in Google Drive](https://drive.google.com/drive/folders/0B1cewEqKcWCbU1lSUXhEVUNZWUU) and the SCR has been submitted.
+  - The card has a WSJF score for `Effort`, and the card is tagged with `WSJF:<value>`.
+  - We've summarized the feature for the JAB TRs in (or in a doc linked from) the agenda for the next bi-weekly JAB Technical Reviewers (TRs) meeting.
+  - We've received a determination from the JAB TRs as to whether they require a Significant Change Request (SCR) be filed. If the determination is "yes", the card is tagged with `SCR:Yes`. Otherwise the card is tagged with `SCR:No`.
+  - If the card is tagged `SCR:Yes`, the card includes a link to a [Significant Change Request](https://docs.google.com/a/gsa.gov/document/d/16GaDO1xnHrqEEetbonNpo4P10LlGoDHR-jedqBo1yB8/edit?usp=drive_web) format [in Google Drive](https://drive.google.com/drive/folders/0B1cewEqKcWCbU1lSUXhEVUNZWUU) and the SCR has been submitted.
 - Backlog (when the feature is basically well-understood at a high level and awaits squad-level attention)
   - The card includes a rough (implementation-agnostic) description of what we're after and what benefits we hypothesize it will deliver.
   - The card includes any existing or potential metrics we could track to demonstrate we're delivering that benefit.
