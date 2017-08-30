@@ -19,7 +19,7 @@ To manage our day-to-day work, we practice Scrumban, which means we practice [Ka
 We've structured our team into two squads, each centered around a different [theme](https://github.com/18F/cg-product#sub-teamsthemes-of-work), and generally working on features under that theme:
 
 - Platform (formerly Atlas/AgentQ):
-  - Adam Kendall, Chris Nelson, Josh Carp, Roger Ruiz, Peter Burkholder, Will Woodson, (Bret Mogilefsky, PM)
+  - Chris Nelson, Josh Carp, Roger Ruiz, Peter Burkholder, Steve Harms, Will Woodson (Bret Mogilefsky, PM)
   - Comm channels: #cg-platform, #cg-services, #cg-platform-news
   - Skills involved:
     - Atlas: SRE skills like Terraform, BOSH, etc.
