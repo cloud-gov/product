@@ -72,7 +72,6 @@ Required for compliance:
 - Demoable to other people in their own time (e.g., staging environment, published branch).
 - Any deployment is repeatable (e.g., at least documented to increase [bus factor](https://en.wikipedia.org/wiki/Bus_factor) beyond one) and if possible automated via CI/CD.
  - If the deployment is difficult to automate, then a story for making it automated is created at the top of `Triage`.
-- Deployment happens in the AWS GovCloud deployment (not just AWS East/West).
 - All UAA accounts are provisioned using the Cloud Foundry secrets or the cloud.gov [service account](https://cloud.gov/docs/services/cloud-gov-service-account/) or [identity provider](https://cloud.gov/docs/services/cloud-gov-identity-provider/) services.
 
 Required for compliance:
