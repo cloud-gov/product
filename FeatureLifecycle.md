@@ -24,7 +24,7 @@ Features progress through these columns in the Feature Kanban on the [the Progra
   - We've received a determination from the JAB TRs as to whether they require a Significant Change Request (SCR) be filed. If the determination is "yes", the card is tagged with `SCR:Yes`. Otherwise the card is tagged with `SCR:No`.
   - If the card is tagged `SCR:Yes`: 
     - The card includes a link to a [Significant Change Request](https://docs.google.com/a/gsa.gov/document/d/16GaDO1xnHrqEEetbonNpo4P10LlGoDHR-jedqBo1yB8/edit?usp=drive_web) format [in Google Drive](https://drive.google.com/drive/folders/0B1cewEqKcWCbU1lSUXhEVUNZWUU).
-    - The SCR has been submitted to the JAB TRs.
+    - The SCR has been signed by the System Owner (or delegate) and submitted to the JAB TRs.
     - The JAB TRs have approved the SCR.
 - Backlog (when the feature is basically well-understood at a high level and awaits squad-level attention)
   - The program commits to taking on the Feature during a PI Planning meeting.
