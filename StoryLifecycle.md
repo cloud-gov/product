@@ -44,17 +44,14 @@ Before advancing a card from one column to the next on the board, it should meet
 - Has testable/demoable Acceptance Criteria that we expect to be able to check off to help us understand when the work is done. (Try wording them as [Gherkin](https://en.wikipedia.org/wiki/Behavior-driven_development#Behavioural_specifications), and use [GFM checklists](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments) for them).
 - Discussed by the team and implementation sketched (use more checklists here).
 - We believe the benefit of the story is easily deliverable within in a few days of concentrated work (otherwise, split it into smaller stories!)
-- Any authentication/authorization and data persistence points are discussed and requirements are addressed via Acceptance Criteria (e.g., "Authenticate using [login.cloud.gov]" or "Any ephemeral data resulting from usage is backed up/recoverable").
+- Any authentication/authorization and data persistence points are discussed and requirements are addressed via Acceptance Criteria (e.g., "Authenticate using [login.fr.cloud.gov]" or "Any ephemeral data resulting from usage is backed up/recoverable").
 - There's a communication plan for any user-visible changes which require their attention/action.
 
 Required for compliance: 
 <!-- Security impact analysis is due to CM-3 part b, CM-4 -->
 <!-- New software integration check is due to CM-7 (5) part a -->
-<!-- Noah said we need to check with him before integrating new services -->
 
-- _[Pending initial threat-modeling of some key components]_ The team has used the [threat modeling guide](https://docs.google.com/document/d/14QOvOqWuLtlnJptB5Lw-qA7ClERiMiA8yfxRTD__lbg/edit) to document and analyze any potential security impact of the changes proposed by the story. 
-- If the story includes integrating new software (such as a new open source component) into the core platform, the cloud.gov System Owner has approved the plan.
-- If the story includes integrating a new external service (a service outside the cloud.gov FedRAMP authorization boundary) or changing an external service configuration/usage in a way that may have a security/compliance impact, the cloud.gov Authorizing Official has approved the plan.
+- The work has received Security Impact Analysis, and we have completed any associated work with our System Owner and JAB TRs. If this wasn't already performed as part of the [feature lifecycle](FeatureLifecycle.md), we have followed that Security Impact Analysis process at this stage for this story. We may use the [threat modeling guide](https://docs.google.com/document/d/14QOvOqWuLtlnJptB5Lw-qA7ClERiMiA8yfxRTD__lbg/edit) to assist with documenting and analyzing potential security impact.
 
 #### Ready
 
