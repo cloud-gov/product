@@ -19,7 +19,7 @@ Features progress through these columns in the Feature Kanban on the [the Progra
   - The card points to any relevant design/research artifacts. Any more detail than that should appear in stories that get parented onto the feature.
   - The card has a WSJF score for `Effort`, and the card is tagged with `WSJF:<value>`.
 - Security Impact Analysis (where we ensure every feature undergoes compliance oversight)
-  - We've reviewed the change against our [significant change rubric](https://cloud.gov/docs/ops/continuous-monitoring/#appendix-significant-change-rubric).
+  - We've reviewed the change against our [significant change rubric](https://cloud.gov/docs/ops/continuous-monitoring/#appendix-significant-change-rubric). We may use the [threat modeling guide](https://docs.google.com/document/d/14QOvOqWuLtlnJptB5Lw-qA7ClERiMiA8yfxRTD__lbg/edit) to assist with documenting and analyzing potential security impact.
   - If discussion with TRs or a SCR may be required, we've summarized the feature for the JAB TRs in (or in a doc linked from) the [agenda for the next bi-weekly JAB Technical Reviewers (TRs) meeting](https://docs.google.com/document/d/1jGddQkjkQ6e9B0UTq9hfQqHe0btAbTeBGL_DxkozAcg/edit#).
   - We've received a determination from the JAB TRs as to whether they require a Significant Change Request (SCR) be filed. If the determination is "yes", the card is tagged with `SCR:Yes`. Otherwise the card is tagged with `SCR:No`.
   - If the card is tagged `SCR:Yes`: 
