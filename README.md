@@ -24,7 +24,7 @@ Here are the themes of work we've identified so far and the products for which t
 
 In addition to squads, we have a business unit (BU), which, in addition to guiding cloud.gov's business-related decisions, acts as the "front-office" for our customers and stakeholders. The BU consists of cloud.gov's Director and Deputy Director and represents the product in direct communication with customers as they progress from the what-is-this-thing to the productively-using-the-platform-on-their-own stage.
 
-We keep separate backlogs, kanban boards, etc. reflecting each of these themes of work. The [`cg-product` kanban board](https://favro.com/organization/1e11108a2da81e3bd7153a7a/68a186775e1a0ee297ee81ed) consolidates the activity of all of these sub-themes into a single view as they fan out into assorted GitHub repositories. To get a view reflecting only one of the themes, use the label filter above the board.
+We keep separate backlogs, kanban boards, etc. reflecting each of these themes of work. The [`cg PaaS Program` kanban board](https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244) consolidates the activity of all of these sub-themes into a single program-level view against higher-level objectives.
 
 Other notable Slack channels for 18F folk
 
