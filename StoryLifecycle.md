@@ -51,7 +51,7 @@ Required for compliance:
 <!-- Security impact analysis is due to CM-3 part b, CM-4 -->
 <!-- New software integration check is due to CM-7 (5) part a -->
 
-- The work has received Security Impact Analysis, and we have completed any associated work with our System Owner and JAB TRs. If this wasn't already performed as part of the [feature lifecycle](FeatureLifecycle.md), we have followed that Security Impact Analysis process at this stage for this story.
+- If the story is **not** part of a larger feature which has already undergone [Security Impact Analysis](FeatureLifecycle.md#security-impact-analysis), we have applied that same Security Impact Analysis evaluation process for this story and filed any necessary SCR.
 
 #### Ready
 
