@@ -4,14 +4,13 @@
 
 When someone leaves the cloud.gov team
 
-1. Create a new issue in `cg-product` called "Remove [person's name] from cloud.gov team".
+1. Create a new issue called "Remove [person's name] from cloud.gov team".
 2. View the raw source of this file
 3. Copy everything below the line into the new issue's body
 4. Replace "LeavingPerson" with the leaving person's name
-5. Delete any checklists irrelevant for the skill domain of the leaving person
-6. Submit the issue
-7. Assign the issue to the person who bravely volunteered to be handle the person's offboarding
-8. Put the issue into the "In Progress" pipeline in Favro
+5. Submit the issue
+6. Assign the issue to the person who bravely volunteered to handle the person's offboarding
+7. Put the issue into the "In Progress" pipeline in Favro
 
 ---
 
@@ -26,6 +25,7 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove them from the [squad list](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md#squads)
 - [ ] In the [training tracker](https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0): if they're staying at 18F, move them to the "former teammates" tab; if they're leaving 18F, delete them from the spreadsheet
 - [ ] Remove them as invitees for any meetings on the cloud.gov calendar
+- [ ] Remove them from the cg-supportstream private Slack channel by asking #admins-slack to remove them
 - [ ] If they are leaving 18F, ensure the [18F Handbook exit process](https://handbook.18f.gov/leaving-18f/#offboarding-process) has been kicked off via the 18F talent team
 
 ## System Owner (or person delegated by System Owner)
@@ -36,18 +36,14 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove their access to [PagerDuty](https://18fi.pagerduty.com/users)
 - [ ] Remove their access to [New Relic](https://rpm.newrelic.com/accounts/907948)
 - [ ] Remove their access to [Favro](https://favro.com/organization/1e11108a2da81e3bd7153a7a/1c6c9af1003b58d597b43ef4?onShow=administration)
-- [ ] Remove them from [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov)
-- [ ] Remove them from [the cloud.gov notifications Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-notifications)
-- [ ] Remove them from [the cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-inquiries)
-- [ ] Remove them from [the cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-support)
-- [ ] Remove them from [the cloud.gov emergency Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-emergency)
-- [ ] Remove them from [the cloud.gov operations Google Group](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-operations)
-- [ ] Remove them from the cg-supportstream private Slack channel
-- [ ] Remove them from [the project in Float](https://login.float.com/?project=cloud.gov+-+UI%2FUX+%28Navigator%29&project=cloud.gov+-+business+%2F+comms+%28Skyporter%29&project=cloud.gov+-+compliance+%28Highbar%29&project=cloud.gov+-+operations+and+services+%28Atlas+%26+Agent+Q%29&project=cloud.gov+P%26L)
-- [ ] Remove their membership in cloud.gov-specific Trello boards (eg the business-tracker)
-- [ ] Remove them from DigitalGov Search access for cg-site
-- [ ] Remove them from Nessus
-
+- [ ] Remove them from [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov/members/active)
+- [ ] Remove them from [the cloud.gov notifications Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-notifications/members/active)
+- [ ] Remove them from [the cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-inquiries/members/active)
+- [ ] Remove them from [the cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-support/members/active)
+- [ ] Remove them from [the cloud.gov emergency Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-emergency/members/active)
+- [ ] Remove them from [the cloud.gov operations Google Group](https://groups.google.com/a/gsa.gov/forum/#!managemembers/cloud-gov-operations/members/active)
+- [ ] Remove them from [Search.gov](https://search.gov/) access for cg-site
+- [ ] Remove them from [Nessus](https://nessus.fr.cloud.gov/#/settings/users)
 
 ## Cloud Operations
 - [ ] Remove them from any IAM roles they hold in AWS GovCloud
