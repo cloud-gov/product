@@ -28,16 +28,21 @@ In order for us to update the JAB on our compliance in a consistent way, we need
 
 We need to process our scan results and prepare documentation for any updated or new items, including updating the [POAM](https://docs.google.com/spreadsheets/d/16igVl8cD3SqeX5_SOn5Su34KmwMRnP20gPbfQlqIwfM/edit#gid=1701775784).
 
-Typical tasks involved:
+We always have to do these tasks:
 
-* Cloud Operations has reviewed the Nessus findings and ensured all daemons are managed by BOSH (see CG04 for context).
-* For any items that require a monthly checkin with a vendor, Cloud Operations has made the appropriate support request to the vendor.
-* We filed or updated "compliance check" items as POA&M items, based on the ID number and information from the .nessus Nessus compliance reports/exports (`pluginID="x"` is the ID number; `severity="3"` indicates a moderate finding, for example). These don't show up as vulnerabilities in the HTML or web-based Nessus reports, but they need to be tracked as such.
-* We updated all columns to include the most recent info about remediations, milestones, statuses, etc., including updating the status date column.
-* We moved any scanner items that should be moved to closed (items originally found by a scanner where we have new scans that prove these things are fixed).
-* We listed any new identified vulnerabilities. (Discard the ones listed as false positives in the POAM open and closed tabs.)
-* We updated our boards with current info about POAM items and any necessary followup stories about compliance work and related technical work to prepare for the next month's report.
-* We opened a PR to update our [ConMon checklist template](https://github.com/18F/cg-product/blob/master/ConMonChecklist.md) with any changes from this month.
+* List any new identified vulnerabilities.
+   * Check for sneaky Nessus findings that apply to only a subset of components.
+   * Discard the ones listed as false positives in the POAM open and closed tabs.
+* Move any scanner items that should be moved to closed (items originally found by a scanner where we have new scans that prove these things are fixed).
+* Update all columns to include the most recent info about remediations, milestones, statuses, etc., including updating the status date column.
+* Cloud Operations needs to review the Nessus findings and ensure all daemons are managed by BOSH (see CG04 for context).
+
+Depending on scan results, we sometimes also have to do these tasks:
+
+* For any items that require a monthly checkin with a vendor, Cloud Operations needs to make the appropriate support request to the vendor.
+* File any new failed "compliance check" items as POA&M items, based on the ID number and information from the .nessus Nessus compliance reports/exports (`pluginID="x"` is the ID number; `severity="3"` indicates a moderate finding, for example). These don't show up as vulnerabilities in the HTML or web-based Nessus reports, but they need to be tracked as such.
+* Update our boards with current info about POAM items and any necessary followup stories about compliance work and related technical work to prepare for the next month's report.
+* Open a PR to update our [ConMon checklist template](https://github.com/18F/cg-product/blob/master/ConMonChecklist.md).
 
 **Acceptance criteria**
 -  [ ] We uploaded our files to MAX.gov and emailed relevant FedRAMP team members to let them know that's done
