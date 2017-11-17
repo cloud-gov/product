@@ -6,7 +6,7 @@
 
 # Delivery process
 
-The cloud.gov team applies a subset of [the Scaled Agile Framework](http://www.scaledagileframework.com/) (SAFe) to guide its program structure, as described in [Essential SAFe](http://www.scaledagileframework.com/guidance-essential-safe/). We set goals and prioritize work in three month periods called "program increments," or PIs, and practice a number of SAFe rituals around this quarterly cadence.
+The cloud.gov team applies a subset of [the Scaled Agile Framework](http://www.scaledagileframework.com/) (SAFe) to guide its program structure, as described in [Essential SAFe](http://www.scaledagileframework.com/what-is-safe#Essential). We set goals and prioritize work in three month periods called "program increments," or PIs, and practice a number of SAFe rituals around this quarterly cadence.
 
 To manage our day-to-day work, we practice Scrumban, which means we practice [Kanban](http://blog.crisp.se/2009/06/26/henrikkniberg/1246053060000) around cardwall-style boards that track work from left-to-right as it is identified, prioritized, explored, delivered, and demonstrated. We augment Kanban with a subset of Scrum activities: 
 
