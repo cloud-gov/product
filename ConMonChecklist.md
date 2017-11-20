@@ -20,7 +20,9 @@ In order for us to update the JAB on our compliance in a consistent way, we need
 - [ ] We also grabbed the OWASP ZAP scans in human-readable HTML format and uploaded them to that folder.
 - [ ] We grabbed a fresh set of Nessus scans (both OS and database/RDS) from https://nessus.fr.cloud.gov/ in .nessus format and uploaded the fresh results to a folder in the folder at https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U - requires auth (Cloud Ops or Deputy Director).
 - [ ] We also grabbed the Nessus HTML export - https://docs.tenable.com/nessus/6_8/Content/Exported_Results.htm - for those scans and uploaded them to that folder.
-- [ ] We updated the [POAM Inventory tab](https://docs.google.com/spreadsheets/d/16igVl8cD3SqeX5_SOn5Su34KmwMRnP20gPbfQlqIwfM/edit#gid=2017890110).
+- [ ] We updated the [POAM Inventory tab](https://docs.google.com/spreadsheets/d/16igVl8cD3SqeX5_SOn5Su34KmwMRnP20gPbfQlqIwfM/edit#gid=2017890110). From tooling and production BOSH inventory:
+  
+  `bosh vms --vitals | grep -e "^\w" | awk '{print $1","$4","$3}' | sed -e 's/\/[a-z0-9\-]*,/,/' |sed -e 's/,z1/,us-gov-west-1a/' | sed -e 's/,z2/,us-gov-west-1b/'`
 
 ## Deliver [month] ConMon scans
 
