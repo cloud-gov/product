@@ -14,6 +14,8 @@ For context, see our [Continuous Monitoring Strategy](https://cloud.gov/docs/ops
 
 In order for us to update the JAB on our compliance in a consistent way, we need to run Continuous Monitoring scans on approximately the 23rd of the month.
 
+Check that you have the [latest stable version of ZAP](https://github.com/zaproxy/zaproxy/wiki/Downloads).
+
 - [ ] We ran OWASP ZAP on the following domains using steps #1-6 of the manual scanning instructions at https://pages.18f.gov/before-you-ship/security/dynamic-scanning/#manual-scanning - authenticated, passive: https://ci.fr.cloud.gov/ (requires Cloud Ops auth and access to a GSA office or VPN connection), https://community.fr.cloud.gov/, https://dashboard.fr.cloud.gov/, https://account.fr.cloud.gov/, https://landing.app.cloud.gov/, https://login.fr.cloud.gov/, https://opslogin.fr.cloud.gov/login, https://logs.fr.cloud.gov/, https://metrics.fr.cloud.gov/ (requires Cloud Ops auth). You have to log in so that ZAP can scan inside the authenticated website. Make sure to scan _only_ those sites, rather than browsing other URLs while ZAP is running, to prevent getting noise in the scan results (since that causes major confusion when the FedRAMP team processes the ConMon report).
 - [ ] We exported and uploaded those fresh OWASP ZAP results in XML format to a folder in the folder at https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U - you can upload one XML file with results from all the sites, or upload a series of separate XML files with results per site.
 - [ ] We also grabbed the OWASP ZAP "context" export with settings info and uploaded it to that folder.
