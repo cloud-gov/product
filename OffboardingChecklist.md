@@ -26,7 +26,7 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] In the [training tracker](https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0): if they're staying at 18F, move them to the "former teammates" tab; if they're leaving 18F, delete them from the spreadsheet
 - [ ] Remove them as invitees for any meetings on the cloud.gov calendar
 - [ ] Remove them from the cg-supportstream private Slack channel by asking #admins-slack to remove them
-- [ ] If they are leaving 18F, ensure the [18F Handbook exit process](https://handbook.18f.gov/leaving-18f/#offboarding-process) has been kicked off via the 18F talent team
+- [ ] If they are leaving 18F, ensure the [18F Handbook exit process](https://handbook.18f.gov/leaving-tts/#offboarding-process) has been kicked off via the 18F talent team
 
 ## System Owner (or person delegated by System Owner)
 - [ ] Remove them from [GitHub teams that start with cloud-gov](https://github.com/orgs/18F/teams?utf8=%E2%9C%93&query=cloud-gov)
