@@ -16,7 +16,7 @@ In order for us to update the JAB on our compliance in a consistent way, we need
 
 Check that you have the [latest stable version of ZAP](https://github.com/zaproxy/zaproxy/wiki/Downloads).
 
-- [ ] We ran OWASP ZAP on the following domains using steps #1-6 of the manual scanning instructions at https://pages.18f.gov/before-you-ship/security/dynamic-scanning/#manual-scanning - authenticated, passive: https://ci.fr.cloud.gov/ (requires Cloud Ops auth and access to a GSA office or VPN connection), https://dashboard.fr.cloud.gov/, https://account.fr.cloud.gov/, https://landing.app.cloud.gov/, https://idp.fr.cloud.gov/, https://login.fr.cloud.gov/,  https://opslogin.fr.cloud.gov/login, https://logs.fr.cloud.gov/, https://admin.fr.cloud.gov/, https://metrics.fr.cloud.gov/,  (requires Cloud Ops auth).
+- [ ] We ran OWASP ZAP on the following domains using steps #1-6 of the manual scanning instructions at https://pages.18f.gov/before-you-ship/security/dynamic-scanning/#manual-scanning - authenticated, passive: https://ci.fr.cloud.gov/ (requires VPN), https://dashboard.fr.cloud.gov/, https://account.fr.cloud.gov/, https://cloud.gov/, https://idp.fr.cloud.gov/, https://login.fr.cloud.gov/,  https://opslogin.fr.cloud.gov/login, https://logs.fr.cloud.gov/, https://admin.fr.cloud.gov/, https://metrics.fr.cloud.gov/, https://prometheus.fr.cloud.gov/ (requires VPN), https://grafana.fr.cloud.gov/ (requires VPN), http://alertmanager.fr.cloud.gov/ (requires VPN).
   - Load the [cloud.gov conmon](https://drive.google.com/drive/folders/1CqR5WOknpA9bijk7ryL7o-Uq89kmiV_C) ZAP context saved in Google Drive.
   - You have to log in so that ZAP can scan inside the authenticated website.
   - Make sure to scan _only_ those sites, rather than browsing other URLs while ZAP is running, to prevent getting noise in the scan results (since that causes major confusion when the FedRAMP team processes the ConMon report).
@@ -40,6 +40,7 @@ We always have to do these tasks:
 * List any new identified vulnerabilities.
    * Check for sneaky Nessus findings that apply to only a subset of components.
    * Discard the ones listed as false positives in the POAM open and closed tabs.
+   * The [OWASP ZAP parse script](https://github.com/18F/cg-scripts/blob/master/parse-owasp-zap-xml.py) can help.
 * Move any scanner items that should be moved to closed (items originally found by a scanner where we have new scans that prove these things are fixed).
 * Update all columns to include the most recent info about remediations, milestones, statuses, etc., including updating the status date column.
 * Cloud Operations needs to review the Nessus findings and ensure all daemons are managed by BOSH (see CG04 for context).
