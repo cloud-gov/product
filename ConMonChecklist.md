@@ -14,6 +14,8 @@ For context, see our [Continuous Monitoring Strategy](https://cloud.gov/docs/ops
 
 In order for us to update the JAB on our compliance in a consistent way, we need to run Continuous Monitoring scans on approximately the 23rd of the month.
 
+Check that you have the [latest stable version of ZAP](https://github.com/zaproxy/zaproxy/wiki/Downloads).
+
 - [ ] We ran OWASP ZAP on the following domains using steps #1-6 of the manual scanning instructions at https://pages.18f.gov/before-you-ship/security/dynamic-scanning/#manual-scanning - authenticated, passive: https://ci.fr.cloud.gov/ (requires Cloud Ops auth and access to a GSA office or VPN connection), https://dashboard.fr.cloud.gov/, https://account.fr.cloud.gov/, https://landing.app.cloud.gov/, https://idp.fr.cloud.gov/, https://login.fr.cloud.gov/,  https://opslogin.fr.cloud.gov/login, https://logs.fr.cloud.gov/, https://admin.fr.cloud.gov/, https://metrics.fr.cloud.gov/,  (requires Cloud Ops auth).
   - Load the [cloud.gov conmon](https://drive.google.com/drive/folders/1CqR5WOknpA9bijk7ryL7o-Uq89kmiV_C) ZAP context saved in Google Drive.
   - You have to log in so that ZAP can scan inside the authenticated website.
