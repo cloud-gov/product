@@ -36,8 +36,8 @@ Before advancing a card from one column to the next on the board, it should meet
 #### Backlog
 
 - Indicate the intended benefit and who the story is for in one of these forms:
- - Story: We prefer the ["In order"](http://blog.crisp.se/2014/09/25/david-evans/as-a-i-want-so-that-considered-harmful) form (rather than the common "As a/I want/so that" form).
- - Hypothesis: What's the lean hypothesis being tested, and how it will be validated?
+  - Story: We prefer the ["In order"](http://blog.crisp.se/2014/09/25/david-evans/as-a-i-want-so-that-considered-harmful) form (rather than the common "As a/I want/so that" form).
+  - Hypothesis: What's the lean hypothesis being tested, and how it will be validated?
 
 #### Grooming
 
@@ -68,7 +68,7 @@ Required for compliance:
 - User-facing and internal operation docs have been updated.
 - Demoable to other people in their own time (e.g., staging environment, published branch).
 - Any deployment is repeatable (e.g., at least documented to increase [bus factor](https://en.wikipedia.org/wiki/Bus_factor) beyond one) and if possible automated via CI/CD.
- - If the deployment is difficult to automate, then a story for making it automated is created at the top of `Triage`.
+  - If the deployment is difficult to automate, then a story for making it automated is created at the top of `Triage`.
 - All UAA accounts are provisioned using the Cloud Foundry secrets or the cloud.gov [service account](https://cloud.gov/docs/services/cloud-gov-service-account/) or [identity provider](https://cloud.gov/docs/services/cloud-gov-identity-provider/) services.
 
 Required for compliance:
