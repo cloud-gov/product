@@ -26,13 +26,13 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] In the [training tracker](https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0): if they're staying at 18F, move them to the "former teammates" tab; if they're leaving 18F, delete them from the spreadsheet
 - [ ] Remove them as invitees for any meetings on the cloud.gov calendar
 - [ ] Remove them from the cg-supportstream private Slack channel by asking #admins-slack to remove them
-- [ ] If they are leaving 18F, ensure the [18F Handbook exit process](https://handbook.18f.gov/leaving-18f/#offboarding-process) has been kicked off via the 18F talent team
+- [ ] If they are leaving 18F, ensure the [18F Handbook exit process](https://handbook.18f.gov/leaving-tts/#offboarding-process) has been kicked off via the 18F talent team
 
 ## System Owner (or person delegated by System Owner)
 - [ ] Remove them from [GitHub teams that start with cloud-gov](https://github.com/orgs/18F/teams?utf8=%E2%9C%93&query=cloud-gov)
-- [ ] Remove them from the [Cloud Foundry Community GitHub org cloud.gov team](https://github.com/orgs/cloudfoundry-community/teams/cloud-gov)
+- [ ] Remove them from the [Cloud Foundry Community GitHub org cloud.gov team](https://github.com/orgs/cloudfoundry-community/teams/cloud-gov/members)
 - [ ] Remove their access to Zendesk - [switch their role to "end user"](https://cloud-gov.zendesk.com/agent/admin/people)
-- [ ] Remove their access to [StatusPage](https://manage.statuspage.io/organizations/btc69fwyvjh7/team) - likely have to ask devops@gsa.gov
+- [ ] Remove their access to [StatusPage](https://manage.statuspage.io/organizations/btc69fwyvjh7/team) - likely have to ask devops@gsa.gov or #infrastructure
 - [ ] Remove their access to [PagerDuty](https://18fi.pagerduty.com/users)
 - [ ] Remove their access to [New Relic](https://rpm.newrelic.com/accounts/907948)
 - [ ] Remove their access to [Favro](https://favro.com/organization/1e11108a2da81e3bd7153a7a/1c6c9af1003b58d597b43ef4?onShow=administration)
@@ -47,13 +47,8 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 
 ## Cloud Operations
 - [ ] Remove them from any IAM roles they hold in AWS GovCloud
-- [ ] [Remove their access as an admin](https://docs.cloud.gov/ops/managing-users/#managing-admins) on the platform
+- [ ] [Remove their access as an admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) on the platform
 - [ ] Remove any privileges that their cloud.gov account has due to membership in the cloud.gov team (even if not in Cloud Ops), such as `admin_ui.read`
 - [ ] Remove any Org or Space roles that their cloud.gov account holds due to membership in the cloud.gov team (for example, remove them from the `cloud-gov` and `cloud-gov-operators` organizations)
 - [ ] Confirm the System Owner (or person delegated by System Owner) has removed them from all GitHub teams
 - [ ] Ensure any keys or passwords they had direct access to are rotated
-
-## Customer Team
-- [ ] Delete their account from the customers app.
-  - [ ] [Production Site](https://customers.fr.cloud.gov/django-admin/auth/user/)
-  - [ ] [Staging Site](https://customers.fr-stage.cloud.gov/django-admin/auth/user/)
