@@ -17,7 +17,7 @@ In order for us to update the JAB on our compliance in a consistent way, we need
 Check that you have the [latest stable version of ZAP](https://github.com/zaproxy/zaproxy/wiki/Downloads).
 
 - [ ] We ran OWASP ZAP on the following domains using steps #1-6 of the manual scanning instructions at https://pages.18f.gov/before-you-ship/security/dynamic-scanning/#manual-scanning - authenticated, passive: https://ci.fr.cloud.gov/ (requires VPN), https://dashboard.fr.cloud.gov/, https://account.fr.cloud.gov/, https://cloud.gov/, https://idp.fr.cloud.gov/, https://login.fr.cloud.gov/,  https://opslogin.fr.cloud.gov/login, https://logs.fr.cloud.gov/, https://admin.fr.cloud.gov/, https://prometheus.fr.cloud.gov/ (requires VPN), https://grafana.fr.cloud.gov/ (requires VPN), https://alertmanager.fr.cloud.gov/ (requires VPN), https://logs-platform.fr.cloud.gov/.
-  - Load the [cloud.gov conmon](https://raw.githubusercontent.com/18F/cg-product/zap-context/cloud.gov-conmon.context) ZAP context from this repository.
+  - Load the [cloud.gov conmon](https://raw.githubusercontent.com/18F/cg-product/master/cloud.gov-conmon.context) ZAP context from this repository.
     - Check the context file to see if it needs updating (update if necessary).
   - You have to log in so that ZAP can scan inside the authenticated website.
   - Make sure to scan _only_ those sites, rather than browsing other URLs while ZAP is running, to prevent getting noise in the scan results (since that causes major confusion when the FedRAMP team processes the ConMon report).
