@@ -12,7 +12,6 @@
 <incregexes>https://dashboard.fr.cloud.gov.*</incregexes>
 <incregexes>https://grafana.fr.cloud.gov.*</incregexes>
 <incregexes>https://idp.fr.cloud.gov.*</incregexes>
-<incregexes>https://landing.app.cloud.gov.*</incregexes>
 <incregexes>https://login.fr.cloud.gov.*</incregexes>
 <incregexes>https://logs.fr.cloud.gov.*</incregexes>
 <incregexes>https://logs-platform.fr.cloud.gov.*</incregexes>
