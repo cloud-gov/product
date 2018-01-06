@@ -16,7 +16,7 @@ In order for us to update the JAB on our compliance in a consistent way, we need
 
 Check that you have the [latest stable version of ZAP](https://github.com/zaproxy/zaproxy/wiki/Downloads).
 
-- [ ] We ran OWASP ZAP on the following domains using steps #1-6 of the manual scanning instructions at https://pages.18f.gov/before-you-ship/security/dynamic-scanning/#scanning - authenticated, passive and active: https://ci.fr.cloud.gov/, https://dashboard.fr.cloud.gov/, https://account.fr.cloud.gov/, https://cloud.gov/, https://idp.fr.cloud.gov/, https://login.fr.cloud.gov/,  https://opslogin.fr.cloud.gov/login, https://logs.fr.cloud.gov/, https://admin.fr.cloud.gov/, https://prometheus.fr.cloud.gov/ , https://grafana.fr.cloud.gov/, https://alertmanager.fr.cloud.gov/, https://logs-platform.fr.cloud.gov/.
+- [ ] We ran OWASP ZAP on the following domains using steps #1-6 of the manual scanning instructions at https://before-you-ship.18f.gov/security/dynamic-scanning/#scanning - authenticated, passive and active: https://ci.fr.cloud.gov/, https://dashboard.fr.cloud.gov/, https://account.fr.cloud.gov/, https://cloud.gov/, https://idp.fr.cloud.gov/, https://login.fr.cloud.gov/,  https://opslogin.fr.cloud.gov/login, https://logs.fr.cloud.gov/, https://admin.fr.cloud.gov/, https://prometheus.fr.cloud.gov/ , https://grafana.fr.cloud.gov/, https://alertmanager.fr.cloud.gov/, https://logs-platform.fr.cloud.gov/.
   - Load the [cloud.gov conmon](https://raw.githubusercontent.com/18F/cg-product/master/cloud.gov-conmon.context) ZAP context from this repository.
     - Check the context file to see if it needs updating (update if necessary).
   - You have to log in so that ZAP can scan inside the authenticated websites, which includes being on the VPN.
