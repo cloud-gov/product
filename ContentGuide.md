@@ -22,6 +22,7 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **AWS Config**
 * **BOSH**
 * **CircleCI**
+* **CF CLI**
 * **ClamAV**
 * **Cloud Controller**
 * **Cloud Foundry**
