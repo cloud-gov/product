@@ -14,22 +14,15 @@ Our Onboarding Checklist helps us fulfill important security and compliance requ
 
 ## How to Tock your time
 
-We use four lines in Tock to track our hours worked:
+We currently use just one line in Tock to track our hours worked:
 
-* cloud.gov - operations and services (Atlas & Agent Q)
-* cloud.gov - UI/UX (Navigator)
-* cloud.gov - business / comms (Skyporter)
-* cloud.gov - compliance (Highbar)
-
-Our guideline: if the work you’re doing was driven by a story with a label, Tock to the line corresponding to that label.
-
-Program-level work, such as program-level stand-up and sprint review meetings, should be tocked to Skyporter.
+* 755 - 18F / FY18  Q2-Q4 Cloud.gov Billable
 
 ## Tools and project artifacts
 
 Whenever possible, we err on the side of putting data where the public can see it. Some data might be kept in Google Drive for convenience of presentation, commenting, etc. but we consider public GitHub repositories the intended destination whenever possible.
 
-Several tools are used for project management, but the main one you will probably be using is GitHub to submit and merge pull requests and [Favro](https://favro.com) to manage squad-specific work in kanban boards. We also use Favro for [macro-level cadence and roadmapping](https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244).
+Several tools are used for project management, but the main one you will probably be using is GitHub to submit and merge pull requests and [Jira](https://cm-jira.usa.gov/secure/RapidBoard.jspa?projectKey=CG&rapidView=1929) to manage squad-specific work in kanban boards. We also use Jira for [macro-level cadence and roadmapping](https://cm-jira.usa.gov/secure/PortfolioPlanView.jspa?id=138&sid=138#backlog).
 
 ## Security/compliance context
 
@@ -43,15 +36,14 @@ This means we have additional team rules on top of your standard 18F team rules.
 
 - cloud.gov as a platform
   - our Cloud Foundry instance
-  - [The Dashboard](https://dashboard.cloud.gov)
-  - [The cloud.gov homepage](https://cloud.gov/)
-  - [docs.cloud.gov](https://docs.cloud.gov)
-- All [cloud.gov repositories](https://docs.cloud.gov/ops/repos/)
+  - [The Dashboard](https://dashboard.fr.cloud.gov)
+  - [The cloud.gov homepage and docs](https://cloud.gov/)
+- All [cloud.gov repositories](https://cloud.gov/docs/ops/repos/)
   - Any repositories under [github.com/18F](https://github.com/18F/) with the prefix [`cg-*`](https://github.com/18f?utf8=%E2%9C%93&query=cg-) ("cloud.gov") or [`cf-*`](https://github.com/18f?utf8=%E2%9C%93&query=cf-) ("Cloud Foundry")
   - [Compliance Toolkit](https://github.com/18F/compliance-toolkit/)
   - [Compliance Masonry](https://github.com/opencontrol/compliance-masonry)
 - a [Google Drive folder](https://drive.google.com/a/gsa.gov/folderview?id=0Bx6EvBXVDWwheUtVckVnOE1pRzA&usp=sharing) full of artifacts related to design, user research, etc (also expected to move to GitHub in time)
-- [Favro](https://favro.com) boards to manage our squad work and to facilitate our regular program-level standups
+- [Jira](https://cm-jira.usa.gov/secure/RapidBoard.jspa?projectKey=CG&rapidView=1929) boards to manage our squad work and to facilitate our regular program-level standups
 - [Murals](http://mur.al/bklqnALZ) for our quarterly PI planning sessions 
 - [The cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-support), where we currently wrangle inquiries from various agencies, and some support.
 
@@ -63,7 +55,8 @@ To release: `ci.fr.cloud.gov -> deploy-cf project`
 
 - Amazon Web Services (AWS) – the infrastructure (IaaS) provider we use.
 - Authority to Operate (ATO) - approval from an agency's Authorizing Official to run a digital service under FISMA.
-- Azure – Microsoft's PaaS. They are regular contributors to various cloud.gov components.
+- Azure – Microsoft's IaaS. They are regular contributors to various cloud.gov components.
+- Azure App Service - Microsoft's PaaS offering, built on top of their IaaS.
 - BOSH (rhymes with "squash") – the configuration/server management tool we use to run Cloud Foundry. Basically, it's what keeps the platform running.
 - BOSH Lite – [https://github.com/cloudfoundry/bosh-lite](https://github.com/cloudfoundry/bosh-lite)
 - cloud.gov ("cloud dot gov").
@@ -72,7 +65,7 @@ To release: `ci.fr.cloud.gov -> deploy-cf project`
 - CenturyLink – a company that contributes heavily to Cloud Foundry, and runs their own Cloud Foundry-based PaaS, [AppFog](https://www.ctl.io/appfog/).
 - [Cloud Foundry](https://www.cloudfoundry.org/) - the open-source platform-as-a-service software that cloud.gov is built on.
 - [Concourse](https://concourse.ci) - the continuous integration tool built by Pivotal we use to deploy Cloud Foundry, among other things.
-- The Dashboard – the web app we offer to allow users to manage their applications and accounts. It lives at [dashboard.cloud.gov](https://dashboard.cloud.gov/), and the code is in the [cg-dashboard](https://github.com/18F/cg-dashboard) repository.
+- The Dashboard – the web app we offer to allow users to manage their applications and accounts. It lives at [dashboard.cloud.gov](https://dashboard.fr.cloud.gov/), and the code is in the [cg-dashboard](https://github.com/18F/cg-dashboard) repository.
 - [Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/) (ELB) – the proxy we use in front of Cloud Foundry.
 - [FedRAMP](https://www.fedramp.gov/) - a program whereby which Cloud Service Providers (CSPs) are rigorously examined for compliance with FISMA before being identified as generally fit for use by all government agencies.
 - [FISMA](https://en.wikipedia.org/wiki/Federal_Information_Security_Management_Act_of_2002) - The federal law that governs digital service delivery in the federal government.
