@@ -62,14 +62,18 @@ Ensure you know what&#39;s happening on the team:
 
 Learn our policies and procedures:
 
-* [ ] Coordinate with your onboarding buddy to go through [Incident Response Training|https://docs.google.com/presentation/d/1AZjQE8zBzMRWZIFUuJPkJLted1ykGtALrLPoPRx5Vls/edit#slide=id.p] within 60 days of joining the team (and annually after that). This will cover the following document, which you should also review before or after training:* [ ] Read the [Incident Response Guide|https://cloud.gov/docs/ops/security-ir/].
-* [ ] Coordinate with your onboarding buddy to go through [nonpublic information training|https://docs.google.com/presentation/d/1uB4MlGCu8ZYUxjKVZKwicQ95MvLxaT4Mh93y6w79GPw/edit#slide=id.p] within 60 days of joining the team (and annually after that). This will cover the following documents, which you should also review before or after training:* [ ] Review the [18F open source policy guidance about protecting sensitive information|https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information].
-* * [ ] Read our [sharing secret keys|https://cloud.gov/docs/ops/secrets/#sharing-secret-keys] policy.
-* * [ ] Review the [18F requirements for password management|https://handbook.18f.gov/password-requirements/].
-* [ ] If you&#39;re Cloud Ops or Business Unit: Coordinate with your onboarding buddy to go through Contingency Planning training within 10 days (and annually after that). This will cover the following document, which you should also review before or after training:* [ ] Read the [Contingency Plan|https://docs.cloud.gov/ops/contingency-plan/].
-* Read the following documents as well, which explain our practices in a formal written way. Reach out to your buddy or the team if anything is unexpected or confusing.* [ ] Read the [Continuous Monitoring Strategy|https://cloud.gov/docs/ops/continuous-monitoring/], particularly the [cloud.gov team responsibilities|https://cloud.gov/docs/ops/continuous-monitoring/#cloud-gov-team].
-* * [ ] Read the [Configuration Management Plan|https://cloud.gov/docs/ops/configuration-management/].
-* * [ ] Read the [18F Security Policies and Procedures|https://github.com/18F/compliance-docs]. These documents explain the high-level policies and procedures we must comply with while running cloud.gov, sorted into security control &quot;families&quot;. They explain that we follow GSA IT security policy, and they provide a summary of the procedures in our System Security Plan.
+* [ ] Coordinate with your onboarding buddy to go through [Incident Response Training|https://docs.google.com/presentation/d/1AZjQE8zBzMRWZIFUuJPkJLted1ykGtALrLPoPRx5Vls/edit#slide=id.p] within 60 days of joining the team (and annually after that). This will cover the following document, which you should also review before or after training:
+* [ ] Read the [Incident Response Guide|https://cloud.gov/docs/ops/security-ir/].
+* [ ] Coordinate with your onboarding buddy to go through [nonpublic information training|https://docs.google.com/presentation/d/1uB4MlGCu8ZYUxjKVZKwicQ95MvLxaT4Mh93y6w79GPw/edit#slide=id.p] within 60 days of joining the team (and annually after that). This will cover the following documents, which you should also review before or after training:
+* [ ] Review the [18F open source policy guidance about protecting sensitive information|https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information].
+** [ ] Read our [sharing secret keys|https://cloud.gov/docs/ops/secrets/#sharing-secret-keys] policy.
+** [ ] Review the [18F requirements for password management|https://handbook.18f.gov/password-requirements/].
+* [ ] If you&#39;re Cloud Ops or Business Unit: Coordinate with your onboarding buddy to go through Contingency Planning training within 10 days (and annually after that). This will cover the following document, which you should also review before or after training:
+* [ ] Read the [Contingency Plan|https://docs.cloud.gov/ops/contingency-plan/].
+* Read the following documents as well, which explain our practices in a formal written way. Reach out to your buddy or the team if anything is unexpected or confusing.
+* [ ] Read the [Continuous Monitoring Strategy|https://cloud.gov/docs/ops/continuous-monitoring/], particularly the [cloud.gov team responsibilities|https://cloud.gov/docs/ops/continuous-monitoring/#cloud-gov-team].
+** [ ] Read the [Configuration Management Plan|https://cloud.gov/docs/ops/configuration-management/].
+** [ ] Read the [18F Security Policies and Procedures|https://github.com/18F/compliance-docs]. These documents explain the high-level policies and procedures we must comply with while running cloud.gov, sorted into security control &quot;families&quot;. They explain that we follow GSA IT security policy, and they provide a summary of the procedures in our System Security Plan.
 
 h3. Theme-specific items
 
@@ -77,28 +81,35 @@ For explanations of our theme names, see [this glossary|https://github.com/18F/c
 
 h4. Platform-specific items
 
-* [ ] Review the System Security Plan (the latest version lives on [Google Drive|https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0]; look for &quot;cloud.gov System Security Plan (SSP)&quot; as a {{.docx}} file). Of particular note for onboarding:* Section 9: System Description
-* * Section 10: System Environment
+* [ ] Review the System Security Plan (the latest version lives on [Google Drive|https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0]; look for &quot;cloud.gov System Security Plan (SSP)&quot; as a {{.docx}} file). Of particular note for onboarding:
+* Section 9: System Description
+** Section 10: System Environment
 * [ ] Bookmark [the Platform kanban board view|https://favro.com/organization/1e11108a2da81e3bd7153a7a/68a186775e1a0ee297ee81ed].
 * [ ] Join the {{#cg-platform}} channel on Slack.
-* Learn about [Cloud Foundry|https://www.cloudfoundry.org/]* [ ] Watch [Build Your Own Private Cloud Foundry|https://www.youtube.com/watch?v=v85r4Hy3jbs] to learn about running Cloud Foundry.
-* * [ ] [Set up Cloud Foundry locally|https://docs.cloud.gov/ops/creating-a-local-dev-environment-in-Virtual-Box/] and push an app to it.
-* * [ ] Join [the Cloud Foundry Slack|http://slack.cloudfoundry.org/] in case you need to ask questions of upstream developers.
-* Learn about [BOSH|http://bosh.io/]:* [ ] watch [this video|https://www.youtube.com/watch?v=2jpN1mSPZ4Q]
-* * [ ] Complete this [tutorial for BOSH|https://mariash.github.io/learn-bosh/]
-* * [ ] For a bit of levity, read [this|http://events.linuxfoundation.org/sites/events/files/slides/seven-stages-of-bosh.pdf]
+* Learn about [Cloud Foundry|https://www.cloudfoundry.org/]
+** [ ] Watch [Build Your Own Private Cloud Foundry|https://www.youtube.com/watch?v=v85r4Hy3jbs] to learn about running Cloud Foundry.
+** [ ] [Set up Cloud Foundry locally|https://docs.cloud.gov/ops/creating-a-local-dev-environment-in-Virtual-Box/] and push an app to it.
+** [ ] Join [the Cloud Foundry Slack|http://slack.cloudfoundry.org/] in case you need to ask questions of upstream developers.
+* Learn about [BOSH|http://bosh.io/]:
+** [ ] watch [this video|https://www.youtube.com/watch?v=2jpN1mSPZ4Q]
+** [ ] Complete this [tutorial for BOSH|https://mariash.github.io/learn-bosh/]
+** [ ] For a bit of levity, read [this|http://events.linuxfoundation.org/sites/events/files/slides/seven-stages-of-bosh.pdf]
 * [ ] Get to know how UAA is deployed/integrated.
-* Get familiar with [Terraform|https://www.terraform.io/]* [ ] Go through the [getting started guide|https://www.terraform.io/intro/getting-started/install.html].
-* * [ ] Examine [our provisioning procedures|https://github.com/18F/cg-provision]
-* Learn about [Concourse|https://concourse.ci/]* [ ] Try a [tutorial|https://github.com/starkandwayne/concourse-tutorial].
-* * [ ] Check out our [staging|https://ci.fr-stage.cloud.gov/] and [production|https://ci.fr.cloud.gov] Concourse instances, and take a look at some of [our pipelines|https://github.com/search?q=org%3A18F+cg-deploy].
-* * [ ] Join [the Concourse Slack|http://slack.concourse.ci/] in case you need to ask questions of upstream developers.
-* Learn about [Kubernetes|https://kubernetes.io/]* [ ] Watch [The illustrated Children&#39;s Guide to Kubernetes|https://youtu.be/4ht22ReBjno]
-* * [ ] Go through the [official tutorial|https://kubernetes.io/docs/tutorials/kubernetes-basics/]
-* * [ ] Read the cloud.gov guide for [troubleshooting k8s|https://cloud.gov/docs/ops/runbook/troubleshooting-kubernetes/]
+* Get familiar with [Terraform|https://www.terraform.io/]
+** [ ] Go through the [getting started guide|https://www.terraform.io/intro/getting-started/install.html].
+** [ ] Examine [our provisioning procedures|https://github.com/18F/cg-provision]
+* Learn about [Concourse|https://concourse.ci/]
+** [ ] Try a [tutorial|https://github.com/starkandwayne/concourse-tutorial].
+** [ ] Check out our [staging|https://ci.fr-stage.cloud.gov/] and [production|https://ci.fr.cloud.gov] Concourse instances, and take a look at some of [our pipelines|https://github.com/search?q=org%3A18F+cg-deploy].
+** [ ] Join [the Concourse Slack|http://slack.concourse.ci/] in case you need to ask questions of upstream developers.
+* Learn about [Kubernetes|https://kubernetes.io/]
+** [ ] Watch [The illustrated Children&#39;s Guide to Kubernetes|https://youtu.be/4ht22ReBjno]
+** [ ] Go through the [official tutorial|https://kubernetes.io/docs/tutorials/kubernetes-basics/]
+** [ ] Read the cloud.gov guide for [troubleshooting k8s|https://cloud.gov/docs/ops/runbook/troubleshooting-kubernetes/]
 * [ ] Join [the cloud.gov operations notifications Google Group|https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-notifications], so you can see alert information if PagerDuty is unavailable
-* Get familiar with our AWS setup* [ ] Read about [AWS onboarding|https://cloud.gov/docs/ops/aws-onboarding/]
-* * [ ] Read about the [AWS CLI|https://aws.amazon.com/cli/]
+* Get familiar with our AWS setup
+** [ ] Read about [AWS onboarding|https://cloud.gov/docs/ops/aws-onboarding/]
+** [ ] Read about the [AWS CLI|https://aws.amazon.com/cli/]
 * [ ] Review the [daily maintenance tasks|https://cloud.gov/docs/ops/maintenance-list/] for when you&#39;re on support duty
 
 h4. Customer-specific items
@@ -111,8 +122,9 @@ h4. Customer-specific items
 * [ ] [Request access to 18F Google Analytics|https://handbook.18f.gov/google-analytics/], so you can view cloud.gov site analytics ([including for the dashboard|https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit]).
 * [ ] Ask for an invite to a DigitalGov Search account for cg-site, so you can configure it and view analytics.
 * [ ] Once granted access to New Relic, sign up for email notifications of alerts for [dashboard|https://synthetics.newrelic.com/accounts/907948/monitors/c4fdd474-0f6c-470a-bf9d-a3d839cea2cb/alerts]
-* [ ] Ask the team to add your e-mail address to the customers app.* [ ] [Production Site|https://customers.fr.cloud.gov/django-admin/auth/user/]
-* * [ ] [Staging Site|https://customers.fr-stage.cloud.gov/django-admin/auth/user/]
+* [ ] Ask the team to add your e-mail address to the customers app.
+** [ ] [Production Site|https://customers.fr.cloud.gov/django-admin/auth/user/]
+** [ ] [Staging Site|https://customers.fr-stage.cloud.gov/django-admin/auth/user/]
 
 h5. If developing
 
@@ -171,11 +183,12 @@ h4. Services-specific items
 * [ ] Read about Cloud Foundry [services from a user perspective|http://docs.cloudfoundry.org/devguide/services/].
 * [ ] Read about [implementing services|http://docs.cloudfoundry.org/services/].
 * [ ] Take a look at [our existing brokers|https://github.com/18F?utf8=%E2%9C%93&amp;query=broker].
-* [ ] Learn about [Concourse|https://concourse.ci/]* [ ] Try a [tutorial|https://github.com/starkandwayne/concourse-tutorial].
-* * [ ] Check out our [staging|https://ci.fr-stage.cloud.gov/] and [production|https://ci.fr.cloud.gov] Concourse instances, and take a look at some of [our pipelines|https://github.com/search?q=org%3A18F+cg-deploy].
+* [ ] Learn about [Concourse|https://concourse.ci/]
+** [ ] Try a [tutorial|https://github.com/starkandwayne/concourse-tutorial].
+** [ ] Check out our [staging|https://ci.fr-stage.cloud.gov/] and [production|https://ci.fr.cloud.gov] Concourse instances, and take a look at some of [our pipelines|https://github.com/search?q=org%3A18F+cg-deploy].
 * [ ] Join [the Cloud Foundry Slack|http://slack.cloudfoundry.org/].
 
-----h2. Buddy checklist
+h2. Buddy checklist
 
 * [ ] Introduce yourself to the new team member and give them some of your background so they know who you are.
 * [ ] Identify a straightforward, well-groomed story in progress that involves their skills domain, schedule a meeting with the owner for an introduction (if it&#39;s not you), and setup pairing sessions several times in the first week on the project.
@@ -202,14 +215,16 @@ h3. Platform-specific required items
 * [ ] Ask the Program Manager (Bret) or System Owner (Shashank) to have them added to the [@18F/cloud-gov-ops|https://github.com/orgs/18F/teams/cloud-gov-ops] team on GitHub. *(For contractors: Confirm they have cleared GSA security review before doing this one!)*
 * [ ] If the new person is a contractor, ask the Program Manager (Bret) or System Owner (Shashank) to have them added to the [@18F/cloud-gov-contractors|https://github.com/orgs/18F/teams/cloud-gov-contractors] team on GitHub.
 * [ ] Add them to @cg-operators [in Slack’s User Groups|https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group].
-* Grant them access to the following:* [ ] [AWS Accounts|https://cloud.gov/docs/ops/aws-onboarding/] via the AWS web console (not Terraform) and provide one-time credentials with Toaster/Fugacious* [ ] AWS GovCloud
-* * * [ ] AWS East tied to GovCloud
-* * * [ ] AWS Admin Access
-* * * Note: AWS user names should be identical across accounts so that permissions can be correctly managed by terraform
-* * [ ] Nessus Manager GUI
-* * [ ] New Relic
-* * [ ] PagerDuty
-* * [ ] StatusPage
+* Grant them access to the following:
+** [ ] [AWS Accounts|https://cloud.gov/docs/ops/aws-onboarding/] via the AWS web console (not Terraform) and provide one-time credentials with Toaster/Fugacious
+** [ ] AWS GovCloud
+** [ ] AWS East tied to GovCloud
+** [ ] AWS Admin Access
+** Note: AWS user names should be identical across accounts so that permissions can be correctly managed by terraform
+** [ ] Nessus Manager GUI
+** [ ] New Relic
+** [ ] PagerDuty
+** [ ] StatusPage
 * [ ] [Make them an admin|https://cloud.gov/docs/ops/managing-users/#managing-admins] of the platform.
 * [ ] Add them to the {{cloud-gov-operators}} organization in cloud.gov.
 * [ ] Take them through [AWS onboarding|https://cloud.gov/docs/ops/aws-onboarding/].
