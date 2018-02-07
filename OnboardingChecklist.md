@@ -35,25 +35,25 @@ h3. Getting to know cloud.gov
 * [ ] Bookmark the [pertinent links listed here|https://github.com/18F/cg-product/blob/master/PertinentLinks.md].
 * [ ] Read the ["What is it?"|https://docs.google.com/presentation/d/1nCcti3dXG9TVGW3OqaWtnf96oXX8U8SBTM_WePFO_dg/edit#slide=id.p] presentation for a rundown of what cloud.gov is and does (specifically read slides 1-37; the rest are somewhat outdated)
 * [ ] Read through [the Overview section of cloud.gov|https://cloud.gov/overview/] for a broader understanding of cloud.gov, especially as we present it to potential customers/users.
-* [ ] Read the [January 2016 cloud.gov "Executive Business Case" document|https://docs.google.com/document/d/138OcG0Lt6gr9J0wM0TzzPNyTROmYAwfLIDujtweiwGw/edit#] for greater context about cloud.gov&#39;s potential impact in government.
-* [ ] [Deploy a sample application to cloud.gov|https://cloud.gov/docs/getting-started/your-first-deploy/] to get familiar with the basics of the PaaS from a user&#39;s perspective.
+* [ ] Read the [January 2016 cloud.gov "Executive Business Case" document|https://docs.google.com/document/d/138OcG0Lt6gr9J0wM0TzzPNyTROmYAwfLIDujtweiwGw/edit#] for greater context about cloud.gov's potential impact in government.
+* [ ] [Deploy a sample application to cloud.gov|https://cloud.gov/docs/getting-started/your-first-deploy/] to get familiar with the basics of the PaaS from a user's perspective.
 * [ ] *Out Of Date, ask for what is currently being used:* Check out the [roadmap|https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244] to get a high-level view of recently-completed, in-progress, and upcoming features.
 * [ ] Read the [Delivery Process document|https://github.com/18F/cg-product/blob/master/DeliveryProcess.md] to learn about how we work.
 * [ ] Read our [service disruption guide|https://cloud.gov/docs/ops/service-disruption-guide/] to learn how we handle customer-facing service disruptions.
 * [ ] Join [the cloud.gov team Google Group|https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov] so you can participate in teamwide internal communication.
 * [ ] Join the [cloud.gov inquiries Google Group|https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries] so you can keep apprised of prospective new clients.
-* [ ] Bookmark the [cloud.gov Google Drive folder|https://drive.google.com/drive/folders/0Bx6EvBXVDWwheUtVckVnOE1pRzA] - that&#39;s where we put cloud.gov docs. If you create or move a doc there, it&#39;ll get the right access permissions for 18F team members to be able to view and edit it.
-* [ ] Consider joining [Cloud Foundry&#39;s Slack channels|https://slack.cloudfoundry.org/] (we sometimes talk to folks in #gov and #gov-private – you&#39;ll need a cloud.gov team member to invite you to the latter).
-* [ ] If you haven&#39;t already, [request a license for Microsoft Office|https://handbook.18f.gov/gsa-tools-equipment-and-transit/#get-a-copy-of-microsoft-office] - this is helpful for working with compliance documentation.
-* [ ] Once you&#39;ve finished the checklists below, make suggestions for steps that would have improved your onboarding experience as pull requests on [the onboarding checklist template|https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md] used to make this issue.
+* [ ] Bookmark the [cloud.gov Google Drive folder|https://drive.google.com/drive/folders/0Bx6EvBXVDWwheUtVckVnOE1pRzA] - that's where we put cloud.gov docs. If you create or move a doc there, it'll get the right access permissions for 18F team members to be able to view and edit it.
+* [ ] Consider joining [Cloud Foundry's Slack channels|https://slack.cloudfoundry.org/] (we sometimes talk to folks in #gov and #gov-private – you'll need a cloud.gov team member to invite you to the latter).
+* [ ] If you haven't already, [request a license for Microsoft Office|https://handbook.18f.gov/gsa-tools-equipment-and-transit/#get-a-copy-of-microsoft-office] - this is helpful for working with compliance documentation.
+* [ ] Once you've finished the checklists below, make suggestions for steps that would have improved your onboarding experience as pull requests on [the onboarding checklist template|https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md] used to make this issue.
 
 h3. Required items for all team members
 
 These items help us fulfill security and compliance requirements (including for FedRAMP). If you get stuck, or if these requirements are confusing, ask for help from your buddy or in a cloud.gov channel.
 
-Ensure you know what&#39;s happening on the team:
+Ensure you know what's happening on the team:
 
-* [ ] Subscribe to [the cloud.gov team calendar|https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&amp;ctz=America/Los_Angeles] (click the + in the bottom right) so you know when assorted team meetings are happening in the various squads. Tip: When you plan Out of Office time, make a calendar event for that on the cloud.gov calendar so that your teammates know you&#39;ll be away.
+* [ ] Subscribe to [the cloud.gov team calendar|https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&amp;ctz=America/Los_Angeles] (click the + in the bottom right) so you know when assorted team meetings are happening in the various squads. Tip: When you plan Out of Office time, make a calendar event for that on the cloud.gov calendar so that your teammates know you'll be away.
 * [ ] Subscribe (through the GitHub watch function) to the [cg-site|https://github.com/18F/cg-site] GitHub repository notifications.
 * [ ] Ask Program Manager or Director for access to the cg-supportstream Slack channel.
 
@@ -65,7 +65,7 @@ Learn our policies and procedures:
 * [ ] Review the [18F open source policy guidance about protecting sensitive information|https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information].
 ** [ ] Read our [sharing secret keys|https://cloud.gov/docs/ops/secrets/#sharing-secret-keys] policy.
 ** [ ] Review the [18F requirements for password management|https://handbook.18f.gov/password-requirements/].
-* [ ] If you&#39;re Cloud Ops or Business Unit: Coordinate with your onboarding buddy to go through Contingency Planning training within 10 days (and annually after that). This will cover the following document, which you should also review before or after training:
+* [ ] If you're Cloud Ops or Business Unit: Coordinate with your onboarding buddy to go through Contingency Planning training within 10 days (and annually after that). This will cover the following document, which you should also review before or after training:
 * [ ] Read the [Contingency Plan|https://docs.cloud.gov/ops/contingency-plan/].
 * Read the following documents as well, which explain our practices in a formal written way. Reach out to your buddy or the team if anything is unexpected or confusing.
 * [ ] Read the [Continuous Monitoring Strategy|https://cloud.gov/docs/ops/continuous-monitoring/], particularly the [cloud.gov team responsibilities|https://cloud.gov/docs/ops/continuous-monitoring/#cloud-gov-team].
@@ -100,14 +100,14 @@ h4. Platform-specific items
 ** [ ] Check out our [staging|https://ci.fr-stage.cloud.gov/] and [production|https://ci.fr.cloud.gov] Concourse instances, and take a look at some of [our pipelines|https://github.com/search?q=org%3A18F+cg-deploy].
 ** [ ] Join [the Concourse Slack|http://slack.concourse.ci/] in case you need to ask questions of upstream developers.
 * Learn about [Kubernetes|https://kubernetes.io/]
-** [ ] Watch [The illustrated Children&#39;s Guide to Kubernetes|https://youtu.be/4ht22ReBjno]
+** [ ] Watch [The illustrated Children's Guide to Kubernetes|https://youtu.be/4ht22ReBjno]
 ** [ ] Go through the [official tutorial|https://kubernetes.io/docs/tutorials/kubernetes-basics/]
 ** [ ] Read the cloud.gov guide for [troubleshooting k8s|https://cloud.gov/docs/ops/runbook/troubleshooting-kubernetes/]
 * [ ] Join [the cloud.gov operations notifications Google Group|https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-notifications], so you can see alert information if PagerDuty is unavailable
 * Get familiar with our AWS setup
 ** [ ] Read about [AWS onboarding|https://cloud.gov/docs/ops/aws-onboarding/]
 ** [ ] Read about the [AWS CLI|https://aws.amazon.com/cli/]
-* [ ] Review the [daily maintenance tasks|https://cloud.gov/docs/ops/maintenance-list/] for when you&#39;re on support duty
+* [ ] Review the [daily maintenance tasks|https://cloud.gov/docs/ops/maintenance-list/] for when you're on support duty
 
 h4. Customer-specific items
 
@@ -125,7 +125,7 @@ h4. Customer-specific items
 
 h5. If developing
 
-* [ ] Review the [dashboard contributing guide|https://github.com/18F/cg-dashboard/blob/master/CONTRIBUTING.md] and [{{cg-style}} standards|https://github.com/18F/cg-style/blob/master/documentation/frontend_standards.md] which help frame what we&#39;re looking for in code review.
+* [ ] Review the [dashboard contributing guide|https://github.com/18F/cg-dashboard/blob/master/CONTRIBUTING.md] and [{{cg-style}} standards|https://github.com/18F/cg-style/blob/master/documentation/frontend_standards.md] which help frame what we're looking for in code review.
 * [ ] Set up the [landing/docs page|https://github.com/18F/cg-site], [dashboard|https://github.com/18F/cg-dashboard], and [{{cg-style}}|https://github.com/18F/cg-style] locally.
 * [ ] Set up {{cg-style}} to be [linked to the other sites locally|https://github.com/18F/cg-style#development-and-contributing-setup].
 * [ ] Have a cloud.gov person send the {{cg-dashboard}} testing environment variables through Fugacious.
@@ -143,13 +143,13 @@ h5. For review
 h4. Business unit-specific items
 
 * [ ] Bookmark the [BizOps board|https://favro.com/organization/1e11108a2da81e3bd7153a7a/bdd858e991f7f835b0d79ee2].
-* [ ] Join #products-platforms and all of the #cloud-gov-[everything] channels (it&#39;s ok to mute or leave some later).
+* [ ] Join #products-platforms and all of the #cloud-gov-[everything] channels (it's ok to mute or leave some later).
 * [ ] Ask Program Manager or Director for access (and ownership if appropriate) to the [cloud-gov-inquiries|https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries], [cloud-gov-support|https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-support], [cloud-gov-notifications|https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-notifications], and [cloud-gov-emergency|https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-emergency] groups.
 * [ ] Read [how the cloud-gov-emergency group works|https://docs.google.com/document/d/1O5UW1M-XX8YIZJV1OcF1EqGWjPnNUi7L0mZpJZ6d-cs/edit#], and set up push notifications for these emails from your work smartphone if appropriate for your role.
 * [ ] Ask #admins-salesforce for access to [Salesforce|https://gsa-peo.my.salesforce.com].
 * [ ] In Salesforce, bookmark the [cloud.gov opportunities|https://gsa-peo.lightning.force.com/one/one.app#/sObject/00Ot0000000mFIxEAM/view?t=1484708635668] report.
 * [ ] [If not also Cloud Ops] Ask Program Manager or Director for view-only access to [admin UI|https://admin.fr.cloud.gov].
-* [ ] Ask #acquisition for the Acquisition NDA so you can sign it (if you haven&#39;t already).
+* [ ] Ask #acquisition for the Acquisition NDA so you can sign it (if you haven't already).
 * [ ] [If not also Cloud Ops] If appropriate for your role, ask for access to billing info in commercial AWS account from Program Manager or Director.
 
 h5. New Director (System Owner) items
@@ -188,7 +188,7 @@ h4. Services-specific items
 h2. Buddy checklist
 
 * [ ] Introduce yourself to the new team member and give them some of your background so they know who you are.
-* [ ] Identify a straightforward, well-groomed story in progress that involves their skills domain, schedule a meeting with the owner for an introduction (if it&#39;s not you), and setup pairing sessions several times in the first week on the project.
+* [ ] Identify a straightforward, well-groomed story in progress that involves their skills domain, schedule a meeting with the owner for an introduction (if it's not you), and setup pairing sessions several times in the first week on the project.
 * [ ] Identify a straightforward, well-groomed first story, ideally something they could conceivably complete in their first two/three weeks using their existing skills. Discuss the context with them, then make them the assignee for the card.
 * [ ] Discuss suggestions for how the onboarding experience could have been improved and open as PRs on [the onboarding template|https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md].
 * [ ] Ask the Program Manager or Director to add the person to [Zendesk|https://cloud-gov.zendesk.com], so they can see how we handle non-18F support and read technical discussions happening with outside groups.
@@ -198,8 +198,8 @@ h3. Required items for all team members
 
 These items help us fulfill security and compliance requirements (including for FedRAMP).
 
-* [ ] Make sure they&#39;re in [the list of people working on the project|https://docs.google.com/spreadsheets/d/1mW3tphZ98ExmMxLHPogSpTq8DzYr5Oh8_SHnOTvjRWM/edit#gid=0].
-* [ ] Add their name, whether they&#39;re Cloud Ops (Platform), and the date they joined the team to the [training tracker|https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0]. Copy the formulas for the due dates from an existing row (grab the "corner" of the cells and pull down).
+* [ ] Make sure they're in [the list of people working on the project|https://docs.google.com/spreadsheets/d/1mW3tphZ98ExmMxLHPogSpTq8DzYr5Oh8_SHnOTvjRWM/edit#gid=0].
+* [ ] Add their name, whether they're Cloud Ops (Platform), and the date they joined the team to the [training tracker|https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0]. Copy the formulas for the due dates from an existing row (grab the "corner" of the cells and pull down).
 * [ ] As they complete training, fill out their completion dates in the [training tracker|https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0].
 * [ ] Add them to the @cloud-gov-team [in Slack’s Team Directory|https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group].
 * [ ] Add them to the recurring cloud.gov meetings that are relevant for them in [the team calendar|https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&amp;ctz=America/Los_Angeles].
