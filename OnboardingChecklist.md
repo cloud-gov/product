@@ -5,7 +5,7 @@
 When someone new joins the cloud.gov team:
 
 0. Get a Jira account for NewPerson.  Buddy can help, or you can go to the Program Manager.
-1. Create a new issue in Jira under the `Product Management` board called "Ramp up [NewPerson] on cloud.gov team".
+1. Create a new issue in Jira in the cloud.gov (CG) project assigned to the `Product Management` team called "Ramp up [NewPerson] on cloud.gov team".
 2. View the raw source of this file.
 3. Copy everything below the line into the new issue's body.
 4. Replace "NewPerson" with the new person's name.
@@ -13,7 +13,7 @@ When someone new joins the cloud.gov team:
 4. Delete any checklists irrelevant for the new person's skill domain (theme).
 5. Submit the issue.
 6. Assign the issue to the person who bravely volunteered to be the new person's Onboarding Buddy.
-7. Put the issue into the _In Progress_ lane in Jira on the cloud.gov *Program Board*.
+7. Put the issue into the _In Progress_ column in Jira on the cloud.gov *Program Management Board*.
 
 ---
 
@@ -37,10 +37,7 @@ h3. Getting to know cloud.gov
 * [ ] Read through [the Overview section of cloud.gov|https://cloud.gov/overview/] for a broader understanding of cloud.gov, especially as we present it to potential customers/users.
 * [ ] Read the [January 2016 cloud.gov &quot;Executive Business Case&quot; document|https://docs.google.com/document/d/138OcG0Lt6gr9J0wM0TzzPNyTROmYAwfLIDujtweiwGw/edit#] for greater context about cloud.gov&#39;s potential impact in government.
 * [ ] [Deploy a sample application to cloud.gov|https://cloud.gov/docs/getting-started/your-first-deploy/] to get familiar with the basics of the PaaS from a user&#39;s perspective.
-* [ ] Sign up for a [Favro account|https://favro.com/signup] using your GSA Google Account. Add a profile photo and add your name/Github handle using this standard so you receive notifications on any linked Github issues: {noformat}[Github handle] - [your name]{noformat}, e.g. {noformat}suprenant - Andrew Suprenant{noformat}.
-* [ ] Check out the [Favro cloud.gov Program
-* board|https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244] and make sure you have access to all our Favro boards.
-* [ ] Check out the [roadmap|https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244] to get a high-level view of recently-completed, in-progress, and upcoming features.
+* [ ] *Out Of Date, ask for what is currently being used:* Check out the [roadmap|https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244] to get a high-level view of recently-completed, in-progress, and upcoming features.
 * [ ] Read the [Delivery Process document|https://github.com/18F/cg-product/blob/master/DeliveryProcess.md] to learn about how we work.
 * [ ] Read our [service disruption guide|https://cloud.gov/docs/ops/service-disruption-guide/] to learn how we handle customer-facing service disruptions.
 * [ ] Join [the cloud.gov team Google Group|https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov] so you can participate in teamwide internal communication.
@@ -84,7 +81,7 @@ h4. Platform-specific items
 * [ ] Review the System Security Plan (the latest version lives on [Google Drive|https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0]; look for &quot;cloud.gov System Security Plan (SSP)&quot; as a {{.docx}} file). Of particular note for onboarding:
 * Section 9: System Description
 ** Section 10: System Environment
-* [ ] Bookmark [the Platform kanban board view|https://favro.com/organization/1e11108a2da81e3bd7153a7a/68a186775e1a0ee297ee81ed].
+* [ ] Bookmark [the Platform kanban board view|https://cm-jira.usa.gov/secure/RapidBoard.jspa?rapidView=1926&view=detail&selectedIssue=CG-107].
 * [ ] Join the {{#cg-platform}} channel on Slack.
 * Learn about [Cloud Foundry|https://www.cloudfoundry.org/]
 ** [ ] Watch [Build Your Own Private Cloud Foundry|https://www.youtube.com/watch?v=v85r4Hy3jbs] to learn about running Cloud Foundry.
@@ -116,7 +113,7 @@ h4. Customer-specific items
 
 * [ ] Join the {{#cg-customer}} channel on Slack.
 * [ ] Ping @standup-bot for instructions on front end channel standup.
-* [ ] Review the [Customer board|https://favro.com/organization/1e11108a2da81e3bd7153a7a/e9acfea577acd5bdadf3d6a2].
+* [ ] Review the [Customer board|https://cm-jira.usa.gov/secure/RapidBoard.jspa?rapidView=1929&view=detail&selectedIssue=CG-360].
 * [ ] Bookmark link to [design folder|https://drive.google.com/drive/u/1/folders/0BwLqM4Nicmq-bUt0NjRjclFMUEU].
 * [ ] Review the primary cloud.gov sites: [the dashboard|https://dashboard.cloud.gov/#/], [main landing page|https://cloud.gov/], and [documentation|https://cloud.gov/docs/].
 * [ ] [Request access to 18F Google Analytics|https://handbook.18f.gov/google-analytics/], so you can view cloud.gov site analytics ([including for the dashboard|https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit]).
@@ -196,7 +193,6 @@ h2. Buddy checklist
 * [ ] Discuss suggestions for how the onboarding experience could have been improved and open as PRs on [the onboarding template|https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md].
 * [ ] Ask the Program Manager or Director to add the person to [Zendesk|https://cloud-gov.zendesk.com], so they can see how we handle non-18F support and read technical discussions happening with outside groups.
 * [ ] Invite them to the private Slack channel cg-supportstream, used for backchanneling on support interactions.
-* [ ] Ask the Program Manager or Director to add them to the 18F organization in Favro.
 
 h3. Required items for all team members
 
