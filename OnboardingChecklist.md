@@ -33,9 +33,9 @@ h3. Getting to know cloud.gov
 * [ ] Figure out who your onboarding buddy is (they should reach out to you) and make sure this issue is assigned to them.
 * [ ] Read [the team onboarding document|https://github.com/18F/cg-product/blob/master/Onboarding.md] for more context about cloud.gov.
 * [ ] Bookmark the [pertinent links listed here|https://github.com/18F/cg-product/blob/master/PertinentLinks.md].
-* [ ] Read the [&quot;What is it?&quot;|https://docs.google.com/presentation/d/1nCcti3dXG9TVGW3OqaWtnf96oXX8U8SBTM_WePFO_dg/edit#slide=id.p] presentation for a rundown of what cloud.gov is and does (specifically read slides 1-37; the rest are somewhat outdated)
+* [ ] Read the ["What is it?"|https://docs.google.com/presentation/d/1nCcti3dXG9TVGW3OqaWtnf96oXX8U8SBTM_WePFO_dg/edit#slide=id.p] presentation for a rundown of what cloud.gov is and does (specifically read slides 1-37; the rest are somewhat outdated)
 * [ ] Read through [the Overview section of cloud.gov|https://cloud.gov/overview/] for a broader understanding of cloud.gov, especially as we present it to potential customers/users.
-* [ ] Read the [January 2016 cloud.gov &quot;Executive Business Case&quot; document|https://docs.google.com/document/d/138OcG0Lt6gr9J0wM0TzzPNyTROmYAwfLIDujtweiwGw/edit#] for greater context about cloud.gov&#39;s potential impact in government.
+* [ ] Read the [January 2016 cloud.gov "Executive Business Case" document|https://docs.google.com/document/d/138OcG0Lt6gr9J0wM0TzzPNyTROmYAwfLIDujtweiwGw/edit#] for greater context about cloud.gov&#39;s potential impact in government.
 * [ ] [Deploy a sample application to cloud.gov|https://cloud.gov/docs/getting-started/your-first-deploy/] to get familiar with the basics of the PaaS from a user&#39;s perspective.
 * [ ] *Out Of Date, ask for what is currently being used:* Check out the [roadmap|https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244] to get a high-level view of recently-completed, in-progress, and upcoming features.
 * [ ] Read the [Delivery Process document|https://github.com/18F/cg-product/blob/master/DeliveryProcess.md] to learn about how we work.
@@ -70,7 +70,7 @@ Learn our policies and procedures:
 * Read the following documents as well, which explain our practices in a formal written way. Reach out to your buddy or the team if anything is unexpected or confusing.
 * [ ] Read the [Continuous Monitoring Strategy|https://cloud.gov/docs/ops/continuous-monitoring/], particularly the [cloud.gov team responsibilities|https://cloud.gov/docs/ops/continuous-monitoring/#cloud-gov-team].
 ** [ ] Read the [Configuration Management Plan|https://cloud.gov/docs/ops/configuration-management/].
-** [ ] Read the [18F Security Policies and Procedures|https://github.com/18F/compliance-docs]. These documents explain the high-level policies and procedures we must comply with while running cloud.gov, sorted into security control &quot;families&quot;. They explain that we follow GSA IT security policy, and they provide a summary of the procedures in our System Security Plan.
+** [ ] Read the [18F Security Policies and Procedures|https://github.com/18F/compliance-docs]. These documents explain the high-level policies and procedures we must comply with while running cloud.gov, sorted into security control "families" They explain that we follow GSA IT security policy, and they provide a summary of the procedures in our System Security Plan.
 
 h3. Theme-specific items
 
@@ -78,7 +78,7 @@ For explanations of our theme names, see [this glossary|https://github.com/18F/c
 
 h4. Platform-specific items
 
-* [ ] Review the System Security Plan (the latest version lives on [Google Drive|https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0]; look for &quot;cloud.gov System Security Plan (SSP)&quot; as a {{.docx}} file). Of particular note for onboarding:
+* [ ] Review the System Security Plan (the latest version lives on [Google Drive|https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0]; look for "cloud.gov System Security Plan (SSP)" as a {{.docx}} file). Of particular note for onboarding:
 * Section 9: System Description
 ** Section 10: System Environment
 * [ ] Bookmark [the Platform kanban board view|https://cm-jira.usa.gov/secure/RapidBoard.jspa?rapidView=1926&view=detail&selectedIssue=CG-107].
@@ -199,7 +199,7 @@ h3. Required items for all team members
 These items help us fulfill security and compliance requirements (including for FedRAMP).
 
 * [ ] Make sure they&#39;re in [the list of people working on the project|https://docs.google.com/spreadsheets/d/1mW3tphZ98ExmMxLHPogSpTq8DzYr5Oh8_SHnOTvjRWM/edit#gid=0].
-* [ ] Add their name, whether they&#39;re Cloud Ops (Platform), and the date they joined the team to the [training tracker|https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0]. Copy the formulas for the due dates from an existing row (grab the &quot;corner&quot; of the cells and pull down).
+* [ ] Add their name, whether they&#39;re Cloud Ops (Platform), and the date they joined the team to the [training tracker|https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0]. Copy the formulas for the due dates from an existing row (grab the "corner" of the cells and pull down).
 * [ ] As they complete training, fill out their completion dates in the [training tracker|https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0].
 * [ ] Add them to the @cloud-gov-team [in Slack’s Team Directory|https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group].
 * [ ] Add them to the recurring cloud.gov meetings that are relevant for them in [the team calendar|https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&amp;ctz=America/Los_Angeles].
