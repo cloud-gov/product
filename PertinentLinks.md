@@ -28,7 +28,7 @@ should be bookmarked and encouraged to check on a regular basis.
 #### Customer-specific items
 
 - [Customer Slack][slack-customer] :lock:
-- [Customer Favro board][jira-customer]
+- [Customer Jira board][jira-customer]
 
 #### BizOps-specific items
 
