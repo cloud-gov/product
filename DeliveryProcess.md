@@ -6,7 +6,7 @@
 
 # Delivery process
 
-The cloud.gov team applies a subset of [the Scaled Agile Framework](http://www.scaledagileframework.com/) (SAFe) to guide its program structure, as described in [Essential SAFe](http://www.scaledagileframework.com/guidance-essential-safe/). We set goals and prioritize work in three month periods called "program increments," or PIs, and practice a number of SAFe rituals around this quarterly cadence.
+The cloud.gov team applies a subset of [the Scaled Agile Framework](http://www.scaledagileframework.com/) (SAFe) to guide its program structure, as described in [Essential SAFe](http://www.scaledagileframework.com/essential-safe/). We set goals and prioritize work in three month periods called "program increments," or PIs, and practice a number of SAFe rituals around this quarterly cadence.
 
 To manage our day-to-day work, we practice Scrumban, which means we practice [Kanban](http://blog.crisp.se/2009/06/26/henrikkniberg/1246053060000) around cardwall-style boards that track work from left-to-right as it is identified, prioritized, explored, delivered, and demonstrated. We augment Kanban with a subset of Scrum activities: 
 
@@ -19,18 +19,18 @@ To manage our day-to-day work, we practice Scrumban, which means we practice [Ka
 We've structured our team into two squads, each centered around a different [theme](https://github.com/18F/cg-product#sub-teamsthemes-of-work), and generally working on features under that theme:
 
 - Platform (formerly Atlas/AgentQ):
-  - Adam Kendall, Josh Carp, Steve Harms, Will Woodson, James Scott, (Bret Mogilefsky, PM)
+  - Adam Kendall, Josh Carp, Steve Harms, Will Woodson, Tim Spencer (Bret Mogilefsky, PM)
   - Comm channels: #cg-platform, #cg-services, #cg-platform-news
   - Skills involved:
     - Atlas: SRE skills like Terraform, BOSH, etc.
     - AgentQ: Clojure, Ruby, Golang, Python, Bash; Linux, Infrastructure, Networking, Automation; Monitoring
-   - [Board view](https://favro.com/organization/1e11108a2da81e3bd7153a7a/68a186775e1a0ee297ee81ed)
+   - [Board view](https://cm-jira.usa.gov/secure/RapidBoard.jspa?rapidView=1926&projectKey=CG&quickFilter=8141)
 
 - Customer:
-  - Peter Burkholder, Greg Boone, Phoebe Espiritu (Bret Mogilefsky, PM)
+  - Peter Burkholder, Phoebe Espiritu (Bret Mogilefsky, PM)
   - Comm channel: #cg-customer, #cg-nav-news
   - Skills involved: UX research, UI design, service design, content strategy, communications, front-end dev, Python, Ruby, Go, Networking
-  - [Board view](https://favro.com/organization/1e11108a2da81e3bd7153a7a/e9acfea577acd5bdadf3d6a2)
+  - [Board view](https://cm-jira.usa.gov/secure/RapidBoard.jspa?projectKey=CG&rapidView=1929)
 
 ## Business Unit
 cloud.gov's business unit (BU) focuses on business strategy and development, ensuring customer support gets handled, making sure we meet compliance requirements and other mandatory reporting requirements, and [related work](https://docs.google.com/document/d/18jU3jb6pWEo430LN77G8ucuW7IW0bKP9ljnYSyQU13c/edit#heading=h.tjv8u8lx3c02). Currently, the BU consists of Shashank Khandelwal (Acting Director) and Britta Gustafson (Acting Deputy Director). Their comms channels are #cg-business and #cg-bizops, with compliance work (formerly called HighBar) in #cg-compliance.

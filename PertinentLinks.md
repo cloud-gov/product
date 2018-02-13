@@ -6,7 +6,7 @@ should be bookmarked and encouraged to check on a regular basis.
 
 #### Non-theme-specific items
 
-- [:cloud:.gov Favro board][favro-all]
+- [:cloud:.gov Jira board][jira-all]
 - [:cloud:.gov Dashboard][cg-dashboard] :lock:
 - [18F Github][github-eighteenf]
 - [:cloud:.gov Repositories][github-eighteenf-cg]
@@ -17,7 +17,8 @@ should be bookmarked and encouraged to check on a regular basis.
 #### Platform-specific items
 
 - [Platform Slack][slack-platform] :lock:
-- [Platform Favro board][favro-platform]
+- [Platform Jira board][jira-platform]
+- [Platform Interrupts Jira board][jira-platform-interrupt]
 - [AWS GovCloud console][aws-fr-console] :lock:
 - [AWS console][aws-console] :lock:
 - [Concourse GovCloud][cg-fr-continuous-integration] :lock:
@@ -27,16 +28,17 @@ should be bookmarked and encouraged to check on a regular basis.
 #### Customer-specific items
 
 - [Customer Slack][slack-customer] :lock:
-- [Customer Favro board][favro-customer]
+- [Customer Jira board][jira-customer]
 
 #### BizOps-specific items
 
 - [BizOps Slack][slack-business] :lock:
 - [BizOps Favro board][favro-business]
 
-[favro-all]: https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244
-[favro-platform]: https://favro.com/organization/1e11108a2da81e3bd7153a7a/68a186775e1a0ee297ee81ed
-[favro-customer]: https://favro.com/organization/1e11108a2da81e3bd7153a7a/e9acfea577acd5bdadf3d6a2
+[jira-all]: https://cm-jira.usa.gov/secure/PortfolioPlanView.jspa?id=138&sid=138#backlog
+[jira-platform]: https://cm-jira.usa.gov/secure/RapidBoard.jspa?rapidView=1926&projectKey=CG&quickFilter=8141
+[jira-platform-interrupt]: https://cm-jira.usa.gov/secure/RapidBoard.jspa?rapidView=1927&projectKey=CG
+[jira-customer]: https://cm-jira.usa.gov/secure/RapidBoard.jspa?projectKey=CG&rapidView=1929
 [favro-business]: https://favro.com/organization/1e11108a2da81e3bd7153a7a/bdd858e991f7f835b0d79ee2
 
 [slack-platform]: https://gsa-tts.slack.com/messages/cg-platform
