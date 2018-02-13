@@ -224,6 +224,7 @@ h3. Platform-specific required items
 * [ ] [Make them an admin|https://cloud.gov/docs/ops/managing-users/#managing-admins] of the platform.
 * [ ] Add them to the {{cloud-gov-operators}} organization in cloud.gov.
 * [ ] Take them through [AWS onboarding|https://cloud.gov/docs/ops/aws-onboarding/].
+* [ ] Ask #infrastructure to add them to [the cloudgov subteam in Docker Hub|https://hub.docker.com/u/18fgsa/dashboard/teams/?team=cloudgov].
 * [ ] Give them a walkthrough of cloud.gov from an architecture and repository perspective, focusing on SSP diagrams, external git repository and bosh.io dependencies, and our continuous delivery process with Concourse.
 
 
