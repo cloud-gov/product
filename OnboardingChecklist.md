@@ -51,6 +51,10 @@ h3. Required items for all team members
 
 These items help us fulfill security and compliance requirements (including for FedRAMP). If you get stuck, or if these requirements are confusing, ask for help from your buddy or in a cloud.gov channel.
 
+Pre-requisites:
+
+* [ ] Complete [GSA OLU](https://gsaolu.gsa.gov/) IT Security Awareness Training, required before we can give you access to any cloud.gov systems. If you joined GSA more than two months ago, you've already completed this task and can just check the box.
+
 Ensure you know what's happening on the team:
 
 * [ ] Subscribe to [the cloud.gov team calendar|https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&amp;ctz=America/Los_Angeles] (click the + in the bottom right) so you know when assorted team meetings are happening in the various squads. Tip: When you plan Out of Office time, make a calendar event for that on the cloud.gov calendar so that your teammates know you'll be away.
