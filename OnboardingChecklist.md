@@ -120,7 +120,7 @@ h4. Customer-specific items
 * [ ] Review the [Customer board|https://cm-jira.usa.gov/secure/RapidBoard.jspa?rapidView=1929&view=detail&selectedIssue=CG-360].
 * [ ] Bookmark link to [design folder|https://drive.google.com/drive/u/1/folders/0BwLqM4Nicmq-bUt0NjRjclFMUEU].
 * [ ] Review the primary cloud.gov sites: [the dashboard|https://dashboard.cloud.gov/#/], [main landing page|https://cloud.gov/], and [documentation|https://cloud.gov/docs/].
-* [ ] [Request access to 18F Google Analytics|https://handbook.18f.gov/google-analytics/], so you can view cloud.gov site analytics ([including for the dashboard|https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit]).
+* [ ] [Request access to 18F Google Analytics|https://handbook.18f.gov/google-analytics/], so you can view cloud.gov site analytics ([including for the dashboard|https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit]). Also request access to [Google Tag Manager](https://tagmanager.google.com/) which we mostly use to manage event tracking in Google Analytics.
 * [ ] Ask for an invite to a DigitalGov Search account for cg-site, so you can configure it and view analytics.
 * [ ] Once granted access to New Relic, sign up for email notifications of alerts for [dashboard|https://synthetics.newrelic.com/accounts/907948/monitors/c4fdd474-0f6c-470a-bf9d-a3d839cea2cb/alerts]
 * [ ] Ask the team to add your e-mail address to the customers app.
