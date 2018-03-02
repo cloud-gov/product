@@ -10,7 +10,7 @@ Everyone joining the cloud.gov team will get assigned a team onboarding buddy. T
 
 You and your team onboarding buddy must follow the instructions in [the Onboarding Checklist](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md) to create an issue that will guide you through tasks that will get you up to speed and contributing in no time. You (and your buddy) must track your progress by checking the boxes as you complete tasks.
 
-Our Onboarding Checklist helps us fulfill important security and compliance requirements, so each new team member needs to have their own checklist GitHub issue and track their progress. This is true even if you're rejoining the cloud.gov team after being in it previously.
+Our Onboarding Checklist helps us fulfill important security and compliance requirements, so each new team member needs to have their own checklist in our issue-tracker to document their progress. This is true even if you're rejoining the cloud.gov team after being in it previously.
 
 ## How to Tock your time
 
