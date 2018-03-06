@@ -44,6 +44,7 @@ We always have to do these tasks:
 * Move any scanner items that should be moved to closed (items originally found by a scanner where we have new scans that prove these things are fixed).
 * Update all columns to include the most recent info about remediations, milestones, statuses, etc., including updating the status date column.
 * Cloud Operations needs to review the Nessus findings and ensure all daemons are managed by BOSH (see CG04 for context).
+* Copy the [the summary cover sheet template](https://drive.google.com/drive/folders/1oUmCq_YHJoE3EeR6a-pfE3i4D1ZzFUiL) and fill it out.
 
 Depending on scan results, we sometimes also have to do these tasks:
 
