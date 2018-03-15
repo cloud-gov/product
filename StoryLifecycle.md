@@ -83,6 +83,7 @@ Required for compliance:
 - If the work is suitable to demo at our biweekly sprint review, add a description of it to the [sprint review slide deck](https://docs.google.com/presentation/d/192PxdXMrCS__QcG6-px5x7n4Mp860ZSb_gqCDlrQwiE/edit), ideally including a link to the live work or a screenshot (especially for visual work).
 - If the work as completed is obviously unscalable and will cause problems if we try, then a story for making it scalable is created at the top of `Backlog`.
 - If we're uncertain how/if we'll be able to make updates to address security concerns, then a story for discussing/addressing that is created at the top of `Backlog`.
+- Any upstream dependencies are tracked in CI (eg bosh release dependencies)
 
 Required for compliance:
 
