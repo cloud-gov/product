@@ -37,14 +37,14 @@ h3. Getting to know cloud.gov
 * [ ] Read through [the Overview section of cloud.gov|https://cloud.gov/overview/] for a broader understanding of cloud.gov, especially as we present it to potential customers/users.
 * [ ] Read the [January 2016 cloud.gov "Executive Business Case" document|https://docs.google.com/document/d/138OcG0Lt6gr9J0wM0TzzPNyTROmYAwfLIDujtweiwGw/edit#] for greater context about cloud.gov's potential impact in government.
 * [ ] [Deploy a sample application to cloud.gov|https://cloud.gov/docs/getting-started/your-first-deploy/] to get familiar with the basics of the PaaS from a user's perspective.
-* [ ] *Out Of Date, ask for what is currently being used:* Check out the [roadmap|https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244] to get a high-level view of recently-completed, in-progress, and upcoming features.
+* [ ] *Out Of Date, ask for what is currently being used, replace with a non-broken link:* Check out the [roadmap|https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244] to get a high-level view of recently-completed, in-progress, and upcoming features.
 * [ ] Read the [Delivery Process document|https://github.com/18F/cg-product/blob/master/DeliveryProcess.md] to learn about how we work.
 * [ ] Read our [service disruption guide|https://cloud.gov/docs/ops/service-disruption-guide/] to learn how we handle customer-facing service disruptions.
 * [ ] Join [the cloud.gov team Google Group|https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov] so you can participate in teamwide internal communication.
 * [ ] Join the [cloud.gov inquiries Google Group|https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries] so you can keep apprised of prospective new clients.
 * [ ] Bookmark the [cloud.gov Google Drive folder|https://drive.google.com/drive/folders/0Bx6EvBXVDWwheUtVckVnOE1pRzA] - that's where we put cloud.gov docs. If you create or move a doc there, it'll get the right access permissions for 18F team members to be able to view and edit it.
 * [ ] Consider joining [Cloud Foundry's Slack channels|https://slack.cloudfoundry.org/] (we sometimes talk to folks in #gov and #gov-private – you'll need a cloud.gov team member to invite you to the latter).
-* [ ] If you haven't already, [request a license for Microsoft Office|https://handbook.18f.gov/gsa-tools-equipment-and-transit/#get-a-copy-of-microsoft-office] - this is helpful for working with compliance documentation.
+* [ ] If you haven't already, [request a license for Microsoft Office|https://handbook.18f.gov/office/] - this is helpful for working with compliance documentation.
 * [ ] Once you've finished the checklists below, make suggestions for steps that would have improved your onboarding experience as pull requests on [the onboarding checklist template|https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md] used to make this issue.
 
 h3. Required items for all team members
@@ -116,16 +116,12 @@ h4. Platform-specific items
 h4. Customer-specific items
 
 * [ ] Join the {{#cg-customer}} channel on Slack.
-* [ ] Ping @standup-bot for instructions on front end channel standup.
+* [ ] Ping @standup-bot for instructions on cg-customer standup.
 * [ ] Review the [Customer board|https://cm-jira.usa.gov/secure/RapidBoard.jspa?rapidView=1929&view=detail&selectedIssue=CG-360].
 * [ ] Bookmark link to [design folder|https://drive.google.com/drive/u/1/folders/0BwLqM4Nicmq-bUt0NjRjclFMUEU].
 * [ ] Review the primary cloud.gov sites: [the dashboard|https://dashboard.cloud.gov/#/], [main landing page|https://cloud.gov/], and [documentation|https://cloud.gov/docs/].
 * [ ] [Request access to 18F Google Analytics|https://handbook.18f.gov/google-analytics/], so you can view cloud.gov site analytics ([including for the dashboard|https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit]). Also request access to [Google Tag Manager](https://tagmanager.google.com/) which we mostly use to manage event tracking in Google Analytics.
 * [ ] Ask for an invite to a DigitalGov Search account for cg-site, so you can configure it and view analytics.
-* [ ] Once granted access to New Relic, sign up for email notifications of alerts for [dashboard|https://synthetics.newrelic.com/accounts/907948/monitors/c4fdd474-0f6c-470a-bf9d-a3d839cea2cb/alerts]
-* [ ] Ask the team to add your e-mail address to the customers app.
-** [ ] [Production Site|https://customers.fr.cloud.gov/django-admin/auth/user/]
-** [ ] [Staging Site|https://customers.fr-stage.cloud.gov/django-admin/auth/user/]
 
 h5. If developing
 
