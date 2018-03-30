@@ -37,7 +37,7 @@ h3. Getting to know cloud.gov
 * [ ] Read through [the Overview section of cloud.gov|https://cloud.gov/overview/] for a broader understanding of cloud.gov, especially as we present it to potential customers/users.
 * [ ] Read the [January 2016 cloud.gov "Executive Business Case" document|https://docs.google.com/document/d/138OcG0Lt6gr9J0wM0TzzPNyTROmYAwfLIDujtweiwGw/edit#] for greater context about cloud.gov's potential impact in government.
 * [ ] [Deploy a sample application to cloud.gov|https://cloud.gov/docs/getting-started/your-first-deploy/] to get familiar with the basics of the PaaS from a user's perspective.
-* [ ] *Out Of Date, ask for what is currently being used, replace with a non-broken link:* Check out the [roadmap|https://favro.com/organization/1e11108a2da81e3bd7153a7a/0b64f44bc57f65052fad8244] to get a high-level view of recently-completed, in-progress, and upcoming features.
+* [ ] We also use JIRA for [macro-level cadence and roadmapping|https://cm-jira.usa.gov/secure/PortfolioPlanView.jspa?id=138&sid=138#backlog].
 * [ ] Read the [Delivery Process document|https://github.com/18F/cg-product/blob/master/DeliveryProcess.md] to learn about how we work.
 * [ ] Read our [service disruption guide|https://cloud.gov/docs/ops/service-disruption-guide/] to learn how we handle customer-facing service disruptions.
 * [ ] Join [the cloud.gov team Google Group|https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov] so you can participate in teamwide internal communication.
