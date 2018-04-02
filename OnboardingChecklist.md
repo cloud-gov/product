@@ -127,7 +127,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 ### If developing
 
 * [ ] Review the [dashboard contributing guide](https://github.com/18F/cg-dashboard/blob/master/CONTRIBUTING.md) and [{{cg-style}} standards](https://github.com/18F/cg-style/blob/master/documentation/frontend_standards.md) which help frame what we're looking for in code review.
-* [ ] Set up the [landing/docs page|https://github.com/18F/cg-site], [dashboard](https://github.com/18F/cg-dashboard), and [{{cg-style}}](https://github.com/18F/cg-style) locally.
+* [ ] Set up the [landing/docs page](https://github.com/18F/cg-site), [dashboard](https://github.com/18F/cg-dashboard), and [{{cg-style}}](https://github.com/18F/cg-style) locally.
 * [ ] Set up {{cg-style}} to be [linked to the other sites locally](https://github.com/18F/cg-style#development-and-contributing-setup).
 * [ ] Have a cloud.gov person send the {{cg-dashboard}} testing environment variables through Fugacious.
 
