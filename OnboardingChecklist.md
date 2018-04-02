@@ -120,7 +120,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 * [ ] Ping @standup-bot for instructions on cg-customer standup.
 * [ ] Review the [Customer board](https://cm-jira.usa.gov/secure/RapidBoard.jspa?rapidView=1929&view=detail&selectedIssue=CG-360).
 * [ ] Bookmark link to [design folder](https://drive.google.com/drive/u/1/folders/0BwLqM4Nicmq-bUt0NjRjclFMUEU).
-* [ ] Review the primary cloud.gov sites: [the dashboard](https://dashboard.cloud.gov/#/], [main landing page|https://cloud.gov/), and [documentation](https://cloud.gov/docs/).
+* [ ] Review the primary cloud.gov sites: [the dashboard](https://dashboard.cloud.gov/#/), [main landing page](https://cloud.gov/), and [documentation](https://cloud.gov/docs/).
 * [ ] [Request access to 18F Google Analytics](https://handbook.18f.gov/google-analytics/), so you can view cloud.gov site analytics ([including for the dashboard](https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit)). Also request access to [Google Tag Manager](https://tagmanager.google.com/) which we mostly use to manage event tracking in Google Analytics.
 * [ ] Ask for an invite to a DigitalGov Search account for cg-site, so you can configure it and view analytics.
 
@@ -212,7 +212,7 @@ These items help us fulfill security and compliance requirements (including for 
 * [ ] If the new person is a contractor, ask the Program Manager (Bret) or System Owner (Shashank) to have them added to the [@18F/cloud-gov-contractors|https://github.com/orgs/18F/teams/cloud-gov-contractors] team on GitHub.
 * [ ] Add them to @cg-operators [in Slack’s User Groups](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group).
 * Grant them access to the following:
-  * [ ] [AWS Accounts](https://cloud.gov/docs/ops/aws-onboarding/) via the AWS web console (not Terraform) and provide one-time credentials with Toaster/Fugacious
+  * [ ] [AWS Accounts](https://cloud.gov/docs/ops/aws-onboarding/) via the AWS web console (not Terraform) and provide one-time credentials.
   * [ ] AWS GovCloud
   * [ ] AWS East tied to GovCloud
   * [ ] AWS Admin Access
