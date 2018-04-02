@@ -71,14 +71,15 @@ Learn our policies and procedures:
   * [ ] Review the [18F requirements for password management](https://handbook.18f.gov/password-requirements/).
 * [ ] If you're Cloud Ops or Business Unit: Coordinate with your onboarding buddy to go through Contingency Planning training within 10 days (and annually after that). This will cover the following document, which you should also review before or after training:
 * [ ] Read the [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/).
-* Read the following documents as well, which explain our practices in a formal written way. Reach out to your buddy or the team if anything is unexpected or confusing.
+
+Read the following documents as well, which explain our practices in a formal written way. Reach out to your buddy or the team if anything is unexpected or confusing.
 * [ ] Read the [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), particularly the [cloud.gov team responsibilities](https://cloud.gov/docs/ops/continuous-monitoring/#cloud-gov-team).
-  * [ ] Read the [Configuration Management Plan](https://cloud.gov/docs/ops/configuration-management/).
-  * [ ] Read the [18F Security Policies and Procedures](https://github.com/18F/compliance-docs). These documents explain the high-level policies and procedures we must comply with while running cloud.gov, sorted into security control "families" They explain that we follow GSA IT security policy, and they provide a summary of the procedures in our System Security Plan.
+* [ ] Read the [Configuration Management Plan](https://cloud.gov/docs/ops/configuration-management/).
+* [ ] Read the [18F Security Policies and Procedures](https://github.com/18F/compliance-docs). These documents explain the high-level policies and procedures we must comply with while running cloud.gov, sorted into security control "families" They explain that we follow GSA IT security policy, and they provide a summary of the procedures in our System Security Plan.
 
 ## Theme-specific items
 
-For explanations of our theme names, see [this glossary|https://github.com/18F/cg-product#sub-teamsthemes-of-work].
+For explanations of our theme names, see [this glossary](https://github.com/18F/cg-product#sub-teamsthemes-of-work).
 
 ### Platform-specific items
 
@@ -125,17 +126,16 @@ For explanations of our theme names, see [this glossary|https://github.com/18F/c
 
 ### If developing
 
-* [ ] Review the [dashboard contributing guide|https://github.com/18F/cg-dashboard/blob/master/CONTRIBUTING.md] and [{{cg-style}} standards|https://github.com/18F/cg-style/blob/master/documentation/frontend_standards.md] which help frame what we're looking for in code review.
-* [ ] Set up the [landing/docs page|https://github.com/18F/cg-site], [dashboard|https://github.com/18F/cg-dashboard], and [{{cg-style}}|https://github.com/18F/cg-style] locally.
-* [ ] Set up {{cg-style}} to be [linked to the other sites locally|https://github.com/18F/cg-style#development-and-contributing-setup].
+* [ ] Review the [dashboard contributing guide](https://github.com/18F/cg-dashboard/blob/master/CONTRIBUTING.md) and [{{cg-style}} standards](https://github.com/18F/cg-style/blob/master/documentation/frontend_standards.md) which help frame what we're looking for in code review.
+* [ ] Set up the [landing/docs page|https://github.com/18F/cg-site], [dashboard](https://github.com/18F/cg-dashboard), and [{{cg-style}}](https://github.com/18F/cg-style) locally.
+* [ ] Set up {{cg-style}} to be [linked to the other sites locally](https://github.com/18F/cg-style#development-and-contributing-setup).
 * [ ] Have a cloud.gov person send the {{cg-dashboard}} testing environment variables through Fugacious.
 
 ### For review
 
-* [ ] Review the [design principles wiki|https://github.com/18F/cg-product/wiki] which explains the thinking behind the product and where that thinking comes from.
+* [ ] Review the [design principles wiki](https://github.com/18F/cg-product/wiki) which explains the thinking behind the product and where that thinking comes from.
 * [ ] Review the [design resource request document](https://docs.google.com/document/d/1s96VP6PB7fbc8g_GwgAZ1hCPmew-J35ZOJx772c1AZ4/edit) if you haven’t already to get a sense of your role on the project.
 * [ ] Review the [design principles doc](https://docs.google.com/spreadsheets/d/14Y3RKaLUt6RPX5w13iz7oaSCpojEQ-Wqjnd8Ie_VkCc/edit#gid=259774738) to get a sense of how the cloud.gov team feels about the product.
-* [ ] Review the [comparative analysis](https://github.com/18F/cg-product/wiki/Comparative-landscape-and-heuristics) to get a sense of other vendors and their dashboards.
 * [ ] Review the [{{cg-style}} styleguide](https://pages.18f.gov/cg-style/) to get a sense of the global cloud.gov visual style.
 * [ ] Review the [US Web Design Standards](https://standards.usa.gov/) as {{cg-style}} was built from it.
 * [ ] Review the dashboard: current [prod](https://dashboard.fr.cloud.gov/#/), [staging](https://dashboard-staging.app.cloud.gov/#/), and [demo](https://dashboard-demo.app.cloud.gov/#/).
