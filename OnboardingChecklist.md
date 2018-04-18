@@ -123,6 +123,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 * [ ] Review the primary cloud.gov sites: [the dashboard](https://dashboard.cloud.gov/#/), [main landing page](https://cloud.gov/), and [documentation](https://cloud.gov/docs/).
 * [ ] [Request access to 18F Google Analytics](https://handbook.18f.gov/google-analytics/), so you can view cloud.gov site analytics ([including for the dashboard](https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit)). Also request access to [Google Tag Manager](https://tagmanager.google.com/) which we mostly use to manage event tracking in Google Analytics.
 * [ ] Ask for an invite to a DigitalGov Search account for cg-site, so you can configure it and view analytics.
+* [ ] Read and bookmark our [Google Doc on cloud.gov Analytics](https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit)
 
 ### If developing
 
