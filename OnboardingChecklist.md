@@ -36,6 +36,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 * [ ] Read the ["What is it?"](https://docs.google.com/presentation/d/1nCcti3dXG9TVGW3OqaWtnf96oXX8U8SBTM_WePFO_dg/edit#slide=id.p) presentation for a rundown of what cloud.gov is and does (specifically read slides 1-37; the rest are somewhat outdated)
 * [ ] Read through [the Overview section of cloud.gov](https://cloud.gov/overview/) for a broader understanding of cloud.gov, especially as we present it to potential customers/users.
 * [ ] Read the [January 2016 cloud.gov "Executive Business Case" document](https://docs.google.com/document/d/138OcG0Lt6gr9J0wM0TzzPNyTROmYAwfLIDujtweiwGw/edit#) for greater context about cloud.gov's potential impact in government.
+* [ ] Read the [House Oversight and Government Reform Committee (July 12 2017) document](https://docs.google.com/document/d/1kDJdaPw7DSBPSa-XH-YsQpJVOmRKSK8sAghNhPFpegE/edit) for official answers to important questions.
 * [ ] [Deploy a sample application to cloud.gov](https://cloud.gov/docs/getting-started/your-first-deploy/) to get familiar with the basics of the PaaS from a user's perspective.
 * [ ] We also use JIRA for [macro-level cadence and roadmapping](https://cm-jira.usa.gov/secure/PortfolioPlanView.jspa?id=138&sid=138#backlog).
 * [ ] Read the [Delivery Process document](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) to learn about how we work.
