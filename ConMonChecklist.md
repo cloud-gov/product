@@ -32,6 +32,8 @@ Check that you have the [latest stable version of ZAP|https://github.com/zaproxy
 bosh vms --vitals | grep -e "^\w" | awk '{print $1","$4","$3}' | sed -e 's/\/[a-z0-9\-]*,/,/' |sed -e 's/,z1/,us-gov-west-1a/' | sed -e 's/,z2/,us-gov-west-1b/' 
 {noformat}
 
+Append the resulting outputs from the running the script on the Production and Tooling BOSH hosts, open that file in your favorite spreadsheet app, and then cut/paste the columns into the appropriate columns in the Inventory tab in Google Sheets.  If the number of hosts changed, you may have to copy some of the other columns to true them up.
+
 
 ## Deliver [month] ConMon scans
 
