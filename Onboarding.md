@@ -63,7 +63,7 @@ To release: `ci.fr.cloud.gov -> deploy-cf project`
 - CF – Cloud Foundry.
 - CFT – Cloud Formation Templates.
 - CenturyLink – a company that contributes heavily to Cloud Foundry, and runs their own Cloud Foundry-based PaaS, [AppFog](https://www.ctl.io/appfog/).
-- [Cloud Foundry](https://www.cloudfoundry.org/) - the open-source platform-as-a-service software that cloud.gov is built on. Also sometimes used informally refer to the Cloud Foundry Foundation, the non-profit formed to shepherd the community surrounding Cloud Foundry. (It's sometimes important to distinguish; as the government, we are clear to talk about the tech we're using but avoid the appearance of endorsement of particular organizations or people.)
+- [Cloud Foundry](https://www.cloudfoundry.org/) - the open-source platform-as-a-service software that cloud.gov is built on. Also sometimes used informally to refer to the Cloud Foundry Foundation, the non-profit formed to shepherd the community surrounding Cloud Foundry. (It's sometimes important to distinguish; as the government, we are clear to talk about the tech we're using but avoid the appearance of endorsement of particular organizations or people.)
 - [Concourse](https://concourse.ci) - the continuous integration tool built by Pivotal we use to deploy Cloud Foundry, among other things.
 - The Dashboard – the web app we offer to allow users to manage their applications and accounts. It lives at [dashboard.fr.cloud.gov](https://dashboard.fr.cloud.gov/), and the code is in the [cg-dashboard](https://github.com/18F/cg-dashboard) repository.
 - [Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/) (ELB) – the proxy we use in front of Cloud Foundry.
