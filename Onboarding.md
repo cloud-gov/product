@@ -12,11 +12,22 @@ You and your team onboarding buddy must follow the instructions in [the Onboardi
 
 Our Onboarding Checklist helps us fulfill important security and compliance requirements, so each new team member needs to have their own checklist in our issue-tracker to document their progress. This is true even if you're rejoining the cloud.gov team after being in it previously.
 
-## How to Tock your time
+## How to Tock your time and schedule out-of-office (OOO)
 
-We currently use just one line in Tock to track our hours worked:
+If you're 18F (not on the P&L), we currently use just one line in Tock to track our hours worked:
 
 * 755 - 18F / FY18  Q2-Q4 Cloud.gov Billable
+
+For the P&L, use:
+
+* 673 - 18F / FY18 Cloud.gov P&L
+
+For out-of-office time, in addition to the [18F handbook leave guidance](https://handbook.18f.gov/leave/#time-tracking), please:
+
+* Copy your OOO time to the cloud.gov calendar
+* Place the OOO info in your Slack name a day or two ahead, like `Britta Gustafson (OOO x/x)`
+* Post in #cloud-gov for visibility the day you leave
+
 
 ## Tools and project artifacts
 
