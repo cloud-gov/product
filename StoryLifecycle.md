@@ -67,8 +67,9 @@ Required for compliance:
 - Test coverage exists and overall coverage hasn't been reduced.
 - User-facing and internal operation docs have been updated.
 - Demoable to other people in their own time (e.g., staging environment, published branch).
-- Any deployment is repeatable (e.g., at least documented to increase [bus factor](https://en.wikipedia.org/wiki/Bus_factor) beyond one) and if possible automated via CI/CD.
-  - If the deployment is difficult to automate, then a story for making it automated is created at the top of `Triage`.
+- Any deployment is repeatable (e.g., at least documented to increase [bus factor](https://en.wikipedia.org/wiki/Bus_factor) beyond one) and if possible automated via use of IaaC or CI/CD.
+  - If the deployment is too difficult to automate without blowing up the story, then a separate story for making it automated is created at the top of `Grooming` so it'll be discussed in the next grooming/planning session.
+- All known dependencies for integration tests are explicitly captured as [triggering resources](https://concoursetutorial.com/basics/triggers/) in the relevant Concourse pipeline
 - All UAA accounts are provisioned using the Cloud Foundry secrets or the cloud.gov [service account](https://cloud.gov/docs/services/cloud-gov-service-account/) or [identity provider](https://cloud.gov/docs/services/cloud-gov-identity-provider/) services.
 
 Required for compliance:
