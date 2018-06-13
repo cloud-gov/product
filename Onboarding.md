@@ -14,13 +14,7 @@ Our Onboarding Checklist helps us fulfill important security and compliance requ
 
 ## How to Tock your time and schedule out-of-office (OOO)
 
-If you're 18F (not on the P&L), we currently use just one line in Tock to track our hours worked:
-
-* 755 - 18F / FY18  Q2-Q4 Cloud.gov Billable
-
-For the P&L, use:
-
-* 673 - 18F / FY18 Cloud.gov P&L
+This is in flux. For current guidance see the [How to Tock](https://docs.google.com/document/d/16wGnM2vD9y5nrD3Jhufjc-G1r1cs3lkX2Ny-opYk9do/edit#) Google doc.
 
 For out-of-office time, in addition to the [18F handbook leave guidance](https://handbook.18f.gov/leave/#time-tracking), please:
 
