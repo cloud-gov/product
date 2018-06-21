@@ -43,11 +43,13 @@ https://logs-platform.fr.cloud.gov/
 (-) We also grabbed the Nessus HTML export - https://docs.tenable.com/nessus/6_8/Content/Exported_Results.htm - for those scans and uploaded them to that folder.
 (-) We updated the [POAM Inventory tab|https://docs.google.com/spreadsheets/d/16igVl8cD3SqeX5_SOn5Su34KmwMRnP20gPbfQlqIwfM/edit#gid=2017890110]. From tooling and production BOSH inventory:
 
-{noformat}
-bosh vms --vitals | grep -e "^\w" | awk '{print $1","$4","$3}' | sed -e 's/\/[a-z0-9\-]*,/,/' |sed -e 's/,z1/,us-gov-west-1a/' | sed -e 's/,z2/,us-gov-west-1b/' 
-{noformat}
+```sh
+bosh vms --vitals | grep -e "^\w" | awk '{print $1","$4",,,,,5,Agent based,Ubuntu Stemcell,Ubuntu,14.04.01,"$3",EC2,Yes,No,Yes,"}' | sed -e 's/\/[a-z0-9\-]*,/,/' |sed -e 's/,z1/,us-gov-west-1a/' | sed -e 's/,z2/,us-gov-west-1b/'
+```
 
-Append the resulting outputs from the running the script on the production and tooling bosh hosts, open the file in your favorite spreadsheet app, and then cut/paste the columns into the appropriate columns in the Inventory tab.  If the # of hosts changed, you may have to copy some of the other columns to true them up.
+1. Open the Google sheet, paste the output from the above command.
+1. Click the Paste icon that pops up after you paste.
+1. Click Split text to columns.
 
 
 ## Deliver [month] ConMon scans
