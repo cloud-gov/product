@@ -73,8 +73,8 @@ To release: `ci.fr.cloud.gov -> deploy-cf project`
 - IBM Bluemix – IBM's hosted version of Cloud Foundry.
 - InfoSec – information security.
 - PaaS – platform as a service. We use Cloud Foundry to run the cloud.gov PaaS.
-- Pivotal – the company that originally started Cloud Foundry.
-- Pivotal Web Services – Pivotal's hosted commercial version of Cloud Foundry.
+- [Pivotal](https://pivotal.io/) – the company that originally started Cloud Foundry.
+- [Pivotal Web Services](https://run.pivotal.io/) – Pivotal's hosted commercial version of Cloud Foundry.
 - UAA - UAA is the User Authentication and Authorization hub for Cloud Foundry. It can delegate identity management via common standards such as LDAP/Active Directory, SAML, OAuth/OpenID Connect, and so forth. UAA is deployed as part of cloud.gov. We use the out of the box install, with some stuff specific to [our own release](https://github.com/18F/cg-cf-release/tree/master/src).
 
 Also see [the Cloud Foundry glossary](http://docs.cloudfoundry.org/concepts/glossary.html) for  terms that are specific to the technology powering our platform.
