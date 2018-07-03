@@ -137,7 +137,6 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 * [ ] Review the [design principles wiki](https://github.com/18F/cg-product/wiki) which explains the thinking behind the product and where that thinking comes from.
 * [ ] Review the [design principles doc](https://docs.google.com/spreadsheets/d/14Y3RKaLUt6RPX5w13iz7oaSCpojEQ-Wqjnd8Ie_VkCc/edit#gid=259774738) to get a sense of how the cloud.gov team feels about the product.
 * [ ] Review the [{{cg-style}} styleguide](https://pages.18f.gov/cg-style/) to get a sense of the global cloud.gov visual style.
-* [ ] Review the [US Web Design Standards](https://standards.usa.gov/) as {{cg-style}} was built from it.
 * [ ] Review the dashboard: current [prod](https://dashboard.fr.cloud.gov/#/), [staging](https://dashboard-staging.app.cloud.gov/#/), and [demo](https://dashboard-demo.app.cloud.gov/#/).
 
 ### Business unit-specific items
