@@ -38,7 +38,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 * [ ] Read the [January 2016 cloud.gov "Executive Business Case" document](https://docs.google.com/document/d/138OcG0Lt6gr9J0wM0TzzPNyTROmYAwfLIDujtweiwGw/edit#) for greater context about cloud.gov's potential impact in government.
 * [ ] Read the [House Oversight and Government Reform Committee (July 12 2017) document](https://docs.google.com/document/d/1kDJdaPw7DSBPSa-XH-YsQpJVOmRKSK8sAghNhPFpegE/edit) for official answers to important questions.
 * [ ] [Deploy a sample application to cloud.gov](https://cloud.gov/docs/getting-started/your-first-deploy/) to get familiar with the basics of the PaaS from a user's perspective.
-* [ ] We also use JIRA for [macro-level cadence and roadmapping](https://cm-jira.usa.gov/secure/PortfolioPlanView.jspa?id=138&sid=138#backlog).
+* [ ] We use JIRA for [macro-level cadence and roadmapping](https://cm-jira.usa.gov/secure/PortfolioPlanView.jspa?id=138&sid=138#backlog).
 * [ ] Read the [Delivery Process document](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) to learn about how we work.
 * [ ] Read our [service disruption guide](https://cloud.gov/docs/ops/service-disruption-guide/) to learn how we handle customer-facing service disruptions.
 * [ ] Join [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov) so you can participate in team-wide internal communication.
@@ -123,7 +123,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 * [ ] Bookmark link to [design folder](https://drive.google.com/drive/u/1/folders/0BwLqM4Nicmq-bUt0NjRjclFMUEU).
 * [ ] Review the primary cloud.gov sites: [the dashboard](https://dashboard.cloud.gov/#/), [main landing page](https://cloud.gov/), and [documentation](https://cloud.gov/docs/).
 * [ ] [Request access to 18F Google Analytics](https://handbook.18f.gov/google-analytics/), so you can view cloud.gov site analytics ([including for the dashboard](https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit)). Also request access to [Google Tag Manager](https://tagmanager.google.com/) which we mostly use to manage event tracking in Google Analytics.
-* [ ] Ask for an invite to a DigitalGov Search account for cg-site, so you can configure it and view analytics.
+* [ ] Ask the Program Manager for an invite to a DigitalGov Search account for cg-site, so you can configure it and view analytics for the most common searches.
 
 ### If developing
 
