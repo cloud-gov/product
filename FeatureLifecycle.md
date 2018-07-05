@@ -31,7 +31,6 @@ When the feature is basically well-understood at a high level and awaits squad-l
 While implementation is in progress.
 - It should be possible to find the set of stories related to the feature.
 - The feature is tracked against the Program Increment (PI) where we suspect it'll be delivered.
-- If customer-facing, the feature is published on the public roadmap in the quarter where we suspect it'll be delivered.
 ## Validating
 While they are being evaluated as delivering their intended benefit, open to customer feedback.
 - We are confident that we are delivering the intended benefit and that we are seeing any key metrics change.
