@@ -14,9 +14,7 @@ Our Onboarding Checklist helps us fulfill important security and compliance requ
 
 ## How to Tock your time
 
-We currently use just one line in Tock to track our hours worked:
-
-* 755 - 18F / FY18  Q2-Q4 Cloud.gov Billable
+How to record time worked for cloud.gov is... not always obvious. We have [a document outlining our current practices](https://docs.google.com/document/d/16wGnM2vD9y5nrD3Jhufjc-G1r1cs3lkX2Ny-opYk9do/edit#).
 
 ## Tools and project artifacts
 
