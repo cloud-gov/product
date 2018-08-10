@@ -154,7 +154,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 ### New Director (System Owner) items
 
 * [ ] Ask #tock to list you as the project contact for cloud.gov lines.
-* [ ] Ask previous Director to give you Owner access to Nessus Manager.
+* [ ] Ask previous Director to give you Owner access to Nessus Manager (this requires the current primary contact access to Nessus, and then the owner of the license key also needs to change to the new director so that the new director can reset license keys - lastly, the new director needs to be made the primary contact).
 * [ ] Ask previous Director to give you Owner access in Zendesk.
 * [ ] Ask previous Director to give you [AWS account ownership](https://cloud.gov/docs/ops/aws-onboarding/) for GovCloud.
 * [ ] Ask Program Manager or previous Director to give you cloud.gov calendar ownership.
