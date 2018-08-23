@@ -1,0 +1,86 @@
+[This is a template for what to include in a micropurchaseable feature description. When you want to elaborate a micropurchaseable feature, copy this template, edit to taste, then submit a pull-request that adds your own Markdown file next to this one. We'll discuss it and edit it in the resulting PR!]
+
+# Summary: [Brokered SQS service]
+
+## What we're after
+Tenants can easily provision SQS capability for their hosted apps
+
+## Hypothesized benefits/why:
+- Enables easier migration of queue-dependent apps to cloud.gov
+- Reduce burden on bespoke provisioning of AWS resources outside cloud.gov for those already using SQS
+
+---
+ 
+### Further context for those unfamiliar with what we're doing
+
+[cloud.gov](https://cloud.gov) is a deployment and hosting platform for government digital services. [background context necessary to understand what this feature is about or why it's needed; in this case, maybe talk about what an OSBAPI/a broker is.]
+
+cloud.gov should allow users to request and view the options available for an SQS service, create an SQS service instance for their Cloud Foundry space, and associate/disassociate the SQS service instance with one or more apps. When the Cloud Foundry service instance is deleted, the SQS service that was instantiated upon service creation and any credentials issued for bind operations should be deleted as well.
+
+### Notes for implementers
+[Pointers to relevant languages, components, frameworks, prior art/examples, research, etc.]
+[a technical sketch if we're confident of how to approach this]
+
+#### Non-functional requirements that are to be assumed
+[Pointer to the Definition of Done for the stage(s) the implementer is responsible for]
+
+#### How to deliver
+- Submit a series of pull-requests in these repositories
+  - https://github.com/18f/<reponame>
+- Implementation can be done with any AWS account; no access to existing 18F AWS infrastructure is needed to develop or demo it. The behavior can be demonstrated via exercise of the AWS broker’s REST APIs.
+
+---
+
+## User stories and acceptance criteria
+
+Here's a draft backlog of user stories describing behaviors we think are needed to deliver this capability. It's always based on our best understanding of what's needed when we last discussed this feature. That means it's not set in stone, and it can and should be updated amd expanded whenever better understanding of the work involved is available! We use this as both a running catalog of work yet-to-do, as well as a guide to demonstrating and evaluating the submitted work. 
+
+[Gherkin](https://en.wikipedia.org/wiki/Cucumber_(software)#Gherkin_language) is a domain language for capturing [behavioral specifications](https://en.wikipedia.org/wiki/Behavior-driven_development#Behavioral_specifications) as scenarios. For clarity, the stories and acceptance criteria are specified here using Gherkin. (Actual BDD step implementations that validate the behavior and increase test coverage would be great! However, it's not necessary to include BDD test automation for the work to be accepted.)
+
+### User stories
+**Background:**
+
+- Given Broker is a running, properly-configured instance of the SQS broker
+- And Broker is configured to offer an SQS plan
+- And Client is an authenticated client with access to the broker's OSBAPI port
+
+**Scenario:** Clients can view the available SQS options via OSBAPI
+
+- Given there is one service plan for the SQS service
+- When Client requests the Broker’s catalog
+- Then the response should be in [JSON] format
+- And the response should include the SQS service
+- And the response should include the name of the SQS service plan
+- And the response should include a description of the service plan
+- And the response should include the pricing associated with the SQS service plan
+
+**Scenario:** Clients can provision a new SQS service instance for use with their apps
+
+- Given there is one SQS plan
+- When Client requests a new service instance of a valid plan
+- Then an SQS queue is created and assigned an instance ID
+- And the response should be a valid OSBAPI provision response
+- And the response should include details about the instance that was created
+
+**Scenario:** An app gets valid credentials when bound to the SQS service instance
+
+- Given there is an SQS service instance
+- When an app id is bound to the instance
+- Then new IAM user credentials are returned for that app
+- And that IAM user has access to the queue associated with the instance
+
+**Scenario:** An app id’s credentials are invalidated when unbound to the SQS service instance
+
+- Given there is an SQS service instance
+- And an app id that is bound to the instance
+- When the app id is unbound from the instance
+- Then the app id’s IAM user credentials no longer have access to the queue associated with the instance
+
+**Scenario:** Removing service instance results in deletion of associated SQS queue and IAMs
+
+- Given there is an SQS service instance
+- And there is an app id bound to the service instance
+- When the service instance is removed
+- Then the associated SQS queue is deleted
+- And any IAM credentials issued for that queue are revoked
+
