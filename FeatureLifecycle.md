@@ -16,14 +16,6 @@ Where we explore our options for overall UX and implementation, and set objectiv
 - The approach for UX and architecture is sufficient for PI planning purposes (for example, elaborated via research or spike stories, proto-backlog available).
 - The card points to any relevant design/research artifacts. Any more detail than that should appear in stories that get parented onto the feature.
 - The card has a WSJF score for `Effort`, and the card is tagged with `WSJF:<value>`.
-## Security Impact Analysis
-Where we ensure every feature undergoes compliance oversight.
-- We've summarized the feature for the JAB Technical Reviewers in (or in a doc linked from) the [agenda for the next bi-weekly JAB Technical Reviewers  meeting](https://docs.google.com/document/d/1jGddQkjkQ6e9B0UTq9hfQqHe0btAbTeBGL_DxkozAcg/edit#).
-- We've received a determination from the JAB Technical Reviewers as to whether they require a Significant Change Request (SCR) be filed. If the determination is "yes", the card is tagged with `SCR:Yes`. Otherwise the card is tagged with `SCR:No`.
-- If the card is tagged `SCR:Yes`:
-  - The card includes a link to a [Significant Change Request](https://docs.google.com/a/gsa.gov/document/d/16GaDO1xnHrqEEetbonNpo4P10LlGoDHR-jedqBo1yB8/edit?usp=drive_web) format [in Google Drive](https://drive.google.com/drive/folders/0B1cewEqKcWCbU1lSUXhEVUNZWUU).
-  - The SCR has been submitted to the JAB Technical Reviewers.
-  - The JAB Technical Reviewers have approved the SCR.
 ## Backlog
 When the feature is basically well-understood at a high level and awaits squad-level attention.
 - The program commits to taking on the Feature during a PI Planning meeting.
@@ -31,6 +23,15 @@ When the feature is basically well-understood at a high level and awaits squad-l
 While implementation is in progress.
 - It should be possible to find the set of stories related to the feature.
 - The feature is tracked against the Program Increment (PI) where we suspect it'll be delivered.
+## Security Impact Analysis
+Where we ensure every feature undergoes compliance oversight.
+- We've reviewed the feature for impact according to our [significant change rubric](https://cloud.gov/docs/ops/continuous-monitoring/#appendix-significant-change-rubric).
+- We summarize the feature for the JAB Technical Reviewers in (or in a doc linked from) the [agenda for the next bi-weekly JAB Technical Reviewers meeting](https://docs.google.com/document/d/1jGddQkjkQ6e9B0UTq9hfQqHe0btAbTeBGL_DxkozAcg/edit#).
+- We've received a determination from the JAB Technical Reviewers as to whether they agree a Significant Change Request (SCR) is warranted. If the determination is "yes", the card is tagged with `SCR:Yes`. Otherwise the card is tagged with `SCR:No`.
+- If the card is tagged `SCR:Yes`:
+  - The feature should include a story covering delivery of a [Significant Change Request](https://docs.google.com/a/gsa.gov/document/d/16GaDO1xnHrqEEetbonNpo4P10LlGoDHR-jedqBo1yB8/edit?usp=drive_web) in [Google Drive](https://drive.google.com/drive/folders/0B1cewEqKcWCbU1lSUXhEVUNZWUU).
+  - The SCR is submitted to the JAB Technical Reviewers (with 3PAO testing results if necessary).
+  - The JAB Technical Reviewers have approved the SCR.
 ## Validating
 While they are being evaluated as delivering their intended benefit, open to customer feedback.
 - We are confident that we are delivering the intended benefit and that we are seeing any key metrics change.
