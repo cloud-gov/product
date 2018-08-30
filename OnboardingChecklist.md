@@ -4,7 +4,7 @@
 
 When someone new joins the cloud.gov team:
 
-1. Get a Jira account for NewPerson. Buddy can help, or you can go to the Program Manager.
+1. [Request a Jira account for NewPerson in the cloud.gov team.](https://cm-jira.usa.gov/projects/JAT/summary). You need to supply their name, email address, and phone number.
 2. Create a new issue in Jira in the cloud.gov (CG) project assigned to the `Product Management` team called "Ramp up [NewPerson] on cloud.gov team".
 3. View the raw source of this file.
 4. Copy everything below the line into the new issue's body.

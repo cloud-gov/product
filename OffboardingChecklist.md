@@ -27,6 +27,7 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove them as invitees for any meetings on the cloud.gov calendar
 - [ ] Remove them from the cg-supportstream private Slack channel by asking #admins-slack to remove them
 - [ ] If they are leaving 18F, ensure the [18F Handbook exit process](https://handbook.18f.gov/leaving-tts/#offboarding-process) has been kicked off via the 18F talent team
+- [ ] [Request](https://cm-jira.usa.gov/projects/JAT/summary) that their Jira account be removed from the cloud.gov team. (If they're leaving the GSA, request that their account be disabled as well.)
 
 ## System Owner (or person delegated by System Owner)
 - [ ] Remove them from [GitHub teams that start with cloud-gov](https://github.com/orgs/18F/teams?utf8=%E2%9C%93&query=cloud-gov)
