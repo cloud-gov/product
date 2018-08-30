@@ -10,7 +10,7 @@ When someone leaves the cloud.gov team
 4. Replace "LeavingPerson" with the leaving person's name
 5. Submit the issue
 6. Assign the issue to the person who bravely volunteered to handle the person's offboarding
-7. Put the issue into the "In Progress" pipeline in Favro
+7. Put the issue into the "In Progress" pipeline in Jira
 
 ---
 
