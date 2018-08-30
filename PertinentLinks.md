@@ -33,7 +33,7 @@ should be bookmarked and encouraged to check on a regular basis.
 #### BizOps-specific items
 
 - [BizOps Slack][slack-business] :lock:
-- [BizOps Trello board]: https://trello.com/b/MSA7McuX/cloudgov-bu
+- [BizOps Trello board](https://trello.com/b/MSA7McuX/cloudgov-bu)
 
 [jira-all]: https://cm-jira.usa.gov/secure/PortfolioPlanView.jspa?id=138&sid=138#backlog
 [jira-platform]: https://cm-jira.usa.gov/secure/RapidBoard.jspa?rapidView=1926&projectKey=CG&quickFilter=8141
