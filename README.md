@@ -13,7 +13,7 @@ When we're well-staffed, we break into sub-teams around the different themes, bu
 
 Here are the themes of work we've identified so far and the products for which they're responsible.
 
-- [Platform]https://cm-jira.usa.gov/secure/RapidBoard.jspa?rapidView=1926&projectKey=CG&view=detail) (#cg-platform)
+- [Platform](https://cm-jira.usa.gov/secure/RapidBoard.jspa?rapidView=1926&projectKey=CG&view=detail) (#cg-platform)
   - The Platform theme aims to keep a solid, dependable, tested, and proven platform up and running strong for everyone in government to use. This includes a lot of automation; infrastructure-as-code is the key theme.
   - "cloud.gov" refers to the [cloud.gov](https://cloud.gov) Platform-as-a-Service (PaaS), which is cloud.gov's first product. The PaaS provides a comfortable abstraction which handles cloud-based operations and greatly reduces the complications of infrastructure management for delivery teams. Our PaaS builds on the widely-used and open source [Cloud Foundry](https://www.cloudfoundry.org/), deployed with practices geared toward meeting [strict government compliance requirements](https://en.wikipedia.org/wiki/Federal_Information_Security_Management_Act_of_2002).
   - This theme includes activity related to the FedRAMP authorization of cloud.gov. Compliance auditing and pen-testing activities are coordinated here, as well as necessary remediation that results.
