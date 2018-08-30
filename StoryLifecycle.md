@@ -8,7 +8,7 @@ Stories progress through these columns (although there is some variation from sq
 - Backlog (when they are sequenced alongside other stories prioritized for attention)
 - Icebox (where they go when they are not planned to get attention any time soon)
 
-*Note that Triage and Icebox lists are typically at the left in Favro. This is because those lists tend to get loooooong. By separating them from the board, it remains easy to scroll around when you have multiple boards in your collection.* 
+*Note that Triage and Icebox lists are typically not represented on our kanban boards. This is because those lists tend to get loooooong. By separating them from the board, it remains easy to scroll around a busy board full of stuff you're actually working on soon.* 
 - Grooming (when they're being refined for implementation)
 - Ready (when they're in a shovel-worthy state, just waiting for team capacity to do the work)
 - In Progress (when someone is actively working on the issue)
