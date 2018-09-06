@@ -59,12 +59,10 @@ Pre-requisites:
 Ensure you know what's happening on the team:
 
 * [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&amp;ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various squads.
-  * Tip: When you plan Out of Office time:
-    * make a calendar event for OOO on your own calendar
-    * copy that event to the cloud.gov calendar
+  * Tip: When you plan Out of Office time
+    * follow [leave guidance in the handbook](https://handbook.18f.gov/leave/#leave)
+    * copy your OOO calendar event to the cloud.gov calendar
     * drop a note in #cg-program channel
-    * change your Slack name to something like "Britta (OOO Sep 9-13) Gustafson"
-    * set a vacation notice in Gmail Settings
 * [ ] Subscribe (through the GitHub watch function) to the [cg-site](https://github.com/18F/cg-site) GitHub repository notifications.
 * [ ] Ask Program Manager or Director for access to the cg-supportstream Slack channel.
 
