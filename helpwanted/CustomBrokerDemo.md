@@ -13,24 +13,36 @@ What we're after: Tenants have a runbook / well-paved path for brokering service
 
 Cloud.gov is a deployment and hosting platform for government digital services. Cloud.gov is based on Cloud Foundry which uses brokers to manage the lifecycle of services for its users. Cloud.gov tenants can run their own brokers for services not supported / brokered by cloud.gov. This issue seeks to document how customers can do this is a straight-forward, secure, and easy to replicate way.
 
-Implementation can be done with any Cloud Foundry instance; no access to existing cloud.gov infrastructure is needed to develop or demo it.
 
 ### Notes for implementers
-- Installing the broker on a Cloud Foundry instance should be automated using a tool such as Terraform.
-- [Google Cloud Platform Service Broker](https://cloud.google.com/kubernetes-engine/docs/concepts/google-cloud-platform-service-broker)
-- [Open Service Broker for Azure](https://osba.sh/)
-- [Managing Service Brokers](https://docs.cloudfoundry.org/services/managing-service-brokers.html)
-- [Stratos: Web-based Console UI for Cloud Foundry](https://github.com/cloudfoundry-incubator/stratos)
-- [cf dev](https://github.com/cloudfoundry-incubator/cfdev)
-- [Terraform Provider for Cloud Foundry](https://github.com/orange-cloudfoundry/terraform-provider-cloudfoundry)
+- Implementation can be done with any Cloud Foundry instance; no access to existing cloud.gov infrastructure is needed to develop or demo it.
+  - [cf dev](https://github.com/cloudfoundry-incubator/cfdev)
+
+- Installing the broker on a existing Cloud Foundry instance should be easy to reproduce, making use of existing tooling where appropriate.
+  - [deploy-to-cf](https://github.com/jmcarp/deploy-to-cf)
+  - [Terraform Provider for Cloud Foundry](https://github.com/mevansam/terraform-provider-cfy)
+  - [Managing Service Brokers](https://docs.cloudfoundry.org/services/managing-service-brokers.html)
+  - [Register your own service broker with any Cloud Foundry](https://www.starkandwayne.com/blog/register-your-own-service-broker-with-any-cloud-foundry/)
+
+- Services from multiple external cloud providers should be included in the demo.
+  - [Google Cloud Platform Service Broker](https://cloud.google.com/kubernetes-engine/docs/concepts/google-cloud-platform-service-broker)
+  - [Open Service Broker for Azure](https://osba.sh/)
+
+- The demo should include showing how to acesss the brokered services through the Stratos UI.
+  - [Stratos: Web-based Console UI for Cloud Foundry](https://github.com/cloudfoundry-incubator/stratos)
 
 
 #### Non-functional requirements that are to be assumed
-- ***[TBD: What stage is the implementer responsible for vs cloud.gov team accepting the work](https://github.com/18F/cg-product/blob/master/StoryLifecycle.md)***
+- The implementer is responsible for the following stages of the [cloud.gov Story Lifecycle](https://github.com/18F/cg-product/blob/master/StoryLifecycle.md)
+  - Grooming / Ready
+      - Work with a member of the cloud.gov team to create a backlog and discuss implementation details)
+  - In Progress
+  - Awaiting Acceptance
+      - Work with a member of the cloud.gov team to accept the delivered work.
+
 
 #### How to deliver
-- Submit a series of pull-requests in these repositories
-  - ***TBD: https://github.com/18f/???***
+- Submit a series of pull-requests to cloud.gov github repositories. The appropriate repositories will be determined during the Grooming / Ready phase.
 - Implementation can be done with any Cloud Foundry instance; no access to existing cloud.gov infrastructure is needed to develop or demo it. The behavior can be demonstrated via exercise of the broker’s REST APIs.
 
 ---
@@ -51,10 +63,11 @@ Here's a draft backlog of user stories describing behaviors we think are needed 
 
 **Scenario:** Clients can view a video covering the entire process
 
-- Given there is a Video embedded in the README
+- Given the Client is viewing the README for the repository
+- Then there is a Video embedded in the README
 - And the Client is viewing it in a supported browser
 - And the Client clicks play
-- Then the Video should play
+- And the Video should play
 
 
 **Scenario:** Clients can replicate the video demo
@@ -62,7 +75,7 @@ Here's a draft backlog of user stories describing behaviors we think are needed 
 - Given the repository is cloned locally
 - And the Client has all requirements installed
 - And the Client provides a correct configuration file
-- And the Client runs executes the code in the repository
+- And the Client runs the code in the repository
 - Then the Broker can be accessed via it's URL
 - And the Broker offers the configured plans
 - And the Client can see the broker's plans in Stratos
