@@ -1,4 +1,4 @@
-[This is a template for what to include in a micropurchaseable feature description. When you want to elaborate a micropurchaseable feature, copy this template, edit to taste, then submit a pull-request that adds your own Markdown file next to this one. We'll discuss it and edit it in the resulting PR!]
+[This is a template for what to include in a feature description. When you want to elaborate a feature, copy this template, edit to taste, then submit a pull-request that adds your own Markdown file next to this one. We'll discuss it and edit it in the resulting PR!]
 
 # Summary: [Brokered SQS service]
 
