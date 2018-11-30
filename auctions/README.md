@@ -43,8 +43,8 @@ Eligibility to bid
 In order to participate in auctions, vendors must 
 
 - have a GitHub account
-- have a DUNS number
-- register in SAM.gov
+- [have a DUNS number](becoming-a-vendor.md)
+- [register in SAM.gov](becoming-a-vendor.md)
 - be able to accept payment via credit card
 
 Bids above $10000 exceed the micro-purchase threshold that makes this lightweight process possible, and will be rejected.
