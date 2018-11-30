@@ -12,7 +12,7 @@ Most auctions follow a pretty standard process:
 2.  **Bidding period ("open"):** Bidding opens when the pull-request is merged, and the issue title will be changed to include "Auction (open):". [Eligible](#eligibility-to-bid) vendors can place bids on the auction issue from the time it "opens" (its "opening date") until the time it "closes" (its "closing date"). At that time, the winner will be selected and must deliver the code by the auction's delivery deadline.
 3.  **Delivery period:** The winning vendor indicates that they've begun work by [issuing a pull request](https://help.github.com/articles/using-pull-requests/), [referencing](https://guides.github.com/features/issues/#notifications) the issue associated with the auction, with "work-in-progress" in the title. At that point the conversation moves to the pull request itself (or others that are subsequently opened referencing the issue), wherein the winning vendor can update cloud.gov on their work in progress, ask questions, etc. Once the vendor believes their pull request meets the auction's acceptance criteria, they'll remove "work-in-progress" from the title of the pull request(s) and post on the auction issue to indicate they've finished their work. They can also request a review from the auctioneer (or a delegate) on the pull request(s) where they are delivering work.
 4.  **Acceptance period:** cloud.gov evaluates the winning vendor's code against the auction's acceptance criteria. If the code meets the criteria, it's accepted. Otherwise, it's rejected.
-5.  **Payment period:** If their solution is accepted, the winning vendor will receive payment at the payment URL specified in their profile.
+5.  **Payment period:** If their solution is accepted, the winning vendor will [receive payment](getting-paid.md) at a payment URL they post in the issue since being declared the winner.
 
 That's the process in a nutshell. Additional details, including deviations from this process, are covered below, under "source-selection method" and "delivery and acceptance policy."
 
@@ -24,9 +24,9 @@ Micro-purchase bidders and awardees agree to abide by the [18F Code of Conduct](
 Transparency policy
 -------------------
 
-cloud.gov will publish, in a publicly available website (https://github.com/18F/cg-product/tree/master/auctions), data associated with each auction (including the auction description, acceptance criteria, amendments, etc.) and other relevant information that is neither confidential or proprietary in nature nor source-selection sensitive information that would otherwise implicate procurement integrity concerns.
+cloud.gov will publish, in a [publicly available website](https://github.com/18F/cg-product/tree/master/auctions), data associated with each auction (including the auction description, acceptance criteria, amendments, etc.) and other relevant information that is neither confidential or proprietary in nature nor source-selection sensitive information that would otherwise implicate procurement integrity concerns.
 
-Auctions are run as a (standard) reverse-auction through a GitHub issue. Vendors place their bigs by making posts to the issue. The (GitHub) identity of the vendor who placed it and the dollar amount of their bid will be publicly visible. Making this information public enables vendors to know if they are the low bidder and if they've been outbid.
+Auctions are run as a (standard) reverse-auction through a GitHub issue. Vendors place their bids by making posts to the issue. The (GitHub) identity of the vendor who placed it and the dollar amount of their bid will be publicly visible. Making this information public enables vendors to know if they are the low bidder and if they've been outbid.
 
 Once a winner is chosen, cloud.gov will explicitly note the winner in the auction issue, and announce that bidding is closed.
 
