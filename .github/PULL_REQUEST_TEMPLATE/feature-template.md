@@ -43,6 +43,9 @@ Here's a draft backlog of user stories describing changes/behaviors we think are
 [Gherkin](https://en.wikipedia.org/wiki/Cucumber_(software)#Gherkin_language) is a domain language for capturing [behavioral specifications](https://en.wikipedia.org/wiki/Behavior-driven_development#Behavioral_specifications) as scenarios. For clarity, the stories and acceptance criteria are specified here using Gherkin. (Actual BDD step implementations that validate the behavior and increase test coverage would be great! However, it's not necessary to include BDD test automation for the work to be accepted.)
 
 ### User stories
+
+[a sample proto-backlog for the example feature follows]
+
 **Background:**
 
 - Given Broker is a running, properly-configured instance of the SQS broker
