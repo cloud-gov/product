@@ -52,14 +52,14 @@ Bids above $10000 exceed the micro-purchase threshold that makes this lightweigh
 Source-selection method
 -----------------------
 
-cloud.gov uses reverse-auctions to determine the source for any given procurement. Eligible vendors can place bids on an auction during its bidding period. Once that period ends, the [vendor with the lowest bid is deemed the winner].
+cloud.gov uses reverse-auctions to determine the source for any given procurement. Eligible vendors can place bids on an auction during its bidding period. Once that period ends, the winner will be selected by the auctioneer based on the best perceived combination of price and perceived risk, where evidence provided with the bid will be used to help assess risk. For example, a bidder may include with their bid a pointer to previously published work they completed which demonstrates they have the skills and knowledge to tackle the current work. This reduces the perceived risk that the bidder won't be able to deliver on the requirements.
 
 In the event that a winner is either (a) unable to deliver on an auction by the delivery deadline assigned to them or (b) delivers code that is deemed unacceptable, cloud.gov reserves the right to reject the work, choose a new winner from previous bidders on the auction, or re-run the auction.
 
 Bid acknowledgement and communication
 -------------------------------------
 
-cloud.gov will contact the winning bidder within 24 hours of the end of the auction. We require a timely response to acknowledge and confirm the bid amount. [[[The code requested in the auction will be due as explained in the acceptance criteria of each specific auction.]]]
+cloud.gov will contact the winning bidder within 24 hours of the end of the auction. We require a timely response to acknowledge and confirm the bid amount.
 
 Delivery and acceptance policy
 ------------------------------
