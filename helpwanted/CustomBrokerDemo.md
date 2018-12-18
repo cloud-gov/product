@@ -16,7 +16,7 @@ Cloud.gov is a deployment and hosting platform for government digital services. 
 
 ### Notes for implementers
 - Implementation can be done with any Cloud Foundry instance; no access to existing cloud.gov infrastructure is needed to develop or demo it.
-  - [cf dev](https://github.com/cloudfoundry-incubator/cfdev)
+  - For example, this work can be implemented locally using [cf dev](https://github.com/cloudfoundry-incubator/cfdev)
 
 - Installing the broker on a existing Cloud Foundry instance should be easy to reproduce, making use of existing tooling where appropriate.
   - [deploy-to-cf](https://github.com/jmcarp/deploy-to-cf)
@@ -35,7 +35,7 @@ Cloud.gov is a deployment and hosting platform for government digital services. 
 #### Non-functional requirements that are to be assumed
 - The implementer is responsible for the following stages of the [cloud.gov Story Lifecycle](https://github.com/18F/cg-product/blob/master/StoryLifecycle.md)
   - Grooming / Ready
-      - Work with a member of the cloud.gov team to create a backlog and discuss implementation details)
+      - Work with a member of the cloud.gov team to create a backlog and discuss implementation details
   - In Progress
   - Awaiting Acceptance
       - Work with a member of the cloud.gov team to accept the delivered work.
@@ -43,7 +43,7 @@ Cloud.gov is a deployment and hosting platform for government digital services. 
 
 #### How to deliver
 - Submit a series of pull-requests to cloud.gov github repositories. The appropriate repositories will be determined during the Grooming / Ready phase.
-- Implementation can be done with any Cloud Foundry instance; no access to existing cloud.gov infrastructure is needed to develop or demo it. The behavior can be demonstrated via exercise of the broker’s REST APIs.
+- Implementation can be done with any Cloud Foundry instance; no access to existing cloud.gov infrastructure is needed to develop or demo it. The video demonstrating usage need not use cloud.gov-specific URLs.
 
 ---
 
@@ -63,11 +63,11 @@ Here's a draft backlog of user stories describing behaviors we think are needed 
 
 **Scenario:** Clients can view a video covering the entire process
 
-- Given the Client is viewing the README for the repository
+- Given the the Client is using a supported browser
+- When the Client views the README for the repository
 - Then there is a Video embedded in the README
-- And the Client is viewing it in a supported browser
-- And the Client clicks play
-- And the Video should play
+- When the Client clicks play
+- Then the Video should play
 
 
 **Scenario:** Clients can replicate the video demo
@@ -75,7 +75,7 @@ Here's a draft backlog of user stories describing behaviors we think are needed 
 - Given the repository is cloned locally
 - And the Client has all requirements installed
 - And the Client provides a correct configuration file
-- And the Client runs the code in the repository
+- When the Client runs the code in the repository
 - Then the Broker can be accessed via it's URL
 - And the Broker offers the configured plans
 - And the Client can see the broker's plans in Stratos
