@@ -13,7 +13,6 @@ What we're after: Tenants have a runbook / well-paved path for brokering service
 
 Cloud.gov is a deployment and hosting platform for government digital services. Cloud.gov is based on Cloud Foundry which uses brokers to manage the lifecycle of services for its users. Cloud.gov tenants can run their own brokers for services not supported / brokered by cloud.gov. This issue seeks to document how customers can do this is a straight-forward, secure, and easy to replicate way.
 
-
 ### Notes for implementers
 - Implementation can be done with any Cloud Foundry instance; no access to existing cloud.gov infrastructure is needed to develop or demo it.
   - For example, this work can be implemented locally using [cf dev](https://github.com/cloudfoundry-incubator/cfdev)
@@ -31,7 +30,6 @@ Cloud.gov is a deployment and hosting platform for government digital services. 
 - The demo should include showing how to acesss the brokered services through the Stratos UI.
   - [Stratos: Web-based Console UI for Cloud Foundry](https://github.com/cloudfoundry-incubator/stratos)
 
-
 #### Non-functional requirements that are to be assumed
 - The implementer is responsible for the following stages of the [cloud.gov Story Lifecycle](https://github.com/18F/cg-product/blob/master/StoryLifecycle.md)
   - Grooming / Ready
@@ -39,7 +37,7 @@ Cloud.gov is a deployment and hosting platform for government digital services. 
   - In Progress
   - Awaiting Acceptance
       - Work with a member of the cloud.gov team to accept the delivered work.
-
+- The solution should include an automated test suite that completes the major portions of the tutorial as if a user was doing it from the CLI. That is, the tutorial will guide the user through a series of steps to register a broker and make it available as a service. The `cf` or other CLI commands enumerated in the tutorial to accomplish this will be executed within an automated test suite, mimicking the steps a user takes while working through the tutorial. This verifies the steps in the tutorial are correct. An automated test suite allows the cloud.gov team to ensure the solution works on the platform. The automated test suite could also be used as a guide for the IaC a user would create in their environment.
 
 #### How to deliver
 - Submit a series of pull-requests to cloud.gov github repositories. The appropriate repositories will be determined during the Grooming / Ready phase.
@@ -60,7 +58,6 @@ Here's a draft backlog of user stories describing behaviors we think are needed 
 - And a suitable Cloud Foundry instance
 - And the Cloud Foundry instance is running an instance of Stratos
 
-
 **Scenario:** Clients can view a video covering the entire process
 
 - Given the the Client is using a supported browser
@@ -68,7 +65,6 @@ Here's a draft backlog of user stories describing behaviors we think are needed 
 - Then there is a Video embedded in the README
 - When the Client clicks play
 - Then the Video should play
-
 
 **Scenario:** Clients can replicate the video demo
 
