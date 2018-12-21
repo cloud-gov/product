@@ -37,7 +37,7 @@ Cloud.gov is a deployment and hosting platform for government digital services. 
   - In Progress
   - Awaiting Acceptance
       - Work with a member of the cloud.gov team to accept the delivered work.
-- The solution should include a CI pipeline that completes the major portions of the tutorial as if a user was doing it from the CLI. That is, the tutorial will guide the user through a series of steps to register a broker and make it available as a service. The `cf` or other CLI commands enumerated in the tutorial to accomplish this will be executed within a CI pipeline, mimicking the steps a user takes while working through the tutorial. This verifies the steps in the tutorial are correct. CI allows the cloud.gov team to ensure the solution works on the platform. The CI pipeline could also be used as a guide for the IaC a user would create in their environment.
+- The solution should include an automated test suite that completes the major portions of the tutorial as if a user was doing it from the CLI. That is, the tutorial will guide the user through a series of steps to register a broker and make it available as a service. The `cf` or other CLI commands enumerated in the tutorial to accomplish this will be executed within an automated test suite, mimicking the steps a user takes while working through the tutorial. This verifies the steps in the tutorial are correct. An automated test suite allows the cloud.gov team to ensure the solution works on the platform. The automated test suite could also be used as a guide for the IaC a user would create in their environment.
 
 #### How to deliver
 - Submit a series of pull-requests to cloud.gov github repositories. The appropriate repositories will be determined during the Grooming / Ready phase.
