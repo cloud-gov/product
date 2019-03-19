@@ -4,16 +4,13 @@
 
 When someone new joins the cloud.gov team:
 
-1. [Request a Jira account for NewPerson in the cloud.gov team.](https://cm-jira.usa.gov/projects/JAT/summary). You need to supply their name, email address, and phone number.
-2. Create a new issue in Jira in the cloud.gov (CG) project assigned to the `Product Management` team called "Ramp up [NewPerson] on cloud.gov team".
-3. View the raw source of this file.
-4. Copy everything below the line into the new issue's body.
-5. Replace "NewPerson" with the new person's name.
-6. Replace "Buddy" with the onboarding buddy's name.
-7. Delete any checklists irrelevant for the new person's skill domain (theme).
-8. Submit the issue.
-9. Assign the issue to the person who bravely volunteered to be the new person's Onboarding Buddy.
-10. Put the issue into the _In Progress_ column in Jira on the cloud.gov *Program Management Board*.
+1. Create a new card in Trello in the cloud.gov program board assigned to the `Product Management` team called "Ramp up [NewPerson] on cloud.gov team".
+2. View the raw source of this file.
+3. Copy the text before the checklists to the Description field of the card.
+3. Copy each applicable block of tasks into a its own new task list on the card, replacing "NewPerson" with the new person's name and  "Buddy" with the onboarding buddy's name.
+4. Submit the card.
+5. Assign the person who bravely volunteered to be the new person's Onboarding Buddy to the card.
+6. Put the issue into the _Doing_ column.
 
 ---
 
@@ -37,8 +34,8 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 * [ ] Read through [the Overview section of cloud.gov](https://cloud.gov/overview/) for a broader understanding of cloud.gov, especially as we present it to potential customers/users.
 * [ ] Read the [January 2016 cloud.gov "Executive Business Case" document](https://docs.google.com/document/d/138OcG0Lt6gr9J0wM0TzzPNyTROmYAwfLIDujtweiwGw/edit#) for greater context about cloud.gov's potential impact in government.
 * [ ] Read the [House Oversight and Government Reform Committee (July 12 2017) document](https://docs.google.com/document/d/1kDJdaPw7DSBPSa-XH-YsQpJVOmRKSK8sAghNhPFpegE/edit) for official answers to important questions.
-* [ ] [Deploy a sample application to cloud.gov](https://cloud.gov/docs/getting-started/your-first-deploy/) to get familiar with the basics of the PaaS from a user's perspective.
-* [ ] We use JIRA for [macro-level cadence and roadmapping](https://cm-jira.usa.gov/secure/PortfolioPlanView.jspa?id=138&sid=138#backlog).
+* [ ] [Deploy a sample application to cloud.gov](https://cloud.gov/quickstart/) to get familiar with the basics of the PaaS from a user's perspective.
+* [ ] We use Trello for [macro-level cadence and roadmapping](https://trello.com/b/03DgpOUQ/cloudgov-feature-kanban).
 * [ ] Read the [Delivery Process document](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) to learn about how we work.
 * [ ] Read our [service disruption guide](https://cloud.gov/docs/ops/service-disruption-guide/) to learn how we handle customer-facing service disruptions.
 * [ ] Join [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov) so you can participate in team-wide internal communication.
@@ -84,16 +81,14 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 
 ### Platform-specific items
 
-* [ ] Review the System Security Plan (the latest version lives on [Google Drive](https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0); look for "cloud.gov System Security Plan (SSP)" as a {{.docx}} file). Of particular note for onboarding:
-  * Section 9: System Description
-  * Section 10: System Environment
+* [ ] Review the System Security Plan (the latest version lives on [Google Drive](https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0); look for "cloud.gov System Security Plan (SSP)" as a {{.docx}} file). Of particular note for onboarding: Section 9 (System Description) and Section 10 (System Environment)
 * [ ] Bookmark [the Platform kanban board view](https://cm-jira.usa.gov/secure/RapidBoard.jspa?rapidView=1926&view=detail&selectedIssue=CG-107).
 * [ ] Join the {{#cg-platform}} channel on Slack.
 * Learn about [Cloud Foundry](https://www.cloudfoundry.org/)
   * [ ] Watch [Build Your Own Private Cloud Foundry](https://www.youtube.com/watch?v=v85r4Hy3jbs) to learn about running Cloud Foundry.
-  * [ ] [Set up Cloud Foundry locally](https://docs.cloud.gov/ops/creating-a-local-dev-environment-in-Virtual-Box/) and push an app to it.
+  * [ ] [Set up Cloud Foundry locally](https://docs.cloud.gov/ops/creating-a-local-dev-environment-in-virtual-box/) and push an app to it.
   * [ ] Join [the Cloud Foundry Slack](http://slack.cloudfoundry.org/) in case you need to ask questions of upstream developers.
-* Learn about [BOSH](http://bosh.io/):
+* Learn about [BOSH](https://bosh.io/):
   * [ ] watch [this video](https://www.youtube.com/watch?v=2jpN1mSPZ4Q)
   * [ ] Complete this [tutorial for BOSH](https://mariash.github.io/learn-bosh/)
   * [ ] For a bit of levity, read [this](http://events.linuxfoundation.org/sites/events/files/slides/seven-stages-of-bosh.pdf)
@@ -104,7 +99,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 * Learn about [Concourse](https://concourse.ci/)
   * [ ] Try a [tutorial](https://github.com/starkandwayne/concourse-tutorial).
   * [ ] Check out our [staging](https://ci.fr-stage.cloud.gov/) and [production](https://ci.fr.cloud.gov) Concourse instances, and take a look at some of [our pipelines](https://github.com/search?q=org%3A18F+cg-deploy).
-  * [ ] Join [the Concourse Slack](http://slack.concourse.ci/) in case you need to ask questions of upstream developers.
+  * [ ] Join [the Concourse Discord](https://discordapp.com/invite/MeRxXKW) in case you need to ask questions of upstream developers.
 * Learn about [Kubernetes](https://kubernetes.io/)
   * [ ] Watch [The illustrated Children's Guide to Kubernetes](https://youtu.be/4ht22ReBjno)
   * [ ] Go through the [official tutorial](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
