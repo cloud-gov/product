@@ -91,7 +91,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 * [ ] Join the {{#cg-platform}} channel on Slack.
 * Learn about [Cloud Foundry](https://www.cloudfoundry.org/)
   * [ ] Watch [Build Your Own Private Cloud Foundry](https://www.youtube.com/watch?v=v85r4Hy3jbs) to learn about running Cloud Foundry.
-  * [ ] [Set up Cloud Foundry locally](https://docs.cloud.gov/ops/creating-a-local-dev-environment-in-Virtual-Box/) and push an app to it.
+  * [ ] [Set up Cloud Foundry locally](https://cloud.gov/docs/ops/creating-a-local-dev-environment-in-virtual-box/) and push an app to it.
   * [ ] Join [the Cloud Foundry Slack](http://slack.cloudfoundry.org/) in case you need to ask questions of upstream developers.
 * Learn about [BOSH](http://bosh.io/):
   * [ ] watch [this video](https://www.youtube.com/watch?v=2jpN1mSPZ4Q)
