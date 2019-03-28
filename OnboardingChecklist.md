@@ -217,6 +217,7 @@ These items help us fulfill security and compliance requirements (including for 
   * [ ] AWS East tied to GovCloud
   * [ ] AWS Admin Access
   * Note: AWS user names should be identical across accounts so that permissions can be correctly managed by terraform
+  * [ ] Google Cloud Platform (GCP) Projects (by asking Derrick Rogers in GSA IT)
   * [ ] Nessus Manager GUI
   * [ ] New Relic
   * [ ] PagerDuty
