@@ -14,10 +14,10 @@ For context, see our [Continuous Monitoring Strategy](https://cloud.gov/docs/ops
 
 In order for us to update the JAB on our compliance in a consistent way, we need to run Continuous Monitoring scans on approximately the 23rd of the month.
 
-Check that you have the [latest stable version of ZAP|https://github.com/zaproxy/zaproxy/wiki/Downloads].
+Check that you have the [latest stable version of ZAP](https://github.com/zaproxy/zaproxy/wiki/Downloads).
 
-(-) We ran OWASP ZAP on the following domains using steps #1-6 of the manual scanning instructions at https://before-you-ship.18f.gov/security/dynamic-scanning/#scanning - spider and active after getting authenticated through the browser:
-    {noformat}
+- [ ] We ran OWASP ZAP on the following domains using steps #1-6 of the manual scanning instructions at https://before-you-ship.18f.gov/security/dynamic-scanning/#scanning - spider and active after getting authenticated through the browser:
+```
 https://ci.fr.cloud.gov/
 https://dashboard.fr.cloud.gov/
 https://account.fr.cloud.gov/
@@ -31,17 +31,17 @@ https://prometheus.fr.cloud.gov/
 https://grafana.fr.cloud.gov/
 https://alertmanager.fr.cloud.gov/
 https://logs-platform.fr.cloud.gov/
-    {noformat}
-  - Load the [cloud.gov conmon|https://raw.githubusercontent.com/18F/cg-product/master/cloud.gov-conmon.context] ZAP context from this repository.
+```
+  - Load the [cloud.gov conmon](https://raw.githubusercontent.com/18F/cg-product/master/cloud.gov-conmon.context) ZAP context from this repository.
     - Check the context file to see if it needs updating (update if necessary).
   - You have to log in so that ZAP can scan inside the authenticated websites, which includes being on the VPN.
   - Make sure to scan _only_ those sites, rather than browsing other URLs while ZAP is running, to prevent getting noise in the scan results (since that causes major confusion when the FedRAMP team processes the ConMon report).
 
-(-) We exported and uploaded those fresh OWASP ZAP results in XML format to a folder in the folder at https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U
-(-) We also grabbed the OWASP ZAP scans in human-readable HTML format and uploaded them to that folder.
-(-) We grabbed a fresh set of Nessus scans (both OS and database/RDS) from https://nessus.fr.cloud.gov/ in .nessus format and uploaded the fresh results to a folder in the folder at https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U - requires auth (Cloud Ops or Deputy Director).
-(-) We also grabbed the Nessus HTML export - https://docs.tenable.com/nessus/6_8/Content/Exported_Results.htm - for those scans and uploaded them to that folder.
-(-) We updated the [POAM Inventory tab|https://docs.google.com/spreadsheets/d/16igVl8cD3SqeX5_SOn5Su34KmwMRnP20gPbfQlqIwfM/edit#gid=2017890110]. From tooling and production BOSH inventory:
+- [ ] We exported and uploaded those fresh OWASP ZAP results in XML format to a folder in the folder at https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U
+- [ ] We also grabbed the OWASP ZAP scans in human-readable HTML format and uploaded them to that folder.
+- [ ] We grabbed a fresh set of Nessus scans (both OS and database/RDS) from https://nessus.fr.cloud.gov/ in .nessus format and uploaded the fresh results to a folder in the folder at https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U - requires auth (Cloud Ops or Deputy Director).
+- [ ] We also grabbed the Nessus HTML export - https://docs.tenable.com/nessus/6_8/Content/Exported_Results.htm - for those scans and uploaded them to that folder.
+- [ ] We updated the [POAM Inventory tab](https://docs.google.com/spreadsheets/d/16igVl8cD3SqeX5_SOn5Su34KmwMRnP20gPbfQlqIwfM/edit#gid=2017890110). From tooling and production BOSH inventory:
 
 ```sh
 bosh vms --vitals | grep -e "^\w" | awk '{print $1","$4",,,,,5,Agent based,Ubuntu Stemcell,Ubuntu,14.04.01,"$3",EC2,Yes,No,Yes,"}' | sed -e 's/\/[a-z0-9\-]*,/,/' |sed -e 's/,z1/,us-gov-west-1a/' | sed -e 's/,z2/,us-gov-west-1b/'
