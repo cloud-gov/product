@@ -198,6 +198,7 @@ These items help us fulfill security and compliance requirements (including for 
 * [ ] Add them to the @cloud-gov-team [in Slack’s Team Directory](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group).
 * [ ] Add them to the recurring cloud.gov meetings that are relevant for them in [the team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&amp;ctz=America/Los_Angeles).
 * [ ] Ask one of our cloud-gov team Github Maintainers (Bret or Carlo) to add them to the [@18F/cloud.gov team](https://github.com/orgs/18F/teams/cloud-gov) on GitHub.
+* [ ] [Request a Jira account for NewPerson in the cloud.gov team.](https://cm-jira.usa.gov/projects/JAT/summary). You need to supply their name, email address, and phone number.
 * [ ] Talk to the leadership about whether the #cg-team-priv history should be wiped, then invite the new person to that channel
 
 ## Platform-specific required items
