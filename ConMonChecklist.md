@@ -20,6 +20,7 @@ Check that you have the [latest stable version of ZAP](https://github.com/zaprox
 ```
 https://ci.fr.cloud.gov/
 https://dashboard.fr.cloud.gov/
+http://dashboard-beta.fr.cloud.gov/
 https://account.fr.cloud.gov/
 https://cloud.gov/
 https://idp.fr.cloud.gov/
