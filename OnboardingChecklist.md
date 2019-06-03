@@ -154,7 +154,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 * [ ] Ask previous Director to give you Owner access in Zendesk.
 * [ ] Ask previous Director to give you [AWS account ownership](https://cloud.gov/docs/ops/aws-onboarding/) for GovCloud.
 * [ ] Ask Program Manager or previous Director to give you cloud.gov calendar ownership.
-* [ ] Ask Program Manager or previous Director to give you owner permission on the Google Groups.
+* [ ] Ask Program Manager or previous Director to give you owner permission on the Google Groups. This should include [our Google Groups for our AWS accounts](https://docs.google.com/document/d/110o1L7EOby3hvE5d-cDhg2LBLHymbZLnMPe9kuk4qp8/edit#).
 * [ ] Ask Program Manager or previous Director to let TTS Infrastructure know you are the new technical contact for cloud.gov.
 * [ ] Ask Cloud Ops for read-write access to Admin UI.
 * [ ] Review the [GSA Information Technology (IT) Security Policy](https://insite.gsa.gov/portal/content/520281) to understand our responsibilities as part of GSA.
