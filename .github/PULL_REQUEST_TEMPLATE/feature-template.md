@@ -25,7 +25,7 @@
 #### Non-functional requirements that are to be assumed
 The implementer is responsible for the following stages of the [cloud.gov Story Lifecycle](https://github.com/18F/cg-product/blob/master/StoryLifecycle.md)
   - Grooming / Ready
-      - Work with a member of the cloud.gov team to create a backlog and discuss implementation details)
+      - Work with a member of the cloud.gov team to create a backlog and discuss implementation details
   - In Progress
   - Awaiting Acceptance
       - Work with a member of the cloud.gov team to accept the delivered work.

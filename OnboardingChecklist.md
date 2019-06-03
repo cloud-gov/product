@@ -217,8 +217,7 @@ These items help us fulfill security and compliance requirements (including for 
   * Note: AWS user names should be identical across accounts so that permissions can be correctly managed by terraform
   * [ ] Google Cloud Platform (GCP) Projects (by asking Derrick Rogers in GSA IT)
   * [ ] Nessus Manager GUI
-  * [ ] New Relic
-  * [ ] PagerDuty
+  * [ ] Opsgenie
   * [ ] StatusPage
 * [ ] Make sure that PagerDuty will alert you through at least one of these ways:
   * [ ] Install/configure the app on the phone, go to the app settings, and change the alert for Low-Urgency alerts to actually alert you (make noise, vibrate, etc).

@@ -40,9 +40,8 @@ Other notable Slack channels for 18F folk
 - Services (#cg-services)
   - The Services theme aims to instantly outfit teams with the key services and capabilities they need to achieve their mission. This includes managed services, route services, and other configurable enhancements that teams can take advantage of to build their apps.
 - Compliance (#cg-compliance)
-  - The Compliance theme works on tools and processes that help our team and other teams confidently and routinely exceed high government standard for compliance, security, and accessibility. <!-- The Compliance theme is packaging those tools and processes into a product usable for people both inside and outside of 18F to reduce their effort to gain ATO.
-  - The Compliance theme focuses a great deal on the [Compliance Toolkit](https://github.com/18F/compliance-toolkit) continuous assurance service. Compliance Toolkit provides a heads-up view of code compliance, security, and quality suitable for integration into a delivery team's CI/CD process. Compliance Toolkit helps teams develop to a high standard, enter the compliance process with confidence, and demonstrate continued high quality/compliance long after they have [Authority to Operate](https://www.fedramp.gov/resources/faqs/what-is-an-authority-to-operate-ato/), as new requirements and vulnerabilities emerge. Compliance Toolkit includes [Compliance Masonry](https://github.com/opencontrol/compliance-masonry), which publishes static compliance documentation generated from composable, testable code. Compliance Toolkit can be used with or without the cloud.gov PaaS, but will be easier to take advantage of for apps being deployed there. -->
-
+  - The Compliance theme works on tools and processes that help our team and other teams confidently and routinely exceed high government standard for compliance, security, and accessibility. 
+  
 ## Roadmap and ChangeLog
 
 We publish [roadmap and recent-change information for the overall cloud.gov effort](https://cm-jira.usa.gov/secure/PortfolioProgramView.jspa?id=3) tagged by primary theme. Features are listed in planning increments (PIs) of around three months. Note this information is live, and the priority of anything beyond the next three months is subject to change at any time!

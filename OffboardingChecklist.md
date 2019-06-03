@@ -35,8 +35,7 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove their access to Zendesk - [switch their role to "end user"](https://cloud-gov.zendesk.com/agent/admin/people)
 - [ ] Remove their access to [StatusPage](https://manage.statuspage.io/organizations/btc69fwyvjh7/team) - likely have to ask devops@gsa.gov or #infrastructure
 - [ ] Remove their access to [GovDelivery](https://admin.govdelivery.com/administrators)
-- [ ] Remove their access to [PagerDuty](https://18fi.pagerduty.com/users)
-- [ ] Remove their access to [New Relic](https://rpm.newrelic.com/accounts/907948)
+- [ ] Remove their access to [Opsgenie](https://cloud-gov.app.opsgenie.com/teams/dashboard/88344f3d-6c06-4517-b7cf-039f0147d8b7/members)
 - [ ] Remove them from [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov/members/active)
 - [ ] Remove them from [the cloud.gov notifications Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-notifications/members/active)
 - [ ] Remove them from [the cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-inquiries/members/active)
