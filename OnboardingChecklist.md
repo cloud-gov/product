@@ -51,7 +51,7 @@ These items help us fulfill security and compliance requirements (including for 
 
 Pre-requisites:
 
-* [ ] Complete [GSA OLU](https://gsaolu.gsa.gov/) IT Security Awareness Training, including accepting the GSA IT Rules of Behavior, which is required before we can give you access to any cloud.gov systems. If you joined GSA more than two months ago, you've already completed this task and can just check the box.
+* [ ] Complete [GSA OLU](https://gsaolu.gsa.gov/) GSA Mandatory Cyber Security and Privacy Training, including accepting the GSA IT Rules of Behavior, which is required before we can give you access to any cloud.gov systems. If you joined GSA more than two months ago, you've already completed this task and can just check the box.
 
 Ensure you know what's happening on the team:
 
