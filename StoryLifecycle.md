@@ -50,8 +50,10 @@ Before advancing a card from one column to the next on the board, it should meet
 Required for compliance: 
 <!-- Security impact analysis is due to CM-3 part b, CM-4 -->
 <!-- New software integration check is due to CM-7 (5) part a -->
+<!-- Security test planning is due to SA-11 part a -->
 
 - If the story is **not** part of a larger feature which has already undergone [Security Impact Analysis](FeatureLifecycle.md#security-impact-analysis), we have applied that same Security Impact Analysis evaluation process for this story and filed any necessary SCR.
+- If necessary, the story includes a security testing plan. For example, the ACs include automated tests and alerts for unexpected behavior.
 
 #### Ready
 
