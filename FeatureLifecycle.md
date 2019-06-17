@@ -28,6 +28,8 @@ Where we discuss and score the feature to aid sequencing of further analysis.
 
 At the end of this stage a typical card will look something like this:
 
+> **Title:** Help customers understand package and usage fees
+> 
 > **What we're after:** A prospective customer can easily figure out what it will cost to use cloud.gov for a year at their level of need/usage.
 > 
 > **Hypothesized benefit(s)/why:**
@@ -39,6 +41,8 @@ At the end of this stage a typical card will look something like this:
 > * % leads that bounce from our pricing page vs interact with it/contact us
 > * % leads that already understand what they want to buy when they contact us
 > * % leads that already understand what they will spend
+
+(Note that this card is intentionally somewhat ambiguous as to the implementation; a very clear page might be just as effective as a live calculator/quote-generator, and it's up to the team to figure out what will be effective in moving the metrics while still doable.)
 
 ### Sketching
 Where we explore our options for overall UX and implementation, and set objective metrics and outcomes.
