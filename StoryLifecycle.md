@@ -53,6 +53,22 @@ Required for compliance:
 
 - If the story is **not** part of a larger feature which has already undergone [Security Impact Analysis](FeatureLifecycle.md#security-impact-analysis), we have applied that same Security Impact Analysis evaluation process for this story and filed any necessary SCR.
 
+At the end of this stage a typical card will look something like this:
+> **Title**: Fall back to email when alerting's offline
+>
+> In order to ensure we'll still see alerts even when our alerting system goes AWOL, cloud.gov operators want AlertManager to email them when it has problems communicating with PagerDuty.
+>
+> **Acceptance Criteria:**
+> * [ ] GIVEN we deploy a bad the PagerDuty API KEY \
+>   WHEN we trigger an alert \
+>   THEN we see the alert arrive in the cloud-gov-notifications Google Group
+> 
+> **Implementation sketch:**
+> 
+> Reference docs: [...]
+> * [ ] Configure the [...] to [...]
+> * [ ] Verify that [...]
+
 #### Ready
 
 - No info or assistance is needed from outside the team to start work and likely finish it.
