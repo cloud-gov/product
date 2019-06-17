@@ -26,6 +26,22 @@ Where we discuss and score the feature to aid sequencing of further analysis.
 - The card includes any existing or potential metrics we could track to demonstrate we're delivering that benefit.
 - The card has WSJF scores for `User/Business Value`, `Time Sensitivity`, and `Risk-reduction/Opportunity-enablement`.
 
+Here's a card template:
+
+> **Title:** [a short phrase distinguishing this card from other Features]
+> 
+> **What we're after:** [a description of a new capability or change in the product]
+> 
+> **Hypothesized benefit(s)/why:**
+> * [benefit 1]
+> * [benefit 2]
+> * [other feature this would enable]
+> 
+> 
+> **Potential metrics**
+> * [metric 1]
+> * [metric 2]
+  
 At the end of this stage a typical card will look something like this:
 
 > **Title:** Help customers understand package and usage fees
@@ -42,7 +58,7 @@ At the end of this stage a typical card will look something like this:
 > * % leads that already understand what they want to buy when they contact us
 > * % leads that already understand what they will spend
 
-(Note that this card is intentionally somewhat ambiguous as to the implementation; a very clear page might be just as effective as a live calculator/quote-generator, and it's up to the team to figure out what will be effective in moving the metrics while still doable.)
+(Note that this card is intentionally somewhat ambiguous as to the implementation; a very clear static page (simple) might be just as effective as a live calculator/quote-generator (complex) in moving the metrics, and it's up to the team to suggest alternatives and figure it out.)
 
 ### Sketching
 Where we explore our options for overall UX and implementation, and set objective metrics and outcomes.
