@@ -25,6 +25,21 @@ Where we discuss and score the feature to aid sequencing of further analysis.
 - The card includes a rough (implementation-agnostic) description of what we're after and what benefits we hypothesize it will deliver.
 - The card includes any existing or potential metrics we could track to demonstrate we're delivering that benefit.
 - The card has WSJF scores for `User/Business Value`, `Time Sensitivity`, and `Risk-reduction/Opportunity-enablement`.
+
+At the end of this stage a typical card will look something like this:
+
+> **What we're after:** A prospective customer can easily figure out what it will cost to use cloud.gov for a year at their level of need/usage.
+> 
+> **Hypothesized benefit(s)/why:**
+> * Reduce friction in customer acquisition conversations
+> * Help customers self-differentiate between packages
+> * Improved sales overall
+> 
+> **Potential metrics**
+> * % leads that bounce from our pricing page vs interact with it/contact us
+> * % leads that already understand what they want to buy when they contact us
+> * % leads that already understand what they will spend
+
 ### Sketching
 Where we explore our options for overall UX and implementation, and set objective metrics and outcomes.
 - The approach for UX and architecture is sufficient for PI planning purposes (for example, elaborated via research or spike stories, proto-backlog available).
