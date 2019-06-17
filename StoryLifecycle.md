@@ -53,8 +53,27 @@ Required for compliance:
 
 - If the story is **not** part of a larger feature which has already undergone [Security Impact Analysis](FeatureLifecycle.md#security-impact-analysis), we have applied that same Security Impact Analysis evaluation process for this story and filed any necessary SCR.
 
+Here's a card template:
+
+> **Title:** [a short phrase distinguishing this card from other Stories]
+> 
+> In order to [reason/goal], [someone or "we"] want [a specific change in product implementation/behavior]
+> 
+> **Acceptance Criteria:**
+> * [ ] GIVEN [a precondition] \
+>   AND [another precondition]
+>   WHEN [test step] \
+>   AND [test step]
+>   THEN [verification step]
+>   AND [verification step]
+> 
+> **Implementation sketch:**
+> [links to background notes, sketches, and/or relevant documentation
+> * [ ] [first thing to do]
+> * [ ] [another thing to do]
+
 At the end of this stage a typical card will look something like this:
-> **Title**: Fall back to email when alerting's offline
+> **Title:** Fall back to email when alerting's offline
 >
 > In order to ensure we'll still see alerts even when our alerting system goes AWOL, cloud.gov operators want AlertManager to email them when it has problems communicating with PagerDuty.
 >
@@ -65,9 +84,10 @@ At the end of this stage a typical card will look something like this:
 > 
 > **Implementation sketch:**
 > 
-> Reference docs: [...]
+> [AlertManager docs for email](https://prometheus.io/docs/alerting/configuration/#email_config)
 > * [ ] Configure the [...] to [...]
 > * [ ] Verify that [...]
+> * [ ] Make sure that [...]
 
 #### Ready
 
