@@ -33,7 +33,7 @@ We've structured our team into two squads, each centered around a different [the
   - [Board view](https://cm-jira.usa.gov/secure/RapidBoard.jspa?projectKey=CG&rapidView=1929)
 
 ## Business Unit
-cloud.gov's business unit (BU) focuses on business strategy and development, ensuring customer support gets handled, making sure we meet compliance requirements and other mandatory reporting requirements, and [related work](https://docs.google.com/document/d/18jU3jb6pWEo430LN77G8ucuW7IW0bKP9ljnYSyQU13c/edit#heading=h.tjv8u8lx3c02). Currently, the BU consists of Eddie Tejeda (Acting Director) and Britta Gustafson (Acting Deputy Director). Their comms channels are #cg-business and #cg-bizops, with compliance work (formerly called HighBar) in #cg-compliance.
+cloud.gov's business unit (BU) focuses on business strategy and development, ensuring customer support gets handled, making sure we meet procurement, compliance, and other mandatory reporting requirements, and [related work](https://docs.google.com/document/d/18jU3jb6pWEo430LN77G8ucuW7IW0bKP9ljnYSyQU13c/edit#heading=h.tjv8u8lx3c02). Currently, the BU consists of Eddie Tejeda (Acting Director) and Britta Gustafson (Acting Deputy Director), with Alex Smith focusing on FISMA compliance and Amber van Amburg on program compliance. Business development and operations are discussed in the #cg-business and #cg-bizops channels, and compliance work (formerly called HighBar) is discussed in #cg-compliance.
 
 ## Kanban process
 
