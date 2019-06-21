@@ -72,6 +72,7 @@ When the feature is basically well-understood at a high level and awaits squad-l
 While implementation is in progress.
 - It should be possible to find the set of stories related to the feature.
 - The feature is tracked against the Program Increment (PI) where we suspect it'll be delivered.
+- This feature has a documented plan for how we'll test the security of this feature (including automated testing).
 ### Security Impact Analysis
 Where we ensure every feature undergoes compliance oversight.
 - We've reviewed the feature for impact according to our [significant change rubric](https://cloud.gov/docs/ops/continuous-monitoring/#appendix-significant-change-rubric).
