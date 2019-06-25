@@ -40,7 +40,7 @@ https://logs-platform.fr.cloud.gov/
 
 - [ ] We exported and uploaded those fresh OWASP ZAP results in XML format to a folder in the folder at https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U
 - [ ] We also grabbed the OWASP ZAP scans in human-readable HTML format and uploaded them to that folder.
-- [ ] We grabbed a fresh set of Nessus scans (both OS and database/RDS) from https://nessus.fr.cloud.gov/ in .nessus format and uploaded the fresh results to a folder in the folder at https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U - requires auth (Cloud Ops or Deputy Director).
+- [ ] We grabbed a fresh set of Nessus scans (both OS and database/RDS; grab all scans except staging) from https://nessus.fr.cloud.gov/ in .nessus format and uploaded the fresh results to a folder in the folder at https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U - requires auth (Cloud Ops or Deputy Director).
 - [ ] We also grabbed the Nessus HTML export - https://docs.tenable.com/nessus/6_8/Content/Exported_Results.htm - for those scans and uploaded them to that folder.
 - [ ] We updated the [POAM Inventory tab](https://docs.google.com/spreadsheets/d/16igVl8cD3SqeX5_SOn5Su34KmwMRnP20gPbfQlqIwfM/edit#gid=2017890110). From tooling and production BOSH, run `python generate-POAM-inventory.py`
 
@@ -70,9 +70,9 @@ We always have to do these tasks:
 Depending on scan results, we sometimes also have to do these tasks:
 
 * For any items that require a monthly checkin with a vendor, Cloud Operations needs to make the appropriate support request to the vendor.
-* File any new failed "compliance check" items as POA&M items, based on the ID number and information from the .nessus Nessus compliance reports/exports (`pluginID="x"` is the ID number; `severity="3"` indicates a moderate finding, for example). These don't show up as vulnerabilities in the HTML or web-based Nessus reports, but they need to be tracked as such.
+* Write Deviation Requests for operational requirements, risk adjustments, and false positives.
 * Update our boards with current info about POAM items and any necessary followup stories about compliance work and related technical work to prepare for the next month's report.
 * Open a PR to update our [ConMon checklist template](https://github.com/18F/cg-product/blob/master/ConMonChecklist.md).
 
 **Acceptance criteria**
--  [ ] We uploaded our files to MAX.gov and emailed relevant FedRAMP team members to let them know that's done
+-  [ ] We uploaded our files to MAX.gov, including our summary sheet
