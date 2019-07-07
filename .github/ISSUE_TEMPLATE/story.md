@@ -19,6 +19,9 @@ In order to [reason/outcome/goal], [someone or "we"] want [a specific change in 
 
 --- 
 
+## Security considerations
+[note any potential changes to security boundaries, practices, documentation, risk that arise directly from this story]
+
 ## Implementation sketch
 [links to background notes, sketches, and/or relevant documentation
 * [ ] [first thing to do]
