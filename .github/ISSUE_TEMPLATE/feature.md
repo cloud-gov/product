@@ -26,6 +26,9 @@ assignees: ''
 
 [list what you would expect to the feature to include in more detail. talk about any critical workflows. For example "cloud.gov should allow users to request and view the options available for an SQS service, create an SQS service instance for their Cloud Foundry space, and associate/disassociate the SQS service instance with one or more apps. When the Cloud Foundry service instance is deleted, the SQS service that was instantiated upon service creation and any credentials issued for bind operations should be deleted as well.""]
 
+### Security considerations
+[note any potential changes to security boundaries, practices, documentation, risk]
+
 ### Notes for implementers
 
 - [Pointers to relevant languages, components, frameworks, prior art/examples, user research, mockups, etc.]
