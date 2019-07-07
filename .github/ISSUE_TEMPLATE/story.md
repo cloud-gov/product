@@ -13,8 +13,8 @@ In order to [reason/outcome/goal], [someone or "we"] want [a specific change in 
 * [ ] GIVEN [a precondition] \
   AND [another precondition]
   WHEN [test step] \
-  AND [test step]
-  THEN [verification step]
+  AND [test step] \
+  THEN [verification step] \
   AND [verification step]
 
 --- 
