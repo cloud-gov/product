@@ -104,11 +104,14 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
   * [ ] Watch [The illustrated Children's Guide to Kubernetes](https://youtu.be/4ht22ReBjno)
   * [ ] Go through the [official tutorial](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
   * [ ] Read the cloud.gov guide for [troubleshooting k8s](https://cloud.gov/docs/ops/runbook/troubleshooting-kubernetes/)
-* [ ] Join [the cloud.gov operations notifications Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-notifications), so you can see alert information if PagerDuty is unavailable
+* [ ] Join [the cloud.gov operations notifications Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-notifications), so you can see alert information if OpsGenie is unavailable
 * Get familiar with our AWS setup
   * [ ] Read about [AWS onboarding](https://cloud.gov/docs/ops/aws-onboarding/)
   * [ ] Read about the [AWS CLI](https://aws.amazon.com/cli/)
 * [ ] Review the [daily maintenance tasks](https://cloud.gov/docs/ops/maintenance-list/) for when you're on support duty
+* [ ] Make sure that OpsGenie will alert you through at least one of these ways:
+  * [ ] Install/configure the app on the phone, go to the app settings, and change the alert for Low-Urgency alerts to actually alert you (make noise, vibrate, etc).
+  * [ ] Make sure that OpsGenie is set up to alert you via email, and make sure that when it sends you an alert, it gets into your inbox, not spam.  If it gets into spam, releasing the spam seems to make it so that future emails will not make it there.
 
 ### Customer-specific items
 
@@ -219,9 +222,6 @@ These items help us fulfill security and compliance requirements (including for 
   * [ ] Nessus Manager GUI
   * [ ] Opsgenie
   * [ ] StatusPage
-* [ ] Make sure that PagerDuty will alert you through at least one of these ways:
-  * [ ] Install/configure the app on the phone, go to the app settings, and change the alert for Low-Urgency alerts to actually alert you (make noise, vibrate, etc).
-  * [ ] Make sure that PagerDuty is set up to alert you via email, and make sure that when it sends you an alert, it gets into your inbox, not spam.  If it gets into spam, releasing the spam seems to make it so that future emails will not make it there.
 * [ ] [Make them an admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) of the platform.
 * [ ] Add them to the `cloud-gov-operators` organization in cloud.gov.
 * [ ] Take them through [AWS onboarding](https://cloud.gov/docs/ops/aws-onboarding/).
