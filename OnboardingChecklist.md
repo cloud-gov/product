@@ -81,9 +81,9 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 
 ### Platform-specific items
 
-* [ ] Review the System Security Plan (the latest version lives on [Google Drive](https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0); look for "cloud.gov System Security Plan (SSP)" as a {{.docx}} file). Of particular note for onboarding: Section 9 (System Description) and Section 10 (System Environment)
+* [ ] Review the System Security Plan (the latest version lives on [Google Drive](https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0); look for "cloud.gov System Security Plan (SSP)" as a `.docx` file). Of particular note for onboarding: Section 9 (System Description) and Section 10 (System Environment)
 * [ ] Bookmark [the Platform kanban board view](https://cm-jira.usa.gov/secure/RapidBoard.jspa?rapidView=1926&view=detail&selectedIssue=CG-107).
-* [ ] Join the {{#cg-platform}} channel on Slack.
+* [ ] Join the `#cg-platform` channel on Slack.
 * Learn about [Cloud Foundry](https://www.cloudfoundry.org/)
   * [ ] Watch [Build Your Own Private Cloud Foundry](https://www.youtube.com/watch?v=v85r4Hy3jbs) to learn about running Cloud Foundry.
   * [ ] Set up Cloud Foundry locally using [cfdev](https://github.com/cloudfoundry-incubator/cfdev) and push an app to it.
@@ -112,7 +112,7 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 
 ### Customer-specific items
 
-* [ ] Join the {{#cg-customer}} channel on Slack.
+* [ ] Join the `#cg-customer` channel on Slack.
 * [ ] Ping @standup-bot for instructions on cg-customer standup.
 * [ ] Review the [Customer board](https://cm-jira.usa.gov/secure/RapidBoard.jspa?rapidView=1929&view=detail&selectedIssue=CG-360).
 * [ ] Bookmark link to [design folder](https://drive.google.com/drive/u/1/folders/0BwLqM4Nicmq-bUt0NjRjclFMUEU).
@@ -123,16 +123,16 @@ For explanations of our theme names, see [this glossary](https://github.com/18F/
 
 ### If developing
 
-* [ ] Review the [dashboard contributing guide](https://github.com/18F/cg-dashboard/blob/master/CONTRIBUTING.md) and [{{cg-style}} standards](https://github.com/18F/cg-style/blob/master/documentation/frontend_standards.md) which help frame what we're looking for in code review.
-* [ ] Set up the [landing/docs page](https://github.com/18F/cg-site), [dashboard](https://github.com/18F/cg-dashboard), and [{{cg-style}}](https://github.com/18F/cg-style) locally.
-* [ ] Set up {{cg-style}} to be [linked to the other sites locally](https://github.com/18F/cg-style#development-and-contributing-setup).
-* [ ] Have a cloud.gov person send the {{cg-dashboard}} testing environment variables through Fugacious.
+* [ ] Review the [dashboard contributing guide](https://github.com/18F/cg-dashboard/blob/master/CONTRIBUTING.md) and [`cg-style` standards](https://github.com/18F/cg-style/blob/master/documentation/frontend_standards.md) which help frame what we're looking for in code review.
+* [ ] Set up the [landing/docs page](https://github.com/18F/cg-site), [dashboard](https://github.com/18F/cg-dashboard), and [`cg-style`](https://github.com/18F/cg-style) locally.
+* [ ] Set up `cg-style` to be [linked to the other sites locally](https://github.com/18F/cg-style#development-and-contributing-setup).
+* [ ] Have a cloud.gov person send the `cg-dashboard` testing environment variables through Fugacious.
 
 ### For review
 
 * [ ] Review the [design principles wiki](https://github.com/18F/cg-product/wiki) which explains the thinking behind the product and where that thinking comes from.
 * [ ] Review the [design principles doc](https://docs.google.com/spreadsheets/d/14Y3RKaLUt6RPX5w13iz7oaSCpojEQ-Wqjnd8Ie_VkCc/edit#gid=259774738) to get a sense of how the cloud.gov team feels about the product.
-* [ ] Review the [{{cg-style}} styleguide](https://pages.18f.gov/cg-style/) to get a sense of the global cloud.gov visual style.
+* [ ] Review the [`cg-style` styleguide](https://pages.18f.gov/cg-style/) to get a sense of the global cloud.gov visual style.
 * [ ] Review the dashboard: current [prod](https://dashboard.fr.cloud.gov/#/), [staging](https://dashboard-staging.app.cloud.gov/#/), and [demo](https://dashboard-demo.app.cloud.gov/#/).
 
 ### Business unit-specific items
@@ -166,13 +166,13 @@ _Note: These are items that do not fall into the boundary of work for a specific
 
 ### Compliance-specific items
 
-* [ ] Join the {{#cg-compliance}} channel on Slack.
+* [ ] Join the `#cg-compliance` channel on Slack.
 * [ ] Watch [Handling FISMA Faster and Better](https://www.youtube.com/watch?v=T1S52B1-NT4) for important context and background on the federal regulatory context in which cloud.gov operates.
 * [ ] Do a cursory read of [Before You Ship](https://pages.18f.gov/before-you-ship/).
 
 ### Services-specific items
 
-* [ ] Join the {{#cg-services}} channel on Slack.
+* [ ] Join the `#cg-services` channel on Slack.
 * [ ] Read about Cloud Foundry [services from a user perspective](http://docs.cloudfoundry.org/devguide/services/).
 * [ ] Read about [implementing services](http://docs.cloudfoundry.org/services/).
 * [ ] Take a look at [our existing brokers](https://github.com/18F?utf8=%E2%9C%93&amp;query=broker).
@@ -223,7 +223,7 @@ These items help us fulfill security and compliance requirements (including for 
   * [ ] Install/configure the app on the phone, go to the app settings, and change the alert for Low-Urgency alerts to actually alert you (make noise, vibrate, etc).
   * [ ] Make sure that PagerDuty is set up to alert you via email, and make sure that when it sends you an alert, it gets into your inbox, not spam.  If it gets into spam, releasing the spam seems to make it so that future emails will not make it there.
 * [ ] [Make them an admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) of the platform.
-* [ ] Add them to the {{cloud-gov-operators}} organization in cloud.gov.
+* [ ] Add them to the `cloud-gov-operators` organization in cloud.gov.
 * [ ] Take them through [AWS onboarding](https://cloud.gov/docs/ops/aws-onboarding/).
 * [ ] Add them to the set of [users in CloudCheckr](https://app.cloudcheckr.com/Users) and make them a member of [the cloud.gov group](https://app.cloudcheckr.com/Admin/UserGroupBuilder/fb111fab-ef5d-48d0-9472-cff691e1bd9c).
 * [ ] Ask #infrastructure to add them to [the cloudgov subteam in Docker Hub](https://hub.docker.com/u/18fgsa/dashboard/teams/?team=cloudgov).
