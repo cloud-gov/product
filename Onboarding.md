@@ -14,7 +14,7 @@ Our Onboarding Checklist helps us fulfill important security and compliance requ
 
 ## How to Tock your time and schedule out-of-office (OOO)
 
-This is in flux. For current guidance see the [How to Tock](https://docs.google.com/document/d/16wGnM2vD9y5nrD3Jhufjc-G1r1cs3lkX2Ny-opYk9do/edit#) Google doc.
+For current guidance see the [How to Tock](https://docs.google.com/document/d/16wGnM2vD9y5nrD3Jhufjc-G1r1cs3lkX2Ny-opYk9do/edit#) Google doc.
 
 For out-of-office time, in addition to the [18F handbook leave guidance](https://handbook.18f.gov/leave/#time-tracking), please:
 
