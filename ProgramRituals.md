@@ -26,8 +26,8 @@ Key recordable outcomes of PI planning should include:
  - PI objectives and risks for the whole program (ideally these get plopped into the "Inspect" presentation template as a first draft for that meeting immediately after PI planning ends) 
 
 These often take the form of:
- - Prioritized high-level features (Favro)
- - Backlog of epics and related stories (Favro)
+ - Prioritized high-level features (Jira)
+ - Backlog of epics and related stories (Jira)
  - Planning Mural (Mural.ly)
 
 

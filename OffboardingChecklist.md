@@ -10,7 +10,7 @@ When someone leaves the cloud.gov team
 4. Replace "LeavingPerson" with the leaving person's name
 5. Submit the issue
 6. Assign the issue to the person who bravely volunteered to handle the person's offboarding
-7. Put the issue into the "In Progress" pipeline in Favro
+7. Put the issue into the "In Progress" pipeline in Jira
 
 ---
 
@@ -27,26 +27,29 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove them as invitees for any meetings on the cloud.gov calendar
 - [ ] Remove them from the cg-supportstream private Slack channel by asking #admins-slack to remove them
 - [ ] If they are leaving 18F, ensure the [18F Handbook exit process](https://handbook.18f.gov/leaving-tts/#offboarding-process) has been kicked off via the 18F talent team
+- [ ] [Request](https://cm-jira.usa.gov/projects/JAT/summary) that their Jira account be removed from the cloud.gov team. (If they're leaving the GSA, request that their account be disabled as well.)
 
 ## System Owner (or person delegated by System Owner)
 - [ ] Remove them from [GitHub teams that start with cloud-gov](https://github.com/orgs/18F/teams?utf8=%E2%9C%93&query=cloud-gov)
 - [ ] Remove them from the [Cloud Foundry Community GitHub org cloud.gov team](https://github.com/orgs/cloudfoundry-community/teams/cloud-gov/members)
 - [ ] Remove their access to Zendesk - [switch their role to "end user"](https://cloud-gov.zendesk.com/agent/admin/people)
 - [ ] Remove their access to [StatusPage](https://manage.statuspage.io/organizations/btc69fwyvjh7/team) - likely have to ask devops@gsa.gov or #infrastructure
-- [ ] Remove their access to [PagerDuty](https://18fi.pagerduty.com/users)
-- [ ] Remove their access to [New Relic](https://rpm.newrelic.com/accounts/907948)
-- [ ] Remove their access to [Favro](https://favro.com/organization/1e11108a2da81e3bd7153a7a/1c6c9af1003b58d597b43ef4?onShow=administration)
+- [ ] Remove their access to [GovDelivery](https://admin.govdelivery.com/administrators)
+- [ ] Remove their access to [Opsgenie](https://cloud-gov.app.opsgenie.com/teams/dashboard/88344f3d-6c06-4517-b7cf-039f0147d8b7/members)
 - [ ] Remove them from [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov/members/active)
 - [ ] Remove them from [the cloud.gov notifications Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-notifications/members/active)
 - [ ] Remove them from [the cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-inquiries/members/active)
 - [ ] Remove them from [the cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-support/members/active)
 - [ ] Remove them from [the cloud.gov emergency Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-emergency/members/active)
 - [ ] Remove them from [the cloud.gov operations Google Group](https://groups.google.com/a/gsa.gov/forum/#!managemembers/cloud-gov-operations/members/active)
+- [ ] Remove them from [our Google Groups for our AWS accounts](https://docs.google.com/document/d/110o1L7EOby3hvE5d-cDhg2LBLHymbZLnMPe9kuk4qp8/edit#) (relevant for PM, Director, and Deputy Director)
 - [ ] Remove them from [Search.gov](https://search.gov/) access for cg-site
 - [ ] Remove them from [Nessus](https://nessus.fr.cloud.gov/#/settings/users)
 
 ## Cloud Operations
 - [ ] Delete the user in all cloud.gov AWS accounts.  There should be info on which AWS accounts you need to look at [here](https://docs.google.com/document/d/110o1L7EOby3hvE5d-cDhg2LBLHymbZLnMPe9kuk4qp8/edit)
+- [ ] Remove them from our Google Cloud Platform (GCP) Projects (by asking Derrick Rogers in GSA IT)
+- [ ] Remove them from [the cloud.gov group](https://app.cloudcheckr.com/Admin/UserGroupBuilder/fb111fab-ef5d-48d0-9472-cff691e1bd9c) in CloudCheckr.
 - [ ] [Remove their access as an admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) on the platform
 - [ ] Remove any privileges that their cloud.gov account has due to membership in the cloud.gov team (even if not in Cloud Ops), such as `admin_ui.user` and `scim.read`
 - [ ] Remove any Org or Space roles that their cloud.gov account holds due to membership in the cloud.gov team (for example, remove them from the `cloud-gov` and `cloud-gov-operators` organizations)

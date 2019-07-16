@@ -8,7 +8,7 @@ Stories progress through these columns (although there is some variation from sq
 - Backlog (when they are sequenced alongside other stories prioritized for attention)
 - Icebox (where they go when they are not planned to get attention any time soon)
 
-*Note that Triage and Icebox lists are typically at the left in Favro. This is because those lists tend to get loooooong. By separating them from the board, it remains easy to scroll around when you have multiple boards in your collection.* 
+*Note that Triage and Icebox lists are typically not represented on our kanban boards. This is because those lists tend to get loooooong. By separating them from the board, it remains easy to scroll around a busy board full of stuff you're actually working on soon.* 
 - Grooming (when they're being refined for implementation)
 - Ready (when they're in a shovel-worthy state, just waiting for team capacity to do the work)
 - In Progress (when someone is actively working on the issue)
@@ -50,8 +50,46 @@ Before advancing a card from one column to the next on the board, it should meet
 Required for compliance: 
 <!-- Security impact analysis is due to CM-3 part b, CM-4 -->
 <!-- New software integration check is due to CM-7 (5) part a -->
+<!-- Security test planning is due to SA-11 part a -->
 
 - If the story is **not** part of a larger feature which has already undergone [Security Impact Analysis](FeatureLifecycle.md#security-impact-analysis), we have applied that same Security Impact Analysis evaluation process for this story and filed any necessary SCR.
+- If necessary, the story includes a security testing plan. For example, the ACs include automated tests and alerts for unexpected behavior.
+
+Here's a card template:
+
+> **Title:** [a short phrase distinguishing this card from other Stories]
+> 
+> In order to [reason/goal], [someone or "we"] want [a specific change in product implementation/behavior]
+> 
+> **Acceptance Criteria:**
+> * [ ] GIVEN [a precondition] \
+>   AND [another precondition]
+>   WHEN [test step] \
+>   AND [test step]
+>   THEN [verification step]
+>   AND [verification step]
+> 
+> **Implementation sketch:**
+> [links to background notes, sketches, and/or relevant documentation
+> * [ ] [first thing to do]
+> * [ ] [another thing to do]
+
+At the end of this stage a typical card will look something like this:
+> **Title:** Fall back to email when alerting's offline
+>
+> In order to ensure we'll still see alerts even when our alerting system goes AWOL, cloud.gov operators want AlertManager to email them when it has problems communicating with PagerDuty.
+>
+> **Acceptance Criteria:**
+> * [ ] GIVEN we deploy a bad the PagerDuty API KEY \
+>   WHEN we trigger an alert \
+>   THEN we see the alert arrive in the cloud-gov-notifications Google Group
+> 
+> **Implementation sketch:**
+> 
+> [AlertManager docs for email](https://prometheus.io/docs/alerting/configuration/#email_config)
+> * [ ] Configure the [...] to [...]
+> * [ ] Verify that [...]
+> * [ ] Make sure that [...]
 
 #### Ready
 
