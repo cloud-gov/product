@@ -27,8 +27,8 @@ We've structured our team into two squads, each centered around a different [the
    - [Board view](https://cm-jira.usa.gov/secure/RapidBoard.jspa?rapidView=1926&projectKey=CG&quickFilter=8141)
 
 - Customer:
-  - Jessyka Castillo, Amirah Aziz, Bret Mogilefsky (PM)
-  - Comm channel: #cg-customer, #cg-nav-news
+  - Jessyka Castillo, Eddie Tejeda
+  - Comm channel: #cg-customer
   - Skills involved: UX research, UI design, service design, content strategy, communications, front-end dev, Python, Ruby, Go, Networking
   - [Board view](https://cm-jira.usa.gov/secure/RapidBoard.jspa?projectKey=CG&rapidView=1929)
 
