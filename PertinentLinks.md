@@ -6,7 +6,8 @@ should be bookmarked and encouraged to check on a regular basis.
 
 #### Non-theme-specific items
 
-- [:cloud:.gov Jira board][jira-all]
+- [ZenHub Story Board][zenhub-story-board]
+
 - [:cloud:.gov Dashboard][cg-dashboard] :lock:
 - [18F Github][github-eighteenf]
 - [:cloud:.gov Repositories][github-eighteenf-cg]
@@ -17,29 +18,17 @@ should be bookmarked and encouraged to check on a regular basis.
 #### Platform-specific items
 
 - [Platform Slack][slack-platform] :lock:
-- [Platform Jira board][jira-platform]
-- [Platform Interrupts Jira board][jira-platform-interrupt]
 - [AWS GovCloud console][aws-fr-console] :lock:
-- [AWS console][aws-console] :lock:
 - [Concourse GovCloud][cg-fr-continuous-integration] :lock:
-- [Concourse][cg-continuous-integration] :lock:
 - [:cloud:.gov Deploy Repositories][github-eighteenf-cg-deploy]
 
 #### Customer-specific items
 
 - [Customer Slack][slack-customer] :lock:
-- [Customer Jira board][jira-customer]
 
 #### BizOps-specific items
 
 - [BizOps Slack][slack-business] :lock:
-- [BizOps Trello board](https://trello.com/b/MSA7McuX/cloudgov-bu)
-
-[jira-all]: https://cm-jira.usa.gov/secure/PortfolioPlanView.jspa?id=138&sid=138#backlog
-[jira-platform]: https://cm-jira.usa.gov/secure/RapidBoard.jspa?rapidView=1926&projectKey=CG&quickFilter=8141
-[jira-platform-interrupt]: https://cm-jira.usa.gov/secure/RapidBoard.jspa?rapidView=1927&projectKey=CG
-[jira-customer]: https://cm-jira.usa.gov/secure/RapidBoard.jspa?projectKey=CG&rapidView=1929
-[favro-business]: https://favro.com/organization/1e11108a2da81e3bd7153a7a/bdd858e991f7f835b0d79ee2
 
 [slack-platform]: https://gsa-tts.slack.com/messages/cg-platform
 [slack-services]: https://gsa-tts.slack.com/messages/cg-services
@@ -56,3 +45,5 @@ should be bookmarked and encouraged to check on a regular basis.
 [github-eighteenf]: http://github.com/18F/
 [github-eighteenf-cg]: https://github.com/search?utf8=✓&q=org%3A18F+cg-&type=Repositories&ref=searchresults
 [github-eighteenf-cg-deploy]: https://github.com/search?utf8=✓&q=org%3A18F+cg-deploy-&type=Repositories&ref=searchresults
+
+[zenhub-story-board]: https://app.zenhub.com/workspaces/cg-story-board-5d217e937454737fd4fcffc8/board
