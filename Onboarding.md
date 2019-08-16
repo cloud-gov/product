@@ -12,9 +12,9 @@ You and your team onboarding buddy must follow the instructions in [the Onboardi
 
 Our Onboarding Checklist helps us fulfill important security and compliance requirements, so each new team member needs to have their own checklist in our issue-tracker to document their progress. This is true even if you're rejoining the cloud.gov team after being in it previously.
 
-## How to Tock your time
+## How to Tock your time and schedule out-of-office (OOO)
 
-How to record time worked for cloud.gov is... not always obvious. We have [a document outlining our current practices](https://docs.google.com/document/d/16wGnM2vD9y5nrD3Jhufjc-G1r1cs3lkX2Ny-opYk9do/edit#).
+We have [a document outlining our current practices](https://docs.google.com/document/d/16wGnM2vD9y5nrD3Jhufjc-G1r1cs3lkX2Ny-opYk9do/edit#).
 
 ## Tools and project artifacts
 
