@@ -18,22 +18,20 @@ To manage our day-to-day work, we practice Scrumban, which means we practice [Ka
 ## Squads
 We've structured our team into two squads, each centered around a different [theme](https://github.com/18F/cg-product#sub-teamsthemes-of-work), and generally working on features under that theme:
 
-- Platform (formerly Atlas/AgentQ):
-  - Ben Berry, Jon Carmack, Hillary Jeffrey, Mike Lloyd
+- Platform
+  - Ben Berry, Jon Carmack, Hillary Jeffrey, Mike Lloyd, Ron Williams
   - Comm channels: #cg-platform, #cg-services, #cg-platform-news
   - Skills involved:
-    - Atlas: SRE skills like Terraform, BOSH, etc.
-    - AgentQ: Clojure, Ruby, Golang, Python, Bash; Linux, Infrastructure, Networking, Automation; Monitoring
-   - [Board view](https://cm-jira.usa.gov/secure/RapidBoard.jspa?rapidView=1926&projectKey=CG&quickFilter=8141)
+    - Platform: SRE skills like Terraform, BOSH, etc.
+    - Support: Clojure, Ruby, Golang, Python, Bash; Linux, Infrastructure, Networking, Automation; Monitoring
 
 - Customer:
   - Jessyka Castillo, Eddie Tejeda
   - Comm channel: #cg-customer
   - Skills involved: UX research, UI design, service design, content strategy, communications, front-end dev, Python, Ruby, Go, Networking
-  - [Board view](https://cm-jira.usa.gov/secure/RapidBoard.jspa?projectKey=CG&rapidView=1929)
 
 ## Business Unit
-cloud.gov's business unit (BU) focuses on business strategy and development, ensuring customer support gets handled, making sure we meet procurement, compliance, and other mandatory reporting requirements, and [related work](https://docs.google.com/document/d/18jU3jb6pWEo430LN77G8ucuW7IW0bKP9ljnYSyQU13c/edit#heading=h.tjv8u8lx3c02). Currently, the BU consists of Eddie Tejeda (Acting Director) and Britta Gustafson (Acting Deputy Director), with Alex Smith focusing on FISMA compliance and Amber van Amburg on program compliance. Business development and operations are discussed in the #cg-business and #cg-bizops channels, and compliance work (formerly called HighBar) is discussed in #cg-compliance.
+cloud.gov's business unit (BU) focuses on business strategy and development, ensuring customer support gets handled, making sure we meet procurement, compliance, and other mandatory reporting requirements, and related work. Currently, the BU consists of Eddie Tejeda (Acting Director) and Ron Williams (Deputy Director). Business development and operations are discussed in the #cg-business channel, and compliance work  is discussed in #cg-compliance.
 
 ## Kanban process
 
