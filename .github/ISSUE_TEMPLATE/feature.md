@@ -10,7 +10,7 @@ assignees: ''
 # What we're after
 [a description of a goal, new capability, or change in the product]
 
-## Hypothesized benefit(s)/why:**
+## Hypothesized benefit(s)/why:
 * [a stakeholder who will benefit and how]
 * [benefit 2]
 * [another feature this would enable]
