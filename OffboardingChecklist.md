@@ -10,7 +10,7 @@ When someone leaves the cloud.gov team
 4. Replace "LeavingPerson" with the leaving person's name
 5. Submit the issue
 6. Assign the issue to the person who bravely volunteered to handle the person's offboarding
-7. Put the issue into the "In Progress" pipeline in Jira
+7. Put the issue into the "In Progress" pipeline in Zenhub
 
 ---
 
@@ -27,7 +27,6 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove them as invitees for any meetings on the cloud.gov calendar
 - [ ] Remove them from the cg-supportstream private Slack channel by asking #admins-slack to remove them
 - [ ] If they are leaving 18F, ensure the [18F Handbook exit process](https://handbook.18f.gov/leaving-tts/#offboarding-process) has been kicked off via the 18F talent team
-- [ ] [Request](https://cm-jira.usa.gov/projects/JAT/summary) that their Jira account be removed from the cloud.gov team. (If they're leaving the GSA, request that their account be disabled as well.)
 
 ## System Owner (or person delegated by System Owner)
 - [ ] Remove them from [GitHub teams that start with cloud-gov](https://github.com/orgs/18F/teams?utf8=%E2%9C%93&query=cloud-gov)
@@ -37,6 +36,7 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove their access to [GovDelivery](https://admin.govdelivery.com/administrators)
 - [ ] Remove their access to [Opsgenie](https://cloud-gov.app.opsgenie.com/teams/dashboard/88344f3d-6c06-4517-b7cf-039f0147d8b7/members)
 - [ ] Remove them from [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov/members/active)
+- [ ] Remove them from [the cloud.gov compliance team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-compliance/members/active)
 - [ ] Remove them from [the cloud.gov notifications Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-notifications/members/active)
 - [ ] Remove them from [the cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-inquiries/members/active)
 - [ ] Remove them from [the cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-support/members/active)
@@ -45,6 +45,8 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove them from [our Google Groups for our AWS accounts](https://docs.google.com/document/d/110o1L7EOby3hvE5d-cDhg2LBLHymbZLnMPe9kuk4qp8/edit#) (relevant for PM, Director, and Deputy Director)
 - [ ] Remove them from [Search.gov](https://search.gov/) access for cg-site
 - [ ] Remove them from [Nessus](https://nessus.fr.cloud.gov/#/settings/users)
+- [ ] Remove them from [HackerOne](https://hackerone.com/)
+
 
 ## Cloud Operations
 - [ ] Delete the user in all cloud.gov AWS accounts.  There should be info on which AWS accounts you need to look at [here](https://docs.google.com/document/d/110o1L7EOby3hvE5d-cDhg2LBLHymbZLnMPe9kuk4qp8/edit)
