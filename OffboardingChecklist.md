@@ -20,7 +20,7 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 **Assignee:** The tasks below are organized by the role needed to complete them. If you can’t complete any of the items on your checklist personally, _you are responsible for ensuring that an appropriate person does it_.
 
 ## LeavingPerson
-- [ ] If you are staying with 18F, `/leave` private Slack channels such as cg-supportstream
+- [ ] If you are staying with 18F, `/leave` private Slack channels such as cg-supportstream, cg-priv-all, and cg-priv-gov
 
 ## Assignee
 - [ ] Remove them from `@cg-team`, `@cg-operators`, and any other `@cg-` teams in the Slack Team Directory [using the three-dot menu (instructions)](https://get.slack.help/hc/en-us/articles/212906697-User-Groups)
