@@ -8,7 +8,7 @@ should be bookmarked and encouraged to check on a regular basis.
 
 - [ZenHub board (project tracking)][zenhub-story-board]
 - [cloud.gov Beta dashboard](https://dashboard-beta.fr.cloud.gov/) :lock:
-- [cloud.gov dashboard][https://dashboard.fr.cloud.gov/] :lock:
+- [cloud.gov dashboard](https://dashboard.fr.cloud.gov/) :lock:
 - [cloud.gov Google Drive folder][cg-drive-folder] :lock:
 - [cloud.gov `cg-site` repository](https://github.com/18F/cg-site/)
 
