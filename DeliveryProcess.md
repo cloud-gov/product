@@ -19,8 +19,8 @@ To manage our day-to-day work, we practice Scrumban, which means we practice [Ka
 We've structured our team into two squads, each centered around a different [theme](https://github.com/18F/cg-product#sub-teamsthemes-of-work), and generally working on features under that theme:
 
 - Platform
-  - Ben Berry, Jon Carmack, Hillary Jeffrey, Mike Lloyd, Ron Williams
-  - Comm channels: #cg-platform, #cg-services, #cg-platform-news
+  - Ben Berry, Hillary Jeffrey, Mike Lloyd, Ron Williams
+  - Comm channels: #cg-platform
   - Skills involved:
     - Platform: SRE skills like Terraform, BOSH, etc.
     - Support: Clojure, Ruby, Golang, Python, Bash; Linux, Infrastructure, Networking, Automation; Monitoring
