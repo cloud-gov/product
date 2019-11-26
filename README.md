@@ -38,8 +38,6 @@ Other notable Slack channels for 18F folk
 
 ## Non-team-specific work
 
-- Services (#cg-services)
-  - The Services theme aims to instantly outfit teams with the key services and capabilities they need to achieve their mission. This includes managed services, route services, and other configurable enhancements that teams can take advantage of to build their apps.
 - Compliance (#cg-compliance)
   - The Compliance theme works on tools and processes that help our team and other teams confidently and routinely exceed high government standard for compliance, security, and accessibility. 
   
