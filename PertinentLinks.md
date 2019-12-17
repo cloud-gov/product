@@ -21,10 +21,11 @@ should be bookmarked and encouraged to check on a regular basis.
 
 #### Platform Operations
 
+- [Developer Documentation GDrive](https://drive.google.com/drive/folders/1-JuCl9WmxjOMPNCUI49srHHuEtkA4BoE)
 - [ZenDesk support tickets](https://cloud-gov.zendesk.com/agent/dashboard) :lock: (SSO)
 - [AWS GovCloud console][aws-fr-console] :lock:
 - [Admin console](https://admin.fr.cloud.gov/) :lock:
-- [Concourse GovCloud][https://ci.fr.cloud.gov/] :lock:
+- [Concourse GovCloud](https://ci.fr.cloud.gov/) :lock:
 - [cloud.gov repositories][github-eighteenf-cg]
 - [cloud.gov deployment repositories][github-eighteenf-cg-deploy]
 
