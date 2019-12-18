@@ -229,3 +229,4 @@ These items help us fulfill security and compliance requirements (including for 
 * [ ] Add them to the set of [users in CloudCheckr](https://app.cloudcheckr.com/Users) and make them a member of [the cloud.gov group](https://app.cloudcheckr.com/Admin/UserGroupBuilder/fb111fab-ef5d-48d0-9472-cff691e1bd9c).
 * [ ] Ask #infrastructure to add them to [the cloudgov subteam in Docker Hub](https://hub.docker.com/u/18fgsa/dashboard/teams/?team=cloudgov).
 * [ ] Give them a walkthrough of cloud.gov from an architecture and repository perspective, focusing on SSP diagrams, external git repository and bosh.io dependencies, and our continuous delivery process with Concourse.
+* [ ] Add them to the [cloud.gov team on Cloud Foundry Community](https://github.com/orgs/cloudfoundry-community/teams/cloud-gov/members)
