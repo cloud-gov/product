@@ -62,3 +62,4 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Ask #infrastructure to remove them from [the cloudgov subteam in Docker Hub](https://hub.docker.com/u/18fgsa/dashboard/teams/?team=cloudgov)
 - [ ] Remove write/push access for NPM - contact #infrastructure to have them removed from https://www.npmjs.com/package/cloudgov-style
 - [ ] Ensure any keys or passwords they had direct access to are rotated
+* [ ]  to the [cloud.gov team on Cloud Foundry Community](https://github.com/orgs/cloudfoundry-community/teams/cloud-gov/members)
