@@ -20,7 +20,7 @@ We have [a document outlining our current practices](https://docs.google.com/doc
 
 Whenever possible, we err on the side of putting data where the public can see it. Some data might be kept in Google Drive for convenience of presentation, commenting, etc. but we consider public GitHub repositories the intended destination whenever possible.
 
-Several tools are used for project management, but the main one you will probably be using is GitHub to submit and merge pull requests and [Jira](https://cm-jira.usa.gov/secure/RapidBoard.jspa?projectKey=CG&rapidView=1929) to manage squad-specific work in kanban boards. We also use Jira for [macro-level cadence and roadmapping](https://cm-jira.usa.gov/secure/PortfolioPlanView.jspa?id=138&sid=138#backlog).
+Several tools are used for project management, but the main one you will probably be using is GitHub to submit and merge pull requests and [ZenHub](https://github.com/18F/cg-product/issues/1164#workspaces/cg-story-board-5d217e937454737fd4fcffc8/board?filterLogic=any&repos=55727091) to manage squad-specific work in kanban boards. 
 
 ## Security/compliance context
 

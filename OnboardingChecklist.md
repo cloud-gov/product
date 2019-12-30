@@ -4,7 +4,7 @@
 
 When someone new joins the cloud.gov team:
 
-1. Create a new card in Trello in the cloud.gov program board assigned to the `Product Management` team called "Ramp up [NewPerson] on cloud.gov team".
+1. Create a new card in the cloud.gov [Zenhub program board](https://github.com/18F/cg-product/issues/1164#workspaces/cg-story-board-5d217e937454737fd4fcffc8/board?filterLogic=any&repos=55727091) team called "Ramp up [NewPerson] on cloud.gov team".
 2. View the raw source of this file.
 3. Copy the text before the checklists to the Description field of the card.
 3. Copy each applicable block of tasks into a its own new task list on the card, replacing "NewPerson" with the new person's name and  "Buddy" with the onboarding buddy's name.
@@ -26,7 +26,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 
 ### Getting to know cloud.gov
 
-* [ ] Take judicious notes on what about this onboarding process or cloud.gov is confusing or frustrating. If you notice a problem (especially with things like documentation), you are more than welcome to fix it! At the very least, please share this information with your buddy (or someone) at some point so we can make the team/platform better. (You can also file issues and pull requests on [the template for Onboarding issues](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md].)
+* [ ] Take judicious notes on what about this onboarding process or cloud.gov is confusing or frustrating. If you notice a problem (especially with things like documentation), you are more than welcome to fix it! At the very least, please share this information with your buddy (or someone) at some point so we can make the team/platform better. (You can also file issues and pull requests on [the template for Onboarding issues](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md)
 * [ ] Figure out who your onboarding buddy is (they should reach out to you) and make sure this issue is assigned to them.
 * [ ] Read [the team onboarding document](https://github.com/18F/cg-product/blob/master/Onboarding.md) for more context about cloud.gov.
 * [ ] Bookmark the [pertinent links listed here](https://github.com/18F/cg-product/blob/master/PertinentLinks.md).
