@@ -137,13 +137,11 @@ Your onboarding buddy should add you to the following private channels:
 ### Business unit-specific items
 
 - [ ] Bookmark the [ZenHub tracking board](https://app.zenhub.com/workspaces/cg-story-board-5d217e937454737fd4fcffc8/board)
-- [ ] Join Slack channels including `#cg-business` and `#cg-product`.
+- [ ] Join Slack channels especially `#cg-business` and `#cg-platform`.
 - [ ] Ask Program Manager or Director to add you to the [cloud-gov-inquiries](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries), [cloud-gov-support](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-support), [cloud-gov-notifications](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-notifications), and [cloud-gov-emergency](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-emergency) groups.
 - [ ] Read [how the cloud-gov-emergency group works](https://docs.google.com/document/d/1O5UW1M-XX8YIZJV1OcF1EqGWjPnNUi7L0mZpJZ6d-cs/edit#), and set up push notifications for these emails from your work smartphone if appropriate for your role.
-- [ ] Ask #admins-salesforce for access to [Salesforce](https://gsa-peo.my.salesforce.com)
-- [ ] In Salesforce, bookmark the [cloud.gov opportunities](https://gsa-peo.lightning.force.com/one/one.app#/sObject/00Ot0000000mFIxEAM/view?t=1484708635668) report
-- [ ] [If not also Cloud Ops] Ask Program Manager or Director for view-only access to [admin UI](https://admin.fr.cloud.gov).
-- [ ] Ask #acquisition for the Acquisition NDA so you can sign it (if you haven't already).
+- [ ] [If not also Cloud Ops], ask Program Manager or Director for view-only access to [admin UI](https://admin.fr.cloud.gov).
+- [ ] Ask `#acquisition` for the Acquisition NDA so you can sign it, if you haven't already.
 - [ ] [If not also Cloud Ops] If appropriate for your role, ask for access to billing info in commercial AWS account from Program Manager or Director.
 - [ ] Review the primary cloud.gov sites: [the dashboard](https://dashboard.cloud.gov/#/), [main landing page](https://cloud.gov/), and [documentation](https://cloud.gov/docs/).
 - [ ] Bookmark link to [design folder](https://drive.google.com/drive/u/1/folders/0BwLqM4Nicmq-bUt0NjRjclFMUEU).
