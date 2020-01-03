@@ -54,20 +54,20 @@ Pre-requisites:
 
 Ensure you know what's happening on the team:
 
-- [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&amp;ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various squads. Tip: When you plan Out of Office time, make a calendar event for that on the cloud.gov calendar so that your teammates know you'll be away.
-- [ ] Subscribe (through the GitHub watch function) to the [cg-site](https://github.com/18F/cg-site) GitHub repository notifications.
-- [ ] Ask Program Manager or Director for access to the cg-supportstream Slack channel.
+- [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&amp;ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various squads. Tip: When you plan Out of Office time, make a calendar event for that on the cloud.gov calendar so that your teammates know you'll be away
+- [ ] Subscribe (through the GitHub watch function) to the [cg-site](https://github.com/18F/cg-site) GitHub repository notifications
+- [ ] Ask Director or Deputy Director to be added to the `#cg-supportstream` Slack channel
 
 Learn our policies and procedures:
 
 - [ ] Coordinate with your onboarding buddy to go through [Incident Response Training](https://docs.google.com/presentation/d/1AZjQE8zBzMRWZIFUuJPkJLted1ykGtALrLPoPRx5Vls/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following document, which you should also review before or after training:
-- [ ] Read the [Incident Response Guide](https://cloud.gov/docs/ops/security-ir/).
+- [ ] Read the [Incident Response Guide](https://cloud.gov/docs/ops/security-ir/)
 - [ ] Coordinate with your onboarding buddy to go through [nonpublic information training](https://docs.google.com/presentation/d/1uB4MlGCu8ZYUxjKVZKwicQ95MvLxaT4Mh93y6w79GPw/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following documents, which you should also review before or after training:
-- [ ] Review the [18F open source policy guidance about protecting sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information).
-  - [ ] Read our [sharing secret keys](https://cloud.gov/docs/ops/secrets/#sharing-secret-keys) policy.
-  - [ ] Review the [18F requirements for password management](https://handbook.18f.gov/password-requirements/).
+- [ ] Review the [18F open source policy guidance about protecting sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information)
+  - [ ] Read our [sharing secret keys](https://cloud.gov/docs/ops/secrets/#sharing-secret-keys) policy
+  - [ ] Review the [18F requirements for password management](https://handbook.18f.gov/password-requirements/)
 - [ ] If you're Cloud Ops or Business Unit: Coordinate with your onboarding buddy to go through Contingency Planning training within 10 days (and annually after that). This will cover the following document, which you should also review before or after training:
-- [ ] Read the [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/).
+- [ ] Read the [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/)
 
 Read the following documents as well, which explain our practices in a formal written way. Reach out to your buddy or the team if anything is unexpected or confusing.
 - [ ] Read the [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), particularly the [cloud.gov team responsibilities](https://cloud.gov/docs/ops/continuous-monitoring/#cloud-gov-team).
@@ -138,18 +138,18 @@ Your onboarding buddy should add you to the following private channels:
 
 - [ ] Bookmark the [ZenHub tracking board](https://app.zenhub.com/workspaces/cg-story-board-5d217e937454737fd4fcffc8/board)
 - [ ] Join Slack channels especially `#cg-business` and `#cg-platform`.
-- [ ] Ask Program Manager or Director to add you to the [cloud-gov-inquiries](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries), [cloud-gov-support](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-support), [cloud-gov-notifications](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-notifications), and [cloud-gov-emergency](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-emergency) groups.
+- [ ] Ask Director or Deputy Director to add you to the [cloud-gov-inquiries](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries), [cloud-gov-support](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-support), [cloud-gov-notifications](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-notifications), and [cloud-gov-emergency](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-emergency) groups.
 - [ ] Read [how the cloud-gov-emergency group works](https://docs.google.com/document/d/1O5UW1M-XX8YIZJV1OcF1EqGWjPnNUi7L0mZpJZ6d-cs/edit#), and set up push notifications for these emails from your work smartphone if appropriate for your role.
-- [ ] [If not also Cloud Ops], ask Program Manager or Director for view-only access to [admin UI](https://admin.fr.cloud.gov).
+- [ ] [If not also Cloud Ops], ask Director or Deputy Director for view-only access to [admin UI](https://admin.fr.cloud.gov).
 - [ ] Ask `#acquisition` for the Acquisition NDA so you can sign it, if you haven't already.
-- [ ] [If not also Cloud Ops] If appropriate for your role, ask for access to billing info in commercial AWS account from Program Manager or Director.
+- [ ] [If not also Cloud Ops] If appropriate for your role, ask for access to billing info in commercial AWS account from Director or Deputy Director.
 - [ ] Review the primary cloud.gov sites: [the dashboard](https://dashboard.cloud.gov/#/), [main landing page](https://cloud.gov/), and [documentation](https://cloud.gov/docs/).
 - [ ] Bookmark link to [design folder](https://drive.google.com/drive/u/1/folders/0BwLqM4Nicmq-bUt0NjRjclFMUEU).
 - [ ] Read and bookmark our [Google Doc on cloud.gov Analytics](https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit)
 - [ ] [Request access to 18F Google Analytics](https://handbook.18f.gov/google-analytics/), so you can view cloud.gov site analytics ([including for the dashboard](https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit)).
 - [ ] Also request access to [Google Tag Manager](https://tagmanager.google.com/) which we mostly use to manage event tracking in Google Analytics.
-- [ ] Ask the Program Manager for an invite to a DigitalGov Search account for cg-site, so you can configure it and view analytics for the most common searches.
-- [ ] Ask the Program Manager for access to [GovDelivery](https://admin.govdelivery.com/administrators) so you can send announcements to our mailing lists
+- [ ] Ask the Director or Deputy Director for an invite to a DigitalGov Search account for cg-site, so you can configure it and view analytics for the most common searches.
+- [ ] Ask the Director or Deputy Director for access to [GovDelivery](https://admin.govdelivery.com/administrators) so you can send announcements to our mailing lists
 
 ### If developing
 
@@ -171,9 +171,9 @@ Your onboarding buddy should add you to the following private channels:
 - [ ] Ask previous Director to give you Owner access to Nessus Manager (this requires the current primary contact access to Nessus, and then the owner of the license key also needs to change to the new director so that the new director can reset license keys - lastly, the new director needs to be made the primary contact).
 - [ ] Ask previous Director to give you Owner access in Zendesk.
 - [ ] Ask previous Director to give you [AWS account ownership](https://cloud.gov/docs/ops/aws-onboarding/) for GovCloud.
-- [ ] Ask Program Manager or previous Director to give you cloud.gov calendar ownership.
-- [ ] Ask Program Manager or previous Director to give you owner permission on the Google Groups. This should include [our Google Groups for our AWS accounts](https://docs.google.com/document/d/110o1L7EOby3hvE5d-cDhg2LBLHymbZLnMPe9kuk4qp8/edit#).
-- [ ] Ask Program Manager or previous Director to let TTS Infrastructure know you are the new technical contact for cloud.gov.
+- [ ] Ask System Owner or previous Director to give you cloud.gov calendar ownership.
+- [ ] Ask System Owner or previous Director to give you owner permission on the Google Groups. This should include [our Google Groups for our AWS accounts](https://docs.google.com/document/d/110o1L7EOby3hvE5d-cDhg2LBLHymbZLnMPe9kuk4qp8/edit#).
+- [ ] Ask System Owner or previous Director to let TTS Infrastructure know you are the new technical contact for cloud.gov.
 - [ ] Ask Cloud Ops for read-write access to Admin UI.
 - [ ] Review the [GSA Information Technology (IT) Security Policy](https://insite.gsa.gov/portal/content/520281) to understand our responsibilities as part of GSA.
 - [ ] Review the [cloud.gov System Security Plan version 1.33](https://drive.google.com/drive/folders/0B6fPl5s12igNX3JwR2xFZVpmek0).
@@ -204,7 +204,7 @@ _Note: These are items that do not fall into the boundary of work for a specific
 - [ ] Identify a straightforward, well-groomed story in progress that involves their skills domain, schedule a meeting with the owner for an introduction (if it's not you), and setup pairing sessions several times in the first week on the project.
 - [ ] Identify a straightforward, well-groomed first story, ideally something they could conceivably complete in their first two/three weeks using their existing skills. Discuss the context with them, then make them the assignee for the card.
 - [ ] Discuss suggestions for how the onboarding experience could have been improved and open as PRs on [the onboarding template](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md).
-- [ ] Ask the Program Manager or Director to add the person to [Zendesk](https://cloud-gov.zendesk.com), so they can see how we handle support and read technical discussions happening with outside groups.
+- [ ] Ask the Director or Deputy Director to add the person to [Zendesk](https://cloud-gov.zendesk.com), so they can see how we handle support and read technical discussions happening with outside groups.
 - [ ] Invite them to the private Slack channel `#cg-supportstream`, used for Zendesk integration to post and discuss new support tickets.
 
 ## Required items for all team members
@@ -222,8 +222,8 @@ These items help us fulfill security and compliance requirements (including for 
 ## Platform-specific required items
 
 - [ ] Help them review and understand the responsibilities of becoming a Cloud Operations team member, as listed in our SSP.
-- [ ] Ask the Program Manager or System Owner to have them added to the [@18F/cloud-gov-ops](https://github.com/orgs/18F/teams/cloud-gov-ops) team on GitHub. -(For contractors: Confirm they have cleared GSA security review before doing this one!)-
-- [ ] If the new person is a contractor, ask the Program Manager (Britta) or System Owner to have them added to the [@18F/cloud-gov-contractors](https://github.com/orgs/18F/teams/cloud-gov-contractors) team on GitHub.
+- [ ] Ask the System Owner to have them added to the [@18F/cloud-gov-ops](https://github.com/orgs/18F/teams/cloud-gov-ops) team on GitHub. -(For contractors: Confirm they have cleared GSA security review before doing this one!)-
+- [ ] If the new person is a contractor, ask the System Owner to have them added to the [@18F/cloud-gov-contractors](https://github.com/orgs/18F/teams/cloud-gov-contractors) team on GitHub.
 - [ ] Add them to @cg-operators [in Slack’s User Groups](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group).
 - Grant them access to the following:
   - [ ] [AWS Accounts](https://cloud.gov/docs/ops/aws-onboarding/) via the AWS web console (not Terraform) and provide one-time credentials.
