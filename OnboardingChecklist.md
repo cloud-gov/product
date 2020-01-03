@@ -149,21 +149,14 @@ Your onboarding buddy should add you to the following private channels:
 - [ ] [Request access to 18F Google Analytics](https://handbook.18f.gov/google-analytics/), so you can view cloud.gov site analytics ([including for the dashboard](https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit)).
 - [ ] Also request access to [Google Tag Manager](https://tagmanager.google.com/) which we mostly use to manage event tracking in Google Analytics.
 - [ ] Ask the Director or Deputy Director for an invite to a DigitalGov Search account for cg-site, so you can configure it and view analytics for the most common searches.
-- [ ] Ask the Director or Deputy Director for access to [GovDelivery](https://admin.govdelivery.com/administrators) so you can send announcements to our mailing lists
+- [ ] Review the dashboard: current [prod](https://dashboard.fr.cloud.gov/#/), [staging](https://dashboard-staging.app.cloud.gov/#/), and [beta](https://dashboard-beta.cloud.gov/#/).
 
-### If developing
+### If developing or working on cloud.gov site content
 
 - [ ] Review the [dashboard contributing guide](https://github.com/18F/cg-dashboard/blob/master/CONTRIBUTING.md) and [`cg-style` standards](https://github.com/18F/cg-style/blob/master/documentation/frontend_standards.md) which help frame what we're looking for in code review
 - [ ] Set up the [landing/docs page](https://github.com/18F/cg-site), [dashboard](https://github.com/18F/cg-dashboard), and [`cg-style`](https://github.com/18F/cg-style) locally
 - [ ] Set up `cg-style` to be [linked to the other sites locally](https://github.com/18F/cg-style#development-and-contributing-setup)
 - [ ] For additional development environment setup, see [setting up a local development environment](https://cloud.gov/docs/ops/setting-up-a-local-development-environment/), which contains setup instructions for GSA Macs
-
-### For review
-
-- [ ] Review the [design principles wiki](https://github.com/18F/cg-product/wiki) which explains the thinking behind the product and where that thinking comes from.
-- [ ] Review the [design principles doc](https://docs.google.com/spreadsheets/d/14Y3RKaLUt6RPX5w13iz7oaSCpojEQ-Wqjnd8Ie_VkCc/edit#gid=259774738) to get a sense of how the cloud.gov team feels about the product.
-- [ ] Review the [`cg-style` styleguide](https://pages.18f.gov/cg-style/) to get a sense of the global cloud.gov visual style.
-- [ ] Review the dashboard: current [prod](https://dashboard.fr.cloud.gov/#/), [staging](https://dashboard-staging.app.cloud.gov/#/), and [beta](https://dashboard-beta.cloud.gov/#/).
 
 ### New Director (System Owner) items
 
