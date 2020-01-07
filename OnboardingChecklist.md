@@ -5,6 +5,7 @@
 When someone new joins the cloud.gov team:
 
 1. Create a new card in the [cg-private Github repo](https://github.com/18F/cg-private/issues/) called "Onboard [NewPerson]".
+  * Use of a private repo helps satisfy AC-2, that we have officially added a person to our team before further onboarding.
 2. View the raw source of this file.
 3. Copy the text before the checklists to the Description field of the card.
 3. Copy each applicable block of tasks into a its own new task list on the card, replacing "NewPerson" with the new person's name and  "Buddy" with the onboarding buddy's name.
