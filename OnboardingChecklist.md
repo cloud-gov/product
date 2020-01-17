@@ -171,13 +171,21 @@ Your onboarding buddy should add you to the following private channels:
 - [ ] Review the [GSA Information Technology (IT) Security Policy](https://insite.gsa.gov/portal/content/520281) to understand our responsibilities as part of GSA.
 - [ ] Review the [cloud.gov System Security Plan version 1.33](https://drive.google.com/drive/folders/0B6fPl5s12igNX3JwR2xFZVpmek0).
 
+### New Compliance Lead items
+
+- [ ] Join the `#fedramp-partners` channel on Slack
+- [ ] Join the `#infrastructure` channel on Slack and introduce yourself to the TTS Tech Portfolio folks
+- [ ] Peruse the Platform-Ops-specific items to gain better understanding of the platform 
+- [ ] Peruse all materials, especially the SSP, in the `cloud.gov / Security and Compliance` area of Drive
+- [ ] Join the TTS [HackerOne](https://hackerone.com) account
+
 ### Non team-specific items
 
 _Note: These are items that do not fall into the boundary of work for a specific team. However, please consult your onboarding buddy to verify that your work relates to these items prior doing these two checklists._
 
 ### Compliance-specific items
 
-- [ ] Join the `#cg-compliance` channel on Slack.
+- [ ] Join the `#cg-security-compliance` channel on Slack.
 - [ ] Watch [Handling FISMA Faster and Better](https://www.youtube.com/watch?v=T1S52B1-NT4) for important context and background on the federal regulatory context in which cloud.gov operates.
 - [ ] Do a cursory read of [Before You Ship](https://pages.18f.gov/before-you-ship/).
 
@@ -226,6 +234,7 @@ These items help us fulfill security and compliance requirements (including for 
   - Note: AWS user names should be identical across accounts so that permissions can be correctly managed by terraform
   - [ ] Google Cloud Platform (GCP) Projects (by asking Derrick Rogers in GSA IT)
   - [ ] Nessus Manager GUI
+  - [ ] [HackerOne](https://hackerone.com)
   - [ ] Opsgenie
   - [ ] StatusPage
 - [ ] [Make them an admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) of the platform.
