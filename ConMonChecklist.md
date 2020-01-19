@@ -42,7 +42,7 @@ https://logs-platform.fr.cloud.gov/
 - [ ] We also grabbed the OWASP ZAP scans in human-readable HTML format and uploaded them to that folder.
 - [ ] We grabbed a fresh set of Nessus scans (both OS and database/RDS; grab all scans except staging) from https://nessus.fr.cloud.gov/ in .nessus format and uploaded the fresh results to a folder in the folder at https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U - requires auth (Cloud Ops or Deputy Director).
 - [ ] We also grabbed the Nessus HTML export - https://docs.tenable.com/nessus/6_8/Content/Exported_Results.htm - for those scans and uploaded them to that folder.
-- [ ] We updated the [POAM Inventory tab](https://docs.google.com/spreadsheets/d/16igVl8cD3SqeX5_SOn5Su34KmwMRnP20gPbfQlqIwfM/edit#gid=2017890110). From tooling and production BOSH, run `python generate-POAM-inventory.py`
+- [ ] We updated the [POAM Inventory sheet](https://docs.google.com/spreadsheets/d/1_9Neq8fGO4NdQhsqLXDn445g3GUa1k_FZUrUXc7hulY/edit#gid=1371600163) that's in the [same folder](https://drive.google.com/drive/folders/0BynIxtx-CfkdcjVfTlkxZ3FQWjg) as the POAMs. From tooling and production BOSH, run `python generate-POAM-inventory.py`
 
 
 1. Open the Google sheet, paste the output from the above command, replacing the existing contents
@@ -75,4 +75,5 @@ Depending on scan results, we sometimes also have to do these tasks:
 * Open a PR to update our [ConMon checklist template](https://github.com/18F/cg-product/blob/master/ConMonChecklist.md).
 
 **Acceptance criteria**
--  [ ] We uploaded our files to MAX.gov, including our summary sheet
+-  [ ] We uploaded our POA+M summary to MAX.gov
+-  [ ] We uploaded our Inventory sheet to MAX.gov 
