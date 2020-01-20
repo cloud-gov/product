@@ -178,6 +178,7 @@ Your onboarding buddy should add you to the following private channels:
 - [ ] Peruse the Platform-Ops-specific items to gain better understanding of the platform 
 - [ ] Peruse all materials, especially the SSP, in the `cloud.gov / Security and Compliance` area of Drive
 - [ ] Join the TTS [HackerOne](https://hackerone.com) account
+- [ ] Get added to [the cloud.gov compliance team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-compliance/members/active)
 
 ### Non team-specific items
 
