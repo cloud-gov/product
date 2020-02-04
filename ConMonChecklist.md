@@ -75,5 +75,6 @@ Depending on scan results, we sometimes also have to do these tasks:
 * Open a PR to update our [ConMon checklist template](https://github.com/18F/cg-product/blob/master/ConMonChecklist.md).
 
 **Acceptance criteria**
--  [ ] We uploaded our POA+M summary to MAX.gov
--  [ ] We uploaded our Inventory sheet to MAX.gov 
+-  [ ] We uploaded our POA+M summary to MAX.gov https://community.max.gov/display/FedRAMPExternal/18F+Continuous+Monitoring 'POA&M and Inventory' folder
+-  [ ] We uploaded our Inventory sheet to MAX.gov  https://community.max.gov/display/FedRAMPExternal/18F+Continuous+Monitoring 'POA&M and Inventory' folder
+-  [ ] We uploaded our Nessus and OWASP scan results to MAX.gov to https://community.max.gov/display/FedRAMPExternal/18F+Vulnerability+Scans
