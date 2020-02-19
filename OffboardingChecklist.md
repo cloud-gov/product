@@ -4,7 +4,7 @@
 
 When someone leaves the cloud.gov team
 
-1. Create a new issue called "Remove [person's name]".
+1. Create a new issue in the private team repo called "Remove [person's name]".
 2. View the raw source of this file
 3. Copy everything below the line into the new issue's body
 4. Replace "LeavingPerson" with the leaving person's name
@@ -30,14 +30,13 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove them from the [squad list](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md#squads)
 - [ ] In the [training tracker](https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0): if they're staying at 18F, move them to the "former teammates" tab; if they're leaving 18F, delete them from the spreadsheet
 - [ ] Remove them as invitees for any meetings on the cloud.gov calendar where they are specifically named
-    - Invites where they are listed as part of the `cloud.gov` invitee group will be removed when they are removed from that group
-- [ ] If they are leaving TTS, ensure the [TTS Handbook exit process](https://handbook.18f.gov/leaving-tts/#offboarding-process) has been kicked off via the Talent team
+    - Invites where they are listed as part of the `cloud.gov` invitee group will be removed when they are removed from that group by the System Owner
 - [ ] If they are leaving GSA, ask `#admins-slack` to convert them to a single-channel alumni user
 
 ## System Owner (or person delegated by System Owner)
 - [ ] Remove them from [GitHub teams that start with cloud-gov](https://github.com/orgs/18F/teams?utf8=%E2%9C%93&query=cloud-gov)
 - [ ] Remove them from the [Cloud Foundry Community GitHub org cloud.gov team](https://github.com/orgs/cloudfoundry-community/teams/cloud-gov/members)
-- [ ] Remove their access to Zendesk - [switch their role to "end user"](https://cloud-gov.zendesk.com/agent/admin/people)
+- [ ] Remove their agent access to Zendesk - [switch their role to "end user"](https://cloud-gov.zendesk.com/agent/admin/people)
 - [ ] Remove their access to [GovDelivery](https://admin.govdelivery.com/administrators)
 - [ ] Remove their access to [Opsgenie](https://cloud-gov.app.opsgenie.com/settings/users/)
 - [ ] Remove them from [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov/members/active)
@@ -50,7 +49,6 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove them from [our Google Groups for our AWS accounts](https://docs.google.com/document/d/110o1L7EOby3hvE5d-cDhg2LBLHymbZLnMPe9kuk4qp8/edit#) (relevant for PM, Director, and Deputy Director)
 - [ ] Remove them from [Search.gov](https://search.gov/) access for cg-site
 - [ ] Remove them from [Nessus](https://nessus.fr.cloud.gov/#/settings/users)
-- [ ] Remove them from [HackerOne](https://hackerone.com/)
 
 ## Cloud Operations
 - [ ] Remove them from [the cloud.gov group](https://app.cloudcheckr.com/Admin/UserGroupBuilder/fb111fab-ef5d-48d0-9472-cff691e1bd9c) in CloudCheckr
@@ -62,11 +60,12 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Remove any Org or Space roles that their cloud.gov account holds due to membership in the cloud.gov team (for example, remove them from the `cloud-gov` and `cloud-gov-operators` organizations)
 - [ ] Confirm the System Owner (or person delegated by System Owner) has removed them from all GitHub teams
 - [ ] Ensure any keys or passwords they had direct access to are rotated
-* [ ]  to the [cloud.gov team on Cloud Foundry Community](https://github.com/orgs/cloudfoundry-community/teams/cloud-gov/members)
 
 ## Coordinate with #Infrastructure
-In the #infrastructure channel, request to:
-- [ ] Remove their access to [StatusPage](https://manage.statuspage.io/organizations/btc69fwyvjh7/team) (can alternatively contact devops@gsa.gov)
+In the #infrastructure channel, request that Infrastructure:
+- [ ] Remove their access to [StatusPage](https://manage.statuspage.io/organizations/btc69fwyvjh7/team) 
+    - Alternatively, contact devops@gsa.gov
 - [ ] Remove them from [the cloudgov subteam in Docker Hub](https://hub.docker.com/u/18fgsa/dashboard/teams/?team=cloudgov)
-- [ ] Remove write/push access for NPM from https://www.npmjs.com/package/cloudgov-style
+- [ ] Remove write/push access for NPM from [cloudgov-style](https://www.npmjs.com/package/cloudgov-style)
+- [ ] Remove them from [HackerOne](https://hackerone.com/)
 
