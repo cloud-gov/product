@@ -34,6 +34,7 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] If they are leaving GSA, ask `#admins-slack` to convert them to a single-channel alumni user
 
 ## System Owner (or person delegated by System Owner)
+- [ ] Remove them from the [cloud.gov Github organization](https://github.com/orgs/cloud-gov/people)
 - [ ] Remove them from [GitHub teams that start with cloud-gov](https://github.com/orgs/18F/teams?utf8=%E2%9C%93&query=cloud-gov)
 - [ ] Remove them from the [Cloud Foundry Community GitHub org cloud.gov team](https://github.com/orgs/cloudfoundry-community/teams/cloud-gov/members)
 - [ ] Remove their agent access to Zendesk - [switch their role to "end user"](https://cloud-gov.zendesk.com/agent/admin/people)
