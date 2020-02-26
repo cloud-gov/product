@@ -1,4 +1,11 @@
-## Run [month] [year] ConMon scans
+---
+name: Run ConMon Scans
+title: 'Run [month] [year] ConMon scans'
+about: INTERNAL ONLY schedule conmon runs
+labels: compliance
+assignees: ''
+
+---
 
 In order for us to update the JAB on our compliance in a consistent way, we need to run Continuous Monitoring scans on approximately the 23rd of the month. (If this date falls on a weekend or federal holiday, adjust to the last business day before the date.)
 

@@ -1,4 +1,12 @@
-## Deliver [month] [year] ConMon scans by [due date]
+---
+name: Deliver ConMon Scans
+title: 'Deliver [month] [year] ConMon results by [due date]'
+about: INTERNAL ONLY deliver conmon results
+labels: compliance
+assignees: ''
+
+---
+
 
 In order for us to update the JAB on our compliance in a consistent way, we need to deliver a Continuous Monitoring report on [due date]. (our standard due date is the 2nd of the month. If these dates fall on a weekend or federal holiday, adjust to the last business day before the date.)
 
