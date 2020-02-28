@@ -62,11 +62,10 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] Confirm the System Owner (or person delegated by System Owner) has removed them from all GitHub teams
 - [ ] Ensure any keys or passwords they had direct access to are rotated
 
-## Coordinate with #Infrastructure
-In the #infrastructure channel, request that Infrastructure:
-- [ ] Remove their access to [StatusPage](https://manage.statuspage.io/organizations/btc69fwyvjh7/team) 
-    - Alternatively, contact devops@gsa.gov
-- [ ] Remove them from [the cloudgov subteam in Docker Hub](https://hub.docker.com/u/18fgsa/dashboard/teams/?team=cloudgov)
-- [ ] Remove write/push access for NPM from [cloudgov-style](https://www.npmjs.com/package/cloudgov-style)
-- [ ] Remove them from [HackerOne](https://hackerone.com/)
+## Done by #Infrastructure
+As part of TTS offboarding, Infrastructure will automatically:
+- Remove their access to [StatusPage](https://manage.statuspage.io/organizations/btc69fwyvjh7/team) 
+- Remove them from [the cloudgov subteam in Docker Hub](https://hub.docker.com/u/18fgsa/dashboard/teams/?team=cloudgov)
+- Remove write/push access for NPM from [cloudgov-style](https://www.npmjs.com/package/cloudgov-style)
+- Remove them from [HackerOne](https://hackerone.com/)
 
