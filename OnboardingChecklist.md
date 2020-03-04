@@ -4,6 +4,7 @@
 
 When someone new joins the cloud.gov team:
 
+1. The cloud.gov director or deputy director adds the new team member to the `cloud-gov` team in GitHub. This constitutes 'formal approval` by leadership and enables access to to the [cg-private GitHub repo](https://github.com/18f/cg-private) for the next step
 1. Create a new card in the [cg-private Github repo](https://github.com/18F/cg-private/issues/) called "Onboard [NewPerson]".
   * Use of a private repo helps satisfy AC-2, that we have officially added a person to our team before further onboarding.
 2. View the raw source of this file.
