@@ -186,7 +186,7 @@ _Note: These are items that do not fall into the boundary of work for a specific
 
 ### Compliance-specific items
 
-- [ ] Join the `#cg-security-compliance` channel on Slack.
+- [ ] Join the `#g-security-compliance` channel on Slack for general TTS compliance and security discussions.
 - [ ] Watch [Handling FISMA Faster and Better](https://www.youtube.com/watch?v=T1S52B1-NT4) for important context and background on the federal regulatory context in which cloud.gov operates.
 - [ ] Do a cursory read of [Before You Ship](https://pages.18f.gov/before-you-ship/).
 
