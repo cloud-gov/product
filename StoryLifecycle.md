@@ -28,6 +28,8 @@ Our team utilizes four swimlanes to manage our work.
 
 **Entrance**: Team members move stories/issues to the close swimlane once the work is complete (satisfy the acceptance criteria) OR stories/issues are no longer relevant or a priority.
 
+Related controls: CM-4, CM-9, CM-11, SC-18
+
 
 
 
