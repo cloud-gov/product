@@ -29,7 +29,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 ### Getting to know cloud.gov
 
 - [ ] Take judicious notes on what about this onboarding process or cloud.gov is confusing or frustrating. If you notice a problem (especially with things like documentation), you are more than welcome to fix it! At the very least, please share this information with your buddy (or someone) at some point so we can make the team/platform better. (You can also file issues and pull requests on [the template Onboarding checklist](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md].)
-- [ ] Figure out who your onboarding buddy is (they should reach out to you) and make sure this issue is assigned to them in our [ZenHub tracking board](https://app.zenhub.com/workspaces/cg-story-board-5d217e937454737fd4fcffc8/board).
+- [ ] Figure out who your onboarding buddy is (they should reach out to you) and make sure this issue is assigned to them in our [Github Project board](https://github.com/orgs/cloud-gov/projects/2).
 - [ ] Read [the team onboarding document](https://github.com/18F/cg-product/blob/master/Onboarding.md) for more context about cloud.gov.
 - [ ] Bookmark the [pertinent links listed here](https://github.com/18F/cg-product/blob/master/PertinentLinks.md).
 - [ ] Read the ["cloud.gov: What is it?"](https://docs.google.com/presentation/d/1nCcti3dXG9TVGW3OqaWtnf96oXX8U8SBTM_WePFO_dg/edit#slide=id.p) presentation for a rundown of what cloud.gov is and does (specifically read slides 1-37; the rest are somewhat outdated)
@@ -39,7 +39,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] [Sign up for a cloud.gov account with your GSA email address](https://cloud.gov/signup/).
 - [ ] [Deploy a sample application to cloud.gov](https://cloud.gov/quickstart/) to get familiar with the basics of the PaaS from a user's perspective.
 - [ ] Read the [Delivery Process document](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) to learn about how we work.
-- [ ] We use a [ZenHub tracking board](https://app.zenhub.com/workspaces/cg-story-board-5d217e937454737fd4fcffc8/board) to combine some Github repositories for [managing story lifecycles](https://github.com/18F/cg-product/blob/master/StoryLifecycle.md).
+- [ ] We use a [Github Projects tracking board](https://github.com/orgs/cloud-gov/projects/2) to combine some Github repositories for [managing story lifecycles](https://github.com/18F/cg-product/blob/master/StoryLifecycle.md).
 - [ ] Read our [service disruption guide](https://cloud.gov/docs/ops/service-disruption-guide/) to learn how we handle customer-facing service disruptions.
 - [ ] Join [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov) so you can participate in team-wide internal communication.
 - [ ] Join the [cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries) so you can keep apprised of prospective new clients.
@@ -138,7 +138,7 @@ Your onboarding buddy should add you to the following private channels:
 
 ### Business unit-specific items
 
-- [ ] Bookmark the [ZenHub tracking board](https://app.zenhub.com/workspaces/cg-story-board-5d217e937454737fd4fcffc8/board)
+- [ ] Bookmark the [Github Project board](https://github.com/orgs/cloud-gov/projects/2)
 - [ ] Join Slack channels especially `#cg-business` and `#cg-platform`.
 - [ ] Ask Director or Deputy Director to add you to the [cloud-gov-inquiries](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries), [cloud-gov-support](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-support), [cloud-gov-notifications](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-notifications), and [cloud-gov-emergency](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-emergency) groups.
 - [ ] Read [how the cloud-gov-emergency group works](https://docs.google.com/document/d/1O5UW1M-XX8YIZJV1OcF1EqGWjPnNUi7L0mZpJZ6d-cs/edit#), and set up push notifications for these emails from your work smartphone if appropriate for your role.
