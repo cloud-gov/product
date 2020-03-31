@@ -98,11 +98,11 @@ Your onboarding buddy should add you to the following private channels:
 
 ## Role-specific items
 
-### Platform-Ops-specific items
+### Platform-Ops- and compliance-specific items
 
 - [ ] Review the System Security Plan (the latest version lives on [Google Drive](https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0); look for "cloud.gov System Security Plan (SSP)" as a `.docx` file). Of particular note for onboarding: Section 9 (System Description) and Section 10 (System Environment)
 - [ ] Join the `#cg-platform`, `#cg-platform-news`, and `#cg-support` channels on Slack.
-- [ ] Bookmark the [ZenHub tracking board](https://app.zenhub.com/workspaces/cg-story-board-5d217e937454737fd4fcffc8/board)
+- [ ] Bookmark the [GitHub Projects Board](https://github.com/orgs/cloud-gov/projects/2)
 - [ ] Add the [Developer Docs Google Drive folder](https://drive.google.com/drive/folders/1-JuCl9WmxjOMPNCUI49srHHuEtkA4BoE) to your Google Drive - these docs serve as supplemental documentation to the [cloud.gov site Team Documentation section](https://cloud.gov/docs/ops/repos/)
 - [ ] Learn about [setting up a local development environment](https://cloud.gov/docs/ops/setting-up-a-local-development-environment/), which contains setup instructions for GSA Macs for the rest of these software items
 - Learn about [Cloud Foundry](https://www.cloudfoundry.org/)
@@ -214,26 +214,28 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] Ask one of our cloud-gov team Github Maintainers to add them to the [@18F/cloud.gov team](https://github.com/orgs/18F/teams/cloud-gov) on GitHub.
 - [ ] Invite the new person to `#cg-priv-all` and if applicable `#cg-priv-gov`
 
-## Platform-specific required items
+## Platform- and compliance-specific required items
 
-- [ ] Help them review and understand the responsibilities of becoming a Cloud Operations team member, as listed in our SSP.
-- [ ] Ask the System Owner to have them added to the [@18F/cloud-gov-ops](https://github.com/orgs/18F/teams/cloud-gov-ops) team on GitHub. -(For contractors: Confirm they have cleared GSA security review before doing this one!)-
-- [ ] If the new person is a contractor, ask the System Owner to have them added to the [@18F/cloud-gov-contractors](https://github.com/orgs/18F/teams/cloud-gov-contractors) team on GitHub.
-- [ ] Add them to @cg-operators [in Slack’s User Groups](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group).
+For compliance lead, add only where (*C: y*) or (*C: _special instructions_*) appears
+
+- [ ] Help them review and understand the responsibilities of becoming a Cloud Operations team member, as listed in our SSP. (*C: y*)
+- [ ] Ask the System Owner to have them added to the [@18F/cloud-gov-ops](https://github.com/orgs/18F/teams/cloud-gov-ops) team on GitHub. -(For contractors: Confirm they have cleared GSA security review before doing this one!)- (*C: y*)
+- [ ] If the new person is a contractor, ask the System Owner to have them added to the [@18F/cloud-gov-contractors](https://github.com/orgs/18F/teams/cloud-gov-contractors) team on GitHub. (*C: no, not applicable*)
+- [ ] Add them to @cg-operators [in Slack’s User Groups](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group). (*C: no*)
 - Grant them access to the following:
-  - [ ] [AWS Accounts](https://cloud.gov/docs/ops/aws-onboarding/) via the AWS web console (not Terraform) and provide one-time credentials.
-  - [ ] AWS GovCloud
-  - [ ] AWS East tied to GovCloud
-  - [ ] AWS Admin Access
+  - [ ] [AWS Accounts](https://cloud.gov/docs/ops/aws-onboarding/) via the AWS web console (not Terraform) and provide one-time credentials. (*C: security auditor*)
+  - [ ] AWS GovCloud (*C: security auditor* )
+  - [ ] AWS East tied to GovCloud (*C: security auditor*)
+  - [ ] AWS Admin Access (*C: consult with compliance lead*)
   - Note: AWS user names should be identical across accounts so that permissions can be correctly managed by terraform
   - [ ] Google Cloud Platform (GCP) Projects (by asking Derrick Rogers in GSA IT)
-  - [ ] Nessus Manager GUI
-  - [ ] Opsgenie
-  - [ ] StatusPage
-- [ ] [Make them an admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) of the platform.
-- [ ] Add them to the `cloud-gov-operators` organization in cloud.gov.
-- [ ] Take them through [AWS onboarding](https://cloud.gov/docs/ops/aws-onboarding/).
-- [ ] Add them to the set of [users in CloudCheckr](https://app.cloudcheckr.com/Users) and make them a member of [the cloud.gov group](https://app.cloudcheckr.com/Admin/UserGroupBuilder/fb111fab-ef5d-48d0-9472-cff691e1bd9c).
-- [ ] Ask `#infrastructure` to add them to [the cloudgov subteam in Docker Hub](https://hub.docker.com/u/18fgsa/dashboard/teams/?team=cloudgov).
-- [ ] Give them a walkthrough of cloud.gov from an architecture and repository perspective, focusing on SSP diagrams, external git repository and bosh.io dependencies, and our continuous delivery process with Concourse.
-- [ ] Add them to the [cloud.gov team on Cloud Foundry Community](https://github.com/orgs/cloudfoundry-community/teams/cloud-gov/members)
+  - [ ] Nessus Manager GUI (*C: y*)
+  - [ ] Opsgenie (*C: y*)
+  - [ ] StatusPage (*C: y*)
+- [ ] [Make them an admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) of the platform. (*C: not yet, pending updates to cg-scripts for audit role*)
+- [ ] Add them to the `cloud-gov-operators` organization in cloud.gov. (*C: not yet, pending creation of cloud-gov-auditors` role*)
+- [ ] Take them through [AWS onboarding](https://cloud.gov/docs/ops/aws-onboarding/). (*C: y*)
+- [ ] Add them to the set of [users in CloudCheckr](https://app.cloudcheckr.com/Users) and make them a member of [the cloud.gov group](https://app.cloudcheckr.com/Admin/UserGroupBuilder/fb111fab-ef5d-48d0-9472-cff691e1bd9c). (*C: y*)
+- [ ] Ask `#infrastructure` to add them to [the cloudgov subteam in Docker Hub](https://hub.docker.com/u/18fgsa/dashboard/teams/?team=cloudgov). (*C: no*)
+- [ ] Give them a walkthrough of cloud.gov from an architecture and repository perspective, focusing on SSP diagrams, external git repository and bosh.io dependencies, and our continuous delivery process with Concourse. (*C: y*)
+- [ ] Add them to the [cloud.gov team on Cloud Foundry Community](https://github.com/orgs/cloudfoundry-community/teams/cloud-gov/members) (*C: y*)
