@@ -19,6 +19,8 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 # Directions:
 **Assignee:** The tasks below are organized by the role needed to complete them. If you can’t complete any of the items on your checklist personally, _you are responsible for ensuring that an appropriate person does it_.
 
+For compliance tracking purposes we need to show _when_ offboarding actions happened; many need to occur in a 24-hour window. As you do this work, comment on this GitHub issue as you complete each task. (PS-4: Personnel termination)
+
 ## LeavingPerson
 - [ ] Initiate the process via the [Leaving TTS Handbook page](https://handbook.18f.gov/leaving-tts/)
 - [ ] On your last day, `/leave` private Slack channels such as `#cg-supportstream`, `#cg-priv-all`, and `#cg-priv-gov`
@@ -31,7 +33,6 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 - [ ] In the [training tracker](https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0): if they're staying at 18F, move them to the "former teammates" tab; if they're leaving 18F, delete them from the spreadsheet
 - [ ] Remove them as invitees for any meetings on the cloud.gov calendar where they are specifically named
     - Invites where they are listed as part of the `cloud.gov` invitee group will be removed when they are removed from that group by the System Owner
-- [ ] If they are leaving GSA, ask `#admins-slack` to convert them to a single-channel alumni user
 
 ## System Owner (or person delegated by System Owner)
 - [ ] Remove them from the [cloud.gov Github organization](https://github.com/orgs/cloud-gov/people)
@@ -68,4 +69,5 @@ As part of TTS offboarding, Infrastructure will automatically:
 - Remove them from [the cloudgov subteam in Docker Hub](https://hub.docker.com/u/18fgsa/dashboard/teams/?team=cloudgov)
 - Remove write/push access for NPM from [cloudgov-style](https://www.npmjs.com/package/cloudgov-style)
 - Remove them from [HackerOne](https://hackerone.com/)
+- If they are leaving GSA, ask `#admins-slack` to convert them to a single-channel alumni user
 
