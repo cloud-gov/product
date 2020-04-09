@@ -19,7 +19,7 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 # Directions:
 **Assignee:** The tasks below are organized by the role needed to complete them. If you can’t complete any of the items on your checklist personally, _you are responsible for ensuring that an appropriate person does it_.
 
-For compliance tracking purposes, please comment in the Github when you remove permissions.
+For compliance tracking purposes we need to show _when_ offboarding actions happened; many need to occur in a 24-hour window. As you do this work, comment on this GitHub issue as you complete each task. (PS-4: Personnel termination)
 
 ## LeavingPerson
 - [ ] Initiate the process via the [Leaving TTS Handbook page](https://handbook.18f.gov/leaving-tts/)
