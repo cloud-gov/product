@@ -20,7 +20,7 @@ In order to complete LeavingPerson's exit from the cloud.gov team, the assignee 
 
 **Assignee:** The tasks below are organized by the role needed to complete them. If you can’t complete any of the items on your checklist personally, _you are responsible for ensuring that an appropriate person does it_.
 
-For compliance we need to show _when_ offboarding actions happened; critical ones, tagged `PS-4` need to occur within 24 hours of their departure (completing tasks _before_ their departure is good). As you do this work, **comment on this GitHub issue** as you complete each task. (PS-4: Personnel termination)
+For compliance we need to show that critical offboarding actions happen within 24 hours of departure; some actions below **need GitHub issues comments** when completed. Completing tasks _before_ departure is good. (control PS-4: personnel termination) 
 
 ## LeavingPerson
 
@@ -39,12 +39,13 @@ For compliance we need to show _when_ offboarding actions happened; critical one
 
 ## System Owner (or person delegated by System Owner)
 
-**All these are critical to PS-4 and need timestamps**
+**All these are critical to PS-4 and need timestamps:**
 
-- [ ] Discuss with departee the following _information security topics_:
+- [ ] Exit interview: Discuss with departee the following _information security topics_:
   - They are to remove any non-public cloud.gov data (e.g. keys, passwords, code, documents) from any non-GSA device
   - They are not to disclose any non-public cloud.gov technical practices without authorization from GSA
   - They will not access cloud.gov systems or services without authorization from GSA
+  - If the System Owner cannot hold this discussion, they will communicate to GSA OHRM that the above topics need to be communicated to the leaving person.
 - [ ] Remove them from the [cloud.gov Github organization](https://github.com/orgs/cloud-gov/people)
 - [ ] Remove them from [GitHub teams that start with cloud-gov](https://github.com/orgs/18F/teams?utf8=%E2%9C%93&query=cloud-gov)
 - [ ] Remove them from the [Cloud Foundry Community GitHub org cloud.gov team](https://github.com/orgs/cloudfoundry-community/teams/cloud-gov/members)
@@ -53,7 +54,7 @@ For compliance we need to show _when_ offboarding actions happened; critical one
 - [ ] Remove their access to [Opsgenie](https://cloud-gov.app.opsgenie.com/settings/users/)
 - [ ] Remove them from [Search.gov](https://search.gov/) access for cg-site
 
-**The following are internal and don't need timestamps**:
+**The following also need timestamps, _unless_ the leaving person is losing GSA SecureAuth access:**
 
 - [ ] Remove them from [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov/members/active)
 - [ ] Remove them from [the cloud.gov compliance team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-compliance/members/active)
@@ -72,11 +73,13 @@ For compliance we need to show _when_ offboarding actions happened; critical one
 - [ ] Delete the user in all cloud.gov AWS accounts.  There should be info on which AWS accounts you need to look at [here](https://docs.google.com/document/d/110o1L7EOby3hvE5d-cDhg2LBLHymbZLnMPe9kuk4qp8/edit)
 - [ ] Remove them from our Google Cloud Platform (GCP) Projects by emailing Derrick Rogers in GSA IT
 - [ ] Remove them from [the cloud.gov group](https://app.cloudcheckr.com/Admin/UserGroupBuilder/fb111fab-ef5d-48d0-9472-cff691e1bd9c) in CloudCheckr
-
 - [ ] [Remove their access as an admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) on the platform
 - [ ] Remove any privileges that their cloud.gov account has due to membership in the cloud.gov team (even if not in Cloud Ops), such as `admin_ui.user` and `scim.read`
     - [ ] Verify these permissions have been removed using the [cg-scripts validate-admins.sh](https://github.com/18F/cg-scripts/blob/master/validate-admins.sh) run from a jumpbox
 - [ ] Remove any Org or Space roles that their cloud.gov account holds due to membership in the cloud.gov team (for example, remove them from the `cloud-gov` and `cloud-gov-operators` organizations)
+
+**These can happen the first business day after departure:**
+
 - [ ] Confirm the System Owner (or person delegated by System Owner) has removed them from all GitHub teams
 - [ ] Ensure any keys or passwords they had direct access to are rotated
 
