@@ -101,7 +101,7 @@ Your onboarding buddy should add you to the following private channels:
 ### Platform-Ops- and compliance-specific items
 
 - [ ] Install `caulking` git leak prevention by following the [README](https://github.com/cloud-gov/caulking/blob/master/README.md)
-= [ ] Verify `caulking` by running `make audit` and pasting a screenshot as a comment on this GitHub issue
+- [ ] Verify `caulking` by running `make audit` and pasting a screenshot as a comment on this GitHub issue
 - [ ] Review the System Security Plan (the latest version lives on [Google Drive](https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0); look for "cloud.gov System Security Plan (SSP)" as a `.docx` file). Of particular note for onboarding: Section 9 (System Description) and Section 10 (System Environment)
 - [ ] Join the `#cg-platform`, `#cg-platform-news`, and `#cg-support` channels on Slack.
 - [ ] Bookmark the [GitHub Projects Board](https://github.com/orgs/cloud-gov/projects/2)
