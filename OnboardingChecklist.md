@@ -153,7 +153,8 @@ Your onboarding buddy should add you to the following private channels:
 - [ ] [Request access to 18F Google Analytics](https://handbook.18f.gov/google-analytics/), so you can view cloud.gov site analytics ([including for the dashboard](https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit)).
 - [ ] Also request access to [Google Tag Manager](https://tagmanager.google.com/) which we mostly use to manage event tracking in Google Analytics.
 - [ ] Ask the Director or Deputy Director for an invite to a DigitalGov Search account for cg-site, so you can configure it and view analytics for the most common searches.
-- [ ] Review the dashboard: current [prod](https://dashboard.fr.cloud.gov/#/), [staging](https://dashboard-staging.app.cloud.gov/#/), and [beta](https://dashboard-beta.cloud.gov/#/).
+- [ ] Review the Stratos dashboard:https://cloud.gov/docs/orgs-spaces/roles/#adding-users-outside-of-your-organization
+
 
 ### If developing or working on cloud.gov site content
 
