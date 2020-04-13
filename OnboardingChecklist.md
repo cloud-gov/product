@@ -4,8 +4,8 @@
 
 When someone new joins the cloud.gov team:
 
-1. The cloud.gov director or deputy director adds the new team member to the `cloud-gov` team in GitHub. This constitutes 'formal approval` by leadership and enables access to to the [cg-private GitHub repo](https://github.com/18f/cg-private) for the next step
-1. Create a new card in the [cg-private Github repo](https://github.com/18F/cg-private/issues/) called "Onboard [NewPerson]".
+1. The cloud.gov director or deputy director adds the new team member to the `cloud-gov` team in GitHub. This constitutes 'formal approval` by leadership and enables access to to the [cg-private GitHub repo](https://github.com/cloud-gov/private) for the next step
+1. Create a new card in the [cg-private Github repo](https://github.com/cloud-gov/private/issues) called "Onboard [NewPerson]".
   * Use of a private repo helps satisfy AC-2, that we have officially added a person to our team before further onboarding.
 2. View the raw source of this file.
 3. Copy the text before the checklists to the Description field of the card.
@@ -28,23 +28,23 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 
 ### Getting to know cloud.gov
 
-- [ ] Take judicious notes on what about this onboarding process or cloud.gov is confusing or frustrating. If you notice a problem (especially with things like documentation), you are more than welcome to fix it! At the very least, please share this information with your buddy (or someone) at some point so we can make the team/platform better. (You can also file issues and pull requests on [the template Onboarding checklist](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md].)
+- [ ] Take judicious notes on what about this onboarding process or cloud.gov is confusing or frustrating. If you notice a problem (especially with things like documentation), you are more than welcome to fix it! At the very least, please share this information with your buddy (or someone) at some point so we can make the team/platform better. (You can also file issues and pull requests on [the template Onboarding checklist](https://github.com/cloud-gov/product/blob/master/OnboardingChecklist.md).
 - [ ] Figure out who your onboarding buddy is (they should reach out to you) and make sure this issue is assigned to them in our [Github Project board](https://github.com/orgs/cloud-gov/projects/2).
-- [ ] Read [the team onboarding document](https://github.com/18F/cg-product/blob/master/Onboarding.md) for more context about cloud.gov.
-- [ ] Bookmark the [pertinent links listed here](https://github.com/18F/cg-product/blob/master/PertinentLinks.md).
+- [ ] Read [the team onboarding document](https://github.com/cloud-gov/product/blob/master/Onboarding.md) for more context about cloud.gov.
+- [ ] Bookmark the [pertinent links listed here](https://github.com/cloud-gov/product/blob/master/PertinentLinks.md).
 - [ ] Read the ["cloud.gov: What is it?"](https://docs.google.com/presentation/d/1nCcti3dXG9TVGW3OqaWtnf96oXX8U8SBTM_WePFO_dg/edit#slide=id.p) presentation for a rundown of what cloud.gov is and does (specifically read slides 1-37; the rest are somewhat outdated)
 - [ ] Read through [the Overview section of our site](https://cloud.gov/overview/) for a broader understanding of cloud.gov, especially how we present it to potential customers and users.
 - [ ] Read the [January 2016 cloud.gov "Executive Business Case" document](https://docs.google.com/document/d/138OcG0Lt6gr9J0wM0TzzPNyTROmYAwfLIDujtweiwGw/edit#) for greater context about cloud.gov's potential impact in government.
 - [ ] Read the [House Oversight and Government Reform Committee (July 12 2017) document](https://docs.google.com/document/d/1kDJdaPw7DSBPSa-XH-YsQpJVOmRKSK8sAghNhPFpegE/edit) for official answers to important questions such as "Why would agencies use cloud.gov instead of building their own?"
 - [ ] [Sign up for a cloud.gov account with your GSA email address](https://cloud.gov/signup/).
 - [ ] [Deploy a sample application to cloud.gov](https://cloud.gov/quickstart/) to get familiar with the basics of the PaaS from a user's perspective.
-- [ ] Read the [Delivery Process document](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) to learn about how we work.
-- [ ] We use a [Github Projects tracking board](https://github.com/orgs/cloud-gov/projects/2) to combine some Github repositories for [managing story lifecycles](https://github.com/18F/cg-product/blob/master/StoryLifecycle.md).
+- [ ] Read the [Delivery Process document](https://github.com/cloud-gov/product/blob/master/DeliveryProcess.md) to learn about how we work.
+- [ ] We use a [Github Projects tracking board](https://github.com/orgs/cloud-gov/projects/2) to combine some Github repositories for [managing story lifecycles](https://github.com/cloud-gov/product/blob/master/StoryLifecycle.md).
 - [ ] Read our [service disruption guide](https://cloud.gov/docs/ops/service-disruption-guide/) to learn how we handle customer-facing service disruptions.
 - [ ] Join [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov) so you can participate in team-wide internal communication.
 - [ ] Join the [cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries) so you can keep apprised of prospective new clients.
 - [ ] Add the [cloud.gov Google Drive folder](https://drive.google.com/drive/folders/0Bx6EvBXVDWwheUtVckVnOE1pRzA) to your Google Drive -- that's where we put cloud.gov docs. If you create or move a doc there, it'll get the right access permissions for team members to be able to view and edit it.
-- [ ] Once you've finished the checklists below, make suggestions for steps that would have improved your onboarding experience as pull requests on [the onboarding checklist template](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md) used to make this issue.
+- [ ] Once you've finished the checklists below, make suggestions for steps that would have improved your onboarding experience as pull requests on [the onboarding checklist template](https://github.com/cloud-gov/product/blob/master/OnboardingChecklist.md) used to make this issue.
 
 ### Required items for all team members
 
@@ -57,7 +57,7 @@ Pre-requisites:
 Ensure you know what's happening on the team:
 
 - [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&amp;ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various squads. Tip: When you plan Out of Office time, make a calendar event for that on the cloud.gov calendar so that your teammates know you'll be away
-- [ ] Subscribe (through the GitHub watch function) to the [cg-site](https://github.com/18F/cg-site) GitHub repository notifications
+- [ ] Subscribe (through the GitHub watch function) to the [cg-site](https://github.com/cloud-gov/cg-site) GitHub repository notifications
 - [ ] Ask Director or Deputy Director to be added to the `#cg-supportstream` Slack channel
 
 Learn our policies and procedures:
@@ -118,7 +118,7 @@ Your onboarding buddy should add you to the following private channels:
 - [ ] Get to know how UAA is deployed/integrated
 - Get familiar with [Terraform](https://www.terraform.io/)
   - [ ] Go through the [getting started guide](https://www.terraform.io/intro/getting-started/install.html)
-  - [ ] Examine [our provisioning procedures](https://github.com/18F/cg-provision)
+  - [ ] Examine [our provisioning procedures](https://github.com/cloud-gov/cg-provision)
 - Learn about [Concourse](https://concourse.ci/)
   - [ ] Try a [tutorial](https://github.com/starkandwayne/concourse-tutorial).
   - [ ] Check out our [staging](https://ci.fr-stage.cloud.gov/) and [production](https://ci.fr.cloud.gov) Concourse instances, and take a look at some of [our pipelines](https://github.com/search?q=org%3A18F+cg-deploy).
@@ -157,9 +157,9 @@ Your onboarding buddy should add you to the following private channels:
 
 ### If developing or working on cloud.gov site content
 
-- [ ] Review the [dashboard contributing guide](https://github.com/18F/cg-dashboard/blob/master/CONTRIBUTING.md) and [`cg-style` standards](https://github.com/18F/cg-style/blob/master/documentation/frontend_standards.md) which help frame what we're looking for in code review
-- [ ] Set up the [landing/docs page](https://github.com/18F/cg-site), [dashboard](https://github.com/18F/cg-dashboard), and [`cg-style`](https://github.com/18F/cg-style) locally
-- [ ] Set up `cg-style` to be [linked to the other sites locally](https://github.com/18F/cg-style#development-and-contributing-setup)
+- [ ] Review the [dashboard contributing guide](https://github.com/cloud-gov/cg-dashboard/blob/master/CONTRIBUTING.md) and [`cg-style` standards](https://github.com/cloud-gov/cg-style/) which help frame what we're looking for in code review
+- [ ] Set up the [landing/docs page](https://github.com/cloud-gov/cg-site), [dashboard](https://github.com/cloud-gov/cg-dashboard), and [`cg-style`](https://github.com/cloud-gov/cg-style) locally
+- [ ] Set up `cg-style` to be [linked to the other sites locally](https://github.com/cloud-gov/cg-style#development-and-contributing-setup)
 - [ ] For additional development environment setup, see [setting up a local development environment](https://cloud.gov/docs/ops/setting-up-a-local-development-environment/), which contains setup instructions for GSA Macs
 
 ### New Director (System Owner) items
@@ -189,7 +189,7 @@ _Note: These are items that do not fall into the boundary of work for a specific
 
 - [ ] Read about Cloud Foundry [services from a user perspective](http://docs.cloudfoundry.org/devguide/services/).
 - [ ] Read about [implementing services](http://docs.cloudfoundry.org/services/).
-- [ ] Take a look at [our existing brokers](https://github.com/18F?utf8=%E2%9C%93&amp;query=broker).
+- [ ] Take a look at [our existing brokers](https://github.com/cloud-gov?q=broker).
 - [ ] Learn about [Concourse](https://concourse.ci/)
   - [ ] Try a [tutorial|https://github.com/starkandwayne/concourse-tutorial].
   - [ ] Check out our [staging](https://ci.fr-stage.cloud.gov/) and [production](https://ci.fr.cloud.gov) Concourse instances, and take a look at some of [our pipelines](https://github.com/search?q=org%3A18F+cg-deploy).
@@ -200,7 +200,7 @@ _Note: These are items that do not fall into the boundary of work for a specific
 - [ ] Introduce yourself to the new team member and give them some of your background so they know who you are.
 - [ ] Identify a straightforward, well-groomed story in progress that involves their skills domain, schedule a meeting with the owner for an introduction (if it's not you), and setup pairing sessions several times in the first week on the project.
 - [ ] Identify a straightforward, well-groomed first story, ideally something they could conceivably complete in their first two/three weeks using their existing skills. Discuss the context with them, then make them the assignee for the card.
-- [ ] Discuss suggestions for how the onboarding experience could have been improved and open as PRs on [the onboarding template](https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md).
+- [ ] Discuss suggestions for how the onboarding experience could have been improved and open as PRs on [the onboarding template](https://github.com/cloud-gov/product/blob/master/OnboardingChecklist.md).
 - [ ] Ask the Director or Deputy Director to add the person to [Zendesk](https://cloud-gov.zendesk.com), so they can see how we handle support and read technical discussions happening with outside groups.
 - [ ] Invite them to the private Slack channel `#cg-supportstream`, used for Zendesk integration to post and discuss new support tickets.
 
