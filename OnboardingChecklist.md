@@ -2,7 +2,7 @@
 
 ## Instructions
 
-When someone new joins the cloud.gov team:
+When someone new joins the cloud.gov team: 
 
 1. The cloud.gov director or deputy director adds the new team member to the `cloud-gov` team in GitHub. This constitutes 'formal approval` by leadership and enables access to to the [cg-private GitHub repo](https://github.com/cloud-gov/private) for the next step
 1. Create a new card in the [cg-private Github repo](https://github.com/cloud-gov/private/issues) called "Onboard [NewPerson]".
@@ -33,7 +33,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Read [the team onboarding document](https://github.com/cloud-gov/product/blob/master/Onboarding.md) for more context about cloud.gov.
 - [ ] Bookmark the [pertinent links listed here](https://github.com/cloud-gov/product/blob/master/PertinentLinks.md).
 - [ ] Read the ["cloud.gov: What is it?"](https://docs.google.com/presentation/d/1nCcti3dXG9TVGW3OqaWtnf96oXX8U8SBTM_WePFO_dg/edit#slide=id.p) presentation for a rundown of what cloud.gov is and does (specifically read slides 1-37; the rest are somewhat outdated)
-- [ ] Read through [the Overview section of our site](https://cloud.gov/overview/) for a broader understanding of cloud.gov, especially how we present it to potential customers and users.
+- [ ] Read through [the Overview section of our site](https://cloud.gov/docs/overview/what-is-cloudgov/) for a broader understanding of cloud.gov, especially how we present it to potential customers and users.
 - [ ] Read the [January 2016 cloud.gov "Executive Business Case" document](https://docs.google.com/document/d/138OcG0Lt6gr9J0wM0TzzPNyTROmYAwfLIDujtweiwGw/edit#) for greater context about cloud.gov's potential impact in government.
 - [ ] Read the [House Oversight and Government Reform Committee (July 12 2017) document](https://docs.google.com/document/d/1kDJdaPw7DSBPSa-XH-YsQpJVOmRKSK8sAghNhPFpegE/edit) for official answers to important questions such as "Why would agencies use cloud.gov instead of building their own?"
 - [ ] [Sign up for a cloud.gov account with your GSA email address](https://cloud.gov/signup/).
