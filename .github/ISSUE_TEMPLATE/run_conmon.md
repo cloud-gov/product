@@ -17,7 +17,7 @@ Check that you have the [latest stable version of ZAP](https://www.zaproxy.org/d
 ```
 https://ci.fr.cloud.gov/
 https://dashboard.fr.cloud.gov/
-http://dashboard-beta.fr.cloud.gov/
+https://dashboard-deprecated.fr.cloud.gov/
 https://account.fr.cloud.gov/
 https://cloud.gov/
 https://idp.fr.cloud.gov/
