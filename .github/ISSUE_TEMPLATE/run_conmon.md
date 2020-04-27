@@ -11,7 +11,7 @@ In order for us to update the JAB on our compliance in a consistent way, we need
 
 For context, see our [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), including [the monthly reporting summary explanation](https://cloud.gov/docs/ops/continuous-monitoring/#monthly-reporting-summary). 
 
-Check that you have the [latest stable version of ZAP](https://github.com/zaproxy/zaproxy/wiki/Downloads).
+Check that you have the [latest stable version of ZAP](https://www.zaproxy.org/download/) or install via Homebrew with `brew cask install owasp-zap`.
 
 - [ ] We ran OWASP ZAP on the following domains using steps #1-6 of the manual scanning instructions at https://before-you-ship.18f.gov/security/dynamic-scanning/#scanning - spider and active after getting authenticated through the browser:
 ```
