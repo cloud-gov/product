@@ -25,7 +25,7 @@ ZAP scans take hours. We recommend you start in the morning. There are two separ
 
 - Load the cloud.gov context into ZAP (File > Import Context)
      
-- You have to log in to each site in the context list so that ZAP can scan inside the authenticated websites. You have to be on the VPN. In Firefox, log in to each site in the context list. You can see the list by clicking the `cloug.gov common` context > Include in Context.
+- You have to log in to each site in the context list so that ZAP can scan inside the authenticated websites. You have to be on the VPN. In Firefox, log in to each site in the context list. You can see the list by clicking the `cloud.gov common` context > Include in Context.
 
 - To prevent getting noise in the scan results (since that causes major confusion when the FedRAMP team processes the ConMon report), review the `Sites` list to ensure only the cloud.gov sites have a small red circle/sight on them (denoting the site will be included). Remove any sites not needed by CTRL-clicking on them and selecting `Delete`.
 
@@ -62,4 +62,3 @@ A python script is used to generate the inventory list.
 - Paste the contents in the spreadsheet by selecting the first cell in row 3 then pasting with CTRL-Shift-V to paste without formatting. Then select the paste icon that appears and click `Split text to columns`
 
 - [ ] Verify you have pasted the inventory for both production and tooling.
-
