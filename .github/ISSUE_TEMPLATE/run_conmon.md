@@ -31,7 +31,7 @@ ZAP scans take hours. We recommend you start in the morning. There are two separ
 
 - CTRL-click on the `cloug.gov common` context and run the `Spider` scan.  This takes a little less than an hour.
 
-- After the `Spider` scan is complete, again CTRL-click on the `cloug.gov common` context and this time run the `Active Scan`. This takes at least 4-5 hours, minimum.
+- After the `Spider` scan is complete, again CTRL-click on the `cloud.gov common` context and this time run the `Active Scan`. This takes at least 4-5 hours, minimum.
 
 - After both scans are complete, export the results as both XML and HTML from the `Reports` menu. Name the files according to `YYYYMMDD-ZAP.xml/html`.
 
