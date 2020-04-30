@@ -29,7 +29,7 @@ ZAP scans take hours. We recommend you start in the morning. There are two separ
 
 - To prevent getting noise in the scan results (since that causes major confusion when the FedRAMP team processes the ConMon report), review the `Sites` list to ensure only the cloud.gov sites have a small red circle/sight on them (denoting the site will be included). Remove any sites not needed by CTRL-clicking on them and selecting `Delete`.
 
-- CTRL-click on the `cloug.gov common` context and run the `Spider` scan.  This takes a little less than an hour.
+- CTRL-click on the `cloud.gov common` context and run the `Spider` scan.  This takes a little less than an hour.
 
 - After the `Spider` scan is complete, again CTRL-click on the `cloud.gov common` context and this time run the `Active Scan`. This takes at least 4-5 hours, minimum.
 
