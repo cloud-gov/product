@@ -57,7 +57,7 @@ A python script is used to generate the inventory list.
 
 - Delete the data rows (starting at row 3)
 
-- For the tooling and production jumpboxes, run `python3 cg-scripts/generate-POAM-inventory.py`. This will output CVS. Copy the entire CSV output.
+- For the tooling and production jumpboxes, login to each of them and from the initial home directory you start in, run `python3 cg-scripts/generate-POAM-inventory.py`. This will output data to your terminal window in CSV format. Copy the entire CSV output.
 
 - Paste the contents in the spreadsheet by selecting the first cell in row 3 then pasting with CTRL-Shift-V to paste without formatting. Then select the paste icon that appears and click `Split text to columns`
 
