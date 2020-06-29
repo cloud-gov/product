@@ -56,7 +56,6 @@ For compliance we need to show that critical offboarding actions happen within 2
 The following do not directly impact cloud.gov security & operations and can happen later:
 
 - [ ] Remove them from [Nessus](https://nessus.fr.cloud.gov/#/settings/users)
-- [ ] Remove them from the [Cloud Foundry Community GitHub org cloud.gov team](https://github.com/orgs/cloudfoundry-community/teams/cloud-gov/members)
 - [ ] Remove them from [the cloud.gov operations Google Group](https://groups.google.com/a/gsa.gov/forum/#!managemembers/cloud-gov-operations/members/active)
 - [ ] Remove their access to [Opsgenie](https://cloud-gov.app.opsgenie.com/settings/users/)
 - [ ] Remove them from [the cloud.gov compliance team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-compliance/members/active)
