@@ -4,10 +4,11 @@
 
 ## Stories
 
-Stories and issues are created to capture work that needs to be done by the team. Our goal is to create multiple smaller stories that can be worked on incrementally rather than one large story that takes significant time to complete.
+Stories and issues are created to capture work that might need be done by the team. Our goal is to create multiple smaller stories that can be worked on incrementally rather than one large story that takes significant time to complete. Groomed work in the backlog we agree needs to be done.
+
 Our team utilizes four swim lanes of "groomed" stories to manage our work.
 
-**Story Definition**: Groomed stories that accepted for the backlog should include:
+**Story Definition**: Groomed stories that we accept for the backlog should include:
 
 * A clear "definition of done" or "acceptance criteria" (AC) so the team understands when work is complete
 * A reviewed "Security Considerations" section. Especially ensure any authentication/authorization and data persistence points are discussed and requirements are addressed via Acceptance Criteria (e.g., "Authenticate using [login.fr.cloud.gov]" or "Any ephemeral data resulting from usage is backed up/recoverable").
@@ -36,26 +37,24 @@ Compliance control notes:
 
 ### Backlog
 
-* Prioritized and groomed stories/issues. 
+* Prioritized and groomed stories/issues.
 * **Entrance**: Weekly prioritization meeting reviews and prioritizes stories to develop a list in rank order of the 10 highest priorities stories/issues.
-* **Exit**: The team pulls the next thing to work on from the top of the backlog and into the doing swimlane.
+* **Exit**: The team pulls the next thing to work on from the top of the backlog and into the doing swim lane.
 
 ### Doing
 
 * Stories/issues that are in progress/actively being worked on.
 * **Entrance**: Team members pull a story into the doing column from the backlog when they begin work on a given story/issue.
-* **Exit**: Stories/issues are moved to the closed swimlane once they are complete.
+* **Exit**: Stories/issues are moved to the closed swim lane once they are complete.
 
 Required for compliance:
 
-* The deployment must follow our [Configuration Management plan](https://docs.cloud.gov/ops/configuration-management/).  If not possible, contact the Program Management team to modify the story or discuss how to update the Configuration Management plan.  
-* If the deployment includes 18F-developed code, ensure the repository is configured to run [Code Climate static analysis on each PR](https://docs.codeclimate.com/docs/github#pull-requests).
+* The deployment must follow our [Configuration Management plan](https://cloud.gov/docs/ops/configuration-management/).  If not possible, contact the Program Management team to modify the story or discuss how to update the Configuration Management plan.  
+* If the deployment includes cloud.gov-developed code, ensure the repository is configured to run [Code Climate static analysis on each PR](https://docs.codeclimate.com/docs/github#pull-requests).
 
   * Code Climate scan results are reviewed, and any false positives are flagged / scanning rules are updated to exclude irrelevant files (vendored code, tests, etc).
-* The work completed adheres to all of [cloud.gov's policies and procedures](https://github.com/18F/compliance-docs).
+* The work completed adheres to all of [cloud.gov's policies and procedures](https://github.com/cloud-gov/compliance-docs).
 * If the work changes an aspect of our system or operating environment that is (or should be) documented in our System Security Plan (SSP), [note necessary changes in our pending SSP change document](https://docs.google.com/a/gsa.gov/document/d/1CWi8efCQKi6TS5oxm76YpSvx3pyQMiW-F0i7lIsdBXk/edit?usp=drive_web) to note the change.
-
-
 
 ### Blocked
 
@@ -65,4 +64,10 @@ Required for compliance:
 
 ### Closed
 
-**Entrance**: Team members move stories/issues to the close swimlane once the work is complete (satisfy the acceptance criteria) OR stories/issues are no longer relevant or a priority.
+**Entrance**: Team members move stories/issues to the close swim lane once the work is complete (satisfy the acceptance criteria) OR stories/issues are no longer relevant or a priority.
+
+## Document information
+
+Last review/update: September 2020
+
+Additional related compliance controls: CM-4, CM-9, CM-11, SC-18
