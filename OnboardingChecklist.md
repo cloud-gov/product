@@ -182,6 +182,9 @@ _Note: These are items that do not fall into the boundary of work for a specific
 ### Compliance-specific items
 
 - [ ] Join the `#cg-compliance` channel on Slack.
+- [ ] Follow the guide in the Google Doc [Compliance Lead Tips](https://docs.google.com/document/d/1u1NhdAXdkr7BFTt0QGZWW-YgDEtfXSkjgAtZjkkg5jU/edit#)
+  - [ ] Obtain Max.Gov access
+  - [ ] Access FedRAMP materials of our providers: AWS, etc.
 - [ ] Watch [Handling FISMA Faster and Better](https://www.youtube.com/watch?v=T1S52B1-NT4) for important context and background on the federal regulatory context in which cloud.gov operates.
 - [ ] Do a cursory read of [Before You Ship](https://pages.18f.gov/before-you-ship/).
 
