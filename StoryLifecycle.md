@@ -5,7 +5,7 @@
 ## Stories
 
 Stories and issues are created to capture work that needs to be done by the team. Our goal is to create multiple smaller stories that can be worked on incrementally rather than one large story that takes significant time to complete.
-Our team utilizes four swimlanes of "groomed" storeis to manage our work.
+Our team utilizes four swim lanes of "groomed" stories to manage our work.
 
 **Story Definition**: Groomed stories that accepted for the backlog should include:
 
