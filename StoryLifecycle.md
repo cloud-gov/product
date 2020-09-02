@@ -32,7 +32,7 @@ Compliance control notes:
 * New software integration check is due to CM-7 (5) part a
 * Security test planning is due to SA-11 part a
 
-## Swimlanes
+## Swim Lanes
 
 ### Backlog
 
