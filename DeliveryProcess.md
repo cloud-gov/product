@@ -8,11 +8,11 @@ Information about our prioritization process and [the Story Lifecycle](StoryLife
 We've structured our team into two teams.
 
 - Platform and compliance/security
-  - Ben Berry, Steve Greenberg, Tammer Saleh, Chris McGowan, Van Nguyen, Peter Burkholder, Andrew Burnes, Carlo Costino, Mark Headd, Rebecca Goodman
+  - Ben Berry, Steve Greenberg, Chris McGowan, Van Nguyen, Peter Burkholder, Andrew Burnes, Carlo Costino, Mark Headd, Rebecca Goodman
   - Comm channels: #cg-platform
 
 - Customer and business
-  - Jessyka Castillo, Eddie Tejeda, Ron Williams, Kara Reinsel
+  - Jessyka Castillo, Kelley Confer, Eddie Tejeda, Ron Williams, Kara Reinsel
   - Comm channel: #cg-business
 
 
