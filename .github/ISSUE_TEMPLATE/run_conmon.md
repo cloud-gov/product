@@ -15,7 +15,7 @@ For context, see our [Continuous Monitoring Strategy](https://cloud.gov/docs/ops
 
 ZAP scans take hours. We recommend you start in the morning. There are two separate scans to run and the second one takes considerably longer than the first.
 
-- Check that you have the [latest stable version of ZAP](https://www.zaproxy.org/download/) or install via Homebrew with `brew cask install/update owasp-zap` (recommended). Upgrade if necessary.
+- Check that you have the [latest stable version of ZAP](https://www.zaproxy.org/download/) or install via Homebrew with `brew cask install (or brew upgrade --cask) owasp-zap` (recommended). Upgrade if necessary.
 
 - Be sure you have Firefox installed (with Homebrew `brew cask install firefox` or any way you chose). Chrome does not support proxy settings while Firefox does.
 
