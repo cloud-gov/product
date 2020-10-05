@@ -218,6 +218,7 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] Add them to the recurring cloud.gov meetings that are relevant for them in [the team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&amp;ctz=America/Los_Angeles).
 - [ ] Ask one of our cloud-gov team Github Maintainers to add them to the [@18F/cloud.gov team](https://github.com/orgs/18F/teams/cloud-gov) on GitHub.
 - [ ] Invite the new person to `#cg-priv-all` and if applicable `#cg-priv-gov`
+- [ ] Invite the new person to the Google Room 'CG-PRIV': https://chat.google.com/room/AAAAr60JXAc (for contingencies when Slack is down)
 
 ## Platform- and compliance-specific required items
 
