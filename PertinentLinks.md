@@ -10,7 +10,7 @@ should be bookmarked and encouraged to check on a regular basis.
 - [cloud.gov Beta dashboard](https://dashboard-beta.fr.cloud.gov/) :lock:
 - [cloud.gov dashboard](https://dashboard.fr.cloud.gov/) :lock:
 - [cloud.gov Google Drive folder][cg-drive-folder] :lock:
-- [cloud.gov `cg-site` repository](https://github.com/18F/cg-site/)
+- [cloud.gov `cg-site` repository](https://github.com/cloud-gov/cg-site/)
 
 #### Slack channels
 - [Program channel][slack-program] :lock:
@@ -26,8 +26,8 @@ should be bookmarked and encouraged to check on a regular basis.
 - [AWS GovCloud console][aws-fr-console] :lock:
 - [Admin console](https://admin.fr.cloud.gov/) :lock:
 - [Concourse GovCloud](https://ci.fr.cloud.gov/) :lock:
-- [cloud.gov repositories][github-eighteenf-cg]
-- [cloud.gov deployment repositories][github-eighteenf-cg-deploy]
+- [cloud.gov repositories][github-cloud-gov-cg]
+- [cloud.gov deployment repositories][github-cloud-gov-cg-deploy]
 
 #### Business Development
 
@@ -44,7 +44,7 @@ should be bookmarked and encouraged to check on a regular basis.
 [cg-dashboard]: https://dashboard.fr.cloud.gov/
 [cg-drive-folder]: https://drive.google.com/drive/folders/0Bx6EvBXVDWwheUtVckVnOE1pRzA
 
-[github-eighteenf-cg]: https://github.com/search?utf8=✓&q=org%3A18F+cg-&type=Repositories&ref=searchresults
-[github-eighteenf-cg-deploy]: https://github.com/search?utf8=✓&q=org%3A18F+cg-deploy-&type=Repositories&ref=searchresults
+[github-cloud-gov-cg]: https://github.com/search?utf8=✓&q=org%3Acloud-gov+cg-&type=Repositories&ref=searchresults
+[github-cloud-gov-cg-deploy]: https://github.com/search?utf8=✓&q=org%3Acloud-gov+cg-deploy-&type=Repositories&ref=searchresults
 
 [zenhub-story-board]: https://app.zenhub.com/workspaces/cg-story-board-5d217e937454737fd4fcffc8/board
