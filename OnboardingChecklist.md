@@ -245,3 +245,9 @@ For compliance lead, add only where (*C: y*) or (*C: _special instructions_*) ap
 - [ ] Ask `#infrastructure` to add them to [the cloudgov subteam in Docker Hub](https://hub.docker.com/u/18fgsa/dashboard/teams/?team=cloudgov). (*C: no*)
 - [ ] Give them a walkthrough of cloud.gov from an architecture and repository perspective, focusing on SSP diagrams, external git repository and bosh.io dependencies, and our continuous delivery process with Concourse. (*C: y*)
 - [ ] Add them to the [cloud.gov team on Cloud Foundry Community](https://github.com/orgs/cloudfoundry-community/teams/cloud-gov/members) (*C: y*)
+
+## Compliance Lead items
+
+- [ ] Subscribe to US-CERT alerts: https://us-cert.cisa.gov/mailing-lists-and-feeds
+- [ ] Subscribe to FedRAMP mailing lists: https://public.govdelivery.com/accounts/USGSA/subscriber/topics?qsp=USGSA_2224
+- [ ] Read Compliance Lead documents at root of the [Google Drive Security and Compliance](https://drive.google.com/drive/u/0/folders/1_vAXZsdVFYssR1DRCaavBCoDE_uxQCI5) folder
