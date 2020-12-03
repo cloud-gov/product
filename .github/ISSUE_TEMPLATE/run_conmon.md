@@ -35,7 +35,7 @@ ZAP scans take hours. We recommend you start in the morning. There are two separ
 
 - After both scans are complete, export the results as both XML and HTML from the `Reports` menu. Name the files according to `YYYYMMDD-ZAP.xml/html`.
 
-- [ ] Upload both reports to Google Drive: https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U in a folder named `YYYYMMDD ZAP & Nessus`.
+- [ ] Upload both reports to Google Drive: https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U in a folder named `YYYYMMDD-ZAP-Nessus`.
 
 You can shut down ZAP and Firefox. If you use Firefox in your day to day, you likely want to remove the proxy.
 
@@ -55,7 +55,7 @@ A python script is used to generate the inventory list.
 
 - Open the [POAM Inventory sheet](https://docs.google.com/spreadsheets/d/1_9Neq8fGO4NdQhsqLXDn445g3GUa1k_FZUrUXc7hulY/edit#gid=1371600163)
 
-- Delete the data rows (starting at row 3)
+- Delete the data rows (starting after the RDS database listings)
 
 - For the tooling and production jumpboxes, login to each of them and from the initial home directory you start in, run `python3 cg-scripts/generate-POAM-inventory.py`. This will output data to your terminal window in CSV format. Copy the entire CSV output.
 
