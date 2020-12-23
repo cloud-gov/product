@@ -17,6 +17,8 @@ ZAP scans take hours. We recommend you start in the morning. There are two separ
 
 - Check that you have the [latest stable version of ZAP](https://www.zaproxy.org/download/) or install via Homebrew with `brew cask install (or brew upgrade --cask) owasp-zap` (recommended). Upgrade if necessary.
 
+     > NOTE: If you see an error running ZAP as an unsigned application, run the following from the command line: `xattr -dr com.apple.quarantine '/Applications/OWASP ZAP.app'`
+
 - Be sure you have Firefox installed (with Homebrew `brew cask install firefox` or any way you chose). Chrome does not support proxy settings while Firefox does.
 
 - Configure ZAP as a proxy for Firefox: https://www.zaproxy.org/docs/desktop/start/proxies/
