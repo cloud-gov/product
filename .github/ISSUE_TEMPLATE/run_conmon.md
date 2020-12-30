@@ -11,6 +11,18 @@ In order for us to update the JAB on our compliance in a consistent way, we need
 
 For context, see our [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), including [the monthly reporting summary explanation](https://cloud.gov/docs/ops/continuous-monitoring/#monthly-reporting-summary). 
 
+## Disk Usage
+
+A single ZAP scan of the cloud-gov context requires significant disk space (over 100GB). If you have run ZAP previously, you should check to see if you previous sessions have been persisted. If so, you likely need to clear out those directories before proceeding.
+
+You can check ZAP's disk usage with:
+
+```
+du -h -d 1 ~/Library/Application\ Support/ZAP/
+```
+
+If you see an abnormally large `session` or `sessions` directory (my last run was 132G), you likely want to delete all files in these directories before proceeding.
+
 ## Running ZAP Scans
 
 ZAP scans take hours. We recommend you start in the morning. There are two separate scans to run and the second one takes considerably longer than the first.
@@ -33,7 +45,7 @@ ZAP scans take hours. We recommend you start in the morning. There are two separ
 
 - CTRL-click on the `cloud.gov common` context and run the `Spider` scan.  This takes a little less than an hour.
 
-- After the `Spider` scan is complete, again CTRL-click on the `cloud.gov common` context and this time run the `Active Scan`. This takes at least 4-5 hours, minimum.
+- After the `Spider` scan is complete, again CTRL-click on the `cloud.gov common` context and this time run the `Active Scan`. 
 
 - After both scans are complete, export the results as both XML and HTML from the `Reports` menu. Name the files according to `YYYYMMDD-ZAP.xml/html`.
 
