@@ -19,10 +19,11 @@ Request](https://gsa.servicenowservices.com/sp?id=sc_cat_item&sys_id=611282de6fa
 on GSA Service now. Complete as follows:
 
 
-* For System POC: select the cloud.gov compliance lead
-* For Technical POC: select yourself 
+* Planning Date: (23rd or nearest working day to that)
+* System POC: select the cloud.gov compliance lead
+* Technical POC: select yourself 
 * Service/Staff office: FAS (Q)
-* GSA FISMA system: -- None --
+* GSA FISMA system: Federalist
 * Site/System Descriptive name: cloud.gov
 * Site/System URL: (see additional comments)
 * Site/System Phasae: Production
