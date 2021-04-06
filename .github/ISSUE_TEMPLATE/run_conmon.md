@@ -69,7 +69,7 @@ A python script is used to generate the inventory list.
 
 - Open the [POAM Inventory sheet](https://docs.google.com/spreadsheets/d/1_9Neq8fGO4NdQhsqLXDn445g3GUa1k_FZUrUXc7hulY/edit#gid=1371600163)
 
-- Delete the data rows (starting after the RDS database listings)
+- Delete the data rows (**starting after the RDS database listings**) - These rows are locked to prevent inadvertent editing.
 
 - For the tooling and production jumpboxes, login to each of them and from the initial home directory you start in, run `python3 cg-scripts/generate-POAM-inventory.py`. This will output data to your terminal window in CSV format. Copy the entire CSV output.
 
