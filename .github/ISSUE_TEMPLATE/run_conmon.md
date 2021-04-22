@@ -11,6 +11,47 @@ In order for us to update the JAB on our compliance in a consistent way, we need
 
 For context, see our [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), including [the monthly reporting summary explanation](https://cloud.gov/docs/ops/continuous-monitoring/#monthly-reporting-summary). 
 
+## Netsparker:
+
+We are also uing GSA's Netsparker scanning service. Four days before our
+scheduled scan, [submit a Security Scan
+Request](https://gsa.servicenowservices.com/sp?id=sc_cat_item&sys_id=611282de6fa13100b544204fae3ee40c)
+on GSA Service now. Complete as follows:
+
+
+* Planning Date: (23rd or nearest working day to that)
+* System POC: select the cloud.gov compliance lead
+* Technical POC: select yourself 
+* Service/Staff office: FAS (Q)
+* GSA FISMA system: Federalist
+* Site/System Descriptive name: cloud.gov
+* Site/System URL: (see additional comments)
+* Site/System Phasae: Production
+* Type of Scan: ATO or Certification Scan
+* Does the site require authentication: Yes
+* Username of the account for scanning: The scan operator should use their own cloud.gov account through GSA SecureAuth
+* Explanation: Monthly Conmon for FedRAMP 
+* Justification: Monthly Conmon for FedRAMP 
+
+Additional Comments:
+
+> Please provide PDF and XML results for scans of the cloud.gov sites:
+> ```
+> cloud.gov
+> account.fr.cloud.gov
+> dashboard.fr.cloud.gov
+> idp.fr.cloud.gov
+> login.fr.cloud.gov
+> logs.fr.cloud.gov
+
+> The scan operator will need a cloud.gov account. For that, browse to https://dashboard.fr.cloud.gov, select "Agree and Continue", choose the GSA identity provider, and sign in with GSA SecureAuth. Once that's complete the authenticated site scans should work.
+
+> Thanks much -- cloud.gov team
+
+
+```
+```
+
 ## Disk Usage
 
 A single ZAP scan of the cloud-gov context requires significant disk space (over 100GB). If you have run ZAP previously, you should check to see if you previous sessions have been persisted. If so, you likely need to clear out those directories before proceeding.
