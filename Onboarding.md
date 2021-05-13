@@ -62,7 +62,7 @@ To release: `ci.fr.cloud.gov -> deploy-cf project`
 - CenturyLink – a company that contributes heavily to Cloud Foundry, and runs their own Cloud Foundry-based PaaS, [AppFog](https://www.ctl.io/appfog/).
 - [Cloud Foundry](https://www.cloudfoundry.org/)(CF) - the open-source platform-as-a-service software that cloud.gov is built on. Also sometimes used informally to refer to the Cloud Foundry Foundation, the non-profit formed to shepherd the community surrounding Cloud Foundry. (It's sometimes important to distinguish; as the government, we are clear to talk about the tech we're using but avoid the appearance of endorsement of particular organizations or people.)
 - [Concourse](https://concourse.ci) - the continuous integration tool built by Pivotal we use to deploy Cloud Foundry, among other things.
-- ConMon - [Continuous monitoring](https://cloud.gov/docs/ops/continuous-monitoring/). 
+- ConMon - [Continuous monitoring](https://cloud.gov/docs/ops/continuous-monitoring/).
 - The Dashboard – the web app we offer to allow users to manage their applications and accounts. It lives at [dashboard.fr.cloud.gov](https://dashboard.fr.cloud.gov/), and the code is in the [cg-dashboard](https://github.com/cloud-gov/cg-dashboard) repository.
 - [Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/) (ELB) – the proxy we use in front of Cloud Foundry.
 - [FedRAMP](https://www.fedramp.gov/) - a program whereby which Cloud Service Providers (CSPs) are rigorously examined for compliance with FISMA before being identified as generally fit for use by all government agencies.
@@ -77,3 +77,17 @@ To release: `ci.fr.cloud.gov -> deploy-cf project`
 - UAA - UAA is the User Authentication and Authorization hub for Cloud Foundry. It can delegate identity management via common standards such as LDAP/Active Directory, SAML, OAuth/OpenID Connect, and so forth. UAA is deployed as part of cloud.gov. We use the out of the box install, with some stuff specific to [our own release](https://github.com/cloud-gov/cg-cf-release/tree/master/src).
 
 Also see [the Cloud Foundry glossary](http://docs.cloudfoundry.org/concepts/glossary.html) for  terms that are specific to the technology powering our platform.
+
+# Joining the Federalist team
+
+Federalist is a platform to build, launch, and manage static web sites for government agencies. The team develops, operates, and supports the platform so that we can offer it to agencies as a service.
+
+## Onboarding
+
+Get through [the 18F onboarding guide for your discipline](https://handbook.18f.gov/#teams) first. (Contractors, we're presuming you have an equivalent process you've gone through for onboarding with your employer.)
+
+Everyone joining the team will get assigned a team onboarding buddy. This person should be working on similar things to what you will be working on, so that they can answer questions in your domain.
+
+You and your team onboarding buddy must follow the instructions in [the Onboarding Checklist](https://docs.google.com/document/d/1tS-9hLb2yHtp500N3obmu0X70XpIMATuPlov2_vDVS0/edit?usp=sharing) to create an issue that will guide you through tasks that will get you up to speed and contributing in no time. You (and your buddy) must track your progress by checking the boxes as you complete tasks.
+
+Our Onboarding Checklist helps us fulfill important security and compliance requirements, so each new team member needs to have their own checklist in our issue-tracker to document their progress. This is true even if you're rejoining the team after being in it previously.
