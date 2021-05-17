@@ -17,6 +17,7 @@
 <incregexes>https://logs-platform.fr.cloud.gov.*</incregexes>
 <incregexes>https://opslogin.fr.cloud.gov.*</incregexes>
 <incregexes>https://prometheus.fr.cloud.gov.*</incregexes>
+<incregexes>https://federalistapp-staging.18f.gov.*</incregexes>
 <tech>
 <include>Db</include>
 <include>Db.Firebird</include>
