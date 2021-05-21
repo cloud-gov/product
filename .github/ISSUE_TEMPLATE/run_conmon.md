@@ -72,9 +72,10 @@ ZAP scans take hours. We recommend you start in the morning. There are two separ
 
      > NOTE: If you see an error running ZAP as an unsigned application, run the following from the command line: `xattr -dr com.apple.quarantine '/Applications/OWASP ZAP.app'`
 
+- 
 - Be sure you have Firefox installed (with Homebrew `brew cask install firefox` or any way you chose). Chrome does not support proxy settings while Firefox does.
 
-- Configure ZAP as a proxy for Firefox: https://www.zaproxy.org/docs/desktop/start/proxies/
+- In ZAP, on the top line of icons, there should be a Firefox icon on the far right. Double-click that to open Firefox preconfigured to proxy through ZAP.
 
 - Download the [cloud.gov conmon](https://raw.githubusercontent.com/18F/cg-product/master/cloud.gov-conmon.context) cloud.gov context from this repository and update it if necessary
 
