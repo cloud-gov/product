@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <configuration>
     <context>
-        <name>cloud.gov conmon</name>
+        <name>pages staging conmon</name>
         <desc/>
         <inscope>true</inscope>
         <incregexes>https://federalistapp-staging.18f.gov.*</incregexes>
