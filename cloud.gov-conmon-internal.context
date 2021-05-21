@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+<context>
+    <name>cloud.gov internal conmon</name>
+    <desc/>
+    <inscope>true</inscope>
+    <incregexes>https://admin.fr.cloud.gov.*</incregexes>
+    <incregexes>https://alertmanager.fr.cloud.gov.*</incregexes>
+    <incregexes>https://ci.fr.cloud.gov.*</incregexes>
+    <incregexes>https://grafana.fr.cloud.gov.*</incregexes>
+    <incregexes>https://logs-platform.fr.cloud.gov.*</incregexes>
+    <incregexes>https://opslogin.fr.cloud.gov.*</incregexes>
+    <incregexes>https://prometheus.fr.cloud.gov.*</incregexes>
+    <excregexes>mozilla.com</excregexes>
+    <excregexes>mozilla.net</excregexes>
+    <excregexes>mozilla.org</excregexes>
+    <excregexes>firefox.com</excregexes>
+    <excregexes>getpocket.com</excregexes>
+    <tech>
+        <include>Db.PostgreSQL</include>
+        <include>Db.SQLite</include>
+        <include>Language.JSP/Servlet</include>
+        <include>Language.Java</include>
+        <include>Language.JavaScript</include>
+        <include>Language.Python</include>
+        <include>Language.Ruby</include>
+        <include>Language.XML</include>
+        <include>OS.Linux</include>
+        <include>SCM.Git</include>
+        <include>WS.Tomcat</include>
+        <exclude>Db</exclude>
+        <exclude>Db.MySQL</exclude>
+        <exclude>Db.CouchDB</exclude>
+        <exclude>Db.Firebird</exclude>
+        <exclude>Db.HypersonicSQL</exclude>
+        <exclude>Db.IBM DB2</exclude>
+        <exclude>Db.Microsoft Access</exclude>
+        <exclude>Db.Microsoft SQL Server</exclude>
+        <exclude>Db.MongoDB</exclude>
+        <exclude>Db.Oracle</exclude>
+        <exclude>Db.SAP MaxDB</exclude>
+        <exclude>Db.Sybase</exclude>
+        <exclude>Language</exclude>
+        <exclude>Language.ASP</exclude>
+        <exclude>Language.C</exclude>
+        <exclude>Language.PHP</exclude>
+        <exclude>OS</exclude>
+        <exclude>OS.MacOS</exclude>
+        <exclude>OS.Windows</exclude>
+        <exclude>SCM</exclude>
+        <exclude>SCM.SVN</exclude>
+        <exclude>WS</exclude>
+        <exclude>WS.Apache</exclude>
+        <exclude>WS.IIS</exclude>
+    </tech>
+    <urlparser>
+    <class>org.zaproxy.zap.model.StandardParameterParser</class>
+    <config>{"kvps":"&amp;","kvs":"=","struct":[]}</config>
+    </urlparser>
+    <postparser>
+    <class>org.zaproxy.zap.model.StandardParameterParser</class>
+    <config>{"kvps":"&amp;","kvs":"=","struct":[]}</config>
+    </postparser>
+    <authentication>
+    <type>0</type>
+    </authentication>
+    <forceduser>-1</forceduser>
+    <session>
+    <type>0</type>
+    </session>
+    <authorization>
+    <type>0</type>
+    <basic>
+    <header/>
+    <body/>
+    <logic>AND</logic>
+    <code>-1</code>
+    </basic>
+    </authorization>
+</context>
+</configuration>
