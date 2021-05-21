@@ -79,15 +79,19 @@ ZAP scans take hours. We recommend you start in the morning. There are two separ
 
 - Download the [cloud.gov conmon](https://raw.githubusercontent.com/18F/cg-product/master/cloud.gov-conmon.context) cloud.gov context from this repository and update it if necessary
 
+  * For scanning cloud.gov Pages (while in pre-release status), download the [pages_staging_conmon.context]().
+
 - Load the cloud.gov context into ZAP (File > Import Context)
+
+  * Or the Pages context, for scanning those apps.
      
-- You have to log in to each site in the context list so that ZAP can scan inside the authenticated websites. You have to be on the VPN. In Firefox, log in to each site in the context list. You can see the list by clicking the `cloud.gov common` context > Include in Context.
+- You have to log in to each site in the context list so that ZAP can scan inside the authenticated websites. You have to be on the VPN. In Firefox, log in to each site in the context list. You can see the list by clicking the relevant context > Include in Context.
 
 - To prevent getting noise in the scan results (since that causes major confusion when the FedRAMP team processes the ConMon report), review the `Sites` list to ensure only the cloud.gov sites have a small red circle/sight on them (denoting the site will be included). Remove any sites not needed by CTRL-clicking on them and selecting `Delete`.
 
-- CTRL-click on the `cloud.gov common` context and run the `Spider` scan.  This takes a little less than an hour.
+- CTRL-click on the relevant context (cloud.gov or Pages) and run the `Spider` scan.  This takes a little less than an hour.
 
-- After the `Spider` scan is complete, again CTRL-click on the `cloud.gov common` context and this time run the `Active Scan`. 
+- After the `Spider` scan is complete, again CTRL-click on the context and this time run the `Active Scan`. 
 
 - After both scans are complete, export the results as both XML and HTML from the `Reports` menu. Name the files according to `YYYYMMDD-ZAP.xml/html`.
 
