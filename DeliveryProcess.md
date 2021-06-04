@@ -12,7 +12,7 @@ We've structured our team into two teams.
   - Comm channels: #cg-platform
 
 - Customer and business
-  - Jessyka Castillo, Kelley Confer, Ron Williams, Kara Reinsel
+  - Jessyka Castillo, Kelley Confer, Kara Reinsel
   - Comm channel: #cg-business
 
 
