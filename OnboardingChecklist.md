@@ -40,7 +40,7 @@ In order to get NewPerson productively contributing to the cloud.gov team, Buddy
 - [ ] Read the [Delivery Process document](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md) to learn about how we work.
 - [ ] Read our [service disruption guide](https://cloud.gov/docs/ops/service-disruption-guide/) to learn how we handle customer-facing service disruptions.
 - [ ] Join [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov) so you can participate in team-wide internal communication.
-- [ ] Join the [cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries) so you can keep apprised of prospective new clients.
+- [ ] Business Unit Only - Join the [cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries) so you can keep apprised of prospective new clients.
 - [ ] Add the [cloud.gov Google Drive folder](https://drive.google.com/drive/folders/0Bx6EvBXVDWwheUtVckVnOE1pRzA) to your Google Drive -- that's where we put cloud.gov docs. If you create or move a doc there, it'll get the right access permissions for team members to be able to view and edit it.
 - [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&amp;ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various squads. Tip: When you plan Out of Office time, make a calendar event for that on the cloud.gov calendar so that your teammates know you'll be away
 - [ ] Subscribe (through the GitHub watch function) to the [cg-site](https://github.com/18F/cg-site) GitHub repository notifications
@@ -119,6 +119,11 @@ Your onboarding buddy should add you to the following private channels:
 * [ ] Install `caulking` git leak prevention by following the [README](https://github.com/cloud-gov/caulking/blob/master/README.md)
 * [ ] Verify `caulking` by running `make audit` and pasting a screenshot as a comment on this GitHub issue
 * [ ] Review the System Security Plan (the latest version lives on [Google Drive](https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0); look for "cloud.gov System Security Plan (SSP)" as a *.docx* file). Of particular note for onboarding: Section 9 (System Description) and Section 10 (System Environment)
+
+### Review Internal Documentation
+
+* [ ] Read the [Internal developer and operations documentation](https://github.com/cloud-gov/internal-docs/)
+* [ ] Review the [Dependency Diagram](https://github.com/cloud-gov/internal-docs/blob/main/about/dependency-diagram.png)
 
 ###  Get familiar with our AWS setup
 
