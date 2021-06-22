@@ -64,14 +64,14 @@ These items help us fulfill security and compliance requirements (including for 
 
 #### Learn our policies and procedures
 
+* [ ] Coordinate with your onboarding buddy to go through Contingency Planning training within 10 days (and annually after that). This will cover the following document, which you should also review before or after training:
+* [ ] Read the [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/).
 * [ ] Coordinate with your onboarding buddy to go through [Incident Response Training](https://docs.google.com/presentation/d/1AZjQE8zBzMRWZIFUuJPkJLted1ykGtALrLPoPRx5Vls/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following document, which you should also review before or after training:
 * [ ] Read the [Incident Response Guide](https://cloud.gov/docs/ops/security-ir/).
 * [ ] Coordinate with your onboarding buddy to go through [nonpublic information training](https://docs.google.com/presentation/d/1uB4MlGCu8ZYUxjKVZKwicQ95MvLxaT4Mh93y6w79GPw/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following documents, which you should also review before or after training:
   * [ ] Review the [18F open source policy guidance about protecting sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information).
   * [ ] Read our [sharing secret keys](https://cloud.gov/docs/ops/secrets/#sharing-secret-keys) policy.
   * [ ] Review the [18F requirements for password management](https://handbook.tts.gsa.gov/password-requirements/).
-* [ ] Coordinate with your onboarding buddy to go through Contingency Planning training within 10 days (and annually after that). This will cover the following document, which you should also review before or after training:
-* [ ] Read the [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/).
 
 Read the following documents as well, which explain our practices in a formal written way. Reach out to your buddy or the team if anything is unexpected or confusing.
 
