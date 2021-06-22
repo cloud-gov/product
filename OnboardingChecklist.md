@@ -111,7 +111,7 @@ Your onboarding buddy should add you to the following private channels:
 * [ ] Add their account name to the [audit input file](https://github.com/cloud-gov/cg-compliance/blob/master/audit/inputs.yml)
 * [ ] Nessus Manager GUI
 * [ ] [Make them an admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) of the platform.
-* [ ] Add them to the *cloud-gov-operators* organization in cloud.gov.
+* [ ] Add them to the [`platform-ops`](https://github.com/orgs/cloud-gov/teams/platform-ops) team in GitHub.
 
 ### Additional compliance setup/review
 
