@@ -9,50 +9,83 @@ assignees: ''
 
 In order for us to update the JAB on our compliance in a consistent way, we need to run Continuous Monitoring scans on approximately the 23rd of the month. (If this date falls on a weekend or federal holiday, adjust to the last business day before the date.)
 
-For context, see our [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), including [the monthly reporting summary explanation](https://cloud.gov/docs/ops/continuous-monitoring/#monthly-reporting-summary). 
+For context, see our [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), including [the monthly reporting summary explanation](https://cloud.gov/docs/ops/continuous-monitoring/#monthly-reporting-summary).
 
-## Netsparker:
+## Netsparker
 
-We are also uing GSA's Netsparker scanning service. Four days before our
-scheduled scan, [submit a Security Scan
-Request](https://gsa.servicenowservices.com/sp?id=sc_cat_item&sys_id=611282de6fa13100b544204fae3ee40c)
-on GSA Service now. Complete as follows:
+Omit: I am not finding a clear path to using Netsparker for our admin apps, and NetSparker has its own issues with false positives
 
 
-* Planning Date: (23rd or nearest working day to that)
-* System POC: select the cloud.gov compliance lead
-* Technical POC: select yourself 
-* Service/Staff office: FAS (Q)
-* GSA FISMA system: Federalist
-* Site/System Descriptive name: cloud.gov
-* Site/System URL: (see additional comments)
-* Site/System Phasae: Production
-* Type of Scan: ATO or Certification Scan
-* Does the site require authentication: Yes
-* Username of the account for scanning: The scan operator should use their own cloud.gov account through GSA SecureAuth
-* Explanation: Monthly Conmon for FedRAMP 
-* Justification: Monthly Conmon for FedRAMP 
 
-Additional Comments:
+# OWASP ZAP Scans
 
-> Please provide PDF and XML results for scans of the cloud.gov sites:
-> ```
-> cloud.gov
-> account.fr.cloud.gov
-> dashboard.fr.cloud.gov
-> idp.fr.cloud.gov
-> login.fr.cloud.gov
-> logs.fr.cloud.gov
+## Preliminary work
 
-> The scan operator will need a cloud.gov account. For that, browse to https://dashboard.fr.cloud.gov, select "Agree and Continue", choose the GSA identity provider, and sign in with GSA SecureAuth. Once that's complete the authenticated site scans should work.
+We scan our externally facing apps as sandbox users of cloud.gov. This vastly speeds up scans since the spider doesn't crawl every app and org in _logs_ or _dashboard_, and also avoids issues with the "clcking" on links with undesired impacts. Create a sanbox account, starting from https://account.fr.cloud.gov/signup, and use an email such as your `fname.lname@{cio.gov, pif.gov, fedramp.gov}`
 
-> Thanks much -- cloud.gov team
+As your "sandbox" user identity, launch a "Hello World" app so there's something in the dashboard and logs apps to spider. (ToDo: Determine if this is really necessary)
 
+## Install, Configure, and Update
 
-```
-```
+- Check that you have the [latest stable version of ZAP](https://www.zaproxy.org/download/) or install via Homebrew with `brew cask install (or brew upgrade --cask) owasp-zap` (recommended). Upgrade if necessary.
 
-## Disk Usage
+     > NOTE: If you see an error running ZAP as an unsigned application, run the following from the command line: `xattr -dr com.apple.quarantine '/Applications/OWASP ZAP.app'`
+
+- Start ZAP and update
+  - For "Session persistence", select "No, I do not want to persist my session..."
+  - For "Manage add-ons", select "Update All" 
+  - ZAP ->  Preferences -> Options:
+    - JVM -> JVM options:  `-Xmx8192m`
+    - Active Scan:  
+      - 3 hosts
+      - 5 threads
+    - Global Exclude URL:
+      - Site - Firefox (select all)
+      - Site - Font CDNs
+      - Site - Mozilla CSN
+      - Spider
+        - Max Depth to Crawl: 5
+        - Number of Threads: 7
+
+### Quit and restart ZAP if you change the JVM options
+
+- Be sure you have Firefox installed (with Homebrew `brew cask install firefox` or any way you chose). Chrome does not support proxy settings while Firefox does.
+
+- `git clone git@github.com:cloud-gov/product.git` so you have the `context` files you need.
+
+## Running ZAP scans
+
+ZAP scans take hours. We recommend you start in the morning. There are two separate scans to run and the second one takes considerably longer than the first.
+
+- From the cloud.gov `product` repo, load the cloud.gov `cloud.gov-conmon-external.context` into ZAP (File > Import Context)
+  - Delete the "Default Context" or any already completed context.
+- On the top line of icons, there should be a Firefox icon on the far right. Double-click that to open Firefox preconfigured to proxy through ZAP.
+- Open the `context` to see the included web applictions (Context -> Included in Context)
+- In the ZAP-configured Firefox, log in to each site in the context list.
+  - For the `external` context, use your "sandbox" identity. VPN not needed.
+  - For the `internal` context, use your Cloud Ops (GSA SecureAuth) identity, and join the VPN
+- To prevent getting noise in the scan results (since that causes major confusion when the FedRAMP team processes the ConMon report), review the `Sites` list to ensure only the cloud.gov sites have a small red circle/sight on them (denoting the site will be included). Remove any sites not needed by CTRL-clicking on them and selecting `Delete`.
+- CTRL-click on the context and run the `Spider` scan.  This takes a little less than an hour.
+- After the `Spider` scan is complete, again CTRL-click on the context and this time run the `Active Scan`. 
+- After both scans are complete, export the results as both XML and HTML from the `Reports` menu. Name the files according to `YYYYMMDD-ZAP-(context).xml/html`. E.g.
+  - 20210623-ZAP-internal.xml
+  - 20210623-ZAP-internal.html
+  - 20210623-ZAP-external.xml
+  - 20210623-ZAP-external.html
+
+Repeat the above steps for the `internal` context (which will require the VPN) 
+
+- Upload all reports to Google Drive: https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U in a folder named `YYYYMMDD-ZAP-Nessus`.
+
+You can shut down ZAP and Firefox. 
+
+NEEDS FIXING: Include for 2021-07 the Pages scanning:
+  * PAGES: For scanning cloud.gov Pages (while in pre-release status), download the [pages_staging_conmon.context]().
+  * PAGES: Or the Pages context, for scanning those apps.
+
+## Potential ZAP Issues
+
+### Disk Usage
 
 A single ZAP scan of the cloud-gov context requires significant disk space (over 100GB). If you have run ZAP previously, you should check to see if you previous sessions have been persisted. If so, you likely need to clear out those directories before proceeding.
 
@@ -62,37 +95,7 @@ You can check ZAP's disk usage with:
 du -h -d 1 ~/Library/Application\ Support/ZAP/
 ```
 
-If you see an abnormally large `session` or `sessions` directory (my last run was 132G), you likely want to delete all files in these directories before proceeding.
-
-## Running ZAP Scans
-
-ZAP scans take hours. We recommend you start in the morning. There are two separate scans to run and the second one takes considerably longer than the first.
-
-- Check that you have the [latest stable version of ZAP](https://www.zaproxy.org/download/) or install via Homebrew with `brew cask install (or brew upgrade --cask) owasp-zap` (recommended). Upgrade if necessary.
-
-     > NOTE: If you see an error running ZAP as an unsigned application, run the following from the command line: `xattr -dr com.apple.quarantine '/Applications/OWASP ZAP.app'`
-
-- Be sure you have Firefox installed (with Homebrew `brew cask install firefox` or any way you chose). Chrome does not support proxy settings while Firefox does.
-
-- Configure ZAP as a proxy for Firefox: https://www.zaproxy.org/docs/desktop/start/proxies/
-
-- Download the [cloud.gov conmon](https://raw.githubusercontent.com/18F/cg-product/master/cloud.gov-conmon.context) cloud.gov context from this repository and update it if necessary
-
-- Load the cloud.gov context into ZAP (File > Import Context)
-     
-- You have to log in to each site in the context list so that ZAP can scan inside the authenticated websites. You have to be on the VPN. In Firefox, log in to each site in the context list. You can see the list by clicking the `cloud.gov common` context > Include in Context.
-
-- To prevent getting noise in the scan results (since that causes major confusion when the FedRAMP team processes the ConMon report), review the `Sites` list to ensure only the cloud.gov sites have a small red circle/sight on them (denoting the site will be included). Remove any sites not needed by CTRL-clicking on them and selecting `Delete`.
-
-- CTRL-click on the `cloud.gov common` context and run the `Spider` scan.  This takes a little less than an hour.
-
-- After the `Spider` scan is complete, again CTRL-click on the `cloud.gov common` context and this time run the `Active Scan`. 
-
-- After both scans are complete, export the results as both XML and HTML from the `Reports` menu. Name the files according to `YYYYMMDD-ZAP.xml/html`.
-
-- [ ] Upload both reports to Google Drive: https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U in a folder named `YYYYMMDD-ZAP-Nessus`.
-
-You can shut down ZAP and Firefox. If you use Firefox in your day to day, you likely want to remove the proxy.
+If you see an abnormally large `session` or `sessions` directory (my last run was 132G), you likely want to delete all files in these directories before proceeding.  Choosing to "Not persist" sessions should alleviate this issue.
 
 ## Export Nessus Scans
 
