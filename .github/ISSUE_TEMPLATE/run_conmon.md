@@ -16,7 +16,6 @@ For context, see our [Continuous Monitoring Strategy](https://cloud.gov/docs/ops
 Omit: I am not finding a clear path to using Netsparker for our admin apps, and NetSparker has its own issues with false positives
 
 
-
 # OWASP ZAP Scans
 
 ## Preliminary work
@@ -85,6 +84,11 @@ NEEDS FIXING: Include for 2021-07 the Pages scanning:
 
 ## Potential ZAP Issues
 
+## Acceptance criteria
+
+- [ ] YYYYMMDD-external.xml ZAP scan is present in YYYYMMDD-ZAP-Nessus folder
+- [ ] YYYYMMDD-internal.xml ZAP scan is present in YYYYMMDD-ZAP-Nessus folder
+
 ### Disk Usage
 
 A single ZAP scan of the cloud-gov context requires significant disk space (over 100GB). If you have run ZAP previously, you should check to see if you previous sessions have been persisted. If so, you likely need to clear out those directories before proceeding.
@@ -105,7 +109,15 @@ If you see an abnormally large `session` or `sessions` directory (my last run wa
 
 - Click on each scan except for staging, and export the .nessus file (Export > Nessus) and the Executive Summary report (Report > HTML).
 
-- [ ] Upload all exports (both Executive Summary and .nessus files) to the same Google Drive folder you put the ZAP scans in.
+## Acceptance criteria:
+
+The following (.xml and .html) are all uploaded to YYYYMMDD-ZAP-Nessus folder:
+- [ ] Production_Vulnerability_scan
+- [ ] Tooling_Vulnerability_scan 
+- [ ] Stating_Vulnerability_scan 
+- [ ] Production_Compliance_scan
+- [ ] Tooling_Compliance_scan 
+- [ ] Stating_Compliance_scan 
 
 ## Update the POAM Inventory sheet
 
@@ -120,3 +132,5 @@ A python script is used to generate the inventory list.
 - Paste the contents in the spreadsheet by selecting the first cell in row 3 then pasting with CTRL-Shift-V to paste without formatting. Then select the paste icon that appears and click `Split text to columns`
 
 - [ ] Verify you have pasted the inventory for both production and tooling.
+- [ ] Verify that the RDS information has not been overwritten
+
