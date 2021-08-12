@@ -38,6 +38,7 @@ For compliance we need to show that critical offboarding actions happen within 2
 - [ ] In the [training tracker](https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0): if they're staying at 18F, move them to the "former teammates" tab; if they're leaving 18F, delete them from the spreadsheet
 - [ ] Remove them as invitees for any meetings on the cloud.gov calendar where they are specifically named
     - Invites where they are listed as part of the `cloud.gov` invitee group will be removed when they are removed from that group by the System Owner
+* [ ] remove their admin access from cg-django-uaa [docs](https://readthedocs.org/projects/cg-django-uaa/)
 
 ## System Owner (or person delegated by System Owner)
 
