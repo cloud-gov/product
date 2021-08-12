@@ -112,6 +112,7 @@ Your onboarding buddy should add you to the following private channels:
 * [ ] Nessus Manager GUI
 * [ ] [Make them an admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) of the platform.
 * [ ] Add them to the [`platform-ops`](https://github.com/orgs/cloud-gov/teams/platform-ops) team in GitHub.
+* [ ] Add them as an admin on the cg-django-uaa [docs](https://readthedocs.org/projects/cg-django-uaa/)
 
 ### Additional compliance setup/review
 
