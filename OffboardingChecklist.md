@@ -28,7 +28,7 @@ For compliance we need to show that critical offboarding actions happen within 2
 
 ## Assignee
 
-If the person offboarding is a contractor follow the steps in the [offboarding checklis](https://docs.google.com/spreadsheets/d/1u5GQ2i4u20x3r1ryXifWf99ZM_U6BPOu-rHaoFADZ6k/edit#gid=1078790596)t in addition to the following steps.
+If the person offboarding is a contractor follow the steps in the [offboarding checklist](https://docs.google.com/spreadsheets/d/1u5GQ2i4u20x3r1ryXifWf99ZM_U6BPOu-rHaoFADZ6k/edit#gid=1078790596)t in addition to the following steps below.
 
 - [ ] Mention the TTS HR liaison and TTS Tech Portfolio in this ticket so they can update with their status
   - As part of TTS offboarding, TTS Tech Portfolio will automatically:
