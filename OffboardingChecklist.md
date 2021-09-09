@@ -74,6 +74,7 @@ The following do not directly impact cloud.gov security & operations and can hap
 **The following steps must be conducted and documented within 24 hours of departure**:
 
 - [ ] Delete the user in all cloud.gov AWS accounts.  There should be info on which AWS accounts you need to look at [here](https://docs.google.com/document/d/110o1L7EOby3hvE5d-cDhg2LBLHymbZLnMPe9kuk4qp8/edit)
+- [ ] Update the [MFA audit file](https://github.com/cloud-gov/cg-compliance/blob/master/audit/inputs.yml) after removing the cloud.gov AWS accounts
 - [ ] Remove them from our Google Cloud Platform (GCP) Projects by emailing Derrick Rogers in GSA IT
 - [ ] Remove them from [the cloud.gov group](https://app.cloudcheckr.com/Admin/UserGroupBuilder/fb111fab-ef5d-48d0-9472-cff691e1bd9c) in CloudCheckr
 - [ ] [Remove their access as an admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) on the platform
