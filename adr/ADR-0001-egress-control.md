@@ -3,13 +3,13 @@
 ## Why
 
 Multiple users (most/all TTS users) have compliance findings for lacking egress control.
-Effective egress control is important for users to prevent command-and-control, data 
+Effective egress control is important for users to prevent command-and-control, data
 exfiltration, and supply-chain attacks.
 
 ## Background
 
 Cloud Foundry provides firewall-like control via application security groups (ASGs). They
-are allow-list only, and additive only (e.g. if you have an ASG allowing access to 8.8.8.8, 
+are allow-list only, and additive only (e.g. if you have an ASG allowing access to 8.8.8.8,
 you cannot undo that allow with a further list). ASGs are bound either platform-wide or per-space
 in two separate contexts: runtime and staging. Cloud Foundry allows only admins to create,
 modify, and bind ASGs. We've currently applied a default ASG which
@@ -40,9 +40,9 @@ In new orgs, we'll create 6 spaces by default (names TBD):
 - `production-open-egress`
 - `production-closed-egress`
 
-The `*-closed-egress` spaces would have the platform default `internal_only` and `services_network` 
+The `*-closed-egress` spaces would have the platform default `internal_only` and `services_network`
 ASGs bound to them, and users (SpaceManagers and OrgManagers) could have the `services_network` removed via
-support request. 
+support request.
 The `*-open-egress` would have `internal_only`, `services_network`, and `public_networks` ASGs bound.
 
 ### Transition plan
@@ -54,6 +54,25 @@ Currently, our users expect all apps to have all access all the time. Because of
 3. Create `internal_only` and `services_network` ASGs
 4. Individually bind the new `public_networks` and `services_network` ASGs to every currently-existing space
 5. Set `internal_only` ASG as platform default
+
+### Acceptance tests
+
+To improve our confidence through the transition and ongoing deployments, a test suite to verify space egress rules will be added to the cloudfoundry deployment. The initial test suite will deploy a CF app per unique space with endpoints to test egress access to `public_networks` and `services_network`.
+
+__Testing Matrix__
+
+The following matrix will test three different endpoints across three different spaces. The following test spaces will be assigned theses application security groups: __`no-egress`__(`internal_only`), __`closed-egress`__(`internal_only` + `services_network`), and __`open-egress`__(`internal_only` + `services_network` + `public_networks`). The root endpoint `/` tests the app's beign accessible via URL, the `/service-network` endpoint tests querying an internal cloud.gov service, and the `/public-network` endpoint tests querying an external API outside of cloud.gov.
+
+
+The following table is the expected HTTP status codes for each endpoint based on the corresponding test space.
+
+| |`no-egress`|`closed-egress`|`open-egress`|
+|-|-----------|---------------|-------------|
+|`/`|`200`|`200`|`200`|
+|`/service-network`|`500`|`200`|`200`|
+|`/public-network`|`500`|`500`|`200`|
+
+These tests will run in each cloud.gov environment and should be passing before the deployment can be promoted to the next environment.
 
 ## Miscellany
 
