@@ -51,7 +51,7 @@ Page 13: Agencies must enforce HTTPS for all production HTTP traffic
 
 Page 14: An end state where every distinct application they run is in its own separate network environment
 
-* The current wording would seem to imply that high-level PaaSes, like cloud.gov, would no longer be acceptable. This would be a net negative, as we should instead be encouraging use of platforms that provide a high-level of inheritance of security controls.  We suggest that this be amended to include: 
+* The current wording would seem to imply that high-level PaaSes, like cloud.gov, would no longer be acceptable. This would be a net negative, as we should instead be encouraging use of platforms that provide a high-level of inheritability of security controls.  We suggest that this be amended to include: 
   > or, in multi-tenant environments, is operated with secure tenant isolation through features such as overlay networks and mutual authentication
 
 Page 22: Agencies must reach the first incident logging maturity level (IL1) as described in Memorandum M-21-31
