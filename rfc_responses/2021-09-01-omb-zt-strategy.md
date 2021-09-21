@@ -15,7 +15,7 @@ Our comments reference the page numbers of the PDF.
 
 Page 3, **Required Actions**
 
-* This strategy lists 19 actions, but has only listed 1 (phishing-resistant verifiers) as the top priority.  For the other 18, unless OMB wants none of them complete for another 3 years, OMB should designate priority tiers. The nation's cybersecurity needs will be best met if the highest value actions are completed sooner, and lower value actions later.  
+* This strategy lists 19 actions, but has only listed 1 (phishing-resistant verifiers) as the top priority. To facilitate timely completion of the remaining 18, we recommend that OMB designate priority tiers for these items. The nation's cybersecurity needs will be best met if the highest value actions are completed sooner, and lower value actions later.  
 
   If OMB cannot prioritize on behalf of agencies, then OMB should direct agencies to adopt a prioritization process, e.g. CD3 ([Cost of Delay Divided by Duration](https://blackswanfarming.com/cost-of-delay-divided-by-duration/)), and direct them to complete first the actions that provide the highest value, in the least time, before moving on to other actions. OMB would need to provide a means for determining the "protection value" for each action to support such agency-specific prioritization.
 
