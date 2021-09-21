@@ -21,7 +21,7 @@ Page 3, **Required Actions**
 
 Page 4: Agencies should re-prioritize funding in FY22 to achieve priority goals, or seek funding from alternative sources
 
-* We laud the purpose and goals of this plan, but achieving this vision will necessarily require de-prioritizing other goals, including those goals laid out in other OMB mandates. Budgeting is one issue, but a key limiting factor is the availability of qualified practitioners. Filling security and operations roles or hiring qualified contractors is already a significant challenge.  We can't likely meet these goals, and better secure our assets, unless OMB specifically de-prioritizes other work.  We recommend that OMB scale back IPv6 adoption mandates and reduce the scope of DNSSEC adoption so our resources can be focussed on the high-value activities this strategy lays out.
+* We laud the purpose and goals of this plan, but achieving this vision will necessarily require de-prioritizing other goals, including the goals laid out in other OMB mandates. Budgeting is one issue, but a key limiting factor is the availability of qualified practitioners. Filling security and operations roles or hiring qualified contractors is already a significant challenge.  We likely can't meet these goals, and better secure our assets, unless OMB specifically de-prioritizes other work.  We recommend that OMB scale back IPv6 adoption mandates and reduce the scope of DNSSEC adoption so our resources can be focussed on the high-value activities this strategy lays out.
 
 Page 9: CISA will identify or make available to agencies one or more services to privately compare user passwords against known-weak and known-breached data
 
