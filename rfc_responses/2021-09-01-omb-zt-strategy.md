@@ -1,13 +1,12 @@
 ---
-title: Federal Zero Trust Strategy - Public Comment
-layout: page
-sidenav: true
-permalink: /federal-zero-trust-strategy/
+title: Federal Zero Trust Strategy - Public Comment from cloud.gov
 ---
 
 _[N.B.: This is an edited copy of the GitHub version of [OMB Zero Trust
 Strategy](https://github.com/ombegov/zerotrust/blob/main/_pages/01-omb-zt-strategy.md)
 with comments and suggested edits from cloud.gov]_
+
+ma
 
 # Federal Zero Trust Strategy
 
