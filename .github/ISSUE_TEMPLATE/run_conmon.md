@@ -18,11 +18,13 @@ Omit: I am not finding a clear path to using Netsparker for our admin apps, and 
 
 # OWASP ZAP Scans
 
-## Preliminary work
+## Preliminary work - Sandbox User Setup
 
-We scan our externally facing apps as sandbox users of cloud.gov. This vastly speeds up scans since the spider doesn't crawl every app and org in _logs_ or _dashboard_, and also avoids issues with the "clcking" on links with undesired impacts. Create a sanbox account, starting from https://account.fr.cloud.gov/signup, and use an email such as your `fname.lname@{cio.gov, pif.gov, fedramp.gov}`
+We scan our externally facing apps as _sandbox users_ of cloud.gov, via the cloud.gov IdP, instead of _platform admins_. This vastly speeds up scans since the spider doesn't crawl every app and org in _logs_ or _dashboard_, and also avoids issues with ZAP "clicking" on links with undesired impacts. 
 
-As your "sandbox" user identity, launch a "Hello World" app so there's something in the dashboard and logs apps to spider. (ToDo: Determine if this is really necessary)
+Create a sandbox account, starting from https://account.fr.cloud.gov/signup, and use an email such as your `fname.lname@{cio.gov, pif.gov, fedramp.gov}`
+
+As your "sandbox" user identity, launch a "Hello World" app so there's something in the dashboard and logs apps to spider. (ToDo: Determine if this is really necessary, provide link to steps).
 
 ## Install, Configure, and Update
 
