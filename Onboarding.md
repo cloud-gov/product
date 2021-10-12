@@ -4,8 +4,6 @@ cloud.gov helps government teams attack core impediments to smooth, iterative de
 
 ## Onboarding
 
-Get through [the 18F onboarding guide for your discipline](https://handbook.18f.gov/#teams) first. (Contractors, we're presuming you have an equivalent process you've gone through for onboarding with your employer.)
-
 Everyone joining the cloud.gov team will get assigned a team onboarding buddy. This person should be working on similar things to what you will be working on, so that they can answer questions in your domain.
 
 You and your team onboarding buddy must follow the instructions in [the Onboarding Checklist](OnboardingChecklist.md) to create an issue that will guide you through tasks that will get you up to speed and contributing in no time. You (and your buddy) must track your progress by checking the boxes as you complete tasks.
@@ -20,13 +18,11 @@ We have [a document outlining our current practices](https://docs.google.com/doc
 
 Whenever possible, we err on the side of putting data where the public can see it. Some data might be kept in Google Drive for convenience of presentation, commenting, etc. but we consider public GitHub repositories the intended destination whenever possible.
 
-Several tools are used for project management, but the main one you will probably be using is GitHub to submit and merge pull requests and [Jira](https://cm-jira.usa.gov/secure/RapidBoard.jspa?projectKey=CG&rapidView=1929) to manage squad-specific work in kanban boards. We also use Jira for [macro-level cadence and roadmapping](https://cm-jira.usa.gov/secure/PortfolioPlanView.jspa?id=138&sid=138#backlog).
+Several tools are used for project management, but the main one you will probably be using is GitHub to submit and merge pull requests and GitHub Project boards for tracking in-flight work.
 
 ## Security/compliance context
 
 As a service offered to other federal agencies, cloud.gov must hold itself to a rigorous security standard in both our technical work and our team operations. We follow a formal set of security requirements as part of our FedRAMP P-ATO process. ([FedRAMP](https://www.fedramp.gov/) is a GSA-run program that assesses cloud services for government use, and we participate in this program.)
-
-This means we have additional team rules on top of your standard 18F team rules. Your onboarding checklist will introduce you to them! Also here are bits of additional compliance guidance:
 
 * When you log into our cloud.gov CLI or dashboard for cloud.gov work, such as to work on a component that sits on cloud.gov as an application (for example the dashboard or the website), and GSA SecureAuth prompts you for multi-factor authentication (MFA), pick an MFA option that isn't email — use the phone/text/app MFA option. This helps us comply with our FedRAMP requirements.
 
@@ -38,16 +34,12 @@ This means we have additional team rules on top of your standard 18F team rules.
   - [The cloud.gov homepage and docs](https://cloud.gov/)
 - All [cloud.gov repositories](https://cloud.gov/docs/ops/repos/)
   - Repositories in the [cloud-gov Github organization](https://github.com/cloud-gov).
-  - [Compliance Toolkit](https://github.com/18F/compliance-toolkit/)
+  - [Compliance Toolkit](https://github.com/cloud-gov/compliance-toolkit/)
   - [Compliance Masonry](https://github.com/opencontrol/compliance-masonry)
 - a [Google Drive folder](https://drive.google.com/a/gsa.gov/folderview?id=0Bx6EvBXVDWwheUtVckVnOE1pRzA&usp=sharing) full of artifacts related to design, user research, etc (also expected to move to GitHub in time)
-- [Jira](https://cm-jira.usa.gov/secure/RapidBoard.jspa?projectKey=CG&rapidView=1929) boards to manage our squad work and to facilitate our regular program-level standups
-- [Murals](http://mur.al/bklqnALZ) for our quarterly PI planning sessions
 - [The cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-support), where we currently wrangle inquiries from various agencies, and some support.
 
-We liberally make upstream pull requests for stuff we use. We try to transfer broadly-useful Cloud Foundry-related projects to [the Cloud Foundry community GitHub organization](https://github.com/cloudfoundry-community/). We also try to move others to the [opencontrol](https://github.com/opencontrol) or [fisma-ready](https://github.com/fisma-ready) GitHub organizations whenever appropriate.
-
-To release: `ci.fr.cloud.gov -> deploy-cf project`
+We liberally make upstream pull requests for stuff we use. We try to transfer broadly-useful Cloud Foundry-related projects to [the Cloud Foundry community GitHub organization](https://github.com/cloudfoundry-community/). 
 
 ## Important terminology and context
 
@@ -73,8 +65,7 @@ To release: `ci.fr.cloud.gov -> deploy-cf project`
 - InfoSec – information security.
 - PaaS – platform as a service. We use Cloud Foundry to run the cloud.gov PaaS.
 - [Pivotal](https://pivotal.io/) – the company that originally started Cloud Foundry.
-- [Pivotal Web Services](https://run.pivotal.io/) – Pivotal's hosted commercial version of Cloud Foundry.
-- UAA - UAA is the User Authentication and Authorization hub for Cloud Foundry. It can delegate identity management via common standards such as LDAP/Active Directory, SAML, OAuth/OpenID Connect, and so forth. UAA is deployed as part of cloud.gov. We use the out of the box install, with some stuff specific to [our own release](https://github.com/cloud-gov/cg-cf-release/tree/master/src).
+- UAA - UAA is the User Authentication and Authorization hub for Cloud Foundry. It can delegate identity management via common standards such as LDAP/Active Directory, SAML, OAuth/OpenID Connect, and so forth. UAA is deployed as part of cloud.gov. 
 
 Also see [the Cloud Foundry glossary](http://docs.cloudfoundry.org/concepts/glossary.html) for  terms that are specific to the technology powering our platform.
 
