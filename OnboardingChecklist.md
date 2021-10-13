@@ -63,12 +63,12 @@ These items help us fulfill security and compliance requirements (including for 
 * [ ] Coordinate with your onboarding buddy to go through [Incident Response Training](https://docs.google.com/presentation/d/1AZjQE8zBzMRWZIFUuJPkJLted1ykGtALrLPoPRx5Vls/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following document, which you should also review before or after training:
 * [ ] Read the [Incident Response Guide](https://cloud.gov/docs/ops/security-ir/).
 * [ ] Coordinate with your onboarding buddy to go through [nonpublic information training](https://docs.google.com/presentation/d/1uB4MlGCu8ZYUxjKVZKwicQ95MvLxaT4Mh93y6w79GPw/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following documents, which you should also review before or after training:
-  * [ ] Review the [cloud.gov open source policy guidance about protecting sensitive information](https://github.com/cloud-gov/open-source-policy/blob/master/practice.md#protecting-sensitive-information).
+  * [ ] Review the [cloud.gov open source policy guidance about protecting sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information).
   * [ ] Read our [sharing secret keys](https://cloud.gov/docs/ops/secrets/#sharing-secret-keys) policy.
   * [ ] Review the [TTS requirements for password management](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/password-requirements/).
 * [ ] Read the [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), particularly the [cloud.gov team responsibilities](https://cloud.gov/docs/ops/continuous-monitoring/#cloud-gov-team).
 * [ ] Read the [Configuration Management Plan](https://cloud.gov/docs/ops/configuration-management/).
-* [ ] Read the [cloud.gov Security Policies and Procedures](https://github.com/cloud-gov/compliance-docs). These documents explain the high-level policies and procedures we must comply with while running cloud.gov, sorted into security control "families" They explain that we follow GSA IT security policy, and they provide a summary of the procedures in our System Security Plan.
+* [ ] Read the [cloud.gov Security Policies and Procedures](https://github.com/cloud-gov/cg-compliance-docs). These documents explain the high-level policies and procedures we must comply with while running cloud.gov, sorted into security control "families" They explain that we follow GSA IT security policy, and they provide a summary of the procedures in our System Security Plan.
 * [ ] Review the System Security Plan (the latest version lives on [Google Drive](https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0); look for "cloud.gov System Security Plan (SSP)" as a *.docx* file). Of particular note for onboarding: Section 9 (System Description) and Section 10 (System Environment)
 
 ### Slack channels
