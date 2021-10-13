@@ -38,7 +38,6 @@ If the person offboarding is a contractor follow the steps in the [offboarding c
   - Remove them from [HackerOne](https://hackerone.com/)
   - If they are leaving GSA, ask `#admins-slack` to convert them to a single-channel alumni user
   - Remove their agent access to Zendesk - [switch their role to "end user"](https://cloud-gov.zendesk.com/agent/admin/people)
-  - Remove them from [the cloud.gov group](https://app.cloudcheckr.com/Admin/UserGroupBuilder/fb111fab-ef5d-48d0-9472-cff691e1bd9c) in CloudCheckr
   - Update this issue with a comment within 24h of departure that the above steps are complete
 - [ ] Remove them from `@cg-team`, `@cg-operators`, and any other `@cg-` teams in the Slack Team Directory [using the three-dot menu (instructions)](https://get.slack.help/hc/en-us/articles/212906697-User-Groups)
 - [ ] Remove them from the [team roster](https://docs.google.com/spreadsheets/d/1mW3tphZ98ExmMxLHPogSpTq8DzYr5Oh8_SHnOTvjRWM/edit#gid=0)
