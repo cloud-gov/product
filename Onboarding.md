@@ -34,8 +34,6 @@ As a service offered to other federal agencies, cloud.gov must hold itself to a 
   - [The cloud.gov homepage and docs](https://cloud.gov/)
 - All [cloud.gov repositories](https://cloud.gov/docs/ops/repos/)
   - Repositories in the [cloud-gov Github organization](https://github.com/cloud-gov).
-  - [Compliance Toolkit](https://github.com/cloud-gov/compliance-toolkit/)
-  - [Compliance Masonry](https://github.com/opencontrol/compliance-masonry)
 - a [Google Drive folder](https://drive.google.com/a/gsa.gov/folderview?id=0Bx6EvBXVDWwheUtVckVnOE1pRzA&usp=sharing) full of artifacts related to design, user research, etc (also expected to move to GitHub in time)
 - [The cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-support), where we currently wrangle inquiries from various agencies, and some support.
 
