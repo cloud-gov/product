@@ -12,7 +12,7 @@ We've structured our team into two teams.
   - Comm channels: #cg-platform
 
 - Customer and business
-  - Kelley Confer, Kara Reinsel, Melanie Leopold, Gerald Sill
+  - Kelley Confer, Melanie Leopold, Gerald Sill
   - Comm channel: #cg-business
 
 
