@@ -96,13 +96,15 @@ Once you're added to these channels, you probably want to mute these channels un
 
 ## Platform-Ops-specific items
 
+- Request [local admin rights](https://docs.google.com/document/d/1xepZsh83lxPDykrb1NXoeHxj8m78qsdW-9KqzO_CHOQ/edit) on your GFE Mac using [this justification](https://docs.google.com/document/d/1YGid3pTji5W_M9RuF1GDf614BVkLIRDmSrt1tDbej-o/edit).
+
 ### Account access
 
 *Note: These are all contingent on completing the GSA Mandatory Cyber Security and Privacy Training first. AWS user names should be identical across accounts so that permissions can be correctly managed by Terraform.*
 
 * [ ] [AWS Accounts](https://cloud.gov/docs/ops/aws-onboarding/) via the AWS web console (not Terraform) and provide one-time credentials.
-* [ ] AWS GovCloud
-* [ ] AWS East tied to GovCloud
+    * [ ] AWS GovCloud
+    * [ ] AWS East tied to GovCloud
 * [ ] Add their account name to the [audit input file](https://github.com/cloud-gov/cg-compliance/blob/master/audit/inputs.yml)
 * [ ] Nessus Manager GUI
 * [ ] [Make them an admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) of the platform.
