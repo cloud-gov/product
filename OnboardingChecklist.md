@@ -124,7 +124,6 @@ Once you're added to these channels, you probably want to mute these channels un
 - [ ] Install [CloudFoundry for mac per their docs](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html#pkg-mac):
   - `brew tap cloudfoundry/tap`
   - `brew install cf-cli@7`
-  - `brew install cloudfoundry/tap/bosh-cli`
   - `brew install openssl`
 - [ ] Verify CloudFoundry Installation via the CLI (once an existing cloud.gov teammate has [made your cloud.gov admin account](https://cloud.gov/docs/ops/managing-users/#creating-admins))
   - `cf login -a api.fr.cloud.gov --sso`
@@ -150,6 +149,8 @@ Once you're added to these channels, you probably want to mute these channels un
     - `cd ~/Downloads`
     - `mv fly /usr/local/bin/fly`
   - [ ] Verify using `fly -h`
+    - This may fail due to app security policy on your mac rejecting apps from unidentified developers.
+    - You can try the proceedure [here](https://www.imore.com/how-open-apps-anywhere-macos-catalina-and-mojave) to change the app settings. 
 - [ ] Install cloud.gov dev tools by cloning the [`cg-scripts` repo](https://github.com/cloud-gov/cg-scripts/)
   - `git clone https://github.com/cloud-gov/cg-scripts.git`
 
