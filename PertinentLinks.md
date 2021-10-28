@@ -3,10 +3,11 @@
 As a highly motivated and distributed team, there are many links that we use to
 communicate effectively as a team. Below are a list of pertinent links that
 should be bookmarked and encouraged to check on a regular basis.
+For easy import of these bookmarks download and import [import_bookmarks.html](./import_bookmarks.html) in your browser. 
 
 #### General cloud.gov items
 
-- [Project board (project tracking)][https://github.com/orgs/cloud-gov/projects/2]
+- [Project board (project tracking)](https://github.com/orgs/cloud-gov/projects/2)
 - [cloud.gov Beta dashboard](https://dashboard-beta.fr.cloud.gov/) :lock:
 - [cloud.gov dashboard](https://dashboard.fr.cloud.gov/) :lock:
 - [cloud.gov Google Drive folder][cg-drive-folder] :lock:
@@ -33,11 +34,11 @@ should be bookmarked and encouraged to check on a regular basis.
 
 - Add items here, if it's useful!
 
-[slack-business]: https://gsa-tts.slack.com/messages/cg-business
-[slack-compliance]: https://gsa-tts.slack.com/messages/cg-compliance
-[slack-platform]: https://gsa-tts.slack.com/messages/cg-platform
-[slack-program]: https://gsa-tts.slack.com/messages/cg-program
-[slack-support]: https://gsa-tts.slack.com/messages/cg-support
+[slack-business]: https://gsa-tts.slack.com/channels/cg-business
+[slack-compliance]: https://gsa-tts.slack.com/channels/cg-compliance
+[slack-platform]: https://gsa-tts.slack.com/channels/cg-platform
+[slack-program]: https://gsa-tts.slack.com/channels/cg-program
+[slack-support]: https://gsa-tts.slack.com/channels/cg-support
 
 [aws-fr-console]: https://signin.amazonaws-us-gov.com/?region=us-gov-west-1
 
