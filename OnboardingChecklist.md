@@ -150,7 +150,7 @@ Once you're added to these channels, you probably want to mute these channels un
     - `mv fly /usr/local/bin/fly`
   - [ ] Verify using `fly -h`
     - This may fail due to app security policy on your mac rejecting apps from unidentified developers.
-    - You can try the proceedure [here](https://www.imore.com/how-open-apps-anywhere-macos-catalina-and-mojave) to change the app settings. 
+    - You can try the procedure [here](https://www.imore.com/how-open-apps-anywhere-macos-catalina-and-mojave) to change the app settings.
 - [ ] Install cloud.gov dev tools by cloning the [`cg-scripts` repo](https://github.com/cloud-gov/cg-scripts/)
   - `git clone https://github.com/cloud-gov/cg-scripts.git`
 
