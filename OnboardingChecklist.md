@@ -105,7 +105,7 @@ Once you're added to these channels, you probably want to mute these channels un
 ## Platform-Ops-specific items
 
 You should already have admin rights on your machine as a part of its original setup.  If for whatever reason you don't,
-Please let `Buddy` know and they will help yuo request [local admin rights](https://docs.google.com/document/d/1xepZsh83lxPDykrb1NXoeHxj8m78qsdW-9KqzO_CHOQ/edit) on your GFE Mac using [this justification](https://docs.google.com/document/d/1YGid3pTji5W_M9RuF1GDf614BVkLIRDmSrt1tDbej-o/edit).
+Please let `Buddy` know and they will help you request [local admin rights](https://docs.google.com/document/d/1xepZsh83lxPDykrb1NXoeHxj8m78qsdW-9KqzO_CHOQ/edit) on your GFE Mac using [this justification](https://docs.google.com/document/d/1YGid3pTji5W_M9RuF1GDf614BVkLIRDmSrt1tDbej-o/edit).
 
 ### Account access
 
