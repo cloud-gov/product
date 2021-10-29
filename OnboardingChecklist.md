@@ -16,7 +16,7 @@ When someone new joins the cloud.gov team:
 
 ---
 
-In order to get `NewPerson` productively contributing to the cloud.gov team, `Buddy` should help `NewPerson` complete a prescribed set of tasks that will bring them up to speed.
+In order to get `NewPerson` productively contributing to the cloud.gov team, `Buddy` should help `NewPerson` complete a prescribed set of tasks that will bring them up to speed and get them setup with cloud.gov.
 
 ## Directions
 
@@ -29,6 +29,9 @@ In order to get `NewPerson` productively contributing to the cloud.gov team, `Bu
 ### Required items for all team members
 
 These items help us fulfill security and compliance requirements (including for FedRAMP). If you get stuck, or if these requirements are confusing, ask for help from your buddy or in a cloud.gov channel.
+
+- [ ] Take judicious notes on what about this onboarding process or cloud.gov is confusing or frustrating. If you notice a problem (especially with things like documentation), you are more than welcome to fix it! At the very least, please share this information with your onboarding buddy (or someone) at some point so we can make the team/platform better. (You can also file issues and pull requests on [the template Onboarding checklist](https://github.com/cloud-gov/product/blob/master/OnboardingChecklist.md).
+- [ ] Be sure to introduce yourself and follow up with your onboarding buddy (they should have reached out to you at this point; if they haven't, please let the team know) and make sure this issue is assigned to them in our [Github Project Planning Board](https://github.com/orgs/cloud-gov/projects/2). We use this board to organize, prioritize, and track our work.
 
 #### Pre-requisites
 
@@ -66,8 +69,6 @@ These items will help you come up to speed on cloud.gov and what it is, how it w
 should take the time to go through them, please do not try and tackle it all in one shot!  It can become overwhelming
 very quickly  `Buddy` will walk through this list with you at a high level with you to help manage the work.
 
-- [ ] Take judicious notes on what about this onboarding process or cloud.gov is confusing or frustrating. If you notice a problem (especially with things like documentation), you are more than welcome to fix it! At the very least, please share this information with your buddy (or someone) at some point so we can make the team/platform better. (You can also file issues and pull requests on [the template Onboarding checklist](https://github.com/cloud-gov/product/blob/master/OnboardingChecklist.md).
-- [ ] Figure out who your onboarding buddy is (they should reach out to you) and make sure this issue is assigned to them in our [Github Project Planning Board](https://github.com/orgs/cloud-gov/projects/2).We use this board to organize, prioritize, and track our work.
 - [ ] Read [the team onboarding document](https://github.com/cloud-gov/product/blob/master/Onboarding.md) for more context about cloud.gov.
 - [ ] Bookmark the [pertinent links listed here](https://github.com/cloud-gov/product/blob/master/PertinentLinks.md).
 - [ ] Read through [the Overview section of our site](https://cloud.gov/docs/overview/what-is-cloudgov/) for a broader understanding of cloud.gov, especially how we present it to potential customers and users.
@@ -142,27 +143,23 @@ Please let `Buddy` know and they will help you request [local admin rights](http
     - If you have none or one (e.g. sandbox) org, please reach out to your onboarding buddy, `Buddy`
 - [ ] Install the [Bosh CLI using their instructions for MacOS](https://bosh.io/docs/cli-v2-install/#using-homebrew-on-macos)
   - `brew install cloudfoundry/tap/bosh-cli`
-  - [ ] Verify the installation using
-    - `bosh -v`
+  - [ ] Verify the installation by running `bosh -v` in the command line
 - [ ] Install Terraform and other tools per [cg-provision](https://github.com/cloud-gov/cg-provision)
   - `brew install terraform`
   - `brew install awscli`
   - `brew install jq`
-  - [ ] Verify Terraform installed and is in your path
-    - Run `terraform` and helper text should display
-  - [ ] Verify AWS CLI installed and is in your path
-    - Run `aws` and helper text should display
+  - [ ] Verify Terraform installed and is in your path: run `terraform` and helper text should display
+  - [ ] Verify AWS CLI installed and is in your path: run `aws` and helper text should display
 - [ ] Install and configure `aws-vault` by [following our directions](https://cloud.gov/docs/ops/secrets/#install-aws-vault-for-aws-credentials-and-create-a-profile)
 - [ ] Install the Concourse `fly` CLI
   - Download the `fly` binary zip for MacOS from https://concourse-ci.org/
   - Extract the binary and move it to `/usr/local/bin/fly` so it's in your path
     - `cd ~/Downloads`
     - `mv fly /usr/local/bin/fly`
-  - [ ] Verify using `fly -h`
+  - [ ] Verify by running `fly -h` in your command line
     - This may fail due to app security policy on your mac rejecting apps from unidentified developers.
     - You can try the procedure [here](https://www.imore.com/how-open-apps-anywhere-macos-catalina-and-mojave) to change the app's security settings.
-- [ ] Install cloud.gov dev tools by cloning the [`cg-scripts` repo](https://github.com/cloud-gov/cg-scripts/)
-  - `git clone https://github.com/cloud-gov/cg-scripts.git`
+- [ ] Install cloud.gov dev tools by cloning the [`cg-scripts` repo](https://github.com/cloud-gov/cg-scripts/): run `git clone https://github.com/cloud-gov/cg-scripts.git` in your command line
 
 ### Figure out your first tasks
 
