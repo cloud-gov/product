@@ -48,7 +48,7 @@ These items help us fulfill security and compliance requirements (including for 
 
 #### Learn our policies and procedures
 
-For the thres trainings list at the top, `Buddy` will create a separate ticket to track the trainings once scheduling has been finished.  This will help consolidate trainings for multiple new members to the team and prevent them from blocking progress on this onboarding ticket.  Once the trainings are scheduled, they can be marked as complete here.
+For the three trainings list at the top, `Buddy` will create a separate ticket to track the trainings once scheduling has been finished.  This will help consolidate trainings for multiple new members to the team and prevent them from blocking progress on this onboarding ticket.  Once the trainings are scheduled, they can be marked as complete here.
 
 * [ ] Coordinate with your onboarding buddy to go through Contingency Planning training within 60 days (and annually after that). This will cover the following document, which you should also review before or after training:
   * [ ] Read the [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/).
