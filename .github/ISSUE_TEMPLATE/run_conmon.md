@@ -106,20 +106,18 @@ If you see an abnormally large `session` or `sessions` directory (my last run wa
 ## Export Nessus Scans
 
 - Log in to Nessus: https://nessus.fr.cloud.gov/
-
 - Select `All Scans`
-
-- Click on each scan except for staging, and export the .nessus file (Export > Nessus) and the Executive Summary report (Report > HTML).
+- Click on each scan for Tooling and Production, and export the .nessus file (Export > Nessus) and the Executive Summary report (Report > HTML). 
+- Click on each scan for RDS Compliance , and export the .nessus file (Export > Nessus)
 
 ## Acceptance criteria:
 
 The following (.xml and .html) are all uploaded to YYYYMMDD-ZAP-Nessus folder:
 - [ ] Production_Vulnerability_scan
 - [ ] Tooling_Vulnerability_scan 
-- [ ] Stating_Vulnerability_scan 
 - [ ] Production_Compliance_scan
 - [ ] Tooling_Compliance_scan 
-- [ ] Stating_Compliance_scan 
+- [ ] ALL the RDS compliance scans
 
 ## Update the POAM Inventory sheet
 
