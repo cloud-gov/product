@@ -95,17 +95,24 @@ The items left-aligned are ones that we're in last months' report but are now fi
   * fix up the entry
   * copy down the formula for Column M, "Scheduled Completion Date", to generate the due date based on severity
 * Use the `prep_zap` function for ZAP scan consolidation
+  * Likewise, work through the `MM.zap_work` file
+  * Mostly ignore the Low findings
 * Move fixed issues from Open to Closed tabs. Be sure to
   * Update the Status Date
   * Update the Supporting Documents, unless routine stemcell patch covered by the scan output
 
 Be sure to
-* Review the RDS scans
-* Review the Compliance scans
+* Review the RDS scans:
+  - cd to the directory with the RDS compliance scans,
+  - run `../../../parse-rds.sh`
+* Review the Compliance scans: 
+  * No good parsing yet, review manually
+* Address all gravely late POA&Ms
+  * Go to the [POAM Dashboard](https://docs.google.com/spreadsheets/d/1Of4psOutBmZHVekV-_n_CuG8lOqbdpmrSQQJeSwobm0/edit#gid=232277195)
+  * For each 90+day late POA&M, be sure to update the Milestone Changes filed
+    of the POA&M sheet
 * Review the Inventory
-
-For the RDS inventory (This need improving)
-* See the file `parse_rds.sh`
+  * Update RDS postgres versions if necessary
 
 **Acceptance criteria**
 - [ ] We uploaded our POA+M summary to MAX.gov https://community.max.gov/display/FedRAMPExternal/18F+Continuous+Monitoring 'POA&M and Inventory' folder
