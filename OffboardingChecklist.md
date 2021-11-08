@@ -45,6 +45,7 @@ If the person offboarding is a contractor follow the steps in the [offboarding c
 - [ ] In the [training tracker](https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0): if they're staying at TTS, move them to the "former teammates" tab; if they're leaving TTS, delete them from the spreadsheet
 - [ ] Remove them as invitees for any meetings on the cloud.gov calendar where they are specifically named
     - Invites where they are listed as part of the `cloud.gov` invitee group will be removed when they are removed from that group by the System Owner
+- [ ] Remove them from [our dockerhub org](https://hub.docker.com/orgs/cloudgov)
 
 ## System Owner (or person delegated by System Owner)
 
