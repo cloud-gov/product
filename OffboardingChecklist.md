@@ -4,7 +4,8 @@
 
 When someone leaves the cloud.gov team
 
-1. Create a new issue in the private team repo called "Remove [person's name]".
+1. The System Owner (director or deputy director) creates a new issue in the private team repo called "Remove [person's name]".
+  If the System Owner cannot do this, the an operations team member can create the issue and include documentation (e.g the screenshot from an authorizing email from SO or their superior)
 2. View the raw source of this file
 3. Copy everything below the line into the new issue's body
 4. Replace "LeavingPerson" with the leaving person's name
