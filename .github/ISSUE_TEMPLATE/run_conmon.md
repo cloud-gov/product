@@ -28,9 +28,12 @@ As your "sandbox" user identity, launch a "Hello World" app so there's something
 
 ## Install, Configure, and Update
 
-- Check that you have the [latest stable version of ZAP](https://www.zaproxy.org/download/) or install via Homebrew with `brew cask install (or brew upgrade --cask) owasp-zap` (recommended). Upgrade if necessary.
+- Check that you have the [latest stable version of ZAP](https://www.zaproxy.org/download/). Install/update via Homebrew with:
+     - `brew update; brew install owasp-zap` or
+     - `brew update; brew reinstall owasp-zap`
 
-     > NOTE: If you see an error running ZAP as an unsigned application, run the following from the command line: `xattr -dr com.apple.quarantine '/Applications/OWASP ZAP.app'`
+     > NOTE: If you see an error running ZAP as an unsigned application, run the following from the command line: 
+     - `xattr -dr com.apple.quarantine '/Applications/OWASP ZAP.app'`
 
 - Start ZAP and update
   - For "Session persistence", select "No, I do not want to persist my session..."
@@ -56,27 +59,36 @@ As your "sandbox" user identity, launch a "Hello World" app so there's something
 
 ## Running ZAP scans
 
-ZAP scans take hours. We recommend you start in the morning. There are two separate scans to run and the second one takes considerably longer than the first.
+ZAP scans take hours. We recommend you start in the morning. There are two separate scans to run, external and internal, and the internal one takes considerably longer (you may want to run it when VPN traffic is lower)
 
+The following steps are for the `external` scan (except as noted):
 - From the cloud.gov `product` repo, load the cloud.gov `cloud.gov-conmon-external.context` into ZAP (File > Import Context)
   - Delete the "Default Context" or any already completed context.
 - On the top line of icons, there should be a Firefox icon on the far right. Double-click that to open Firefox preconfigured to proxy through ZAP.
 - Open the `context` to see the included web applictions (Context -> Included in Context)
 - In the ZAP-configured Firefox, log in to each site in the context list.
-  - For the `external` context, use your "sandbox" identity. VPN not needed.
-  - For the `internal` context, use your Cloud Ops (GSA SecureAuth) identity, and join the VPN
+  - For the **`external` context, use your "sandbox" identity**. VPN not needed.
+  - For the **`internal` context, use your Cloud Ops (GSA SecureAuth) identity**, and join the VPN
 - To prevent getting noise in the scan results (since that causes major confusion when the FedRAMP team processes the ConMon report), review the `Sites` list to ensure only the cloud.gov sites have a small red circle/sight on them (denoting the site will be included). Remove any sites not needed by CTRL-clicking on them and selecting `Delete`.
+  - On the `internal` rescan, you can omit `login.fr.cloud.gov` from the sites before spidering/scanning
 - CTRL-click on the context and run the `Spider` scan.  This takes a little less than an hour.
 - After the `Spider` scan is complete, again CTRL-click on the context and this time run the `Active Scan`. 
-- After both scans are complete, export the results as both XML and HTML from the `Reports` menu. Name the files according to `YYYYMMDD-ZAP-(context).xml/html`. E.g.
-  - 20210623-ZAP-internal.xml
-  - 20210623-ZAP-internal.html
-  - 20210623-ZAP-external.xml
-  - 20210623-ZAP-external.html
+- After the Spider and Active scans are complete, export the results:
+  - From `Report` menu, select `Generate Report ...`
+    - Select the `Template` options, and use the templates:
+      - Traditional HTML report
+      - Traditional XML report
+    - Name the files according to `YYYYMMDD-ZAP-(context).xml/html`. E.g.
+      - 20210623-ZAP-external.xml
+      - 20210623-ZAP-external.html
+    - Optional: Check with compliance lead on whether we also need
+      "Traditional HTML Report with Requests and Responses"
 
-Repeat the above steps for the `internal` context (which will require the VPN) 
+**Quit ZAP, then repeat the "Running ZAP scans" steps for the `internal` context (which will require the VPN)**
 
-- Upload all reports to Google Drive: https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U in a folder named `YYYYMMDD-ZAP-Nessus`.
+## Upload and wrap up
+
+Upload all reports to Google Drive: https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U in a folder named `YYYYMMDD-ZAP-Nessus`.
 
 You can shut down ZAP and Firefox. 
 
