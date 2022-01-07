@@ -4,15 +4,16 @@
 
 When someone new joins the cloud.gov team:
 
-1. The cloud.gov director or deputy director adds the new team member to the `cloud-gov` team in GitHub. This constitutes 'formal approval` by leadership and enables access to to the [cg-private GitHub repo](https://github.com/cloud-gov/private) for the next step
-1. The System Owner (director or deputy director) creates a new issue in the [cg-private Github repo](https://github.com/cloud-gov/private/issues) called "Onboard [NewPerson]".
-  * If the System Owner cannot do this, the an operations team member can create the issue and include documentation (e.g the screenshot from an authorizing email)
-  * Use of a private repo helps satisfy AC-2, that we have officially added a person to our team before further onboarding.
-2. View the raw source of this file.
-3. Copy the text before the checklists to the Description field of the card.
-3. Copy each applicable block of tasks into a its own new task list on the card, replacing `NewPerson` with the new person's name and `Buddy` with the onboarding buddy's name.
-4. Submit the card.
-5. Assign the person who bravely volunteered to be the new person's Onboarding Buddy to the card.
+1. The System Owner (director or deputy director) creates a new issue in the [cg-private Github repo](https://github.com/cloud-gov/private/issues) called "Onboard [NewPerson]".  This constitutes 'formal approval' by leadership.
+  * Use of a private repo and an issue helps satisfy AC-2, that the system owner has added a person to our team before further onboarding.
+  * The system owner must do this step. The assignee can add the checklist if necessary. 
+1. The cloud.gov director or deputy director adds the new team member to the `cloud-gov` team in GitHub. 
+2. Populate the issue with this checklist:
+  2. View the raw source of this file.
+  3. Copy the text before the checklists to the Description field of the card.
+  3. Copy each applicable block of tasks into a its own new task list on the card, replacing `NewPerson` with the new person's name and `Buddy` with the onboarding buddy's name.
+  4. Submit the issue.
+5. Assign the person who bravely volunteered to be the new person's Onboarding Buddy to the issue.
 6. Put the issue into the _Doing_ column.
 
 ---
