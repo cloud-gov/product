@@ -2,6 +2,9 @@
 
 There are three main options here, the third having many sub-options:
 
+## Note:
+The upstream took on the native HTTPS support, so we're relying on that.
+
 ## Wait for native HTTPS support
 Asking about c2c encryption in Cloud Foundry community channels has opened up some
 conversations about offering this natively. We do not have a firm commitment or
