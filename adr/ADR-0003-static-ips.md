@@ -23,6 +23,17 @@ We should support static IP addressing for custom domains on ALBs. We'll do this
 - updating the external domain broker to not reselect ALBs when it makes other updates
 - updating the external domain broker to emit the static IPs of the NLBs when provisioning is complete
 
+The user process for using this looks like:
+1. Decide on a hostname (in our example, myapp.agency.gov)
+1. Create the cf domain 
+   `cf create-private-domain myapp.agency.gov`
+1. Push an app with that domain as a route
+1. Create the domain service instance
+   `cf create-service external-domain domain my-domain -p '{"domains": ["myapp.agency.gov"]}'`
+1. Wait for domain to finish provisioning
+1. (exact process to be determined) interact with CF to get the associated static IPs
+1. using the agency's DNS provider, create A and AAAA records for myapp.agency.gov pointing to the ip addresses from 6
+
 ## Open Questions
 
 - How do we get the static IP to users? I _think_ CAPI's implementation of the OSBAPI only allows passing 
