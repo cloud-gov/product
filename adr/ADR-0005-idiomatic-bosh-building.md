@@ -18,24 +18,7 @@ We should start tracking both of these directories in git. We can track the `.fi
 without tracking the `releases` directory, but cannot track `releases` without tracking `.final_builds`
 
 We'll move one release at a time, removing them from the bosh-releases pipeline and updating them, 
-first to track the `.final_builds` directory, then later the `releases` directory. Tracking 
-`.final_builds` solves the majority of the difficulties we run into, tracking `releases` is primarily 
-for downstream consumers, if any exist.
-
-### Tracking `.final_builds`
-
-Switching a repo to tracking `.final_builds` doesn't require much extra work:
-1. remove the release from the bosh-releases pipeline
-2. delete the existing `.final_builds` directory from the git repo
-3. pull the `final-builds-<release-name>` tarball from s3
-4. untar the tarball into the repo, commit, and push
-5. add a new build job to the deployment or some other pipeline (this relies on a to-be-created
-   script in cg-pipeline-tasks, modeled after finalize-bosh-release)
-
-### Tracking `releases`
-
-Tracking the `releases` directory requires more thinking on our part, and isn't fully mapped out
-yet. 
+to track these directories.
 
 The challenge is that we need to let CI commit, but we can't let it commit to our protected
 branches. In a perfect world, this is pretty easy:
