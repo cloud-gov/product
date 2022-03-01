@@ -32,16 +32,16 @@ We'd add one or more concourse pipelines that
 
 Concourse pipelines that use images would need to reference images by _hash_ rather than _tag_
 
-### Adding a new image looks like
+_Adding a new image looks like_
 
 - add the image to the checker pipeline
 - consume the SHAs from the checker 
 
-### Updating an image version looks like
+_Updating an image version looks like_
 
 - get a SHA from the image checker
 
-### Revoking a scary version looks like
+_Revoking a scary version looks like_
 
 - change SHAs wherever they're consumed
 
