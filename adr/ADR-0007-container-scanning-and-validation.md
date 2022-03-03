@@ -20,7 +20,11 @@ We need to ensure we're scanning containers used in-boundary. Currently, this me
 
 ## Options
 
-### Scan and list
+- [Scan and list](#scan-and-list)
+- [SaaS registry with explicit push](#container-registry-saas-wexplicit-push)
+- [cloud.gov registry with explicit push](#container-registry-run-our-own--explicit-push)
+- [cloud.gov registry with passthrough](#container-registry-run-our-own--passthrough)
+## Scan and list
 
 In this option, we scan docker containers, then pull from Docker Hub by image hash.
 
@@ -45,9 +49,9 @@ _Revoking a scary version looks like_
 
 - change SHAs wherever they're consumed
 
-#### Open questions
+### Open questions
 
-##### image tag parametrization
+#### image tag parametrization
 Can concourse use a variable from credhub as the image tag?
 
 This is pretty key to how workable this solution is. If this works, this solution is _fairly_ low-lift.
@@ -55,17 +59,17 @@ If this doesn't work, this solution becomes very high-friction, especially if/wh
 an image version.
 
 
-#### Pros
+### Pros
 
 - low setup cost
 - low operational cost
 - no SCR needed?
 
-#### Cons
+### Cons
 - if tag parametrization doesn't work, this is a pretty high-friction solution
 - doesn't work well for non-concourse usage (which is currently low/zero, but could be an issue in the future)
 
-### Container registry: SaaS w/explicit push
+## Container registry: SaaS w/explicit push
 
 Here we use something like AWS Elastic Container Registry (ECR) as a container store. We configure
 concourse (and other container-using-services) to use this registry instead of using docker hub.
@@ -86,20 +90,20 @@ _Revoking a scary version looks like_
 
 - delete image from repository
 
-#### Pros
+### Pros
 
 - low lift on concourse and other container runtimes (just tell them to pull from the registry)
 - also lets us host images without any Docker Hub usage
 - using a registry for all container pulls means we don't have to worry about forgetting to scan images
 - low/no maintenance for registry
 
-#### Cons
+### Cons
 - probably needs an SCR
 - requires work up front to add a new image
 - (depending on SaaS) might require acq for SaaS
 
 
-### Container registry: run our own + explicit push
+## Container registry: run our own + explicit push
 
 This is the same as above, but we run our own registry (e.g. Sonatype Nexus, Artifactory, docker registry)
 
@@ -122,7 +126,7 @@ _Revoking a scary version looks like_
 
 - delete image from repository
 
-#### Pros
+### Pros
 
 - low lift on concourse and other container runtimes (just tell them to pull from the registry)
 - also lets us host images without any Docker Hub usage
@@ -130,14 +134,14 @@ _Revoking a scary version looks like_
 - potentially useful for other resource types (npm, pypi, maven, etc, repos)
 - high auditability for image usage
 
-#### Cons
+### Cons
 - probably needs an SCR
 - requires work up front to add a new image
 - high maintenance for registry
 - (depending on registry) might require acq for registry licence
 
 
-### Container registry: run our own + passthrough
+## Container registry: run our own + passthrough
 
 This is the same as above, but we allow pass-through on the registry
 
@@ -163,7 +167,7 @@ one of:
 - push or alias a new/safe image that shadows the bad one
 - configure clients manually to skip the bad one 
 
-#### Pros
+### Pros
 
 - low lift on concourse and other container runtimes (just tell them to pull from the registry)
 - also lets us host images without any Docker Hub usage
@@ -171,7 +175,7 @@ one of:
 - potentially useful for other resource types (npm, pypi, maven, etc, repos)
 - high auditability for image usage
 
-#### Cons
+### Cons
 - probably needs an SCR
 - high maintenance for registry
 - potential for very insecure container to be used before being scanned
