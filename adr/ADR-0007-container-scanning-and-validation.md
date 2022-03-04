@@ -24,6 +24,28 @@ We need to ensure we're scanning containers used in-boundary. Currently, this me
 - [SaaS registry with explicit push](#container-registry-saas-wexplicit-push)
 - [cloud.gov registry with explicit push](#container-registry-run-our-own--explicit-push)
 - [cloud.gov registry with passthrough](#container-registry-run-our-own--passthrough)
+
+## Selected option and rationale
+
+We are opting to go with [SaaS registry with explicit push](#container-registry-saas-wexplicit-push). Primary rationale:
+- [Scan and list](#scan-and-list) is too brittle for day-to-day usage, plus does not solve the problem well enough for non-concourse usage
+- [cloud.gov registry with passthrough](#container-registry-run-our-own--passthrough) probably does not meet FedRAMP requirements, which
+  seem to state that we must scan an image before usage in production
+- [cloud.gov registry with explicit push](#container-registry-run-our-own--explicit-push) requires too much operational overhead for the 
+   time being.
+- [SaaS registry with explicit push](#container-registry-saas-wexplicit-push) seems to meet all our requirements for a relatively low
+   level of effort
+
+## Rough sketch and next steps
+
+(this sketch drafted following our discussion and decision)
+
+We are planning to go forward using ECR as our container registry. We hope to leverage the built-in scanning tools as our scanning 
+solution. We'll start by building a proof-of-concept for a push->scan->promote pipeline using ECR. Pending results there, we'll work
+with our compliance team to make sure it's production-ready and approved for use, then start adding images used by Concourse to the 
+pipeline, and switch Concourse to use ECR as its registry.
+
+
 ## Scan and list
 
 In this option, we scan docker containers, then pull from Docker Hub by image hash.
