@@ -14,6 +14,3 @@ We've structured our team into two teams.
 - Customer and business
   - Kelley Confer, Melanie Leopold, Gerald Sill
   - Comm channel: #cg-business
-
-
-
