@@ -4,7 +4,9 @@
 
 We need to scan containers we use so we can track issues with security, compliance, and best practices.
 
-### Goals:
+This scanning must comply with the [FedRAMP Vulnerability Scanning Requirements for Containers](https://www.fedramp.gov/assets/resources/documents/Vulnerability_Scanning_Requirements_for_Containers.pdf).
+
+### Goals
 
 These are the important goals to keep in mind while selecting an implementation path:
 - minimize developer friction when adding or updating containers
@@ -18,12 +20,6 @@ We need to ensure we're scanning containers used in-boundary. Currently, this me
 
 - concourse resources
 
-## Options
-
-- [Scan and list](#scan-and-list)
-- [SaaS registry with explicit push](#container-registry-saas-wexplicit-push)
-- [cloud.gov registry with explicit push](#container-registry-run-our-own--explicit-push)
-- [cloud.gov registry with passthrough](#container-registry-run-our-own--passthrough)
 
 ## Selected option and rationale
 
@@ -36,7 +32,7 @@ We are opting to go with [SaaS registry with explicit push](#container-registry-
 - [SaaS registry with explicit push](#container-registry-saas-wexplicit-push) seems to meet all our requirements for a relatively low
    level of effort
 
-## Rough sketch and next steps
+### Rough sketch and next steps
 
 (this sketch drafted following our discussion and decision)
 
@@ -45,6 +41,63 @@ solution. We'll start by building a proof-of-concept for a push->scan->promote p
 with our compliance team to make sure it's production-ready and approved for use, then start adding images used by Concourse to the 
 pipeline, and switch Concourse to use ECR as its registry.
 
+### Requirements
+
+These statements are pulled directly from the [FedRAMP Vulnerability Scanning Requirements for Containers](https://www.fedramp.gov/assets/resources/documents/Vulnerability_Scanning_Requirements_for_Containers.pdf).  We need to make sure they are accounted for and implemented as a part of our solution.
+
+#### Hardened Images
+
+_Final configurations must be validated by a 3PAO to ensure they meet FedRAMP requirements for the baseline controls CM-6, SC-2, SC-3, SC-4, SC-6, SC-28, and SC-39._
+
+We will need to iron out the details of this piece as whatever images we put into ECR will have to be hardened by us beforehand.  We already perform [hardening with our stemcells Ubuntu images](https://github.com/cloud-gov/cg-harden-boshrelease), so this will likely serve as our baseline for hardening future images.
+
+#### Build, Test, and Orchestration Pipeline
+
+_These automated tools must be validated by a 3PAO to meet FedRAMP requirements for the baseline controls CA-2, CM-2, CM-3, SC-28, SI-3, and SI-7._
+
+The pipeline we build will require an SCR and validation by a 3PAO.  ECR will provide the registry and scanning pieces, Concourse will provide the deployment piece, but we will need to figure out the image hardening piece a stated above.
+
+#### Vulnerability Scanning for Container Images
+
+_Prior to deploying a container to a production environment, all components in the image must be scanned according to the [FedRAMP Vulnerability Scanning Requirements](https://www.fedramp.gov/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf) document. When possible, the container orchestration process should incorporate scanning as one of the steps in the deployment pipeline. The 30-day scanning window begins as soon as the container is deployed to the production registry. Only containers from images that have been scanned within a 30-day vulnerability scanning window can be actively deployed on the production environment._
+
+ECR can provide this for us with its [Image Scanning](https://docs.aws.amazon.com/AmazonECR/latest/userguide/image-scanning.html) functionality.  In addtion to scanning the image upon pushing it into the registry, it also supports continuous scanning with alerts should any OS or programming language vulnerabilities be found during a scan (alerts are sent via EventBridge).
+
+#### Security Sensors
+
+_If utilized, security sensors should be deployed everywhere containers execute to include within registries, as general-purpose sensors, and within CI/CD pipelines. If this approach is taken, the sampling guidance found in the [Guide for Determining Eligibility and Requirements for the Use of Sampling for Vulnerability Scans](https://www.fedramp.gov/assets/resources/documents/CSP_Vulnerability_Scan_Requirements_Using_Sampling.pdf) document may be applicable._
+
+Security sensors are not required but are recommended according to the FedRAMP guidance.  We will have to research this separately and create a separate ADR for our approach to a security sensor solution.
+
+#### Registry Monitoring
+
+_The container registry must be monitored per unique image to ensure that containers corresponding to an image that has not been scanned within the 30-day vulnerability scanning window are not actively deployed on production._
+
+From the [ECR Monitoring documentation](https://docs.aws.amazon.com/AmazonECR/latest/userguide/monitoring.html):
+
+>ECR provides metrics based on your API usage for authorization, image push, and image pull actions.
+
+Being able to monitor both push and pull actions for images will help us keep track of image usage.  Furthermore, the [enchanced scanning](https://docs.aws.amazon.com/AmazonECR/latest/userguide/image-scanning-enhanced.html) feature has extra support with the continuous scanning option that accounts for the following:
+
+> When continuous scanning is enabled for a repository, if an image hasn't been updated in the past 30 days based on the image push timestamp, then continuous scanning is suspended for that image. Images with suspended scanning will show a scan status of SCAN_ELIGIBILITY_EXPIRED.
+
+If we include checks in our image pulls to verify the scan status and make sure it's not `SCAN_ELIGIBILITY_EXPIRED`, we should be able to account for this requirement.
+
+#### Asset Management and Inventory Reporting for Deployed Containers
+
+_A unique asset identifier must be assigned to every class of image which corresponds to one or more production-deployed containers. These image-based asset identifiers must be documented in the [FedRAMP Integrated Inventory Workbook Template](https://www.fedramp.gov/assets/resources/templates/SSP-A13-FedRAMP-Integrated-Inventory-Workbook-Template.xlsx). Instances of production-deployed containers must be tracked internally by the CSP via an automated mechanism, which must be validated by a 3PAO to meet the baseline control CM-8. Every production-deployed container must correspond to the image from which the deployed container originated, in order to identify the total number of relevant vulnerabilities on production associated with that container._
+
+We can accomplish this using tagging within ECR and assign each image a unique hash as an ID.  ECR also provides an option to [make tags immutable](https://docs.aws.amazon.com/AmazonECR/latest/userguide/image-tag-mutability.html), so they cannot be changed or overwritten once used.
+
+Concourse provides ways for us to identify which image it pulled when it is deploying a container, which covers the tracking requirement.  We may need to build or configure a bit of extra reporting to be able to see this information at a glance instead of going into Concourse directly and manually looking at pipeline build history.
+
+
+## Proposed Options
+
+- [Scan and list](#scan-and-list)
+- [SaaS registry with explicit push](#container-registry-saas-wexplicit-push)
+- [cloud.gov registry with explicit push](#container-registry-run-our-own--explicit-push)
+- [cloud.gov registry with passthrough](#container-registry-run-our-own--passthrough)
 
 ## Scan and list
 
