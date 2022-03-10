@@ -28,7 +28,7 @@ Other notable Slack channels
   - Business-related questions and discussion
 - #cg-compliance
   - Compliance-relatd questions and discussion 
-  
+
 
 ## Joining and leaving our team
 
