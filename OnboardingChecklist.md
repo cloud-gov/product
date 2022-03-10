@@ -131,6 +131,7 @@ Please let `Buddy` know and they will help you request [local admin rights](http
 
 * [ ] Install `caulking` git leak prevention by following the [README](https://github.com/cloud-gov/caulking/blob/master/README.md)
 * [ ] Verify `caulking` by running `make audit` and pasting a screenshot as a comment on this GitHub issue
+* [ ] Set GPG signing set up for GitHub (instructions [here](https://docs.google.com/document/d/11UDxvfkhncyLEs-NUCniw2u54j4uQBqsR2SBiLYPUZc/edit))
 
 ### Install a development environment for cloud.gov
 
