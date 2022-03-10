@@ -46,7 +46,7 @@ These items help us fulfill security and compliance requirements (including for 
 - [ ] As they complete training, fill out their completion dates in the [training tracker](https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0).
 - [ ] Add them to the @cloud-gov-team [in Slack’s Team Directory](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group).
 - [ ] Review the recurring cloud.gov meetings that are relevant for them in [the team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&amp;ctz=America/Los_Angeles) (they will get access to this when added to the cloud.gov Team Google Group).
-* [ ] Add them to the [`cloud-gov`](https://github.com/orgs/cloud-gov/people) organization in GitHub, and the [`cloud-gov-team`](https://github.com/orgs/cloud-gov/teams/cloud-gov-team) team.
+- [ ] Add them to the [`cloud-gov`](https://github.com/orgs/cloud-gov/people) organization in GitHub, and the [`cloud-gov-team`](https://github.com/orgs/cloud-gov/teams/cloud-gov-team) team.
 
 #### Learn our policies and procedures
 
