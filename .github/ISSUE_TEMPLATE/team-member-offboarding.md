@@ -1,29 +1,23 @@
-# Offboarding Checklist
-
-## Instructions
-
-When someone leaves the cloud.gov team
-
-1. The System Owner (director or deputy director) creates a new issue in the private team repo called "Remove [person's name]".
-  If the System Owner cannot do this, the an operations team member can create the issue and include documentation (e.g the screenshot from an authorizing email from SO or their superior)
-2. View the raw source of this file
-3. Copy everything below the line into the new issue's body
-4. Replace "LeavingPerson" with the leaving person's name
-5. Submit the issue
-6. Assign the issue to the person who bravely volunteered to handle the person's offboarding
-7. Put the issue into the "Blocked" column [on our project board](https://github.com/orgs/cloud-gov/projects/2)
+---
+name: Offboard Existing cloud.gov Platform Operations Team Member
+title: Checklist for Offboarding an Existing Platform Operator
+about: This is the checklist and requirements for offboarding an existing platform operator to the cloud.gov team
+labels: ''
+assignees: ''
 
 ---
 
-In order to complete [NAME]'s exit from the cloud.gov team, the assignee should complete a prescribed set of tasks that will remove any special access.
+# Platform Operator Offboarding Checklist
 
-# Directions:
+## Instructions
+
+In order to complete `Existing Person`'s exit from the cloud.gov team, the assignee should complete a prescribed set of tasks that will remove any special access.
 
 **Assignee:** The tasks below are organized by the role needed to complete them. If you can’t complete any of the items on your checklist personally, _you are responsible for ensuring that an appropriate person does it_.
 
-For compliance we need to show that critical offboarding actions happen within 24 hours of departure; some actions below **need GitHub issues comments** when completed. Completing tasks _before_ departure is good. (control PS-4: personnel termination)
+For compliance we need to show that critical offboarding actions happen within 24 hours of departure; some actions below **need GitHub issues comments** when completed. Completing tasks _before_ departure is good. (control PS-4: personnel termination).
 
-## [NAME]
+## `Existing Person`
 
 - [ ] Initiate the process via the [Leaving TTS Handbook page](https://handbook.18f.gov/leaving-tts/)
 
