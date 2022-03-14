@@ -1,32 +1,24 @@
-# Onboarding Checklist
-
-## Instructions
-
-When someone new joins the cloud.gov team:
-
-1. The System Owner (director or deputy director) creates a new issue in the [cg-private Github repo](https://github.com/cloud-gov/private/issues) called "Onboard [NewPerson]".  This constitutes 'formal approval' by leadership.
-  * Use of a private repo and an issue helps satisfy AC-2, that the system owner has added a person to our team before further onboarding.
-  * The system owner must do this step. The assignee can add the checklist if necessary. 
-1. The cloud.gov director or deputy director adds the new team member to the `cloud-gov` team in GitHub. 
-2. Populate the issue with this checklist:
-  2. View the raw source of this file.
-  3. Copy the text before the checklists to the Description field of the card.
-  3. Copy each applicable block of tasks into a its own new task list on the card, replacing `NewPerson` with the new person's name and `Buddy` with the onboarding buddy's name.
-  4. Submit the issue.
-5. Assign the person who bravely volunteered to be the new person's Onboarding Buddy to the issue.
-6. Put the issue into the _Doing_ column.
+---
+name: Onboard New cloud.gov Platform Operations Team Member
+title: Checklist for Onboarding a New Platform Operator
+about: This is the checklist and requirements for onboarding a new platform operator to the cloud.gov team
+labels: ''
+assignees: ''
 
 ---
 
-In order to get `NewPerson` productively contributing to the cloud.gov team, `Buddy` should help `NewPerson` complete a prescribed set of tasks that will bring them up to speed and get them setup with cloud.gov.
+# New Platform Operator Onboarding Checklist
 
-## Directions
+**NOTE:  Do not create this issue until the System Owner has formally authorized and requested it.**
 
-**`NewPerson` and `Buddy`:** Try to go through your checklists in order.
+In order to get `New Person` productively contributing to the cloud.gov team, `Buddy` should help `New Person` complete a prescribed set of tasks that will bring them up to speed and get them setup with cloud.gov.
 
-**`Buddy`:** If you can’t complete any of the items on your checklist personally, _you are responsible for ensuring that someone with the correct access completes that item_.
+## Instructions
 
-## `NewPerson` checklist
+1. Try to go through the checklists in order.
+2. If `Buddy` can’t complete any of the items on their checklist personally, _they are responsible for ensuring that someone with the correct access completes that item_.
+
+## Onboarding Checklist
 
 ### Required items for all team members
 
@@ -50,7 +42,7 @@ These items help us fulfill security and compliance requirements (including for 
 
 #### Learn our policies and procedures
 
-For the three trainings list at the top, `Buddy` will create a separate ticket to track the trainings once scheduling has been finished.  This will help consolidate trainings for multiple new members to the team and prevent them from blocking progress on this onboarding ticket.  Once the trainings are scheduled, they can be marked as complete here.
+For the three trainings list at the top, your onboarding buddy will create a separate ticket to track the trainings once scheduling has been finished.  This will help consolidate trainings for multiple new members to the team and prevent them from blocking progress on this onboarding ticket.  Once the trainings are scheduled, they can be marked as complete here.
 
 * [ ] Coordinate with your onboarding buddy to go through Contingency Planning training within 60 days (and annually after that). This will cover the following document, which you should also review before or after training:
   * [ ] Read the [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/).
@@ -69,7 +61,7 @@ For the three trainings list at the top, `Buddy` will create a separate ticket t
 
 These items will help you come up to speed on cloud.gov and what it is, how it works, why it exists, etc.  While you
 should take the time to go through them, please do not try and tackle it all in one shot!  It can become overwhelming
-very quickly  `Buddy` will walk through this list with you at a high level with you to help manage the work.
+very quickly, so your onboarding buddy will walk through this list with you at a high level with you to help manage the work.
 
 - [ ] Read [the team onboarding document](https://github.com/cloud-gov/product/blob/master/Onboarding.md) for more context about cloud.gov.
 - [ ] Bookmark the [pertinent links listed here](https://github.com/cloud-gov/product/blob/master/PertinentLinks.md).
@@ -83,13 +75,13 @@ very quickly  `Buddy` will walk through this list with you at a high level with 
 
 ### Slack channels
 
-Your onboarding buddy, `Buddy`, will add you to these Slack channels:
+Your onboarding buddy will add you to these Slack channels:
 
 - [ ] `#cloud-gov` - bots post announcements here
 - [ ] `#cg-billing` - private business development channel (if applicable)
 - [ ] `#cg-business` - business development (if applicable)
 - [ ] `#cg-compliance` - compliance-related information and discussion
-- [ ] `#cg-offtopic` - off-topic team sharing 
+- [ ] `#cg-offtopic` - off-topic team sharing
 - [ ] `#cg-platform` - platform operations
 - [ ] `#cg-platform-news` - bots post platform alerts
 - [ ] `#cg-general` - program-level information and discusion
@@ -108,7 +100,7 @@ Once you're added to these channels, you probably want to mute these channels un
 ## Platform-Ops-specific items
 
 You should already have admin rights on your machine as a part of its original setup.  If for whatever reason you don't,
-Please let `Buddy` know and they will help you request [local admin rights](https://docs.google.com/document/d/1xepZsh83lxPDykrb1NXoeHxj8m78qsdW-9KqzO_CHOQ/edit) on your GFE Mac using [this justification](https://docs.google.com/document/d/1YGid3pTji5W_M9RuF1GDf614BVkLIRDmSrt1tDbej-o/edit).
+Please let your onboarding buddy know and they will help you request [local admin rights](https://docs.google.com/document/d/1xepZsh83lxPDykrb1NXoeHxj8m78qsdW-9KqzO_CHOQ/edit) on your GFE Mac using [this justification](https://docs.google.com/document/d/1YGid3pTji5W_M9RuF1GDf614BVkLIRDmSrt1tDbej-o/edit).
 
 ### Cloud Operations account management
 
@@ -125,7 +117,7 @@ Please let `Buddy` know and they will help you request [local admin rights](http
 * [ ] Add them to [our dockerhub org](https://hub.docker.com/orgs/cloudgov) and ensure we're not over our license count
 * [ ] Business Unit Only - Add them to the [cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries) so they can keep apprised of prospective new clients.
 
-`Buddy` will create a separate ticket tied to this one to track the AWS accounts being granted full admin access.
+Your onboarding buddy will create a separate ticket tied to this one to track the AWS accounts being granted full admin access.
 
 ### Additional compliance setup/review
 
@@ -144,7 +136,7 @@ Please let `Buddy` know and they will help you request [local admin rights](http
   - `cf login -a api.fr.cloud.gov --sso`
   - `cf orgs`
     - As a cloud.gov team member, you should have a very giant list of organizations
-    - If you have none or one (e.g. sandbox) org, please reach out to your onboarding buddy, `Buddy`
+    - If you have none or one (e.g. sandbox) org, please reach out to your onboarding buddy
 - [ ] Install the [Bosh CLI using their instructions for MacOS](https://bosh.io/docs/cli-v2-install/#using-homebrew-on-macos)
   - `brew install cloudfoundry/tap/bosh-cli`
   - [ ] Verify the installation by running `bosh -v` in the command line
@@ -167,7 +159,7 @@ Please let `Buddy` know and they will help you request [local admin rights](http
 
 ### Figure out your first tasks
 
-Please work with your onboarding buddy, `Buddy`, to determine a platform component to work on first.
+Please work with your onboarding buddy to determine a platform component to work on first.
 Once you've identified the component you're going to focus on, your onboarding buddy will introduce
 you to someone who can onboard you to that project in specific. For the next few sprints, work on features,
 bugs, and improvements on this component. Reach out to your onboarding buddy or anyone else on the team 
@@ -185,10 +177,9 @@ if you need any help. Here are some easily-separated pieces to consider:
 - uaa-extras (python + OIDC)
 - shibboleth (Java, OIDC)
 
-## Compliance Lead items
+## Compliance items
 
-These are items that are only necessary for someone stepping into the compliance lead role or a compliance lead support
-role, but you can still subscribe to the alerts and mailing lists if you're interested:
+These are items that are only necessary for someone stepping into a compliance role, but you can still subscribe to the alerts and mailing lists if you're interested:
 
 - [ ] Subscribe to US-CERT alerts: https://us-cert.cisa.gov/mailing-lists-and-feeds
 - [ ] Subscribe to FedRAMP mailing lists: https://public.govdelivery.com/accounts/USGSA/subscriber/topics?qsp=USGSA_2224

@@ -2,17 +2,27 @@
 
 cloud.gov helps government teams attack core impediments to smooth, iterative deployment of government services, including compliance, security, and scalability. The cloud.gov team develops, operates, and supports cloud.gov so that we can offer it to agencies as a service they can use on their own.
 
+## Instructions
+
+When someone new joins the cloud.gov team:
+
+1. The System Owner (Director or Deputy Director) creates a new issue in the [cg-product Github repo](https://github.com/cloud-gov/product/issues) called "Authorize Onboarding for [NewPerson]".  This constitutes 'formal approval' by leadership.
+  - The System Owner must do this step. An assignee can add the checklist afterward if the System Owner hasn't already.
+  - Use of an issue that only the System Owner is authorized to create before onboarding can proceed helps us satisfy the AC-2 control.
+2. The cloud.gov Director or Deputy Director adds the new team member to the `cloud-gov` team in GitHub.
+3. The System Owner or an assignee creates a new issue in the [cg-product Github repo](https://github.com/cloud-gov/product/issues) called `System Owner Authorization for Onboarding a New Team Member`
+4. The System Owner or the person who bravely volunteered to be the new person's Onboarding Buddy can then proceed to create the onboarding checklist issue for the new person
+5. Put the onboarding checklist issue into the _Doing_ column in our [project board](https://github.com/orgs/cloud-gov/projects/2).
+
 ## Onboarding
+
+Review the [Getting started at TTS guide](https://handbook.tts.gsa.gov/getting-started/) first. (Contractors, we're presuming you have an equivalent process you've gone through for onboarding with your employer.)
 
 Everyone joining the cloud.gov team will get assigned a team onboarding buddy. This person should be working on similar things to what you will be working on, so that they can answer questions in your domain.
 
-You and your team onboarding buddy must follow the instructions in [the Onboarding Checklist](OnboardingChecklist.md) to create an issue that will guide you through tasks that will get you up to speed and contributing in no time. You (and your buddy) must track your progress by checking the boxes as you complete tasks.
+You and your team onboarding buddy must follow the instructions in your onboarding issue that will guide you through tasks that will get you up to speed and contributing in no time. You (and your buddy) must track your progress by checking the boxes as you complete tasks.
 
-Our Onboarding Checklist helps us fulfill important security and compliance requirements, so each new team member needs to have their own checklist in our issue-tracker to document their progress. This is true even if you're rejoining the cloud.gov team after being in it previously.
-
-## How to Tock your time and schedule out-of-office (OOO)
-
-We have [a document outlining our current practices](https://docs.google.com/document/d/16wGnM2vD9y5nrD3Jhufjc-G1r1cs3lkX2Ny-opYk9do/edit#).
+Our onboarding checklists help us fulfill important security and compliance requirements, so each new team member needs to have their own checklist in our issue-tracker to document their progress. This is true even if you're rejoining the cloud.gov team after being in it previously.
 
 ## Tools and project artifacts
 
@@ -73,10 +83,10 @@ Federalist is a platform to build, launch, and manage static web sites for gover
 
 ## Onboarding
 
-Get through [the 18F onboarding guide for your discipline](https://handbook.18f.gov/#teams) first. (Contractors, we're presuming you have an equivalent process you've gone through for onboarding with your employer.)
+Review the [Getting started at TTS guide](https://handbook.tts.gsa.gov/getting-started/) first. (Contractors, we're presuming you have an equivalent process you've gone through for onboarding with your employer.)
 
 Everyone joining the team will get assigned a team onboarding buddy. This person should be working on similar things to what you will be working on, so that they can answer questions in your domain.
 
-You and your team onboarding buddy must follow the instructions in [the Onboarding Checklist](https://docs.google.com/document/d/1tS-9hLb2yHtp500N3obmu0X70XpIMATuPlov2_vDVS0/edit?usp=sharing) to create an issue that will guide you through tasks that will get you up to speed and contributing in no time. You (and your buddy) must track your progress by checking the boxes as you complete tasks.
+You and your team onboarding buddy must follow the instructions in your onboarding issue that will guide you through tasks that will get you up to speed and contributing in no time. You (and your buddy) must track your progress by checking the boxes as you complete tasks.
 
 Our Onboarding Checklist helps us fulfill important security and compliance requirements, so each new team member needs to have their own checklist in our issue-tracker to document their progress. This is true even if you're rejoining the team after being in it previously.
