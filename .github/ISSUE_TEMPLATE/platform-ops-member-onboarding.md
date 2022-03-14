@@ -81,7 +81,7 @@ Your onboarding buddy will add you to these Slack channels:
 - [ ] `#cg-billing` - private business development channel (if applicable)
 - [ ] `#cg-business` - business development (if applicable)
 - [ ] `#cg-compliance` - compliance-related information and discussion
-- [ ] `#cg-offtopic` - off-topic team sharing 
+- [ ] `#cg-offtopic` - off-topic team sharing
 - [ ] `#cg-platform` - platform operations
 - [ ] `#cg-platform-news` - bots post platform alerts
 - [ ] `#cg-general` - program-level information and discusion
@@ -136,7 +136,7 @@ Your onboarding buddy will create a separate ticket tied to this one to track th
   - `cf login -a api.fr.cloud.gov --sso`
   - `cf orgs`
     - As a cloud.gov team member, you should have a very giant list of organizations
-    - If you have none or one (e.g. sandbox) org, please reach out to your onboarding buddy, `Buddy`
+    - If you have none or one (e.g. sandbox) org, please reach out to your onboarding buddy
 - [ ] Install the [Bosh CLI using their instructions for MacOS](https://bosh.io/docs/cli-v2-install/#using-homebrew-on-macos)
   - `brew install cloudfoundry/tap/bosh-cli`
   - [ ] Verify the installation by running `bosh -v` in the command line

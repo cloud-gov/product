@@ -22,13 +22,15 @@ These are the roles we can onboard folks into currently (please refer to the Sys
 - Cloud Compliance
 - Cloud Development / Customer / Design
 - Cloud Operations
+- Pages Operator
 - System Owner
 
-These are the teams we can currently have:
+These are the teams we currently have:
 
 - Business Unit
-- Platform Operators
 - Compliance
+- Pages
+- Platform Operators
 - Support
 
 Once you create the issue, delete everything from this line and above when you're finished editing so the issue is complete and ready to be acted upon.  It should contain just the message below, with the correct information filled in for the `keywords`.
@@ -37,7 +39,7 @@ Once you create the issue, delete everything from this line and above when you'r
 
 @cloud-gov/platform-ops:
 
-Please create a `Role` onboarding ticket for `New Person` as a new member of the `Team` team.  Thank you.
+Please create a `Role` onboarding ticket for `New Person` as a new member of the `Team` team within cloud.gov.  Thank you.
 
 Sincerely,
 
