@@ -9,6 +9,13 @@ assignees: ''
 
 # Platform Operator Offboarding Checklist
 
+## Special Notes
+
+- **Do not create this issue until the System Owner has formally authorized and requested it.**
+- **Please only use first names.**
+
+---
+
 ## Instructions
 
 In order to complete `Existing Person`'s exit from the cloud.gov team, the assignee should complete a prescribed set of tasks that will remove any special access.

@@ -19,6 +19,8 @@ As the System Owner, use this issue template to create a new issue to formally a
 
 Once you create the issue, delete everything from this line and above when you're finished editing so the issue is complete and ready to be acted upon.  It should contain just the message below, with the correct information filled in for the `keywords`.
 
+**NOTE:  Please only use first names when referencing individuals.**
+
 ---
 
 @cloud-gov/platform-ops:
