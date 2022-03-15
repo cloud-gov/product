@@ -9,7 +9,12 @@ assignees: ''
 
 # New Compliance Team Member Onboarding Checklist
 
-**NOTE:  Do not create this issue until the System Owner has formally authorized and requested it.**
+## Special Notes
+
+- **Do not create this issue until the System Owner has formally authorized and requested it.**
+- **Please only use first names.**
+
+---
 
 In order to get `New Person` productively contributing to the cloud.gov team, `Buddy` should help `New Person` complete a prescribed set of tasks that will bring them up to speed and get them setup with cloud.gov.
 
