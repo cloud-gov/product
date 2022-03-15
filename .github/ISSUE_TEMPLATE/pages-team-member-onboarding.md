@@ -1,5 +1,12 @@
  #### User Story
 
+ ## Special Notes
+
+- **Do not create this issue until the System Owner has formally authorized and requested it.**
+- **Please only use first names.**
+
+---
+
 Onboard <Person>
 
 #### Background (Optional)
