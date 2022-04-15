@@ -107,6 +107,11 @@ Once you're added to these channels, you probably want to mute these channels un
 You should already have admin rights on your machine as a part of its original setup.  If for whatever reason you don't,
 Please let your onboarding buddy know and they will help you request [local admin rights](https://docs.google.com/document/d/1xepZsh83lxPDykrb1NXoeHxj8m78qsdW-9KqzO_CHOQ/edit) on your GFE Mac using [this justification](https://docs.google.com/document/d/1YGid3pTji5W_M9RuF1GDf614BVkLIRDmSrt1tDbej-o/edit).
 
+### Other tooling and access for compliance
+
+- [ ] New person: Request Microsoft Office, per [TTS handbook instructions](https://handbook.tts.gsa.gov/tools/office/) 
+- [ ] Compliance lead: Request access to cloud.gov's FedRAMP repository in max.gov by email to info@fedramp.gov.
+
 ### Cloud Operations account management
 
 *Note: These are all contingent on completing the GSA Mandatory Cyber Security and Privacy Training first. AWS user names should be identical across accounts so that permissions can be correctly managed by Terraform.*
