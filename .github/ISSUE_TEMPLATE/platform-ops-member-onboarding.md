@@ -153,13 +153,11 @@ Your onboarding buddy will create a separate ticket tied to this one to track th
   - [ ] Verify AWS CLI installed and is in your path: run `aws` and helper text should display
 - [ ] Install and configure `aws-vault` by [following our directions](https://cloud.gov/docs/ops/secrets/#install-aws-vault-for-aws-credentials-and-create-a-profile)
 - [ ] Install the Concourse `fly` CLI
-  - Download the `fly` binary zip for MacOS from https://concourse-ci.org/
-  - Extract the binary and move it to `/usr/local/bin/fly` so it's in your path
-    - `cd ~/Downloads`
-    - `mv fly /usr/local/bin/fly`
+  - `brew install fly`
   - [ ] Verify by running `fly -h` in your command line
-    - This may fail due to app security policy on your mac rejecting apps from unidentified developers.
-    - You can try the procedure [here](https://www.imore.com/how-open-apps-anywhere-macos-catalina-and-mojave) to change the app's security settings.
+    - This may fail due to app security policy on your mac rejecting apps from unidentified developers. To fix it (replace `6.5.1` with your installed version of `fly`):
+
+      `xattr -d com.apple.quarantine /usr/local/Caskroom/fly/6.5.1/fly`
 - [ ] Install cloud.gov dev tools by cloning the [`cg-scripts` repo](https://github.com/cloud-gov/cg-scripts/): run `git clone https://github.com/cloud-gov/cg-scripts.git` in your command line
 
 ### Figure out your first tasks
