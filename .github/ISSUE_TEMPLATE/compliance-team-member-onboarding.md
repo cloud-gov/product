@@ -109,8 +109,8 @@ Please let your onboarding buddy know and they will help you request [local admi
 
 ### Other tooling and access for compliance
 
-- [ ] Request Microsoft Office, per [TTS handbook instructions](https://handbook.tts.gsa.gov/tools/office/) 
-- [ ] Request access to cloud.gov's FedRAMP repository in max.gov by email to info@fedramp.gov.
+- [ ] New person: Request Microsoft Office, per [TTS handbook instructions](https://handbook.tts.gsa.gov/tools/office/) 
+- [ ] Compliance lead: Request access to cloud.gov's FedRAMP repository in max.gov by email to info@fedramp.gov.
 
 ### Cloud Operations account management
 
