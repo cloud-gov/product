@@ -126,6 +126,7 @@ Please let your onboarding buddy know and they will help you request [local admi
   * [ ] AWS Commercial accounts
   * [ ] AWS GovCloud accounts
 * [ ] Add them to Nessus Manager via the GUI
+* [ ] Add them to our Tenable account at https://community.tenable.com/s/contact-assignment?productId=117705
 * [ ] [Make them an auditor](https://cloud.gov/docs/ops/managing-users/#managing-admins) of the platform.
 * [ ] Add them to the [`platform-ops`](https://github.com/orgs/cloud-gov/teams/platform-ops) team in GitHub.
 * [ ] Add them to [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov) so they can participate in team-wide internal communication.
