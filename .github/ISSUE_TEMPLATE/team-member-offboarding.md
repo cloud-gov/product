@@ -65,6 +65,7 @@ If the person offboarding is a contractor follow the steps in the [offboarding c
 The following do not directly impact cloud.gov security & operations and can happen later:
 
 - [ ] Remove them from [Nessus](https://nessus.fr.cloud.gov/#/settings/users)
+- [ ] Remove them from [Tenable (if Compliance Team)](https://community.tenable.com/s/contacts]
 - [ ] Remove them from the [Cloud Foundry Community GitHub org cloud.gov team](https://github.com/orgs/cloudfoundry-community/teams/cloud-gov/members)
 - [ ] Remove them from the `CG-PRIV` Google Group
 - [ ] Remove them from [the cloud.gov operations Google Group](https://groups.google.com/a/gsa.gov/forum/#!managemembers/cloud-gov-operations/members/active)
