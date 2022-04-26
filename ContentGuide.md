@@ -18,6 +18,7 @@ For additional helpful background knowledge about writing for cloud.gov users, s
 Use these exact strings (keeping this spelling, capitalization, punctuation, and spacing):
 
 * **18F**
+* **AIDE**
 * **Amazon Web Services** (or **AWS**)
 * **AWS Config**
 * **BOSH**
@@ -26,7 +27,7 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **ClamAV**
 * **Cloud Controller**
 * **Cloud Foundry**
-* **cloud.gov** (always lowercase, even at the beginning of a sentence)
+* **cloud.gov** (always lowercase, except at the beginning of a sentence or as part of a subproduct name, e.g. **Cloud.gov Pages**)
 * **Cloudability**
 * **CloudFront**
 * **CloudTrail**
@@ -64,7 +65,6 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * Roles use the same word choice and capitalization as the CF CLI, with spaces for clarity: **Org Manager**, **Billing Manager**, **Org Auditor**, **Space Manager**, **Space Developer**, **Space Auditor**.
 * **StatusPage**
 * **Travis CI**
-* **Tripwire**
 * **Trusted Advisor**
 * **Virtual Private Cloud**
 * **VisualOps**
