@@ -6,9 +6,9 @@
 
 Stories and issues are created to capture work that might need be done by the team. Our goal is to create multiple smaller stories that can be worked on incrementally rather than one large story that takes significant time to complete.
 
-Groomed stories that are on the board represent work we agree needs to be done in the near term (eg one quarter). 
+Refined stories that are on the board in the Backlog represent work we agree needs to be done in the near term (eg one quarter). 
 
-**Story Definition**: Story-level work is captured on "cards" that move across a kanban board with multiple columns reflecting our delivery process. Groomed stories that we accept onto the board should:
+**Story Definition**: Story-level work is captured on "cards" that move across a kanban board with multiple columns reflecting our delivery process. Refined stories that we accept onto the board in the Backlog should:
 
 * Include a clear "definition of done" or "acceptance criteria" (AC) so the team understands when work is complete
   * ACs should be clearly demoable/verifiable whenever possible. 
