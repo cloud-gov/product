@@ -29,12 +29,16 @@ recover the cost of scaling and disincentivise misuse.
 ### Architecture
 
 We'll add
-- one AWS NLB 
-- three gorouters
+- at least one AWS NLB, each NLB having multiple listeners
+- three tcp-routers
 - five diego cells 
 
 The new diego cells will be in a new isolation segment, and the new gorouters will 
-be dedicated to that segment, with the AWS NLB in front of them.
+be dedicated to that segment, with the AWS NLB in front of them. There will be exactly
+one new isolation segment, shared by all tcp-route users. 
+Each customer will get one dedicated NLB with a to-be-determined number of ports, more
+than one, fewer than 51. The number of ports per ALB is configured via a global variable;
+customers needing more will need/get additional NLBs (at additional cost).
 
 ### Usage
 
