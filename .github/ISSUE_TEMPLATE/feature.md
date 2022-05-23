@@ -34,3 +34,10 @@ assignees: ''
 - [Pointers to relevant languages, components, frameworks, prior art/examples, user research, mockups, etc.]
 - [a technical sketch if we're confident of how to approach implementation]
 - [Example: "We need to create a new broker. Get familiar with [the docs](https://docs.cloudfoundry.org/services/overview.html). [Broker API](https://github.com/pivotal-cf/brokerapi) is a good starting point. Implementation can be done with any AWS account; no access to existing cloud.gov infrastructure should be needed to develop or demo it. The behavior can be demonstrated via exercise of the broker’s REST APIs.]
+
+### Related issues/sub-projects
+
+<!-- Use URLs in the list below when possible so the GitHub status will show and items can be dragged to reorder. -->
+
+- [issue URL]
+- [another issue URL]
