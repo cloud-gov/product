@@ -129,7 +129,7 @@ Your onboarding buddy will create a separate ticket tied to this one to track th
 
 * [ ] Install `caulking` git leak prevention by following the [README](https://github.com/cloud-gov/caulking/blob/master/README.md)
 * [ ] Verify `caulking` by running `make audit` and pasting a screenshot as a comment on this GitHub issue
-* [ ] Set GPG signing set up for GitHub (instructions [here](https://docs.google.com/document/d/11UDxvfkhncyLEs-NUCniw2u54j4uQBqsR2SBiLYPUZc/edit))
+* [ ] Set GPG signing set up for GitHub (instructions [here](https://docs.google.com/document/d/11UDxvfkhncyLEs-NUCniw2u54j4uQBqsR2SBiLYPUZc/edit)) and paste the output of `git config commit.gpgsign` as a comment on this GitHub issue
 
 ### Install a development environment for cloud.gov
 
