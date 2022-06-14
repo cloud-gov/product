@@ -13,25 +13,26 @@ In order for us to update the JAB on our compliance in a consistent way, we need
 For context, see our [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), including [the monthly reporting summary explanation](https://cloud.gov/docs/ops/continuous-monitoring/#monthly-reporting-summary). 
 
 
-We need to process our scan results and prepare documentation for any updated or new items, including updating the [POAM](https://docs.google.com/spreadsheets/d/16igVl8cD3SqeX5_SOn5Su34KmwMRnP20gPbfQlqIwfM/edit#gid=1701775784).
+We need to process our scan results and prepare documentation for any updated or new items, including updating the [vulnerability tracker](https://docs.google.com/spreadsheets/d/1tAYNmiEUwMSquRcQ0MrqtP-VIo7oxh1OzD6rmkWl-9w/edit#gid=1701775784) and [POA&M](https://docs.google.com/spreadsheets/d/16igVl8cD3SqeX5_SOn5Su34KmwMRnP20gPbfQlqIwfM/edit#gid=1701775784).
 
 We always have to do these tasks:
 
-* List any new identified vulnerabilities.
+* List any new identified vulnerabilities in the vulnerability tracker.
    * Check for sneaky Nessus findings that apply to only a subset of components. Use the [Nessus parse script](https://github.com/18F/cg-scripts/blob/master/parse-nessus-xml.py) to help.
-   * Discard the ones listed as false positives in the POAM open and closed tabs.
+   * Discard the ones listed as false positives.
    * The [OWASP ZAP parse script](https://github.com/18F/cg-scripts/blob/master/parse-owasp-zap-xml.py) can help.
 * Move any scanner items that should be moved to closed (items originally found by a scanner where we have new scans that prove these things are fixed).
 * Update all columns to include the most recent info about remediations, milestones, statuses, etc., including updating the status date column.
 * Cloud Operations needs to review the Nessus findings and ensure all daemons are managed by BOSH (see CG04 for context).
-* Update cell D3 if you don't want `=today()` to be the date for this POA&M. 
+* Add any late vulnerabilities to the POA&M worksheet (i.e. vulnerabilities that will be remediated later than 30, 90 or 180 days old).
+* Update cell D3 to be the current date for this POA&M (date of submission). 
 * Copy the [the summary cover sheet template](https://drive.google.com/drive/folders/1oUmCq_YHJoE3EeR6a-pfE3i4D1ZzFUiL) and fill it out.
 
 Depending on scan results, we sometimes also have to do these tasks:
 
 * For any items that require a monthly checkin with a vendor, Cloud Operations needs to make the appropriate support request to the vendor.
 * Write Deviation Requests for operational requirements, risk adjustments, and false positives.
-* Update our boards with current info about POAM items and any necessary followup stories about compliance work and related technical work to prepare for the next month's report.
+* Update our boards with current info about vulnerabilities and open POAM items and any necessary followup stories about compliance work and related technical work to prepare for the next month's report.
 * Open a PR to update our [ConMon checklist template](https://github.com/18F/cg-product/blob/master/ConMonChecklist.md).
 
 # Rough notes on Peter's hacky tracking
@@ -63,10 +64,10 @@ That sets up a bunch of shell functions that we run, then copy/paste if they loo
 ├── 20210323-ZAP.html
 ├── 20210323-ZAP.xml
 ├── Production-and-Tooling-Vulnerability-and-Compliance-scans_2021-03-23
-│   ├── Production_Compliance_scan_wkl5wr.nessus
-│   ├── Production_Vulnerability_scan_241iec.nessus
-│   ├── Tooling_Compliance_scan_odrbso.nessus
-│   └── Tooling_Vulnerability_scan_aogr63.nessus
+│   ├── Production_Compliance_scan_wkl5wr.nessus
+│   ├── Production_Vulnerability_scan_241iec.nessus
+│   ├── Tooling_Compliance_scan_odrbso.nessus
+│   └── Tooling_Vulnerability_scan_aogr63.nessus
 └── RDS_Compliance_Scans_2021-03-23
     ├── RDS_Compliance_-_Credhub_Prod_xctauy.nessus
     ├── RDS_Compliance_-_Credhub_Tooling_hi0ovb.nessus
@@ -88,10 +89,10 @@ LAST MONTH (fixed)
    ..hostnames or number of impacted hosts
 ```
 The items left-aligned are ones that we're in last months' report but are now fixed, the next indent are those that are new (present now, absent last month), and the third indent are present in both months' scans (persisting issues)
-* Move the fixed items to Done in the POAM spreadsheet, updating the status date
+* Move the fixed items to Done in the vulnerability tracker, updating the status date
 * Add the new items
   * run `parse-nessus-xml.py` and get the CVS output.
-  * paste into POAM spreadsheet, then used the `Data` menu to convert to `Split Text to Columns`
+  * paste into vulnerability tracker, then use the `Data` menu to convert to `Split Text to Columns`
   * fix up the entry
   * copy down the formula for Column M, "Scheduled Completion Date", to generate the due date based on severity
 * Use the `prep_zap` function for ZAP scan consolidation
@@ -108,7 +109,7 @@ Be sure to
 * Review the Compliance scans: 
   * No good parsing yet, review manually
 * Address all gravely late POA&Ms
-  * Go to the [POAM Dashboard](https://docs.google.com/spreadsheets/d/1Of4psOutBmZHVekV-_n_CuG8lOqbdpmrSQQJeSwobm0/edit#gid=232277195)
+  * Go to the [POA&M Dashboard](https://docs.google.com/spreadsheets/d/1Of4psOutBmZHVekV-_n_CuG8lOqbdpmrSQQJeSwobm0/edit#gid=232277195)
   * For each 90+day late POA&M, be sure to update the Milestone Changes filed
     of the POA&M sheet
 * Review the Inventory
