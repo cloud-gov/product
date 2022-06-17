@@ -2,6 +2,15 @@
 
 Welcome to the FedRAMP CSP community listserv!
 
+To subscribe: Email listserv@listserv.gsa.gov, the message should 
+have no subject and the body should say only:
+```
+subscribe fedramp-csp-community
+```
+You will then receive address confirmation messages. Then your address
+will be approved (or not) by the moderators.
+
+
 Purpose: Provide a forum for compliance staff at cloud service
 providers (CSPs) that are FedRAMP-authorized, or pursuing FedRAMP
 authorization.
