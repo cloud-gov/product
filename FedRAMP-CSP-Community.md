@@ -11,8 +11,8 @@ this community as we felt really isolated in our work on POA&Ms,
 Annual Assessments, SCRs, and addressing OMB mandates.
 
 We've started this community to help solve these common problems
-in way that's unrelated to any "competitive advantage." If we can 
-make any process easier for many CSPs, that's win for everyone - 
+in a way that's unrelated to any "competitive advantage." If we can 
+make any process easier for many CSPs, that's win for everyone --
 and especially for the U.S. Government that's consuming these services.
 
 # FedRAMP Compliance Practitioner listserv charter
@@ -20,10 +20,10 @@ and especially for the U.S. Government that's consuming these services.
 Membership: Open to compliance staff at CSPs listed at
 https://marketplace.fedramp.gov as authorized or in-process. If the
 CSP has retained a 3PAO to pursue authorization, they are also
-eligible for participation. 
+eligible for participation. The CSP membership request
+should be forwarded from the 3PAO email domain. 
 
-The TTS cloud.gov compliance team will
-approve memberships.
+The TTS cloud.gov compliance team will approve memberships.
 
 This will be a closed list. Membership and discussions will not be
 published nor searchable, but will be subject to FOIA. Discussions
