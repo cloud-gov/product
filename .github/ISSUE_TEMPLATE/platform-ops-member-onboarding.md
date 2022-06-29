@@ -49,18 +49,18 @@ These items help us fulfill security and compliance requirements (including for 
 
 For the three trainings list at the top, your onboarding buddy will create a separate ticket to track the trainings once scheduling has been finished.  This will help consolidate trainings for multiple new members to the team and prevent them from blocking progress on this onboarding ticket.  Once the trainings are scheduled, they can be marked as complete here.
 
-* [ ] Coordinate with your onboarding buddy to go through Contingency Planning training within 60 days (and annually after that). This will cover the following document, which you should also review before or after training:
-  * [ ] Read the [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/).
-* [ ] Coordinate with your onboarding buddy to go through [Incident Response Training](https://docs.google.com/presentation/d/1AZjQE8zBzMRWZIFUuJPkJLted1ykGtALrLPoPRx5Vls/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following document, which you should also review before or after training:
-  * [ ] Read the [Incident Response Guide](https://cloud.gov/docs/ops/security-ir/).
-* [ ] Coordinate with your onboarding buddy to go through [nonpublic information training](https://docs.google.com/presentation/d/1uB4MlGCu8ZYUxjKVZKwicQ95MvLxaT4Mh93y6w79GPw/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following documents, which you should also review before or after training:
-  * [ ] Review the [cloud.gov open source policy guidance about protecting sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information).
-  * [ ] Read our [sharing secret keys](https://cloud.gov/docs/ops/secrets/#sharing-secret-keys) policy.
-  * [ ] Review the [TTS requirements for password management](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/password-requirements/).
-* [ ] Read the [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), particularly the [cloud.gov team responsibilities](https://cloud.gov/docs/ops/continuous-monitoring/#cloud-gov-team).
-* [ ] Read the [Configuration Management Plan](https://cloud.gov/docs/ops/configuration-management/).
-* [ ] Read the [cloud.gov Security Policies and Procedures](https://github.com/cloud-gov/cg-compliance-docs). These documents explain the high-level policies and procedures we must comply with while running cloud.gov, sorted into security control "families" They explain that we follow GSA IT security policy, and they provide a summary of the procedures in our System Security Plan.
-* [ ] Review the System Security Plan (the latest version lives on [Google Drive](https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0); look for "cloud.gov System Security Plan (SSP)" as a *.docx* file). Of particular note for onboarding: Section 9 (System Description) and Section 10 (System Environment)
+- [ ] Coordinate with your onboarding buddy to go through Contingency Planning training within 60 days (and annually after that). This will cover the following document, which you should also review before or after training:
+  - [ ] Read the [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/).
+- [ ] Coordinate with your onboarding buddy to go through [Incident Response Training](https://docs.google.com/presentation/d/1AZjQE8zBzMRWZIFUuJPkJLted1ykGtALrLPoPRx5Vls/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following document, which you should also review before or after training:
+  - [ ] Read the [Incident Response Guide](https://cloud.gov/docs/ops/security-ir/).
+- [ ] Coordinate with your onboarding buddy to go through [nonpublic information training](https://docs.google.com/presentation/d/1uB4MlGCu8ZYUxjKVZKwicQ95MvLxaT4Mh93y6w79GPw/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following documents, which you should also review before or after training:
+  - [ ] Review the [cloud.gov open source policy guidance about protecting sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information).
+  - [ ] Read our [sharing secret keys](https://cloud.gov/docs/ops/secrets/#sharing-secret-keys) policy.
+  - [ ] Review the [TTS requirements for password management](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/password-requirements/).
+- [ ] Read the [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), particularly the [cloud.gov team responsibilities](https://cloud.gov/docs/ops/continuous-monitoring/#cloud-gov-team).
+- [ ] Read the [Configuration Management Plan](https://cloud.gov/docs/ops/configuration-management/).
+- [ ] Read the [cloud.gov Security Policies and Procedures](https://github.com/cloud-gov/cg-compliance-docs). These documents explain the high-level policies and procedures we must comply with while running cloud.gov, sorted into security control "families" They explain that we follow GSA IT security policy, and they provide a summary of the procedures in our System Security Plan.
+- [ ] Review the System Security Plan (the latest version lives on [Google Drive](https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0); look for "cloud.gov System Security Plan (SSP)" as a _.docx_ file). Of particular note for onboarding: Section 9 (System Description) and Section 10 (System Environment)
 
 ### Getting to know cloud.gov
 
@@ -109,27 +109,29 @@ Please let your onboarding buddy know and they will help you request [local admi
 
 ### Cloud Operations account management
 
-*Note: These are all contingent on completing the GSA Mandatory Cyber Security and Privacy Training first. AWS user names should be identical across accounts so that permissions can be correctly managed by Terraform.*
+_Note: These are all contingent on completing the GSA Mandatory Cyber Security and Privacy Training first. AWS user names should be identical across accounts so that permissions can be correctly managed by Terraform._
 
-* [ ] Create [AWS Accounts](https://cloud.gov/docs/ops/aws-onboarding/) via the AWS web console (not Terraform) and provide one-time credentials - these will be setup as read-only at the start, and once the 3 mandatory cloud.gov trainings are complete they will be switched to full admin accounts and added to the [audit input file](https://github.com/cloud-gov/cg-compliance/blob/master/audit/inputs.yml):
-  * [ ] AWS Commercial accounts
-  * [ ] AWS GovCloud accounts
-* [ ] Add them to Nessus Manager via the GUI
-* [ ] [Make them an admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) of the platform.
-* [ ] Add them to the [`platform-ops`](https://github.com/orgs/cloud-gov/teams/platform-ops) team in GitHub.
-* [ ] Add them as an admin on the cg-django-uaa [docs](https://readthedocs.org/projects/cg-django-uaa/)
-* [ ] Add them to [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov) so they can participate in team-wide internal communication.
-* [ ] Add them to [our dockerhub org](https://hub.docker.com/orgs/cloudgov) and ensure we're not over our license count
-* [ ] Add them as an `agent` to the cloud.gov support Zendesk (Ask a cloud.gov member with admin access to Zendesk to add them).
-* [ ] Business Unit Only - Add them to the [cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries) so they can keep apprised of prospective new clients.
+- [ ] Create [AWS Accounts](https://cloud.gov/docs/ops/aws-onboarding/) via the AWS web console (not Terraform) and provide one-time credentials - these will be setup as read-only at the start, and once the 3 mandatory cloud.gov trainings are complete they will be switched to full admin accounts and added to the [audit input file](https://github.com/cloud-gov/cg-compliance/blob/master/audit/inputs.yml):
+  - [ ] AWS Commercial accounts
+  - [ ] AWS GovCloud accounts
+- [ ] Add them to Nessus Manager via the GUI
+- [ ] [Make them an admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) of the platform.
+- [ ] Add them to the [`platform-ops`](https://github.com/orgs/cloud-gov/teams/platform-ops) team in GitHub.
+- [ ] Add them as an admin on the cg-django-uaa [docs](https://readthedocs.org/projects/cg-django-uaa/)
+- [ ] Add them to [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov) so they can participate in team-wide internal communication.
+- [ ] Add them to [our dockerhub org](https://hub.docker.com/orgs/cloudgov) and ensure we're not over our license count
+- [ ] Add them as an `agent` to the cloud.gov support Zendesk (Ask a cloud.gov member with admin access to Zendesk to add them).
+- [ ] Business Unit Only - Add them to the [cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries) so they can keep apprised of prospective new clients.
 
 Your onboarding buddy will create a separate ticket tied to this one to track the AWS accounts being granted full admin access.
 
 ### Additional compliance setup/review
 
-* [ ] Install `caulking` git leak prevention by following the [README](https://github.com/cloud-gov/caulking/blob/master/README.md)
-* [ ] Verify `caulking` by running `make audit` and pasting a screenshot as a comment on this GitHub issue
-* [ ] Set GPG signing set up for GitHub (instructions [here](https://docs.google.com/document/d/11UDxvfkhncyLEs-NUCniw2u54j4uQBqsR2SBiLYPUZc/edit))
+- [ ] Install `caulking` git leak prevention by following the [README](https://github.com/cloud-gov/caulking/blob/master/README.md)
+- [ ] Verify `caulking` by running `make audit` and pasting a screenshot as a comment on this GitHub issue
+- [ ] Set GPG signing set up for GitHub (instructions [here](https://docs.google.com/document/d/11UDxvfkhncyLEs-NUCniw2u54j4uQBqsR2SBiLYPUZc/edit))
+- [ ] Run [this script](https://github.com/cloud-gov/cg-scripts/blob/master/write-pgp-pub-key-s3.sh)
+to upload your GPG key to an S3 bucket containing the trusted keys for our team
 
 ### Install a development environment for cloud.gov
 
@@ -166,13 +168,13 @@ Your onboarding buddy will create a separate ticket tied to this one to track th
 Please work with your onboarding buddy to determine a platform component to work on first.
 Once you've identified the component you're going to focus on, your onboarding buddy will introduce
 you to someone who can onboard you to that project in specific. For the next few sprints, work on features,
-bugs, and improvements on this component. Reach out to your onboarding buddy or anyone else on the team 
+bugs, and improvements on this component. Reach out to your onboarding buddy or anyone else on the team
 if you need any help. Here are some easily-separated pieces to consider:
 
 - S3 broker (Golang, Open Service Broker API)
 - Aws broker (Golang, Open Service Broker API)
 - Domain brokers and friends (New stuff is all python + Open Service Broker API):
-  - External-domain broker 
+  - External-domain broker
   - legacy domain broker
   - cdn broker
 - Logging stack (BOSH, ELK)
@@ -185,6 +187,6 @@ if you need any help. Here are some easily-separated pieces to consider:
 
 These are items that are only necessary for someone stepping into a compliance role, but you can still subscribe to the alerts and mailing lists if you're interested:
 
-- [ ] Subscribe to US-CERT alerts: https://us-cert.cisa.gov/mailing-lists-and-feeds
-- [ ] Subscribe to FedRAMP mailing lists: https://public.govdelivery.com/accounts/USGSA/subscriber/topics?qsp=USGSA_2224
+- [ ] Subscribe to US-CERT alerts: <https://us-cert.cisa.gov/mailing-lists-and-feeds>
+- [ ] Subscribe to FedRAMP mailing lists: <https://public.govdelivery.com/accounts/USGSA/subscriber/topics?qsp=USGSA_2224>
 - [ ] Read Compliance Lead documents at root of the [Google Drive Security and Compliance](https://drive.google.com/drive/u/0/folders/1_vAXZsdVFYssR1DRCaavBCoDE_uxQCI5) folder
