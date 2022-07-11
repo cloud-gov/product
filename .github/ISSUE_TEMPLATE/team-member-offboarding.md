@@ -87,3 +87,4 @@ The following do not directly impact cloud.gov security & operations and can hap
     - [ ] Verify these permissions have been removed using the [cg-scripts validate-admins.sh](https://github.com/18F/cg-scripts/blob/master/validate-admins.sh) run from a jumpbox
 - [ ] Remove any Org or Space roles that their cloud.gov account holds due to membership in the cloud.gov team (for example, remove them from the `cloud-gov` and `cloud-gov-operators` organizations)
 - [ ] Ensure any keys or passwords they had direct access to are rotated
+- [ ] Remove their PGP public key file (if any) from the `cg-pgp-keys` bucket
