@@ -69,6 +69,9 @@ should take the time to go through them, please do not try and tackle it all in 
 very quickly, so your onboarding buddy will walk through this list with you at a high level with you to help manage the work.
 
 - [ ] View the video: [A Technical Overview of cloud.gov](https://youtu.be/lwQCDeIm1Es)
+- [ ] Look at [Opensourced content for cloud foundry training classes: zero to hero (beginner), bosh/operator, and microservices](https://github.com/EngineerBetter/summit-training-classes)
+- [ ] Here is some training materials: [GitHub - CloudCredo/training-operating-the-foundry: Training materials for Operating a Platform: BOSH and Everything Else](https://github.com/CloudCredo/training-operating-the-foundry)
+- [ ] This gives a good overview of Bosh [Welcome - Ultimate Guide to BOSH](https://ultimateguidetobosh.com/)
 - [ ] Read [the team onboarding document](https://github.com/cloud-gov/product/blob/master/Onboarding.md) for more context about cloud.gov.
 - [ ] Bookmark the [pertinent links listed here](https://github.com/cloud-gov/product/blob/master/PertinentLinks.md).
 - [ ] Read through [the Overview section of our site](https://cloud.gov/docs/overview/what-is-cloudgov/) for a broader understanding of cloud.gov, especially how we present it to potential customers and users.
