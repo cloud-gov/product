@@ -21,6 +21,16 @@ to their application at the TCP layer, so customers on cloud.gov
 PaaS can provide services that aren't compatible with a pure
 HTTPS-only approach.
 
+Version History
+---------------
+
+The full document history is available through commit history, but major updates
+include:
+
+* 2022-02-08: Initial version by Ben Berry
+* 2022-07-15: Major update to support Significant Change Request (SCR), adding images, by Peter Burkholder
+  and Ben Berry
+
 The Plan
 --------
 
@@ -270,3 +280,4 @@ Because TCP routes don't consider names in their routing decision, the number
 of available routes is much smaller, and much more difficult to increase. We
 can combat this primarily with quotas and pricing. By charging appropriately
 for TCP routes, we recover the cost of scaling and disincentivize misuse.k
+
