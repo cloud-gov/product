@@ -130,7 +130,7 @@ itself.
 
 ### Usage
 
-Isolation segments are allowed/disallowed at an organization level
+Isolation segments are _allowed/disallowed_ at an organization level
 and assigned on a space level, so an organization can have many
 isolation segments mapped to it, but a space is mapped to exactly
 one isolation segment.
