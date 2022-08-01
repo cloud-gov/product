@@ -4,8 +4,8 @@
         <name>cloud.gov pages conmon</name>
         <desc/>
         <inscope>true</inscope>
-        <incregexes>https://federalistapp-staging.18f.gov.*</incregexes>
-        <incregexes>https://admin.federalistapp-staging.18f.gov.*</incregexes>
+        <incregexes>https://pages-staging.cloud.gov.*</incregexes>
+        <incregexes>https://admin.pages-staging.cloud.gov.*</incregexes>
         <excregexes>mozilla.com</excregexes>
         <excregexes>mozilla.net</excregexes>
         <excregexes>mozilla.org</excregexes>
