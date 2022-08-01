@@ -92,13 +92,11 @@ Your onboarding buddy will add you to these Slack channels:
 - [ ] `#cg-general` - program-level information and discusion
 - [ ] `#cg-support` - support requests and assistance within TTS
 - [ ] `#cg-incidents` - private channel for incident response
-- [ ] `#cg-supportstream` - notification channel from our support system, ZenDesk
 - [ ] `#cg-priv-all` - private channel for in-team discussion
 - [ ] `#cg-priv-gov` (Federal employees only) - may contain discussion of contracting-related or other private, federal-employee-only comms
 
 Once you're added to these channels, you probably want to mute these channels until you're on support rotation:
 
-- [ ] `#cg-supportstream` - notification channel from our support system, ZenDesk
 - [ ] `#cg-support` - support requests and assistance within TTS
 - [ ] `#cg-platform-news` - platform alerts
 
