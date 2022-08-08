@@ -12,7 +12,6 @@ We've structured our team into two teams.
   - Van Nguyen
   - Peter Burkholder
   - Andrew Burnes
-  - Mark Headd
   - Mark Boyd
   - Robert Gottlieb
   - James Hochadel
