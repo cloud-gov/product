@@ -86,6 +86,44 @@ The following steps are for the `external` scan (except as noted):
 
 **Quit ZAP, then repeat the "Running ZAP scans" steps for the `internal` context (which will require the VPN)**
 
+## Troubleshooting Zap Scans
+
+In Firefox if you see a Java Unable to Connect Exception, try the following:
+
+Close both Firefox and Zap.
+
+In: ~/Library/Application Support/ZAP/log4j2.properties
+
+Change the following level's to debug so the entries look like this:
+```
+logger.paros.name = org.parosproxy.paros 
+logger.paros.level = debug
+
+logger.zap.name = org.zaproxy.zap 
+logger.zap.level = debug
+
+Open Zap, follow the above and open Firefox. Try to go to the server that failed previously. 
+```
+If that works, then change the levels back to info from debug, so they look like this:
+```
+logger.paros.name = org.parosproxy.paros 
+logger.paros.level = info
+
+logger.zap.name = org.zaproxy.zap 
+logger.zap.level = info
+```
+For the internal sites, try the following order in Firefox to bring up the sites according to the context:
+```
+https://ci.fr.cloud.gov
+https://admin.fr.cloud.gov
+https://alertmanager.fr.cloud.gov
+https://logs-platform.fr.cloud.gov
+https://grafana.fr.cloud.gov
+https://prometheus.fr.cloud.gov
+https://opslogin.fr.cloud.gov
+```
+If the context changes the sites, this list and order will need to be revisited. 
+
 ## Upload and wrap up
 
 Upload all reports to Google Drive: https://drive.google.com/drive/u/0/folders/0B5fn0WMJaYDnaFdCak5WNWRGb1U in a folder named `YYYYMMDD-ZAP-Nessus`.
@@ -137,11 +175,11 @@ A python script is used to generate the inventory list.
 
 - Open the [POAM Inventory sheet](https://docs.google.com/spreadsheets/d/1_9Neq8fGO4NdQhsqLXDn445g3GUa1k_FZUrUXc7hulY/edit#gid=1371600163)
 
-- Delete the data rows (**starting after the RDS database listings**) - These rows are locked to prevent inadvertent editing.
+- Delete the data rows (**starting after the manually maintained inventory items**) - These rows are locked to prevent inadvertent editing.
 
 - For the tooling and production jumpboxes, login to each of them and from the initial home directory you start in, run `python3 cg-scripts/generate-POAM-inventory.py`. This will output data to your terminal window in CSV format. Copy the entire CSV output.
 
-- Paste the contents in the spreadsheet by selecting the first cell in row 3 then pasting with CTRL-Shift-V to paste without formatting. Then select the paste icon that appears and click `Split text to columns`
+- Paste the contents in the spreadsheet by selecting the first cell in the first blank row following the manually maintained inventory items, then pasting with CTRL-Shift-V (Command-Shift-V for macOS) to paste without formatting. Then select the paste icon that appears and click `Split text to columns`
 
 - [ ] Verify you have pasted the inventory for both production and tooling.
 - [ ] Verify that the RDS information has not been overwritten
