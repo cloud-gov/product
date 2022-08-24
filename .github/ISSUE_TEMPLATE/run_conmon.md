@@ -103,21 +103,23 @@ logger.paros.level = debug
 
 logger.zap.name = org.zaproxy.zap
 logger.zap.level = debug
-
-Open Zap, follow the above and open Firefox. Try to go to the server that failed previously.
-If that works, then change the levels back to info from debug, so they look like this:
 ```
 
+Open Zap, follow the above and open Firefox. Try to go to the server that failed previously.
+
+If that works, then change the levels back to info from debug, so they look like this:
+
+```
 logger.paros.name = org.parosproxy.paros
 logger.paros.level = info
 
 logger.zap.name = org.zaproxy.zap
 logger.zap.level = info
-
 ```
+
 For the internal sites, try the following order in Firefox to bring up the sites according to the context:
-```
 
+```
 https://ci.fr.cloud.gov
 https://admin.fr.cloud.gov
 https://alertmanager.fr.cloud.gov
@@ -127,6 +129,7 @@ https://prometheus.fr.cloud.gov
 https://opslogin.fr.cloud.gov
 
 ```
+
 If the context changes the sites, this list and order will need to be revisited.
 
 ## Upload and wrap up
@@ -136,8 +139,9 @@ Upload all reports to Google Drive: https://drive.google.com/drive/u/0/folders/0
 You can shut down ZAP and Firefox.
 
 NEEDS FIXING: Include for 2021-07 the Pages scanning:
-  * PAGES: For scanning cloud.gov Pages (while in pre-release status), download the [pages_staging_conmon.context]().
-  * PAGES: Or the Pages context, for scanning those apps.
+
+- PAGES: For scanning cloud.gov Pages (while in pre-release status), download the [pages_staging_conmon.context]().
+- PAGES: Or the Pages context, for scanning those apps.
 
 ## Potential ZAP Issues
 
@@ -158,7 +162,7 @@ du -h -d 1 ~/Library/Application\ Support/ZAP/
 
 ```
 
-If you see an abnormally large `session` or `sessions` directory (my last run was 132G), you likely want to delete all files in these directories before proceeding.  Choosing to "Not persist" sessions should alleviate this issue.
+If you see an abnormally large `session` or `sessions` directory (my last run was 132G), you likely want to delete all files in these directories before proceeding. Choosing to "Not persist" sessions should alleviate this issue.
 
 ## Export Nessus Scans
 
@@ -170,6 +174,7 @@ If you see an abnormally large `session` or `sessions` directory (my last run wa
 ## Acceptance criteria:
 
 The following (.xml and .html) are all uploaded to YYYYMMDD-ZAP-Nessus folder:
+
 - [ ] Production_Vulnerability_scan
 - [ ] Tooling_Vulnerability_scan
 - [ ] Production_Compliance_scan
@@ -190,5 +195,7 @@ A python script is used to generate the inventory list.
 
 - [ ] Verify you have pasted the inventory for both production and tooling.
 - [ ] Verify that the RDS information has not been overwritten
+
+```
 
 ```
