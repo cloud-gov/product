@@ -22,7 +22,7 @@ allows access to the services network (for RDS, etc) and all of the public inter
 We should have 3 generally-available ASGs:
 - `closed-gress`: allow nothing, which allows no access to anything outside the platform
 - `public-egress`: the same as our current public networks ASG - that is, open access to the public internet
-- `restricted-egress`: allows access to our services network (RDS, Elasticsearch, Redis)
+- `restricted-egress`: allows access to our services network (RDS, Elasticsearch, Redis, S3)
 
 The global default ASG would be `closed-egress`. OrgManagers and SpaceManagers can request that we bind the
 `public-egress` and/or `restricted-egress` ASGs to their spaces via support ticket. Users needing fine-grained
@@ -87,3 +87,17 @@ These tests will run in each cloud.gov environment and should be passing before 
 - After we have ASGs and reference implementations in place, we could conceivably
   make a broker that creates/manages proxies for users
 - This solution probably only solves access to HTTP(S)
+
+## Addenda
+
+### S3 egress in restricted ASG
+
+To simplify client accessibility for S3 we have added S3 access in the restricted ASG.
+- We accomplished this by leveraging a private endpoint for S3 in each VPC and setting a policy that allows access to buckets by users belonging to a list of accounts (ie the AWS accounts owned by cloud.gov)
+  - [cg-provision](https://github.com/cloud-gov/cg-provision) contains the policy creation and outputs the IP ranges and VPC dns names
+  - [cg-deploy-cf](https://github.com/cloud-gov/cg-deploy-cf) contains changes to the ASGs to include the IP ranges and DNS names output by cg-provision
+  - the VPCs in AWS each contain a pair of S3 private endpoints ( gateway and singular) for access to S3 over the AWS internal network. 
+- Clients wanting to access their own buckets not provisioned by service broker, must still use public ASG or a proxy to a public ASG. 
+  - buckets that exist in other regions from the cloud.gov current production region ( `us-gov-west-1` ) can be accessed transparently with standard API endpoints
+  - buckets that exist in the same region as cloud.gov production will need to use an alternate endpoint that is created by our Terraform: `*.vpce-01beaa66570dfb2b9-1hlav4x8.s3.us-gov-west-1.vpce.amazonaws.com`. This is due to the fact that private endpoints are regional in AWS and hence by default all traffic to S3 buckets in `us-gov-west-1` will have the implemented policy applied. 
+  
