@@ -98,5 +98,5 @@ To simplify client accessibility for S3 we have added s3 access in the restricte
   - the VPCs in AWS each contain a pair of s3 private endpoints ( gateway and singular) for access to s3 over the AWS internal network. 
 - Clients wanting to access their own buckets not provisioned by service broker, must still use public ASG or a proxy to a public ASG. 
   - buckets that exist in other regions from the cloud.gov current production region ( `us-gov-west-1` ) can be accessed transparently with standard API endpoints
-  - those buckets that exsist in the same region as cloud.gov production will need to use an alternate endpoint that is created by our Terraform: `*.vpce-01beaa66570dfb2b9-1hlav4x8.s3.us-gov-west-1.vpce.amazonaws.com`. This is due to the fact that private endpoints are regional in AWS and hence by default all traffic to s3 buckets in `us-gov-west-1` will have the implemented policy applied. 
+  - buckets that exist in the same region as cloud.gov production will need to use an alternate endpoint that is created by our Terraform: `*.vpce-01beaa66570dfb2b9-1hlav4x8.s3.us-gov-west-1.vpce.amazonaws.com`. This is due to the fact that private endpoints are regional in AWS and hence by default all traffic to S3 buckets in `us-gov-west-1` will have the implemented policy applied. 
   
