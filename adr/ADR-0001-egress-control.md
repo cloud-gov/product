@@ -22,7 +22,7 @@ allows access to the services network (for RDS, etc) and all of the public inter
 We should have 3 generally-available ASGs:
 - `closed-gress`: allow nothing, which allows no access to anything outside the platform
 - `public-egress`: the same as our current public networks ASG - that is, open access to the public internet
-- `restricted-egress`: allows access to our services network (RDS, Elasticsearch, Redis, s3)
+- `restricted-egress`: allows access to our services network (RDS, Elasticsearch, Redis, S3)
 
 The global default ASG would be `closed-egress`. OrgManagers and SpaceManagers can request that we bind the
 `public-egress` and/or `restricted-egress` ASGs to their spaces via support ticket. Users needing fine-grained
