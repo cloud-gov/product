@@ -137,6 +137,8 @@ to upload your GPG key to an S3 bucket containing the trusted keys for our team
 
 ### Install a development environment for cloud.gov
 
+> **NOTE**: You will need to [request admin rights on your Mac via a ServiceDesk ticket](https://docs.google.com/document/d/1xepZsh83lxPDykrb1NXoeHxj8m78qsdW-9KqzO_CHOQ/edit) before you can install any of the software below
+
 - [ ] Install [Homebrew (`brew`)](https://brew.sh/)
 - [ ] Install [CloudFoundry for mac per their docs](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html#pkg-mac):
   - `brew tap cloudfoundry/tap`
