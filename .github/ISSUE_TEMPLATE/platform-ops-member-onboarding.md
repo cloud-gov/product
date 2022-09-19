@@ -106,6 +106,10 @@ Once you're added to these channels, you probably want to mute these channels un
 
 ## Platform-Ops-specific items
 
+### Machine admin rights
+
+In order to install development tools on your Mac, you will need to request local admin rights by [submitting a ServiceDesk ticket](https://docs.google.com/document/d/1xepZsh83lxPDykrb1NXoeHxj8m78qsdW-9KqzO_CHOQ/edit) using [this justification](https://docs.google.com/document/d/1YGid3pTji5W_M9RuF1GDf614BVkLIRDmSrt1tDbej-o/edit). If you're unable to create a ticket for yourself, your onboarding buddy can create one for you.
+
 ### Cloud Operations account management
 
 _Note: These are all contingent on completing the GSA Mandatory Cyber Security and Privacy Training first. AWS user names should be identical across accounts so that permissions can be correctly managed by Terraform._
@@ -132,11 +136,9 @@ Your onboarding buddy will create a separate ticket tied to this one to track th
 - [ ] Run [this script](https://github.com/cloud-gov/cg-scripts/blob/master/write-pgp-pub-key-s3.sh)
 to upload your GPG key to an S3 bucket containing the trusted keys for our team
 
-### Machine admin rights
-
-In order to install development tools on your Mac, you will need to request local admin rights by [submitting a ServiceDesk ticket](https://docs.google.com/document/d/1xepZsh83lxPDykrb1NXoeHxj8m78qsdW-9KqzO_CHOQ/edit) using [this justification](https://docs.google.com/document/d/1YGid3pTji5W_M9RuF1GDf614BVkLIRDmSrt1tDbej-o/edit). If you're unable to create a ticket for yourself, your onboarding buddy can create one for you.
-
 ### Install a development environment for cloud.gov
+
+> **Note:** Make sure you have followed the instructions at the top of this section to get local admin rights on your machine before moving forward
 
 - [ ] Install [Homebrew (`brew`)](https://brew.sh/)
 - [ ] Install [CloudFoundry for mac per their docs](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html#pkg-mac):
