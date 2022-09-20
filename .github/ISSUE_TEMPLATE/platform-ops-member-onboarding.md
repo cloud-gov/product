@@ -106,8 +106,9 @@ Once you're added to these channels, you probably want to mute these channels un
 
 ## Platform-Ops-specific items
 
-You should already have admin rights on your machine as a part of its original setup.  If for whatever reason you don't,
-Please let your onboarding buddy know and they will help you request [local admin rights](https://docs.google.com/document/d/1xepZsh83lxPDykrb1NXoeHxj8m78qsdW-9KqzO_CHOQ/edit) on your GFE Mac using [this justification](https://docs.google.com/document/d/1YGid3pTji5W_M9RuF1GDf614BVkLIRDmSrt1tDbej-o/edit).
+### Machine admin rights
+
+In order to install development tools on your Mac, you will need to request local admin rights by [submitting a ServiceDesk ticket](https://docs.google.com/document/d/1xepZsh83lxPDykrb1NXoeHxj8m78qsdW-9KqzO_CHOQ/edit) using [this justification](https://docs.google.com/document/d/1YGid3pTji5W_M9RuF1GDf614BVkLIRDmSrt1tDbej-o/edit). If you're unable to create a ticket for yourself, your onboarding buddy can create one for you.
 
 ### Cloud Operations account management
 
@@ -136,6 +137,8 @@ Your onboarding buddy will create a separate ticket tied to this one to track th
 to upload your GPG key to an S3 bucket containing the trusted keys for our team
 
 ### Install a development environment for cloud.gov
+
+> **Note:** Make sure you have followed the instructions at the top of this section to get local admin rights on your machine before moving forward
 
 - [ ] Install [Homebrew (`brew`)](https://brew.sh/)
 - [ ] Install [CloudFoundry for mac per their docs](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html#pkg-mac):
