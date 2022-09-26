@@ -24,15 +24,31 @@ The following only applies to our production environment. All other environments
 
 ```mermaid
 graph TD
-    cf1[CloudFront Distribution 1] --> alb1[ALB 1]
-    cf2[CloudFront Distribution 2] --> alb2[ALB 2]
-    cf3[CloudFront Distribution 3] --> alb3[ALB 3]
-    s1[Shield Protection 1] --> cf1
-    s2[Shield Protection 2] --> cf2
-    s3[Shield Protection 3] --> cf3
+    subgraph i["blank"]
+        style i fill:none,stroke:none,color:#fff
+        classDef s fill:#ecffec,stroke:#73d893
+        classDef cf fill:#ffffec,stroke:#d8d893
+
+        s1[Shield Protection 1]:::s --> cf1
+        cf1[CloudFront Distribution 1]:::cf --> alb1[ALB 1]
+
+        s2[Shield Protection 2]:::s --> cf2
+        cf2[CloudFront Distribution 2]:::cf --> alb2[ALB 2]
+
+        s3[Shield Protection 3]:::s --> cf3
+        cf3[CloudFront Distribution 3]:::cf --> alb3[ALB 3]
+    end
+
     sg1[Shield Protection Group] --> cf1 & cf2 & cf3
+    style sg1 fill:#ffecec,stroke:#d87393
 ```
 
+236 236 255
+ffecec
+
+147 115 216
+9373d8
+d87393
 Even though the final implementation will only be run in production, we could implement the change in the development environment to test it.
 
 ### Security Impact
