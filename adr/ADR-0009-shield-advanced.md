@@ -30,9 +30,7 @@ graph TD
     s1[Shield Protection 1] --> cf1
     s2[Shield Protection 2] --> cf2
     s3[Shield Protection 3] --> cf3
-    sg1[Shield Protection Group] --> cf1
-    sg2[Shield Protection Group] --> cf2
-    sg3[Shield Protection Group] --> cf3
+    sg1[Shield Protection Group] --> cf1 & cf2 & cf3
 ```
 
 Even though the final implementation will only be run in production, we could implement the change in the development environment to test it.
