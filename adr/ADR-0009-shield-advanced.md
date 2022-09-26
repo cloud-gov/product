@@ -23,16 +23,16 @@ The following only applies to our production environment. All other environments
     * Can we put this protection in front of our customers' applications? What if they are using a CDN themselves?
 
 ```mermaid
-graph TD;
-    CloudFront Distribution 1 --> ALB 1;
-    CloudFront Distribution 2 --> ALB 2;
-    CloudFront Distribution 3 --> ALB 3;
-    Shield Protection 1 --> CloudFront Distribution 1;
-    Shield Protection 2 --> CloudFront Distribution 2;
-    Shield Protection 3 --> CloudFront Distribution 3;
-    Shield Protection Group --> CloudFront Distribution 1;
-    Shield Protection Group --> CloudFront Distribution 2;
-    Shield Protection Group --> CloudFront Distribution 3;
+graph TD
+    cf1[CloudFront Distribution 1] --> alb1[ALB 1]
+    cf2[CloudFront Distribution 2] --> alb2[ALB 2]
+    cf3[CloudFront Distribution 3] --> alb3[ALB 3]
+    s1[Shield Protection 1] --> cf1
+    s2[Shield Protection 2] --> cf2
+    s3[Shield Protection 3] --> cf3
+    sg1[Shield Protection Group] --> cf1
+    sg2[Shield Protection Group] --> cf2
+    sg3[Shield Protection Group] --> cf3
 ```
 
 Even though the final implementation will only be run in production, we could implement the change in the development environment to test it.
