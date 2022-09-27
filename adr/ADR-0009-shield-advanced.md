@@ -16,6 +16,10 @@ The following only applies to our production environment. All other environments
 
 ```mermaid
 graph TD
+    A --> B
+    B --> C
+
+graph TD
     subgraph b["blank"]
         style b fill:none,stroke:none,color:#fff
         classDef s fill:#ecffec,stroke:#73d893
@@ -35,27 +39,27 @@ graph TD
     style sg1 fill:#ffecec,stroke:#d87393
 ```
 
-Use Terraform in `cg-provision` to do the following:
+We will use Terraform in `cg-provision` to do the following:
 
-* Create CloudFront distributions in front of all load balancers.
+* Create CloudFront distributions in front of all internet-facing load balancers.
     * Use the [aws_cloudfront_distribution](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudfront_distribution) Terraform resource.
+    * See also the [aws_lb](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb) resource and [aws_elb](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/elb) resource.
+        * We mostly use ALBs, except for four "classic" ELBs. Three of those are internal.
+    * A single distribution can point to [up to 25 origins](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-overview.html), so we may not need one distribution per LB.
+    * A single AWS account has a default quota of [200 distributions](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cloudfront-limits.html#limits-web-distributions).
 * Enable Shield Advanced on the new CloudFront distributions.
-    * Use the [aws_shield_protection](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/shield_protection) resource. One per protected resource.
+    * Use the [aws_shield_protection](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/shield_protection) resource. One per protected resource (CloudFront distribution, in this case).
     * Add a [aws_shield_protection_group](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/shield_protection_group) resource so traffic is analyzed across all resources.
 * Change DNS to reference CloudFront distributions instead of the load balancers.
-    * Relevant resource type is [aws_route53_record]()
-    * Can we put this protection in front of our customers' applications? What if they are using a CDN themselves?
+    * Relevant resource type is [aws_route53_record](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_record).
 
 Notes:
 
-* Even though the final implementation will only be run in production, we could implement the change in the development environment to test it.
+* Even though the final implementation will only be run in production, it's possible we could implement the change in the development environment to test it.
     * I'm not sure if we can do this, since that environment is not exposed to the internet.
-    * If not: Can we enable CloudFront alongside the current system and test before switching DNS?
-
-### Security Impact
-
-See Open Questions.
+    * If not: I plan to enable CloudFront alongside the current system, leaving existing DNS as-is, and test with the CloudFront-generated domains before switching DNS.
 
 ## Open Questions
 
 * CloudFront is currently in the `external` environment. Would the new distributions also be there? Are resources in this environment treated as outside the security boundary?
+* Can we put this protection in front of our customers' applications? What if they are using a CDN themselves?
