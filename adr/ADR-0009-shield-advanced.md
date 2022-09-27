@@ -16,10 +16,6 @@ The following only applies to our production environment. All other environments
 
 ```mermaid
 graph TD
-    A --> B
-    B --> C
-
-graph TD
     subgraph b["blank"]
         style b fill:none,stroke:none,color:#fff
         classDef s fill:#ecffec,stroke:#73d893
