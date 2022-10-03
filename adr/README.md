@@ -10,6 +10,7 @@ This log lists the architectural decisions for cloud.gov.
 - [ADR-0006](https://github.com/cloud-gov/product/blob/master/adr/ADR-0006-commit-signing.md) - Git commit signing and validation
 - [ADR-0007](https://github.com/cloud-gov/product/blob/master/adr/ADR-0007-container-scanning-and-validation.md) - Container Scanning & Validation.
 - [ADR-0008](https://github.com/cloud-gov/product/blob/master/adr/ADR-0008-passive-dns.md) - Container Scanning & Validation.
+- [ADR-0009](https://github.com/cloud-gov/product/blob/master/adr/ADR-0009-shield-advanced.md) - CloudFront and Shield Advanced.
 
 For new ADRs, please use [template.md](template.md).
 

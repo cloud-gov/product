@@ -61,6 +61,9 @@ We should not enable public DNS query logging because the logs are limited in sc
 
 ## Technical implementation
 
-We should send the [resolver query logs to S3](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver-query-logs-choosing-target-resource.html). In keeping with M-21-31 guidance, we should keep these logs for 30 months, but after 12 months we can send them to a lower-cost, infrequent access storage tier.
+We should send the [resolver query logs to S3](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver-query-logs-choosing-target-resource.html). In keeping with M-21-31 guidance, we should keep these logs for 30 months and apply the following lifecycle policies:
 
-From S3 we should ingest these logs into our platform logs system, which is currently built on the ELK stack. We will probably have to write a custom Logstash ingestor to handle ingesting these logs. Once the logs are ingested into Elasticsearch, they will be easily searchable in Kibana.
+- 0 - 3 months: S3 standard access
+- 3 - 12 months: S3 Glacier instant retrival
+- 12 - 30 months: S3 Glacier deep archive
+- 30 months: delete
