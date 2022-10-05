@@ -13,7 +13,9 @@ To mitigate the impact of DDoS attacks, we want to enable AWS Shield Advanced, A
 
 [CloudFront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html) is AWS's Content Delivery Network (CDN) product. It is comprised of a globally distributed network of edge locations and is meant to speed up content delivery by serving cached content from locations geographically close to users. CloudFront distributions tell CloudFront which origin servers to use and are associated with a domain name.
 
-[Shield Advanced](https://docs.aws.amazon.com/waf/latest/developerguide/ddos-advanced-summary.html) is a tier of AWS Shield, a DDoS protection service. Shield Advanced automatically creates Web Application Firewall (WAF) rules in response to changing traffic to block requests that are part of a DDoS attack. Shield Advanced can be enabled on [certain AWS resource types](https://docs.aws.amazon.com/waf/latest/developerguide/ddos-advanced-summary-protected-resources.html), including CloudFront distributions.
+[Web Application Firewall (WAF)](https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html) lets you monitor HTTP and HTTPS requests to certain resources and control access to content based on rules. You can write custom rules or use AWS Managed Rulesets, which consist of rules maintained by AWS.
+
+[Shield Advanced](https://docs.aws.amazon.com/waf/latest/developerguide/ddos-advanced-summary.html) is a tier of AWS Shield, a DDoS protection service. Shield Advanced automatically creates WAF rules in response to changing traffic to block requests that are part of a DDoS attack. Shield Advanced can be enabled on [certain AWS resource types](https://docs.aws.amazon.com/waf/latest/developerguide/ddos-advanced-summary-protected-resources.html), including CloudFront distributions.
 
 ## Implementation
 
@@ -49,12 +51,20 @@ We will use Terraform in `cg-provision` to do the following:
         * We mostly use ALBs, except for four "classic" ELBs. Three of those are internal.
     * A single distribution can point to [up to 25 origins](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-overview.html), but seems to be associated with a single domain. So the number of distributions we will need is 1:1 with either the number of load balancers or the number of domains, in the case that multiple load balancers support a single domain.
     * For reference, a single AWS account has a default quota of [200 distributions](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cloudfront-limits.html#limits-web-distributions).
+* Create Web ACL(s) in the commercial AWS account and associate them with WAF and each CloudFront distribution.
+    * I think we can have one ACL for all distributions.
+    * WAF is already enabled in our GovCloud account. We will most likely keep it enabled so that customers who broker their own CDNs have at least the protection of the Managed Rulesets.
 * Enable Shield Advanced on the new CloudFront distributions.
     * Use the [aws_shield_protection](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/shield_protection) resource. One per protected resource (CloudFront distribution, in this case).
     * Add a [aws_shield_protection_group](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/shield_protection_group) resource so traffic is analyzed across all resources.
 * Change DNS to reference CloudFront distributions instead of the load balancers.
     * Relevant resource type is [aws_route53_record](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_record).
+
+Follow-on work:
 * Configure our LBs to only accept traffic from CloudFront using [custom headers](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-overview.html#forward-custom-headers-restrict-access). Without this step, attackers could make requests to our load balancers directly, bypassing CloudFront and Shield Advanced.
+* See if we could consolidate WAF to commercial only, with one ACL applying to all distributions.
+* Associate customer-brokered CDNs with our protection group.
+* See if we can disable the CDN plan in the External Domain Broker, since the LBs will be protected by a CDN by default. This may not be possible if customers currently customize those distributions.
 
 Notes:
 
@@ -62,7 +72,3 @@ Notes:
     * I'm not sure if we can do this, since that environment is not exposed to the internet.
     * If not: I plan to enable CloudFront alongside the current system, leaving existing DNS as-is, and test with the CloudFront-generated domains before switching DNS.
 * CloudFront being outside the GovCloud security boundary will have implications for the related compliance work.
-
-## Open Questions
-
-* We'd like to put this protection in front of our customers' applications. What if they are already using a CDN? Can we replace it in-place if it was set up via the [External Domain Broker](https://github.com/cloud-gov/external-domain-broker)?
