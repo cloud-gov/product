@@ -61,9 +61,6 @@ We should not enable public DNS query logging because the logs are limited in sc
 
 ## Technical implementation
 
-We should send the [resolver query logs to S3](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver-query-logs-choosing-target-resource.html). In keeping with M-21-31 guidance, we should keep these logs for 30 months and apply the following lifecycle policies:
+We should send the [resolver query logs to Cloudwatch](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver-query-logs-choosing-target-resource.html) so that are easily [searchable from within the AWS console](https://aws.amazon.com/blogs/aws/log-your-vpc-dns-queries-with-route-53-resolver-query-logs/). While storing the logs in S3 would be cheaper, the cost difference between Cloudwatch and S3 is not significant for our volume of resolver query logs.
 
-- 0 - 3 months: S3 standard access
-- 3 - 12 months: S3 Glacier instant retrival
-- 12 - 30 months: S3 Glacier deep archive
-- 30 months: delete
+In keeping with M-21-31 guidance, we should keep these logs for at least 30 months.
