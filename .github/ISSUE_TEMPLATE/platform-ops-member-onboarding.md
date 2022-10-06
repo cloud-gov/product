@@ -68,17 +68,29 @@ These items will help you come up to speed on cloud.gov and what it is, how it w
 should take the time to go through them, please do not try and tackle it all in one shot!  It can become overwhelming
 very quickly, so your onboarding buddy will walk through this list with you at a high level with you to help manage the work.
 
+Resources on cloud.gov:
+
 - [ ] View the video: [A Technical Overview of cloud.gov](https://youtu.be/lwQCDeIm1Es)
-- [ ] Look at [Opensourced content for cloud foundry training classes: zero to hero (beginner), bosh/operator, and microservices](https://github.com/EngineerBetter/summit-training-classes)
-- [ ] Here is some training materials: [GitHub - CloudCredo/training-operating-the-foundry: Training materials for Operating a Platform: BOSH and Everything Else](https://github.com/CloudCredo/training-operating-the-foundry)
-- [ ] This gives a good overview of Bosh [Welcome - Ultimate Guide to BOSH](https://ultimateguidetobosh.com/)
 - [ ] Read [the team onboarding document](https://github.com/cloud-gov/product/blob/master/Onboarding.md) for more context about cloud.gov.
 - [ ] Bookmark the [pertinent links listed here](https://github.com/cloud-gov/product/blob/master/PertinentLinks.md).
 - [ ] Read through [the Overview section of our site](https://cloud.gov/docs/overview/what-is-cloudgov/) for a broader understanding of cloud.gov, especially how we present it to potential customers and users.
-- [ ] [Sign up for a cloud.gov sandbox](https://cloud.gov/sign-up/#get-trial-access-and-a-free-sandbox-space) using your GSA email address and start experimenting to get familiar with the basics of the PaaS from a user's perspective.
-  - This is also required in order to make you a platform admin once you've completed the Cybersecurity and Privacy training.
 - [ ] Read the [Delivery Process document](https://github.com/cloud-gov/product/blob/master/StoryLifecycle.md) to learn about how we work.
 - [ ] Read our [service disruption guide](https://cloud.gov/docs/ops/service-disruption-guide/) to learn how we handle customer-facing service disruptions.
+
+Resources on CloudFoundry/BOSH:
+
+- [ ] Look at [Opensourced content for cloud foundry training classes: zero to hero (beginner), bosh/operator, and microservices](https://github.com/EngineerBetter/summit-training-classes)
+- [ ] Here is some training materials: [GitHub - CloudCredo/training-operating-the-foundry: Training materials for Operating a Platform: BOSH and Everything Else](https://github.com/CloudCredo/training-operating-the-foundry)
+- [ ] Very thorough documentation on BOSH: [Ultimate Guide to BOSH](https://ultimateguidetobosh.com/)
+- [ ] [BOSH 101 presentation recording](https://drive.google.com/file/d/1CRYsgusiKnHm8p5wE8pi2ybcdsWKSqyA/view) and [slides](https://docs.google.com/presentation/d/1PN0MpcKGtwKlRZqh5Ol3kBYAi-LIYZY4MDFo61rZ97Y/edit?usp=drive_web&ouid=109379933856846715499)
+
+Getting hands-on with cloud.gov:
+
+- [ ] [Sign up for a cloud.gov sandbox](https://cloud.gov/sign-up/#get-trial-access-and-a-free-sandbox-space) using your GSA email address and start experimenting to get familiar with the basics of the PaaS from a user's perspective.
+  - This is also required in order to make you a platform admin once you've completed the Cybersecurity and Privacy training.
+
+Add yourself to team resources:
+
 - [ ] Add the [cloud.gov Google Drive folder](https://drive.google.com/drive/folders/0Bx6EvBXVDWwheUtVckVnOE1pRzA) to your Google Drive -- that's where we put cloud.gov docs. If you create or move a doc there, it'll get the right access permissions for team members to be able to view and edit it.
 - [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&amp;ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various squads. Tip: When you plan Out of Office time, make a calendar event for that on the cloud.gov calendar so that your teammates know you'll be away
 
@@ -87,22 +99,27 @@ very quickly, so your onboarding buddy will walk through this list with you at a
 Your onboarding buddy will add you to these Slack channels:
 
 - [ ] `#cloud-gov` - bots post announcements here
+- [ ] `#cg-aws-security` - private channel where bots post security notices
+- [ ] `#cg-aws-status` - bots post announcements about AWS service outages/incidents
 - [ ] `#cg-billing` - private business development channel (if applicable)
 - [ ] `#cg-business` - business development (if applicable)
 - [ ] `#cg-compliance` - compliance-related information and discussion
 - [ ] `#cg-offtopic` - off-topic team sharing
+- [ ] `#cg-ops-banter` - private channel for operations/engineering banter
 - [ ] `#cg-platform` - platform operations
-- [ ] `#cg-platform-news` - bots post platform alerts
+- [ ] `#cg-platform-news` - bots post platform alerts (mostly CI job notifications)
 - [ ] `#cg-general` - program-level information and discusion
 - [ ] `#cg-support` - support requests and assistance within TTS
+- [ ] `#cg-supportstream` - stream of activity on Zendesk tickets
 - [ ] `#cg-incidents` - private channel for incident response
 - [ ] `#cg-priv-all` - private channel for in-team discussion
 - [ ] `#cg-priv-gov` (Federal employees only) - may contain discussion of contracting-related or other private, federal-employee-only comms
 
-Once you're added to these channels, you probably want to mute these channels until you're on support rotation:
+Once you're added to these channels, you probably want to mute these channels until you're on a support rotation:
 
-- [ ] `#cg-support` - support requests and assistance within TTS
-- [ ] `#cg-platform-news` - platform alerts
+- [ ] `#cg-support`
+- [ ] `#cg-supportstream`
+- [ ] `#cg-platform-news`
 
 ## Platform-Ops-specific items
 
