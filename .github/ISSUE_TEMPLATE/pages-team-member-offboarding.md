@@ -2,8 +2,14 @@
 
  ## Special Notes
 
-- **Do not create this issue until the System Owner has formally authorized and requested it.**
-- **Please only use first names.**
+- **Do not create this issue until the System Owner has formally authorized and requested it.** You can obtain that OK by one of two ways:
+  A:
+  - [ ] A: System Owner creates this issue
+
+  B:
+  - [ ] B.1: System owner emails cloud-gov-compliance@gsa.gov and cloud-gov-pages-operations@gsa.gov with their authorization
+  - [ ] B.2: An operator adds links to the email archive of the authorizing email. 
+**Please only use first names.**
 
 ---
 
