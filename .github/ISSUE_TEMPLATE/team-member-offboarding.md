@@ -32,15 +32,14 @@ For compliance we need to show that critical offboarding actions happen within 2
 
 If the person offboarding is a contractor follow the steps in the [offboarding checklist](https://docs.google.com/spreadsheets/d/1u5GQ2i4u20x3r1ryXifWf99ZM_U6BPOu-rHaoFADZ6k/edit#gid=1078790596)t in addition to the following steps below.
 
-- [ ] Mention the TTS HR liaison and TTS Tech Portfolio in this ticket so they can update with their status
-  - As part of TTS offboarding, TTS Tech Portfolio will automatically:
-  - Remove their access to [StatusPage](https://manage.statuspage.io/organizations/btc69fwyvjh7/team) 
-  - Remove them from [the cloudgov subteam in Docker Hub](https://hub.docker.com/u/18fgsa/dashboard/teams/?team=cloudgov)
-  - Remove write/push access for NPM from [cloudgov-style](https://www.npmjs.com/package/cloudgov-style)
-  - Remove them from [HackerOne](https://hackerone.com/)
-  - If they are leaving GSA, ask `#admins-slack` to convert them to a single-channel alumni user
-  - Remove their agent access to Zendesk - [switch their role to "end user"](https://cloud-gov.zendesk.com/agent/admin/people)
-  - Update this issue with a comment within 24h of departure that the above steps are complete
+- [ ] Mention the TTS HR liaison and TTS Tech Portfolio in this ticket so they can update with their status. Make sure that someone from TTS Tech Portfolio or you have completed these items:
+  - [ ] Remove their access to [StatusPage](https://manage.statuspage.io/organizations/btc69fwyvjh7/team) 
+  - [ ] Remove them from [the cloudgov subteam in Docker Hub](https://hub.docker.com/u/18fgsa/dashboard/teams/?team=cloudgov)
+  - [ ] Remove write/push access for NPM from [cloudgov-style](https://www.npmjs.com/package/cloudgov-style)
+  - [ ] Remove them from [HackerOne](https://hackerone.com/)
+  - [ ] If they are leaving GSA, ask `#admins-slack` to convert them to a single-channel alumni user
+  - [ ] Remove their agent access to Zendesk - [switch their role to "end user"](https://cloud-gov.zendesk.com/agent/admin/people)
+  - [ ] Update this issue with a comment within 24h of departure that the above steps are complete
 - [ ] Remove them from `@cg-team`, `@cg-operators`, and any other `@cg-` teams in the Slack Team Directory [using the three-dot menu (instructions)](https://get.slack.help/hc/en-us/articles/212906697-User-Groups)
 - [ ] Remove them from the [team roster](https://docs.google.com/spreadsheets/d/187663k5MYJBNlKExLu_nhuovcZQfIbqYCu2n4noNY1o/edit#gid=0)
 - [ ] Remove them from the [squad list](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md#squads)
@@ -81,7 +80,7 @@ The following do not directly impact cloud.gov security & operations and can hap
 
 **The following steps must be conducted and documented within 24 hours of departure**:
 
-- [ ] Delete the user in all cloud.gov AWS accounts.  There should be info on which AWS accounts you need to look at [here](https://docs.google.com/document/d/110o1L7EOby3hvE5d-cDhg2LBLHymbZLnMPe9kuk4qp8/edit)
+- [ ] Delete the user in all cloud.gov AWS accounts by submitting a PR to [`aws-admin`](https://github.com/cloud-gov/aws-admin)
 - [ ] [Remove their access as an admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) on the platform
 - [ ] Remove any privileges that their cloud.gov account has due to membership in the cloud.gov team (even if not in Cloud Ops), such as `admin_ui.user` and `scim.read`
     - [ ] Verify these permissions have been removed using the [cg-scripts validate-admins.sh](https://github.com/18F/cg-scripts/blob/master/validate-admins.sh) run from a jumpbox
