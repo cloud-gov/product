@@ -5,16 +5,26 @@ Information about our prioritization process and [the Story Lifecycle](StoryLife
 ---
 
 ## Team
-We've structured our team into two teams.
+We've structured our team into four teams.
 
-- Platform and compliance/security, Comm channels: #cg-platform
-  - Chris McGowan
+- Platform, Comm channel: #cg-platform
   - Van Nguyen
-  - Peter Burkholder
-  - Andrew Burnes
   - Mark Boyd
   - Robert Gottlieb
   - James Hochadel
+  - Rian Bogle
+  - David Anderson
+  - Dorothy Tamasang
+
+- Pages
+  - Drew Bollinger
+  - Brian Hurst
+  - Andrew Burnes
+
+- Compliance/assurance, Comm channel: #cg-compliance
+  - Peter Burkholder
+  - Chiaka Opara
+  - Ruth Yeboah
 
 - Customer and business, Comm channel: #cg-business
   - Kelley Confer
