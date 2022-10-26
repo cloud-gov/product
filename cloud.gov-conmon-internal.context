@@ -11,11 +11,11 @@
     <incregexes>https://logs-platform.fr.cloud.gov.*</incregexes>
     <incregexes>https://opslogin.fr.cloud.gov.*</incregexes>
     <incregexes>https://prometheus.fr.cloud.gov.*</incregexes>
-    <excregexes>mozilla.com</excregexes>
-    <excregexes>mozilla.net</excregexes>
-    <excregexes>mozilla.org</excregexes>
-    <excregexes>firefox.com</excregexes>
-    <excregexes>getpocket.com</excregexes>
+    <excregexes>mozilla\.com</excregexes>
+    <excregexes>mozilla\.net</excregexes>
+    <excregexes>mozilla\.org</excregexes>
+    <excregexes>firefox\.com</excregexes>
+    <excregexes>getpocket\.com</excregexes>
     <tech>
         <include>Db.PostgreSQL</include>
         <include>Db.SQLite</include>
