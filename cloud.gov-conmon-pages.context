@@ -5,7 +5,9 @@
         <desc/>
         <inscope>true</inscope>
         <incregexes>https://pages-staging.cloud.gov.*</incregexes>
+        <incregexes>https://pages.cloud.gov.*</incregexes>
         <incregexes>https://admin.pages-staging.cloud.gov.*</incregexes>
+        <incregexes>https://admin.pages.cloud.gov.*</incregexes>
         <excregexes>mozilla.com</excregexes>
         <excregexes>mozilla.net</excregexes>
         <excregexes>mozilla.org</excregexes>
