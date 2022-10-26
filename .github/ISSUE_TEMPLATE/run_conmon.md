@@ -173,7 +173,7 @@ If you see an abnormally large `session` or `sessions` directory (my last run wa
 
 ## Acceptance criteria:
 
-The following (.xml and .html) are all uploaded to YYYYMMDD-ZAP-Nessus folder:
+The following (.nessus and .html) are all uploaded to YYYYMMDD-ZAP-Nessus folder:
 
 - [ ] Production_Vulnerability_scan
 - [ ] Tooling_Vulnerability_scan
