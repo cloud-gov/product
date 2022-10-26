@@ -16,6 +16,10 @@ Omit: I am not finding a clear path to using Netsparker for our admin apps, and 
 
 # OWASP ZAP Scans
 
+From the [ZAP documentation](https://www.zaproxy.org/getting-started/): "Zed Attack Proxy (ZAP) is a free, open-source penetration testing tool being maintained under the umbrella of the Open Web Application Security Project (OWASP). ZAP is designed specifically for testing web applications and is both flexible and extensible."
+
+We run ZAP from a platform operator's local machine. ZAP opens a Firefox instance that is configured to proxy all requests through ZAP. ZAP can then analyze and modify the requests.
+
 ## Preliminary work - Sandbox User Setup
 
 We scan our externally facing apps as _sandbox users_ of cloud.gov, via the cloud.gov IdP, instead of _platform admins_. This vastly speeds up scans since the spider doesn't crawl every app and org in _logs_ or _dashboard_, and also avoids issues with ZAP "clicking" on links with undesired impacts.
@@ -27,14 +31,11 @@ As your "sandbox" user identity, launch a "Hello World" app so there's something
 ## Install, Configure, and Update
 
 - Check that you have the [latest stable version of ZAP](https://www.zaproxy.org/download/). Install/update via Homebrew with:
-
   - `brew update; brew install owasp-zap` or
   - `brew update; brew reinstall owasp-zap`
-
   > NOTE: If you see an error running ZAP as an unsigned application, run the following from the command line:
-
   - `xattr -dr com.apple.quarantine '/Applications/OWASP ZAP.app'`
-
+  - ZAP also has a [weekly build](https://www.zaproxy.org/download/#weekly) available. If the current stable build isn't working for some reason, try the weekly build instead. Download the ZIP, `cd` to it in your terminal, and run it with `./zap.sh`. If it outputs a message like `Exiting: ZAP requires a minimum of Java 11 to run`, run `brew install java` to install the latest Java and try again.
 - Start ZAP and update
   - For "Session persistence", select "No, I do not want to persist my session..."
   - For "Manage add-ons", select "Update All"
@@ -65,8 +66,8 @@ The following steps are for the `external` scan (except as noted):
 
 - From the cloud.gov `product` repo, load the cloud.gov `cloud.gov-conmon-external.context` into ZAP (File > Import Context)
   - Delete the "Default Context" or any already completed context.
-- On the top line of icons, there should be a Firefox icon on the far right. Double-click that to open Firefox preconfigured to proxy through ZAP.
-- Open the `context` to see the included web applictions (Context -> Included in Context)
+- On the top line of icons, there should be a Firefox icon on the far right. Click that to open Firefox preconfigured to proxy through ZAP.
+- Open the `context` to see the included web applications (Context -> Included in Context)
 - In the ZAP-configured Firefox, log in to each site in the context list.
   - For the **`external` context, use your "sandbox" identity**. VPN not needed.
   - For the **`internal` context, use your Cloud Ops (GSA SecureAuth) identity**, and join the VPN
@@ -87,13 +88,13 @@ The following steps are for the `external` scan (except as noted):
 
 **Quit ZAP, then repeat the "Running ZAP scans" steps for the `internal` context (which will require the VPN)**
 
-## Troubleshooting Zap Scans
+## Troubleshooting ZAP Scans
 
 In Firefox if you see a Java Unable to Connect Exception, try the following:
 
-Close both Firefox and Zap.
+Close both Firefox and ZAP.
 
-In ~/Library/Application Support/ZAP/log4j2.properties:
+In `~/Library/Application Support/ZAP/log4j2.properties`:
 
 Change the following level's to debug so the entries look like this:
 
@@ -105,7 +106,7 @@ logger.zap.name = org.zaproxy.zap
 logger.zap.level = debug
 ```
 
-Open Zap, follow the above and open Firefox. Try to go to the server that failed previously.
+Open ZAP, follow the above and open Firefox. Try to go to the server that failed previously.
 
 If that works, then change the levels back to info from debug, so they look like this:
 
@@ -127,7 +128,6 @@ https://logs-platform.fr.cloud.gov
 https://grafana.fr.cloud.gov
 https://prometheus.fr.cloud.gov
 https://opslogin.fr.cloud.gov
-
 ```
 
 If the context changes the sites, this list and order will need to be revisited.
