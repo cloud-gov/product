@@ -6,11 +6,11 @@
         <inscope>true</inscope>
         <incregexes>https://pages-staging.cloud.gov.*</incregexes>
         <incregexes>https://admin.pages-staging.cloud.gov.*</incregexes>
-        <excregexes>mozilla.com</excregexes>
-        <excregexes>mozilla.net</excregexes>
-        <excregexes>mozilla.org</excregexes>
-        <excregexes>firefox.com</excregexes>
-        <excregexes>getpocket.com</excregexes>
+        <excregexes>mozilla\.com</excregexes>
+        <excregexes>mozilla\.net</excregexes>
+        <excregexes>mozilla\.org</excregexes>
+        <excregexes>firefox\.com</excregexes>
+        <excregexes>getpocket\.com</excregexes>
         <tech>
             <include>Db.MySQL</include>
             <include>Db.PostgreSQL</include>
