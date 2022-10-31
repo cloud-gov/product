@@ -1,23 +1,59 @@
-# CloudFront and Shield Advanced
+# DDoS Mitigation and Investigation
 
 ## Why
 
-To mitigate the impact of DDoS attacks, we want to enable AWS Shield Advanced, Amazon's DDoS protection product. Shield Advanced is not available in GovCloud[^1] and cannot protect GovCloud load balancers from a Commercial account[^2][^3]. To use it, we will create CloudFront distributions in our Commercial AWS account, point them at our production load balancers in GovCloud, and enable Shield Advanced on the distributions[^4].
+Cloud.gov is periodically targeted by high-volume Layer 7 vulnerability scans from unknown actors. The scans are comprised of HTTP requests that attempt to exploit well-known security vulnerabilities, like retrieving `/etc/passwd` files left exposed on servers. The volume of traffic is sometimes large enough to overwhelm networking components of cloud.gov and bring the platform offline. The traffic typically comes from many hosts, each making a relatively small number of requests. Because of this, we refer to these events as Distributed Denial of Service (DDoS) attacks.
+
+We want to mitigate the impact of DDoS attacks, monitor the platform as they occur, and investigate them after they are over. To accomplish this, we want to make several changes to the platform.
+
+1. Enable additional Web Application Firewall (WAF) rules across the entire platform. WAF uses rules to filter incoming requests based on certain patterns.
+2. Enable AWS Config. Config would help us detect if an AWS resource changed during an attack. Using Config is an AWS best practice recommended to us during an AWS security review.
+3. Enable AWS GuardDuty. GuardDuty monitors our AWS resources for unusual and potentially malicious activity like escalation of privileges and communication with malicious IP addresses. GuardDuty would help us detect if an AWS resource was compromised during an attack. Using GuardDuty is an AWS best practice recommended to us during an AWS security review.
+4. Enable AWS Athena. TODO
+5. Enable AWS Shield Advanced, Amazon's DDoS protection product. Shield Advanced is not available in GovCloud[^1] and cannot protect GovCloud load balancers from a Commercial account[^2][^3]. To use it, we will create CloudFront distributions in our Commercial AWS account, point them at our production load balancers in GovCloud, and enable Shield Advanced on the distributions[^4].
 
 [^1]: https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/
 [^2]: The GovCloud partition is logically separated at the network level from other partitions: https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-differences.html
 [^3]: https://gsa-tts.slack.com/archives/C03P214FD9R/p1664300899870519
 [^4]: "CloudFront is not available in AWS GovCloud (US), but you can use CloudFront in the standard regions and point to your AWS GovCloud (US) resources". https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/setting-up-cloudfront.html
 
-## Background: How CloudFront and Shield Advanced Work
-
-[CloudFront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html) is AWS's Content Delivery Network (CDN) product. It is comprised of a globally distributed network of edge locations and is meant to speed up content delivery by serving cached content from locations geographically close to users. CloudFront distributions tell CloudFront which origin servers to use and are associated with a domain name.
+## Background: AWS Services
 
 [Web Application Firewall (WAF)](https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html) lets you monitor HTTP and HTTPS requests to certain resources and control access to content based on rules. You can write custom rules or use AWS Managed Rulesets, which consist of rules maintained by AWS.
 
+[CloudFront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html) is AWS's Content Delivery Network (CDN) product. It is comprised of a globally distributed network of edge locations and is meant to speed up content delivery by serving cached content from locations geographically close to users. CloudFront distributions tell CloudFront which origin servers to use and are associated with a domain name.
+
 [Shield Advanced](https://docs.aws.amazon.com/waf/latest/developerguide/ddos-advanced-summary.html) is a tier of AWS Shield, a DDoS protection service. Shield Advanced automatically creates WAF rules in response to changing traffic to block requests that are part of a DDoS attack. Shield Advanced can be enabled on [certain AWS resource types](https://docs.aws.amazon.com/waf/latest/developerguide/ddos-advanced-summary-protected-resources.html), including CloudFront distributions.
 
+[Config](https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html) "provides a detailed view of the configuration of AWS resources in your AWS account. This includes how the resources are related to one another and how they were configured in the past so that you can see how the configurations and relationships change over time."
+
+[GuardDuty](https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html) "is a continuous security monitoring service that analyzes and processes data sources, such as AWS CloudTrail data events for Amazon S3 logs, CloudTrail management event logs, DNS logs, Amazon EBS volume data, Kubernetes audit logs, and Amazon VPC flow logs."
+
 ## Implementation
+
+### WAF Rules
+
+We already use two Managed Rulesets: Amazon IP Reputation List and Known Bad Inputs. We will enable two Also enable Core Ruleset and Anonymous IP list, at the recommendation of AWS.
+
+Rate limiting.
+
+### AWS Config and GuardDuty
+
+Config
+
+* Turn on with Terraform
+* Policies
+* Logs & alerts
+* Documentation
+
+GuardDuty
+
+* Turn on with Terraform
+* No policies - all automatic
+* Logs & alerts
+* Documentation
+
+### Shield Advanced
 
 The following only applies to our production environment. All other environments are not available on the public internet and cannot be targeted by DDoS attacks.
 
