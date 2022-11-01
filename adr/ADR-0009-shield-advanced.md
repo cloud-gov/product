@@ -7,10 +7,11 @@ Cloud.gov is periodically targeted by high-volume Layer 7 vulnerability scans fr
 We want to mitigate the impact of DDoS attacks, monitor the platform as they occur, and investigate them after they are over. To accomplish this, we want to make several changes to the platform.
 
 1. Enable additional Web Application Firewall (WAF) rules across the entire platform. WAF uses rules to filter incoming requests based on certain patterns.
-2. Enable AWS Config. Config would help us detect if an AWS resource changed during an attack. Using Config is an AWS best practice recommended to us during an AWS security review.
-3. Enable AWS GuardDuty. GuardDuty monitors our AWS resources for unusual and potentially malicious activity like escalation of privileges and communication with malicious IP addresses. GuardDuty would help us detect if an AWS resource was compromised during an attack. Using GuardDuty is an AWS best practice recommended to us during an AWS security review.
-4. Enable AWS Athena. TODO
-5. Enable AWS Shield Advanced, Amazon's DDoS protection product. Shield Advanced is not available in GovCloud[^1] and cannot protect GovCloud load balancers from a Commercial account[^2][^3]. To use it, we will create CloudFront distributions in our Commercial AWS account, point them at our production load balancers in GovCloud, and enable Shield Advanced on the distributions[^4].
+2. Enable AWS Config. Config would help us detect if an AWS resource changed during an attack. Using Config is an AWS best practice recommended to us during an AWS security review. This will be covered in a separate ADR.
+3. Enable AWS GuardDuty. GuardDuty monitors our AWS resources for unusual and potentially malicious activity like escalation of privileges and communication with malicious IP addresses. GuardDuty would help us detect if an AWS resource was compromised during an attack. Using GuardDuty is an AWS best practice recommended to us during an AWS security review. This will be covered in a separate ADR.
+4. Enable AWS Shield Advanced, Amazon's DDoS protection product. Shield Advanced is not available in GovCloud[^1] and cannot protect GovCloud load balancers from a Commercial account[^2][^3]. To use it, we will create CloudFront distributions in our Commercial AWS account, point them at our production load balancers in GovCloud, and enable Shield Advanced on the distributions[^4].
+
+This ADR discusses (1) and (4).
 
 [^1]: https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/
 [^2]: The GovCloud partition is logically separated at the network level from other partitions: https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-differences.html
@@ -25,33 +26,11 @@ We want to mitigate the impact of DDoS attacks, monitor the platform as they occ
 
 [Shield Advanced](https://docs.aws.amazon.com/waf/latest/developerguide/ddos-advanced-summary.html) is a tier of AWS Shield, a DDoS protection service. Shield Advanced automatically creates WAF rules in response to changing traffic to block requests that are part of a DDoS attack. Shield Advanced can be enabled on [certain AWS resource types](https://docs.aws.amazon.com/waf/latest/developerguide/ddos-advanced-summary-protected-resources.html), including CloudFront distributions.
 
-[Config](https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html) "provides a detailed view of the configuration of AWS resources in your AWS account. This includes how the resources are related to one another and how they were configured in the past so that you can see how the configurations and relationships change over time."
-
-[GuardDuty](https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html) "is a continuous security monitoring service that analyzes and processes data sources, such as AWS CloudTrail data events for Amazon S3 logs, CloudTrail management event logs, DNS logs, Amazon EBS volume data, Kubernetes audit logs, and Amazon VPC flow logs."
-
 ## Implementation
 
 ### WAF Rules
 
-We already use two Managed Rulesets: Amazon IP Reputation List and Known Bad Inputs. We will enable two Also enable Core Ruleset and Anonymous IP list, at the recommendation of AWS.
-
-Rate limiting.
-
-### AWS Config and GuardDuty
-
-Config
-
-* Turn on with Terraform
-* Policies
-* Logs & alerts
-* Documentation
-
-GuardDuty
-
-* Turn on with Terraform
-* No policies - all automatic
-* Logs & alerts
-* Documentation
+We already use two Managed Rulesets: Amazon IP Reputation List and Known Bad Inputs. We will enable two additional Managed Rulesets: The Core Ruleset and Anonymous IP list. Both are recommended by AWS. In addition, we will add a rate limiting rule, which limits the rate at which a single IP can make requests.
 
 ### Shield Advanced
 
@@ -99,7 +78,7 @@ We will use Terraform in `cg-provision` to do the following:
 Follow-on work:
 * Configure our LBs to only accept traffic from CloudFront using [custom headers](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-overview.html#forward-custom-headers-restrict-access). Without this step, attackers could make requests to our load balancers directly, bypassing CloudFront and Shield Advanced.
 * See if we could consolidate WAF to commercial only, with one ACL applying to all distributions.
-* Associate customer-brokered CDNs with our protection group.
+* Associate customer-brokered CDNs with our protection group. This will involve changes to the [external domain broker](https://github.com/cloud-gov/external-domain-broker) and backfilling existing distributions. Existing distributions may have been created by the external domain broker or the deprecated [CDN broker](https://github.com/cloud-gov/cf-cdn-service-broker).
 * See if we can disable the CDN plan in the External Domain Broker, since the LBs will be protected by a CDN by default. This may not be possible if customers currently customize those distributions.
 
 Notes:
