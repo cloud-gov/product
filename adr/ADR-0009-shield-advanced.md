@@ -1,17 +1,13 @@
-# DDoS Mitigation and Investigation
+# DDoS Mitigation: WAF and Shield Advanced
 
 ## Why
 
 Cloud.gov is periodically targeted by high-volume Layer 7 vulnerability scans from unknown actors. The scans are comprised of HTTP requests that attempt to exploit well-known security vulnerabilities, like retrieving `/etc/passwd` files left exposed on servers. The volume of traffic is sometimes large enough to overwhelm networking components of cloud.gov and bring the platform offline. The traffic typically comes from many hosts, each making a relatively small number of requests. Because of this, we refer to these events as Distributed Denial of Service (DDoS) attacks.
 
-We want to mitigate the impact of DDoS attacks, monitor the platform as they occur, and investigate them after they are over. To accomplish this, we want to make several changes to the platform.
+We want to mitigate the impact of DDoS attacks, monitor the platform as they occur, and investigate them after they are over. To accomplish this, we want to make two changes to the platform.
 
 1. Enable additional Web Application Firewall (WAF) rules across the entire platform. WAF uses rules to filter incoming requests based on certain patterns.
-2. Enable AWS Config. Config would help us detect if an AWS resource changed during an attack. Using Config is an AWS best practice recommended to us during an AWS security review. This will be covered in a separate ADR.
-3. Enable AWS GuardDuty. GuardDuty monitors our AWS resources for unusual and potentially malicious activity like escalation of privileges and communication with malicious IP addresses. GuardDuty would help us detect if an AWS resource was compromised during an attack. Using GuardDuty is an AWS best practice recommended to us during an AWS security review. This will be covered in a separate ADR.
-4. Enable AWS Shield Advanced, Amazon's DDoS protection product. Shield Advanced is not available in GovCloud[^1] and cannot protect GovCloud load balancers from a Commercial account[^2][^3]. To use it, we will create CloudFront distributions in our Commercial AWS account, point them at our production load balancers in GovCloud, and enable Shield Advanced on the distributions[^4].
-
-This ADR discusses (1) and (4).
+2. Enable AWS Shield Advanced, Amazon's DDoS protection product. Shield Advanced is not available in GovCloud[^1] and cannot protect GovCloud load balancers from a Commercial account[^2][^3]. To use it, we will create CloudFront distributions in our Commercial AWS account, point them at our production load balancers in GovCloud, and enable Shield Advanced on the distributions[^4].
 
 [^1]: https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/
 [^2]: The GovCloud partition is logically separated at the network level from other partitions: https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-differences.html
@@ -30,7 +26,7 @@ This ADR discusses (1) and (4).
 
 ### WAF Rules
 
-We already use two Managed Rulesets: Amazon IP Reputation List and Known Bad Inputs. We will enable two additional Managed Rulesets: The Core Ruleset and Anonymous IP list. Both are recommended by AWS. In addition, we will add a rate limiting rule, which limits the rate at which a single IP can make requests.
+We already use two Managed Rulesets: Amazon IP Reputation List and Known Bad Inputs. We will enable one additional Managed Ruleset recommended by AWS: The Anonymous IP list. The Core ruleset is also recommended by AWS, but is likely to interfere with legitimate customer requests. We may enable it in COUNT mode to evaluate it. In addition, we will add a rate limiting rule, which limits the rate at which a single IP can make requests.
 
 ### Shield Advanced
 
@@ -68,7 +64,7 @@ We will use Terraform in `cg-provision` to do the following:
     * For reference, a single AWS account has a default quota of [200 distributions](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cloudfront-limits.html#limits-web-distributions).
 * Create Web ACL(s) in the commercial AWS account and associate them with WAF and each CloudFront distribution.
     * I think we can have one ACL for all distributions.
-    * WAF is already enabled in our GovCloud account. We will most likely keep it enabled so that customers who broker their own CDNs have at least the protection of the Managed Rulesets.
+    * WAF will remain enabled in our GovCloud account. This means that customers who do not broker their own CDN will pay the latency cost of WAF twice: Once at our CloudFront distribution and again at our load balancer. It also makes the architecture less intuitive for platform engineers and operators because we can now create WAF rules in two places instead of one. However, if we remove WAF from our load balancers, customers who broker their own CDN will be unprotected until we complete follow-on work on the External Domain Broker. To maintain their current level of protection, we will keep WAF enabled on both sets of resources. The Commercial WAF have no rules associated with it except those added by Shield Advanced, and managed rulesets will continue to be managed in GovCloud WAF.
 * Enable Shield Advanced on the new CloudFront distributions.
     * Use the [aws_shield_protection](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/shield_protection) resource. One per protected resource (CloudFront distribution, in this case).
     * Add a [aws_shield_protection_group](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/shield_protection_group) resource so traffic is analyzed across all resources.
@@ -76,6 +72,7 @@ We will use Terraform in `cg-provision` to do the following:
     * Relevant resource type is [aws_route53_record](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_record).
 
 Follow-on work:
+
 * Configure our LBs to only accept traffic from CloudFront using [custom headers](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-overview.html#forward-custom-headers-restrict-access). Without this step, attackers could make requests to our load balancers directly, bypassing CloudFront and Shield Advanced.
 * See if we could consolidate WAF to commercial only, with one ACL applying to all distributions.
 * Associate customer-brokered CDNs with our protection group. This will involve changes to the [external domain broker](https://github.com/cloud-gov/external-domain-broker) and backfilling existing distributions. Existing distributions may have been created by the external domain broker or the deprecated [CDN broker](https://github.com/cloud-gov/cf-cdn-service-broker).
