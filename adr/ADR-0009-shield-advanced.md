@@ -63,7 +63,6 @@ We will use Terraform in `cg-provision` to do the following:
     * A single distribution can point to [up to 25 origins](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-overview.html), but seems to be associated with a single domain. So the number of distributions we will need is 1:1 with either the number of load balancers or the number of domains, in the case that multiple load balancers support a single domain.
     * For reference, a single AWS account has a default quota of [200 distributions](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cloudfront-limits.html#limits-web-distributions).
 * Create Web ACL(s) in the commercial AWS account and associate them with WAF and each CloudFront distribution.
-    * I think we can have one ACL for all distributions.
     * We may wish to create several WAF instances to protect the following endpoints separately, as discussed in the obsoleted [ALB+WAF SCR](https://docs.google.com/document/d/10YmiNE9W9F9lZzcRoQKx8fLFkshkko4wSizkwtH90mg/edit):
         * our developer-facing endpoint (mgmt WAF for `*.fr.cloud.gov`)
         * our public-facing customer endpoints (app WAF for `*.app.cloud.gov`)
