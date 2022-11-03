@@ -64,19 +64,24 @@ We will use Terraform in `cg-provision` to do the following:
     * For reference, a single AWS account has a default quota of [200 distributions](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cloudfront-limits.html#limits-web-distributions).
 * Create Web ACL(s) in the commercial AWS account and associate them with WAF and each CloudFront distribution.
     * I think we can have one ACL for all distributions.
+    * We may wish to create several WAF instances to protect the following endpoints separately, as discussed in the obsoleted [ALB+WAF SCR](https://docs.google.com/document/d/10YmiNE9W9F9lZzcRoQKx8fLFkshkko4wSizkwtH90mg/edit):
+        * our developer-facing endpoint (mgmt WAF for `*.fr.cloud.gov`)
+        * our public-facing customer endpoints (app WAF for `*.app.cloud.gov`)
+        * our authentication endpoints (auth WAF for `login.fr.cloud.gov` and `uaa.fr.cloud.gov`)
+        * a standby-ALB+WAF (not shown) that can be configured during an incident to accept traffic intended for specific customers to provide custom filtering until other measures are put in place.
     * WAF will remain enabled in our GovCloud account. This means that customers who do not broker their own CDN will pay the latency cost of WAF twice: Once at our CloudFront distribution and again at our load balancer. It also makes the architecture less intuitive for platform engineers and operators because we can now create WAF rules in two places instead of one. However, if we remove WAF from our load balancers, customers who broker their own CDN will be unprotected until we complete follow-on work on the External Domain Broker. To maintain their current level of protection, we will keep WAF enabled on both sets of resources. The Commercial WAF have no rules associated with it except those added by Shield Advanced, and managed rulesets will continue to be managed in GovCloud WAF.
 * Enable Shield Advanced on the new CloudFront distributions.
     * Use the [aws_shield_protection](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/shield_protection) resource. One per protected resource (CloudFront distribution, in this case).
     * Add a [aws_shield_protection_group](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/shield_protection_group) resource so traffic is analyzed across all resources.
 * Change DNS to reference CloudFront distributions instead of the load balancers.
     * Relevant resource type is [aws_route53_record](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_record).
+* Change how we document CDN use for customers. Explain that they will be covered by our CDN by default, but it will have conservative, if any, caching rules. If they want to customize their caching, they must broker a CDN distribution via the External Domain Broker.
 
 Follow-on work:
 
 * Configure our LBs to only accept traffic from CloudFront using [custom headers](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-overview.html#forward-custom-headers-restrict-access). Without this step, attackers could make requests to our load balancers directly, bypassing CloudFront and Shield Advanced.
 * See if we could consolidate WAF to commercial only, with one ACL applying to all distributions.
 * Associate customer-brokered CDNs with our protection group. This will involve changes to the [external domain broker](https://github.com/cloud-gov/external-domain-broker) and backfilling existing distributions. Existing distributions may have been created by the external domain broker or the deprecated [CDN broker](https://github.com/cloud-gov/cf-cdn-service-broker).
-* See if we can disable the CDN plan in the External Domain Broker, since the LBs will be protected by a CDN by default. This may not be possible if customers currently customize those distributions.
 
 Notes:
 
