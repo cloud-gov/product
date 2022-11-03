@@ -172,7 +172,12 @@ If you see an abnormally large `session` or `sessions` directory (my last run wa
 
 - Log in to Nessus: https://nessus.fr.cloud.gov/
 - Select `All Scans`
-- Click on each scan for Tooling and Production, and export the .nessus file (Export > Nessus) and the Executive Summary report (Report > HTML).
+- For Production Vulnerability Scan and Tooling Vulnerability Scan:
+  - Export -> Nessus file
+  - Report -> Select Report Template -> Complete List of Vulnerabilities by Host
+- For Production Compliance Scan and Tooling Compliance Scan:
+  - Export -> Nessus file
+  - Report -> Select Report Template -> Compliance (_could take a few minutes_)
 - Click on each scan for RDS Compliance , and export the .nessus file (Export > Nessus)
 
 ## Acceptance criteria:
