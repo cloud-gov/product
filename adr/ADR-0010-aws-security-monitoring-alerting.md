@@ -20,7 +20,7 @@ There are several things to consider when configuring AWS Config:
 - **accounts** - which accounts should be monitored and how
 - **resources** - which resources should be monitored
 - **rules** - how should resource configuration be evaluated
-- **alerting** - whether to publish  evaluations to SNS
+- **notifications** - how to be notified about configuration changes or evaluation results
 
 #### Accounts
 
@@ -70,6 +70,12 @@ Unless otherwise noted, all rules that support evaluation on a periodic frequenc
 [Conformance packs are sets of rules and pre-defined remediation actions for resources that are not in compliance](https://docs.aws.amazon.com/config/latest/developerguide/conformance-packs.html).
 
 We will not use conformance packs because [they are not available in GovCloud](https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-config.html).
+
+#### Notifications
+
+AWS Config can deliver notifications for a number of events: [changes in configuration on monitored resources, changes in compliance status on monitored resources, and more](https://docs.aws.amazon.com/config/latest/developerguide/notifications-for-AWS-Config.html).
+
+Given the amount of deployed resources for cloud.gov and thus potential volume of notifications, to start with we will only enable notifications for resources that are not in compliance. [We will use EventBridge to filter the notifications and send them to a new SNS topic](https://aws.amazon.com/premiumsupport/knowledge-center/config-resource-non-compliant/). Using the SNS topic, we can create a subscription for a Google group email address  or we could send alerts to a dedicated Slack channel.
 
 ## AWS GuardDuty
 
