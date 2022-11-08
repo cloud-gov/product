@@ -32,47 +32,28 @@ We already use two Managed Rulesets: Amazon IP Reputation List and Known Bad Inp
 
 The following only applies to our production environment. All other environments are not available on the public internet and cannot be targeted by DDoS attacks.
 
-```mermaid
-graph TD
-    subgraph b["blank"]
-        style b fill:none,stroke:none,color:#fff
-        classDef s fill:#ecffec,stroke:#73d893
-        classDef cf fill:#ffffec,stroke:#d8d893
-
-        s1[Shield Protection 1]:::s --> cf1
-        cf1[CloudFront Distribution 1]:::cf --> alb1[ALB 1]
-
-        s2[Shield Protection 2]:::s --> cf2
-        cf2[CloudFront Distribution 2]:::cf --> alb2[ALB 2]
-
-        s3[Shield Protection 3]:::s --> cf3
-        cf3[CloudFront Distribution 3]:::cf --> alb3[ALB 3]
-    end
-
-    sg1[Shield Protection Group] --> cf1 & cf2 & cf3
-    style sg1 fill:#ffecec,stroke:#d87393
-```
-
-### Before
+### Network Traffic Before Change
 
 ```mermaid
 graph TD
     public[Public Viewer] -->|App Request| appALB
     tenant[Tenant Developer] -->|Mgmt Request| mgmtALB
     tenant[Tenant Developer] -->|Auth Request| mgmtALB
-    subgraph govcloud["AWS GovCloud"]
-        subgraph platform["cloud.gov Platform"]
-            appALB[App ALB] -->|App Request| router[CF Router]
-            mgmtALB[Management ALB] -->|Mgmt Request| router
-            mgmtALB[Management ALB] -->|Auth Request| router
-            router --> app[Customer App]
-            router --> dashboard[Dashboard]
-            router --> login[Login]
+    subgraph aws["AWS"]
+        subgraph govcloud["AWS GovCloud"]
+            subgraph platform["cloud.gov Platform"]
+                appALB[App ALB] -->|App Request| router[CF Router]
+                mgmtALB[Management ALB] -->|Mgmt Request| router
+                mgmtALB[Management ALB] -->|Auth Request| router
+                router --> app[Customer App]
+                router --> dashboard[Dashboard]
+                router --> login[Login]
+            end
         end
     end
 ```
 
-### After
+### Network Traffic After Change
 
 ```mermaid
 graph TD
@@ -128,6 +109,29 @@ We will use Terraform in `cg-provision` to do the following:
 * Change DNS to reference CloudFront distributions instead of the load balancers.
     * Relevant resource type is [aws_route53_record](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_record).
 * Change how we document CDN use for customers. Explain that they will be covered by our CDN by default, but it will have conservative, if any, caching rules. If they want to customize their caching, they must broker a CDN distribution via the External Domain Broker.
+
+### AWS Resource Relationships
+
+```mermaid
+graph TD
+    subgraph b["blank"]
+        style b fill:none,stroke:none,color:#fff
+        classDef s fill:#ecffec,stroke:#73d893
+        classDef cf fill:#ffffec,stroke:#d8d893
+
+        s1[Shield Protection 1]:::s --> cf1
+        cf1[CloudFront Distribution 1]:::cf --> alb1[ALB 1]
+
+        s2[Shield Protection 2]:::s --> cf2
+        cf2[CloudFront Distribution 2]:::cf --> alb2[ALB 2]
+
+        s3[Shield Protection 3]:::s --> cf3
+        cf3[CloudFront Distribution 3]:::cf --> alb3[ALB 3]
+    end
+
+    sg1[Shield Protection Group] --> cf1 & cf2 & cf3
+    style sg1 fill:#ffecec,stroke:#d87393
+```
 
 Follow-on work:
 
