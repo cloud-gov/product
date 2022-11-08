@@ -36,7 +36,7 @@ The following only applies to our production environment. All other environments
 
 ```mermaid
 graph TD
-    public[Public Viewer] -->|App Request\n<em>https 443</em>| appALB
+    public[Public Viewer] -->|App Request<p><em>https 443</em></p>| appALB
     tenant[Tenant Developer] -->|Mgmt Request\n<em>https 443</em>| mgmtALB
     tenant[Tenant Developer] -->|Auth Request\n<em>https 443</em>| mgmtALB
     subgraph aws["AWS"]
