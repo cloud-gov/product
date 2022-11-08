@@ -66,6 +66,8 @@ graph TD
             router --> app[Customer App]
             router --> dashboard[Dashboard]
             router --> login[Login]
+        end
+    end
 ```
 
 We will use Terraform in `cg-provision` to do the following:
