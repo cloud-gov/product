@@ -36,18 +36,18 @@ The following only applies to our production environment. All other environments
 
 ```mermaid
 graph TD
-    public[Public Viewer] -->|App Request| appALB
-    tenant[Tenant Developer] -->|Mgmt Request| mgmtALB
-    tenant[Tenant Developer] -->|Auth Request| mgmtALB
+    public[Public Viewer] -->|App Request\n<em>https 443</em>| appALB
+    tenant[Tenant Developer] -->|Mgmt Request\n<em>https 443</em>| mgmtALB
+    tenant[Tenant Developer] -->|Auth Request\n<em>https 443</em>| mgmtALB
     subgraph aws["AWS"]
         subgraph govcloud["AWS GovCloud"]
             subgraph platform["cloud.gov Platform"]
-                appALB[App ALB] -->|App Request| router[CF Router]
-                mgmtALB[Management ALB] -->|Mgmt Request| router
-                mgmtALB[Management ALB] -->|Auth Request| router
-                router --> app[Customer App]
-                router --> dashboard[Dashboard]
-                router --> login[Login]
+                appALB[App ALB] -->|App Request\n<em>https 443</em>| router[CF Router]
+                mgmtALB[Management ALB] -->|Mgmt Request\n<em>https 443</em>| router
+                mgmtALB[Management ALB] -->|Auth Request\n<em>https 443</em>| router
+                router -->|App Request| app[Customer App]
+                router -->|Mgmt Request| dashboard[Dashboard]
+                router -->|Auth Request| login[Login]
             end
         end
     end
@@ -57,9 +57,9 @@ graph TD
 
 ```mermaid
 graph TD
-    public[Public Viewer] -->|App Request| appCF
-    tenant[Tenant Developer] -->|Mgmt Request| mgmtCF
-    tenant[Tenant Developer] -->|Auth Request| mgmtCF
+    public[Public Viewer] -->|App Request\n<em>https 443</em>| appCF
+    tenant[Tenant Developer] -->|Mgmt Request\n<em>https 443</em>| mgmtCF
+    tenant[Tenant Developer] -->|Auth Request\n<em>https 443</em>| mgmtCF
 
     subgraph aws["AWS"]
         subgraph commercial["AWS Commercial"]
@@ -71,17 +71,17 @@ graph TD
         end
         subgraph govcloud["AWS GovCloud"]
             subgraph platform["cloud.gov Platform"]
-                appCF -->|App Request| appALB
-                mgmtCF -->|Mgmt Request| mgmtALB
-                mgmtCF -->|Auth Request| authALB
+                appCF -->|App Request\n<em>https 443</em>| appALB
+                mgmtCF -->|Mgmt Request\n<em>https 443</em>| mgmtALB
+                mgmtCF -->|Auth Request\n<em>https 443</em>| authALB
 
-                appALB[App ALB] -->|App Request| router[CF Router]
-                mgmtALB[Management ALB] -->|Mgmt Request| router
-                mgmtALB[Management ALB] -->|Auth Request| router
+                appALB[App ALB] -->|App Request\n<em>https 443</em>| router[CF Router]
+                mgmtALB[Management ALB] -->|Mgmt Request\n<em>https 443</em>| router
+                mgmtALB[Management ALB] -->|Auth Request\n<em>https 443</em>| router
 
-                router --> app[Customer App]
-                router --> dashboard[Dashboard]
-                router --> login[Login]
+                router -->|App Request| app[Customer App]
+                router -->|Mgmt Request| dashboard[Dashboard]
+                router -->|Auth Request| login[Login]
             end
         end
     end
