@@ -28,7 +28,7 @@ We plan to enable AWS Config on all of our AWS accounts in both the commercial a
 
 In both partitions, our AWS accounts are managed as part of [AWS organizations](https://aws.amazon.com/organizations/).
 
-[AWS Config supports evaluating configuration rules and aggregating the results from multiple accounts, including all of the accounts in an AWS organization](https://docs.aws.amazon.com/config/latest/developerguide/aggregate-data.html).
+[AWS Config supports evaluating configuration rules and aggregating the results from multiple accounts, including all of the accounts in an AWS organization](https://docs.aws.amazon.com/config/latest/developerguide/aggregate-data.html). Before you can aggregate results from the source accounts into the aggregator account, you do have to **enable AWS Config in the source accounts**.
 
 While you can use the management account of an AWS organization to aggregate Config results from the other accounts in the organization, this violates the security **principle of least privilege** which suggests that you should strictly limit permissions to only those necessary to do a job. Thus, aggregating Config results from the management account, which has broad-based permissions and access to other AWS accounts in the organization, would be too permissive.
 
@@ -88,6 +88,10 @@ To get the notifications from the SNS topic to our operations team, we could:
 
 [As with AWS Config](#accounts), we will run AWS GuardDuty in a new "security" account in our AWS Organizations for both the commercial and GovCloud partitions. [This account will serve as a delegated administrator for managing AWS GuardDuty for all accounts within the organization](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_organizations.html).
 
+[Once the GuardDuty administrator account is setup, we will link the other accounts in the AWS organization to it as member accounts](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_accounts.html#master_member_relationships).
+
+As with AWS Config, we are only prioritizing the work to enable AWS GuardDuty for our GovCloud accounts.
+
 ### What to monitor
 
 No specification of what to monitor is required for AWS GuardDuty. [Once GuardDuty is enabled, it automatically begins monitoring DNS logs, CloudTrail logs, and more](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_settingup.html#setup-before).
@@ -105,4 +109,19 @@ To deliver the notifications from SNS to our operations team, we could:
 - Create a new Google Group and subscribe it to the topic
 - Send the notifications to a dedicated Slack channel (`#cg-aws-security`)
 
-### Implementation: Next steps
+## Implementation: Next steps
+
+1. Request two new "security" AWS accounts from TTS Tech Portfolio, one each for the GovCloud and commercial partitions. These are the accounts that will be used as delegated administrators to manage AWS Config and AWS GuardDuty in the respective organizations within each partition.
+1. Update the `cg-provision` code for the GovCloud accounts to enable AWS Config
+    - AWS Config must be enabled in the source accounts for the aggregator account to receive data
+    - <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_configuration_recorder>
+1. Update the `cg-provision` repo to include Terraform code that is provisioned in the GovCloud delegated administrator account
+1. Add code in `cg-provision` to create the AWS Config Aggregator in the GovCloud delegated administrator account
+    - <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_configuration_aggregator>
+1. Add code to enable the desired rules in the GovCloud AWS Config delegated administrator account
+    - <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_config_rule>
+1. Add code in `cg-provision` to enable AWS GuardDuty in the delegated administrator account
+    - <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/guardduty_organization_admin_account>
+    - <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/guardduty_organization_configuration>
+1. Add code in `cg-provision` to link accounts as members of the GuardDuty
+    - <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/guardduty_member>
