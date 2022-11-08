@@ -80,21 +80,28 @@ graph TD
     tenant[Tenant Developer] -->|Mgmt Request| mgmtCF
     tenant[Tenant Developer] -->|Auth Request| mgmtCF
 
-    subgraph commercial["AWS Commercial"]
-        subgraph external["cloud.gov External"]
-            appCF[App CloudFront Distribution] -->|App Request| appALB
-            mgmtCF[Mgmt CloudFront Distribution] -->|Mgmt Request| mgmtALB
-            mgmtCF[Mgmt CloudFront Distribution] -->|Auth Request| authALB
+    subgraph aws["AWS"]
+        subgraph commercial["AWS Commercial"]
+            subgraph external["cloud.gov External"]
+                appCF[App CloudFront Distribution]
+                mgmtCF[Mgmt CloudFront Distribution]
+                mgmtCF[Mgmt CloudFront Distribution]
+            end
         end
-    end
-    subgraph govcloud["AWS GovCloud"]
-        subgraph platform["cloud.gov Platform"]
-            appALB[App ALB] -->|App Request| router[CF Router]
-            mgmtALB[Management ALB] -->|Mgmt Request| router
-            mgmtALB[Management ALB] -->|Auth Request| router
-            router --> app[Customer App]
-            router --> dashboard[Dashboard]
-            router --> login[Login]
+        subgraph govcloud["AWS GovCloud"]
+            subgraph platform["cloud.gov Platform"]
+                appCF -->|App Request| appALB
+                mgmtCF -->|Mgmt Request| mgmtALB
+                mgmtCF -->|Auth Request| authALB
+
+                appALB[App ALB] -->|App Request| router[CF Router]
+                mgmtALB[Management ALB] -->|Mgmt Request| router
+                mgmtALB[Management ALB] -->|Auth Request| router
+
+                router --> app[Customer App]
+                router --> dashboard[Dashboard]
+                router --> login[Login]
+            end
         end
     end
 ```
