@@ -55,14 +55,14 @@ graph TD
 
 ```mermaid
 graph TD
-    public[Public Viewer] -App Request-> appALB
-    tenant[Tenant Developer] -Mgmt Request-> mgmtALB
-    tenant[Tenant Developer] -Auth Request-> mgmtALB
+    public[Public Viewer] -->|App Request| appALB
+    tenant[Tenant Developer] -->|Mgmt Request| mgmtALB
+    tenant[Tenant Developer] -->|Auth Request| mgmtALB
     subgraph govcloud["AWS GovCloud"]
         subgraph platform["cloud.gov Platform"]
-            appALB[App ALB] -App Request-> router[CF Router]
-            mgmtALB[Management ALB] -Mgmt Request-> router
-            mgmtALB[Management ALB] -Auth Request-> router
+            appALB[App ALB] -->|App Request| router[CF Router]
+            mgmtALB[Management ALB] -->|Mgmt Request| router
+            mgmtALB[Management ALB] -->|Auth Request| router
             router --> app[Customer App]
             router --> dashboard[Dashboard]
             router --> login[Login]
