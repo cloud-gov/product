@@ -75,7 +75,34 @@ We will not use conformance packs because [they are not available in GovCloud](h
 
 AWS Config can deliver notifications for a number of events: [changes in configuration on monitored resources, changes in compliance status on monitored resources, and more](https://docs.aws.amazon.com/config/latest/developerguide/notifications-for-AWS-Config.html).
 
-Given the amount of deployed resources for cloud.gov and thus potential volume of notifications, to start with we will only enable notifications for resources that are not in compliance. [We will use EventBridge to filter the notifications and send them to a new SNS topic](https://aws.amazon.com/premiumsupport/knowledge-center/config-resource-non-compliant/). Using the SNS topic, we can create a subscription for a Google group email address  or we could send alerts to a dedicated Slack channel.
+Given the amount of deployed resources for cloud.gov and thus potential volume of notifications, to start with we will only enable notifications for resources that are not in compliance. [We will use EventBridge to filter for notifications about non-compliant resources and send them to a new SNS topic](https://aws.amazon.com/premiumsupport/knowledge-center/config-resource-non-compliant/).
+
+To get the notifications from the SNS topic to our operations team, we could:
+
+- Create a subscription for a new Google group
+- Send alerts to a dedicated Slack channel (`#cg-aws-security`)
 
 ## AWS GuardDuty
 
+### Accounts
+
+[As with AWS Config](#accounts), we will run AWS GuardDuty in a new "security" account in our AWS Organizations for both the commercial and GovCloud partitions. [This account will serve as a delegated administrator for managing AWS GuardDuty for all accounts within the organization](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_organizations.html).
+
+### What to monitor
+
+No specification of what to monitor is required for AWS GuardDuty. [Once GuardDuty is enabled, it automatically begins monitoring DNS logs, CloudTrail logs, and more](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_settingup.html#setup-before).
+
+### Backing up findings
+
+Findings are only backed in GuardDuty for a maximum of 90 days. [We could back up the findings to S3 for indefinite storage](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_settingup.html#setup-export).
+
+### Notifications
+
+[We will send GuardDuty notifications about findings to a new SNS topic](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_settingup.html#setup-sns). We will filter the events to only receive notifications about findings that are [moderate severity or greater](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_findings.html#guardduty_findings-severity), since low severity findings do not require remediation.
+
+To deliver the notifications from SNS to our operations team, we could:
+
+- Create a new Google Group and subscribe it to the topic
+- Send the notifications to a dedicated Slack channel (`#cg-aws-security`)
+
+### Implementation: Next steps
