@@ -53,6 +53,21 @@ graph TD
     style sg1 fill:#ffecec,stroke:#d87393
 ```
 
+```mermaid
+graph TD
+    public[Public Viewer] -App Request-> appALB
+    tenant[Tenant Developer] -Mgmt Request-> mgmtALB
+    tenant[Tenant Developer] -Auth Request-> mgmtALB
+    subgraph govcloud["AWS GovCloud"]
+        subgraph platform["cloud.gov Platform"]
+            appALB[App ALB] -App Request-> router[CF Router]
+            mgmtALB[Management ALB] -Mgmt Request-> router
+            mgmtALB[Management ALB] -Auth Request-> router
+            router --> app[Customer App]
+            router --> dashboard[Dashboard]
+            router --> login[Login]
+```
+
 We will use Terraform in `cg-provision` to do the following:
 
 * Create CloudFront distributions in front of all internet-facing load balancers.
