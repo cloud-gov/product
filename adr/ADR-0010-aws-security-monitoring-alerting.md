@@ -17,10 +17,26 @@ In order to improve our security compliance and to mitigate our security risk, w
 
 There are several things to consider when configuring AWS Config:
 
+- **accounts** - which accounts should be monitored and how
 - **resources** - which resources should have their configuration monitored
 - **rules** - which rules should be enabled to evaluate configuration
-    - **conformance packs** - a set of rules and remediation actions
-- **accounts** - which accounts should be monitored and how
+- **conformance packs** - sets of rules and pre-defined remediation actions
+
+#### Accounts
+
+We plan to enable AWS Config on all of our AWS accounts in both the commercial and the GovCloud partitions.
+
+In both partitions, our AWS accounts are managed as part of [AWS organizations](https://aws.amazon.com/organizations/).
+
+[AWS Config supports evaluating configuration rules and aggregating the results from multiple accounts, including all of the accounts in an AWS organization](https://docs.aws.amazon.com/config/latest/developerguide/aggregate-data.html).
+
+While you can use the management account of an AWS organization to aggregate Config results from the other accounts in the organization, this violates the security **principle of least privilege** which suggests that you should strictly limit permissions to only those necessary to do a job. Thus, aggregating Config results from the management account, which has broad-based permissions and access to other AWS accounts in the organization, would be too permissive.
+
+Instead of using the management accounts, we will create new AWS accounts in both the commercial and GovCloud partitions solely for the purpose of managing security services that apply organization-wide. We will set up these new "security" AWS accounts as [delegated administrators for AWS Config so that they can aggregate Config evaluations for all accounts in our AWS organizations](https://aws.amazon.com/blogs/mt/org-aggregator-delegated-admin/).
+
+Currently, AWS Config is already enabled and configured in the commercial partition on the management account for the AWS organization (known as `com-root` in our account bookmarks and [`aws-admin` repo](https://github.com/cloud-gov/aws-admin)). **It is only configured to monitor resources in the management account and not as an aggregator for all the accounts in the AWS organization**.
+
+The AWS organization for our commercial accounts is administered by TTS Tech Portfolio, not the cloud.gov team. Ultimately, we plan to set up our own AWS organization for our commercial accounts. The process of moving to an organization managed by the cloud.gov team could impact the aggregation for AWS Config. Furthermore, since almost all of our infrastructure lives in the GovCloud partition, not commercial, we are **not going to prioritize the work to set AWS Config in the commercial partition**.
 
 #### Resources
 
