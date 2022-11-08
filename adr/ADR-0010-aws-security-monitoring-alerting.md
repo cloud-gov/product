@@ -48,17 +48,20 @@ For resources, we will configure AWS Config to monitor [all supported resource t
 
 To start, we will implement these AWS Config rules (inspired by [this article](https://acloudguru.com/blog/engineering/12-aws-config-rules-that-every-account-should-have)):
 
-- **s3-bucket-public-read-prohibited** - S3 buckets should not be public
-- **ec2-instance-no-public-ip** - EC2 instances should not have public IPs
-- **ebs-snapshot-public-restorable-check** - Your server snapshots should not be public
-- **iam-root-access-key-check** - The root user should not have access keys
+- **access-keys-rotated** - Ensures IAM user access keys are rotated
+- **acm-certificate-expiration-check** - Ensure your certificates are not about to expire
 - **cloudtrail-enabled** - CloudTrail should always be enabled
+- **ebs-snapshot-public-restorable-check** - Your server snapshots should not be public
 - **ec2-ebs-encryption-by-default** - All EBS volumes should be encrypted by default
+- **ec2-instance-no-public-ip** - EC2 instances should not have public IPs
+- **iam-no-inline-policy-check** - Checks that inline policy feature is not in use
+- **iam-root-access-key-check** - The root user should not have access keys
+- **iam-user-group-membership-check** - Checks whether IAM users are members of at least one IAM group.
+- **iam-user-no-policies-check** - Checks that none of your IAM users have policies attached. IAM users must inherit permissions from IAM groups or roles.
+- **iam-user-unused-credentials-check** - Find inactive accounts to disable
+- **s3-bucket-public-read-prohibited** - S3 buckets should not be public
 - **s3-bucket-server-side-encryption-enabled** - S3 should be encrypted by default
 - **vpc-default-security-group-closed** - The default security group should not be in use
-- **acm-certificate-expiration-check** - Ensure your certificates are not about to expire
-- **access-keys-rotated** - Ensures IAM user access keys are rotated
-- **iam-user-unused-credentials-check** - Find inactive accounts to disable
 
 Unless otherwise noted, all rules that support evaluation on a periodic frequency will be set to evaluate every 24 hours.
 
