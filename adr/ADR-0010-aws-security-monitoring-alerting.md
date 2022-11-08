@@ -18,9 +18,9 @@ In order to improve our security compliance and to mitigate our security risk, w
 There are several things to consider when configuring AWS Config:
 
 - **accounts** - which accounts should be monitored and how
-- **resources** - which resources should have their configuration monitored
-- **rules** - which rules should be enabled to evaluate configuration
-- **conformance packs** - sets of rules and pre-defined remediation actions
+- **resources** - which resources should be monitored
+- **rules** - how should resource configuration be evaluated
+- **alerting** - whether to publish  evaluations to SNS
 
 #### Accounts
 
@@ -44,10 +44,11 @@ For resources, we will configure AWS Config to monitor [all supported resource t
 
 #### Rules
 
-To start, we will implement the 12 rules recommended by [this article](https://acloudguru.com/blog/engineering/12-aws-config-rules-that-every-account-should-have):
+[AWS Config rules are specifications of the expected configuration for various AWS resources](https://docs.aws.amazon.com/config/latest/developerguide/evaluate-config.html).
 
-- **cloudformation-stack-drift-detection-check** - All stacks should have no drift
-- **s3-bucket-level-public-acess-prohibited** - S3 buckets should not be public
+To start, we will implement these AWS Config rules (inspired by [this article](https://acloudguru.com/blog/engineering/12-aws-config-rules-that-every-account-should-have)):
+
+- **s3-bucket-public-read-prohibited** - S3 buckets should not be public
 - **ec2-instance-no-public-ip** - EC2 instances should not have public IPs
 - **ebs-snapshot-public-restorable-check** - Your server snapshots should not be public
 - **iam-root-access-key-check** - The root user should not have access keys
@@ -59,4 +60,13 @@ To start, we will implement the 12 rules recommended by [this article](https://a
 - **access-keys-rotated** - Ensures IAM user access keys are rotated
 - **iam-user-unused-credentials-check** - Find inactive accounts to disable
 
+Unless otherwise noted, all rules that support evaluation on a periodic frequency will be set to evaluate every 24 hours.
+
+#### Conformance packs
+
+[Conformance packs are sets of rules and pre-defined remediation actions for resources that are not in compliance](https://docs.aws.amazon.com/config/latest/developerguide/conformance-packs.html).
+
 We will not use conformance packs because [they are not available in GovCloud](https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-config.html).
+
+## AWS GuardDuty
+
