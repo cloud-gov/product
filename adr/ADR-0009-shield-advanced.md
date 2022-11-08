@@ -36,15 +36,15 @@ The following only applies to our production environment. All other environments
 
 ```mermaid
 graph TD
-    public[Public Viewer] -->|App Request<p><em>https 443</em></p>| appALB
-    tenant[Tenant Developer] -->|Mgmt Request\n<em>https 443</em>| mgmtALB
-    tenant[Tenant Developer] -->|Auth Request\n<em>https 443</em>| mgmtALB
+    public[Public Viewer] -->|App Request| appALB
+    tenant[Tenant Developer] -->|Mgmt Request| mgmtALB
+    tenant[Tenant Developer] -->|Auth Request| mgmtALB
     subgraph aws["AWS"]
         subgraph govcloud["AWS GovCloud"]
             subgraph platform["cloud.gov Platform"]
-                appALB[App ALB] -->|App Request\n<em>https 443</em>| router[CF Router]
-                mgmtALB[Management ALB] -->|Mgmt Request\n<em>https 443</em>| router
-                mgmtALB[Management ALB] -->|Auth Request\n<em>https 443</em>| router
+                appALB[App ALB] -->|App Request| router[CF Router]
+                mgmtALB[Management ALB] -->|Mgmt Request| router
+                mgmtALB[Management ALB] -->|Auth Request| router
                 router -->|App Request| app[Customer App]
                 router -->|Mgmt Request| dashboard[Dashboard]
                 router -->|Auth Request| login[Login]
@@ -57,9 +57,9 @@ graph TD
 
 ```mermaid
 graph TD
-    public[Public Viewer] -->|App Request\n<em>https 443</em>| appCF
-    tenant[Tenant Developer] -->|Mgmt Request\n<em>https 443</em>| mgmtCF
-    tenant[Tenant Developer] -->|Auth Request\n<em>https 443</em>| mgmtCF
+    public[Public Viewer] -->|App Request| appCF
+    tenant[Tenant Developer] -->|Mgmt Request| mgmtCF
+    tenant[Tenant Developer] -->|Auth Request| mgmtCF
 
     subgraph aws["AWS"]
         subgraph commercial["AWS Commercial"]
@@ -71,13 +71,13 @@ graph TD
         end
         subgraph govcloud["AWS GovCloud"]
             subgraph platform["cloud.gov Platform"]
-                appCF -->|App Request\n<em>https 443</em>| appALB
-                mgmtCF -->|Mgmt Request\n<em>https 443</em>| mgmtALB
-                mgmtCF -->|Auth Request\n<em>https 443</em>| authALB
+                appCF -->|App Request| appALB
+                mgmtCF -->|Mgmt Request| mgmtALB
+                mgmtCF -->|Auth Request| authALB
 
-                appALB[App ALB] -->|App Request\n<em>https 443</em>| router[CF Router]
-                mgmtALB[Management ALB] -->|Mgmt Request\n<em>https 443</em>| router
-                mgmtALB[Management ALB] -->|Auth Request\n<em>https 443</em>| router
+                appALB[App ALB] -->|App Request| router[CF Router]
+                mgmtALB[Management ALB] -->|Mgmt Request| router
+                mgmtALB[Management ALB] -->|Auth Request| router
 
                 router -->|App Request| app[Customer App]
                 router -->|Mgmt Request| dashboard[Dashboard]
