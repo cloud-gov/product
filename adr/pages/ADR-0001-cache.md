@@ -23,6 +23,7 @@ We can create a simple caching implementation which will result in faster build 
 
 Other considerations:
 - This should be a configurable option but ON by default.
+    - Discussion of the above point: Turning caching on by default is likely to decrease build time across the platform more significantly but could introduce more errors or user confusion. Off by default will likely have a minimal impact on build time but limit errors.
 - The cache files should be stored in the site's existing S3 bucket. See [further consideration here](https://github.com/cloud-gov/pages-build-container/issues/377).
 
 
