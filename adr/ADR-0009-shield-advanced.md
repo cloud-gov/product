@@ -113,11 +113,12 @@ graph TD
     user3[User 3] -->|HTTP Request| legacyCDN
 
     subgraph sa["Protected by Shield Advanced"]
-        platformCDN[CloudFront Distribution managed by cloud.gov] --> appALB[App ALB]
+        platformCDN[CloudFront Distribution<p>Managed by cloud.gov</p>]
     end
 
-    brokeredCDN[CloudFront distribution managed by customer by External Domain Broker] --> appALB
-    legacyCDN["CloudFront distribution managed by customer by CDN Broker (deprecated)"] --> appALB
+    platformCDN --> appALB[App ALB]
+    brokeredCDN[CloudFront distribution<p>Managed by customer by External Domain Broker</p>] --> appALB
+    legacyCDN["CloudFront distribution<p>Managed by customer by CDN Broker (deprecated)</p>"] --> appALB
 
     appALB[Application ALB, the origin for all distributions shown here]
 ```
