@@ -104,7 +104,22 @@ We will use Terraform in `cg-provision` to do the following:
         * a standby-ALB+WAF (not shown) that can be configured during an incident to accept traffic intended for specific customers to provide custom filtering until other measures are put in place.
     * WAF will remain enabled in our GovCloud account. This means that customers who do not broker their own CDN will pay the latency cost of WAF twice: Once at our CloudFront distribution and again at our load balancer. It also makes the architecture less intuitive for platform engineers and operators because we can now create WAF rules in two places instead of one. However, if we remove WAF from our load balancers, customers who broker their own CDN will be unprotected until we complete follow-on work on the External Domain Broker. To maintain their current level of protection, we will keep WAF enabled on both sets of resources. The Commercial WAF have no rules associated with it except those added by Shield Advanced, and managed rulesets will continue to be managed in GovCloud WAF.
 
-Figure 3: Platform- and Customer-managed distributions
+#### Traffic and Brokered CDNs, before change
+
+```mermaid
+graph TD
+    user1[User 1] -->|HTTP Request| appALB
+    user2[User 2] -->|HTTP Request| brokeredCDN
+    user3[User 3] -->|HTTP Request| legacyCDN
+
+    platformCDN --> appALB[App ALB]
+    brokeredCDN[CloudFront distribution<p>Managed by customer via External Domain Broker</p>] --> appALB
+    legacyCDN["CloudFront distribution<p>Managed by customer via CDN Broker (deprecated)</p>"] --> appALB
+
+    appALB[Application ALB<p>The origin for all distributions shown here</p>]
+```
+
+#### Traffic and Brokered CDNs, after change
 
 ```mermaid
 graph TD
@@ -117,10 +132,31 @@ graph TD
     end
 
     platformCDN --> appALB[App ALB]
-    brokeredCDN[CloudFront distribution<p>Managed by customer by External Domain Broker</p>] --> appALB
-    legacyCDN["CloudFront distribution<p>Managed by customer by CDN Broker (deprecated)</p>"] --> appALB
+    brokeredCDN[CloudFront distribution<p>Managed by customer via External Domain Broker</p>] --> appALB
+    legacyCDN["CloudFront distribution<p>Managed by customer via CDN Broker (deprecated)</p>"] --> appALB
 
-    appALB[Application ALB, the origin for all distributions shown here]
+    appALB[Application ALB<p>The origin for all distributions shown here</p>]
+```
+
+#### Traffic and Brokered CDNs, after follow-on work (see below)
+
+```mermaid
+graph TD
+    user1[User 1] -->|HTTP Request| platformCDN
+    user2[User 2] -->|HTTP Request| brokeredCDN
+    user3[User 3] -->|HTTP Request| legacyCDN
+
+    subgraph sa["Protected by Shield Advanced"]
+        platformCDN[CloudFront Distribution<p>Managed by cloud.gov</p>]
+        brokeredCDN[CloudFront distribution<p>Managed by customer via External Domain Broker</p>]
+        legacyCDN["CloudFront distribution<p>Managed by customer via CDN Broker (deprecated)</p>"]
+    end
+
+    platformCDN --> appALB[App ALB]
+    brokeredCDN --> appALB
+    legacyCDN --> appALB
+
+    appALB[Application ALB<p>The origin for all distributions shown here</p>]
 ```
 
 * Enable Shield Advanced on the new CloudFront distributions.
