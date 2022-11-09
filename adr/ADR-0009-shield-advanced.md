@@ -117,7 +117,7 @@ graph TD
     end
 
     brokeredCDN[CloudFront distribution managed by customer by External Domain Broker] --> appALB
-    legacyCDN[CloudFront distribution managed by customer by CDN Broker (deprecated)] --> appALB
+    legacyCDN["CloudFront distribution managed by customer by CDN Broker (deprecated)"] --> appALB
 
     appALB[Application ALB, the origin for all distributions shown here]
 ```
