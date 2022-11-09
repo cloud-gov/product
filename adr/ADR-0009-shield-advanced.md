@@ -77,7 +77,7 @@ graph TD
 
                 appALB[App ALB] -->|App Request| router[CF Router]
                 mgmtALB[Management ALB] -->|Mgmt Request| router
-                mgmtALB[Management ALB] -->|Auth Request| router
+                authALB[Auth ALB] -->|Auth Request| router
 
                 router -->|App Request| app[Customer App]
                 router -->|Mgmt Request| dashboard[Dashboard]
