@@ -112,7 +112,6 @@ graph TD
     user2[User 2] -->|HTTP Request| brokeredCDN
     user3[User 3] -->|HTTP Request| legacyCDN
 
-    platformCDN --> appALB[App ALB]
     brokeredCDN[CloudFront distribution<p>Managed by customer via External Domain Broker</p>] --> appALB
     legacyCDN["CloudFront distribution<p>Managed by customer via CDN Broker (deprecated)</p>"] --> appALB
 
