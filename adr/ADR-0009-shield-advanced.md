@@ -106,6 +106,10 @@ We will use Terraform in `cg-provision` to do the following:
 
 #### Traffic and Brokered CDNs, before change
 
+* User 1 makes requests to domains not covered by a brokered CDN.
+* User 2 makes requests to domains that are covered by a brokered CDN managed by the External Domain Broker.
+* User 3 makes requests to domains that are covered by a brokered CDN managed by the deprecated CDN Broker.
+
 ```mermaid
 graph TD
     user1[User 1] -->|HTTP Request| appALB
