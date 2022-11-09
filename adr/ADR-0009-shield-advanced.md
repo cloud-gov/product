@@ -32,7 +32,7 @@ We already use two Managed Rulesets: Amazon IP Reputation List and Known Bad Inp
 
 The following only applies to our production environment. All other environments are not available on the public internet and cannot be targeted by DDoS attacks.
 
-### Network Traffic Before Change
+### Figure 1: Network Traffic Before Change
 
 ```mermaid
 graph TD
@@ -53,7 +53,7 @@ graph TD
     end
 ```
 
-### Network Traffic After Change
+### Figure 2: Network Traffic After Change
 
 ```mermaid
 graph TD
@@ -103,6 +103,25 @@ We will use Terraform in `cg-provision` to do the following:
         * our authentication endpoints (auth WAF for `login.fr.cloud.gov` and `uaa.fr.cloud.gov`)
         * a standby-ALB+WAF (not shown) that can be configured during an incident to accept traffic intended for specific customers to provide custom filtering until other measures are put in place.
     * WAF will remain enabled in our GovCloud account. This means that customers who do not broker their own CDN will pay the latency cost of WAF twice: Once at our CloudFront distribution and again at our load balancer. It also makes the architecture less intuitive for platform engineers and operators because we can now create WAF rules in two places instead of one. However, if we remove WAF from our load balancers, customers who broker their own CDN will be unprotected until we complete follow-on work on the External Domain Broker. To maintain their current level of protection, we will keep WAF enabled on both sets of resources. The Commercial WAF have no rules associated with it except those added by Shield Advanced, and managed rulesets will continue to be managed in GovCloud WAF.
+
+Figure 3: Platform- and Customer-managed distributions
+
+```mermaid
+graph TD
+    user1[User 1] -->|HTTP Request| platformCDN
+    user2[User 2] -->|HTTP Request| brokeredCDN
+    user3[User 3] -->|HTTP Request| legacyCDN
+
+    subgraph sa["Protected by Shield Advanced"]
+        platformCDN[CloudFront Distribution managed by cloud.gov] --> appALB[App ALB]
+    end
+
+    brokeredCDN[CloudFront distribution managed by customer by External Domain Broker] --> appALB
+    legacyCDN[CloudFront distribution managed by customer by CDN Broker (deprecated)] --> appALB
+
+    appALB[Application ALB, the origin for all distributions shown here]
+```
+
 * Enable Shield Advanced on the new CloudFront distributions.
     * Use the [aws_shield_protection](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/shield_protection) resource. One per protected resource (CloudFront distribution, in this case).
     * Add a [aws_shield_protection_group](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/shield_protection_group) resource so traffic is analyzed across all resources.
@@ -110,7 +129,7 @@ We will use Terraform in `cg-provision` to do the following:
     * Relevant resource type is [aws_route53_record](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_record).
 * Change how we document CDN use for customers. Explain that they will be covered by our CDN by default, but it will have conservative, if any, caching rules. If they want to customize their caching, they must broker a CDN distribution via the External Domain Broker.
 
-### AWS Resource Relationships
+### Figure 4: AWS Resource Relationships
 
 ```mermaid
 graph TD
