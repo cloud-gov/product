@@ -8,14 +8,14 @@ Thus, if a successful attack were able to "break out" from our VMs and start mak
 
 In order to improve our security compliance and to mitigate our security risk, we would like to enable two AWS services:
 
-- [AWS Config](https://aws.amazon.com/config/) - Monitors configuration for a broad range of AWS resources and reports compliance with configured rules. Can send alerts in response to configuration changes.
-- [AWS GuardDuty](https://aws.amazon.com/guardduty/) - Continuously monitors AWS logs for malicious activity using machine learning. Creates Cloudwatch events for any findings.
+- [AWS Config](https://aws.amazon.com/config/) - Monitors configuration for a broad range of AWS resources and reports compliance with configured rules. Can send alerts in response to configuration changes or changes in compliance status.
+- [AWS GuardDuty](https://aws.amazon.com/guardduty/) - Continuously monitors AWS logs for malicious activity based on built-in threat intelligence. Creates Cloudwatch events for any findings.
 
 ## Implementation
 
 ### AWS Config
 
-There are several things to consider when configuring AWS Config:
+There are several things to consider when setting up AWS Config:
 
 - **accounts** - which accounts should be monitored and how
 - **resources** - which resources should be monitored
@@ -36,7 +36,7 @@ Instead of using the management accounts, we will create new AWS accounts in bot
 
 Currently, AWS Config is already enabled and configured in the commercial partition on the management account for the AWS organization (known as `com-root` in our account bookmarks and [`aws-admin` repo](https://github.com/cloud-gov/aws-admin)). **It is only configured to monitor resources in the management account and not as an aggregator for all the accounts in the AWS organization**.
 
-The AWS organization for our commercial accounts is administered by TTS Tech Portfolio, not the cloud.gov team. Ultimately, we plan to set up our own AWS organization for our commercial accounts. The process of moving to an organization managed by the cloud.gov team could impact the aggregation for AWS Config. Furthermore, since almost all of our infrastructure lives in the GovCloud partition, not commercial, we are **not going to prioritize the work to set AWS Config in the commercial partition**.
+The AWS organization for our commercial accounts is administered by TTS Tech Portfolio, not the cloud.gov team. Ultimately, we plan to set up our own AWS organization for our commercial accounts. The process of moving to an organization managed by the cloud.gov team could impact the aggregation for AWS Config. Furthermore, since almost all of our infrastructure lives in the GovCloud partition, not commercial, we are **not going to prioritize the work to set up AWS Config in the commercial partition**.
 
 #### Resources
 
@@ -69,7 +69,7 @@ Unless otherwise noted, all rules that support evaluation on a periodic frequenc
 
 [Conformance packs are sets of rules and pre-defined remediation actions for resources that are not in compliance](https://docs.aws.amazon.com/config/latest/developerguide/conformance-packs.html).
 
-We will not use conformance packs because [they are not available in GovCloud](https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-config.html).
+**We will not use conformance packs because [they are not available in GovCloud](https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-config.html).**
 
 #### Notifications
 
