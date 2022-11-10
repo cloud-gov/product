@@ -77,10 +77,17 @@ AWS Config can deliver notifications for a number of events: [changes in configu
 
 Given the amount of deployed resources for cloud.gov and thus potential volume of notifications, to start with we will only enable notifications for resources that are not in compliance. [We will use EventBridge to filter for notifications about non-compliant resources and send them to a new SNS topic](https://aws.amazon.com/premiumsupport/knowledge-center/config-resource-non-compliant/).
 
-To get the notifications from the SNS topic to our operations team, we could:
+To get the notifications from the SNS topic to our operations team, we will:
 
-- Create a subscription for a new Google group
-- Send alerts to a dedicated Slack channel (`#cg-aws-security`)
+- Create a new Google group (`cloud-gov-security`) and suscribe the group email address to the topic
+
+#### Responsibility
+
+It is the responsibility of the platform engineer currently on the [maintenance rotation](https://cloud.gov/docs/ops/maintenance-list/) to assess incoming notifications and to address any issues that require immediate attention.
+
+**Some notifications may not require immediate attention**, so they can wait until we have dedicated security engineers to address. It will always be possible to view which resources are out of compliance in our AWS Config dashboard.
+
+If any notifications are assessed to constitute a security incident, then the maintenance engineer should initiate the [formal security incident process](https://cloud.gov/docs/ops/security-ir/).
 
 ## AWS GuardDuty
 
@@ -104,13 +111,22 @@ Findings are only backed in GuardDuty for a maximum of 90 days. [We could back u
 
 [We will send GuardDuty notifications about findings to a new SNS topic](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_settingup.html#setup-sns). We will filter the events to only receive notifications about findings that are [moderate severity or greater](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_findings.html#guardduty_findings-severity), since low severity findings do not require remediation.
 
-To deliver the notifications from SNS to our operations team, we could:
+To deliver the notifications from SNS to our operations team, we will:
 
-- Create a new Google Group and subscribe it to the topic
-- Send the notifications to a dedicated Slack channel (`#cg-aws-security`)
+- Create a new Google Group (`cloud-gov-security`) and subscribe the group email address to the topic
+- Send the notifications to the `#cg-aws-security` Slack channel
+
+### Responsibility
+
+Since we will configure GuardDuty to only send notifications for medium/high severity findings, any time we receive a notification about a finding, it should be taken very seriously.
+
+The cloud.gov platform engineer currently on [the maintenance rotation](https://cloud.gov/docs/ops/maintenance-list/) will be the first person responsible to investigate any findings, but if they need assistance, they should pull in other team members for support as necessary. Addressing these findings should be treated as an "all hands on deck" event if necessary.
+
+Engineers should use their discretion to assess whether it is appropriate to initiate the [formal security incident process](https://cloud.gov/docs/ops/security-ir/) as well.
 
 ## Implementation: Next steps
 
+1. [Request a new `cloud-gov-security` Google Group](https://handbook.tts.gsa.gov/tools/google-groups/#create-a-google-group)
 1. Request two new "security" AWS accounts from TTS Tech Portfolio, one each for the GovCloud and commercial partitions. These are the accounts that will be used as delegated administrators to manage AWS Config and AWS GuardDuty in the respective organizations within each partition.
 1. Update the `cg-provision` code for the GovCloud accounts to enable AWS Config
     - AWS Config must be enabled in the source accounts for the aggregator account to receive data
