@@ -32,7 +32,10 @@ In both partitions, our AWS accounts are managed as part of [AWS organizations](
 
 While you can use the management account of an AWS organization to aggregate Config results from the other accounts in the organization, this violates the security **principle of least privilege** which suggests that you should strictly limit permissions to only those necessary to do a job. Thus, aggregating Config results from the management account, which has broad-based permissions and access to other AWS accounts in the organization, would be too permissive.
 
-Instead of using the management accounts, we will create new AWS accounts in both the commercial and GovCloud partitions solely for the purpose of managing security services that apply organization-wide. We will set up these new "security" AWS accounts as [delegated administrators for AWS Config so that they can aggregate Config evaluations for all accounts in our AWS organizations](https://aws.amazon.com/blogs/mt/org-aggregator-delegated-admin/).
+Instead of using the management accounts, we will create new AWS accounts in both the commercial and GovCloud partitions solely for the purpose of managing security services that apply organization-wide. We will set up these new "security" AWS accounts as delegated administrators for AWS Config so that they can aggregate Config evaluations for all accounts in our AWS organizations. Here are some helpful AWS resources on setting up delegated administrators for AWS Config:
+
+- <https://aws.amazon.com/blogs/mt/using-delegated-admin-for-aws-config-operations-and-aggregation/>
+- <https://aws.amazon.com/blogs/mt/org-aggregator-delegated-admin/>
 
 Currently, AWS Config is already enabled and configured in the commercial partition on the management account for the AWS organization (known as `com-root` in our account bookmarks and [`aws-admin` repo](https://github.com/cloud-gov/aws-admin)). **It is only configured to monitor resources in the management account and not as an aggregator for all the accounts in the AWS organization**.
 
@@ -126,16 +129,25 @@ Engineers should use their discretion to assess whether it is appropriate to ini
 
 ## Implementation: Next steps
 
+### Prerequisites
+
 1. [Request a new `cloud-gov-security` Google Group](https://handbook.tts.gsa.gov/tools/google-groups/#create-a-google-group)
 1. Request two new "security" AWS accounts from TTS Tech Portfolio, one each for the GovCloud and commercial partitions. These are the accounts that will be used as delegated administrators to manage AWS Config and AWS GuardDuty in the respective organizations within each partition.
+
+### Config
+
 1. Update the `cg-provision` code for the GovCloud accounts to enable AWS Config
     - AWS Config must be enabled in the source accounts for the aggregator account to receive data
     - <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_configuration_recorder>
+1. Update the `cg-provision` repo to include Terraform code that is provisioned in the GovCloud organization management account
+1. Update the `cg-provision` repo to create the organization-wide rules in the GovCloud organization managment account
+    - <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_organization_managed_rule>
 1. Update the `cg-provision` repo to include Terraform code that is provisioned in the GovCloud delegated administrator account
 1. Add code in `cg-provision` to create the AWS Config Aggregator in the GovCloud delegated administrator account
     - <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_configuration_aggregator>
-1. Add code to enable the desired rules in the GovCloud AWS Config delegated administrator account
-    - <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_config_rule>
+
+### GuardDuty
+
 1. Add code in `cg-provision` to enable AWS GuardDuty in the delegated administrator account
     - <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/guardduty_organization_admin_account>
     - <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/guardduty_organization_configuration>
