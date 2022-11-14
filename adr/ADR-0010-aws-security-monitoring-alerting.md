@@ -138,9 +138,10 @@ Engineers should use their discretion to assess whether it is appropriate to ini
 
 1. Update the `cg-provision` repo to include Terraform code that is deployed in all of the GovCloud organization accounts
     - Reference for all accounts in the organization can be found here: <https://github.com/cloud-gov/aws-admin/blob/main/stacks/gov/sso/main.tf#L21>
-1. Update the `cg-provision` code to enable AWS Config and desired rules in all GovCloud accounts
-    - <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_configuration_recorder>
-    - <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_config_rule>
+1. Update the `cg-provision` code to create the following resources in all GovCloud accounts:
+    - AWS Config settings: <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_configuration_recorder>
+    - AWS Config delivery channel (should use an S3 bucket): <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_delivery_channel>
+    - AWS Config rules: <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_config_rule>
 1. Add code in `cg-provision` to create the AWS Config Aggregator in the GovCloud delegated administrator account
     - <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_configuration_aggregator>
 
