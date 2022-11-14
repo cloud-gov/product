@@ -28,7 +28,7 @@ We plan to enable AWS Config on all of our AWS accounts in both the commercial a
 
 In both partitions, our AWS accounts are managed as part of [AWS organizations](https://aws.amazon.com/organizations/).
 
-[AWS Config supports evaluating configuration rules and aggregating the results from multiple accounts, including all of the accounts in an AWS organization](https://docs.aws.amazon.com/config/latest/developerguide/aggregate-data.html). Before you can aggregate results from the source accounts into the aggregator account, you do have to **enable AWS Config in the source accounts**.
+[AWS Config supports evaluating configuration rules and aggregating the results from multiple accounts, including all of the accounts in an AWS organization](https://docs.aws.amazon.com/config/latest/developerguide/aggregate-data.html). Before you can aggregate results from the member accounts into the aggregator account, you do have to **enable AWS Config in the member accounts**. And in GovCloud, [the feature to create rules for all accounts in an organization is disabled](https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-config.html#:~:text=AWS%20Config%20deployment%20of%20rules%20across%20an%20AWS%20Organization%20are%20not%20supported%20in%20AWS%20GovCloud%20(US).), so we have to create the rules we want aggregated separately in each member account (in reality this will be handled by Terraform and CI automation).
 
 While you can use the management account of an AWS organization to aggregate Config results from the other accounts in the organization, this violates the security **principle of least privilege** which suggests that you should strictly limit permissions to only those necessary to do a job. Thus, aggregating Config results from the management account, which has broad-based permissions and access to other AWS accounts in the organization, would be too permissive.
 
@@ -136,13 +136,11 @@ Engineers should use their discretion to assess whether it is appropriate to ini
 
 ### Config
 
-1. Update the `cg-provision` code for the GovCloud accounts to enable AWS Config
-    - AWS Config must be enabled in the source accounts for the aggregator account to receive data
+1. Update the `cg-provision` repo to include Terraform code that is deployed in all of the GovCloud organization accounts
+    - Reference for all accounts in the organization can be found here: <https://github.com/cloud-gov/aws-admin/blob/main/stacks/gov/sso/main.tf#L21>
+1. Update the `cg-provision` code to enable AWS Config and desired rules in all GovCloud accounts
     - <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_configuration_recorder>
-1. Update the `cg-provision` repo to include Terraform code that is provisioned in the GovCloud organization management account
-1. Update the `cg-provision` repo to create the organization-wide rules in the GovCloud organization managment account
-    - <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_organization_managed_rule>
-1. Update the `cg-provision` repo to include Terraform code that is provisioned in the GovCloud delegated administrator account
+    - <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_config_rule>
 1. Add code in `cg-provision` to create the AWS Config Aggregator in the GovCloud delegated administrator account
     - <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_configuration_aggregator>
 
