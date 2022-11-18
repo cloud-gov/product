@@ -11,6 +11,7 @@ This log lists the architectural decisions for cloud.gov.
 - [ADR-0007](https://github.com/cloud-gov/product/blob/master/adr/ADR-0007-container-scanning-and-validation.md) - Container Scanning & Validation.
 - [ADR-0008](https://github.com/cloud-gov/product/blob/master/adr/ADR-0008-passive-dns.md) - Container Scanning & Validation.
 - [ADR-0009](https://github.com/cloud-gov/product/blob/master/adr/ADR-0009-shield-advanced.md) - CloudFront and Shield Advanced.
+- [ADR-0010](https://github.com/cloud-gov/product/blob/master/adr/ADR-0010-aws-security-monitoring-alerting.md) - AWS Security: Monitoring and Alerting
 
 For new ADRs, please use [template.md](template.md).
 
