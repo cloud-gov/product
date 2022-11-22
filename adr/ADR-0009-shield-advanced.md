@@ -32,6 +32,145 @@ We already use two Managed Rulesets: Amazon IP Reputation List and Known Bad Inp
 
 The following only applies to our production environment. All other environments are not available on the public internet and cannot be targeted by DDoS attacks.
 
+### Figure 1: Network Traffic Before Change
+
+```mermaid
+graph TD
+    public[Public Viewer] -->|App Request| appALB
+    tenant[Tenant Developer] -->|Mgmt Request| mgmtALB
+    tenant[Tenant Developer] -->|Auth Request| mgmtALB
+    subgraph aws["AWS"]
+        subgraph govcloud["AWS GovCloud"]
+            subgraph platform["cloud.gov Platform"]
+                appALB[App ALB] -->|App Request| router[CF Router]
+                mgmtALB[Management ALB] -->|Mgmt Request| router
+                mgmtALB[Management ALB] -->|Auth Request| router
+                router -->|App Request| app[Customer App]
+                router -->|Mgmt Request| dashboard[Dashboard]
+                router -->|Auth Request| login[Login]
+            end
+        end
+    end
+```
+
+### Figure 2: Network Traffic After Change
+
+```mermaid
+graph TD
+    public[Public Viewer] -->|App Request| appCF
+    tenant[Tenant Developer] -->|Mgmt Request| mgmtCF
+    tenant[Tenant Developer] -->|Auth Request| mgmtCF
+
+    subgraph aws["AWS"]
+        subgraph commercial["AWS Commercial"]
+            subgraph external["cloud.gov External"]
+                appCF[App CloudFront Distribution]
+                mgmtCF[Mgmt CloudFront Distribution]
+                mgmtCF[Mgmt CloudFront Distribution]
+            end
+        end
+        subgraph govcloud["AWS GovCloud"]
+            subgraph platform["cloud.gov Platform"]
+                appCF -->|App Request| appALB
+                mgmtCF -->|Mgmt Request| mgmtALB
+                mgmtCF -->|Auth Request| authALB
+
+                appALB[App ALB] -->|App Request| router[CF Router]
+                mgmtALB[Management ALB] -->|Mgmt Request| router
+                authALB[Auth ALB] -->|Auth Request| router
+
+                router -->|App Request| app[Customer App]
+                router -->|Mgmt Request| dashboard[Dashboard]
+                router -->|Auth Request| login[Login]
+            end
+        end
+    end
+```
+
+We will use Terraform in `cg-provision` to do the following:
+
+* Create CloudFront distributions in front of all internet-facing load balancers.
+    * Use the [aws_cloudfront_distribution](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudfront_distribution) Terraform resource.
+    * Per the [AWS docs](https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/setting-up-cloudfront-tips.html), we will set up CloudFront to distribute content from a custom origin server.
+    * See also the [aws_lb](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb) resource and [aws_elb](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/elb) resource.
+        * We mostly use ALBs, except for four "classic" ELBs. Three of those are internal.
+    * A single distribution can point to [up to 25 origins](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-overview.html), but seems to be associated with a single domain. So the number of distributions we will need is 1:1 with either the number of load balancers or the number of domains, in the case that multiple load balancers support a single domain.
+    * For reference, a single AWS account has a default quota of [200 distributions](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cloudfront-limits.html#limits-web-distributions).
+* Create Web ACL(s) in the commercial AWS account and associate them with WAF and each CloudFront distribution.
+    * We may wish to create several WAF instances to protect the following endpoints separately, as discussed in the obsoleted [ALB+WAF SCR](https://docs.google.com/document/d/10YmiNE9W9F9lZzcRoQKx8fLFkshkko4wSizkwtH90mg/edit):
+        * our developer-facing endpoint (mgmt WAF for `*.fr.cloud.gov`)
+        * our public-facing customer endpoints (app WAF for `*.app.cloud.gov`)
+        * our authentication endpoints (auth WAF for `login.fr.cloud.gov` and `uaa.fr.cloud.gov`)
+        * a standby-ALB+WAF (not shown) that can be configured during an incident to accept traffic intended for specific customers to provide custom filtering until other measures are put in place.
+    * WAF will remain enabled in our GovCloud account. This means that customers who do not broker their own CDN will pay the latency cost of WAF twice: Once at our CloudFront distribution and again at our load balancer. It also makes the architecture less intuitive for platform engineers and operators because we can now create WAF rules in two places instead of one. However, if we remove WAF from our load balancers, customers who broker their own CDN will be unprotected until we complete follow-on work on the External Domain Broker. To maintain their current level of protection, we will keep WAF enabled on both sets of resources. The Commercial WAF have no rules associated with it except those added by Shield Advanced, and managed rulesets will continue to be managed in GovCloud WAF.
+
+#### Traffic and Brokered CDNs, before change
+
+* User 1 makes requests to domains not covered by a brokered CDN.
+* User 2 makes requests to domains that are covered by a brokered CDN managed by the External Domain Broker.
+* User 3 makes requests to domains that are covered by a brokered CDN managed by the deprecated CDN Broker.
+
+```mermaid
+graph TD
+    user1[User 1] -->|HTTP Request| appALB
+    user2[User 2] -->|HTTP Request| brokeredCDN
+    user3[User 3] -->|HTTP Request| legacyCDN
+
+    brokeredCDN[CloudFront distribution<p>Managed by customer via External Domain Broker</p>] --> appALB
+    legacyCDN["CloudFront distribution<p>Managed by customer via CDN Broker (deprecated)</p>"] --> appALB
+
+    appALB[Application ALB<p>The origin for all distributions shown here</p>]
+```
+
+#### Traffic and Brokered CDNs, after change
+
+```mermaid
+graph TD
+    user1[User 1] -->|HTTP Request| platformCDN
+    user2[User 2] -->|HTTP Request| brokeredCDN
+    user3[User 3] -->|HTTP Request| legacyCDN
+
+    subgraph sa["Protected by Shield Advanced"]
+        platformCDN[CloudFront Distribution<p>Managed by cloud.gov</p>]
+    end
+
+    platformCDN --> appALB[App ALB]
+    brokeredCDN[CloudFront distribution<p>Managed by customer via External Domain Broker</p>] --> appALB
+    legacyCDN["CloudFront distribution<p>Managed by customer via CDN Broker (deprecated)</p>"] --> appALB
+
+    appALB[Application ALB<p>The origin for all distributions shown here</p>]
+```
+
+#### Traffic and Brokered CDNs, after follow-on work (see below)
+
+```mermaid
+graph TD
+    user1[User 1] -->|HTTP Request| platformCDN
+    user2[User 2] -->|HTTP Request| brokeredCDN
+    user3[User 3] -->|HTTP Request| legacyCDN
+
+    subgraph sa["Protected by Shield Advanced"]
+        platformCDN[CloudFront Distribution<p>Managed by cloud.gov</p>]
+        brokeredCDN[CloudFront distribution<p>Managed by customer via External Domain Broker</p>]
+        legacyCDN["CloudFront distribution<p>Managed by customer via CDN Broker (deprecated)</p>"]
+    end
+
+    platformCDN --> appALB[App ALB]
+    brokeredCDN --> appALB
+    legacyCDN --> appALB
+
+    appALB[Application ALB<p>The origin for all distributions shown here</p>]
+```
+
+* Enable Shield Advanced on the new CloudFront distributions.
+    * Use the [aws_shield_protection](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/shield_protection) resource. One per protected resource (CloudFront distribution, in this case).
+    * Add a [aws_shield_protection_group](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/shield_protection_group) resource so traffic is analyzed across all resources.
+* Change DNS to reference CloudFront distributions instead of the load balancers.
+    * Relevant resource type is [aws_route53_record](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_record).
+* Change how we document CDN use for customers. Explain that they will be covered by our CDN by default, but it will have conservative, if any, caching rules. If they want to customize their caching, they must broker a CDN distribution via the External Domain Broker.
+
+### Figure 4: AWS Resource Relationships
+
 ```mermaid
 graph TD
     subgraph b["blank"]
@@ -52,29 +191,6 @@ graph TD
     sg1[Shield Protection Group] --> cf1 & cf2 & cf3
     style sg1 fill:#ffecec,stroke:#d87393
 ```
-
-We will use Terraform in `cg-provision` to do the following:
-
-* Create CloudFront distributions in front of all internet-facing load balancers.
-    * Use the [aws_cloudfront_distribution](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudfront_distribution) Terraform resource.
-    * Per the [AWS docs](https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/setting-up-cloudfront-tips.html), we will set up CloudFront to distribute content from a custom origin server.
-    * See also the [aws_lb](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb) resource and [aws_elb](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/elb) resource.
-        * We mostly use ALBs, except for four "classic" ELBs. Three of those are internal.
-    * A single distribution can point to [up to 25 origins](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-overview.html), but seems to be associated with a single domain. So the number of distributions we will need is 1:1 with either the number of load balancers or the number of domains, in the case that multiple load balancers support a single domain.
-    * For reference, a single AWS account has a default quota of [200 distributions](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cloudfront-limits.html#limits-web-distributions).
-* Create Web ACL(s) in the commercial AWS account and associate them with WAF and each CloudFront distribution.
-    * We may wish to create several WAF instances to protect the following endpoints separately, as discussed in the obsoleted [ALB+WAF SCR](https://docs.google.com/document/d/10YmiNE9W9F9lZzcRoQKx8fLFkshkko4wSizkwtH90mg/edit):
-        * our developer-facing endpoint (mgmt WAF for `*.fr.cloud.gov`)
-        * our public-facing customer endpoints (app WAF for `*.app.cloud.gov`)
-        * our authentication endpoints (auth WAF for `login.fr.cloud.gov` and `uaa.fr.cloud.gov`)
-        * a standby-ALB+WAF (not shown) that can be configured during an incident to accept traffic intended for specific customers to provide custom filtering until other measures are put in place.
-    * WAF will remain enabled in our GovCloud account. This means that customers who do not broker their own CDN will pay the latency cost of WAF twice: Once at our CloudFront distribution and again at our load balancer. It also makes the architecture less intuitive for platform engineers and operators because we can now create WAF rules in two places instead of one. However, if we remove WAF from our load balancers, customers who broker their own CDN will be unprotected until we complete follow-on work on the External Domain Broker. To maintain their current level of protection, we will keep WAF enabled on both sets of resources. The Commercial WAF have no rules associated with it except those added by Shield Advanced, and managed rulesets will continue to be managed in GovCloud WAF.
-* Enable Shield Advanced on the new CloudFront distributions.
-    * Use the [aws_shield_protection](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/shield_protection) resource. One per protected resource (CloudFront distribution, in this case).
-    * Add a [aws_shield_protection_group](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/shield_protection_group) resource so traffic is analyzed across all resources.
-* Change DNS to reference CloudFront distributions instead of the load balancers.
-    * Relevant resource type is [aws_route53_record](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_record).
-* Change how we document CDN use for customers. Explain that they will be covered by our CDN by default, but it will have conservative, if any, caching rules. If they want to customize their caching, they must broker a CDN distribution via the External Domain Broker.
 
 Follow-on work:
 
