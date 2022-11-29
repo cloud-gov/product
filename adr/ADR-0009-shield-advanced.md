@@ -40,13 +40,13 @@ The following only applies to our staging and production environments. Our devel
 graph TD
     public[Public Viewer] -->|App Request| appALB
     tenant[Tenant Developer] -->|Mgmt Request| mgmtALB
-    tenant[Tenant Developer] -->|Auth Request| mgmtALB
+    tenant[Tenant Developer] -->|Auth Request| authALB
     subgraph aws["AWS"]
         subgraph govcloud["AWS GovCloud"]
             subgraph platform["cloud.gov Platform"]
                 appALB[App ALB] -->|App Request| router[CF Router]
                 mgmtALB[Management ALB] -->|Mgmt Request| router
-                mgmtALB[Management ALB] -->|Auth Request| router
+                authALB[Auth ALB] -->|Auth Request| router
                 router -->|App Request| app[Customer App]
                 router -->|Mgmt Request| dashboard[Dashboard]
                 router -->|Auth Request| login[Login]
@@ -69,14 +69,14 @@ graph TD
         subgraph commercial["AWS Commercial"]
             subgraph external["cloud.gov External"]
                 tenant[Tenant Developer] -->|Mgmt Request| mgmtCF[Mgmt CloudFront Distribution]
-                tenant[Tenant Developer] -->|Auth Request| mgmtCF[Mgmt CloudFront Distribution]
+                tenant[Tenant Developer] -->|Auth Request| authCF[Auth CloudFront Distribution]
             end
         end
         subgraph govcloud["AWS GovCloud"]
             subgraph platform["cloud.gov Platform"]
                 public[Public Viewer] -->|App Request| appALB
                 mgmtCF -->|Mgmt Request| mgmtALB
-                mgmtCF -->|Auth Request| authALB
+                authCF -->|Auth Request| authALB
 
                 appALB[App ALB] -->|App Request| router[CF Router]
                 mgmtALB[Management ALB] -->|Mgmt Request| router
