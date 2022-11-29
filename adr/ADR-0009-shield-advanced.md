@@ -59,19 +59,22 @@ graph TD
 
 ```mermaid
 graph TD
-    public[Public Viewer] -->|App Request| appCF
-    tenant[Tenant Developer] -->|Mgmt Request| mgmtCF
-    tenant[Tenant Developer] -->|Auth Request| mgmtCF
+    subgraph b["blank"]
+        style b fill:none,stroke:none,color:#fff
+        public[Public Viewer]
+        tenant[Tenant Developer]
+    end
 
     subgraph aws["AWS"]
         subgraph commercial["AWS Commercial"]
             subgraph external["cloud.gov External"]
-                mgmtCF[Mgmt CloudFront Distribution]
-                mgmtCF[Mgmt CloudFront Distribution]
+                tenant[Tenant Developer] -->|Mgmt Request| mgmtCF[Mgmt CloudFront Distribution]
+                tenant[Tenant Developer] -->|Auth Request| mgmtCF[Mgmt CloudFront Distribution]
             end
         end
         subgraph govcloud["AWS GovCloud"]
             subgraph platform["cloud.gov Platform"]
+                public[Public Viewer] -->|App Request| appALB
                 mgmtCF -->|Mgmt Request| mgmtALB
                 mgmtCF -->|Auth Request| authALB
 
