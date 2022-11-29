@@ -59,7 +59,7 @@ graph TD
 
 ```mermaid
 graph TD
-    public[Public Viewer] -->|App Request| appCF
+    public[Public Viewer] -->|App Request| appALB
     tenant[Tenant Developer] -->|Mgmt Request| mgmtCF
     tenant[Tenant Developer] -->|Auth Request| mgmtCF
 
