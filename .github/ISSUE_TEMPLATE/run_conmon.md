@@ -62,6 +62,11 @@ As your "sandbox" user identity, launch a "Hello World" app so there's something
 
 ZAP scans take hours. We recommend you start in the morning. There are two separate scans to run, external and internal, and the internal one takes considerably longer (you may want to run it when VPN traffic is lower)
 
+In total, you'll run three scans:
+* For external sites (PaaS sites that do not require a GSA origin IP address)
+* For internal sites (PaaS sites that do GSA origin IP address)
+* For sites
+
 The following steps are for the `external` scan (except as noted):
 
 - From the cloud.gov `product` repo, load the cloud.gov `cloud.gov-conmon-external.context` into ZAP (File > Import Context)
@@ -71,6 +76,9 @@ The following steps are for the `external` scan (except as noted):
 - In the ZAP-configured Firefox, log in to each site in the context list.
   - For the **`external` context, use your "sandbox" identity**. VPN not needed.
   - For the **`internal` context, use your Cloud Ops (GSA SecureAuth) identity**, and join the VPN
+  - For the **`pages` context, use your Cloud Ops identity**
+    - You should be non-privileged (e.g. site owner) user of Pages for the main app
+    - You shoudl be a _support_ user of Pages for the admin app
 - To prevent getting noise in the scan results (since that causes major confusion when the FedRAMP team processes the ConMon report), review the `Sites` list to ensure only the cloud.gov sites have a small red circle/sight on them (denoting the site will be included). Remove any sites not needed by CTRL-clicking on them and selecting `Delete`.
   - On the `internal` rescan, you can omit `login.fr.cloud.gov` from the sites before spidering/scanning
 - CTRL-click on the context and run the `Spider` scan. This takes a little less than an hour.
@@ -86,7 +94,7 @@ The following steps are for the `external` scan (except as noted):
     - Optional: Check with compliance lead on whether we also need
       "Traditional HTML Report with Requests and Responses"
 
-**Quit ZAP, then repeat the "Running ZAP scans" steps for the `internal` context (which will require the VPN)**
+**Quit ZAP, then repeat the "Running ZAP scans" steps for the `internal` context (which will require the VPN), then continue to `pages`**
 
 ## Troubleshooting ZAP Scans
 
@@ -138,17 +146,13 @@ Upload all reports to Google Drive: https://drive.google.com/drive/u/0/folders/0
 
 You can shut down ZAP and Firefox.
 
-NEEDS FIXING: Include for 2021-07 the Pages scanning:
-
-- PAGES: For scanning cloud.gov Pages (while in pre-release status), download the [pages_staging_conmon.context]().
-- PAGES: Or the Pages context, for scanning those apps.
-
 ## Potential ZAP Issues
 
 ## Acceptance criteria
 
 - [ ] YYYYMMDD-external.xml ZAP scan is present in YYYYMMDD-ZAP-Nessus folder
 - [ ] YYYYMMDD-internal.xml ZAP scan is present in YYYYMMDD-ZAP-Nessus folder
+- [ ] YYYYMMDD-pages.xml ZAP scan is present in YYYYMMDD-ZAP-Nessus folder
 
 ### Disk Usage
 
@@ -168,7 +172,12 @@ If you see an abnormally large `session` or `sessions` directory (my last run wa
 
 - Log in to Nessus: https://nessus.fr.cloud.gov/
 - Select `All Scans`
-- Click on each scan for Tooling and Production, and export the .nessus file (Export > Nessus) and the Executive Summary report (Report > HTML).
+- For Production Vulnerability Scan and Tooling Vulnerability Scan:
+  - Export -> Nessus file
+  - Report -> Select Report Template -> Complete List of Vulnerabilities by Host
+- For Production Compliance Scan and Tooling Compliance Scan:
+  - Export -> Nessus file
+  - Report -> Select Report Template -> Compliance (_could take a few minutes_)
 - Click on each scan for RDS Compliance , and export the .nessus file (Export > Nessus)
 
 ## Acceptance criteria:
