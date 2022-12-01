@@ -89,17 +89,17 @@ very quickly, so your onboarding buddy will walk through this list with you at a
 Your onboarding buddy will add you to these Slack channels:
 
 - [ ] `#cloud-gov` - bots post announcements here
-- [ ] `#cg-billing` - private business development channel (if applicable)
-- [ ] `#cg-business` - business development (if applicable)
+- [ ] `#cg-billing` - private business development channel (if govvie)
+- [ ] `#cg-business` - business development (if govvie)
 - [ ] `#cg-compliance` - compliance-related information and discussion
 - [ ] `#cg-offtopic` - off-topic team sharing
 - [ ] `#cg-platform` - platform operations
-- [ ] `#cg-platform-news` - bots post platform alerts
 - [ ] `#cg-general` - program-level information and discusion
 - [ ] `#cg-support` - support requests and assistance within TTS
 - [ ] `#cg-incidents` - private channel for incident response
 - [ ] `#cg-priv-all` - private channel for in-team discussion
 - [ ] `#cg-priv-gov` (Federal employees only) - may contain discussion of contracting-related or other private, federal-employee-only comms
+- [ ] `#cg-incidents` - private channel for incident response
 
 Once you're added to these channels, you probably want to mute these channels until you're on support rotation:
 
@@ -115,21 +115,25 @@ Please let your onboarding buddy know and they will help you request [local admi
 
 - [ ] New person: Request Microsoft Office, per [TTS handbook instructions](https://handbook.tts.gsa.gov/tools/office/) 
 - [ ] Compliance lead: Request access to cloud.gov's FedRAMP repository in max.gov by email to info@fedramp.gov.
+- [ ] Subscribe to US-CERT alerts: https://us-cert.cisa.gov/mailing-lists-and-feeds, OR
+  - [ ] Confirm that cloud-gov-compliance@gsa.gov is still subscribed
+- [ ] Subscribe to FedRAMP mailing lists: https://public.govdelivery.com/accounts/USGSA/subscriber/topics?qsp=USGSA_2224 OR
+  - [ ] Confirm that cloud-gov-compliance@gsa.gov is still subscribed
+- [ ] Read Compliance Lead documents at root of the [Google Drive Security and Compliance](https://drive.google.com/drive/u/0/folders/1_vAXZsdVFYssR1DRCaavBCoDE_uxQCI5) folder
 
-### Cloud Operations account management
+### Cloud Compliance  account management
 
 *Note: These are all contingent on completing the GSA Mandatory Cyber Security and Privacy Training first. AWS user names should be identical across accounts so that permissions can be correctly managed by Terraform.*
 
-* [ ] Create [AWS Accounts](https://cloud.gov/docs/ops/aws-onboarding/) via the AWS web console (not Terraform) and provide one-time credentials - these will be setup with read-only/auditor permissions, and once the 3 mandatory cloud.gov trainings are complete they will be added to the [audit input file](https://github.com/cloud-gov/cg-compliance/blob/master/audit/inputs.yml):
+* [ ] Verify they have completed GSA Security and Privacy Training in GSAOLU
+* [ ] Create [AWS Accounts](https://cloud.gov/docs/ops/aws-onboarding/) via the AWS web console (not Terraform) and provide one-time credentials - these will be setup with **read-only/auditor permissions**, and once the 3 mandatory cloud.gov trainings are complete they will be added to the [audit input file](https://github.com/cloud-gov/cg-compliance/blob/master/audit/inputs.yml):
   * [ ] AWS Commercial accounts
   * [ ] AWS GovCloud accounts
 * [ ] Add them to Nessus Manager via the GUI
-* [ ] [Make them an admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) of the platform.
+* [ ] Add them to our Tenable account at https://community.tenable.com/s/contact-assignment?productId=117705. You will need to open a support request for them to become a primary contact and manage our licenses. 
+* [ ] [Make them an auditor](https://cloud.gov/docs/ops/managing-users/#managing-admins) of the platform.
 * [ ] Add them to the [`platform-ops`](https://github.com/orgs/cloud-gov/teams/platform-ops) team in GitHub.
-* [ ] Add them as an admin on the cg-django-uaa [docs](https://readthedocs.org/projects/cg-django-uaa/)
 * [ ] Add them to [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov) so they can participate in team-wide internal communication.
-* [ ] Add them to [our dockerhub org](https://hub.docker.com/orgs/cloudgov) and ensure we're not over our license count
-* [ ] Business Unit Only - Add them to the [cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries) so they can keep apprised of prospective new clients.
 
 Your onboarding buddy will create a separate ticket tied to this one to track the AWS accounts being granted full admin access.
 
@@ -171,8 +175,4 @@ Your onboarding buddy will create a separate ticket tied to this one to track th
     - You can try the procedure [here](https://www.imore.com/how-open-apps-anywhere-macos-catalina-and-mojave) to change the app's security settings.
 - [ ] Install cloud.gov dev tools by cloning the [`cg-scripts` repo](https://github.com/cloud-gov/cg-scripts/): run `git clone https://github.com/cloud-gov/cg-scripts.git` in your command line
 
-These are items that are only necessary for someone stepping into a compliance role, but you can still subscribe to the alerts and mailing lists if you're interested:
 
-- [ ] Subscribe to US-CERT alerts: https://us-cert.cisa.gov/mailing-lists-and-feeds
-- [ ] Subscribe to FedRAMP mailing lists: https://public.govdelivery.com/accounts/USGSA/subscriber/topics?qsp=USGSA_2224
-- [ ] Read Compliance Lead documents at root of the [Google Drive Security and Compliance](https://drive.google.com/drive/u/0/folders/1_vAXZsdVFYssR1DRCaavBCoDE_uxQCI5) folder
