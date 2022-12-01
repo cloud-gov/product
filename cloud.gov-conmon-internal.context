@@ -11,6 +11,7 @@
     <incregexes>https://logs-platform.fr.cloud.gov.*</incregexes>
     <incregexes>https://opslogin.fr.cloud.gov.*</incregexes>
     <incregexes>https://prometheus.fr.cloud.gov.*</incregexes>
+    <incregexes>https://doomsday.fr.cloud.gov.*</incregexes>
     <excregexes>mozilla\.com</excregexes>
     <excregexes>mozilla\.net</excregexes>
     <excregexes>mozilla\.org</excregexes>
