@@ -39,15 +39,13 @@ https://docs.google.com/document/d/1tS-9hLb2yHtp500N3obmu0X70XpIMATuPlov2_vDVS0/
 - [ ] Add to daily standup, retro, and sprint planning
 - [ ] Ensure user has Federalist Github project and brief on its use
 - [ ] Ensure user has GPG signing set up for GitHub: https://docs.google.com/document/d/11UDxvfkhncyLEs-NUCniw2u54j4uQBqsR2SBiLYPUZc/edit
-- [ ] Add to New Relic
 - [ ] Add to federalist-support, federalist-alerts, and federalist-inquiries Google Groups as needed
 - [ ] Add them as an agent to https://federalist-support.zendesk.com/agent
-- [ ] add to Federalist search.gov account
+- [ ] add to cloud.gov account at Search.gov 
 - [ ] Add new user as developer to the gsa-18f-federalist cloud.gov cloudfoundry organization
-- [ ] Add to statuspage.io account
+- [ ] Add to statuspage.io account as possible and appropriate 
 - [ ] Have a cloud.gov operator add to the “pages.admin” group in the cloud.gov UAA by using the make-pages-admin.sh script
 - [ ] Have a cloud.gov operator add to the “concourse.pages” team in the cloud.gov OpsUAA by using the make-pages-ops-admin.sh script so they can access Concourse CI
 - [ ] Add to Docker Hub
 - [ ] Add to AWS (Production GovCloud only)
-- [ ] Add to `FederalistLocal` Github org and `federalist-local-admins` team
 - [ ] Add to cloud.gov calendar
