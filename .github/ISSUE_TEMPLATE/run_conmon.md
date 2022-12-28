@@ -48,9 +48,9 @@ As your "sandbox" user identity, launch a "Hello World" app so there's something
       - Site - Firefox (select all)
       - Site - Font CDNs
       - Site - Mozilla CSN
-      - Spider
-        - Max Depth to Crawl: 5
-        - Number of Threads: 7
+    - Spider
+      - Max Depth to Crawl: 5
+      - Number of Threads: 7
 
 ### Quit and restart ZAP if you change the JVM options
 
@@ -131,6 +131,8 @@ https://opslogin.fr.cloud.gov
 ```
 
 If the context changes the sites, this list and order will need to be revisited.
+
+Stop any locally running web servers as their port forwarding can prevent the Firefox proxying from working correctly (you might see the error: "browser was not found")
 
 ## Upload and wrap up
 
