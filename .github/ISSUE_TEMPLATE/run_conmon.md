@@ -140,17 +140,13 @@ Upload all reports to Google Drive: https://drive.google.com/drive/u/0/folders/0
 
 You can shut down ZAP and Firefox.
 
-NEEDS FIXING: Include for 2021-07 the Pages scanning:
-
-- PAGES: For scanning cloud.gov Pages (while in pre-release status), download the [pages_staging_conmon.context]().
-- PAGES: Or the Pages context, for scanning those apps.
-
 ## Potential ZAP Issues
 
 ## Acceptance criteria
 
 - [ ] YYYYMMDD-external.xml ZAP scan is present in YYYYMMDD-ZAP-Nessus folder
 - [ ] YYYYMMDD-internal.xml ZAP scan is present in YYYYMMDD-ZAP-Nessus folder
+- [ ] YYYYMMDD-pages.xml ZAP scan is present in YYYYMMDD-ZAP-Nessus folder
 
 ### Disk Usage
 
@@ -171,7 +167,7 @@ If you see an abnormally large `session` or `sessions` directory (my last run wa
 - Log in to Nessus: https://nessus.fr.cloud.gov/
 - Select `All Scans`
 - Click on each vulnerability scan for Tooling and Production, and export the .nessus file (Export > Nessus) and the "Complete List of Vulnerabilities by Host" report (Report > HTML).
-- Click on each compliance  scan for Tooling and Production, and export the .nessus file (Export > Nessus) and the "Compliance" report(Report > HTML).
+- Click on each compliance  scan for Tooling and Production, and export the .nessus file (Export > Nessus) and the "Compliance" report (Report > HTML).
 - Click on each scan for RDS Compliance, and export the .nessus file (Export > Nessus) and the "Compliance" report (Report > HTML).
 
 ## Acceptance criteria:
@@ -192,13 +188,12 @@ A python script is used to generate the inventory list.
 
 - Delete the data rows (**starting after the manually maintained inventory items**) - These rows are locked to prevent inadvertent editing.
 
-- For the tooling and production jumpboxes, login to each of them and from the initial home directory you start in, run `python3 cg-scripts/generate-POAM-inventory.py`. This will output data to your terminal window in CSV format. Copy the entire CSV output.
+- For the tooling and production jumpboxes:
+  - Login to each jumpbox and take note of the container number.
+  - Run `python3 cg-scripts/generate-POAM-inventory.py > inv.csv`, then `exit`.
+  - Copy the CSV to your local clipboard by running `fly -t ci i -j "jumpbox/container-bosh-{environment}" -s jumpbox -b "{container-number}" -- cat inv.csv | pbcopy`, where `{environment}` is `production` or `tooling` and `container-number` is the number from the first step.
 
 - Paste the contents in the spreadsheet by selecting the first cell in the first blank row following the manually maintained inventory items, then pasting with CTRL-Shift-V (Command-Shift-V for macOS) to paste without formatting. Then select the paste icon that appears and click `Split text to columns`
 
 - [ ] Verify you have pasted the inventory for both production and tooling.
-- [ ] Verify that the RDS information has not been overwritten
-
-```
-
-```
+- [ ] Verify that the RDS information has not been overwritten.
