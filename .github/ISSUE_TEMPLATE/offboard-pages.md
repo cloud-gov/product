@@ -1,4 +1,12 @@
- #### User Story
+---
+name: Offboard Existing cloud.gov Pages Team Member
+title: Checklist for Offboarding an Existing Pages Team member
+about: This is the checklist and requirements for offboarding an existing Pages team member
+labels: ''
+assignees: ''
+---
+
+ # Offboard cloud.gov Pages Team Member
 
  ## Special Notes
 
