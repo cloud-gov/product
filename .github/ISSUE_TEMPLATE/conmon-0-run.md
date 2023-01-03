@@ -1,5 +1,5 @@
 ---
-name: Run ConMon Scans
+name: ConMon - Run Scans
 title: "Run [month] [year] ConMon scans"
 about: INTERNAL ONLY schedule conmon runs
 labels: compliance
