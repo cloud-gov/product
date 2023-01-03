@@ -1,5 +1,5 @@
 ---
-name: Deliver ConMon Scans
+name: ConMon - Deliver Scans
 title: 'Deliver [month] [year] ConMon results by [due date]'
 about: INTERNAL ONLY deliver conmon results
 labels: compliance
