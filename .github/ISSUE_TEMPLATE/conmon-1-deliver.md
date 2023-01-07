@@ -146,4 +146,6 @@ Be sure to
 - [ ] We uploaded the Summary Excel sheet to https://community.max.gov/display/FedRAMPExternal/18F+Continuous+Monitoring
 - [ ] We updated, if necessary, the issue template for next month
 
-There! You've completed KHAN!-mon https://tenor.com/qUI1.gif
+There! You've completed KHAN!-mon 
+
+![Kirk's KHAN!](https://tenor.com/qUI1.gif)
