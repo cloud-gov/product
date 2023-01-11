@@ -151,4 +151,4 @@ Be sure to
 
 There! You've completed KHAN!-mon 
 
-![Kirk's KHAN!](https://tenor.com/qUI1.gif)
+![Kirk's KHAN](https://media.tenor.com/zpkXBVeJPXAAAAAC/star-trek-the-wrath-of-khan-star-trek2.gif)
