@@ -110,6 +110,7 @@ The items left-aligned are ones that we're in last months' report but are now fi
   * paste CSV output into vulnerability tracker, then use the `Data` menu to convert to `Split Text to Columns`
   * fix up the entry
   * copy down the formula for Column M, "Scheduled Completion Date", to generate the due date based on severity
+  * Any Java and Tomcat findings will require work outside our normal stemcell patching. See [closed issues in the private repository](https://github.com/cloud-gov/private/issues?q=is%3Aissue+is%3Aopen+in%3Atitle+OpenJDK+OR+Java+OR+Tomcat) for examples
 * Use the `prep_zap` function for ZAP scan consolidation
   * Likewise, work through the `MM.zap_work` file
   * Mostly ignore the Low findings
@@ -121,6 +122,8 @@ Be sure to
 * Review the RDS scans:
   - cd to the directory with the RDS compliance scans,
   - run `../../../parse-rds.sh`
+  - if there are version out-of-date findings, see latest version in AWS with:
+    - `aws rds describe-db-engine-versions --output=table --engine postgres --engine-version X.Y`
 * Review the Compliance scans: 
   * No good parsing yet, review manually
 * Address all gravely late POA&Ms
