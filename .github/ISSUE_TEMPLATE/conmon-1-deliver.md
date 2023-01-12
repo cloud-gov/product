@@ -52,10 +52,10 @@ That sets up a bunch of shell functions that we run, then copy/paste if they loo
 
 * `setup_dirs YYYY MM DD` - Set up the correct names and places for our copies of the scan
 * Open the new target folders and `ZAP and Nessus results` folders
-* Drag scans from `/Volumes/GoogleDrive/My Drive/18F_ISSO/FedRAMP JAB - cloud.gov - 3PAO Access/ZAP and Nessus results` the 
-  * ZAP both XML and HTML
+* Drag scans from `/Volumes/GoogleDrive/My Drive/18F_ISSO/FedRAMP JAB - cloud.gov - 3PAO Access/ZAP and Nessus results` to the new targets
+  * ZAP: copy both XML and HTML to the top level
   * RDS *.nessus into the RDS folders
-  * Compliance and Vuln *.nessus scans into folders. End result
+  * Compliance and Vuln *.nessus scans into "Production-and-Tooling..." folders. End result
 ```
     tree 2021/03
 2021/03
