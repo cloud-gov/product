@@ -70,9 +70,9 @@ Running the ZAP scan takes approximately one hour but can consume a large amount
     - Select the `Template` options, and use the templates:
       - Traditional HTML report
       - Traditional XML report
-    - Name the files according to `YYYYMMDD-ZAP-Pages.xml/html`. E.g.
-      - 20210623-ZAP-Pages.xml
-      - 20210623-ZAP-Pages.html
+    - Name the files according to `YYYYMMDD-ZAP-pages.xml/html`. E.g.
+      - 20210623-ZAP-pages.xml
+      - 20210623-ZAP-pages.html
     - Optional: Check with compliance lead on whether we also need
       "Traditional HTML Report with Requests and Responses"
 
@@ -116,5 +116,5 @@ You can shut down ZAP and Firefox.
 
 ## Acceptance criteria
 
-- [ ] YYYYMMDD-external.xml ZAP scan is present in YYYYMMDD-ZAP-Nessus folder
-- [ ] YYYYMMDD-internal.xml ZAP scan is present in YYYYMMDD-ZAP-Nessus folder
+- [ ] YYYYMMDD-ZAP-pages.xml ZAP scan is present in YYYYMMDD-ZAP-Nessus folder
+- [ ] YYYYMMDD-ZAP-pages.html ZAP scan is present in YYYYMMDD-ZAP-Nessus folder
