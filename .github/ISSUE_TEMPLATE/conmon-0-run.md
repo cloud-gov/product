@@ -26,16 +26,18 @@ We scan our externally facing apps as _sandbox users_ of cloud.gov, via the clou
 
 Create a sandbox account, starting from https://account.fr.cloud.gov/signup, and use an email such as your `fname.lname@{cio.gov, pif.gov, fedramp.gov}`
 
-As your "sandbox" user identity, launch a "Hello World" app so there's something in the dashboard and logs apps to spider. (ToDo: Determine if this is really necessary, provide link to steps).
+As your "sandbox" user identity, launch a ["Hello World" app](https://github.com/cloud-gov/cf-hello-worlds) so there's something in the dashboard and logs apps to spider.  (ToDo: Determine if this is really necessary, provide link to steps).
 
 ## Install, Configure, and Update
 
-- Check that you have the [latest stable version of ZAP](https://www.zaproxy.org/download/). Install/update via Homebrew with:
+- Make sure no other process is bound to port 8080 by running `lsof -i TCP:8080`. The ZAP proxy binds to this port.
+- Install Firefox (with Homebrew `brew cask install firefox` or any way you chose). Chrome does not support proxy settings while Firefox does.
+- `git clone git@github.com:cloud-gov/product.git` so you have the `context` files you need.
+- Install the [latest stable version of ZAP](https://www.zaproxy.org/download/). Install/update via Homebrew with:
   - `brew update; brew install owasp-zap` or
   - `brew update; brew reinstall owasp-zap`
   > NOTE: If you see an error running ZAP as an unsigned application, run the following from the command line:
   - `xattr -dr com.apple.quarantine '/Applications/OWASP ZAP.app'`
-  - ZAP also has a [weekly build](https://www.zaproxy.org/download/#weekly) available. If the current stable build isn't working for some reason, try the weekly build instead. Download the ZIP, `cd` to it in your terminal, and run it with `./zap.sh`. If it outputs a message like `Exiting: ZAP requires a minimum of Java 11 to run`, run `brew install java` to install the latest Java and try again.
 - Start ZAP and update
   - For "Session persistence", select "No, I do not want to persist my session..."
   - For "Manage add-ons", select "Update All"
@@ -52,15 +54,11 @@ As your "sandbox" user identity, launch a "Hello World" app so there's something
       - Max Depth to Crawl: 5
       - Number of Threads: 7
 
-### Quit and restart ZAP if you change the JVM options
-
-- Be sure you have Firefox installed (with Homebrew `brew cask install firefox` or any way you chose). Chrome does not support proxy settings while Firefox does.
-
-- `git clone git@github.com:cloud-gov/product.git` so you have the `context` files you need.
+**Quit and restart ZAP if you change the JVM options.**
 
 ## Running ZAP scans
 
-ZAP scans take hours. We recommend you start in the morning. There are two separate scans to run, external and internal, and the internal one takes considerably longer (you may want to run it when VPN traffic is lower)
+ZAP scans take hours. We recommend you start in the morning or run them overnight. There are two separate scans to run, external and internal, and the internal one takes considerably longer. (You may want to run it when VPN traffic is lower.)
 
 The following steps are for the `external` scan (except as noted):
 
@@ -69,6 +67,7 @@ The following steps are for the `external` scan (except as noted):
 - On the top line of icons, there should be a Firefox icon on the far right. Click that to open Firefox preconfigured to proxy through ZAP.
 - Open the `context` to see the included web applications (Context -> Included in Context)
 - In the ZAP-configured Firefox, log in to each site in the context list.
+  - You must type the full URL each time, including the protocol (`https://`). Using ZAP stops automatic redirects from HTTP to HTTPS from working.
   - For the **`external` context, use your "sandbox" identity**. VPN not needed.
   - For the **`internal` context, use your Cloud Ops (GSA SecureAuth) identity**, and join the VPN
 - To prevent getting noise in the scan results (since that causes major confusion when the FedRAMP team processes the ConMon report), review the `Sites` list to ensure only the cloud.gov sites have a small red circle/sight on them (denoting the site will be included). Remove any sites not needed by CTRL-clicking on them and selecting `Delete`.
@@ -89,6 +88,20 @@ The following steps are for the `external` scan (except as noted):
 **Quit ZAP, then repeat the "Running ZAP scans" steps for the `internal` context (which will require the VPN)**
 
 ## Troubleshooting ZAP Scans
+
+### 502 Bad Gateway, ZAP Error
+
+If you encounter the following:
+
+`ZAP Error [org.apache.hc.core5.http.NoHttpResponseException]`
+
+Make sure you are typing the entire URL, including the `https://` protocol, into Firefox. Firefox will appear to automatically redirect from http to https, but if you check the ZAP console, you'll see the requests being made in http and failing with 502 Bad Gateway.
+
+### Browser Was Not Found, Java Exceptions
+
+- Did you stop all locally running web servers? If they are bound to port 8080, they will prevent Firefox from connecting to the proxy. (You might see the error: "browser was not found".)
+
+### Java Unable to Connect Exception
 
 In Firefox if you see a Java Unable to Connect Exception, try the following:
 
@@ -132,7 +145,13 @@ https://opslogin.fr.cloud.gov
 
 If the context changes the sites, this list and order will need to be revisited.
 
-Stop any locally running web servers as their port forwarding can prevent the Firefox proxying from working correctly (you might see the error: "browser was not found")
+### Generic Troubleshooting
+
+For when the other troubleshooting has not helped:
+
+- Fully close Firefox and restart ZAP.
+- Uninstall and reinstall FF and ZAP.
+- ZAP also has a [weekly build](https://www.zaproxy.org/download/#weekly) available. If the current stable build isn't working for some reason, try the weekly build instead. Download the ZIP, `cd` to it in your terminal, and run it with `./zap.sh`. If it outputs a message like `Exiting: ZAP requires a minimum of Java 11 to run`, run `brew install java` to install the latest Java and try again.
 
 ## Upload and wrap up
 
@@ -154,10 +173,8 @@ A single ZAP scan of the cloud-gov context requires significant disk space (over
 
 You can check ZAP's disk usage with:
 
-```
-
+```sh
 du -h -d 1 ~/Library/Application\ Support/ZAP/
-
 ```
 
 If you see an abnormally large `session` or `sessions` directory (my last run was 132G), you likely want to delete all files in these directories before proceeding. Choosing to "Not persist" sessions should alleviate this issue.
@@ -166,8 +183,9 @@ If you see an abnormally large `session` or `sessions` directory (my last run wa
 
 - Log in to Nessus: https://nessus.fr.cloud.gov/
 - Select `All Scans`
+  - You should see more than a dozen scans. If you see fewer, ask on Slack to be added to the Scan Admins group under Groups: https://nessus.fr.cloud.gov/#/settings/groups
 - Click on each vulnerability scan for Tooling and Production, and export the .nessus file (Export > Nessus) and the "Complete List of Vulnerabilities by Host" report (Report > HTML).
-- Click on each compliance  scan for Tooling and Production, and export the .nessus file (Export > Nessus) and the "Compliance" report (Report > HTML).
+- Click on each compliance scan for Tooling and Production, and export the .nessus file (Export > Nessus) and the "Compliance" report (Report > HTML).
 - Click on each scan for RDS Compliance, and export the .nessus file (Export > Nessus) and the "Compliance" report (Report > HTML).
 
 ## Acceptance criteria:
