@@ -81,6 +81,7 @@ The following do not directly impact cloud.gov security & operations and can hap
 - [ ] Remove them from [the cloud.gov emergency Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-emergency/members/active)
 - [ ] Remove them from [our Google Groups for our AWS accounts](https://docs.google.com/document/d/110o1L7EOby3hvE5d-cDhg2LBLHymbZLnMPe9kuk4qp8/edit#) (relevant for PM, Director, and Deputy Director)
 - [ ] Remove them from [Search.gov](https://search.gov/) access for cg-site by pinging the search.gov team in the #search Slack channel
+- [ ] Remove them from [Ubuntu Advantage](https://ubuntu.com/pro/users)
 
 ## Cloud Operations
 
