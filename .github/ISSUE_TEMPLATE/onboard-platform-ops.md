@@ -147,6 +147,7 @@ _Note: These are all contingent on completing the GSA Mandatory Cyber Security a
 - [ ] Add them to [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov) so they can participate in team-wide internal communication.
 - [ ] Add them to [our dockerhub org](https://hub.docker.com/orgs/cloudgov) and ensure we're not over our license count
 - [ ] Add them as an `agent` to the cloud.gov support Zendesk (Ask a cloud.gov member with admin access to Zendesk to add them).
+- [ ] Add them as Technical users to [Ubuntu Advantage](https://ubuntu.com/pro/users) (Admin users for leads and supervisors) 
 - [ ] Business Unit Only - Add them to the [cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries) so they can keep apprised of prospective new clients.
 
 Your onboarding buddy will create a separate ticket tied to this one to track the AWS accounts being granted full admin access.
