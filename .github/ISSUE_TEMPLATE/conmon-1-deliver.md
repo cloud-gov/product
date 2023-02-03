@@ -146,6 +146,7 @@ Be sure to
 - [ ] We uploaded our POA+M summary to MAX.gov https://community.max.gov/display/FedRAMPExternal/18F+Continuous+Monitoring 'POA&M and Inventory' folder
 - [ ] We uploaded our Inventory sheet to MAX.gov  https://community.max.gov/display/FedRAMPExternal/18F+Continuous+Monitoring 'POA&M and Inventory' folder
 - [ ] We uploaded our Nessus and OWASP scan results to MAX.gov to https://community.max.gov/display/FedRAMPExternal/18F+Vulnerability+Scans
+- [ ] We uploaded our container scans ....
 - [ ] We uploaded the Summary Excel sheet to https://community.max.gov/display/FedRAMPExternal/18F+Continuous+Monitoring
 - [ ] We updated, if necessary, the issue template for next month
 
