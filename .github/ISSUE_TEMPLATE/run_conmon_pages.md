@@ -14,7 +14,7 @@ cloud.gov Pages also provides continuous monitoring artifacts. The process for c
 
 From the [ZAP documentation](https://www.zaproxy.org/getting-started/): "Zed Attack Proxy (ZAP) is a free, open-source penetration testing tool being maintained under the umbrella of the Open Web Application Security Project (OWASP). ZAP is designed specifically for testing web applications and is both flexible and extensible."
 
-We run ZAP from a pages operator's local machine. ZAP opens a Firefox instance that is configured to proxy all requests through ZAP. ZAP can then analyze and modify the requests.
+We run ZAP from a Pages operator's local machine. ZAP opens a Firefox instance that is configured to proxy all requests through ZAP. ZAP can then analyze and modify the requests.
 
 ## Preliminary work - Support User Setup
 
