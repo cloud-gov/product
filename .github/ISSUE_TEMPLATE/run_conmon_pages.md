@@ -8,7 +8,7 @@ assignees: ""
 
 Re: [link to platform conmon ticket]
 
-cloud.gov Pages also provides continuous monitoring artifacts. The process for creating them is detailed here. Current we only run OWASP ZAP Scans.
+cloud.gov Pages also provides continuous monitoring artifacts. The process for creating them is detailed below. Current we only run OWASP ZAP Scans.
 
 # OWASP ZAP Scans
 
