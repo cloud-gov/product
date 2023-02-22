@@ -5,6 +5,7 @@
     <desc/>
     <inscope>true</inscope>
     <incregexes>https://account.fr.cloud.gov.*</incregexes>
+    <incregexes>https://api.fr.cloud.gov.*</incregexes>
     <incregexes>https://cloud.gov.*</incregexes>
     <incregexes>https://dashboard.fr.cloud.gov.*</incregexes>
     <incregexes>https://idp.fr.cloud.gov.*</incregexes>
