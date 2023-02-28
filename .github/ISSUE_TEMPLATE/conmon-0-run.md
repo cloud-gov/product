@@ -207,9 +207,16 @@ A python script is used to generate the inventory list.
 - Delete the data rows (**starting after the manually maintained inventory items**) - These rows are locked to prevent inadvertent editing.
 
 - For the tooling and production jumpboxes:
-  - Login to each jumpbox and take note of the container number.
+  - Login to each jumpbox and take note of the container number:
+    - [ ] production
+    - [ ] tooling
+    - [ ] master
   - Run `python3 cg-scripts/generate-POAM-inventory.py > inv.csv`, then `exit`.
-  - Copy the CSV to your local clipboard by running `fly -t ci i -j "jumpbox/container-bosh-{environment}" -s jumpbox -b "{container-number}" -- cat inv.csv | pbcopy`, where `{environment}` is `production` or `tooling` and `container-number` is the number from the first step.
+  - Copy the CSV to your local clipboard by running the following, where `{environment}` is `production`, `master`, or `tooling` and `container-number` is the number from the first step.
+
+
+        fly -t ci i -j "jumpbox/container-bosh-{environment}" -s jumpbox -b "{container-number}" -- cat inv.csv | pbcopy
+        
 
 - Paste the contents in the spreadsheet by selecting the first cell in the first blank row following the manually maintained inventory items, then pasting with CTRL-Shift-V (Command-Shift-V for macOS) to paste without formatting. Then select the paste icon that appears and click `Split text to columns`
 
