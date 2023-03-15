@@ -24,7 +24,6 @@ We've structured our team into four teams.
 - Compliance/assurance, Comm channel: #cg-compliance
   - Peter Burkholder
   - Chiaka Opara
-  - Ruth Yeboah
 
 - Customer and business, Comm channel: #cg-business
   - Kelley Confer
