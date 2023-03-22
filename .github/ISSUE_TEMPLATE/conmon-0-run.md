@@ -31,7 +31,7 @@ As your "sandbox" user identity, launch a ["Hello World" app](https://github.com
 ## Install, Configure, and Update
 
 - Make sure no other process is bound to port 8080 by running `lsof -i TCP:8080`. The ZAP proxy binds to this port.
-- Install Firefox (with Homebrew `brew cask install firefox` or any way you chose). Chrome does not support proxy settings while Firefox does.
+- Install Firefox (with Homebrew `brew install firefox --cask` or any way you chose). Chrome does not support proxy settings while Firefox does.
 - `git clone git@github.com:cloud-gov/product.git` so you have the `context` files you need.
 - Install the [latest stable version of ZAP](https://www.zaproxy.org/download/). Install/update via Homebrew with:
   - `brew update; brew install owasp-zap` or
@@ -41,6 +41,9 @@ As your "sandbox" user identity, launch a ["Hello World" app](https://github.com
 - Start ZAP and update
   - For "Session persistence", select "No, I do not want to persist my session..."
   - For "Manage add-ons", select "Update All"
+
+    ![Screenshot of ZAP tool with an arrow pointing to the Manage add-ons button in the toolbar](https://user-images.githubusercontent.com/1001694/226946792-3257c427-47a3-4ece-a8f8-d1ee37fd3379.png)
+    
   - ZAP -> Preferences -> Options:
     - JVM -> JVM options: `-Xmx8192m`
     - Active Scan:
@@ -49,7 +52,7 @@ As your "sandbox" user identity, launch a ["Hello World" app](https://github.com
     - Global Exclude URL:
       - Site - Firefox (select all)
       - Site - Font CDNs
-      - Site - Mozilla CSN
+      - Site - Mozilla CDN
     - Spider
       - Max Depth to Crawl: 5
       - Number of Threads: 7
@@ -71,8 +74,7 @@ The following steps are for the `external` scan (except as noted):
   - For the **`external` context, use your "sandbox" identity**. VPN not needed.
   - For the **`internal` context, use your Cloud Ops (GSA SecureAuth) identity**, and join the VPN
 - To prevent getting noise in the scan results (since that causes major confusion when the FedRAMP team processes the ConMon report), review the `Sites` list to ensure only the cloud.gov sites have a small red circle/sight on them (denoting the site will be included). Remove any sites not needed by CTRL-clicking on them and selecting `Delete`.
-  - On the `internal` rescan, you can omit `login.fr.cloud.gov` from the sites before spidering/scanning
-- CTRL-click on the context and run the `Spider` scan. This takes a little less than an hour.
+- CTRL-click on the context and run the `Spider` scan. This should only take a few minutes.
 - After the `Spider` scan is complete, again CTRL-click on the context and this time run the `Active Scan`.
 - After the Spider and Active scans are complete, export the results:
   - From `Report` menu, select `Generate Report ...`
@@ -111,7 +113,7 @@ In `~/Library/Application Support/ZAP/log4j2.properties`:
 
 Change the following level's to debug so the entries look like this:
 
-```
+```text
 logger.paros.name = org.parosproxy.paros
 logger.paros.level = debug
 
@@ -123,7 +125,7 @@ Open ZAP, follow the above and open Firefox. Try to go to the server that failed
 
 If that works, then change the levels back to info from debug, so they look like this:
 
-```
+```text
 logger.paros.name = org.parosproxy.paros
 logger.paros.level = info
 
@@ -133,7 +135,7 @@ logger.zap.level = info
 
 For the internal sites, try the following order in Firefox to bring up the sites according to the context:
 
-```
+```text
 https://ci.fr.cloud.gov
 https://admin.fr.cloud.gov
 https://alertmanager.fr.cloud.gov
@@ -214,9 +216,9 @@ A python script is used to generate the inventory list.
   - Run `python3 cg-scripts/generate-POAM-inventory.py > inv.csv`, then `exit`.
   - Copy the CSV to your local clipboard by running the following, where `{environment}` is `production`, `master`, or `tooling` and `container-number` is the number from the first step.
 
-
-        fly -t ci i -j "jumpbox/container-bosh-{environment}" -s jumpbox -b "{container-number}" -- cat inv.csv | pbcopy
-        
+    ```shell
+    fly -t ci i -j "jumpbox/container-bosh-{environment}" -s jumpbox -b "{container-number}" -- cat inv.csv | pbcopy
+    ```
 
 - Paste the contents in the spreadsheet by selecting the first cell in the first blank row following the manually maintained inventory items, then pasting with CTRL-Shift-V (Command-Shift-V for macOS) to paste without formatting. Then select the paste icon that appears and click `Split text to columns`
 
