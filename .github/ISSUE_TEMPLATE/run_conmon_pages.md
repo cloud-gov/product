@@ -41,7 +41,7 @@ Each user should have a support user account created in the `zap-scans` organiza
     - Global Exclude URL:
       - Site - Firefox (select all)
       - Site - Font CDNs
-      - Site - Mozilla CSN
+      - Site - Mozilla CDN
       - Spider
         - Max Depth to Crawl: 5
         - Number of Threads: 7
@@ -56,7 +56,7 @@ Each user should have a support user account created in the `zap-scans` organiza
 
 Running the ZAP scan takes approximately one hour but can consume a large amount of system resources during the final step:
 
-- From the cloud.gov `product` repo, load the cloud.gov `cloud.gov-conmon-external.context` into ZAP (File > Import Context)
+- From the cloud.gov `product` repo, load the cloud.gov `cloud.gov-conmon-pages.context` into ZAP (File > Import Context)
   - Delete the "Default Context" or any already completed context.
 - On the top line of icons, there should be a Firefox icon on the far right. Click that to open Firefox preconfigured to proxy through ZAP.
 - Open the `context` to see the included web applications (Context -> Included in Context)
