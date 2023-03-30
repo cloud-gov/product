@@ -4,7 +4,6 @@
     <name>cloud.gov internal conmon</name>
     <desc/>
     <inscope>true</inscope>
-    <incregexes>https://admin.fr.cloud.gov.*</incregexes>
     <incregexes>https://alertmanager.fr.cloud.gov.*</incregexes>
     <incregexes>https://ci.fr.cloud.gov.*</incregexes>
     <incregexes>https://grafana.fr.cloud.gov.*</incregexes>
