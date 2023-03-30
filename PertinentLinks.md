@@ -25,7 +25,6 @@ For easy import of these bookmarks download and import [import_bookmarks.html](.
 - [Developer Documentation GDrive](https://drive.google.com/drive/folders/1-JuCl9WmxjOMPNCUI49srHHuEtkA4BoE)
 - [ZenDesk support tickets](https://cloud-gov.zendesk.com/agent/dashboard) :lock: (SSO)
 - [AWS GovCloud console][aws-fr-console] :lock:
-- [Admin console](https://admin.fr.cloud.gov/) :lock:
 - [Concourse GovCloud](https://ci.fr.cloud.gov/) :lock:
 - [cloud.gov repositories][github-cloud-gov-cg]
 - [cloud.gov deployment repositories][github-cloud-gov-cg-deploy]
