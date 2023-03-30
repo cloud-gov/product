@@ -135,7 +135,6 @@ For the internal sites, try the following order in Firefox to bring up the sites
 
 ```
 https://ci.fr.cloud.gov
-https://admin.fr.cloud.gov
 https://alertmanager.fr.cloud.gov
 https://logs-platform.fr.cloud.gov
 https://grafana.fr.cloud.gov
