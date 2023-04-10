@@ -16,7 +16,7 @@ assignees: ''
     - [ ] A: System Owner creates this issue
   - B:
     - [ ] B.1: System owner emails cloud-gov-compliance@gsa.gov and cloud-gov-operations@gsa.gov with their authorization
-    - [ ] B.2: An operator downloads a copy of the authorizing email (Open email > Three dots icon > Download) and uploads it to [Google Drive](https://drive.google.com/drive/folders/1OaVhWNp1rTvUrI4-13liz5JCAT4bx869)
+    - [ ] B.2: An operator adds a link to the Google Group conversation that includes the authorizing email.
 - **Please only use first names.**
 
 ---
