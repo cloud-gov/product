@@ -134,7 +134,12 @@ In order to install development tools on your Mac, you will need to request loca
 
 ### Cloud Operations account management
 
-_Note: These are all contingent on completing the GSA Mandatory Cyber Security and Privacy Training first. AWS user names should be identical across accounts so that permissions can be correctly managed by Terraform._
+Before starting this section, you must complete:
+
+1. GSA Mandatory Cyber Security and Privacy Training
+1. Role-based trainings listed under "Learn our policies and procedures"
+
+AWS user names should be identical across accounts so that permissions can be correctly managed by Terraform.
 
 - [ ] Create [AWS Accounts](https://cloud.gov/docs/ops/aws-onboarding/) by following [these instructions](https://github.com/cloud-gov/aws-admin/blob/main/docs/user_mgmt.md). These accounts should be setup as read-only at the start, and once the 3 mandatory cloud.gov trainings are complete they will be switched to full admin accounts and added to the [audit input file](https://github.com/cloud-gov/cg-compliance/blob/master/audit/inputs.yml):
   - [ ] AWS Commercial accounts
