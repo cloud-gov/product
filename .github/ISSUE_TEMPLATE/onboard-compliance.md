@@ -117,7 +117,12 @@ Please let your onboarding buddy know and they will help you request [local admi
 
 ### Cloud Operations account management
 
-*Note: These are all contingent on completing the GSA Mandatory Cyber Security and Privacy Training first. AWS user names should be identical across accounts so that permissions can be correctly managed by Terraform.*
+Before starting this section, you must complete:
+
+1. GSA Mandatory Cyber Security and Privacy Training
+1. Role-based trainings listed under "Learn our policies and procedures"
+
+AWS user names should be identical across accounts so that permissions can be correctly managed by Terraform.
 
 * [ ] Create [AWS Accounts](https://cloud.gov/docs/ops/aws-onboarding/) via the AWS web console (not Terraform) and provide one-time credentials - these will be setup with read-only/auditor permissions, and once the 3 mandatory cloud.gov trainings are complete they will be added to the [audit input file](https://github.com/cloud-gov/cg-compliance/blob/master/audit/inputs.yml):
   * [ ] AWS Commercial accounts
