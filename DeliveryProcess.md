@@ -12,7 +12,6 @@ We've structured our team into four teams.
   - Mark Boyd
   - Robert Gottlieb
   - James Hochadel
-  - Rian Bogle
   - David Anderson
   - Dorothy Tamasang
 
