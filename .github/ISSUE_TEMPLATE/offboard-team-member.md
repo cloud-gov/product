@@ -40,10 +40,6 @@ If the person offboarding is a contractor follow the steps in the [offboarding c
 
 - [ ] Mention the TTS HR liaison and TTS Tech Portfolio in this ticket so they can update with their status. Make sure that someone from TTS Tech Portfolio or you have completed these items:
   - [ ] Remove their access to [StatusPage](https://manage.statuspage.io/organizations/btc69fwyvjh7/team) 
-  - [ ] Remove them from [the cloudgov subteam in Docker Hub](https://hub.docker.com/u/18fgsa/dashboard/teams/?team=cloudgov)
-  - [ ] Remove write/push access for NPM from [cloudgov-style](https://www.npmjs.com/package/cloudgov-style)
-  - [ ] Remove them from [HackerOne](https://hackerone.com/)
-  - [ ] If they are leaving GSA, ask `#admins-slack` to convert them to a single-channel alumni user
   - [ ] Remove their agent access to Zendesk - [switch their role to "end user"](https://cloud-gov.zendesk.com/agent/admin/people)
   - [ ] Update this issue with a comment within 24h of departure that the above steps are complete
 - [ ] Remove them from `@cg-team`, `@cg-operators`, and any other `@cg-` teams in the Slack Team Directory [using the three-dot menu (instructions)](https://get.slack.help/hc/en-us/articles/212906697-User-Groups)
@@ -72,7 +68,6 @@ The following do not directly impact cloud.gov security & operations and can hap
 - [ ] Remove them from [Nessus](https://nessus.fr.cloud.gov/#/settings/users)
 - [ ] Remove them from [Tenable (if Compliance Team)](https://community.tenable.com/s/contacts]
 - [ ] Remove them from the [Cloud Foundry Community GitHub org cloud.gov team](https://github.com/orgs/cloudfoundry-community/teams/cloud-gov/members)
-- [ ] Remove them from the `CG-PRIV` Google Group
 - [ ] Remove them from [the cloud.gov operations Google Group](https://groups.google.com/a/gsa.gov/forum/#!managemembers/cloud-gov-operations/members/active)
 - [ ] Remove them from [the cloud.gov compliance team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-compliance/members/active)
 - [ ] Remove them from [the cloud.gov notifications Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-notifications/members/active)
