@@ -67,6 +67,7 @@ The following do not directly impact cloud.gov security & operations and can hap
 
 - [ ] Remove them from [Nessus](https://nessus.fr.cloud.gov/#/settings/users)
 - [ ] Remove them from [Tenable (if Compliance Team)](https://community.tenable.com/s/contacts]
+- [ ] Remove them from the [CG-PRIV Space](https://mail.google.com/mail/u/0/#chat/space/AAAAr60JXAc)
 - [ ] Remove them from the [Cloud Foundry Community GitHub org cloud.gov team](https://github.com/orgs/cloudfoundry-community/teams/cloud-gov/members)
 - [ ] Remove them from [the cloud.gov operations Google Group](https://groups.google.com/a/gsa.gov/forum/#!managemembers/cloud-gov-operations/members/active)
 - [ ] Remove them from [the cloud.gov compliance team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-compliance/members/active)

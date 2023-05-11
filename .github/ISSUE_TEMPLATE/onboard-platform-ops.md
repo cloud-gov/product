@@ -149,6 +149,7 @@ AWS user names should be identical across accounts so that permissions can be co
 - [ ] Add them to the [`platform-ops`](https://github.com/orgs/cloud-gov/teams/platform-ops) team in GitHub.
 - [ ] Add them as an admin on the cg-django-uaa [docs](https://readthedocs.org/projects/cg-django-uaa/)
 - [ ] Add them to [the cloud.gov team Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov) so they can participate in team-wide internal communication.
+- [ ] Add them to the [CG-PRIV Google Space](https://mail.google.com/mail/u/0/#chat/space/AAAAr60JXAc), a fallback team communication channel in the event Slack is down.
 - [ ] Add them to [our dockerhub org](https://hub.docker.com/orgs/cloudgov) and ensure we're not over our license count
 - [ ] Add them as an `agent` to the cloud.gov support Zendesk (Ask a cloud.gov member with admin access to Zendesk to add them).
 - [ ] Add them as Technical users to [Ubuntu Advantage](https://ubuntu.com/pro/users) (Admin users for leads and supervisors) 
