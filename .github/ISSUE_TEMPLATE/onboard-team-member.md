@@ -54,18 +54,11 @@ These items help us fulfill security and compliance requirements (including for 
 
 For the three trainings list at the top, your onboarding buddy will create a separate ticket to track the trainings once scheduling has been finished.  This will help consolidate trainings for multiple new members to the team and prevent them from blocking progress on this onboarding ticket.  Once the trainings are scheduled, they can be marked as complete here.
 
-* [ ] Coordinate with your onboarding buddy to go through Contingency Planning training within 60 days (and annually after that). This will cover the following document, which you should also review before or after training:
-  * [ ] Read the [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/).
 * [ ] Coordinate with your onboarding buddy to go through [Incident Response Training](https://docs.google.com/presentation/d/1AZjQE8zBzMRWZIFUuJPkJLted1ykGtALrLPoPRx5Vls/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following document, which you should also review before or after training:
   * [ ] Read the [Incident Response Guide](https://cloud.gov/docs/ops/security-ir/).
 * [ ] Coordinate with your onboarding buddy to go through [nonpublic information training](https://docs.google.com/presentation/d/1uB4MlGCu8ZYUxjKVZKwicQ95MvLxaT4Mh93y6w79GPw/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following documents, which you should also review before or after training:
-  * [ ] Review the [cloud.gov open source policy guidance about protecting sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information).
-  * [ ] Read our [sharing secret keys](https://cloud.gov/docs/ops/secrets/#sharing-secret-keys) policy.
   * [ ] Review the [TTS requirements for password management](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/password-requirements/).
-* [ ] Read the [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), particularly the [cloud.gov team responsibilities](https://cloud.gov/docs/ops/continuous-monitoring/#cloud-gov-team).
-* [ ] Read the [Configuration Management Plan](https://cloud.gov/docs/ops/configuration-management/).
 * [ ] Read the [cloud.gov Security Policies and Procedures](https://github.com/cloud-gov/cg-compliance-docs). These documents explain the high-level policies and procedures we must comply with while running cloud.gov, sorted into security control "families" They explain that we follow GSA IT security policy, and they provide a summary of the procedures in our System Security Plan.
-* [ ] Review the System Security Plan (the latest version lives on [Google Drive](https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0); look for "cloud.gov System Security Plan (SSP)" as a *.docx* file). Of particular note for onboarding: Section 9 (System Description) and Section 10 (System Environment)
 
 ### Getting to know cloud.gov
 
@@ -77,9 +70,7 @@ very quickly, so your onboarding buddy will walk through this list with you at a
 - [ ] Bookmark the [pertinent links listed here](https://github.com/cloud-gov/product/blob/master/PertinentLinks.md).
 - [ ] Read through [the Overview section of our site](https://cloud.gov/docs/overview/what-is-cloudgov/) for a broader understanding of cloud.gov, especially how we present it to potential customers and users.
 - [ ] [Sign up for a cloud.gov sandbox](https://cloud.gov/sign-up/#get-trial-access-and-a-free-sandbox-space) using your GSA email address and start experimenting to get familiar with the basics of the PaaS from a user's perspective.
-  - This is also required in order to make you a platform admin once you've completed the Cybersecurity and Privacy training.
 - [ ] Read the [Delivery Process document](https://github.com/cloud-gov/product/blob/master/StoryLifecycle.md) to learn about how we work.
-- [ ] Read our [service disruption guide](https://cloud.gov/docs/ops/service-disruption-guide/) to learn how we handle customer-facing service disruptions.
 - [ ] Add the [cloud.gov Google Drive folder](https://drive.google.com/drive/folders/0Bx6EvBXVDWwheUtVckVnOE1pRzA) to your Google Drive -- that's where we put cloud.gov docs. If you create or move a doc there, it'll get the right access permissions for team members to be able to view and edit it.
 - [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&amp;ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various squads. Tip: When you plan Out of Office time, make a calendar event for that on the cloud.gov calendar so that your teammates know you'll be away
 
@@ -90,15 +81,14 @@ Your onboarding buddy will add you to these Slack channels:
 - [ ] `#cloud-gov` - bots post announcements here
 - [ ] `#cg-billing` - private business development channel (if applicable)
 - [ ] `#cg-business` - business development (if applicable)
-- [ ] `#cg-compliance` - compliance-related information and discussion
 - [ ] `#cg-offtopic` - off-topic team sharing
-- [ ] `#cg-platform` - platform operations
-- [ ] `#cg-platform-news` - bots post platform alerts
 - [ ] `#cg-general` - program-level information and discusion
-- [ ] `#cg-support` - support requests and assistance within TTS
-- [ ] `#cg-incidents` - private channel for incident response
 - [ ] `#cg-priv-all` - private channel for in-team discussion
 - [ ] `#cg-priv-gov` (Federal employees only) - may contain discussion of contracting-related or other private, federal-employee-only comms
+
+Business team members should be added to:
+
+- [ ] `#cg-oa` - Office of Acquisition, a federal-only channel with contracting officers
 
 Once you're added to these channels, you probably want to mute these channels until you're on support rotation:
 
