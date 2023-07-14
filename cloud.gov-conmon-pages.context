@@ -13,6 +13,12 @@
         <excregexes>mozilla\.org</excregexes>
         <excregexes>firefox\.com</excregexes>
         <excregexes>getpocket\.com</excregexes>
+        <excregexes>cloudflare-dns\.com</excregexes>
+        <excregexes>digitalgov\.gov</excregexes>
+        <excregexes>elastic\.co</excregexes>
+        <excregexes>grafana\.com</excregexes>
+        <excregexes>jsdelivr\.net</excregexes>
+        <excregexes>secureauth\.gsa\.gov</excregexes>
         <tech>
             <include>Db.MySQL</include>
             <include>Db.PostgreSQL</include>
