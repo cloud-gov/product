@@ -62,6 +62,7 @@ Running the ZAP scan takes approximately one hour but can consume a large amount
 - On the top line of icons, there should be a Firefox icon on the far right. Click that to open Firefox preconfigured to proxy through ZAP.
 - Open the `context` to see the included web applications (Context -> Included in Context)
 - In the ZAP-configured Firefox, log in to each site in the context list.
+> NOTE: These steps should start to populate ZAP's `Sites` list. If nothing is showing up there, you may need to disable Zscaler and try these steps again. As of July, 2023 (ZAP 2.13.0) `Sites` did not populate and the `Spider` scan reported 0 URLs until Zscaler was disabled.
 - To prevent getting noise in the scan results (since that causes major confusion when the FedRAMP team processes the ConMon report), review the `Sites` list to ensure only the cloud.gov sites have a small red circle/sight on them (denoting the site will be included). Remove any sites not needed by CTRL-clicking on them and selecting `Delete`.
 - CTRL-click on the context and run the `Spider` scan.
 - After the `Spider` scan is complete, again CTRL-click on the context and this time run the `Active Scan`.
@@ -80,6 +81,8 @@ Running the ZAP scan takes approximately one hour but can consume a large amount
 ## Troubleshooting ZAP Scans
 
 Ensure you are not running any other local webservers as the ports can infere with the scan.
+
+If ZAP's `Sites` does not show the sites being visited, or if the scan operations do not seem to be successfully visiting sites, it may be necessary to disable Zscaler for the duration of the ConMon scan.
 
 In Firefox if you see a Java Unable to Connect Exception, try the following:
 
