@@ -1,8 +1,8 @@
 ---
 name: Blog Post
-title: 'Blog post: [title of your blog post]'
 about: INTERNAL ONLY propose a post for cloud.gov blog
-labels: communications
+title: 'Blog post: [title of your blog post]'
+labels: ''
 assignees: ''
 
 ---

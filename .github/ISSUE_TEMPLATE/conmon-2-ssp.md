@@ -1,9 +1,10 @@
 ---
 name: Compliance - Ship SSP
-title: "Ship new version of cloud.gov SSP"
 about: INTERNAL ONLY schedule SSP delivery
+title: Ship new version of cloud.gov SSP
 labels: compliance
-assignees: ""
+assignees: ''
+
 ---
 
 Download from Google, open in Word, clean up table, etc.
@@ -31,4 +32,3 @@ Save as DOCX, upload back to Google Drive as the 'indev' version.
 
 Safe. The existence of this issue provides no useful public info to a malicious actor. Regularly 
 update our SSP is good for compliance & security
-

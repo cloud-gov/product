@@ -1,9 +1,10 @@
 ---
 name: ConMon - Run Scans
-title: "Run [month] [year] ConMon scans"
 about: INTERNAL ONLY schedule conmon runs
+title: Run [month] [year] ConMon scans
 labels: compliance
-assignees: ""
+assignees: ''
+
 ---
 
 In order for us to update the JAB on our compliance in a consistent way, we need to run Continuous Monitoring scans on approximately the 23rd of the month. (If this date falls on a weekend or federal holiday, adjust to the last business day before the date.)
@@ -145,6 +146,16 @@ https://opslogin.fr.cloud.gov
 ```
 
 If the context changes the sites, this list and order will need to be revisited.
+
+### SecureAuth Looping
+
+If you encounter an issue where SecureAuth is looping while you are logging into cloud.gov to set up the internal scan, then you may want to try the following:
+
+- Restart zap, and open up firefox through the zap ui.
+- In the top right of the firefox browser click the hamburger icon and then select settings.
+- Search for proxy using the search bar, and then select to not use proxy settings.
+- Close out of the menu, and then proceed to log into cloud.gov like normal. Once logged in, go back into the firefox settings and set proxy back to `custom`.
+- Open a new tab, and you can now proceed to visit each site in the internal context list without issue.
 
 ### Generic Troubleshooting
 

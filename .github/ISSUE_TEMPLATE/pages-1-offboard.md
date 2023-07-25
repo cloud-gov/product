@@ -1,12 +1,14 @@
 ---
 name: Offboard Existing cloud.gov Pages Team Member
+about: This is the checklist and requirements for offboarding an existing Pages team
+  member
 title: Checklist for Offboarding an Existing Pages Team member
-about: This is the checklist and requirements for offboarding an existing Pages team member
 labels: ''
 assignees: ''
+
 ---
 
- # Offboard cloud.gov Pages Team Member
+# Offboard cloud.gov Pages Team Member
 
  ## Special Notes
 
@@ -49,4 +51,3 @@ When a pages ops team member leaves the team:
 - [ ] Remove from backups list if appropriate.
 - [ ] Have a cloud.gov operator remove the user from the “pages.admin” group in the cloud.gov UAA by using the make-pages-admin.sh script
 - [ ] Have a cloud.gov operator remove the user from “concourse.pages” team in the cloud.gov OpsUAA by using the make-pages-ops-admin.sh script so they cannot access Concourse CI
-

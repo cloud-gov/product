@@ -1,7 +1,7 @@
 ---
 name: System Owner Authorize Offboarding
-title: System Owner Authorization for Offboarding an Existing Team Member
 about: INTERNAL ONLY - CAN ONLY BE CREATED BY THE SYSTEM OWNER
+title: System Owner Authorization for Offboarding an Existing Team Member
 labels: compliance
 assignees: ''
 

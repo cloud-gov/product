@@ -1,11 +1,12 @@
 ---
 name: ConMon - Deliver Scans
-title: 'Deliver [month] [year] ConMon results by [due date]'
 about: INTERNAL ONLY deliver conmon results
+title: Deliver [month] [year] ConMon results by [due date]
 labels: compliance
 assignees: ''
 
 ---
+
 In order for us to update the JAB on our compliance in a consistent way, we need to deliver a Continuous Monitoring report on YYYY-MM-DD. (our standard due date is the 2nd of the month. If these dates fall on a weekend or federal holiday, adjust to the last business day before the date.)
 
 For context, see our [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), including [the monthly reporting summary explanation](https://cloud.gov/docs/ops/continuous-monitoring/#monthly-reporting-summary). 

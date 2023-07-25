@@ -1,7 +1,8 @@
 ---
 name: Offboard Existing cloud.gov Platform Operations Team Member
+about: This is the checklist and requirements for offboarding an existing platform
+  operator to the cloud.gov team
 title: Checklist for Offboarding an Existing Platform Operator
-about: This is the checklist and requirements for offboarding an existing platform operator to the cloud.gov team
 labels: ''
 assignees: ''
 

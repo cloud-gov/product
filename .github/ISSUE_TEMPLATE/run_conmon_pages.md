@@ -1,9 +1,10 @@
 ---
 name: Run Pages ConMon Scans
-title: "Run [month] [year] Pages ConMon scans"
 about: INTERNAL ONLY schedule pages conmon runs
+title: Run [month] [year] Pages ConMon scans
 labels: compliance
-assignees: ""
+assignees: ''
+
 ---
 
 Re: [link to platform conmon ticket]

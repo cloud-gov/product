@@ -1,7 +1,8 @@
 ---
 name: Onboard New cloud.gov Compliance Team Member
+about: This is the checklist and requirements for onboarding a new compliance team
+  member to the cloud.gov team
 title: Checklist for Onboarding a New Compliance Team Member
-about: This is the checklist and requirements for onboarding a new compliance team member to the cloud.gov team
 labels: ''
 assignees: ''
 

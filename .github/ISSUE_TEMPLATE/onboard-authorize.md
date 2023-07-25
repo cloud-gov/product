@@ -1,7 +1,7 @@
 ---
 name: System Owner Authorize Onboarding
-title: System Owner Authorization for Onboarding a New Team Member
 about: INTERNAL ONLY - CAN ONLY BE CREATED BY THE SYSTEM OWNER
+title: System Owner Authorization for Onboarding a New Team Member
 labels: compliance
 assignees: ''
 

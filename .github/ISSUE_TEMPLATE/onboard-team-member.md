@@ -1,7 +1,8 @@
 ---
 name: Onboard New cloud.gov Team Member
+about: This is the checklist and requirements for onboarding a new team member to
+  the cloud.gov team
 title: Checklist for Onboarding a New Team Member
-about: This is the checklist and requirements for onboarding a new team member to the cloud.gov team
 labels: ''
 assignees: ''
 

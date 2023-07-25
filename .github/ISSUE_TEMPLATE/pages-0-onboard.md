@@ -1,12 +1,13 @@
 ---
 name: Onboard New cloud.gov Pages Team Member
-title: Checklist for Onboarding a Pages Team Member
 about: This is the checklist and requirements for onboarding a new Pages team member
+title: Checklist for Onboarding a Pages Team Member
 labels: ''
 assignees: ''
+
 ---
 
- # New Pages Team Member Onboarding Checklist
+# New Pages Team Member Onboarding Checklist
 
  ## Special Notes
 
