@@ -3,6 +3,10 @@
     <context>
         <name>cloud.gov pages conmon</name>
         <desc/>
+        <!-- 
+          When adding URLs here, sync also with 
+             cg-deploy-prometheus/blob/main/bosh/varsfiles/production.yml
+        -->
         <inscope>true</inscope>
         <incregexes>https://pages-staging.cloud.gov.*</incregexes>
         <incregexes>https://pages.cloud.gov.*</incregexes>
