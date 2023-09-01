@@ -13,7 +13,6 @@ We've structured our team into four teams.
   - Robert Gottlieb
   - James Hochadel
   - David Anderson
-  - Dorothy Tamasang
 
 - Pages
   - Drew Bollinger
