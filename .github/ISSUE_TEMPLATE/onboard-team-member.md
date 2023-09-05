@@ -34,7 +34,7 @@ In order to get `New Person` productively contributing to the cloud.gov team, `B
 
 These items help us fulfill security and compliance requirements (including for FedRAMP). If you get stuck, or if these requirements are confusing, ask for help from your buddy or in a cloud.gov channel.
 
-- [ ] Take judicious notes on what about this onboarding process or cloud.gov is confusing or frustrating. If you notice a problem (especially with things like documentation), you are more than welcome to fix it! At the very least, please share this information with your onboarding buddy (or someone) at some point so we can make the team/platform better. (You can also file issues and pull requests on [the template Onboarding checklist](https://github.com/cloud-gov/product/blob/master/.github/ISSUE_TEMPLATE/general-team-member-onboarding.md).
+- [ ] Take judicious notes on what about this onboarding process or cloud.gov is confusing or frustrating. If you notice a problem (especially with things like documentation), you are more than welcome to fix it! At the very least, please share this information with your onboarding buddy (or someone) at some point so we can make the team/platform better. (You can also file issues and pull requests on [the template Onboarding checklist](https://github.com/cloud-gov/product/blob/main/.github/ISSUE_TEMPLATE/onboard-team-member.md).
 - [ ] Be sure to introduce yourself and follow up with your onboarding buddy (they should have reached out to you at this point; if they haven't, please let the team know) and make sure this issue is assigned to them in our [Github Project Planning Board](https://github.com/orgs/cloud-gov/projects/2). We use this board to organize, prioritize, and track our work.
 
 #### Pre-requisites
@@ -55,7 +55,7 @@ These items help us fulfill security and compliance requirements (including for 
 For the three trainings list at the top, your onboarding buddy will create a separate ticket to track the trainings once scheduling has been finished.  This will help consolidate trainings for multiple new members to the team and prevent them from blocking progress on this onboarding ticket.  Once the trainings are scheduled, they can be marked as complete here.
 
 * [ ] Coordinate with your onboarding buddy to go through Contingency Planning training within 60 days (and annually after that). This will cover the following document, which you should also review before or after training:
-  * [ ] Read the [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/).
+  * [ ] Read the [Contingency Plan](https://cloud.gov/docs/ops/contingency-plan/).
 * [ ] Coordinate with your onboarding buddy to go through [Incident Response Training](https://docs.google.com/presentation/d/1AZjQE8zBzMRWZIFUuJPkJLted1ykGtALrLPoPRx5Vls/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following document, which you should also review before or after training:
   * [ ] Read the [Incident Response Guide](https://cloud.gov/docs/ops/security-ir/).
 * [ ] Coordinate with your onboarding buddy to go through [nonpublic information training](https://docs.google.com/presentation/d/1uB4MlGCu8ZYUxjKVZKwicQ95MvLxaT4Mh93y6w79GPw/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following documents, which you should also review before or after training:
