@@ -7,7 +7,7 @@ assignees: ""
 ---
 
 Three weeks before the kickoff:
-- Notifiy our COR (currently @melanienleopold)
+- Notify our COR (currently @melanienleopold)
   
 
 ## Security Considerations
