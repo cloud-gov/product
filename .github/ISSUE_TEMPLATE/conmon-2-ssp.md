@@ -29,6 +29,6 @@ Save as DOCX, upload back to Google Drive as the 'indev' version.
 
 ## Security Considerations
 
-Safe. The existence of this issue provides no useful public info to a malicious actor. Regularly 
-update our SSP is good for compliance & security
+Safe. The existence of this issue provides no useful public info to a malicious actor. Regular 
+updates to our SSP is good for compliance & security
 
