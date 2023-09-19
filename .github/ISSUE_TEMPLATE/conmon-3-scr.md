@@ -1,7 +1,7 @@
 ---
 name: Compliance - Start SCR
 title: "Initiate an SCR engagement"
-about: INTERNAL ONLY Start a new Significan Change engagement with 3PAO
+about: INTERNAL ONLY Start a new Significant Change engagement with 3PAO
 labels: compliance
 assignees: ""
 ---
