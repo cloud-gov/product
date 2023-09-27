@@ -84,6 +84,8 @@ Ensure you are not running any other local webservers as the ports can infere wi
 
 If ZAP's `Sites` does not show the sites being visited, or if the scan operations do not seem to be successfully visiting sites, it may be necessary to disable Zscaler for the duration of the ConMon scan.
 
+If when you open ZAP's Firefox it fails to open displaying the "Explore your application with ZAP" landing page _even though you've stopped Zscaler..._ try rebooting. Sometimes it's time, and it works.
+
 In Firefox if you see a Java Unable to Connect Exception, try the following:
 
 Close both Firefox and ZAP.
