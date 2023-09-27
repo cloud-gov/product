@@ -34,7 +34,7 @@ Each user should have a support user account created in the `zap-scans` organiza
   - For "Session persistence", select "No, I do not want to persist my session..."
   - For "Manage add-ons", select "Update All"
   > NOTE: As of July, 2023 (ZAP 2.13.0) "Manage add-ons" did not pop up automatically and, when opened from the toolbar, rendered the "Update All" button as disabled.
-  - ZAP -> Preferences -> Options:
+  - ZAP -> Settings -> Options:
     - JVM -> JVM options: `-Xmx8192m`
     - Active Scan:
       - 3 hosts
