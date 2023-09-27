@@ -43,9 +43,9 @@ Each user should have a support user account created in the `zap-scans` organiza
       - Site - Firefox (select all)
       - Site - Font CDNs
       - Site - Mozilla CDN
-      - Spider
-        - Max Depth to Crawl: 5
-        - Number of Threads: 7
+    - Spider
+      - Max Depth to Crawl: 5
+      - Number of Threads: 7
 
 ### Quit and restart ZAP if you change the JVM options
 
