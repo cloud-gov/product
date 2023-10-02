@@ -34,7 +34,7 @@ Each user should have a support user account created in the `zap-scans` organiza
   - For "Session persistence", select "No, I do not want to persist my session..."
   - For "Manage add-ons", select "Update All"
   > NOTE: As of July, 2023 (ZAP 2.13.0) "Manage add-ons" did not pop up automatically and, when opened from the toolbar, rendered the "Update All" button as disabled.
-  - ZAP -> Preferences -> Options:
+  - ZAP -> Settings -> Options:
     - JVM -> JVM options: `-Xmx8192m`
     - Active Scan:
       - 3 hosts
@@ -43,9 +43,9 @@ Each user should have a support user account created in the `zap-scans` organiza
       - Site - Firefox (select all)
       - Site - Font CDNs
       - Site - Mozilla CDN
-      - Spider
-        - Max Depth to Crawl: 5
-        - Number of Threads: 7
+    - Spider
+      - Max Depth to Crawl: 5
+      - Number of Threads: 7
 
 ### Quit and restart ZAP if you change the JVM options
 
@@ -83,6 +83,8 @@ Running the ZAP scan takes approximately one hour but can consume a large amount
 Ensure you are not running any other local webservers as the ports can infere with the scan.
 
 If ZAP's `Sites` does not show the sites being visited, or if the scan operations do not seem to be successfully visiting sites, it may be necessary to disable Zscaler for the duration of the ConMon scan.
+
+If when you open ZAP's Firefox it fails to open displaying the "Explore your application with ZAP" landing page _even though you've stopped Zscaler..._ try rebooting. Sometimes it's time, and it works.
 
 In Firefox if you see a Java Unable to Connect Exception, try the following:
 
