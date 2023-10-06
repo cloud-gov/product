@@ -18,7 +18,29 @@ Monthly review to make sure cloud.gov Pages users, orgs, and roles are accuratel
 
 ## Prepare and import CSV data into ZenDesk
 
-- _TO DO_
+### Organization Import
+
+*Important! The Organinzations report needs to be impored first otherwise users being added in the Users report to new organizations which don't yet exist in Zendesk will cause the job to fail*
+
+- Download and open the CSV export in Google sheets for editing purposes
+- In the header of the first column rename "Organizations" to "names" 
+- In the header of the second column rename "Agency" to "details"
+- Save the sheet as an CSV
+- Navigate to the Zendesk admin center 
+- In the left hand panel locate "Bulk actions" and choose "Import organizations"
+- A import job report will be sent to your .gov inbox where you can view if the job was successful/unsuccesful
+
+### User Import
+
+- Download and open the CSV export in Google sheets for editing purposes
+- Delete all columns besides "Email" "Organizations" "Name" "Details"
+*The "Name" and "Email" fields are required for importing new users, without them the entire job will fail*
+- Save the sheet as an CSV
+- Navigate to the Zendesk admin center 
+- In the left hand panel locate "Bulk actions" and choose "Import organizations"
+- A import job report will be sent to your .gov inbox where you can view if the job was successful/unsuccesful
+
+
 
 ## Acceptance criteria
 
