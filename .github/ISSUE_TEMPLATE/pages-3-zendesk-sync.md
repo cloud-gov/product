@@ -20,7 +20,7 @@ Monthly review to make sure cloud.gov Pages users, orgs, and roles are accuratel
 
 ### Organization Import
 
-*Important! The Organinzations report needs to be imported first otherwise users being added in the Users report to new organizations which don't yet exist in Zendesk will cause the job to fail*
+*Important! The Organizations report needs to be imported first otherwise users being added in the Users report to new organizations which don't yet exist in Zendesk will cause the job to fail*
 
 - Download and open the CSV export in Google Sheets for editing purposes
 - In the header of the first column rename "Organizations" to "names" 
