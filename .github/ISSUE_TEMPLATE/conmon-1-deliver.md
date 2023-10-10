@@ -110,7 +110,12 @@ The items left-aligned are ones that we're in last months' report but are now fi
   * paste CSV output into vulnerability tracker, then use the `Data` menu to convert to `Split Text to Columns`
   * fix up the entry
   * copy down the formula for Column M, "Scheduled Completion Date", to generate the due date based on severity
-  * Any Java and Tomcat findings will require work outside our normal stemcell patching. See [closed issues in the private repository](https://github.com/cloud-gov/private/issues?q=is%3Aissue+is%3Aopen+in%3Atitle+OpenJDK+OR+Java+OR+Tomcat) for examples
+  * Any Java and Tomcat findings will require work outside our normal stemcell patching. See [closed issues in the private repository](https://github.com/cloud-gov/private/issues?q=is%3Aissue+is%3Aopen+in%3Atitle+OpenJDK+OR+Java+OR+Tomcat) for examples. More specifically:
+    * Shibboleth: Open a ticket in https://github.com/cloud-gov/shibboleth-boshrelease/ to patch Java or Tomcat, and route to platform ops
+    * UAA: 
+       * Check at https://github.com/cloudfoundry/uaa-release/releases and https://github.com/cloudfoundry/uaa-release/blob/develop/config/blobs.yml to see if the issue has already been addressed with updates to "bellsoft".
+       * If not, open a ticket in  https://github.com/cloud-gov/private asking platform ops for assistance working with upstream CF UAA
+    * CredHub and Bosh seem to get patched OK by CFF without any nudging from us.
 * Use the `prep_zap` function for ZAP scan consolidation
   * Likewise, work through the `MM.zap_work` file
   * Mostly ignore the Low findings
