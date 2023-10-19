@@ -33,7 +33,7 @@ Monthly review to make sure cloud.gov Pages users, orgs, and roles are accuratel
 ### User Import
 
 - Download and Import the Users CSV into Google Sheets for editing purposes
-- For "Sperator type" keep it unchanged from "Detect automatically" 
+- For "Seperator type" keep it unchanged from "Detect automatically" 
 - Delete the columns "Created" and "Last Signed In"
 - Delete all of the content in "ID"
 - The remaning colums should be "ID", "Email", "Organizations" and "Details"
