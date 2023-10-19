@@ -46,7 +46,7 @@ Monthly review to make sure cloud.gov Pages users, orgs, and roles are accuratel
 - In "Find" specify all email addresses that need to be replaced and leave "Replaced with" null
 (ie. Find:@gsa.gov Replace with: )
 - This will remove all the email address from the names under the "Name" header making it easier to format for importing purposes
-- Replace all "." with an " ," there is a space then comma
+- Replace all "." with an " ," — that is, a space then a comma
 (ie. pages.user -> pages, user)
 - Save the sheet as a CSV
 - Navigate to the Zendesk admin center 
