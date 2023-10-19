@@ -39,7 +39,7 @@ Monthly review to make sure cloud.gov Pages users, orgs, and roles are accuratel
 - The remaining columns should be "ID", "Email", "Organizations" and "Details"
 *The "Name" and "Email" fields are required for importing new users, without them the entire job will fail*
 
-- Copy and paste the entire "Email" column into the blank column (A)
+- Copy and paste the entire "Email" column into the blank column (A) that used to be the "ID" column
 - Rename the header to "Name" from "Email"
 - Utilize the "Find and replace" function by hitting command + shift + H
 - In search choose "Specific range" from the dropdown and specify A:A as the range parameter
