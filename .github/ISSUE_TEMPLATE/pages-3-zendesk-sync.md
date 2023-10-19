@@ -36,7 +36,7 @@ Monthly review to make sure cloud.gov Pages users, orgs, and roles are accuratel
 - For "Seperator type" keep it unchanged from "Detect automatically" 
 - Delete the columns "Created" and "Last Signed In"
 - Delete all of the content in "ID"
-- The remaning colums should be "ID", "Email", "Organizations" and "Details"
+- The remaining columns should be "ID", "Email", "Organizations" and "Details"
 *The "Name" and "Email" fields are required for importing new users, without them the entire job will fail*
 
 - Copy and paste the entire "Email" column into the blank column (A)
