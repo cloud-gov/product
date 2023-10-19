@@ -51,7 +51,7 @@ Monthly review to make sure cloud.gov Pages users, orgs, and roles are accuratel
 - Save the sheet as a CSV
 - Navigate to the Zendesk admin center 
 - In the lefthand panel locate "Bulk actions" and choose "Import organizations"
-- An import job report will be sent to your .gov inbox where you can view if the job was successful/unsuccesful
+- An import job report will be sent to your .gov inbox where you can view if the job was successful/unsuccessful
 
 **Note** In the csv you will notice a number of users emails towards the bottom which do not have the organization or details field associated with them and will consequently result as failures in the report results as such
 
