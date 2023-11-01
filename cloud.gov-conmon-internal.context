@@ -4,6 +4,10 @@
     <name>cloud.gov internal conmon</name>
     <desc/>
     <inscope>true</inscope>
+    <!-- 
+      When adding URLs here, sync also with 
+         cg-deploy-prometheus/blob/main/bosh/varsfiles/production.yml
+    -->
     <incregexes>https://alertmanager.fr.cloud.gov.*</incregexes>
     <incregexes>https://ci.fr.cloud.gov.*</incregexes>
     <incregexes>https://grafana.fr.cloud.gov.*</incregexes>
