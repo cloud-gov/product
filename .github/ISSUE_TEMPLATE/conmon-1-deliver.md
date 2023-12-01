@@ -6,12 +6,12 @@ labels: compliance
 assignees: ''
 
 ---
-In order for us to update the JAB on our compliance in a consistent way, we need to deliver a Continuous Monitoring report on YYYY-MM-DD. (our standard due date is the 2nd of the month. If these dates fall on a weekend or federal holiday, adjust to the last business day before the date.)
+In order for us to update the JAB on our compliance in a consistent way, we need to deliver a Continuous Monitoring report monthly (our standard due date is the 2nd of the month. If these dates fall on a weekend or federal holiday, adjust to the last business day before the date.)
 
 For context, see our [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), including [the monthly reporting summary explanation](https://cloud.gov/docs/ops/continuous-monitoring/#monthly-reporting-summary). 
 
 We need to process our scan results and prepare documentation for any updated or new items, including updating the [vulnerability tracker](https://docs.google.com/spreadsheets/d/1tAYNmiEUwMSquRcQ0MrqtP-VIo7oxh1OzD6rmkWl-9w/edit#gid=1701775784) and [POA&M](https://docs.google.com/spreadsheets/d/16igVl8cD3SqeX5_SOn5Su34KmwMRnP20gPbfQlqIwfM/edit#gid=1701775784).
-
+(Vulnerabilities that are patched within RA-05/SI-02 deadlines are not reported on the POA&M sheet).
 We always have to do these tasks:
 
 * List any new identified vulnerabilities in the vulnerability tracker.
@@ -32,49 +32,66 @@ Depending on scan results, we sometimes also have to do these tasks:
 * Update our boards with current info about vulnerabilities and open POAM items and any necessary followup stories about compliance work and related technical work to prepare for the next month's report.
 * Open a PR to update our [ConMon checklist template](https://github.com/18F/cg-product/blob/master/ConMonChecklist.md).
 
-# Rough notes on Peter's hacky tracking
+## First time setup
 
 * *Set up Google FileStream* - Use from GSA SelfService, the upstream version doesn't seem to work for GSA.
 * Have `cg-scripts` in your `$PATH`
 * PIP install `nessus-file-reader`
   
+I keep all the conmon materials locally in `~/Documents/ConMon`, and have a symlink 
+to the few scripts that I use for parsing the conmon materials, as follows:
 
-I keep everything in `~/Documents/ConMon`, so
+* Clone [cg-compliance](git@github.com:cloud-gov/cg-compliance.git) to the location of your choice
+* Make a symlink from ~/Documents/Conmon to the scripts' bin directory: 
+     ```
+     cd ~/Documents/ConMon
+     # Note - pending merge of PR https://github.com/cloud-gov/cg-compliance/pull/264
+     ln -s (cg-compliance-path)/conmon/bin .
+    ```
 
-```
-cd ~/Documents
-git clone file:///Volumes/GoogleDrive/My Drive/cloud.gov/Security and Compliance/Compliance/conmon_project.git ConMon
-cd ConMon
-source conmon.sh
-```
+## Monthly processing
 
-That sets up a bunch of shell functions that we run, then copy/paste if they look correct.
 
-* `setup_dirs YYYY MM DD` - Set up the correct names and places for our copies of the scan
-* Open the new target folders and `ZAP and Nessus results` folders
-* Drag scans from `/Volumes/GoogleDrive/My Drive/18F_ISSO/FedRAMP JAB - cloud.gov - 3PAO Access/ZAP and Nessus results` to the new targets
+* `cd ConMon; source bin/conmon.sh` - Set up functions for conmon
+* `setup_dirs YYYY MM DD` - Set up the correct names, env vars, and places for our copies of the scan
+* Open in separate finder windows
+   * the new target folder (e.g. `ConMon/2021/11`) 
+   * the Google Drive with  `ZAP and Nessus results/2021-11-22`
+* Drag scans from Drive to their local targets
   * ZAP: copy both XML and HTML to the top level
   * RDS *.nessus into the RDS folders
-  * Compliance and Vuln *.nessus scans into "Production-and-Tooling..." folders. End result
-```
-    tree 2021/03
-2021/03
-├── 20210323-ZAP.html
-├── 20210323-ZAP.xml
-├── Production-and-Tooling-Vulnerability-and-Compliance-scans_2021-03-23
-│   ├── Production_Compliance_scan_wkl5wr.nessus
-│   ├── Production_Vulnerability_scan_241iec.nessus
-│   ├── Tooling_Compliance_scan_odrbso.nessus
-│   └── Tooling_Vulnerability_scan_aogr63.nessus
-└── RDS_Compliance_Scans_2021-03-23
-    ├── RDS_Compliance_-_Credhub_Prod_xctauy.nessus
-    ├── RDS_Compliance_-_Credhub_Tooling_hi0ovb.nessus
-    ├── RDS_Compliance_-_OpsUAA_Tooling_lnptdj.nessus
-    ├── RDS_Compliance_Scan_-_ATC_Tooling_fmtjza.nessus
-    ├── RDS_Compliance_Scan_-_Bosh_Tooling_6maygg.nessus
-    ├── RDS_Compliance_Scan_BOSH_Prod_9nbxn6.nessus
-    └── RDS_Compliance_Scan_CF_Prod_k9ysxd.nessus
-```
+  * Compliance and Vuln *.nessus scans into "Production-and-Tooling..." folders. End result:
+  ```
+   tree $MonthDir
+    /Users/peterdburkholder/Documents/ConMon/2023/11
+    ├── 20231122-ZAP-external.html
+    ├── 20231122-ZAP-external.xml
+    ├── 20231122-ZAP-internal.html
+    ├── 20231122-ZAP-internal.xml
+    ├── 20231128-ZAP-pages.html
+    ├── 20231128-ZAP-pages.xml
+    ├── Production-and-Tooling-Vulnerability-and-Compliance-scans_2023-11-22
+    │   ├── Production Compliance scan_6zil6h.nessus
+    │   ├── Production Vulnerability scan_awsge2.nessus
+    │   ├── Tooling Compliance scan_e16nva.nessus
+    │   └── Tooling Vulnerability scan_amokaf.nessus
+    └── RDS_Compliance_Scans_2023-11-22
+        ├── RDS Compliance - Credhub Prod_v4ek1g.nessus
+        ├── RDS Compliance - Credhub Tooling_vwal0v.nessus
+        ├── RDS Compliance - OpsUAA Tooling_hc5sqs.nessus
+        ├── RDS Compliance Scan - ATC Tooling_l6a0hm.nessus
+        ├── RDS Compliance Scan - Bosh Tooling_enkk7f.nessus
+        ├── RDS Compliance Scan BOSH Prod_9r1y4q.nessus
+        └── RDS Compliance Scan CF Prod_ipvc66.nessus
+  ```
+* Replace spaces in filenames with underscores:
+  ```shell
+  pushd Production-and-Tooling-Vulnerability-and-Compliance-scans_2021-03-23
+  spaces2underscores
+  cd ../RDS_Compliance_Scans_2021-03-23
+  spaces2underscores
+  popd
+  ```
 * Run `nessus_log4j`. This generates a table something like this: 
   ```
   ------- Log4J REPORT  ------
