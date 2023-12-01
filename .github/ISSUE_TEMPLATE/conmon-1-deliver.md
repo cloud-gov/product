@@ -12,29 +12,14 @@ For context, see our [Continuous Monitoring Strategy](https://cloud.gov/docs/ops
 
 We need to process our scan results and prepare documentation for any updated or new items, including updating the [vulnerability tracker](https://docs.google.com/spreadsheets/d/1tAYNmiEUwMSquRcQ0MrqtP-VIo7oxh1OzD6rmkWl-9w/edit#gid=1701775784) and [POA&M](https://docs.google.com/spreadsheets/d/16igVl8cD3SqeX5_SOn5Su34KmwMRnP20gPbfQlqIwfM/edit#gid=1701775784).
 (Vulnerabilities that are patched within RA-05/SI-02 deadlines are not reported on the POA&M sheet).
-We always have to do these tasks:
 
-* List any new identified vulnerabilities in the vulnerability tracker.
-   * Check for sneaky Nessus findings that apply to only a subset of components. Use the [Nessus parse script](https://github.com/18F/cg-scripts/blob/master/parse-nessus-xml.py) to help.
-   * Discard the ones listed as false positives.
-   * The [OWASP ZAP parse script](https://github.com/18F/cg-scripts/blob/master/parse-owasp-zap-xml.py) can help.
-* Move any scanner items that should be moved to closed (items originally found by a scanner where we have new scans that prove these things are fixed).
-* Update all columns to include the most recent info about remediations, milestones, statuses, etc., including updating the status date column.
-* Cloud Operations needs to review the Nessus findings and ensure all daemons are managed by BOSH (see CG04 for context).
-* Add any late vulnerabilities to the POA&M worksheet (i.e. vulnerabilities that will be remediated later than 30, 90 or 180 days old).
-* Update cell D3 to be the current date for this POA&M (date of submission). 
-* Copy the [the summary cover sheet template](https://drive.google.com/drive/folders/1oUmCq_YHJoE3EeR6a-pfE3i4D1ZzFUiL) and fill it out.
 
-Depending on scan results, we sometimes also have to do these tasks:
 
-* For any items that require a monthly checkin with a vendor, Cloud Operations needs to make the appropriate support request to the vendor.
-* Write Deviation Requests for operational requirements, risk adjustments, and false positives.
-* Update our boards with current info about vulnerabilities and open POAM items and any necessary followup stories about compliance work and related technical work to prepare for the next month's report.
-* Open a PR to update our [ConMon checklist template](https://github.com/18F/cg-product/blob/master/ConMonChecklist.md).
+## Workstation Processing
 
-## First time setup
+### First time setup
 
-* *Set up Google FileStream* - Use from GSA SelfService, the upstream version doesn't seem to work for GSA.
+* *Set up Google Drive* -  install from GSA SelfService
 * Have `cg-scripts` in your `$PATH`
 * PIP install `nessus-file-reader`
   
@@ -105,14 +90,16 @@ to the few scripts that I use for parsing the conmon materials, as follows:
     * Create a new issue in https://github.com/cloud-gov/private
     * Link to the issue in a comment, below
     * Immediately assign to CloudOps and discuss with them
+  * Once clean, screenshot and attach to this issue.
 * Run `nessus_daemons`
   * Review any findings, if they're legitimate daemon, open an issue in [cg-scripts](https://github.com/cloud-gov/cg-scripts) to patch `parse-nessus-xml.py`.
   * Link to the issue, or PR, in the comments below
   * If they're suspicious, follow our IR processes.
+  * Once clean, screenshot and attach to this  issue.
 * Run `prep_nessus` function
-  * This generates `MM.nessus_summary` and `MM.nessus_work` - This month's summary is compared, using `comm` to last month's summary. 
-* Review `MM.nessus_summary`, and Git add/commit it if it's OK.
-* The file `MM.nessus_work` looks like this:
+  * This generates `MM.nessus_summary.txt` and `MM.nessus_work.txt` - This month's summary is compared, using `comm` to last month's summary. 
+* Review `MM.nessus_summary.txt`, see if it's OK.
+* The file `MM.nessus_work.txt` looks like this:
 ```
 LAST MONTH (fixed)
 	THIS MONTH (new)
@@ -121,28 +108,43 @@ LAST MONTH (fixed)
    ..hostnames or number of impacted hosts
 ```
 The items left-aligned are ones that we're in last months' report but are now fixed, the next indent are those that are new (present now, absent last month), and the third indent are present in both months' scans (persisting issues)
+* Run `nessus_csv` to generate the `MM.csv` file
+* Copy the new `.txt` and the CSV files to [Google Drive](https://drive.google.com/drive/folders/1A4jVPmlnO2KHiSFVFxfp4Gp2nl5CFGPD) for the other team members to processing
+
+Be sure to:
+
+* Review the RDS scans:
+  - cd to the directory with the RDS compliance scans,
+  - run `../../../bin/parse-rds.sh`
+  - if there are version out-of-date findings, see latest version in AWS with:
+    - `aws rds describe-db-engine-versions --output=table --engine postgres --engine-version X.Y`
+* Review the Compliance scans: 
+  * No good parsing yet, review manually
+
+## Google Drive processing
+
+### Process the Nessus and Zap `_work.txt` and CSV file
+
+* Review the findings and compare them to the Google Sheets vulnerability tracker
 * Move the fixed items to Done in the vulnerability tracker, updating the status date
 * Add the new items
   * run function (from `conmon.sh`) `nessus_csv`
   * paste CSV output into vulnerability tracker, then use the `Data` menu to convert to `Split Text to Columns`
   * fix up the entry
   * copy down the formula for Column M, "Scheduled Completion Date", to generate the due date based on severity
-  * Any Java and Tomcat findings will require work outside our normal stemcell patching. See [closed issues in the private repository](https://github.com/cloud-gov/private/issues?q=is%3Aissue+is%3Aopen+in%3Atitle+OpenJDK+OR+Java+OR+Tomcat) for examples
-* Use the `prep_zap` function for ZAP scan consolidation
-  * Likewise, work through the `MM.zap_work` file
-  * Mostly ignore the Low findings
+
+### Manage the POA&Ms, Inventory, and ConMon Summary
+
+* Any Java and Tomcat findings will require work outside our normal stemcell patching. See [closed issues in the private repository](https://github.com/cloud-gov/private/issues?q=is%3Aissue+is%3Aopen+in%3Atitle+OpenJDK+OR+Java+OR+Tomcat) for examples
+* Work through the `MM.zap_work.txt` file produced by `prep_zap`, above
+* Pay special attention to the High and Moderate findings
 * Move fixed issues from Open to Closed tabs. Be sure to
   * Update the Status Date
   * Update the Supporting Documents, unless routine stemcell patch covered by the scan output
 
-Be sure to
-* Review the RDS scans:
-  - cd to the directory with the RDS compliance scans,
-  - run `../../../parse-rds.sh`
-  - if there are version out-of-date findings, see latest version in AWS with:
-    - `aws rds describe-db-engine-versions --output=table --engine postgres --engine-version X.Y`
-* Review the Compliance scans: 
-  * No good parsing yet, review manually
+* Review the Inventory
+  * Update RDS postgres versions if necessary
+
 * Address all gravely late POA&Ms
   * Go to the [POA&M Dashboard](https://docs.google.com/spreadsheets/d/1Of4psOutBmZHVekV-_n_CuG8lOqbdpmrSQQJeSwobm0/edit#gid=232277195)
   * For each 90+day late POA&M, be sure to update the Milestone Changes filed
@@ -153,10 +155,29 @@ Be sure to
   * Download the scans from the 22nd of the month to the scan folder
   * Review the Scan results with TKTK
 
-* Review the Inventory
-  * Update RDS postgres versions if necessary
+### Be sure you've done all the following
 
-**Acceptance criteria**
+* List any new identified vulnerabilities in the vulnerability tracker.
+* Move any scanner items that should be moved to closed (items originally found by a scanner where we have new scans that prove these things are fixed).
+* Update all columns to include the most recent info about remediations, milestones, statuses, etc., including updating the status date column.
+* Cloud Operations needs to review the Nessus findings and ensure all daemons are managed by BOSH (see CG04 for context).
+* Add any late vulnerabilities to the POA&M worksheet (i.e. vulnerabilities that will be remediated later than 30, 90 or 180 days old).
+* Update cell D3 to be the current date for this POA&M (date of submission). 
+* Copy the [the summary cover sheet template](https://drive.google.com/drive/folders/1oUmCq_YHJoE3EeR6a-pfE3i4D1ZzFUiL) and fill it out.
+
+Depending on scan results, we sometimes also have to do these tasks:
+
+* For any items that require a monthly checkin with a vendor, Cloud Operations needs to make the appropriate support request to the vendor.
+* Write Deviation Requests for operational requirements, risk adjustments, and false positives.
+* Update our boards with current info about vulnerabilities and open POAM items and any necessary followup stories about compliance work and related technical work to prepare for the next month's report.
+* Open a PR to update our [ConMon checklist template](https://github.com/18F/cg-product/blob/master/ConMonChecklist.md).
+
+## Upload to the FedRAMP repository
+
+* (Needs updating once the new repository is ready)
+
+## Acceptance criteria
+
 - [ ] We have created/resolved any issues with Nessus Log4J findings
 - [ ] We have created/resolved any issues with Nessus unknown daemon findings
 - [ ] We have added the Container scan results 
