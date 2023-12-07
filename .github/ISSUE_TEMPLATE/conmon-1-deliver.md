@@ -181,11 +181,11 @@ Depending on scan results, we sometimes also have to do these tasks:
 - [ ] We have created/resolved any issues with Nessus Log4J findings
 - [ ] We have created/resolved any issues with Nessus unknown daemon findings
 - [ ] We have added the Container scan results 
-- [ ] We uploaded our POA+M summary to MAX.gov https://community.max.gov/display/FedRAMPExternal/18F+Continuous+Monitoring 'POA&M and Inventory' folder
-- [ ] We uploaded our Inventory sheet to MAX.gov  https://community.max.gov/display/FedRAMPExternal/18F+Continuous+Monitoring 'POA&M and Inventory' folder
-- [ ] We uploaded our Nessus and OWASP scan results to MAX.gov to https://community.max.gov/display/FedRAMPExternal/18F+Vulnerability+Scans
+- [ ] We uploaded our POA+M summary to MAX.gov https://community.connect.gov/display/FedRAMPExternal/18F+Continuous+Monitoring 'POA&M and Inventory' folder
+- [ ] We uploaded our Inventory sheet to MAX.gov  https://community.connect.gov/display/FedRAMPExternal/18F+Continuous+Monitoring 'POA&M and Inventory' folder
+- [ ] We uploaded our Nessus and OWASP scan results to MAX.gov to https://community.connect.gov/display/FedRAMPExternal/18F+Vulnerability+Scans
 - [ ] We uploaded our container scans ....
-- [ ] We uploaded the Summary Excel sheet to https://community.max.gov/display/FedRAMPExternal/18F+Continuous+Monitoring
+- [ ] We uploaded the Summary Excel sheet to https://community.connect.gov/display/FedRAMPExternal/18F+Continuous+Monitoring
 - [ ] We updated, if necessary, the issue template for next month
 
 There! You've completed KHAN!-mon 
