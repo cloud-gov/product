@@ -14,7 +14,7 @@ Monthly review to make sure cloud.gov Pages users, orgs, and roles are accuratel
 
 - In Pages Admin, navigate to the Reports section
 - View the Organizations report, and download a CSV export
-- View the Users report, and download a CSV export
+- View the Active Users report, and download a CSV export
 
 ## Prepare and import CSV data into Zendesk
 
@@ -32,7 +32,7 @@ Monthly review to make sure cloud.gov Pages users, orgs, and roles are accuratel
 
 ### User Import
 
-- Download and Import the Users CSV into Google Sheets for editing purposes
+- Download and Import the Active Users CSV into Google Sheets for editing purposes
 - For "Seperator type" keep it unchanged from "Detect automatically" 
 - Delete the columns "Created" and "Last Signed In"
 - Delete all of the content in "ID"
