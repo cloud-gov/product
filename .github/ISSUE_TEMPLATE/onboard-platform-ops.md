@@ -220,6 +220,6 @@ if you need any help. Here are some easily-separated pieces to consider:
 
 These are items that are only necessary for someone stepping into a compliance role, but you can still subscribe to the alerts and mailing lists if you're interested:
 
-- [ ] Subscribe to US-CERT alerts: <https://us-cert.cisa.gov/mailing-lists-and-feeds>
+- [ ] Subscribe to CISA alerts/updates: <https://www.cisa.gov/about/contact-us/subscribe-updates-cisa>
 - [ ] Subscribe to FedRAMP mailing lists: <https://public.govdelivery.com/accounts/USGSA/subscriber/topics?qsp=USGSA_2224>
 - [ ] Read Compliance Lead documents at root of the [Google Drive Security and Compliance](https://drive.google.com/drive/u/0/folders/1_vAXZsdVFYssR1DRCaavBCoDE_uxQCI5) folder
