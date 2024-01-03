@@ -69,14 +69,6 @@ to the few scripts that I use for parsing the conmon materials, as follows:
         ├── RDS Compliance Scan BOSH Prod_9r1y4q.nessus
         └── RDS Compliance Scan CF Prod_ipvc66.nessus
   ```
-* Replace spaces in filenames with underscores:
-  ```shell
-  pushd Production-and-Tooling-Vulnerability-and-Compliance-scans_2021-03-23
-  spaces2underscores
-  cd ../RDS_Compliance_Scans_2021-03-23
-  spaces2underscores
-  popd
-  ```
 * Run `nessus_log4j`. This generates a table something like this: 
   ```
   ------- Log4J REPORT  ------
