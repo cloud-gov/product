@@ -108,10 +108,9 @@ LAST MONTH (fixed)
    ..hostnames or number of impacted hosts
 ```
 The items left-aligned are ones that we're in last months' report but are now fixed, the next indent are those that are new (present now, absent last month), and the third indent are present in both months' scans (persisting issues)
-* Run `nessus_csv` to generate the `MM.csv` file
-* Copy the new `.txt` and the CSV files to [Google Drive](https://drive.google.com/drive/folders/1A4jVPmlnO2KHiSFVFxfp4Gp2nl5CFGPD) for the other team members to processing
-
-Be sure to:
+* Run `nessus_csv` to generate the `MM.nessus.csv` file for the Vuln Tracker Spreadsheet
+* Run `prep_zap` to generate the summary OWASP ZAP files.
+* Copy the new `.txt` and the CSV files to [Google Drive](https://drive.google.com/drive/folders/1A4jVPmlnO2KHiSFVFxfp4Gp2nl5CFGPD) for the Summary File Processing (below)
 
 * Review the RDS scans:
   - cd to the directory with the RDS compliance scans,
@@ -121,15 +120,30 @@ Be sure to:
 * Review the Compliance scans: 
   * No good parsing yet, review manually
 
-## Google Drive processing
+Before the summary file processing, confirm that you have 
+
+- [ ] Reviewed the `parse-nessus` log4j findings 
+- [ ] Reviewed the `parse-nessus` daemon results
+- [ ] Sanity checked the
+  - MM.nessus_summary.txt
+  - MM.nessus_work.txt
+  - MM.zap_summary.txt
+  - MM.zap_work.txt
+  - MM.nessus.csv
+- [ ] Reviewed the Compliance scans on the Nessus manager for new findings
+
+## Summary file processing
+
+These steps can be done the same person who did the work above, or passed on
+to a compliance specialist.
 
 ### Process the Nessus and Zap `_work.txt` and CSV file
 
 * Review the findings and compare them to the Google Sheets vulnerability tracker
 * Move the fixed items to Done in the vulnerability tracker, updating the status date
 * Add the new items
-  * run function (from `conmon.sh`) `nessus_csv`
-  * paste CSV output into vulnerability tracker, then use the `Data` menu to convert to `Split Text to Columns`
+  * Open the `MM.nessus.csv` in Excel and copy all the new findings
+  * Paste the new findings put into the vulnerability tracker
   * fix up the entry
   * copy down the formula for Column M, "Scheduled Completion Date", to generate the due date based on severity
 
