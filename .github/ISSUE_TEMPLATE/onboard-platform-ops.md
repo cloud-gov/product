@@ -145,6 +145,7 @@ AWS user names should be identical across accounts so that permissions can be co
 - [ ] Create [AWS Accounts](https://cloud.gov/docs/ops/aws-onboarding/) by following [these instructions](https://github.com/cloud-gov/aws-admin/blob/main/docs/user_mgmt.md). These accounts should be setup as read-only at the start, and once the 3 mandatory cloud.gov trainings are complete they will be switched to full admin accounts and added to the [audit input file](https://github.com/cloud-gov/cg-compliance/blob/master/audit/inputs.yml):
   - [ ] AWS Commercial accounts
   - [ ] AWS GovCloud accounts
+  - [ ] Ensure new person has 60-day Google Calendar reminder to reset passwords 
 - [ ] Add them to Nessus Manager via the GUI
 - [ ] [Make them an admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) of the platform.
 - [ ] Add them to the [`platform-ops`](https://github.com/orgs/cloud-gov/teams/platform-ops) team in GitHub.
