@@ -194,7 +194,7 @@ Your onboarding buddy will create a separate ticket tied to this one to track th
   - [ ] Verify by running `fly -h` in your command line
     - This may fail due to app security policy on your mac rejecting apps from unidentified developers. To fix it (replace `<VERSION>` with your installed version of `fly`):
 
-      `xattr -d com.apple.quarantine /usr/local/Caskroom/fly/<VERSION>/fly`
+      `xattr -d com.apple.quarantine /opt/homebrew/bin/fly`
 - [ ] Install cloud.gov dev tools by cloning the [`cg-scripts` repo](https://github.com/cloud-gov/cg-scripts/): run `git clone https://github.com/cloud-gov/cg-scripts.git` in your command line
 
 ### Figure out your first tasks
