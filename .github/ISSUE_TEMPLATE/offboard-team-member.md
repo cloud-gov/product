@@ -1,13 +1,22 @@
 ---
-name: Offboard Existing cloud.gov Platform Operations Team Member
-title: Checklist for Offboarding an Existing Platform Operator
-about: This is the checklist and requirements for offboarding an existing platform operator to the cloud.gov team
+name: Offboard cloud.gov Team Member
+title: Checklist for Offboarding a Team Member
+about: This is the checklist and requirements for offboarding a team member from the cloud.gov team
 labels: ''
 assignees: ''
 
 ---
 
-# Platform Operator Offboarding Checklist
+# Team Member Offboarding Checklist
+
+## When do we offboard a team member?
+
+We must offboard a team member when they are:
+
+* Absent for 30 or more days, or about to be. For example, team members on detail or extended leave.
+* Permanently separating from the team. For example, terminated or reassigned.
+
+See our [AC Policy](https://github.com/cloud-gov/cg-compliance-docs/blob/main/AC-Policy.md), "When a privileged team member has been absent...".
 
 ## Special Notes
 
@@ -24,6 +33,8 @@ assignees: ''
 
 ## Instructions
 
+* [ ] Assign this ticket to the person currently staffing the maintenance rotation.
+
 In order to complete `Existing Person`'s exit from the cloud.gov team, the assignee should complete a prescribed set of tasks that will remove any special access.
 
 **Assignee:** The tasks below are organized by the role needed to complete them. If you can’t complete any of the items on your checklist personally, _you are responsible for ensuring that an appropriate person does it_.
@@ -38,13 +49,14 @@ For compliance we need to show that critical offboarding actions happen within 2
 
 If the person offboarding is a contractor, reach out to the COR to ensure any offboarding steps specific to their contract are being completed.
 
-- [ ] Mention the TTS HR liaison and TTS Tech Portfolio in this ticket so they can update with their status. Make sure that someone from TTS Tech Portfolio or you have completed these items:
-  - [ ] Remove their access to [StatusPage](https://manage.statuspage.io/organizations/btc69fwyvjh7/team) 
-  - [ ] Remove their agent access to Zendesk - [switch their role to "end user"](https://cloud-gov.zendesk.com/agent/admin/people)
-  - [ ] Update this issue with a comment within 24h of departure that the above steps are complete
+- [ ] Remove their access to [StatusPage](https://manage.statuspage.io/organizations/btc69fwyvjh7/team)
+- [ ] Remove their agent access to Zendesk - [switch their role to "end user"](https://cloud-gov.zendesk.com/agent/admin/people)
 - [ ] Remove them from `@cg-team`, `@cg-operators`, and any other `@cg-` teams in the Slack Team Directory [using the three-dot menu (instructions)](https://get.slack.help/hc/en-us/articles/212906697-User-Groups)
+  * Check one of the following:
+    * [ ] Temporary federal departure: Remove them all private cloud.gov Slack channels, except `#cg-priv-gov`, so they may continue to receive essential team communications.
+    * [ ] Permanent departure: If the person is leaving permanently, they will be removed from all channels automatically.
 - [ ] Remove them from the [team roster](https://docs.google.com/spreadsheets/d/187663k5MYJBNlKExLu_nhuovcZQfIbqYCu2n4noNY1o/edit#gid=0)
-- [ ] Remove them from the [squad list](https://github.com/18F/cg-product/blob/master/DeliveryProcess.md#squads)
+- [ ] Remove them from the [squad list](https://github.com/cloud-gov/product/blob/main/DeliveryProcess.md#squads)
 - [ ] In the [training tracker](https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0): if they're staying at TTS, move them to the "former teammates" tab; if they're leaving TTS, delete them from the spreadsheet
 - [ ] Remove them as invitees for any meetings on the cloud.gov calendar where they are specifically named
     - Invites where they are listed as part of the `cloud.gov` invitee group will be removed when they are removed from that group by the System Owner
@@ -54,7 +66,7 @@ If the person offboarding is a contractor, reach out to the COR to ensure any of
 
 **The following steps must be conducted and documented within 24 hours of departure**:
 
-- [ ] Exit interview with supervisor or contract account manager: Discuss with departee the following _information security topics_:
+- [ ] Exit interview with supervisor (federal employees) or contract account manager / COR (contractors): Discuss with departee the following _information security topics_:
   - They are to remove any non-public cloud.gov data (e.g. keys, passwords, code, documents) from any non-GSA device
   - They are not to disclose any non-public cloud.gov technical practices without authorization from GSA
   - They will not access cloud.gov systems or services without authorization from GSA
@@ -75,17 +87,20 @@ The following do not directly impact cloud.gov security & operations and can hap
 - [ ] Remove them from [the cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-inquiries/members/active)
 - [ ] Remove them from [the cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-support/members/active)
 - [ ] Remove them from [the cloud.gov emergency Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!managemembers/cloud-gov-emergency/members/active)
+- [ ] Remove them from [the cloud.gov Federal Employees Google Group](https://groups.google.com/a/gsa.gov/g/cloud-gov-federal-employees/members)
 - [ ] Remove them from [our Google Groups for our AWS accounts](https://docs.google.com/document/d/110o1L7EOby3hvE5d-cDhg2LBLHymbZLnMPe9kuk4qp8/edit#) (relevant for PM, Director, and Deputy Director)
-- [ ] Remove them from [Search.gov](https://search.gov/) access for cg-site by pinging the search.gov team in the #search Slack channel
 - [ ] Remove them from [Ubuntu Advantage](https://ubuntu.com/pro/users)
 
-## Cloud Operations
+## Engineering
 
 **The following steps must be conducted and documented within 24 hours of departure**:
+
+* [ ] Not a member of Engineering
+
+-- or --
 
 - [ ] Delete the user in all cloud.gov AWS accounts by submitting a PR to [`aws-admin`](https://github.com/cloud-gov/aws-admin)
 - [ ] [Remove their access as an admin](https://cloud.gov/docs/ops/managing-users/#managing-admins) on the platform
 - [ ] Remove any privileges that their cloud.gov account has due to membership in the cloud.gov team (even if not in Cloud Ops), such as `admin_ui.user` and `scim.read`
     - [ ] Verify these permissions have been removed using the [cg-scripts validate-admins.sh](https://github.com/18F/cg-scripts/blob/master/validate-admins.sh) run from a jumpbox
 - [ ] Remove any Org or Space roles that their cloud.gov account holds due to membership in the cloud.gov team (for example, remove them from the `cloud-gov` and `cloud-gov-operators` organizations)
-- [ ] Ensure any keys or passwords they had direct access to are rotated
