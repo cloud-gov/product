@@ -9,7 +9,7 @@ assignees: ''
 
 # Team Member Offboarding Checklist
 
-## When do offboard a team member?
+## When do we offboard a team member?
 
 We must offboard a team member when they are:
 
