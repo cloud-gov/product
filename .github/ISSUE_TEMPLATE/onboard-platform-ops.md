@@ -172,7 +172,7 @@ Your onboarding buddy will create a separate ticket tied to this one to track th
 - [ ] Install [Homebrew (`brew`)](https://brew.sh/)
 - [ ] Install [CloudFoundry for mac per their docs](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html#pkg-mac):
   - `brew tap cloudfoundry/tap`
-  - `brew install cf-cli@7`
+  - `brew install cf-cli@8`
   - `brew install openssl`
 - [ ] Verify CloudFoundry Installation via the CLI (once an existing cloud.gov teammate has [made your cloud.gov admin account](https://cloud.gov/docs/ops/managing-users/#creating-admins))
   - `cf login -a api.fr.cloud.gov --sso`
