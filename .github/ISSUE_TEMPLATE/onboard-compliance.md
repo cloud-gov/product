@@ -175,7 +175,7 @@ Your onboarding buddy will create a separate ticket tied to this one to track th
   - `brew install jq`
   - [ ] Verify Terraform installed and is in your path: run `terraform` and helper text should display
   - [ ] Verify AWS CLI installed and is in your path: run `aws` and helper text should display
-- [ ] Install and configure `aws-vault` by [following our directions](https://cloud.gov/docs/ops/secrets/#install-aws-vault-for-aws-credentials-and-create-a-profile)
+- [ ] Install and configure `aws-vault` by [following our directions](https://cloud.gov/docs/ops/secrets/#aws-credentials)
 - [ ] Install the Concourse `fly` CLI
   - Download the `fly` binary zip for MacOS from https://concourse-ci.org/
   - Extract the binary and move it to `/usr/local/bin/fly` so it's in your path
