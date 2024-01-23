@@ -189,12 +189,9 @@ Your onboarding buddy will create a separate ticket tied to this one to track th
   - [ ] Verify Terraform installed and is in your path: run `terraform` and helper text should display
   - [ ] Verify AWS CLI installed and is in your path: run `aws` and helper text should display
 - [ ] Install and configure `aws-vault` by [following our directions](https://cloud.gov/docs/ops/secrets/#aws-credentials)
-- [ ] Install the Concourse `fly` CLI
-  - `brew install fly`
+- [ ] Install the Concourse `fly` CLI. Concourse does not sign `fly` with an Apple Developer account, so you must use `xattr` to manually remove the binary from quarantine:
+  - `brew install fly && xattr -d com.apple.quarantine /opt/homebrew/bin/fly`.
   - [ ] Verify by running `fly -h` in your command line
-    - This may fail due to app security policy on your mac rejecting apps from unidentified developers. To fix it (replace `<VERSION>` with your installed version of `fly`):
-
-      `xattr -d com.apple.quarantine /opt/homebrew/bin/fly`
 - [ ] Install cloud.gov dev tools by cloning the [`cg-scripts` repo](https://github.com/cloud-gov/cg-scripts/): run `git clone https://github.com/cloud-gov/cg-scripts.git` in your command line
 
 ### Figure out your first tasks
