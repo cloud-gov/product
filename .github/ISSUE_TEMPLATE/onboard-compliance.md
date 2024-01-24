@@ -159,7 +159,7 @@ Your onboarding buddy will create a separate ticket tied to this one to track th
 - [ ] Install [Homebrew (`brew`)](https://brew.sh/)
 - [ ] Install [CloudFoundry for mac per their docs](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html#pkg-mac):
   - `brew tap cloudfoundry/tap`
-  - `brew install cf-cli@7`
+  - `brew install cf-cli@8`
   - `brew install openssl`
 - [ ] Verify CloudFoundry Installation via the CLI (once an existing cloud.gov teammate has [made your cloud.gov admin account](https://cloud.gov/docs/ops/managing-users/#creating-admins))
   - `cf login -a api.fr.cloud.gov --sso`
@@ -175,7 +175,7 @@ Your onboarding buddy will create a separate ticket tied to this one to track th
   - `brew install jq`
   - [ ] Verify Terraform installed and is in your path: run `terraform` and helper text should display
   - [ ] Verify AWS CLI installed and is in your path: run `aws` and helper text should display
-- [ ] Install and configure `aws-vault` by [following our directions](https://cloud.gov/docs/ops/secrets/#install-aws-vault-for-aws-credentials-and-create-a-profile)
+- [ ] Install and configure `aws-vault` by [following our directions](https://cloud.gov/docs/ops/secrets/#aws-credentials)
 - [ ] Install the Concourse `fly` CLI
   - Download the `fly` binary zip for MacOS from https://concourse-ci.org/
   - Extract the binary and move it to `/usr/local/bin/fly` so it's in your path
