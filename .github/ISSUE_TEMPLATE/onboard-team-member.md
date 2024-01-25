@@ -1,7 +1,7 @@
 ---
 name: Onboard New cloud.gov Team Member
 title: Checklist for Onboarding a New Team Member
-about: Onboarding checklist that applies to all team members. Paired with a role-specific checklist.
+about: Onboarding checklist that applies to all team members. Pairs with a role-specific checklist.
 labels: ''
 assignees: ''
 
