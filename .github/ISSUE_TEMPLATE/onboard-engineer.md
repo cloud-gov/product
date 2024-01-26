@@ -124,7 +124,7 @@ You are a member of the Cloud Operations team, which means you have additional a
 
 ### Additional compliance setup/review
 
-- [ ] Install `caulking` git leak prevention by following the [README](https://github.com/cloud-gov/caulking/blob/master/README.md)
+- [ ] Install `caulking` git leak prevention by following the [README](https://github.com/cloud-gov/caulking/blob/main/README.md)
 - [ ] Verify `caulking` by running `make audit` and pasting a screenshot as a comment on this GitHub issue
 - [ ] Set GPG signing set up for GitHub (instructions [here](https://docs.google.com/document/d/11UDxvfkhncyLEs-NUCniw2u54j4uQBqsR2SBiLYPUZc/edit)) and paste the output of `git config commit.gpgsign` as a comment on this GitHub issue
 
@@ -133,28 +133,14 @@ You are a member of the Cloud Operations team, which means you have additional a
 > **Note:** Make sure you have followed the instructions in [Machine admin rights](#machine-admin-rights) at the top of this section to get local admin rights on your machine before moving forward
 
 - [ ] Install [Homebrew (`brew`)](https://brew.sh/)
-- [ ] Install [CloudFoundry for Mac per their docs](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html#pkg-mac):
-  - `brew tap cloudfoundry/tap`
-  - `brew install cf-cli@8`
-  - `brew install openssl`
+- [ ] Clone [the product repo](https://github.com/cloud-gov/product), `cd` into it, and run `brew bundle install` to install everything in `Brewfile`.
 - [ ] Verify CloudFoundry installation via the CLI (once an existing cloud.gov teammate has [made your cloud.gov admin account](https://cloud.gov/docs/ops/managing-users/#creating-admins))
   - `cf login -a api.fr.cloud.gov --sso`
   - `cf orgs`
     - As a cloud.gov team member, you should have a long list of organizations
     - If you have none or one (e.g. sandbox) org, please reach out to your onboarding buddy
-- [ ] Install the [Bosh CLI using their instructions for MacOS](https://bosh.io/docs/cli-v2-install/#using-homebrew-on-macos)
-  - `brew install cloudfoundry/tap/bosh-cli`
-  - [ ] Verify the installation by running `bosh -v` in the command line
-- [ ] Install Terraform and other tools per [cg-provision](https://github.com/cloud-gov/cg-provision)
-  - `brew install terraform`
-  - `brew install awscli`
-  - `brew install jq`
-  - [ ] Verify Terraform installed and is in your path: run `terraform` and helper text should display
-  - [ ] Verify AWS CLI installed and is in your path: run `aws` and helper text should display
-- [ ] Install and configure `aws-vault` by [following our directions](https://cloud.gov/docs/ops/secrets/#aws-credentials)
-- [ ] Install the Concourse `fly` CLI. Concourse does not sign `fly` with an Apple Developer account, so you must use `xattr` to manually remove the binary from quarantine:
-  - `brew install fly && xattr -d com.apple.quarantine /opt/homebrew/bin/fly`.
-  - [ ] Verify by running `fly -h` in your command line
+- [ ] Configure `aws-vault` by [following our directions](https://cloud.gov/docs/ops/secrets/#aws-credentials)
+- [ ] Fix `fly`, the Concourse CLI, by running `xattr -d com.apple.quarantine /opt/homebrew/bin/fly`. Concourse does not sign `fly` with an Apple Developer account, so you must use `xattr` to manually remove the binary from quarantine. Verify by running `fly -h` in your command line.
 - [ ] Install cloud.gov dev tools by cloning the [`cg-scripts` repo](https://github.com/cloud-gov/cg-scripts/): run `git clone https://github.com/cloud-gov/cg-scripts.git` in your command line
 
 ### Figure out your first tasks
