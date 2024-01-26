@@ -2,22 +2,15 @@
 name: Onboard New cloud.gov Engineer
 title: Checklist for Onboarding a New Engineer
 about: Onboarding checklist for engineers. Pairs with a general onboarding checklist.
-labels: ''
-assignees: ''
-
+labels: ""
+assignees: ""
 ---
 
 # New Engineer Onboarding Checklist
 
 ## Special Notes
 
-- **Do not create this issue until the System Owner has formally authorized and requested it.**. You can get that OK by one of two ways:
-  - A:
-    - [ ] A: System Owner creates this issue
-  - B:
-    - [ ] B.1: System owner emails cloud-gov-compliance@gsa.gov and cloud-gov-operations@gsa.gov with their authorization
-    - [ ] B.2: An operator adds a link to the Google Group conversation that includes the authorizing email.
-- **Please only use first names.**
+- [ ] Paste a link to the general onboarding ticket, which includes the onboarding authorization, here:
 
 ---
 
@@ -28,7 +21,7 @@ assignees: ''
     Federal employees and staff contractors, expand this section. Not applicable to project contractors.
   </summary>
 
-Engineers who are federal employees and staff contractors have a Contingency Plan role and may participate in Incident Response, so they must complete the CP and IR trainings. Project contractors do not need to complete these trainings. Check one of the following:
+Engineers who are federal employees or staff contractors have a Contingency Plan role and may participate in Incident Response, so they must complete the CP and IR trainings. Project contractors do not need to complete these trainings. Check one of the following:
 
 - [ ] Coordinate with your onboarding buddy to schedule Contingency Planning training within 60 days. (and annually after that). This will cover the following document, which you should also review before or after training:
   - [ ] Read the [Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/).
@@ -98,7 +91,7 @@ Getting hands-on with cloud.gov:
 
 ### Machine admin rights
 
-* [ ] In order to install development tools on your Mac, you will need to request local admin rights by [submitting a ServiceDesk ticket](https://docs.google.com/document/d/1xepZsh83lxPDykrb1NXoeHxj8m78qsdW-9KqzO_CHOQ/edit) using [this justification](https://docs.google.com/document/d/1YGid3pTji5W_M9RuF1GDf614BVkLIRDmSrt1tDbej-o/edit). If you're unable to create a ticket for yourself, your onboarding buddy can create one for you.
+- [ ] In order to install development tools on your Mac, you will need to request local admin rights by [submitting a ServiceDesk ticket](https://docs.google.com/document/d/1xepZsh83lxPDykrb1NXoeHxj8m78qsdW-9KqzO_CHOQ/edit) using [this justification](https://docs.google.com/document/d/1YGid3pTji5W_M9RuF1GDf614BVkLIRDmSrt1tDbej-o/edit). If you're unable to create a ticket for yourself, your onboarding buddy can create one for you.
 
 ### Engineering account management
 
@@ -127,7 +120,7 @@ You are a member of the Cloud Operations team, which means you have additional a
 - [ ] Add them as an admin on the cg-django-uaa [docs](https://readthedocs.org/projects/cg-django-uaa/)
 - [ ] Add them to [our dockerhub org](https://hub.docker.com/orgs/cloudgov) and ensure we're not over our license count
 - [ ] Add them as an `agent` to the cloud.gov support Zendesk (Ask a cloud.gov member with admin access to Zendesk to add them).
-- [ ] Add them as Technical users to [Ubuntu Advantage](https://ubuntu.com/pro/users) (Admin users for leads and supervisors) 
+- [ ] Add them as Technical users to [Ubuntu Advantage](https://ubuntu.com/pro/users) (Admin users for leads and supervisors)
 
 </details>
 
@@ -177,9 +170,9 @@ Project contractors: Check in with your project lead about first tasks.
 
 The engineering team currently contains the following squads, each with their own projects:
 
-* Assurance, which focuses on security and compliance
-* Platform, which maintains and improves cloud.gov, focusing on internals like our AWS architecture and Cloud Foundry
-* Customer Success, which focuses on customer-facing features like service brokers and observability tools
+- Assurance, which focuses on security and compliance
+- Platform, which maintains and improves cloud.gov, focusing on internals like our AWS architecture and Cloud Foundry
+- Customer Success, which focuses on customer-facing features like service brokers and observability tools
 
 If you are not already assigned to a particular squad, work with your onboarding buddy to join squad standups and learn what each squad is working on.
 

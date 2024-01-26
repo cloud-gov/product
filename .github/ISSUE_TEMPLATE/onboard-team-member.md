@@ -2,9 +2,8 @@
 name: Onboard New cloud.gov Team Member
 title: Checklist for Onboarding a New Team Member
 about: Onboarding checklist that applies to all team members. Pairs with a role-specific checklist.
-labels: ''
-assignees: ''
-
+labels: ""
+assignees: ""
 ---
 
 # New Team Member Onboarding Checklist
@@ -26,7 +25,7 @@ In order to get `New Person` productively contributing to the cloud.gov team, `B
 
 ## Role-Specific Onboarding
 
-This onboarding ticket must be completed by all new cloud.gov team members. It must be paired with a role-specific onboarding ticket. Your onboarding buddy will create both. Paste a link to that ticket here for reference:
+This onboarding ticket must be completed by all new cloud.gov team members. It must be paired with a role-specific onboarding ticket. Your onboarding buddy will create both.
 
 ## Instructions
 
@@ -76,7 +75,7 @@ You will automatically be added to one or more Google Drives: the [Cloud.gov All
     Federal employees and staff contractors, expand this section:
   </summary>
 
-- [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&amp;ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various squads. Tip: When you plan Out of Office time, make a calendar event for that on the cloud.gov calendar so that your teammates know you'll be away.
+- [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various squads. Tip: When you plan Out of Office time, make a calendar event for that on the cloud.gov calendar so that your teammates know you'll be away.
 
 </details>
 
@@ -98,7 +97,7 @@ The following cloud.gov channels are public and all team members are welcome to 
 
 Channels marked with (🗣️) receive a lot of messages, either from customers or bots, and you may want to mute them.
 
-* [ ] Project contractors: Your buddy will add you to the private channel for your project.
+- [ ] Project contractors: Your buddy will add you to the private channel for your project.
 
 For federal employees only:
 
@@ -128,4 +127,3 @@ Lastly, for federal employees only:
 - [ ] [cloud.gov Federal Employees](https://groups.google.com/a/gsa.gov/g/cloud-gov-federal-employees/members)
 
 </details>
-
