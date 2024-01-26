@@ -1,6 +1,6 @@
 ---
 name: Onboard New cloud.gov Support Team Member
-title: Checklist for Onboarding a cloud.gov Support Team Member
+title: Support Checklist for Onboarding (first name here)
 about: This is the checklist and requirements for onboarding a new support team member to the cloud.gov team
 labels: ""
 assignees: ""

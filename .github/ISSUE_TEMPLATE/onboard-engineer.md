@@ -1,6 +1,6 @@
 ---
 name: Onboard New cloud.gov Engineer
-title: Checklist for Onboarding a New Engineer
+title: Engineering Checklist for Onboarding (first name here)
 about: Onboarding checklist for engineers. Pairs with a general onboarding checklist.
 labels: ""
 assignees: ""
