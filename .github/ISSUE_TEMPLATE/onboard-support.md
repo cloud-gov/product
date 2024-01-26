@@ -30,7 +30,7 @@ Engineers who are federal employees or staff contractors have a Contingency Plan
 
 </details>
 
-#### Learn our policies and procedures
+## Learn our policies and procedures
 
 - [ ] Review the [cloud.gov open source policy guidance about protecting sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information).
 - [ ] Read the [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), particularly the [cloud.gov team responsibilities](https://cloud.gov/docs/ops/continuous-monitoring/#cloud-gov-team).
@@ -38,7 +38,7 @@ Engineers who are federal employees or staff contractors have a Contingency Plan
 - [ ] Read the [cloud.gov Security Policies and Procedures](https://github.com/cloud-gov/cg-compliance-docs). These documents explain the high-level policies and procedures we must comply with while running cloud.gov, sorted into security control "families" They explain that we follow GSA IT security policy, and they provide a summary of the procedures in our System Security Plan.
 - [ ] Review the System Security Plan (the latest version lives on [Google Drive](https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0); look for "cloud.gov System Security Plan (SSP)" as a _.docx_ file). Of particular note for onboarding: Section 9 (System Description) and Section 10 (System Environment)
 
-### Getting to know cloud.gov
+## Getting to know cloud.gov
 
 These items will help you come up to speed on cloud.gov and what it is, how it works, why it exists, etc. While you
 should take the time to go through them, please do not try and tackle it all in one shot! It can become overwhelming
@@ -47,7 +47,7 @@ very quickly, so your onboarding buddy will walk through this list with you at a
 - [ ] [Sign up for a cloud.gov sandbox](https://cloud.gov/sign-up/#get-trial-access-and-a-free-sandbox-space) using your GSA email address and start experimenting to get familiar with the basics of the PaaS from a user's perspective.
 - [ ] Read our [service disruption guide](https://cloud.gov/docs/ops/service-disruption-guide/) to learn how we handle customer-facing service disruptions.
 
-### Slack channels
+## Slack channels
 
 Your onboarding buddy will add you to these Slack channels:
 
