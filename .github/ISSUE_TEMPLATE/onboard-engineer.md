@@ -95,8 +95,8 @@ Getting hands-on with cloud.gov:
 
 Before starting this section, you must complete:
 
-1. GSA Mandatory Cyber Security and Privacy Training
-1. Role-based trainings listed under "Learn our policies and procedures"
+1. GSA IT Security & Privacy Awareness Training
+1. Role-based trainings listed under [Learn our policies and procedures](#learn-our-policies-and-procedures)
 
 AWS user names should be identical across accounts so that permissions can be correctly managed by Terraform.
 
@@ -105,6 +105,7 @@ AWS user names should be identical across accounts so that permissions can be co
   - [ ] AWS GovCloud accounts
   - [ ] Ensure new person has 60-day Google Calendar reminder to reset passwords
 - [ ] Add them to Nessus Manager via the GUI
+  - [ ] Add them to the ScanAdmins team in Settings > Groups
 
 <details>
   <summary>

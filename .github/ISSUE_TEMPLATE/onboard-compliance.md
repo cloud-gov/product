@@ -30,7 +30,7 @@ Engineers who are federal employees or staff contractors have a Contingency Plan
 
 </details>
 
-#### Learn our policies and procedures
+## Learn our policies and procedures
 
 - [ ] Review the [cloud.gov open source policy guidance about protecting sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information).
 - [ ] Read the [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), particularly the [cloud.gov team responsibilities](https://cloud.gov/docs/ops/continuous-monitoring/#cloud-gov-team).
@@ -63,7 +63,7 @@ You might also be interested in these channels:
 - [ ] `#g-security-compliance` - Channel for the Security & Compliance guild
 - [ ] `#dev` - general chat for all TTS engineers
 
-### Getting to know cloud.gov
+## Getting to know cloud.gov
 
 These items will help you come up to speed on cloud.gov and what it is, how it works, why it exists, etc. While you
 should take the time to go through them, please do not try and tackle it all in one shot! It can become overwhelming

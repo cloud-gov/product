@@ -59,11 +59,13 @@ You will want to keep `#cg-support` unmuted so you are aware of requests from TT
 
 ## Support-specific items
 
+### Machine admin rights
+
 - [ ] In order to install development tools on your Mac, you will need to request local admin rights by [submitting a ServiceDesk ticket](https://docs.google.com/document/d/1xepZsh83lxPDykrb1NXoeHxj8m78qsdW-9KqzO_CHOQ/edit) using [this justification](https://docs.google.com/document/d/1YGid3pTji5W_M9RuF1GDf614BVkLIRDmSrt1tDbej-o/edit). If you're unable to create a ticket for yourself, your onboarding buddy can create one for you.
 
 ### Additional compliance setup/review
 
-- [ ] Install `caulking` git leak prevention by following the [README](https://github.com/cloud-gov/caulking/blob/master/README.md)
+- [ ] Install `caulking` git leak prevention by following the [README](https://github.com/cloud-gov/caulking/blob/main/README.md)
 - [ ] Verify `caulking` by running `make audit` and pasting a screenshot as a comment on this GitHub issue
 - [ ] Set GPG signing set up for GitHub (instructions [here](https://docs.google.com/document/d/11UDxvfkhncyLEs-NUCniw2u54j4uQBqsR2SBiLYPUZc/edit))
 
