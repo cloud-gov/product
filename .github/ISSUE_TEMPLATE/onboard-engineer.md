@@ -50,9 +50,15 @@ Your onboarding buddy will add you to these Slack channels:
 
 </details>
 
-## Google Groups and Spaces
+## Google Groups
 
-- [ ] Business Unit Only - Add them to the [cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/forum/#!forum/cloud-gov-inquiries) so they can keep apprised of prospective new clients.
+- [ ] [cloud.gov AWS](https://groups.google.com/a/gsa.gov/g/cloud-gov-aws/members)
+- [ ] [cloud.gov Notifications](https://groups.google.com/a/gsa.gov/g/cloud-gov-notifications/members) (🗣️)
+- [ ] [cloud.gov Operations](https://groups.google.com/a/gsa.gov/g/cloud-gov-operations/members)
+- [ ] [cloud.gov Security](https://groups.google.com/a/gsa.gov/g/cloud-gov-security/members)
+- [ ] [cloud.gov Support](https://groups.google.com/a/gsa.gov/g/cloud-gov-support/members) (🗣️)
+
+Channels marked with (🗣️) receive a lot of messages, either from customers or bots, and you may want to mute them.
 
 ## Learn our policies and procedures
 

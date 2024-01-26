@@ -63,6 +63,10 @@ You might also be interested in these channels:
 - [ ] `#g-security-compliance` - Channel for the Security & Compliance guild
 - [ ] `#dev` - general chat for all TTS engineers
 
+## Google Groups
+
+- [ ] [cloud.gov Compliance](https://groups.google.com/a/gsa.gov/g/cloud-gov-compliance/members) (external-facing email address for communications with FedRAMP and others)
+
 ## Getting to know cloud.gov
 
 These items will help you come up to speed on cloud.gov and what it is, how it works, why it exists, etc. While you

@@ -108,7 +108,7 @@ For federal employees only:
 
 We manage calendar invites and Google Drive access using Google Groups. Some groups can also receive message from outside emails.
 
-- [ ] Project contractors: Add them to the [cloud.gov Project Contractors Google Group]() for access to the All Staff Google Drive.
+- [ ] Project contractors: Add them to the [cloud.gov Project Contractors Google Group](https://groups.google.com/a/gsa.gov/g/cloud-gov-project-contractors/members) as the "Member" role. This grants them Commenter access to the All Staff Google Drive. If they are working on a project in a specific folder, you can grant them greater access to that folder.
 
 <details>
   <summary>
@@ -117,11 +117,18 @@ We manage calendar invites and Google Drive access using Google Groups. Some gro
 
 Add them to the following Google Groups:
 
-- [ ] [cloud.gov Team](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov) so they can participate in team-wide internal communication.
+- [ ] [cloud.gov Team](https://groups.google.com/a/gsa.gov/g/cloud-gov/members) so they can participate in team-wide internal communication.
+- [ ] Business Unit Only - Add them to the [cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/g/cloud-gov-inquiries/members) so they can keep apprised of prospective new clients.
 
 And the following Google Space:
 
 - [ ] [CG-PRIV](https://mail.google.com/mail/u/0/#chat/space/AAAAr60JXAc), a fallback team communication channel in the event Slack is down.
+
+They may need added to one or more of these team-specific groups:
+
+- [ ] [cloud.gov Assurance Team](https://groups.google.com/a/gsa.gov/g/cloud-gov-assurance/members)
+- [ ] [cloud.gov Compliance](https://groups.google.com/a/gsa.gov/g/cloud-gov-compliance/members) (external email accepted)
+- [ ] [cloud.gov Customer Success Team](https://groups.google.com/a/gsa.gov/g/cloud-gov-customer-success/members)
 
 Lastly, for federal employees only:
 
