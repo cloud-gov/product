@@ -48,8 +48,6 @@ Your onboarding buddy will add you to these Slack channels:
 - [ ] `#cg-priv-all` - private channel for in-team discussion
 - [ ] `#cg-priv-compliance` - private channel for security and compliance discussions
 
-Lastly, for federal employees only:
-
 </details>
 
 ## Google Groups and Spaces
