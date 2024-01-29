@@ -106,7 +106,7 @@ Before starting this section, you must complete:
 
 AWS user names should be identical across accounts so that permissions can be correctly managed by Terraform.
 
-- [ ] Create [AWS Accounts](https://cloud.gov/docs/ops/aws-onboarding/) by following [these instructions](https://github.com/cloud-gov/aws-admin/blob/main/docs/user_mgmt.md). These accounts should be setup as read-only at the start, and once the 3 mandatory cloud.gov trainings are complete they will be switched to full admin accounts and added to the [audit input file](https://github.com/cloud-gov/cg-compliance/blob/master/audit/inputs.yml):
+- [ ] Create AWS Accounts by following [these instructions](https://github.com/cloud-gov/aws-admin/blob/main/docs/user_mgmt.md). These accounts should be setup as read-only at the start, and once the 3 mandatory cloud.gov trainings are complete they will be switched to full admin accounts and added to the [audit input file](https://github.com/cloud-gov/cg-compliance/blob/master/audit/inputs.yml):
   - [ ] AWS Commercial accounts
   - [ ] AWS GovCloud accounts
   - [ ] Ensure new person creates a 55-day Google Calendar reminder to update passwords, which expire every 60 days
