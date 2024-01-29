@@ -36,8 +36,7 @@ We've structured our team into four teams.
 
 - Success Squad
   - Mark Boyd
-  - Jason Gambino
-  - Ephraim Gross  
+  - Jason Gambino 
   - Arsalan Haider
   - James Hochadel
   - Brian Hurst
