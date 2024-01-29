@@ -8,21 +8,36 @@ Information about our prioritization process and [the Story Lifecycle](StoryLife
 We've structured our team into four teams.
 
 - Platform, Comm channel: #cg-platform
-  - Van Nguyen
-  - Mark Boyd
   - Robert Gottlieb
-  - James Hochadel
-  - David Anderson
+  - Chris McGowan
+  - Van Nguyen
+  - Chris Weibel
 
 - Pages
+  - Sven Aas
   - Drew Bollinger
-  - Brian Hurst
   - Andrew Burnes
+  - Ephraim Gross
+  - Sarah Rudder
 
 - Compliance/assurance, Comm channel: #cg-compliance
-  - Peter Burkholder
+  - David Anderson
+  - Kudeha Atila
+  - Sean Bazemore
   - Chiaka Opara
+  - William Zujkowski
 
 - Customer and business, Comm channel: #cg-business
-  - Kelley Confer
+  - Amber Van Amburg
+  - Kelsey Foley
   - Melanie Leopold
+  - Banessa Moradi
+  - Matt Yoko-Young
+
+- Success Squad
+  - Mark Boyd
+  - Jason Gambino
+  - Ephraim Gross  
+  - Arsalan Haider
+  - James Hochadel
+  - Brian Hurst
