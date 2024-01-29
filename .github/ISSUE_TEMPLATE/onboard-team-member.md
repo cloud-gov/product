@@ -120,9 +120,7 @@ Add them to the following Google Groups:
 - [ ] [cloud.gov Team](https://groups.google.com/a/gsa.gov/g/cloud-gov/members) so they can participate in team-wide internal communication.
 - [ ] Business Unit Only - Add them to the [cloud.gov inquiries Google Group](https://groups.google.com/a/gsa.gov/g/cloud-gov-inquiries/members) so they can keep apprised of prospective new clients.
 
-And the following Google Space:
-
-- [ ] [CG-PRIV](https://mail.google.com/mail/u/0/#chat/space/AAAAr60JXAc), a fallback team communication channel in the event Slack is down.
+You will automatically be added to the Google Space [CG-PRIV](https://mail.google.com/mail/u/0/#chat/space/AAAAr60JXAc), a fallback team communication channel in the event Slack is down.
 
 They may need added to one or more of these team-specific groups:
 
@@ -133,5 +131,6 @@ They may need added to one or more of these team-specific groups:
 Lastly, for federal employees only:
 
 - [ ] [cloud.gov Federal Employees](https://groups.google.com/a/gsa.gov/g/cloud-gov-federal-employees/members)
+- [ ] Make them a Space Manager in [CG-PRIV](https://mail.google.com/mail/u/0/#chat/space/AAAAr60JXAc).
 
 </details>
