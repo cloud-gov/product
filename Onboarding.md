@@ -4,15 +4,7 @@ cloud.gov helps government teams attack core impediments to smooth, iterative de
 
 ## Instructions
 
-When someone new joins the cloud.gov team:
-
-1. The System Owner (Director or Deputy Director) creates a new issue in the [cg-product Github repo](https://github.com/cloud-gov/product/issues) called "Authorize Onboarding for [NewPerson]".  This constitutes 'formal approval' by leadership.
-  - The System Owner must do this step. An assignee can add the checklist afterward if the System Owner hasn't already.
-  - Use of an issue that only the System Owner is authorized to create before onboarding can proceed helps us satisfy the AC-2 control.
-2. The cloud.gov Director or Deputy Director adds the new team member to the `cloud-gov` team in GitHub.
-3. The System Owner or an assignee creates a new issue in the [cg-product Github repo](https://github.com/cloud-gov/product/issues) called `System Owner Authorization for Onboarding a New Team Member`
-4. The System Owner or the person who bravely volunteered to be the new person's Onboarding Buddy can then proceed to create the onboarding checklist issue for the new person
-5. Put the onboarding checklist issue into the _Doing_ column in our [project board](https://github.com/orgs/cloud-gov/projects/2).
+See the first section of your general onboarding ticket for instructions about authorizing and onboarding a new team member.
 
 ## Onboarding
 
@@ -34,7 +26,7 @@ Several tools are used for project management, but the main one you will probabl
 
 As a service offered to other federal agencies, cloud.gov must hold itself to a rigorous security standard in both our technical work and our team operations. We follow a formal set of security requirements as part of our FedRAMP P-ATO process. ([FedRAMP](https://www.fedramp.gov/) is a GSA-run program that assesses cloud services for government use, and we participate in this program.)
 
-* When you log into our cloud.gov CLI or dashboard for cloud.gov work, such as to work on a component that sits on cloud.gov as an application (for example the dashboard or the website), and GSA SecureAuth prompts you for multi-factor authentication (MFA), pick an MFA option that isn't email — use the phone/text/app MFA option. This helps us comply with our FedRAMP requirements.
+- When you log into our cloud.gov CLI or dashboard for cloud.gov work, such as to work on a component that sits on cloud.gov as an application (for example the dashboard or the website), and GSA SecureAuth prompts you for multi-factor authentication (MFA), pick an MFA option that isn't email — use the phone/text/app MFA option. This helps us comply with our FedRAMP requirements.
 
 ## Things we maintain
 
@@ -47,7 +39,7 @@ As a service offered to other federal agencies, cloud.gov must hold itself to a 
 - a [Google Drive folder](https://drive.google.com/a/gsa.gov/folderview?id=0Bx6EvBXVDWwheUtVckVnOE1pRzA&usp=sharing) full of artifacts related to design, user research, etc (also expected to move to GitHub in time)
 - [The cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-support), where we currently wrangle inquiries from various agencies, and some support.
 
-We liberally make upstream pull requests for stuff we use. We try to transfer broadly-useful Cloud Foundry-related projects to [the Cloud Foundry community GitHub organization](https://github.com/cloudfoundry-community/). 
+We liberally make upstream pull requests for stuff we use. We try to transfer broadly-useful Cloud Foundry-related projects to [the Cloud Foundry community GitHub organization](https://github.com/cloudfoundry-community/).
 
 ## Important terminology and context
 
@@ -73,13 +65,13 @@ We liberally make upstream pull requests for stuff we use. We try to transfer br
 - InfoSec – information security.
 - PaaS – platform as a service. We use Cloud Foundry to run the cloud.gov PaaS.
 - [Pivotal](https://pivotal.io/) – the company that originally started Cloud Foundry.
-- UAA - UAA is the User Authentication and Authorization hub for Cloud Foundry. It can delegate identity management via common standards such as LDAP/Active Directory, SAML, OAuth/OpenID Connect, and so forth. UAA is deployed as part of cloud.gov. 
+- UAA - UAA is the User Authentication and Authorization hub for Cloud Foundry. It can delegate identity management via common standards such as LDAP/Active Directory, SAML, OAuth/OpenID Connect, and so forth. UAA is deployed as part of cloud.gov.
 
-Also see [the Cloud Foundry glossary](http://docs.cloudfoundry.org/concepts/glossary.html) for  terms that are specific to the technology powering our platform.
+Also see [the Cloud Foundry glossary](http://docs.cloudfoundry.org/concepts/glossary.html) for terms that are specific to the technology powering our platform.
 
-# Joining the Federalist team
+# Joining the Pages team
 
-Federalist is a platform to build, launch, and manage static web sites for government agencies. The team develops, operates, and supports the platform so that we can offer it to agencies as a service.
+cloud.gov Pages is a platform to build, launch, and manage static web sites for government agencies. The team develops, operates, and supports the platform so that we can offer it to agencies as a service.
 
 ## Onboarding
 
