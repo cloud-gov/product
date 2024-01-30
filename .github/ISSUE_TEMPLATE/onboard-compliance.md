@@ -21,7 +21,7 @@ assignees: ""
     Federal employees and staff contractors, expand this section. Not applicable to project contractors.
   </summary>
 
-Engineers who are federal employees or staff contractors have a Contingency Plan role and may participate in Incident Response, so they must complete the CP and IR trainings. Project contractors do not need to complete these trainings. Check one of the following:
+Compliance staff who are federal employees or staff contractors have a Contingency Plan role and may participate in Incident Response, so they must complete the CP and IR trainings. Project contractors do not need to complete these trainings. Check one of the following:
 
 - [ ] Coordinate with your onboarding buddy to schedule Contingency Planning training within 60 days. (and annually after that). This will cover the following document, which you should also review before or after training:
   - [ ] Read the [Contingency Plan](https://cloud.gov/docs/ops/contingency-plan/).
