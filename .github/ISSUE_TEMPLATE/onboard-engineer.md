@@ -52,6 +52,11 @@ Your onboarding buddy will add you to these Slack channels:
 
 ## Google Groups
 
+<details>
+  <summary>
+    Federal employees and staff contractors, expand this section:
+  </summary>
+
 - [ ] [cloud.gov AWS](https://groups.google.com/a/gsa.gov/g/cloud-gov-aws/members)
 - [ ] [cloud.gov Notifications](https://groups.google.com/a/gsa.gov/g/cloud-gov-notifications/members) (🗣️)
 - [ ] [cloud.gov Operations](https://groups.google.com/a/gsa.gov/g/cloud-gov-operations/members)
@@ -59,6 +64,8 @@ Your onboarding buddy will add you to these Slack channels:
 - [ ] [cloud.gov Support](https://groups.google.com/a/gsa.gov/g/cloud-gov-support/members) (🗣️)
 
 Channels marked with (🗣️) receive a lot of messages, either from customers or bots, and you may want to mute them.
+
+</details>
 
 ## Learn our policies and procedures
 
