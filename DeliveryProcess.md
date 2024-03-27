@@ -12,6 +12,7 @@ We've structured our team into four teams.
   - Chris McGowan
   - Van Nguyen
   - Chris Weibel
+  - Ben Berry
 
 - Pages
   - Sven Aas
@@ -30,7 +31,7 @@ We've structured our team into four teams.
 - Customer and business, Comm channel: #cg-business
   - Amber Van Amburg
   - Kelsey Foley
-  - Melanie Leopold
+  - Nicki Wilson
   - Banessa Moradi
   - Matt Yoko-Young
 
