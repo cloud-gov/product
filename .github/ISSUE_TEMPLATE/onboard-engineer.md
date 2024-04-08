@@ -154,7 +154,7 @@ You are a member of the Cloud Operations team, which means you have additional a
     - As a cloud.gov team member, you should have a long list of organizations
     - If you have none or one (e.g. sandbox) org, please reach out to your onboarding buddy
 - [ ] Configure `aws-vault` by [following our directions](https://cloud.gov/docs/ops/secrets/#aws-credentials)
-- [ ] Fix `fly`, the Concourse CLI, by running `xattr -d com.apple.quarantine /opt/homebrew/bin/fly`. Concourse does not sign `fly` with an Apple Developer account, so you must use `xattr` to manually remove the binary from quarantine. Verify by running `fly -h` in your command line.
+- [ ] Fix `fly`, the Concourse CLI, by running `xattr -d com.apple.quarantine $(brew --prefix)/bin/fly`. Concourse does not sign `fly` with an Apple Developer account, so you must use `xattr` to manually remove the binary from quarantine. Verify by running `fly -h` in your command line.
 - [ ] Install cloud.gov dev tools by cloning the [`cg-scripts` repo](https://github.com/cloud-gov/cg-scripts/): run `git clone https://github.com/cloud-gov/cg-scripts.git` in your command line
 
 ### Figure out your first tasks
