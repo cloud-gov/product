@@ -52,7 +52,9 @@ For compliance we need to show that critical offboarding actions happen within 2
 If the person offboarding is a contractor, reach out to the COR to ensure any offboarding steps specific to their contract are being completed.
 
 - [ ] Remove their access to [StatusPage](https://manage.statuspage.io/organizations/btc69fwyvjh7/team)
-- [ ] Remove their agent access to Zendesk - [switch their role to "end user"](https://cloud-gov.zendesk.com/agent/admin/people)
+- [ ] Remove their agent access to Zendesk in [People > Team > Team Members](https://cloud-gov-new.zendesk.com/admin/people/team/members)
+  - You must be a ZenDesk admin to change users' roles.
+  - Click (...) next to the person, then "Manage in support", on the left-hand side under "User type", switch to "End user".
 - [ ] Remove them from `@cg-team`, `@cg-operators`, and any other `@cg-` teams in the Slack Team Directory [using the three-dot menu (instructions)](https://get.slack.help/hc/en-us/articles/212906697-User-Groups)
   - Check one of the following:
     - [ ] Temporary federal departure: Remove them all private cloud.gov Slack channels, except `#cg-priv-gov`, so they may continue to receive essential team communications.
