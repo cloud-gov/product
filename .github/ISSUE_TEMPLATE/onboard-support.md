@@ -54,7 +54,6 @@ Your onboarding buddy will add you to these Slack channels:
 - [ ] `#cg-aws-security` - private channel where bots post security notices
 - [ ] `#cg-incidents` - private channel for incident response
 - [ ] `#cg-ops-banter` - private channel for operations/engineering banter
-- [ ] `#cg-priv-all` - private channel for in-team discussion
 - [ ] `#cg-priv-compliance` - private channel for security and compliance discussions
 
 You will want to keep `#cg-support` unmuted so you are aware of requests from TTS-internal customers of cloud.gov.

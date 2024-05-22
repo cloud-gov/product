@@ -91,7 +91,6 @@ The following cloud.gov channels are public and all team members are welcome to 
 - [ ] `#cg-general` - program-level information and discussion
 - [ ] `#cg-offtopic` - off-topic team sharing
 - [ ] `#cg-platform-news` (🗣️) - bots post platform alerts (mostly CI job notifications)
-- [ ] `#cg-platform` - platform operations
 - [ ] `#cg-support` (🗣️) - support requests and assistance within TTS
 - [ ] `#cg-supportstream` (🗣️) - stream of activity on Zendesk tickets
 - [ ] `#cloud-gov` (🗣️) - bots post announcements here
@@ -99,6 +98,10 @@ The following cloud.gov channels are public and all team members are welcome to 
 Channels marked with (🗣️) receive a lot of messages, either from customers or bots, and you may want to mute them.
 
 - [ ] Project contractors: Your buddy will add you to the private channel for your project.
+
+For federal employees and staff contractors:
+
+- [ ] `#cg-priv-all` - private channel for in-team discussion
 
 For federal employees only:
 

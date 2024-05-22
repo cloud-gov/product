@@ -53,7 +53,6 @@ Your onboarding buddy will add you to these Slack channels:
 - [ ] `#cg-billing` - private business development channel (if applicable)
 - [ ] `#cg-incidents` - private channel for incident response
 - [ ] `#cg-ops-banter` - private channel for operations/engineering banter
-- [ ] `#cg-priv-all` - private channel for in-team discussion
 - [ ] `#cg-priv-compliance` - private channel for security and compliance discussions
 
 </details>
