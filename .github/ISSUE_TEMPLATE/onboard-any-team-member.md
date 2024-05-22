@@ -101,6 +101,7 @@ Channels marked with (🗣️) receive a lot of messages, either from customers 
 
 For federal employees and staff contractors:
 
+- [ ] `#cg-platform` - platform operations
 - [ ] `#cg-priv-all` - private channel for in-team discussion
 
 For federal employees only:
