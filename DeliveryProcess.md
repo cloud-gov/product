@@ -29,7 +29,6 @@ We've structured our team into four teams.
   - William Zujkowski
 
 - Customer and business, Comm channel: #cg-business
-  - Amber Van Amburg
   - Kelsey Foley
   - Nicki Wilson
   - Banessa Moradi
