@@ -56,7 +56,7 @@ Your onboarding buddy should reach out and introduce themselves to you. If you h
 Onboarding buddy: Contact the compliance team in [#cg-compliance](https://gsa.enterprise.slack.com/archives/C0A1Z7L2U) to schedule training(s).
 
 - [ ] Coordinate with your onboarding buddy to schedule [nonpublic information training](https://docs.google.com/presentation/d/1uB4MlGCu8ZYUxjKVZKwicQ95MvLxaT4Mh93y6w79GPw/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following documents, which you should also review before or after training:
-  - [ ] Read our [sharing secret keys](https://github.com/cloud-gov/tktk/blob/main/docs/resources/Engineering-Practices/secrets.md) policy.
+  - [ ] Read our [sharing secret keys](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Engineering-Practices/secrets.md) policy.
   - [ ] Review the [TTS requirements for password management](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/password-requirements/).
 
 ## Getting to know cloud.gov
