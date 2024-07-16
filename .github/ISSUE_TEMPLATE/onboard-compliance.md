@@ -33,8 +33,8 @@ Compliance staff who are federal employees or staff contractors have a Contingen
 ## Learn our policies and procedures
 
 - [ ] Review the [cloud.gov open source policy guidance about protecting sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information).
-- [ ] Read the [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), particularly the [cloud.gov team responsibilities](https://cloud.gov/docs/ops/continuous-monitoring/#cloud-gov-team).
-- [ ] Read the [Configuration Management Plan](https://cloud.gov/docs/ops/configuration-management/).
+- [ ] Read the [Continuous Monitoring Strategy](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/continuous-monitoring.md), particularly the [cloud.gov team responsibilities](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/continuous-monitoring.md#cloud-gov-team).
+- [ ] Read the [Configuration Management Plan](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/continuous-monitoring.md).
 - [ ] Read the [cloud.gov Security Policies and Procedures](https://github.com/cloud-gov/cg-compliance-docs). These documents explain the high-level policies and procedures we must comply with while running cloud.gov, sorted into security control "families" They explain that we follow GSA IT security policy, and they provide a summary of the procedures in our System Security Plan.
 - [ ] Review the System Security Plan (the latest version lives on [Google Drive](https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0); look for "cloud.gov System Security Plan (SSP)" as a _.docx_ file). Of particular note for onboarding: Section 9 (System Description) and Section 10 (System Environment)
 
