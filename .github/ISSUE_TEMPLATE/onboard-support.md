@@ -45,7 +45,7 @@ should take the time to go through them, please do not try and tackle it all in 
 very quickly, so your onboarding buddy will walk through this list with you at a high level with you to help manage the work.
 
 - [ ] [Sign up for a cloud.gov sandbox](https://cloud.gov/sign-up/#get-trial-access-and-a-free-sandbox-space) using your GSA email address and start experimenting to get familiar with the basics of the PaaS from a user's perspective.
-- [ ] Read our [service disruption guide](https://cloud.gov/docs/ops/service-disruption-guide/) to learn how we handle customer-facing service disruptions.
+- [ ] Read our [service disruption guide](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/service-disruption-guide.md) to learn how we handle customer-facing service disruptions.
 
 ## Slack channels
 

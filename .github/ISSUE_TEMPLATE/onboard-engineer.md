@@ -83,7 +83,7 @@ Resources on cloud.gov:
 
 - [ ] View the video: [A Technical Overview of cloud.gov](https://youtu.be/lwQCDeIm1Es)
 - [ ] Read the [Delivery Process document](https://github.com/cloud-gov/product/blob/master/StoryLifecycle.md) to learn about how we work.
-- [ ] Read our [service disruption guide](https://cloud.gov/docs/ops/service-disruption-guide/) to learn how we handle customer-facing service disruptions.
+- [ ] Read our [service disruption guide](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/service-disruption-guide.md) to learn how we handle customer-facing service disruptions.
 
 Resources on CloudFoundry/BOSH:
 
