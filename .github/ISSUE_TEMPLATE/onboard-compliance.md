@@ -24,9 +24,9 @@ assignees: ""
 Compliance staff who are federal employees or staff contractors have a Contingency Plan role and may participate in Incident Response, so they must complete the CP and IR trainings. Project contractors do not need to complete these trainings. Check one of the following:
 
 - [ ] Coordinate with your onboarding buddy to schedule Contingency Planning training within 60 days. (and annually after that). This will cover the following document, which you should also review before or after training:
-  - [ ] Read the [Contingency Plan](https://cloud.gov/docs/ops/contingency-plan/).
+  - [ ] Read the [Contingency Plan](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/contingency-plan.md).
 - [ ] Coordinate with your onboarding buddy to schedule [Incident Response Training](https://docs.google.com/presentation/d/1AZjQE8zBzMRWZIFUuJPkJLted1ykGtALrLPoPRx5Vls/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following document, which you should also review before or after training:
-  - [ ] Read the [Incident Response Guide](https://cloud.gov/docs/ops/security-ir/).
+  - [ ] Read the [Incident Response Guide](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/security-ir.md/).
 
 </details>
 
