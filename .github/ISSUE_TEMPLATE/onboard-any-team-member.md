@@ -66,6 +66,7 @@ These items will help you come up to speed on cloud.gov and what it is, how it w
 - [ ] Read through [the Overview section of our site](https://cloud.gov/docs/overview/what-is-cloudgov/) for a broader understanding of cloud.gov, especially how we present it to potential customers and users.
 - [ ] Read [the team onboarding document](https://github.com/cloud-gov/product/blob/main/Onboarding.md) for more context about cloud.gov.
 - [ ] Bookmark the [pertinent links listed here](https://github.com/cloud-gov/product/blob/main/PertinentLinks.md).
+- [ ] Schedule product team intros with the compliance, platform, Pages, and businsess to learn about their structure, roles, and offerings.
 
 ## Team resources
 
