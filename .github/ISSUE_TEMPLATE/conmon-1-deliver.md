@@ -8,7 +8,7 @@ assignees: ''
 ---
 In order for us to update the JAB on our compliance in a consistent way, we need to deliver a Continuous Monitoring report monthly (our standard due date is the 2nd of the month. If these dates fall on a weekend or federal holiday, adjust to the last business day before the date.)
 
-For context, see our [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), including [the monthly reporting summary explanation](https://cloud.gov/docs/ops/continuous-monitoring/#monthly-reporting-summary). 
+For context, see our [Continuous Monitoring Strategy](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/continuous-monitoring.md), including [the monthly reporting summary explanation](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/continuous-monitoring.md#monthly-reporting-summary). 
 
 We need to process our scan results and prepare documentation for any updated or new items, including updating the [vulnerability tracker](https://docs.google.com/spreadsheets/d/1tAYNmiEUwMSquRcQ0MrqtP-VIo7oxh1OzD6rmkWl-9w/edit#gid=1701775784) and [POA&M](https://docs.google.com/spreadsheets/d/16igVl8cD3SqeX5_SOn5Su34KmwMRnP20gPbfQlqIwfM/edit#gid=1701775784).
 (Vulnerabilities that are patched within RA-05/SI-02 deadlines are not reported on the POA&M sheet).

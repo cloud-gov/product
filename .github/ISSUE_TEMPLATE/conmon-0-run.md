@@ -8,7 +8,7 @@ assignees: ""
 
 In order for us to update the JAB on our compliance in a consistent way, we need to run Continuous Monitoring scans on approximately the 23rd of the month. (If this date falls on a weekend or federal holiday, adjust to the last business day before the date.)
 
-For context, see our [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), including [the monthly reporting summary explanation](https://cloud.gov/docs/ops/continuous-monitoring/#monthly-reporting-summary).
+For context, see our [Continuous Monitoring Strategy](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/continuous-monitoring.md), including [the monthly reporting summary explanation](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/continuous-monitoring.md#monthly-reporting-summary).
 
 ## Netsparker
 

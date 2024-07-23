@@ -24,19 +24,19 @@ assignees: ""
 Engineers who are federal employees or staff contractors have a Contingency Plan role and may participate in Incident Response, so they must complete the CP and IR trainings. Project contractors do not need to complete these trainings. Check one of the following:
 
 - [ ] Coordinate with your onboarding buddy to schedule Contingency Planning training within 60 days. (and annually after that). This will cover the following document, which you should also review before or after training:
-  - [ ] Read the [Contingency Plan](https://cloud.gov/docs/ops/contingency-plan/).
+  - [ ] Read the [Contingency Plan](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/contingency-plan.md).
 - [ ] Coordinate with your onboarding buddy to schedule [Incident Response Training](https://docs.google.com/presentation/d/1AZjQE8zBzMRWZIFUuJPkJLted1ykGtALrLPoPRx5Vls/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following document, which you should also review before or after training:
-  - [ ] Read the [Incident Response Guide](https://cloud.gov/docs/ops/security-ir/).
+  - [ ] Read the [Incident Response Guide](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/security-ir.md/).
 
 </details>
 
 ## Learn our policies and procedures
 
 - [ ] Review the [cloud.gov open source policy guidance about protecting sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information).
-- [ ] Read the [Continuous Monitoring Strategy](https://cloud.gov/docs/ops/continuous-monitoring/), particularly the [cloud.gov team responsibilities](https://cloud.gov/docs/ops/continuous-monitoring/#cloud-gov-team).
-- [ ] Read the [Configuration Management Plan](https://cloud.gov/docs/ops/configuration-management/).
+- [ ] Read the [Continuous Monitoring Strategy](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/continuous-monitoring.md), particularly the [cloud.gov team responsibilities](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/continuous-monitoring.md#cloud-gov-team).
+- [ ] Read the [Configuration Management Plan](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/continuous-monitoring.md).
 - [ ] Read the [cloud.gov Security Policies and Procedures](https://github.com/cloud-gov/cg-compliance-docs). These documents explain the high-level policies and procedures we must comply with while running cloud.gov, sorted into security control "families" They explain that we follow GSA IT security policy, and they provide a summary of the procedures in our System Security Plan.
-- [ ] Review the System Security Plan (the latest version lives on [Google Drive](https://drive.google.com/drive/u/0/folders/0B6fPl5s12igNX3JwR2xFZVpmek0); look for "cloud.gov System Security Plan (SSP)" as a _.docx_ file). Of particular note for onboarding: Section 9 (System Description) and Section 10 (System Environment)
+- [ ] Review the System Security Plan (the latest version lives on [Google Drive](https://drive.google.com/drive/folders/1K90aAi_-YYyXTbrqQUCmmfLx25AQL_3i); look for "cloud.gov System Security Plan (SSP)" as a _.docx_ file). Of particular note for onboarding: Section 9 (System Description) and Section 10 (System Environment)
 
 ## Getting to know cloud.gov
 
@@ -45,7 +45,7 @@ should take the time to go through them, please do not try and tackle it all in 
 very quickly, so your onboarding buddy will walk through this list with you at a high level with you to help manage the work.
 
 - [ ] [Sign up for a cloud.gov sandbox](https://cloud.gov/sign-up/#get-trial-access-and-a-free-sandbox-space) using your GSA email address and start experimenting to get familiar with the basics of the PaaS from a user's perspective.
-- [ ] Read our [service disruption guide](https://cloud.gov/docs/ops/service-disruption-guide/) to learn how we handle customer-facing service disruptions.
+- [ ] Read our [service disruption guide](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/service-disruption-guide.md) to learn how we handle customer-facing service disruptions.
 
 ## Slack channels
 
