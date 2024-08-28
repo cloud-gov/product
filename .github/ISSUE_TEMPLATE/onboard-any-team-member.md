@@ -48,7 +48,7 @@ Your onboarding buddy should reach out and introduce themselves to you. If you h
   - All engineers who are federal employees or staff contractors are part of Cloud Operations. Project contractors are not.
   - Copy the formulas for the due dates from an existing row (grab the "corner" of the cells and pull down).
   - As they complete training, fill out their completion dates in the [training tracker](https://docs.google.com/spreadsheets/d/1hqU6cNeEB293OT0j3OvbdAFRkrf2zDOrPVxGfnr4sSw/edit#gid=0).
-- [ ] Add them to the @cg-team group [in Slack’s Team Directory](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group).
+- [ ] Add them to the `@cg-team` group [in Slack’s Team Directory](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group).
 - [ ] Add them on GitHub to the [`cloud-gov-team`](https://github.com/orgs/cloud-gov/teams/cloud-gov-team) team, which will automatically invite them to our [`cloud-gov`](https://github.com/orgs/cloud-gov/people) organization.
 
 ## Complete cloud.gov trainings
