@@ -1,25 +1,25 @@
 # Cloud.gov Voice & Tone Content Style Guide
 
 Jump to:
-- How to sound like Cloud.gov
-    1. Be clear and direct
-    2. Be trustworthy and knowledgeable
-    3. Be proactive and helpful
-    4. Use the right tone
-- How to talk about Cloud.gov
-    1. Keep it simple
-    2. Look for a contrast
-    3. Focus on the customer's perspective
-- How to talk about Cloud.gov Pages
-- How to talk about everyone else
-    1. Referring to other offices, programs, or teams within TTS or GSA
-    2. Referring to external or non-government entities
-- How to write like Cloud.gov
-    1. Use good content structure and formatting.
-    2. Use consistent pelling, capitalization, punctuation, and spacing
-- How to write documentation for Cloud.gov
-    1. Keep roles consistent
-    2. Customer responsibilities
+- **[How to sound like Cloud.gov](#how-to-sound-like-cloudgov)**
+    1. [Be clear and direct](#1-be-clear-and-direct)
+    2. [Be trustworthy and knowledgeable](#2-be-trustworthy-and-knowledgeable)
+    3. [Be proactive and helpful](#3-be-proactive-and-helpful)
+    4. [Use the right tone](#4-use-the-right-tone)
+- **[How to talk about Cloud.gov](#how-to-talk-about-cloudgov)**
+    1. [Keep it simple](#1-keep-it-simple)
+    2. [Look for a contrast](#2-look-for-a-contrast-from-the-expected)
+    3. [Focus on the customer's perspective](#3-focus-on-the-customers-perspective)
+- **[How to talk about Cloud.gov Pages](#how-to-talk-about-cloudgov-pages)**
+- **[How to talk about everyone else](#how-to-talk-about-everyone-else)**
+    1. [Referring to other offices, programs, or teams within TTS or GSA](#1-referring-to-other-offices-programs-or-teams-within-tts-or-gsa)
+    2. [Referring to external or non-government entities](#2-referring-to-external-or-non-government-entities)
+- **[How to write like Cloud.gov](#how-to-write-like-cloudgov)**
+    1. [Use good content structure and formatting.](#1-use-good-content-structure-and-formatting)
+    2. [Use consistent pelling, capitalization, punctuation, and spacing](#2-use-consistent-spelling-capitalization-punctuation-and-spacing)
+- **[How to write documentation for Cloud.gov](#how-to-write-documentation-for-cloudgov)**
+    1. [Keep roles consistent](#1-keep-roles-consistent)
+    2. [Customer responsibilities](#2-customer-responsibilities)
 * * * * *
 
 
@@ -44,16 +44,18 @@ For example:
 * * * * *
 
 ### 1\. Be clear and direct: 
-- Use easy-to-understand language and clarify acronyms, complex instructions, and concepts. 
-- Don't assume you have undivided attention; it's much more likely that your reader is distracted or in the middle of something. For their sake, make your content easy to scan and digest. 
-- At all costs, avoid the passive voice — make it clear _who_ is responsible for _what_.
+- Use [easy-to-understand language](https://www.plainlanguage.gov/guidelines/words/use-simple-words-phrases/) and [clarify acronyms](https://www.plainlanguage.gov/guidelines/words/minimize-abbreviations/), [complex instructions](https://www.plainlanguage.gov/guidelines/words/place-words-carefully/), and [unfamiliar terms](https://www.plainlanguage.gov/guidelines/words/minimize-definitions/). 
+- ~~If you can say something in fewer words, do so.~~ [Shorter is better.](https://www.plainlanguage.gov/guidelines/concise/)
+- Don't assume you have undivided attention; it's much more likely that your reader is distracted or in the middle of something. For their sake, make your content [easy to scan and digest](https://www.plainlanguage.gov/guidelines/concise/write-short-sections/). 
+- [Address the user](https://www.plainlanguage.gov/guidelines/audience/address-the-user/) to make it clear who the message is intended for.
+- At all costs, [avoid the passive voice](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/) — make it clear _who_ is responsible for _what_.
 
 > ~~"Official ATU documentation must be provided before production use is authorized."~~
 
 >  "Make sure you send us a copy of your ATU letter, signed by your agency security leader, before you launch. Using Pages for production sites without a signed ATU violates your customer agreement."
-
-#### Use active voice instead of passive voice
-
+<details>
+<summary><b>Why use active voice?</b>
+</summary>
 Use active voice, especially when you're writing technical explanations. For example: *"the subject did something"*, such as *"the cluster recorded the data"*.
 
 If you write sentences in passive voice (*"something was done"*, such as *"the data was recorded"*), your sentence is hiding important technical information: what did the action? What recorded the data? If you start to write *"**something** was done by the **thing**"*, revise it to say *"the **thing** did **something**"*.
@@ -61,12 +63,12 @@ If you write sentences in passive voice (*"something was done"*, such as *"the d
 Using active voice is important for outage reports and postmortems. If we write with passive voice, this can sound like we're not taking full responsibility for our actions and mistakes.
 
 Active voice is also important for documentation (including compliance documentation). When you state which part of the system is doing which action, this helps readers understand how the system works.
-
+</details>
 
 ### 2\. Be trustworthy and knowledgeable:
 - Cloud.gov values our relationship with our users and the trust they place in our platform. We earn that trust by using work-appropriate, accessible, and inclusive language. 
 - Be approachable without becoming unprofessional by incorporating context, clarifying expectations, and demonstrating respect.
-- Neither over- nor under-promise; instead, consistently present a composed, intentional, and reassuring message with integrity. 
+- Neither over- nor under-promise; instead, [consistently](https://www.plainlanguage.gov/guidelines/words/use-the-same-terms-consistently/) present a composed, intentional, and reassuring message with integrity. 
 - Don't try to sound smart when you can just as easily ELI5.
 
 
@@ -76,8 +78,9 @@ Active voice is also important for documentation (including compliance documenta
 
 ### 3\. Be proactive and helpful:
 - Our customers may feel like they're working in isolation, but we see the patterns that emerge across hundreds of federal apps and websites. Cloud.gov puts these lessons in practice for our users. 
-- Encourage users by presenting options and solutions rather than focusing on limitations or exceptions. 
+- Encourage users by [presenting options and solutions](https://www.plainlanguage.gov/guidelines/concise/use-positive-language/) rather than [focusing on limitations or exceptions](https://www.plainlanguage.gov/guidelines/organize/place-the-main-idea-before-exceptions-and-conditions/). 
 - If what you need to communicate is hard to understand without prerequisite knowledge, explain or link to that information -- you're probably better suited to find a good source than your reader. 
+- [Soften transitions](https://www.plainlanguage.gov/guidelines/organize/use-transition-words/) to prevent losing attention or context at key intersections.
 - Own the responsibility for making sure our customers have what they need before they even go to reach for it, so our users can focus on their mission instead of ours.
 
 > ~~"You can only use preview links for changes on branches other than main. Main is for production use only."~~
@@ -86,7 +89,7 @@ Active voice is also important for documentation (including compliance documenta
 
 * * * * *
 
-### 4\.Use the right tone
+### 4\. Use the right tone
 
 -   **Formal vs. Informal**: Match the tone to the context. A more formal tone is used for legal, compliance, or regulatory documentation, while informal tone suits emails or customer engagement platforms like Slack. 
 
@@ -173,9 +176,10 @@ Coming soon!
 ## How to write like Cloud.gov
 
 ### 1\. Use good content structure and formatting.
--   **Headers**: Use clear, descriptive headers in title case to help readers scan content quickly. Prefer sentence case to Title Case, and only end a title with a period if it's a complete sentence.
--   **Sentences and Paragraphs**: Keep them concise and straightforward. Use bullet points or numbered lists to break down complex ideas.
--   **Linking**: Provide context for all links and use descriptive anchor text that reflects the linked content.
+-   **Design for reading**: [Per the Plain Language guidelines](https://www.plainlanguage.gov/guidelines/design/), structure your content so that it's easy to read
+-   **Headings**: [Add useful headings](https://www.plainlanguage.gov/guidelines/organize/add-useful-headings/) to help readers scan content quickly. Prefer sentence case to Title Case, and only end a title with a period if it's a complete sentence.
+-   **Prose**: [Have a topic sentence](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/) that concisely makes your point. Always start with the most important information first. [Use bullet points or numbered lists](https://www.plainlanguage.gov/guidelines/organize/use-lists/) to break down complex ideas.
+-   **Linking**: Provide context for all links and [use descriptive anchor text](https://www.plainlanguage.gov/guidelines/web/write-effective-links/) that reflects the linked content.
 
 ### 2\. Use consistent spelling, capitalization, punctuation, and spacing
 
