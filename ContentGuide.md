@@ -195,7 +195,7 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **ClamAV**
 * **Cloud Controller**
 * **Cloud Foundry**
-* **cloud.gov** (always lowercase, except at the beginning of a sentence or as part of a subproduct name, e.g. **Cloud.gov Pages**)
+* **Cloud.gov** (always capitalized, fix it where you see it lowercase)
 * **Cloudability**
 * **CloudFront**
 * **CloudTrail**
