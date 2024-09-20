@@ -163,7 +163,7 @@ Coming soon!
 
 ### 2\. Referring to external or non-government entities
 
--   **Always visually distinguish external links** and compy with [GSA's external linking policy](https://www.gsa.gov/website-information/website-policies#:~:text=We%20provide%20these%20links%20as,included%20in%20these%20website%20links.)
+-   **Always visually distinguish external links** and comply with [GSA's external linking policy](https://www.gsa.gov/website-information/website-policies#:~:text=We%20provide%20these%20links%20as,included%20in%20these%20website%20links.)
 
 -   **Commit to reviewing any external link annually**: Webpages move or change over time, and rarely with notice. Before you refer customers to other sources, consider whether the content will still be as relevant in a year. It may be more appropriate to link to a canonical version.
 
