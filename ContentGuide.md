@@ -16,7 +16,7 @@ Jump to:
     2. [Referring to external or non-government entities](#2-referring-to-external-or-non-government-entities)
 - **[How to write like Cloud.gov](#how-to-write-like-cloudgov)**
     1. [Use good content structure and formatting.](#1-use-good-content-structure-and-formatting)
-    2. [Use consistent pelling, capitalization, punctuation, and spacing](#2-use-consistent-spelling-capitalization-punctuation-and-spacing)
+    2. [Use consistent spelling, capitalization, punctuation, and spacing](#2-use-consistent-spelling-capitalization-punctuation-and-spacing)
 - **[How to write documentation for Cloud.gov](#how-to-write-documentation-for-cloudgov)**
     1. [Keep roles consistent](#1-keep-roles-consistent)
     2. [Customer responsibilities](#2-customer-responsibilities)
