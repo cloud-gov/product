@@ -39,7 +39,7 @@ For example:
 -   **Direct support** sounds personalized and formal
 -   **Internal collaboration** sound personalized and informal
 -   **Technical documentation** sounds generalized and formal
--   **Announcement and marketing** sounds generalized and informal
+-   **Announcements and marketing** sounds generalized and informal
 
 * * * * *
 
@@ -56,6 +56,7 @@ For example:
 <details>
 <summary><b>Why use active voice?</b>
 </summary>
+
 Use active voice, especially when you're writing technical explanations. For example: *"the subject did something"*, such as *"the cluster recorded the data"*.
 
 If you write sentences in passive voice (*"something was done"*, such as *"the data was recorded"*), your sentence is hiding important technical information: what did the action? What recorded the data? If you start to write *"**something** was done by the **thing**"*, revise it to say *"the **thing** did **something**"*.
