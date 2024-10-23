@@ -4,8 +4,8 @@
 <name>cloud.gov external conmon</name>
     <desc/>
     <inscope>true</inscope>
-    <!-- 
-      When adding URLs here, sync also with 
+    <!--
+      When adding URLs here, sync also with
          cg-deploy-prometheus/blob/main/bosh/varsfiles/production.yml
     -->
     <incregexes>https://account.fr.cloud.gov.*</incregexes>
@@ -15,6 +15,7 @@
     <incregexes>https://idp.fr.cloud.gov.*</incregexes>
     <incregexes>https://login.fr.cloud.gov.*</incregexes>
     <incregexes>https://logs.fr.cloud.gov.*</incregexes>
+    <incregexes>https://logs-beta.fr.cloud.gov.*</incregexes>
     <excregexes>mozilla\.com</excregexes>
     <excregexes>mozilla\.net</excregexes>
     <excregexes>mozilla\.org</excregexes>
