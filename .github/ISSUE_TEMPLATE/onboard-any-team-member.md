@@ -38,8 +38,9 @@ Your onboarding buddy should reach out and introduce themselves to you. If you h
 
 ## Pre-requisites
 
-- [ ] Complete [GSA OLU](https://gsaolu.gsa.gov/) IT Security & Privacy Awareness Training, which includes accepting the GSA IT Rules of Behavior. This is required before we can give you access to any cloud.gov systems. If you joined GSA more than two months ago, you've already completed this task and can check the box.
+- [ ] Complete [GSA OLU](https://gsaolu.gsa.gov/) IT Security & Privacy Awareness Training, which includes accepting the GSA IT Rules of Behavior. This is required before we can give you access to any GSA systems. If you joined GSA more than two months ago, you've already completed this task and can check the box.
   - OLU has sometimes lost course completion data. We recommend downloading the PDF certificate of completion for each training and saving it to your Google Drive.
+- [ ] Sign the cloud.gov Rules of Behavior. This is required prior to accessing any cloud.gov system. Request a copy of the Rules of Behavior by contacting the cloud.gov Office of Cybersecurity  (cloud-gov-cybersecurity@gsa.gov)
 
 ## Fulfill security and compliance requirements - Completed by onboarding buddy
 
