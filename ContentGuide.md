@@ -226,14 +226,14 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **Nessus**
 * **New Relic**
 * **OAuth**
+* **OpenSearch**
+* **OpenSearch Dashboards**
 * **OWASP ZAP**
 * **Platform as a Service** (or **PaaS**)
 * **React** (when talking about the library)
 * **Redis**
-* **Riemann**
 * Roles use the same word choice and capitalization as the CF CLI, with spaces for clarity: **Org Manager**, **Billing Manager**, **Org Auditor**, **Space Manager**, **Space Developer**, **Space Auditor**.
 * **StatusPage**
-* **Travis CI**
 * **Trusted Advisor**
 * **Virtual Private Cloud**
 * **VisualOps**
