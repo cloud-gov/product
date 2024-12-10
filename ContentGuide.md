@@ -227,7 +227,7 @@ Use these exact strings (keeping this spelling, capitalization, punctuation, and
 * **New Relic**
 * **OAuth**
 * **OpenSearch**
-* **OpenSearch Dashboards**
+* **OpenSearch Dashboards**: Note this is always plural as a product name, e.g. "Look at this OpenSearch Dashboards dashboard" 
 * **OWASP ZAP**
 * **Platform as a Service** (or **PaaS**)
 * **React** (when talking about the library)
