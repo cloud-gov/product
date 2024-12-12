@@ -1,7 +1,6 @@
 tap "cloudfoundry/tap"
 tap "hashicorp/tap"
 tap "homebrew/bundle"
-tap "homebrew/cask-versions"
 tap "homebrew/services"
 brew "aws-vault"
 brew "awscli"
