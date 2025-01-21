@@ -25,7 +25,6 @@ We've structured our team into four teams.
   - David Anderson
   - Kudeha Atila
   - Sean Bazemore
-  - Chiaka Opara
   - William Zujkowski
 
 - Customer and business, Comm channel: #cg-business
