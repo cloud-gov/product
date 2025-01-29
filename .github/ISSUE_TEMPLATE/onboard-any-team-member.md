@@ -14,7 +14,7 @@ assignees: ""
   - A:
     - [ ] A: System Owner creates this issue
   - B:
-    - [ ] B.1: System owner emails cloud-gov-compliance@gsa.gov and cloud-gov-operations@gsa.gov with their authorization
+    - [ ] B.1: System owner emails <cloud-gov-compliance@gsa.gov> and <cloud-gov-operations@gsa.gov> with their authorization
     - [ ] B.2: An operator adds a link to the Google Group conversation that includes the authorizing email.
       - (link here)
 - **Please only use first names.**
@@ -56,7 +56,7 @@ Your onboarding buddy should reach out and introduce themselves to you. If you h
 Onboarding buddy: Contact the compliance team in [#cg-compliance](https://gsa.enterprise.slack.com/archives/C0A1Z7L2U) to schedule training(s).
 
 - [ ] Coordinate with your onboarding buddy to schedule [nonpublic information training](https://docs.google.com/presentation/d/1uB4MlGCu8ZYUxjKVZKwicQ95MvLxaT4Mh93y6w79GPw/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following documents, which you should also review before or after training:
-  - [ ] Read our [sharing secret keys](https://cloud.gov/docs/ops/secrets/#sharing-secret-keys) policy.
+  - [ ] Read our [sharing secret keys](https://github.com/cloud-gov/internal-docs/blob/5914524c5a4a29109c4c3b4ebb14606e09eb44f3/docs/resources/Engineering-Practices/secrets.md) policy.
   - [ ] Review the [TTS requirements for password management](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/password-requirements/).
 
 ## Getting to know cloud.gov
