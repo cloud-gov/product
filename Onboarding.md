@@ -26,7 +26,7 @@ Several tools are used for project management, but the main one you will probabl
 
 As a service offered to other federal agencies, cloud.gov must hold itself to a rigorous security standard in both our technical work and our team operations. We follow a formal set of security requirements as part of our FedRAMP P-ATO process. ([FedRAMP](https://www.fedramp.gov/) is a GSA-run program that assesses cloud services for government use, and we participate in this program.)
 
-- When you log into our cloud.gov CLI or dashboard for cloud.gov work, such as to work on a component that sits on cloud.gov as an application (for example the dashboard or the website), and GSA SecureAuth prompts you for multi-factor authentication (MFA), pick an MFA option that isn't email — use the phone/text/app MFA option. This helps us comply with our FedRAMP requirements.
+- When you log into our cloud.gov CLI or dashboard for cloud.gov work, such as to work on a component that sits on cloud.gov as an application (for example the dashboard or the website), and GSAuth prompts you for multi-factor authentication (MFA), pick an MFA option that isn't email — use the phone/text/app MFA option. This helps us comply with our FedRAMP requirements.
 
 ## Things we maintain
 
