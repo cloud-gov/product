@@ -1,6 +1,6 @@
 # Unattributed Customer Quotes
 
-_Gathered during GSA's 2024 Customer Loyalty Survey or among internal customers at TTS/GSA in Slack in early 2025._
+_Gathered during GSA's 2024 Customer Loyalty Survey, from Customer Feedback sessions in late 2024, and among internal customers at TTS/GSA in Slack in early 2025._
 
 > "cloud.gov is one of the first GSA tools I used and I liked it, then met the people behind it, then loved it. When I argued for feds doing tech work and running services, cloud.gov is the bulk of my examples, and are a primary reason I wanted back into TTS."
 
@@ -126,7 +126,24 @@ _Gathered during GSA's 2024 Customer Loyalty Survey or among internal customers 
 
 > "Responding to technical concerns, providing support, keeping a solid platform up and running consistently."
 
-> ""Making deployment effortless. Removing the burden of maintaining and allocating website infrastructure."
+> "Making deployment effortless. Removing the burden of maintaining and allocating website infrastructure."
+
+> "Cloud.gov has been great to deal with and would agree we are swimming with the current when using the platform."
+
+> "Cloud.gov remains one of the top (if not the top) [agency-approved] custom application hosting environments."
+
+> "Seamless maintenance and application uptime is big plus and greatly appreciated"
+
+> "We love Cloud.gov. If we didn't have Cloud.gov, we'd have to hire like six more people"
+
+> "For us, Cloud.gov is like the duck on a pond, we see it  moving placidly along, but under the water there is a lot of work going on.
+
+> "A strength of Cloud.gov is how easy it is to make applications go live. It
+> took one day to push an application as a proof of concept on Cloud.gov which exceeded their expectations."
+
+> "One of the biggest benefits of Cloud.gov is the ceiling on billing in AWS"
+
+
 
 
 
