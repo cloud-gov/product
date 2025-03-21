@@ -71,22 +71,21 @@ _Gathered during GSA's 2024 Customer Loyalty Survey, from Customer Feedback sess
 
 > "I really appreciate the work Cloud.gov does to provide DDoS protection for us. We're a small team and having someone provide that service helps me sleep better."
 
-> "Having now experienced launching government services on ~FCS~ other government infrastructure, I am completely in awe. I'm not sure I have words for how much better the experience is. Everything just works. Everything is at my fingertips. I don't have operate my infrastructure via voice command that I have to create a calendar event to use."
+> "Having now experienced launching government services on other government infrastructure, I am completely in awe. I'm not sure I have words for how much better the experience is. Everything just works. Everything is at my fingertips. I don't have operate my infrastructure via voice command that I have to create a calendar event to use."
 
 > "Cloud.gov has been great to deal with and would agree we are swimming with the current when using the platform."
 
 > "Cloud.gov remains one of the top (if not the top) [agency-approved] custom application hosting environments."
 
-> "Seamless maintenance and application uptime is big plus and greatly appreciated"
+> "Seamless maintenance and application uptime is big plus and greatly appreciated."
 
-> "We love Cloud.gov. If we didn't have Cloud.gov, we'd have to hire like six more people"
+> "We love Cloud.gov. If we didn't have Cloud.gov, we'd have to hire like six more people."
 
 > "For us, Cloud.gov is like the duck on a pond, we see it  moving placidly along, but under the water there is a lot of work going on.
 
-> "A strength of Cloud.gov is how easy it is to make applications go live. It
-> took one day to push an application as a proof of concept on Cloud.gov which exceeded their expectations."
+> "A strength of Cloud.gov is how easy it is to make applications go live. It took one day to push an application as a proof of concept on Cloud.gov which exceeded their expectations."
 
-> "One of the biggest benefits of Cloud.gov is the ceiling on billing in AWS"
+> "One of the biggest benefits of Cloud.gov is the ceiling on billing in AWS."
 
 ## Pages
 
@@ -143,10 +142,3 @@ _Gathered during GSA's 2024 Customer Loyalty Survey, from Customer Feedback sess
 > "Responding to technical concerns, providing support, keeping a solid platform up and running consistently."
 
 > "Making deployment effortless. Removing the burden of maintaining and allocating website infrastructure."
-
-
-
-
-
-
-
