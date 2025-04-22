@@ -152,7 +152,7 @@ You are a member of the Cloud Operations team, which means you have additional a
   - `cf orgs`
     - As a cloud.gov team member, you should have a long list of organizations
     - If you have none or one (e.g. sandbox) org, please reach out to your onboarding buddy
-- [ ] Configure `aws-vault` by [following our directions](https://cloud.gov/docs/ops/secrets/#aws-credentials)
+- [ ] Configure `aws-vault` by [following our directions](https://github.com/cloud-gov/aws-admin/blob/main/docs/user_access.md)
 - [ ] Fix `fly`, the Concourse CLI, by running `xattr -d com.apple.quarantine $(brew --prefix)/bin/fly`. Concourse does not sign `fly` with an Apple Developer account, so you must use `xattr` to manually remove the binary from quarantine. Verify by running `fly -h` in your command line.
 - [ ] Install cloud.gov dev tools by cloning the [`cg-scripts` repo](https://github.com/cloud-gov/cg-scripts/): run `git clone https://github.com/cloud-gov/cg-scripts.git` in your command line
 
@@ -179,6 +179,6 @@ If you are not already assigned to a particular squad, work with your onboarding
 
 These items are only mandatory for someone stepping into an Assurance squad role, but you are welcome to subscribe even if you are on another squad:
 
-- [ ] Subscribe to CISA alerts/updates: https://www.cisa.gov/about/contact-us/subscribe-updates-cisa
-- [ ] Subscribe to FedRAMP mailing lists: https://public.govdelivery.com/accounts/USGSA/subscriber/topics?qsp=USGSA_2224
+- [ ] Subscribe to CISA alerts/updates: <https://www.cisa.gov/about/contact-us/subscribe-updates-cisa>
+- [ ] Subscribe to FedRAMP mailing lists: <https://public.govdelivery.com/accounts/USGSA/subscriber/topics?qsp=USGSA_2224>
 - [ ] Read Compliance Lead documents at root of the [Google Drive Security and Compliance](https://drive.google.com/drive/u/0/folders/1_vAXZsdVFYssR1DRCaavBCoDE_uxQCI5) folder
