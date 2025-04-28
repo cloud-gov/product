@@ -12,7 +12,6 @@ We've structured our team into four teams.
   - Chris McGowan
   - Van Nguyen
   - Chris Weibel
-  - Ben Berry
 
 - Pages
   - Sven Aas
