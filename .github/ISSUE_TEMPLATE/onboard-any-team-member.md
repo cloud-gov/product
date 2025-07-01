@@ -40,7 +40,7 @@ Your onboarding buddy should reach out and introduce themselves to you. If you h
 
 - [ ] Complete [GSA OLU](https://gsaolu.gsa.gov/) IT Security & Privacy Awareness Training, which includes accepting the GSA IT Rules of Behavior. This is required before we can give you access to any GSA systems. If you joined GSA more than two months ago, you've already completed this task and can check the box.
   - OLU has sometimes lost course completion data. We recommend downloading the PDF certificate of completion for each training and saving it to your Google Drive.
-- [ ] Sign the cloud.gov Rules of Behavior. This is required prior to accessing any cloud.gov system. Request a copy of the Rules of Behavior by contacting the cloud.gov Office of Cybersecurity  (cloud-gov-cybersecurity@gsa.gov)
+- [ ] Sign the cloud.gov Rules of Behavior. This is required prior to accessing any cloud.gov system. Request a copy of the Rules of Behavior by contacting the cloud.gov Office of Cybersecurity (cloud-gov-cybersecurity@gsa.gov)
 
 ## Fulfill security and compliance requirements - Completed by onboarding buddy
 
@@ -57,7 +57,7 @@ Your onboarding buddy should reach out and introduce themselves to you. If you h
 Onboarding buddy: Contact the compliance team in [#cg-compliance](https://gsa.enterprise.slack.com/archives/C0A1Z7L2U) to schedule training(s).
 
 - [ ] Coordinate with your onboarding buddy to schedule [nonpublic information training](https://docs.google.com/presentation/d/1uB4MlGCu8ZYUxjKVZKwicQ95MvLxaT4Mh93y6w79GPw/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following documents, which you should also review before or after training:
-  - [ ] Read our sharing secret keys policy.  Your onboarding buddy can provide you the internal docs link to access.
+  - [ ] Read our sharing secret keys policy. Your onboarding buddy can provide you the internal docs link to access.
   - [ ] Review the [TTS requirements for password management](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/password-requirements/).
 
 ## Getting to know cloud.gov
@@ -78,7 +78,8 @@ You will automatically be added to one or more Google Drives: the [Cloud.gov All
     Federal employees and staff contractors, expand this section:
   </summary>
 
-- [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles) (click the + in the bottom right) so you know when assorted team meetings are happening in the various squads. Tip: When you plan Out of Office time, make a calendar event for that on the cloud.gov calendar so that your teammates know you'll be away.
+- [ ] Subscribe to [the cloud.gov team calendar](https://calendar.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks@group.calendar.google.com&ctz=America/Los_Angeles) (click the + in the bottom right). Team and squad meetings are created here (not on personal calendars) so all team members have access.
+- [ ] Subscribe to [the Cloud.gov Leave calendar](https://calendar.google.com/calendar/render?cid=c_9dfa0dfccb5fdcc3aa45f98f7bf4991b435b63be7b8b2c971553ff83743b0292@group.calendar.google.com&es=3). When you plan to take leave or have a recurring day off due to an Alternate Work Schedule (AWS), add it to this calendar so your teammates know you'll be away.
 
 </details>
 
@@ -90,7 +91,6 @@ The following cloud.gov channels are public and all team members are welcome to 
 - [ ] `#cg-business` - business development (if applicable)
 - [ ] `#cg-compliance` - compliance-related information and discussion
 - [ ] `#cg-customer-success` - customer success squad channel
-- [ ] `#cg-general` - program-level information and discussion
 - [ ] `#cg-offtopic` - off-topic team sharing
 - [ ] `#cg-platform-news` (🗣️) - bots post platform alerts (mostly CI job notifications)
 - [ ] `#cg-support` (🗣️) - support requests and assistance within TTS
