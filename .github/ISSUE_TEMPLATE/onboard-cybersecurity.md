@@ -1,12 +1,12 @@
 ---
-name: Onboard New cloud.gov Compliance Team Member
+name: Onboard New cloud.gov Cybersecurity Team Member
 title: Compliance Checklist for Onboarding (first name here)
-about: This is the checklist and requirements for onboarding a new compliance team member to the cloud.gov team
+about: This is the checklist and requirements for onboarding a new Cybersecurity team member to the cloud.gov team
 labels: ""
 assignees: ""
 ---
 
-# New Compliance Team Member Onboarding Checklist
+# New Cybersecurity Team Member Onboarding Checklist
 
 ## Special Notes
 
@@ -21,7 +21,7 @@ assignees: ""
     Federal employees and staff contractors, expand this section. Not applicable to project contractors.
   </summary>
 
-Compliance staff who are federal employees or staff contractors have a Contingency Plan role and may participate in Incident Response, so they must complete the CP and IR trainings. Project contractors do not need to complete these trainings. Check one of the following:
+Cybersecurity staff who are federal employees or staff contractors have a Contingency Plan role and may participate in Incident Response, so they must complete the CP and IR trainings. Project contractors do not need to complete these trainings. Check one of the following:
 
 - [ ] Coordinate with your onboarding buddy to schedule Contingency Planning training within 60 days. (and annually after that). This will cover the following document, which you should also review before or after training:
   - [ ] Read the [Contingency Plan](https://cloud.gov/docs/ops/contingency-plan/).
@@ -53,7 +53,7 @@ Your onboarding buddy will add you to these Slack channels:
 - [ ] `#cg-billing` - private business development channel (if applicable)
 - [ ] `#cg-incidents` - private channel for incident response
 - [ ] `#cg-ops-banter` - private channel for operations/engineering banter
-- [ ] `#cg-priv-compliance` - private channel for security and compliance discussions
+- [ ] `#cybersecurity` - private channel for security and compliance discussions
 
 </details>
 
@@ -64,7 +64,7 @@ You might also be interested in these channels:
 
 ## Google Groups
 
-- [ ] [cloud.gov Compliance](https://groups.google.com/a/gsa.gov/g/cloud-gov-compliance/members) (external-facing email address for communications with FedRAMP and others)
+- [ ] [Cloud.gov Office of Cybersecurity](https://groups.google.com/a/gsa.gov/g/cloud-gov-cybersecurity) (external-facing email address for communications with FedRAMP and others)
 
 ## Getting to know cloud.gov
 
@@ -80,16 +80,16 @@ very quickly, so your onboarding buddy will walk through this list with you at a
 - [ ] Read the [Delivery Process document](https://github.com/cloud-gov/product/blob/main/StoryLifecycle.md) to learn about how we work.
 - [ ] Read our [service disruption guide](https://cloud.gov/docs/ops/service-disruption-guide/) to learn how we handle customer-facing service disruptions.
 
-## Compliance-role specific items
+## Cybersecurity-role specific items
 
 ### Machine admin rights
 
 - [ ] In order to install development tools on your Mac, you will need to request local admin rights by [submitting a ServiceDesk ticket](https://docs.google.com/document/d/1xepZsh83lxPDykrb1NXoeHxj8m78qsdW-9KqzO_CHOQ/edit) using [this justification](https://docs.google.com/document/d/1YGid3pTji5W_M9RuF1GDf614BVkLIRDmSrt1tDbej-o/edit). If you're unable to create a ticket for yourself, your onboarding buddy can create one for you.
 
-### Other tooling and access for compliance
+### Other tooling and access for Cybersecurity
 
 - [ ] New person: Request Microsoft Office, per [TTS handbook instructions](https://handbook.tts.gsa.gov/tools/office/)
-- [ ] **Compliance lead only**: Request access to cloud.gov's FedRAMP repository in max.gov by email to <info@fedramp.gov>.
+- [ ] **Cybersecurity lead only**: Request access to cloud.gov's FedRAMP repository in max.gov by email to <info@fedramp.gov>.
 
 ### Cloud Operations account management
 
@@ -113,7 +113,7 @@ AWS user names should be identical across accounts so that permissions can be co
 
 Your onboarding buddy will create a separate ticket tied to this one to track the AWS accounts being granted full admin access.
 
-### Additional compliance setup/review
+### Additional Cybersecurity setup/review
 
 - [ ] Install `caulking` git leak prevention by following the [README](https://github.com/cloud-gov/caulking/blob/main/README.md)
 - [ ] Verify `caulking` by running `make audit` and pasting a screenshot as a comment on this GitHub issue
@@ -136,4 +136,3 @@ Your onboarding buddy will create a separate ticket tied to this one to track th
 
 - [ ] Subscribe to CISA alerts/updates: <https://www.cisa.gov/about/contact-us/subscribe-updates-cisa>
 - [ ] Subscribe to FedRAMP mailing lists: <https://public.govdelivery.com/accounts/USGSA/subscriber/topics?qsp=USGSA_2224>
-- [ ] **Compliance Lead only**: Read Compliance Lead documents at root of the [Google Drive Security and Compliance](https://drive.google.com/drive/u/0/folders/1_vAXZsdVFYssR1DRCaavBCoDE_uxQCI5) folder

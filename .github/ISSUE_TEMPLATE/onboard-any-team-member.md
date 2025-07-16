@@ -14,7 +14,7 @@ assignees: ""
   - A:
     - [ ] A: System Owner creates this issue
   - B:
-    - [ ] B.1: System owner emails cloud-gov-compliance@gsa.gov and cloud-gov-operations@gsa.gov with their authorization
+    - [ ] B.1: System owner emails cloud-gov-cybersecurity@gsa.gov and cloud-gov-operations@gsa.gov with their authorization
     - [ ] B.2: An operator adds a link to the Google Group conversation that includes the authorizing email.
       - (link here)
 - **Please only use first names.**
@@ -54,11 +54,7 @@ Your onboarding buddy should reach out and introduce themselves to you. If you h
 
 ## Complete cloud.gov trainings
 
-Onboarding buddy: Contact the compliance team in [#cg-compliance](https://gsa.enterprise.slack.com/archives/C0A1Z7L2U) to schedule training(s).
-
-- [ ] Coordinate with your onboarding buddy to schedule [nonpublic information training](https://docs.google.com/presentation/d/1uB4MlGCu8ZYUxjKVZKwicQ95MvLxaT4Mh93y6w79GPw/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following documents, which you should also review before or after training:
-  - [ ] Read our sharing secret keys policy. Your onboarding buddy can provide you the internal docs link to access.
-  - [ ] Review the [TTS requirements for password management](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/password-requirements/).
+Onboarding buddy: Contact the Cybersecurity team in [#cg-priv-cybersecurity](https://gsa.enterprise.slack.com/archives/C04UFEJF413) to schedule training(s).
 
 ## Getting to know cloud.gov
 
@@ -67,7 +63,7 @@ These items will help you come up to speed on cloud.gov and what it is, how it w
 - [ ] Read through [the Overview section of our site](https://cloud.gov/docs/overview/what-is-cloudgov/) for a broader understanding of cloud.gov, especially how we present it to potential customers and users.
 - [ ] Read [the team onboarding document](https://github.com/cloud-gov/product/blob/main/Onboarding.md) for more context about cloud.gov.
 - [ ] Bookmark the [pertinent links listed here](https://github.com/cloud-gov/product/blob/main/PertinentLinks.md).
-- [ ] Schedule product team intros with the compliance, platform, Pages, and businsess to learn about their structure, roles, and offerings.
+- [ ] Schedule product team intros with the Cybersecurity, platform, Pages, and businsess to learn about their structure, roles, and offerings.
 
 ## Team resources
 
@@ -130,8 +126,7 @@ You will automatically be added to the Google Space [CG-PRIV](https://mail.googl
 
 They may need added to one or more of these team-specific groups:
 
-- [ ] [cloud.gov Assurance Team](https://groups.google.com/a/gsa.gov/g/cloud-gov-assurance/members)
-- [ ] [cloud.gov Compliance](https://groups.google.com/a/gsa.gov/g/cloud-gov-compliance/members) (external email accepted)
+- [ ] [Cloud.gov Office of Cybersecurity](https://groups.google.com/a/gsa.gov/g/cloud-gov-cybersecurity)
 - [ ] [cloud.gov Customer Success Team](https://groups.google.com/a/gsa.gov/g/cloud-gov-customer-success/members)
 
 Lastly, for federal employees only:

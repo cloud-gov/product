@@ -45,7 +45,7 @@ Your onboarding buddy will add you to these Slack channels:
 - [ ] `#cg-billing` - private business development channel (if applicable)
 - [ ] `#cg-incidents` - private channel for incident response
 - [ ] `#cg-ops-banter` - private channel for operations/engineering banter
-- [ ] `#cg-priv-compliance` - private channel for security and compliance discussions
+- [ ] `#cg-priv-cybersecurity` - private channel for security and compliance discussions
 
 </details>
 
@@ -167,7 +167,7 @@ Project contractors: Check in with your project lead about first tasks.
 
 The engineering team currently contains the following squads, each with their own projects:
 
-- Assurance, which focuses on security and compliance
+- Cybersecurity, which focuses on security and compliance
 - Platform, which maintains and improves cloud.gov, focusing on internals like our AWS architecture and Cloud Foundry
 - Customer Success, which focuses on customer-facing features like service brokers and observability tools
 
@@ -175,9 +175,9 @@ If you are not already assigned to a particular squad, work with your onboarding
 
 </details>
 
-## Assurance-specific items
+## Cybersecurity-specific items
 
-These items are only mandatory for someone stepping into an Assurance squad role, but you are welcome to subscribe even if you are on another squad:
+These items are only mandatory for someone stepping into an Cybersecurity squad role, but you are welcome to subscribe even if you are on another squad:
 
 - [ ] Subscribe to CISA alerts/updates: <https://www.cisa.gov/about/contact-us/subscribe-updates-cisa>
 - [ ] Subscribe to FedRAMP mailing lists: <https://public.govdelivery.com/accounts/USGSA/subscriber/topics?qsp=USGSA_2224>
