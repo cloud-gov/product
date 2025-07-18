@@ -1,0 +1,317 @@
+name: "🛡️ Office of Cybersecurity Onboarding"
+description: "Comprehensive onboarding checklist for Office of Cybersecurity team members with NIST 800-53r5 compliance"
+title: "Cybersecurity Onboarding: [First Name]"
+labels: ["onboarding", "cybersecurity", "security-control:PS-4"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🔐 Office of Cybersecurity Onboarding
+        
+        This form ensures compliance with NIST 800-53r5 controls for privileged user onboarding.
+        
+        **Security Controls**: PS-4, PS-7, AC-2, AT-3, IR-2, CP-3
+
+  - type: input
+    id: parent-issue
+    attributes:
+      label: Parent Authorization Issue
+      description: Link to the general onboarding issue that contains authorization
+      placeholder: "#123"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: employee-type
+    attributes:
+      label: Employment Type
+      description: Select the team member's employment status
+      options:
+        - Federal Employee
+        - Staff Contractor
+        - Project Contractor
+    validations:
+      required: true
+
+  - type: input
+    id: start-date
+    attributes:
+      label: Start Date
+      description: Team member's first day
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: true
+
+  - type: input
+    id: onboarding-buddy
+    attributes:
+      label: Onboarding Buddy
+      description: GitHub username of assigned buddy
+      placeholder: "@username"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## 📋 Prerequisites
+        These must be completed before any system access is granted.
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Prerequisites Checklist
+      description: Confirm completion of required prerequisites
+      options:
+        - label: GSA OLU IT Security & Privacy Awareness Training completed
+          required: true
+        - label: Training certificate saved to Google Drive
+          required: true
+        - label: cloud.gov Rules of Behavior signed and filed
+          required: true
+        - label: Background investigation status verified
+          required: true
+
+  - type: input
+    id: rules-date
+    attributes:
+      label: Rules of Behavior Signature Date
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## 🎓 Role-Based Security Training
+        Must be completed within 60 days of assignment
+
+  - type: checkboxes
+    id: security-training
+    attributes:
+      label: Security Training Requirements
+      description: Schedule and complete required training
+      options:
+        - label: Incident Response Training scheduled with Office of Cybersecurity
+        - label: Incident Response Training presentation completed
+        - label: Incident Response Guide reviewed
+        - label: Contingency Planning Training scheduled
+        - label: Contingency Plan document reviewed
+        - label: Role in contingency operations understood
+        - label: Insider threat awareness training completed
+
+  - type: input
+    id: ir-training-date
+    attributes:
+      label: IR Training Completion Date
+      placeholder: "YYYY-MM-DD"
+
+  - type: input
+    id: cp-training-date
+    attributes:
+      label: CP Training Completion Date
+      placeholder: "YYYY-MM-DD"
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## 📚 Documentation Review
+
+  - type: checkboxes
+    id: documentation
+    attributes:
+      label: Required Documentation Review
+      description: Confirm review of all security documentation
+      options:
+        - label: NIST 800-53r5 Control Families reviewed
+        - label: FedRAMP Control Baselines understood
+        - label: Security Policies and Procedures reviewed
+        - label: System Security Plan sections 9 and 10 reviewed
+        - label: Continuous Monitoring Strategy understood
+        - label: Configuration Management Plan reviewed
+        - label: Engineering security practices reviewed
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## 💬 Communication Channels
+
+  - type: checkboxes
+    id: slack-channels
+    attributes:
+      label: Slack Channel Access
+      description: Buddy to add to these channels
+      options:
+        - label: "#cg-priv-cybersecurity - Private team discussions"
+        - label: "#cg-compliance - Compliance activities"
+        - label: "#cg-office-of-cybersecurity - Office communications"
+        - label: "#cg-incidents - Incident response"
+        - label: "#cg-aws-security - Security alerts"
+        - label: "#cg-priv-all - Private team channel"
+        - label: "#cg-priv-gov - Federal only (if applicable)"
+
+  - type: checkboxes
+    id: google-groups
+    attributes:
+      label: Google Groups Access
+      description: Add to appropriate groups
+      options:
+        - label: Cloud.gov Office of Cybersecurity
+        - label: cloud.gov Compliance Team
+        - label: cloud.gov Team (general)
+        - label: cloud.gov Federal Employees (if applicable)
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## 🔧 Security Tools Access
+
+  - type: checkboxes
+    id: security-tools
+    attributes:
+      label: Security Tool Access
+      description: Grant appropriate tool access
+      options:
+        - label: "Nessus Manager - Added to ScanAdmins team"
+        - label: "Tenable.io access (Compliance Lead only)"
+        - label: "AWS CloudTrail read access configured"
+        - label: "AWS GuardDuty console access"
+        - label: "AWS Security Hub dashboard access"
+        - label: "New Relic security insights access"
+        - label: "ConMon dashboard access"
+        - label: "GitHub security alerts enabled"
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## 🔑 AWS Account Setup
+        ⚠️ **Verify background investigation and training before granting access**
+
+  - type: checkboxes
+    id: aws-setup
+    attributes:
+      label: AWS Account Configuration
+      description: Initial setup with audit permissions only
+      options:
+        - label: AWS Commercial account created (read-only)
+        - label: AWS GovCloud account created (read-only)
+        - label: Account names follow standard format
+        - label: MFA enforced on all accounts
+        - label: 55-day password rotation reminder set
+
+  - type: checkboxes
+    id: platform-access
+    attributes:
+      label: Platform Access
+      description: cloud.gov platform permissions
+      options:
+        - label: cloud.gov admin access granted
+        - label: Added to platform-ops GitHub team
+        - label: Ubuntu Advantage technical user access
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## 💻 Workstation Security
+
+  - type: checkboxes
+    id: workstation-security
+    attributes:
+      label: Workstation Security Configuration
+      description: Verify security controls on development machine
+      options:
+        - label: Full disk encryption enabled
+          required: true
+        - label: Automatic screen lock set to 15 minutes
+          required: true
+        - label: Automatic updates enabled
+          required: true
+        - label: Local admin rights obtained with justification
+
+  - type: checkboxes
+    id: security-dev-tools
+    attributes:
+      label: Security Development Tools
+      description: Install and configure required tools
+      options:
+        - label: "caulking installed and verified"
+        - label: "GPG signing configured for git commits"
+        - label: "aws-vault configured with SSO"
+        - label: "trivy installed for container scanning"
+        - label: "checkov installed for IaC scanning"
+        - label: "gitleaks configured for secret scanning"
+
+  - type: textarea
+    id: tool-verification
+    attributes:
+      label: Tool Verification Output
+      description: |
+        Paste the output of:
+        - `make audit` (from caulking)
+        - `git config commit.gpgsign`
+      render: shell
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## 📰 Security Information Sources
+
+  - type: checkboxes
+    id: subscriptions
+    attributes:
+      label: Security Subscriptions
+      description: Subscribe to required security information sources
+      options:
+        - label: CISA alerts subscribed
+        - label: FedRAMP mailing lists subscribed
+        - label: US-CERT notifications enabled
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## ✅ Completion Attestation
+
+  - type: checkboxes
+    id: attestation
+    attributes:
+      label: Security Acknowledgments
+      description: By checking these boxes, the new team member acknowledges
+      options:
+        - label: I understand my security responsibilities
+          required: true
+        - label: I commit to maintaining security posture
+          required: true
+        - label: I will report security incidents immediately
+          required: true
+        - label: I accept privileged access responsibilities
+          required: true
+
+  - type: checkboxes
+    id: buddy-verification
+    attributes:
+      label: Buddy Verification
+      description: Onboarding buddy confirms
+      options:
+        - label: All critical access provisioned correctly
+        - label: Security tools access verified
+        - label: Training requirements communicated
+        - label: 30-day follow-up scheduled
+
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes
+      description: Any additional context or issues encountered
+      placeholder: |
+        - Special considerations
+        - Access issues resolved
+        - Training scheduling notes
