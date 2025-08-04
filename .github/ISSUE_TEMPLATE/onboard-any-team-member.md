@@ -14,7 +14,7 @@ assignees: ""
   - A:
     - [ ] A: System Owner creates this issue
   - B:
-    - [ ] B.1: System owner emails cloud-gov-compliance@gsa.gov and cloud-gov-operations@gsa.gov with their authorization
+    - [ ] B.1: System owner emails <cloud-gov-compliance@gsa.gov> and <cloud-gov-operations@gsa.gov> with their authorization
     - [ ] B.2: An operator adds a link to the Google Group conversation that includes the authorizing email.
       - (link here)
 - **Please only use first names.**
@@ -40,7 +40,7 @@ Your onboarding buddy should reach out and introduce themselves to you. If you h
 
 - [ ] Complete [GSA OLU](https://gsaolu.gsa.gov/) IT Security & Privacy Awareness Training, which includes accepting the GSA IT Rules of Behavior. This is required before we can give you access to any GSA systems. If you joined GSA more than two months ago, you've already completed this task and can check the box.
   - OLU has sometimes lost course completion data. We recommend downloading the PDF certificate of completion for each training and saving it to your Google Drive.
-- [ ] Sign the cloud.gov Rules of Behavior. This is required prior to accessing any cloud.gov system. Request a copy of the Rules of Behavior by contacting the cloud.gov Office of Cybersecurity (cloud-gov-cybersecurity@gsa.gov)
+- [ ] Sign the cloud.gov Rules of Behavior. This is required prior to accessing any cloud.gov system. Request a copy of the Rules of Behavior by contacting the cloud.gov Office of Cybersecurity (<cloud-gov-cybersecurity@gsa.gov>)
 
 ## Fulfill security and compliance requirements - Completed by onboarding buddy
 
@@ -91,8 +91,8 @@ The following cloud.gov channels are public and all team members are welcome to 
 - [ ] `#cg-business` - business development (if applicable)
 - [ ] `#cg-compliance` - compliance-related information and discussion
 - [ ] `#cg-customer-success` - customer success squad channel
+- [ ] `#cg-notifications` (🗣️) - bots post platform alerts (mostly CI job notifications)
 - [ ] `#cg-offtopic` - off-topic team sharing
-- [ ] `#cg-platform-news` (🗣️) - bots post platform alerts (mostly CI job notifications)
 - [ ] `#cg-support` (🗣️) - support requests and assistance within TTS
 - [ ] `#cg-supportstream` (🗣️) - stream of activity on Zendesk tickets
 - [ ] `#cloud-gov` (🗣️) - bots post announcements here
