@@ -1,3 +1,13 @@
+---
+name: Shape Up Pitch
+about: The raw idea, a use case, or something we’ve seen that motivates us to work on this
+title: "[short phrase distinguishing this from other Stories]"
+labels: ''
+assignees: ''
+
+---
+
+
 ## Shape Up Pitch
 ---
 ## Problem: 
