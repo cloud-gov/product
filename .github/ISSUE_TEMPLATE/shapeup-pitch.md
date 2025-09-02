@@ -6,7 +6,7 @@ The raw idea, a use case, or something we’ve seen that motivates us to work on
 
 ---
 
-## Apettite
+## Appetite
 
 How much time we want to spend and how that constrains the solution
 
