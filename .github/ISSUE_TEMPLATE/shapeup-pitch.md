@@ -1,5 +1,5 @@
 ---
-name: Story
+name: Shape Up Pitch
 about: Suggest a new story for this project
 title: "[short phrase distinguishing this from other Stories]"
 labels: ''
@@ -9,7 +9,7 @@ assignees: ''
 
 In order to [reason/outcome/goal], [someone or "we"] want [a specific change in product implementation/behavior]
 
-## Acceptance Criteria
+## Apettite
 * [ ] GIVEN [a precondition] \
   AND [another precondition]
   WHEN [test step] \
