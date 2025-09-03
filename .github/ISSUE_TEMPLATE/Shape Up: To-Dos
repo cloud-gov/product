@@ -1,51 +1,66 @@
 ---
-name: Shape Up: To-Dos
-title: Checklist for Onboarding a Pages Team Member
-about: This is the checklist and requirements for onboarding a new Pages team member
-labels: ''
-assignees: ''
----
+name: Pitch / Bet
 
- # New Pages Team Member Onboarding Checklist
+Project Name:
 
- ## Special Notes
+Appetite (timebox): (e.g., 6 weeks, 2 weeks)
 
-- **Do not create this issue until the System Owner has formally authorized and requested it.** You can obtain that OK by one of two ways:
-  A:
-  - [ ] A: System Owner creates this issue
+Problem Statement: What problem are we solving?
 
-  B:
-  - [ ] B.1: System owner emails cloud-gov-compliance@gsa.gov and cloud-gov-pages-operations@gsa.gov with their authorization
-  - [ ] B.2: An operator adds links to the email archive of the authorizing email. 
-**Please only use first names.**
+Solution Sketch: Core approach (sketched, not fully detailed)
+
+Rabbit Holes to Avoid: What not to do
 
 ---
 
-Onboard <Person>
+ # Scopes (Buckets of Work)
 
-#### Background (Optional)
+Break the project into meaningful scopes that can be finished independently. 
 
-https://docs.google.com/document/d/1tS-9hLb2yHtp500N3obmu0X70XpIMATuPlov2_vDVS0/edit
+## Scope 1: [Name]
 
-#### Acceptance Criteria
-- [ ] Share README
-- [ ] Grant appropriate access to Federalist backend in cloud.gov
-- [ ] Add to federalist-admins
-- [ ] Add to federalist-admins in federalist-users org.
-- [ ] Add to cloud-gov-team in cloud-gov org.
-- [ ] Add to pages-ops in cloud-gov org.
-- [ ] Make owner in the federalist-users org.
-- [ ] Add to #federalist- channels in Slack as needed, and add to @federalist-operators Slack user group
-- [ ] Add to daily standup, retro, and sprint planning
-- [ ] Ensure user has Federalist Github project and brief on its use
-- [ ] Ensure user has GPG signing set up for GitHub: https://docs.google.com/document/d/11UDxvfkhncyLEs-NUCniw2u54j4uQBqsR2SBiLYPUZc/edit
-- [ ] Add to federalist-support, federalist-alerts, and federalist-inquiries Google Groups as needed
-- [ ] Add them as an agent to https://federalist-support.zendesk.com/agent
-- [ ] add to cloud.gov account at Search.gov 
-- [ ] Add new user as developer to the gsa-18f-federalist cloud.gov cloudfoundry organization
-- [ ] Add to statuspage.io account as possible and appropriate 
-- [ ] Have a cloud.gov operator add to the “pages.admin” group in the cloud.gov UAA by using the make-pages-admin.sh script
-- [ ] Have a cloud.gov operator add to the “concourse.pages” team in the cloud.gov OpsUAA by using the make-pages-ops-admin.sh script so they can access Concourse CI
-- [ ] Add to Docker Hub
-- [ ] Add to AWS (Production GovCloud only)
-- [ ] Add to cloud.gov calendar
+- **To-Dos (tasks within this scope):
+ 
+  - [ ] Task A: 
+  - [ ] Task B: 
+  - [ ] Task C: 
+
+## Scope 2: [Name]
+
+- **To-Dos:
+ 
+  - [ ] Task A: 
+  - [ ] Task B: 
+  - [ ] Task C: 
+
+## Scope 3: [Name]
+
+- **To-Dos:
+ 
+  - [ ] Task A: 
+  - [ ] Task B: 
+  - [ ] Task C: 
+---
+
+# Hill Chart Checkpoints
+
+-** Uncharted Territory (figuring out approach)
+
+- Over the Hill (clear path forward)
+
+- Downhill (execution)
+
+- (Mark each scope’s current position on the hill.)
+
+
+# Out of Scope / Boundaries
+
+- List explicitly what will not be done.
+
+
+# Completion Criteria
+
+- [ ] What does “done” mean?
+
+- [ ] How do we validate the solution?
+
