@@ -57,14 +57,14 @@ Your onboarding buddy should reach out and introduce themselves to you. If you h
 Onboarding buddy: Contact the compliance team in [#cg-compliance](https://gsa.enterprise.slack.com/archives/C0A1Z7L2U) to schedule training(s).
 
 - [ ] Coordinate with your onboarding buddy to schedule [nonpublic information training](https://docs.google.com/presentation/d/1uB4MlGCu8ZYUxjKVZKwicQ95MvLxaT4Mh93y6w79GPw/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following documents, which you should also review before or after training:
-  - [ ] Read our sharing secret keys policy. Your onboarding buddy can provide you the internal docs link to access.
+  - [ ] Read our [sharing secret keys](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Engineering-Practices/secrets.md) policy.
   - [ ] Review the [TTS requirements for password management](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/password-requirements/).
 
 ## Getting to know cloud.gov
 
 These items will help you come up to speed on cloud.gov and what it is, how it works, why it exists, etc. While you should take the time to go through them, please do not try and tackle it all in one shot! It can become overwhelming very quickly, so your onboarding buddy will walk through this list with you at a high level with you to help manage the work.
 
-- [ ] Read through [the Overview section of our site](https://cloud.gov/docs/overview/what-is-cloudgov/) for a broader understanding of cloud.gov, especially how we present it to potential customers and users.
+- [ ] Read through [What Is Cloud.gov?](https://docs.cloud.gov/) for a broader understanding of cloud.gov, especially how we present it to potential customers and users.
 - [ ] Read [the team onboarding document](https://github.com/cloud-gov/product/blob/main/Onboarding.md) for more context about cloud.gov.
 - [ ] Bookmark the [pertinent links listed here](https://github.com/cloud-gov/product/blob/main/PertinentLinks.md).
 - [ ] Schedule product team intros with the compliance, platform, Pages, and businsess to learn about their structure, roles, and offerings.

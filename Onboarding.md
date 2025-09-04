@@ -34,9 +34,8 @@ As a service offered to other federal agencies, cloud.gov must hold itself to a 
   - our Cloud Foundry instance
   - [The Dashboard](https://dashboard.fr.cloud.gov)
   - [The cloud.gov homepage and docs](https://cloud.gov/)
-- All [cloud.gov repositories](https://cloud.gov/docs/ops/repos/)
-  - Repositories in the [cloud-gov Github organization](https://github.com/cloud-gov).
-- a [Google Drive folder](https://drive.google.com/a/gsa.gov/folderview?id=0Bx6EvBXVDWwheUtVckVnOE1pRzA&usp=sharing) full of artifacts related to design, user research, etc (also expected to move to GitHub in time)
+- All [cloud.gov repositories](https://github.com/orgs/cloud-gov/repositories)
+- a [Google Drive folder](https://drive.google.com/drive/folders/0ANH-Bql6mXGBUk9PVA) full of artifacts related to design, user research, etc (also expected to move to GitHub in time)
 - [The cloud.gov support Google Group](https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/cloud-gov-support), where we currently wrangle inquiries from various agencies, and some support.
 
 We liberally make upstream pull requests for stuff we use.
@@ -48,13 +47,12 @@ We liberally make upstream pull requests for stuff we use.
 - Azure – Microsoft's IaaS. They are regular contributors to various cloud.gov components.
 - Azure App Service - Microsoft's PaaS offering, built on top of their IaaS.
 - BOSH (rhymes with "squash") – the configuration/server management tool we use to run Cloud Foundry. Basically, it's what keeps the platform running.
-- BOSH Lite – [https://github.com/cloudfoundry/bosh-lite](https://github.com/cloudfoundry/bosh-lite)
 - cloud.gov ("cloud dot gov").
 - CFT – Cloud Formation Templates.
 - CenturyLink – a company that contributes heavily to Cloud Foundry, and runs their own Cloud Foundry-based PaaS, [AppFog](https://www.ctl.io/appfog/).
 - [Cloud Foundry](https://www.cloudfoundry.org/)(CF) - the open-source platform-as-a-service software that cloud.gov is built on. Also sometimes used informally to refer to the Cloud Foundry Foundation, the non-profit formed to shepherd the community surrounding Cloud Foundry. (It's sometimes important to distinguish; as the government, we are clear to talk about the tech we're using but avoid the appearance of endorsement of particular organizations or people.)
 - [Concourse](https://concourse-ci.org) - the continuous integration tool built by Pivotal we use to deploy Cloud Foundry, among other things.
-- ConMon - [Continuous monitoring](https://cloud.gov/docs/ops/continuous-monitoring/).
+- ConMon - [Continuous monitoring](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/continuous-monitoring.md).
 - The Dashboard – this web app allows users to manage their applications and accounts. It lives at [dashboard.fr.cloud.gov](https://dashboard.fr.cloud.gov/), and the code is in the [Stratos](https://github.com/cloud-gov/stratos) repository. An earlier version of the dashboard's code is in the [cg-dashboard](https://github.com/cloud-gov/cg-dashboard) repository.
 - [Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/) (ELB) – the proxy we use in front of Cloud Foundry.
 - [FedRAMP](https://www.fedramp.gov/) - a program whereby which Cloud Service Providers (CSPs) are rigorously examined for compliance with FISMA before being identified as generally fit for use by all government agencies.
@@ -64,7 +62,6 @@ We liberally make upstream pull requests for stuff we use.
 - IBM Bluemix – IBM's hosted version of Cloud Foundry.
 - InfoSec – information security.
 - PaaS – platform as a service. We use Cloud Foundry to run the cloud.gov PaaS.
-- [Pivotal](https://pivotal.io/) – the company that originally started Cloud Foundry.
 - UAA - UAA is the User Authentication and Authorization hub for Cloud Foundry. It can delegate identity management via common standards such as LDAP/Active Directory, SAML, OAuth/OpenID Connect, and so forth. UAA is deployed as part of cloud.gov.
 
 Also see [the Cloud Foundry glossary](http://docs.cloudfoundry.org/concepts/glossary.html) for terms that are specific to the technology powering our platform.
